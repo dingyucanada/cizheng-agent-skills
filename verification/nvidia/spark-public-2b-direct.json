@@ -1,0 +1,41 @@
+{
+  "scope": "direct public photo transport/description diagnostic; NOT Agent workflow, ceramic accuracy or independent attribution",
+  "agent_workflow_success": false,
+  "ceramic_accuracy": "not_measured",
+  "model": {
+    "provider": "local-openai-compatible",
+    "model": "Qwen/Qwen3-VL-2B-Instruct",
+    "endpoint": "http://127.0.0.1:8000/v1",
+    "weights_revision": "files-sha256:b09bc336acfded84abd2ab979aa4a2397089d0b68acba7eb54d43232e4890bae",
+    "generation": {
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "disable_thinking": false
+    }
+  },
+  "source_directory": "source-c005-c688d7",
+  "official_public_source": "https://www.metmuseum.org/art/collection/search/48607",
+  "image_identities": [
+    {
+      "file": "met-48607.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "bytes": 107321
+    },
+    {
+      "file": "met-48607-view2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "bytes": 109880
+    }
+  ],
+  "question": "按给定顺序描述这两张器物照片：各自可见的器形、主要颜色、纹饰和遮挡。不要猜年代或判断真伪。只报告从像素可见的信息；看不清的部位请说明。",
+  "started_at": 1790570167.5145223,
+  "generation_completed": true,
+  "response": "好的，这是对这两张器物照片的描述。\n\n---\n\n**第一张照片：**\n\n- **器形**：这是一个高大的、细长的圆柱形花瓶，瓶口呈喇叭状，瓶身下部收窄，形成一个稳定的底座。瓶口边缘有轻微的磨损。\n- **主要颜色**：瓶身主体为白色，上面装饰有蓝色的图案。瓶口边缘和瓶底边缘有棕色的痕迹。\n- **纹饰**：瓶身主体装饰有复杂的蓝色图案。在瓶身的中部，有一个由蓝色线条勾勒出的拱形框架，框架内绘有山水画，画中有山、树和水。在拱形框架的两侧，有蓝色的卷草纹和花卉纹饰。在瓶身的上部和下部，有对称的蓝色卷草纹和花卉纹饰。\n- **遮挡**：照片中，器物的瓶口和瓶底部分被遮挡，无法完全看到。\n\n---\n\n**第二张照片：**\n\n- **器形**：这是一个高大的、细长的圆柱形花瓶，瓶口呈喇叭状，瓶身下部收窄，形成一个稳定的底座。瓶口边缘有轻微的磨损。\n- **主要颜色**：瓶身主体为白色，上面装饰有蓝色的图案。瓶口边缘和瓶底边缘有棕色的痕迹。\n- **纹饰**：瓶身主体装饰有复杂的蓝色图案。在瓶身的中部，有一个由蓝色线条勾勒出的拱形框架，框架内绘有花篮，花篮中盛放着盛开的花朵。在拱形框架的两侧，有蓝色的卷草纹和花卉纹饰。在瓶身的上部和下部，有对称的蓝色卷草纹和花卉纹饰。\n- **遮挡**：照片中，器物的瓶口和瓶底部分被遮挡，无法完全看到。",
+  "usage": {
+    "prompt_tokens": 1979,
+    "completion_tokens": 413,
+    "total_tokens": 2392
+  },
+  "response_sha256": "21d69666801102b55de3def03342963cf6fa5c8bc9f03d1d16a3f505c957f778",
+  "seconds": 11.406470493064262
+}

@@ -1,0 +1,100 @@
+{
+  "http_status": 200,
+  "state": "succeeded",
+  "result": {
+    "assessment_run_id": "run_11111111111111111111111111111111",
+    "case_id": "case_91bf49cfda334f07b47ccd397ce7629c",
+    "case_revision": 3,
+    "checks": [
+      {
+        "citation": {
+          "chunk_id": "ksrc_a34ddf04648e25ad92f5ea25_r1_p0001_11ae6eccf2b6",
+          "chunk_sha256": "11ae6eccf2b6bcc9320966560c10de1c102ae883ef6aca3cac9652ff86b097a9",
+          "document_id": "ksrc_a34ddf04648e25ad92f5ea25",
+          "document_revision": 1,
+          "document_sha256": "cbd549a0bf2782b93ac385df322d025371a821a1baee66c1d422e6c98f25e0f6",
+          "locator": "协议验收第1节 · 手动录入第1段"
+        },
+        "claim_support_assessed": false,
+        "mismatched_fields": [],
+        "status": "valid_reference"
+      }
+    ],
+    "events": [
+      {
+        "event_sha256": "1f9e1d42d204aef78ab89182b50fde115755ed16d4198b1dd91742f4cf6acb63",
+        "input_sha256": "bd8c68fa52ac9a0c58792ae8def33b81a67617b0044bd111502c887e15e6ec3e",
+        "previous_event_sha256": null,
+        "sequence": 1,
+        "tool": "read_case"
+      },
+      {
+        "event_sha256": "057a57a5ee9eb9ecd1b85fbe4df92087aa2175c2b33ad6a3ff67fa4f51a363d3",
+        "input_sha256": "19cdea0c500aa83f313ef088aa3e5422f44e9d28f8e8772e85891890592daf3e",
+        "previous_event_sha256": "1f9e1d42d204aef78ab89182b50fde115755ed16d4198b1dd91742f4cf6acb63",
+        "sequence": 2,
+        "tool": "read_saved_assessment_run"
+      },
+      {
+        "event_sha256": "b8592440a2090086bea1c56f9ee2d11be86a9b56d4252d67a66ea3a87ec9974f",
+        "input_sha256": "ab7a6a7dd8ecaff9b578ecb33863613d701689399a9b8264dc8e5ed62745904f",
+        "previous_event_sha256": "057a57a5ee9eb9ecd1b85fbe4df92087aa2175c2b33ad6a3ff67fa4f51a363d3",
+        "sequence": 3,
+        "tool": "reread_saved_snapshot_chunk"
+      },
+      {
+        "event_sha256": "6b5d319ee48dc3dff4df3b0068709ee5b6b5eeb68a635c8c1a63d7e99c93f177",
+        "input_sha256": "1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b",
+        "previous_event_sha256": "b8592440a2090086bea1c56f9ee2d11be86a9b56d4252d67a66ea3a87ec9974f",
+        "sequence": 4,
+        "tool": "verify_read_citations"
+      }
+    ],
+    "expert_reviewed": false,
+    "inference_performed": false,
+    "limitations": [
+      "Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.",
+      "This audit checks knowledge citations, not visual reference_ids or document authenticity.",
+      "Reference integrity does not establish authenticity, ownership, date, or claim support.",
+      "Ranking scores are text matches, not credibility or confidence."
+    ],
+    "manifest_sha256": "534e31457b71ecbfaf223cbdc0e671a616417298523db9280298abc8af438075",
+    "mode": "deterministic_reference_integrity",
+    "nvidia_verified_skill": false,
+    "read_evidence": [
+      {
+        "chunk_id": "ksrc_a34ddf04648e25ad92f5ea25_r1_p0001_11ae6eccf2b6",
+        "chunk_sha256": "11ae6eccf2b6bcc9320966560c10de1c102ae883ef6aca3cac9652ff86b097a9",
+        "content_kind": "authorized_text",
+        "document_id": "ksrc_a34ddf04648e25ad92f5ea25",
+        "document_revision": 1,
+        "document_sha256": "cbd549a0bf2782b93ac385df322d025371a821a1baee66c1d422e6c98f25e0f6",
+        "locator": "协议验收第1节 · 手动录入第1段",
+        "ordinal": 1,
+        "original_agent_read": true,
+        "snippet_end": 24,
+        "snippet_start": 0,
+        "text": "蟠螭甲标记仅用于引用版本核查，不是陶瓷归属答案。",
+        "truncated": false
+      }
+    ],
+    "result_sha256": "3d3a4eb8994b80d1edddedb23b7d33bc94bfa302c2b6726c61d0daf6bb27b4d3",
+    "review_required": true,
+    "run_id": "nat_d0a057bd2922467eae7a145e2e6f760b",
+    "schema_version": 1,
+    "snapshot_sha256": "d07621511c2c83cbf6da7b1c49284ae10922278d92173f81f05de46fdbcb3a43",
+    "source_case_revision": 2,
+    "source_mode": "saved_assessment_run_snapshot",
+    "status": "references_verified",
+    "usage": {
+      "elapsed_seconds": 0.010105,
+      "max_model_calls": 0,
+      "max_seconds": 300.0,
+      "max_tool_calls": 20,
+      "model_calls": 0,
+      "tool_calls": 4
+    },
+    "verify_request_sha256": "09106dbfaa34c724909191cd109dd5fd2d7217a31f27fbd727ac8404cb607edc"
+  },
+  "notice": "Actual API -> isolated NVIDIA NAT -> saved-report reference verification. Software fixture only; no model inference or ceramic accuracy measured."
+}

@@ -1,0 +1,34 @@
+{
+  "stage_relative": "native-eightb-stage-20260928",
+  "observed_at": 1790571636.0456197,
+  "http_status": 200,
+  "health": {
+    "status": "ready",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+    "gpu": {
+      "torch": "2.14.0+cu130",
+      "cuda_runtime": "13.0",
+      "device": "NVIDIA GB10",
+      "capability": [
+        12,
+        1
+      ],
+      "arch_list": [
+        "sm_80",
+        "sm_90",
+        "sm_100",
+        "sm_110",
+        "sm_120"
+      ],
+      "float32_matrix_multiply_passed": true,
+      "bfloat16_matrix_multiply_passed": true,
+      "synthetic_image_generation_passed": true,
+      "warmup_completion_tokens": 2,
+      "warmup_seconds": 1.198886828031391,
+      "warmup_is_domain_evaluation": false
+    },
+    "failure_type": null
+  },
+  "synthetic_image_generation_ready": true
+}

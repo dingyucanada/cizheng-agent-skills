@@ -1,0 +1,49 @@
+{
+  "attempt": "01",
+  "receipt_prefix": null,
+  "records": [
+    {
+      "node_original_sha256": "e254750fbe93ac198a53200d6e7a357ed83a95d2d8389192929916b1d7602c3e",
+      "saved_sanitized_sha256": "31597ebb35055c6dc21183e2e9b408b338a4cf82ec24233e9579fe707eb1d527"
+    },
+    {
+      "node_original_sha256": "e55f44a36407881edd1a1f4c28c675fc23a5384696660de33b44eb8b2e137dca",
+      "saved_sanitized_sha256": "106d70e25966945d95f1985caeb6d4da213a8302cd85d7e04728d004c2d4a9bc"
+    },
+    {
+      "node_original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "saved_sanitized_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "node_original_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "saved_sanitized_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "node_original_sha256": "8a700ca1ca0d6d77ed9b66de70cfffd85947ba51f8be3d9c3b54fef5f3ac374d",
+      "saved_sanitized_sha256": "8a700ca1ca0d6d77ed9b66de70cfffd85947ba51f8be3d9c3b54fef5f3ac374d"
+    },
+    {
+      "node_original_sha256": "9853c3ff19154c861f533435432a4006e4377811adf28ffc1bcce00a8e812b1e",
+      "saved_sanitized_sha256": "9853c3ff19154c861f533435432a4006e4377811adf28ffc1bcce00a8e812b1e"
+    },
+    {
+      "node_original_sha256": "65fc18ab884ff8283ede687458f5dd2fbe8891172ed447f5085c2ba9412a02d2",
+      "saved_sanitized_sha256": "65fc18ab884ff8283ede687458f5dd2fbe8891172ed447f5085c2ba9412a02d2"
+    },
+    {
+      "node_original_sha256": "6ebf1eace5f082c633481058a618189fa7b03e22430f2d2f214671883356585b",
+      "saved_sanitized_sha256": "6ebf1eace5f082c633481058a618189fa7b03e22430f2d2f214671883356585b"
+    },
+    {
+      "node_original_sha256": "451ac5789214626b0d8595ec530040a671a256f3d66c71c2e4b5d965d9142521",
+      "saved_sanitized_sha256": "451ac5789214626b0d8595ec530040a671a256f3d66c71c2e4b5d965d9142521"
+    },
+    {
+      "node_original_sha256": "509ec435af165461499f774354190d819c5486bd9a9055c32d741eafe0688335",
+      "saved_sanitized_sha256": "509ec435af165461499f774354190d819c5486bd9a9055c32d741eafe0688335"
+    }
+  ],
+  "scope": "read-only deployment receipts; credentials excluded; no model requests",
+  "snapshot_folder": "compact-full-workflow-03-terminal-01",
+  "snapshot_record": null
+}

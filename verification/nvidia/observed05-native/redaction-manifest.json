@@ -1,0 +1,82 @@
+{
+  "excluded": "Accounts, credentials, tokens, private documents, node identity, machine paths, service addresses, process IDs and startup environment",
+  "records": [
+    {
+      "public_file": "readiness.json",
+      "public_sha256": "99b21b1f2928f79b97acdf6d5a1c7e1b69d9079a67263da5e392cc569e75f35c",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "99c7f686079150af28f56bf7f4496f24de8e486e0f144607fc30c6e9928be721",
+          "node_original_sha256": "99c7f686079150af28f56bf7f4496f24de8e486e0f144607fc30c6e9928be721",
+          "source_artifact_label": "observed05-native-stage.json"
+        },
+        {
+          "local_sanitized_sha256": "8c2f75e65ff369a25306e919486085ee974afd1835333e1aca83d6f3b6f980e7",
+          "node_original_sha256": "8c2f75e65ff369a25306e919486085ee974afd1835333e1aca83d6f3b6f980e7",
+          "source_artifact_label": "observed05-r1-forward-recovery-01.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "transition-history.json",
+      "public_sha256": "8942bd794b99977e467299c9d5fd7b32c204d2f042dce1d6f628649ff7bc90bf",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "ac3f6e6dabf1d772c49dedea73cab5976c5fdf9607b20c3282fd1ea02a7f0d67",
+          "node_original_sha256": null,
+          "original_node_receipt_not_created": true,
+          "source_artifact_label": "first-native-parser-tool-log"
+        },
+        {
+          "local_sanitized_sha256": "eb694c3e72f9c1fb20be686828434122b790db8212523b08422f582865d38cc6",
+          "node_original_sha256": "eb694c3e72f9c1fb20be686828434122b790db8212523b08422f582865d38cc6",
+          "source_artifact_label": "observed05-r1-native-transition-01.json"
+        },
+        {
+          "local_sanitized_sha256": "8c2f75e65ff369a25306e919486085ee974afd1835333e1aca83d6f3b6f980e7",
+          "node_original_sha256": "8c2f75e65ff369a25306e919486085ee974afd1835333e1aca83d6f3b6f980e7",
+          "source_artifact_label": "observed05-r1-forward-recovery-01.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "fixed-pattern-client-failure.json",
+      "public_sha256": "544e12cb33974c0ddb750ca5eaeec1c3837fc02211faa927427510c32e41c720",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "5cf4d95a21a6b2e01c7196b53dc13b7abd4a7f5fcc0cd19a664853839023880f",
+          "node_original_sha256": "5cf4d95a21a6b2e01c7196b53dc13b7abd4a7f5fcc0cd19a664853839023880f",
+          "source_artifact_label": "observed05-fixed-pattern-01-fixed-pattern-synthetic-probe.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "fixed-pattern-late-native.json",
+      "public_sha256": "2e2a54eeeea8481def6029f29f3aa4a2dc7cf639c7b4efd7994a068e89d01d38",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "c580382a5b6e7c7f07e874cdb718cc9112f791e113394094cffcb9716ee965d3",
+          "node_original_sha256": "c580382a5b6e7c7f07e874cdb718cc9112f791e113394094cffcb9716ee965d3",
+          "source_artifact_label": "observed05-fixed-pattern-01-read-only-terminal-01.json"
+        },
+        {
+          "local_sanitized_sha256": "5cf4d95a21a6b2e01c7196b53dc13b7abd4a7f5fcc0cd19a664853839023880f",
+          "node_original_sha256": "5cf4d95a21a6b2e01c7196b53dc13b7abd4a7f5fcc0cd19a664853839023880f",
+          "source_artifact_label": "observed05-fixed-pattern-01-fixed-pattern-synthetic-probe.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "README.md",
+      "public_sha256": "b6dcf5f113dd2bd8ed0135ed4f6e649a6c2b89be23c3530fd529be0d778f7fee",
+      "source_artifacts": [],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    }
+  ],
+  "retained": "Model and dependency versions, approved source/module hashes, request/response digests, measured usage/timing, failed outcomes and software contracts",
+  "scope": "Public redacted evidence; hashes distinguish node original, collected sanitized, and public bytes"
+}

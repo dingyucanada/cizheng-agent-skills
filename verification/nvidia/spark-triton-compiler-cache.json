@@ -1,0 +1,77 @@
+{
+  "triton_version": "3.8.0",
+  "cache_relative": "runtime-cache/triton",
+  "kernel_count": 3,
+  "compiled_kernel_metadata": [
+    {
+      "name": "_bmm_outer_product_kernel",
+      "target": {
+        "backend": "cuda",
+        "arch": 121,
+        "warp_size": 32
+      },
+      "shared": 0,
+      "num_warps": 4,
+      "num_ctas": 1,
+      "maxnreg": null,
+      "metadata_sha256": "942a7104406d67343a01f463bd331d3168e79f727a8bd699a71d2ce43a54eff0"
+    },
+    {
+      "name": "_bmm_outer_product_kernel",
+      "target": {
+        "backend": "cuda",
+        "arch": 121,
+        "warp_size": 32
+      },
+      "shared": 0,
+      "num_warps": 4,
+      "num_ctas": 1,
+      "maxnreg": null,
+      "metadata_sha256": "785575e4c0a42ba230aa5fc272562fbb5907e2dbb81857e8bf2993af9ac552f7"
+    },
+    {
+      "name": "_bmm_outer_product_kernel",
+      "target": {
+        "backend": "cuda",
+        "arch": 121,
+        "warp_size": 32
+      },
+      "shared": 0,
+      "num_warps": 4,
+      "num_ctas": 1,
+      "maxnreg": null,
+      "metadata_sha256": "b4d58caa42604fdf05b54e86b75f1cccb9c3413e4c1183d4aaecdb7b9d26aaa9"
+    }
+  ],
+  "compiled_ptx": [
+    {
+      "file": "_bmm_outer_product_kernel.ptx",
+      "sha256": "ecd08e947bae1e810dc09b81415859ba495f11d584eb1d831bc19d98df633a35",
+      "ptx_headers": [
+        ".version 9.3",
+        ".target sm_121a",
+        ".address_size 64"
+      ]
+    },
+    {
+      "file": "_bmm_outer_product_kernel.ptx",
+      "sha256": "0d25a2cff952b1eee56959f756b06d81d2426fdb2b290095e3844c3acaba87e3",
+      "ptx_headers": [
+        ".version 9.3",
+        ".target sm_121a",
+        ".address_size 64"
+      ]
+    },
+    {
+      "file": "_bmm_outer_product_kernel.ptx",
+      "sha256": "21ade6ff289708789d10cfe970f3d959dbc6f8732e761e7c8070157bd26b290b",
+      "ptx_headers": [
+        ".version 9.3",
+        ".target sm_121a",
+        ".address_size 64"
+      ]
+    }
+  ],
+  "observed_at": 1790570206.800719,
+  "scope": "actual project compilation cache only; no original photo content or expert benchmark"
+}

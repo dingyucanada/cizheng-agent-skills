@@ -1,0 +1,41 @@
+✔ published packs are three attributed cases with usable primary documents and located evidence (1.50175ms)
+✔ a saved review becomes stale after real edits, without losing its statement or historical snapshot (1.322875ms)
+✔ preloaded supplements are idempotent and distinguish their curated revisions from actual user history (4.817333ms)
+✔ all three exported ZIPs decode in the independent Python ZIP reader and match every byte digest (236.833792ms)
+✔ changed photo, document and method bytes cannot masquerade as original evidence in the bundle (3.279375ms)
+✔ a report treats visitor HTML as text and never turns it into an active script or injected image (0.583333ms)
+✔ ZIP uses standard CRC32, rejects traversal and cannot silently overwrite duplicate evidence (0.186417ms)
+✔ public site generations are deterministic and primary photo attribution still matches project sources (126.073166ms)
+✔ jsdom: museum observation add → revise preserves ID/history and invalidates a saved review (202.608042ms)
+✔ jsdom: collection observation add → revise preserves ID/history and invalidates a saved review (58.637833ms)
+✔ jsdom: auction observation add → revise preserves ID/history and invalidates a saved review (48.399458ms)
+✔ jsdom: cancellation and context changes discard only the uncommitted editor, while project observations cannot enter it (91.326ms)
+✔ jsdom pointer fixture: drawing and zoom rerenders preserve new and revised observation text (68.493917ms)
+✔ jsdom: jumping directly to export never marks unvisited earlier stages complete (25.184458ms)
+✔ each homepage scenario URL opens its selected dossier and refresh preserves the choice (5.583166ms)
+✔ jsdom: unsaved review blocks real JSON/HTML/ZIP controls in all three cases and preserves entered text (185.459042ms)
+✔ jsdom shared route: dirty catalogue and supplementary work notes remain intact until both are explicitly saved (73.746542ms)
+✔ jsdom shared route: an unsaved observation revision cannot disappear into an exported old record (57.10375ms)
+✔ jsdom: an unsubmitted review treatment is blocked, while restoring its default allows export without a fake review (36.559542ms)
+✔ jsdom: untouched not_reviewed and stale review forms export their actual stored states in all three cases (166.048625ms)
+✔ jsdom download capture: explicitly saved reviews produce usable JSON, embedded HTML and independently SHA-verified ZIP for all cases (290.77275ms)
+✔ every case exports original V1 and each prewritten V2 before and after activation, retaining reasons and sources (6.857166ms)
+✔ unactivated preview attachments are not silently promoted into the current opinion or its evidence (3.268791ms)
+✔ real saved snapshots retain then-current teaching findings; legacy reconstruction is explicitly labelled (3.740916ms)
+✔ independent HTML parser verifies every original-image ROI, document quote and local report anchor for all cases (170.838666ms)
+✔ handoff ZIP preserves original JPEG bytes, V1/V2 histories and all SHA-256 manifests (173.224583ms)
+✔ jsdom: dirty catalogue navigation cancels without losing input and only explicit confirm discards it (142.302959ms)
+✔ jsdom: saving either catalogue or notes preserves the other draft, then saving both permits normal navigation (54.882875ms)
+✔ jsdom: unsaved observation protects image switches and a cancelled case selector restores its current value (62.483375ms)
+✔ jsdom: return to scene selection prompts on dirty input; a saved observation and unchanged edit form remain clean (45.896125ms)
+✔ jsdom: not_reviewed and stale review forms use their displayed defaults and navigate without false prompts (146.2415ms)
+✔ jsdom: a simulated located-evidence action uses the same unsaved guard before changing view or selection (23.876166ms)
+✔ jsdom beforeunload fixture requests page-leave protection only for actually unsaved input (32.424ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1452.614958

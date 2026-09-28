@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "module_files_manifest_sha256": "ac77ee99ec1313165452caa37d2920b6690d6576f3d7275aa4c4de0842cf058b",
+  "scope": "ARM64 CPU guard tests with explicit test doubles; NOT real model or domain benchmark",
+  "recorded_at": 1790570942.7574167
+}

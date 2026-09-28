@@ -1,0 +1,41 @@
+{
+  "credentials_or_account_files_read": false,
+  "hash_scope": "source_record_sha256 commits the saved original metadata; public_redacted_sha256 validates public JSON bytes. collection-hashes distinguishes original node bytes from local sanitized bytes.",
+  "model_requests_sent": 0,
+  "privacy_scan_passed": true,
+  "raw_photos_or_model_response_bodies_included": false,
+  "records": [
+    {
+      "public_file": "source-binding.json",
+      "public_redacted_sha256": "563c71bd205eb8ffe45848907c72a6bfb25787d3a386ce68b63f45bbd43849e2",
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "source_record_sha256": "1c0bf22d7d04bfa8fee33ca572f52e1ce2dfc07a4fccac45f0932a0072afb51b"
+    },
+    {
+      "public_file": "deployment-ready.json",
+      "public_redacted_sha256": "9a5f17b7e9eff07d239913439a12259c24685a4620a936ba88b1e3876cc54e40",
+      "removed_fields": 3,
+      "replaced_values": 0,
+      "source_record_sha256": "f40513b84bf2fb8df84e2c6a626ff2c4675d4900cadab1a629d993e19a0f6f01"
+    },
+    {
+      "public_file": "collection-hashes.json",
+      "public_redacted_sha256": "a95f8c04f39688d84a9209ffb09092b35b8b62eec8d0464c171d0524afb4c977",
+      "removed_fields": 6,
+      "replaced_values": 0,
+      "source_record_sha256": "fecae383afa885178c1bdcbed9a831240404f71efbd0c6bd2d81d83a52a59e08"
+    },
+    {
+      "public_file": "cpu-boundary-tests.json",
+      "public_redacted_sha256": "1153661049638e62a1145461406567e4cb0e083962c431394973c7e3ba831908",
+      "removed_fields": 3,
+      "replaced_values": 0,
+      "source_record_sha256": "46e17f7c478b8215aecffdfc65a0dadd61e76c52e430ccfe8002400d04c1cb08"
+    }
+  ],
+  "removed_content": "filesystem and stage locations, all endpoint fields, node/account/authentication fields",
+  "scope": "backend-only deployment source binding, runtime configuration and idle readiness; not a successful workflow or domain accuracy evaluation",
+  "source_file_count": 238,
+  "source_manifest_sha256": "cc37996fed5d85f82bccc4e04b0a22140698fb215f14d73fa86f90d5184adfd6"
+}

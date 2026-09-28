@@ -12,6 +12,10 @@
 
 协议保存每次失败、耗时、调用数、版本和模型身份。protocol_completed是完成软件合同的次数，不是正确判断数。程序不自动给真假打分。blind目录提供去除mode的意见、可回查图片与参照，reviewer-hidden-mapping.json和summary.json只给组织者。盲评者可能从风格猜测模式，因此只称标签盲化，不声称彻底消除偏差。
 
+## 协调策略固定
+
+默认 `model-planned-v1`；`CIZHENG_GUIDED_WORKFLOW=1` 采用 `coordinator-preparation-v1`。评测记录 `versions.harness`，两臂必须固定同一策略、结构约束、`compact_actions`传输模式与原预算；记录实际prompt / decoder schema哈希。guided中plain/skills采用相同案卷、固定资料与首批真实图片准备，只有Skills臂加载方法；均经过原工具和预算路径。协调器预取的方法与两段资料不是模型自然发现或选择，不能计入自然触发率。换策略后的旧失败与新成功不构成Skills或纯模型因果比较。
+
 ## 盲评口径
 
 - 先由专家独立看同一批材料，记录时期/窑口/风格、依据、未知和争议，后看模型输出。

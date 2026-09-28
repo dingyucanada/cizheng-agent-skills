@@ -1,0 +1,77 @@
+{
+  "source_ready": true,
+  "scope": "offline-software-protocol-and-real-CPU-parser-only-no-model-GPU-network-deploy",
+  "files": {
+    "cizheng/agent.py": "8093b09a7f6c742fa0cb8a77906a4c3f7a42665cf6d722be32c0180308b16014",
+    "tests/test_compact_actions.py": "1380a168bd95160a82bdef84c5fd2c56e7aaf3c4e34326b74437ced666cfa0fb",
+    "tests/test_guided_workflow.py": "028767a97154f42a9fabab354854fa32eb063d1842e914b20c927d32532b1bf0"
+  },
+  "guided_strategy": "coordinator-observed-method-v2",
+  "observed_method_rule": {
+    "source": "first-batch-current-run-vision-visible-only",
+    "mode": "skills",
+    "research_task": "visual_research",
+    "triggers": [
+      "青花",
+      "blue-and-white"
+    ],
+    "english_match": "case-insensitive-word",
+    "method_whitelist": [
+      "bluewhite-attribution-test"
+    ],
+    "max_additional_methods": 1
+  },
+  "compact_explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+  "compact_prompts": {
+    "plain": "a09407447f97279c04d39aa60190446c6ce224ad012eee966360a680a317e17f",
+    "skills": "6eb872cdf56560f84852be3a51beb935d9d817ef58f14dfa46639da876fad93a"
+  },
+  "compact_decoders": {
+    "plain": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+    "skills": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+  },
+  "default_contract_unchanged": {
+    "default_prompts": {
+      "skills/visual_research": "d05d022b33c231c9c644b9cef936a67c673a28a23b520ee6c8d69d8f0f837849",
+      "skills/documentary_audit": "4217cabcc199f831562d221f8986baf51a79166442685be9a9f78d124efda424",
+      "plain/visual_research": "211efc753cc10d42ebca6603b7b3032f85fab0fe01d7646706eeec52d636385c",
+      "plain/documentary_audit": "536978615686183b89a95382745748c5b766619ba489be8b5e7d7520d35b6228"
+    },
+    "default_decoders": {
+      "skills/visual_research": "a5372b8ae7081a2619bdf37da983f8ed1e9aae984564d41eb6ba777657437fe3",
+      "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+      "plain/visual_research": "89292b92483a2decc82cc1554ff687c6a623571608888b10d46abb91ab7c7251",
+      "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821"
+    },
+    "assessment_manual_schema": "dd662dc5b7766a5c71c6d80f256a68a94298e2f118d72310205c742b3bdc10b6"
+  },
+  "focus_attempts": [
+    {
+      "log": "observed-method-focused-tests-01.log",
+      "passed": 195,
+      "failed": 3,
+      "notes": "Only tests repaired: two empty-string cases fail minLength before pattern; original documentary assertion was accidentally moved into new queue test and restored to its original test."
+    },
+    {
+      "log": "observed-method-focused-tests-02.log",
+      "passed": 198,
+      "failed": 0,
+      "seconds": 10.87
+    }
+  ],
+  "tests_new": 26,
+  "tests_compact_total": 81,
+  "tests_guided_total": 47,
+  "tests_other_total": 70,
+  "cpu_pattern_logs": [
+    "observed-method-pattern-proof-01.log",
+    "observed-method-pattern-proof-02.log"
+  ],
+  "cpu_first_failure": "Previous [\\s\\S] pattern prefix rejected a legal JSON escaped newline; old failure log preserved and root approved explicit single-line replacement.",
+  "limitations": [
+    "Stricter compact output contract: ASCII alnum or U+4E00-U+9FFF first character, single line 1-40 characters; manual/default contract unchanged.",
+    "Real LMFE0.11.3 prefix rejects some legal JSON escaped quote/backslash strings accepted by final host schema; this is an explicit legal-output subset, not text repair.",
+    "Observed method rule is lexical coordinator selection from actual current-run first-batch vision visible, not verified classification or natural model skill discovery.",
+    "Coordinator never sets model scope, judgment, candidate, citation, or evidence request. Actual GPU closed-loop outcome remains untested by this task."
+  ]
+}

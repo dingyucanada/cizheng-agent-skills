@@ -1,0 +1,19 @@
+{
+  "torch": "2.14.0+cu130",
+  "cuda_runtime": "13.0",
+  "device": "NVIDIA GB10",
+  "capability": [
+    12,
+    1
+  ],
+  "arch_list": [
+    "sm_80",
+    "sm_90",
+    "sm_100",
+    "sm_110",
+    "sm_120"
+  ],
+  "matrix_multiply_passed": true,
+  "bfloat16_matrix_multiply_passed": true,
+  "architecture": "aarch64"
+}

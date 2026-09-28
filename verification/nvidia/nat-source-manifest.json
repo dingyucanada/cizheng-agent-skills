@@ -1,0 +1,20 @@
+{
+  "cizheng/api.py": "e9ca331c688f9d0d2875d8f6fcfc5adc5764fe28e7616b937136c36314f63c4f",
+  "cizheng/nvidia_runtime.py": "2eda66d237852797d9eb885e232edb862aca3b8138384f7969ca8e6d01ba84cb",
+  "cizheng/reporting.py": "878226afe339d575db3b00bd1f3cc169c388746305ccb0581c8c444c57ad5302",
+  "docs/nvidia-integration.md": "fd2c12dfb577e5621aa8c5c5eb5a1b84efbeba8c0871488c4554eb086895ea57",
+  "integrations/nvidia_nat/configs/evidence.yml": "5b312283ff568a43ea8e215d5c0087946c9e4f11edbfe10f5d80e8403199517f",
+  "integrations/nvidia_nat/pyproject.toml": "9d837c2197cdac2528ee31c66f3b98a2b14f0c933a376cdeb87c8f83fd7209eb",
+  "integrations/nvidia_nat/src/cizheng_nat/__init__.py": "dca7d77302264516ac3d2cb1417925beaffd1c8ac727e37c6208177cdc997174",
+  "integrations/nvidia_nat/src/cizheng_nat/evaluators.py": "b775f85b99e32c1c4d29419a16e927513cbef957de4d0755110e1fec5b40aeb2",
+  "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+  "integrations/nvidia_nat/src/cizheng_nat/register.py": "a5c0962c9bf3e271dac50e2a967db31fe9bb8ef63dccc036c09c05faeba59378",
+  "scripts/nvidia-nat-call.py": "a4f7c4cd868ac81bc00388bf7f96e7c3f03729eff09c1a52edab048e07f2d894",
+  "scripts/nvidia-nat-verify.py": "4b7c2ddc76f7cf861fc118d9942b71527d7d003e425d7d8dbc0d3de6c4f9d4c0",
+  "scripts/nvidia-skill-scan.py": "02c45d95d91baa69d60b0ac52318140b0281edcadc660dd04f493a292e521fe0",
+  "static/app.js": "4a1c3f08ffbd7b3067031b6d134f9ee5a4ca963e32f4e461f72f41266a4cf7a1",
+  "tests/test_documentary_audit.py": "f42665634619d7477b2462a674543ef4a3767be088f98dce0b6e522558ffa46e",
+  "tests/test_nvidia_nat.py": "d13dc4e58e7e85cefb80fad03c9c24b4b83b8fb45d0c258e5b5b1c2e94ff42af",
+  "tests/test_nvidia_runtime.py": "e185be7ae8d8e6c49d589c4c6cb7b2fa56b916e4f3356b68c982dff9e8811fa4",
+  "tests/test_nvidia_skill_scan.py": "02ea0f2e7889cd6daa8fe5506d21303a63578373fcbcf2f799757cff5e96f586"
+}

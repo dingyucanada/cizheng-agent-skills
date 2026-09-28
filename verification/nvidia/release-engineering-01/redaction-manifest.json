@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "file": "python-tests.log",
+      "original_log_sha256": "42178b94d6d667e48599289fd0ac0f64fc5b8e916a89ae235f938cae9abf3592",
+      "public_file_sha256": "d8a7d5f87ced8e5791283d5e683b531f47b51ae2b1605de4f29973300221edc4",
+      "scope": "local actual software contracts; no models/GPU/domain quality",
+      "redaction": "absolute local workspace/home paths only"
+    },
+    {
+      "file": "web-tests.log",
+      "original_log_sha256": "965b4bb0b50eb06e9def7807fba04e34964b5757d8df6ed2e7179be4f3fa21ad",
+      "public_file_sha256": "965b4bb0b50eb06e9def7807fba04e34964b5757d8df6ed2e7179be4f3fa21ad",
+      "scope": "local actual software contracts; no models/GPU/domain quality",
+      "redaction": "absolute local workspace/home paths only"
+    }
+  ],
+  "model_calls": 0,
+  "raw_private_materials_included": false
+}

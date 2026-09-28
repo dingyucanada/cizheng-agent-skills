@@ -1,0 +1,19 @@
+{
+  "attempt": "01",
+  "receipt_prefix": "guided01",
+  "records": [
+    {
+      "node_original_sha256": "bf9b2315213934c21ba7d337b46de60e79a17d8a2c09517a55741886dc8d7f77",
+      "saved_sanitized_sha256": "bf9b2315213934c21ba7d337b46de60e79a17d8a2c09517a55741886dc8d7f77"
+    },
+    {
+      "node_original_sha256": "be16be79be563687d4616e432bcded1678996f944b7811669ddd2314252f382d",
+      "saved_sanitized_sha256": "be16be79be563687d4616e432bcded1678996f944b7811669ddd2314252f382d"
+    },
+    {
+      "node_original_sha256": "e91720ddf89b75ffc81fd113d95aa85fd0499d5827d131b0e3bd06c54d2aeaf9",
+      "saved_sanitized_sha256": "e91720ddf89b75ffc81fd113d95aa85fd0499d5827d131b0e3bd06c54d2aeaf9"
+    }
+  ],
+  "scope": "read-only deployment receipts; credentials excluded; no model requests"
+}

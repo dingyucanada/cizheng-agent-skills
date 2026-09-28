@@ -1,6 +1,6 @@
 {
   "name": "瓷证",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "mode": "public_teaching",
   "ai_inference_performed": false,
   "model_calls": 0,

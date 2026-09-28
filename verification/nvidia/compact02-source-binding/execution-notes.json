@@ -1,0 +1,16 @@
+{
+  "actual_cpu_result": "103 passed; 0 skipped; 1 warning",
+  "actual_pytest_executions": 1,
+  "corrected_temporary_directory_is_new_round_specific": true,
+  "final_root_approval_full_manifest_and_source_digest_verified": true,
+  "first_preflight_exit_code": 1,
+  "first_preflight_failure": "retained previous-round temporary directory name; guard exited before pytest subprocess startup",
+  "local_approval_precheck_schema_adapted_from_file_count_to_files_and_source_manifest_sha256_to_source_digest": true,
+  "model_requests_sent": 0,
+  "preflight_failure_log_sha256": "b45464ab57c43270d15e099dd5b9b0d56e6de3002de30fca9345dedbee6bae82",
+  "preflight_wrapper_invocations": 2,
+  "prior_temporary_directory_retained": true,
+  "pytest_retries": 0,
+  "scope": "private test-wrapper preflight correction; no software test rerun or model request",
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9"
+}

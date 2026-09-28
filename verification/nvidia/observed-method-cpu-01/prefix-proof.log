@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "lm_format_enforcer": "0.11.3",
+  "interegular": "0.3.3",
+  "jsonschema": "4.26.0",
+  "exact_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+  "cases": [
+    {
+      "label": "A",
+      "decoded_length": 1,
+      "real_character_prefix_accepts": true,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true
+    },
+    {
+      "label": "0",
+      "decoded_length": 1,
+      "real_character_prefix_accepts": true,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true
+    },
+    {
+      "label": "一",
+      "decoded_length": 1,
+      "real_character_prefix_accepts": true,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true
+    },
+    {
+      "label": "鿿",
+      "decoded_length": 1,
+      "real_character_prefix_accepts": true,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true
+    },
+    {
+      "label": "测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测",
+      "decoded_length": 40,
+      "real_character_prefix_accepts": true,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true
+    },
+    {
+      "label": "",
+      "decoded_length": 0,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": false,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": "...",
+      "decoded_length": 3,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": false,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": "！！",
+      "decoded_length": 2,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": false,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": " ",
+      "decoded_length": 1,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": false,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": "测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测测",
+      "decoded_length": 41,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": false,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": "测\n",
+      "decoded_length": 2,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": "测\r",
+      "decoded_length": 2,
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": false,
+      "native_fullmatch_accepts": false
+    },
+    {
+      "label": "测\"试",
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true,
+      "scope": "documented LMFE JSON-escape subset restriction; no rewriting"
+    },
+    {
+      "label": "测\\试",
+      "real_character_prefix_accepts": false,
+      "original_jsonschema_accepts": true,
+      "native_fullmatch_accepts": true,
+      "scope": "documented LMFE JSON-escape subset restriction; no rewriting"
+    }
+  ],
+  "real_token_prefix_single_and_multichar_40_vs_41": "passed",
+  "native_schema_retains_minLength_and_maxLength": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 40,
+    "pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$"
+  },
+  "default_four_schema_hashes": {
+    "skills/visual_research": "a5372b8ae7081a2619bdf37da983f8ed1e9aae984564d41eb6ba777657437fe3",
+    "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+    "plain/visual_research": "89292b92483a2decc82cc1554ff687c6a623571608888b10d46abb91ab7c7251",
+    "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821"
+  },
+  "default_baseline": "[LOCAL_WORKSPACE]/work/dev-stages/source-dev-c006-compact-02",
+  "default_four_unchanged": true,
+  "compact_decoder_schema_sha256": {
+    "plain": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+    "skills": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+  },
+  "gpu": false,
+  "model_calls": 0,
+  "all_legal_JSON_unicode_equivalence_claimed": false
+}

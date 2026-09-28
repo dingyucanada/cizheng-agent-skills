@@ -1,0 +1,209 @@
+{
+  "scanner": "NVIDIA SkillSpector",
+  "version": "2.12.0",
+  "official_source_commit": "89e90872e2ec813bcb137bf6b3145c92e55811ae",
+  "network_policy": "outbound_socket_calls_blocked",
+  "llm_requested": false,
+  "nvidia_verified_skill": false,
+  "online_dependency_database_checked": false,
+  "automatic_findings_suppression": false,
+  "release_gate": "static_checks_clear",
+  "results": [
+    {
+      "skill": "bluewhite-attribution-test",
+      "bundle_sha256": "b68678abb0cbba0d6172f23faacdcbd763aa49e7bc4fddb126eda271b551e696",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "d1a47578fd32ad1990b46f1746cb2cf27435535127f81ba4b780a15962dd7fc2",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    },
+    {
+      "skill": "ceramic-research-record",
+      "bundle_sha256": "bc95f1703e033438a1a43715bc2462d1fcd6caddaed0122321c640c6ac9b29bd",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "2fa94e54491f697cb5de2bc5ee4269dc496aae2f0a2f23bef965628e3e943041",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    },
+    {
+      "skill": "ceramic-route",
+      "bundle_sha256": "cc86f4280c1eca4b1b1b90d5917262dd32b2aa8b9adab38c427589da78428a4d",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "13f4b356b26c3a77f39dbc98451becf884c0005c46522aa66c69310922d44639",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    },
+    {
+      "skill": "condition-hypothesis-test",
+      "bundle_sha256": "7469b48b364d1143a360c1c9e3b03efb11c76a30cc9bd39b4d3f729dbe9a135a",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "f89e7012a3d1c9d71052e20762e96c0e55fb149421571798be34ad805c47ff4d",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    },
+    {
+      "skill": "documentary-evidence-audit",
+      "bundle_sha256": "b030d6cf22c3f28ed69023bf4a839e25f80f17ec382fff82bfd5639ca16ed3da",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "556f291337629c7515be5b83198008d3091e7c77355a26dc413815968afd5d6b",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    },
+    {
+      "skill": "evidence-revise",
+      "bundle_sha256": "d95d63c7aa96e2f6bf9f973b435bf9a9bb0701023a845a385a1ceebf1e6eb91e",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "83dfaff6d1f01ff2c783cddea305b9b026c324f4f594c192e6877b80e21eba3c",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    },
+    {
+      "skill": "provenance-evidence-audit",
+      "bundle_sha256": "a7647c591f9b8d32b020f7e999fdb0ff9768378be316e878a276de53955b1ea9",
+      "status": "scan_completed",
+      "scan_scope": "runtime_staged_subset",
+      "scope_exclusions": [
+        {
+          "path": "evals/",
+          "reason": "NVIDIA Tier-1 runtime staging excludes artifact and evaluation trees"
+        }
+      ],
+      "runtime_scope_sha256": "014a97d19b2cfc962eeadfdeb2e084a726766eac03627a79fc07cb38c7e7e7ff",
+      "exit_code": 0,
+      "finding_count": 0,
+      "high_or_critical_count": 0,
+      "risk_score": 0,
+      "recommendation": "SAFE",
+      "scan_mode": "static_only",
+      "llm_used": false,
+      "findings": [],
+      "analysis_completeness": {
+        "status": "complete",
+        "is_complete": true,
+        "coverage_percent": 100.0,
+        "execution_successful": true,
+        "ledger_exceptions": []
+      }
+    }
+  ]
+}

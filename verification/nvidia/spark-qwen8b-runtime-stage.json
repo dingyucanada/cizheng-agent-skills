@@ -1,0 +1,34 @@
+{
+  "stage_relative": "native-eightb-stage-20260928",
+  "files": {
+    "integrations/spark_transformers/README.md": "e7cc2dd5b3878ca4ac55d8b3bca34d6dcedeb19a462afd97f55c4096984f0028",
+    "integrations/spark_transformers/__init__.py": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+    "integrations/spark_transformers/adapter.py": "fb5bea5ccc8bcd558f161cad55222282cfd91a31f3cadc9054f26c7f0d09e207",
+    "integrations/spark_transformers/cuda_metrics.py": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+    "integrations/spark_transformers/download_model.py": "b036b77f00eb2710b12f337ac1c72a1ae4551fd25572c7435ee4a6ce79e00488",
+    "integrations/spark_transformers/prepare_python_headers.py": "5d1c5f1fcb4dc0b0e98c39850c613282ab55988195466f5dd63f4c6268b740d4",
+    "integrations/spark_transformers/requirements-download.txt": "dc273be313b2b0d09eb5d8ec65d0fe57b0ec593be2ddd61b9a46552aee627191",
+    "integrations/spark_transformers/requirements-gpu.txt": "78412fd1597390efc0def6c672d522aeb6bd434f8ae4358dd78c56c02bb51334",
+    "integrations/spark_transformers/start.sh": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+    "integrations/spark_transformers/tests/test_cuda_metrics.py": "6ccacae226896be5b64b102a73a5d7bc0821161bf9dca9863a67094bc37789ac",
+    "integrations/spark_transformers/tests/test_readiness.py": "414f541d2802a2140956896d560c6cdc817f219ac39bb660515741289a042a18"
+  },
+  "previous_hashes": {
+    "integrations/spark_transformers/README.md": "e7cc2dd5b3878ca4ac55d8b3bca34d6dcedeb19a462afd97f55c4096984f0028",
+    "integrations/spark_transformers/__init__.py": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+    "integrations/spark_transformers/adapter.py": "47fa84ece049538f3fc55c40fbe2ffb96f1bc0fe66fa29af85924629eabd30da",
+    "integrations/spark_transformers/cuda_metrics.py": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+    "integrations/spark_transformers/download_model.py": "b036b77f00eb2710b12f337ac1c72a1ae4551fd25572c7435ee4a6ce79e00488",
+    "integrations/spark_transformers/prepare_python_headers.py": "5d1c5f1fcb4dc0b0e98c39850c613282ab55988195466f5dd63f4c6268b740d4",
+    "integrations/spark_transformers/requirements-download.txt": "dc273be313b2b0d09eb5d8ec65d0fe57b0ec593be2ddd61b9a46552aee627191",
+    "integrations/spark_transformers/requirements-gpu.txt": "78412fd1597390efc0def6c672d522aeb6bd434f8ae4358dd78c56c02bb51334",
+    "integrations/spark_transformers/start.sh": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+    "integrations/spark_transformers/tests/test_cuda_metrics.py": "6ccacae226896be5b64b102a73a5d7bc0821161bf9dca9863a67094bc37789ac",
+    "integrations/spark_transformers/tests/test_readiness.py": "53f238b23df07b8a49ba95c825210c7f3e40afe3803f6fbbe4cd13d462846504"
+  },
+  "module_files_manifest_sha256": "ac77ee99ec1313165452caa37d2920b6690d6576f3d7275aa4c4de0842cf058b",
+  "file_count": 11,
+  "frozen_source_modified": false,
+  "model_started": false,
+  "request_worker_cancellation_serialization_guard": true
+}

@@ -1,0 +1,320 @@
+{
+  "active_backend_runs_at_handoff": 0,
+  "added_official_wheels": [
+    {
+      "already_installed": false,
+      "bytes": 45418,
+      "name": "lm-format-enforcer",
+      "official_metadata_url": "https://pypi.org/pypi/lm-format-enforcer/0.11.3/json",
+      "official_wheel_url": "https://files.pythonhosted.org/packages/a0/ef/11292bb0b85cf4c93447cab5a29f64576ed14d3ab4280e35ddd23486594a/lm_format_enforcer-0.11.3-py3-none-any.whl",
+      "requires_dist": [
+        "pydantic>=1.10.8",
+        "interegular>=0.3.2",
+        "packaging",
+        "pyyaml"
+      ],
+      "sha256": "cf586350875def1ae7a8fba84fcbbfc8371424b6c9d05c1fcba70aa233fbf06f",
+      "version": "0.11.3"
+    },
+    {
+      "already_installed": false,
+      "bytes": 23635,
+      "name": "interegular",
+      "official_metadata_url": "https://pypi.org/pypi/interegular/0.3.3/json",
+      "official_wheel_url": "https://files.pythonhosted.org/packages/c4/01/72d6472f80651673716d1deda2a5bbb633e563ecf94f4479da5519d69d25/interegular-0.3.3-py37-none-any.whl",
+      "requires_dist": [],
+      "sha256": "b0c07007d48c89d6d19f7204972d369b2a77222722e126b6aa63aa721dc3b19c",
+      "version": "0.3.3"
+    }
+  ],
+  "all_existing_versions_preserved": true,
+  "all_gpu_diagnostic_requests_completed": true,
+  "arm64_cpu_contracts": {
+    "collected_log_hash_scope": "local collected UTF8 text with account paths redacted",
+    "collected_sanitized_junit_sha256": "5774ba096aab86d6e500d72c128ac4e66edb98adf57178951a3ff0f97ca075f2",
+    "collected_sanitized_log_sha256": "63b09fa396e06d69dc42f64f017cc56128b1d914a1b54708df48cdc69895c717",
+    "counts": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 62
+    },
+    "cuda_disabled": true,
+    "exit_code": 0,
+    "junit_sha256": "5774ba096aab86d6e500d72c128ac4e66edb98adf57178951a3ff0f97ca075f2",
+    "log_sha256": "ef6658a9ac712bdec6bc0e1548fcb7f0001dbf6848e3c346dfbec877e9a8f619",
+    "native_module_manifest_sha256": "2a552e1973bc808ff80aa867e0c9f2bb0d84a65e9f6723b63cc3874188d0cf79",
+    "no_skipped": true,
+    "pytest_runner_source": "existing .venv site-packages appended after all .model-venv paths; no runner dependencies installed",
+    "read_only_stage_bytes_unchanged": true,
+    "recorded_at": 1790575383.7074153,
+    "remote_log_hash_scope": "remote original before account path redaction; original receipt preserved",
+    "scope": "ARM64 native CPU parser/prefix-filter/guard tests, including explicit test doubles; NOT real GPU model generation or domain quality",
+    "source_manifest_sha256": "bff8d81d237f8f8fab9d9cccd37683ea740a2c41e3cdbe017203eb556a596b96",
+    "wall_seconds": 1.433955192565918
+  },
+  "core_versions": {
+    "pydantic": "2.13.5",
+    "tokenizers": "0.22.2",
+    "torch": "2.14.0+cu130",
+    "transformers": "5.14.1",
+    "triton": "3.8.0"
+  },
+  "live_public_status": {
+    "app_version": "0.6.0",
+    "model": {
+      "generation": {
+        "disable_thinking": false,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "structured_output_contract": {
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "89292b92483a2decc82cc1554ff687c6a623571608888b10d46abb91ab7c7251",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "a5372b8ae7081a2619bdf37da983f8ed1e9aae984564d41eb6ba777657437fe3"
+          },
+          "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+          "host_only_constraints": {
+            "numeric": [
+              "minimum",
+              "maximum",
+              "exclusiveMinimum",
+              "exclusiveMaximum",
+              "multipleOf"
+            ],
+            "semantic": [
+              "cross-field",
+              "skill-workflow",
+              "fixed-evidence",
+              "permission"
+            ]
+          },
+          "purpose": "action",
+          "schema_name": "cizheng_actions",
+          "schema_source": "registered-tool-model_json_schema+short-visual-assessment",
+          "trigger": "first-system-exact-system_prompt(mode,research_task)"
+        },
+        "structured_outputs": true,
+        "temperature": 0.1
+      },
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "provider": "local-openai-compatible",
+      "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+    },
+    "model_adapter": "local",
+    "model_configured": true,
+    "nvidia_nat_configured": true,
+    "nvidia_nat_scope": "offline_saved_report_reference_identity_only",
+    "phase": "开发版；模型已配置不代表已通过视觉或Spark验收",
+    "text_review_configured": true,
+    "text_review_model": {
+      "model": "step-3.7-flash",
+      "provider": "stepfun-text-only"
+    }
+  },
+  "native_2b_service_untouched": true,
+  "native_module_file_count": 13,
+  "native_module_manifest_sha256": "2a552e1973bc808ff80aa867e0c9f2bb0d84a65e9f6723b63cc3874188d0cf79",
+  "old_failure_evidence_retained": true,
+  "original_overall_budget": {
+    "model_calls": 12,
+    "tool_calls": 20,
+    "wall_seconds": 300
+  },
+  "phasecaps": {
+    "action": 2500,
+    "vision": 800
+  },
+  "pip_check_exit_code": 0,
+  "recorded_at": 1790575703.3195117,
+  "scope": "actual fixed-source deployment, native CPU contracts and synthetic GPU/schema transport validation only; NOT ceramic accuracy, calibrated genuineness, Skills gain, or a completed Agent business workflow",
+  "scope_note": "new constrained harness; not a pure model-only comparison",
+  "source_file_count": 222,
+  "source_manifest_sha256": "bff8d81d237f8f8fab9d9cccd37683ea740a2c41e3cdbe017203eb556a596b96",
+  "structured_synthetic": {
+    "all_checks_passed": true,
+    "checks": {
+      "adapter_original_schema_validation_passed": true,
+      "constraint_library_fixed": true,
+      "finish_reason_stop": true,
+      "native_metadata_matches_response": true,
+      "one_native_completion_matches": true,
+      "real_cuda_elapsed_positive": true,
+      "real_prefix_constraint_enabled": true,
+      "schema_hash_matches_request": true,
+      "schema_value_and_synthetic_color_valid": true,
+      "tokens_bounded": true
+    },
+    "cizheng_runtime": {
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 628.88623046875,
+        "max_memory_allocated_bytes": 17609571840,
+        "max_memory_reserved_bytes": 17825792000,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "mode": "prefix_allowed_tokens_fn",
+        "output_valid": true,
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "schema_sha256": "360ea07ee0ad61c72a2cf4464c64df46df65e48c91a7c2a8fba18051cd90d2b8",
+        "version": "0.11.3"
+      },
+      "wall_seconds": 2.347627176088281
+    },
+    "client_elapsed_seconds": 2.3653939130017534,
+    "finish_reason": "stop",
+    "finished_at": 1790575637.1876426,
+    "http_response_sha256": "9e399634201a8a32a408971c51689292cfba81a32ccee743107258883afe9f56",
+    "http_status": 200,
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "native_completion": {
+      "at": 1790575637.1864388,
+      "completion_tokens": 7,
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 628.88623046875,
+        "max_memory_allocated_bytes": 17609571840,
+        "max_memory_reserved_bytes": 17825792000,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "image_count": 1,
+      "images": [
+        {
+          "bytes": 357,
+          "sha256": "6e878563d76d793249e4bfd4c4f854ef26d9d03c17d9e2107fd4cad31532602f"
+        }
+      ],
+      "max_tokens": 800,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 92,
+      "response_sha256": "c917de2e8d420d0d22645e4cc66c7fd6c425a75bffdf931b6db774324f8e74c3",
+      "seconds": 2.347627176088281,
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "mode": "prefix_allowed_tokens_fn",
+        "output_valid": true,
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "schema_sha256": "360ea07ee0ad61c72a2cf4464c64df46df65e48c91a7c2a8fba18051cd90d2b8",
+        "version": "0.11.3"
+      },
+      "temperature": 0.1
+    },
+    "parsed_synthetic_response": {
+      "color": "red"
+    },
+    "raw_synthetic_response": "{\"color\": \"red\"}",
+    "request_parameters": {
+      "max_tokens": 800,
+      "response_format_type": "json_schema",
+      "strict": true,
+      "temperature": 0.1
+    },
+    "request_sha256": "3f3eb02acb832255436943306015b4639b579f4a1a2c5c321d31469234c3b3a7",
+    "response_sha256": "c917de2e8d420d0d22645e4cc66c7fd6c425a75bffdf931b6db774324f8e74c3",
+    "schema_sha256": "360ea07ee0ad61c72a2cf4464c64df46df65e48c91a7c2a8fba18051cd90d2b8",
+    "scope": "synthetic schema-constrained GPU generation only; NOT ceramic accuracy, calibrated appraisal, or an Agent workflow",
+    "started_at": 1790575634.8222473,
+    "synthetic_input": {
+      "bytes": 357,
+      "height": 128,
+      "sha256": "6e878563d76d793249e4bfd4c4f854ef26d9d03c17d9e2107fd4cad31532602f",
+      "width": 128
+    },
+    "usage": {
+      "completion_tokens": 7,
+      "prompt_tokens": 92,
+      "total_tokens": 99
+    }
+  },
+  "synthetic_probes": [
+    {
+      "error": null,
+      "image_count": 0,
+      "name": "json-action",
+      "passed": true,
+      "seconds": 1.2905,
+      "usage": {
+        "completion_tokens": 14,
+        "finish_reason": "stop",
+        "prompt_tokens": 40,
+        "total_tokens": 54
+      }
+    },
+    {
+      "error": null,
+      "image_count": 1,
+      "name": "single-image",
+      "passed": true,
+      "seconds": 0.5715,
+      "usage": {
+        "completion_tokens": 6,
+        "finish_reason": "stop",
+        "prompt_tokens": 113,
+        "total_tokens": 119
+      }
+    },
+    {
+      "error": null,
+      "image_count": 2,
+      "name": "two-images",
+      "passed": true,
+      "seconds": 0.7789,
+      "usage": {
+        "completion_tokens": 8,
+        "finish_reason": "stop",
+        "prompt_tokens": 185,
+        "total_tokens": 193
+      }
+    }
+  ],
+  "vision_health": {
+    "failure_type": null,
+    "generation_in_progress": false,
+    "gpu": {
+      "arch_list": [
+        "sm_80",
+        "sm_90",
+        "sm_100",
+        "sm_110",
+        "sm_120"
+      ],
+      "bfloat16_matrix_multiply_passed": true,
+      "capability": [
+        12,
+        1
+      ],
+      "cuda_runtime": "13.0",
+      "device": "NVIDIA GB10",
+      "float32_matrix_multiply_passed": true,
+      "synthetic_image_generation_passed": true,
+      "torch": "2.14.0+cu130",
+      "warmup_completion_tokens": 2,
+      "warmup_is_domain_evaluation": false,
+      "warmup_seconds": 0.8074779700255021
+    },
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "status": "ready",
+    "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+  }
+}

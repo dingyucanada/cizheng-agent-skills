@@ -1,0 +1,9 @@
+{
+  "public_start_source_sha256": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+  "stage_relative": "native-warmup-stage-20260928",
+  "headers_dir_relative": "runtime-headers-ubuntu-3.12.3-1ubuntu0.17",
+  "cache_dir_relative": "runtime-cache",
+  "python_environment_relative": ".model-venv",
+  "backend_restarted": false,
+  "time": 1790569917.4783232
+}

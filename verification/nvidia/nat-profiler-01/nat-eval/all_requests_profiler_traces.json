@@ -1,0 +1,1379 @@
+[
+  {
+    "request_number": 0,
+    "intermediate_steps": [
+      {
+        "parent_id": "root",
+        "function_ancestry": {
+          "function_id": "root",
+          "function_name": "root",
+          "parent_id": null,
+          "parent_name": null
+        },
+        "payload": {
+          "event_type": "WORKFLOW_START",
+          "event_timestamp": 1790582685.09311,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "cizheng_evidence_workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": null,
+            "span_outputs": null,
+            "provided_metadata": {
+              "workflow_run_id": "0f942800-31fe-441a-88eb-3930b892612f",
+              "workflow_trace_id": "99b03738ce044c7abbc3242f76599ec3",
+              "conversation_id": null,
+              "display_name": "<workflow>"
+            },
+            "tools_schema": []
+          },
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "014ccb29-0945-4d44-90c1-0241e8c47522"
+        }
+      },
+      {
+        "parent_id": "014ccb29-0945-4d44-90c1-0241e8c47522",
+        "function_ancestry": {
+          "function_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.09474,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "<workflow>",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f"
+        }
+      },
+      {
+        "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+        "function_ancestry": {
+          "function_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.0950668,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a"
+        }
+      },
+      {
+        "parent_id": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+        "function_ancestry": {
+          "function_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.097968,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_retrieve",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "7da74f68-f186-4662-b2c8-1640ea5995da"
+        }
+      },
+      {
+        "parent_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+        "function_ancestry": {
+          "function_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.09809,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "retrieve",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "6ea589ee-39b3-4c52-b563-6644c147acd9"
+        }
+      },
+      {
+        "parent_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+        "function_ancestry": {
+          "function_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.141006,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "retrieve",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"default_citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"inference_performed\": false, \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"usage\": {\"elapsed_seconds\": 0.011687, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 4}}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "6ea589ee-39b3-4c52-b563-6644c147acd9"
+        }
+      },
+      {
+        "parent_id": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+        "function_ancestry": {
+          "function_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.141195,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_retrieve",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"default_citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"inference_performed\": false, \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"usage\": {\"elapsed_seconds\": 0.011687, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 4}}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "7da74f68-f186-4662-b2c8-1640ea5995da"
+        }
+      },
+      {
+        "parent_id": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+        "function_ancestry": {
+          "function_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+          "function_name": "evidence_verify",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.141267,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_verify",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\"}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3"
+        }
+      },
+      {
+        "parent_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+        "function_ancestry": {
+          "function_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+          "function_name": "evidence_verify",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.14131,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "verify",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\"}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "32f95dc2-fa86-4205-9e3b-bbde12500756"
+        }
+      },
+      {
+        "parent_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+        "function_ancestry": {
+          "function_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+          "function_name": "evidence_verify",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.142454,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "verify",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\"}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [], \"status\": \"valid_reference\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"a05d456157a74f88ab6300bf221cfcd275bd6c8e9199ca56b3203167bf01530d\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"9b82ad3be3c6cce00652f1129e35ab8a2a82498c3d8c7010615e2c382999a2f0\", \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"references_verified\", \"usage\": {\"elapsed_seconds\": 0.013046, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"2f61bb3cd3614405a5d2bdb054b0965aeed68db51b331947345376132d93d726\"}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "32f95dc2-fa86-4205-9e3b-bbde12500756"
+        }
+      },
+      {
+        "parent_id": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+        "function_ancestry": {
+          "function_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+          "function_name": "evidence_verify",
+          "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.142475,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_verify",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\"}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [], \"status\": \"valid_reference\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"a05d456157a74f88ab6300bf221cfcd275bd6c8e9199ca56b3203167bf01530d\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"9b82ad3be3c6cce00652f1129e35ab8a2a82498c3d8c7010615e2c382999a2f0\", \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"references_verified\", \"usage\": {\"elapsed_seconds\": 0.013046, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"2f61bb3cd3614405a5d2bdb054b0965aeed68db51b331947345376132d93d726\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3"
+        }
+      },
+      {
+        "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+        "function_ancestry": {
+          "function_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.1424918,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [], \"status\": \"valid_reference\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"a05d456157a74f88ab6300bf221cfcd275bd6c8e9199ca56b3203167bf01530d\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"9b82ad3be3c6cce00652f1129e35ab8a2a82498c3d8c7010615e2c382999a2f0\", \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"references_verified\", \"usage\": {\"elapsed_seconds\": 0.013046, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"2f61bb3cd3614405a5d2bdb054b0965aeed68db51b331947345376132d93d726\"}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a"
+        }
+      },
+      {
+        "parent_id": "014ccb29-0945-4d44-90c1-0241e8c47522",
+        "function_ancestry": {
+          "function_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.142505,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "<workflow>",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [], \"status\": \"valid_reference\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"a05d456157a74f88ab6300bf221cfcd275bd6c8e9199ca56b3203167bf01530d\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"9b82ad3be3c6cce00652f1129e35ab8a2a82498c3d8c7010615e2c382999a2f0\", \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"references_verified\", \"usage\": {\"elapsed_seconds\": 0.013046, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"2f61bb3cd3614405a5d2bdb054b0965aeed68db51b331947345376132d93d726\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f"
+        }
+      },
+      {
+        "parent_id": "root",
+        "function_ancestry": {
+          "function_id": "root",
+          "function_name": "root",
+          "parent_id": null,
+          "parent_name": null
+        },
+        "payload": {
+          "event_type": "WORKFLOW_END",
+          "event_timestamp": 1790582685.1425228,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "cizheng_evidence_workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": null,
+            "span_outputs": null,
+            "provided_metadata": {
+              "workflow_run_id": "0f942800-31fe-441a-88eb-3930b892612f",
+              "workflow_trace_id": "99b03738ce044c7abbc3242f76599ec3",
+              "conversation_id": null,
+              "display_name": "<workflow>"
+            },
+            "tools_schema": []
+          },
+          "data": {
+            "input": null,
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [], \"status\": \"valid_reference\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"a05d456157a74f88ab6300bf221cfcd275bd6c8e9199ca56b3203167bf01530d\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"3f1456bea3a88e169c09c6377aa3743b637f0f8f45c692d846bacce6d4483fdb\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"9b82ad3be3c6cce00652f1129e35ab8a2a82498c3d8c7010615e2c382999a2f0\", \"review_required\": true, \"run_id\": \"nat_cf0628c122b648be9f0f965fabc45eef\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"references_verified\", \"usage\": {\"elapsed_seconds\": 0.013046, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"2f61bb3cd3614405a5d2bdb054b0965aeed68db51b331947345376132d93d726\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "014ccb29-0945-4d44-90c1-0241e8c47522"
+        }
+      }
+    ]
+  },
+  {
+    "request_number": 1,
+    "intermediate_steps": [
+      {
+        "parent_id": "root",
+        "function_ancestry": {
+          "function_id": "root",
+          "function_name": "root",
+          "parent_id": null,
+          "parent_name": null
+        },
+        "payload": {
+          "event_type": "WORKFLOW_START",
+          "event_timestamp": 1790582685.14289,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "cizheng_evidence_workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": null,
+            "span_outputs": null,
+            "provided_metadata": {
+              "workflow_run_id": "cf576524-a5c1-4c7f-b120-b8fbdae6f8a2",
+              "workflow_trace_id": "65af1e71a5a246069b6e4f468a26fd2b",
+              "conversation_id": null,
+              "display_name": "<workflow>"
+            },
+            "tools_schema": []
+          },
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "47f34673-46e2-4905-8485-866c9d83ba76"
+        }
+      },
+      {
+        "parent_id": "47f34673-46e2-4905-8485-866c9d83ba76",
+        "function_ancestry": {
+          "function_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.1429162,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "<workflow>",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "22db9361-3392-49b9-b362-2e2e3a913bc7"
+        }
+      },
+      {
+        "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+        "function_ancestry": {
+          "function_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.1429398,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "88abed77-d9c5-4e29-b299-4e91bbd2d93a"
+        }
+      },
+      {
+        "parent_id": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+        "function_ancestry": {
+          "function_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+          "function_name": "evidence_retrieve",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.143014,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_retrieve",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "149e50c2-f090-4ee4-b169-651df5cd8cfe"
+        }
+      },
+      {
+        "parent_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+        "function_ancestry": {
+          "function_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+          "function_name": "evidence_retrieve",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.1430342,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "retrieve",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "94cf8107-bf72-44c2-9373-aecd56f40760"
+        }
+      },
+      {
+        "parent_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+        "function_ancestry": {
+          "function_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+          "function_name": "evidence_retrieve",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.145291,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "retrieve",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"default_citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"inference_performed\": false, \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"usage\": {\"elapsed_seconds\": 0.002012, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 4}}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "94cf8107-bf72-44c2-9373-aecd56f40760"
+        }
+      },
+      {
+        "parent_id": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+        "function_ancestry": {
+          "function_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+          "function_name": "evidence_retrieve",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.145327,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_retrieve",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"default_citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"inference_performed\": false, \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"usage\": {\"elapsed_seconds\": 0.002012, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 4}}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "149e50c2-f090-4ee4-b169-651df5cd8cfe"
+        }
+      },
+      {
+        "parent_id": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+        "function_ancestry": {
+          "function_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+          "function_name": "evidence_verify",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.14538,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_verify",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"expected_case_revision\": 2, \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\"}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "62e542e1-9c43-4965-a3f8-06ca7f464e05"
+        }
+      },
+      {
+        "parent_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+        "function_ancestry": {
+          "function_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+          "function_name": "evidence_verify",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.1454132,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "verify",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"expected_case_revision\": 2, \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\"}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "77f8ca54-6852-445b-a141-674854b65a49"
+        }
+      },
+      {
+        "parent_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+        "function_ancestry": {
+          "function_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+          "function_name": "evidence_verify",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.146261,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "verify",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"expected_case_revision\": 2, \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\"}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [\"chunk_sha256\"], \"status\": \"reference_mismatch\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"b10bbf6bd4b32b50ddf564687a415b71e99a1578a13372b24e23dbea1f11648a\", \"input_sha256\": \"ea43e3211f3ad67fc82158af07a7e48d29702095e5e27fbdd763fa7cfd272635\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"8af7aa854a73e49d931c888085de8776896050a2efb1b9e016f78f039311f40f\", \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"reference_mismatch\", \"usage\": {\"elapsed_seconds\": 0.00278, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"6dce695c459dcef4f8732b27d839b8e7076a3e6b7faac6bc1e3ebb249f47e68e\"}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "77f8ca54-6852-445b-a141-674854b65a49"
+        }
+      },
+      {
+        "parent_id": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+        "function_ancestry": {
+          "function_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+          "function_name": "evidence_verify",
+          "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.1462898,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_verify",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}], \"expected_case_revision\": 2, \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\"}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [\"chunk_sha256\"], \"status\": \"reference_mismatch\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"b10bbf6bd4b32b50ddf564687a415b71e99a1578a13372b24e23dbea1f11648a\", \"input_sha256\": \"ea43e3211f3ad67fc82158af07a7e48d29702095e5e27fbdd763fa7cfd272635\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"8af7aa854a73e49d931c888085de8776896050a2efb1b9e016f78f039311f40f\", \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"reference_mismatch\", \"usage\": {\"elapsed_seconds\": 0.00278, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"6dce695c459dcef4f8732b27d839b8e7076a3e6b7faac6bc1e3ebb249f47e68e\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "62e542e1-9c43-4965-a3f8-06ca7f464e05"
+        }
+      },
+      {
+        "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+        "function_ancestry": {
+          "function_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.1463099,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [\"chunk_sha256\"], \"status\": \"reference_mismatch\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"b10bbf6bd4b32b50ddf564687a415b71e99a1578a13372b24e23dbea1f11648a\", \"input_sha256\": \"ea43e3211f3ad67fc82158af07a7e48d29702095e5e27fbdd763fa7cfd272635\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"8af7aa854a73e49d931c888085de8776896050a2efb1b9e016f78f039311f40f\", \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"reference_mismatch\", \"usage\": {\"elapsed_seconds\": 0.00278, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"6dce695c459dcef4f8732b27d839b8e7076a3e6b7faac6bc1e3ebb249f47e68e\"}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "88abed77-d9c5-4e29-b299-4e91bbd2d93a"
+        }
+      },
+      {
+        "parent_id": "47f34673-46e2-4905-8485-866c9d83ba76",
+        "function_ancestry": {
+          "function_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.146324,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "<workflow>",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [\"\u5c71\u6c34\u7eb9\u82b1\u89da\"], \"limit\": 2, \"citations\": [{\"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}]}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [\"chunk_sha256\"], \"status\": \"reference_mismatch\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"b10bbf6bd4b32b50ddf564687a415b71e99a1578a13372b24e23dbea1f11648a\", \"input_sha256\": \"ea43e3211f3ad67fc82158af07a7e48d29702095e5e27fbdd763fa7cfd272635\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"8af7aa854a73e49d931c888085de8776896050a2efb1b9e016f78f039311f40f\", \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"reference_mismatch\", \"usage\": {\"elapsed_seconds\": 0.00278, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"6dce695c459dcef4f8732b27d839b8e7076a3e6b7faac6bc1e3ebb249f47e68e\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "22db9361-3392-49b9-b362-2e2e3a913bc7"
+        }
+      },
+      {
+        "parent_id": "root",
+        "function_ancestry": {
+          "function_id": "root",
+          "function_name": "root",
+          "parent_id": null,
+          "parent_name": null
+        },
+        "payload": {
+          "event_type": "WORKFLOW_END",
+          "event_timestamp": 1790582685.146341,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "cizheng_evidence_workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": null,
+            "span_outputs": null,
+            "provided_metadata": {
+              "workflow_run_id": "cf576524-a5c1-4c7f-b120-b8fbdae6f8a2",
+              "workflow_trace_id": "65af1e71a5a246069b6e4f468a26fd2b",
+              "conversation_id": null,
+              "display_name": "<workflow>"
+            },
+            "tools_schema": []
+          },
+          "data": {
+            "input": null,
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [{\"citation\": {\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"0000000000000000000000000000000000000000000000000000000000000000\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\"}, \"claim_support_assessed\": false, \"mismatched_fields\": [\"chunk_sha256\"], \"status\": \"reference_mismatch\"}], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"input_sha256\": \"2dc3756734766ed8e3fc2e21d2ffcbde3318b44d0f1ccccfc1d323ee82fe374d\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"search_knowledge\"}, {\"event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"input_sha256\": \"9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a\", \"previous_event_sha256\": \"2cfc2f1ee71d32ea4c00fcbfe3fd39a55c1b6c389d463c37712415d972e0ef70\", \"sequence\": 4, \"tool\": \"read_knowledge\"}, {\"event_sha256\": \"b10bbf6bd4b32b50ddf564687a415b71e99a1578a13372b24e23dbea1f11648a\", \"input_sha256\": \"ea43e3211f3ad67fc82158af07a7e48d29702095e5e27fbdd763fa7cfd272635\", \"previous_event_sha256\": \"f8904ddafd46fbe931d077d275f39965bae70b76bb46498342806a85cb1a97ba\", \"sequence\": 5, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"658f0a982e8c7be9349c0ab8a03e537928de1dd6fa669e27a3e83b1b6cf978b7\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [{\"chunk_id\": \"ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99\", \"chunk_sha256\": \"a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3\", \"content_kind\": \"authorized_text\", \"document_id\": \"ksrc_51b142960ebb1cac53087148\", \"document_revision\": 1, \"document_sha256\": \"65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e\", \"locator\": \"Artwork Details \u2192 Object Information \u2192 Overview\uff1b\u9986\u85cf\u53f718.61.4 \u00b7 \u624b\u52a8\u5f55\u5165\u7b2c1\u6bb5\", \"ordinal\": 1, \"snippet_end\": 130, \"snippet_start\": 0, \"text\": \"Met\u9986\u85cf18.61.4\u662f\u4e00\u4ef6\u5c71\u6c34\u7eb9\u82b1\u89da\uff0c\u9875\u9762\u8bb0\u5f55\u4e3a\u6e05\u4ee3\u5eb7\u7199\u65e9\u671f\u7684\u666f\u5fb7\u9547\u91c9\u4e0b\u94b4\u84dd\u74f7\uff0c\u5c3a\u5bf8\u4e3a\u9ad848.3\u5398\u7c73\u3001\u76f4\u5f8423.2\u5398\u7c73\uff0c\u8d2d\u85cf\u8bb0\u5f55\u4e3aRogers Fund, 1918\u3002\u7cfb\u7edf\u5206\u522b\u4fdd\u5b58\u9986\u65b9\u8bb0\u5f55\u3001\u5b9e\u9645\u56fe\u50cf\u89c2\u5bdf\u548c\u5c1a\u5f85\u6838\u67e5\u7684\u95ee\u9898\uff1b\u8fd9\u4e9b\u6807\u7b7e\u4e0d\u5f97\u81ea\u52a8\u8d4b\u7ed9\u5176\u5b83\u5916\u89c2\u76f8\u4f3c\u5668\u7269\u3002\", \"truncated\": false}], \"result_sha256\": \"8af7aa854a73e49d931c888085de8776896050a2efb1b9e016f78f039311f40f\", \"review_required\": true, \"run_id\": \"nat_d5ee7ca2349746ab9e5545c4d1cd9a1c\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"reference_mismatch\", \"usage\": {\"elapsed_seconds\": 0.00278, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 5}, \"verify_request_sha256\": \"6dce695c459dcef4f8732b27d839b8e7076a3e6b7faac6bc1e3ebb249f47e68e\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "47f34673-46e2-4905-8485-866c9d83ba76"
+        }
+      }
+    ]
+  },
+  {
+    "request_number": 2,
+    "intermediate_steps": [
+      {
+        "parent_id": "root",
+        "function_ancestry": {
+          "function_id": "root",
+          "function_name": "root",
+          "parent_id": null,
+          "parent_name": null
+        },
+        "payload": {
+          "event_type": "WORKFLOW_START",
+          "event_timestamp": 1790582685.146771,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "cizheng_evidence_workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": null,
+            "span_outputs": null,
+            "provided_metadata": {
+              "workflow_run_id": "06b2e262-c4b0-4bd8-a24e-8541eff6c52f",
+              "workflow_trace_id": "5e28c420a0bb44919920b22e2efb5769",
+              "conversation_id": null,
+              "display_name": "<workflow>"
+            },
+            "tools_schema": []
+          },
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "42045bbf-fd12-42d6-87aa-a12bb3da5ce3"
+        }
+      },
+      {
+        "parent_id": "42045bbf-fd12-42d6-87aa-a12bb3da5ce3",
+        "function_ancestry": {
+          "function_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.146862,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "<workflow>",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "1b02a1ca-f154-49e1-abc4-bbea32e86497"
+        }
+      },
+      {
+        "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+        "function_ancestry": {
+          "function_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.1468952,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62"
+        }
+      },
+      {
+        "parent_id": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+        "function_ancestry": {
+          "function_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.1469288,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_retrieve",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "1242f479-e8ce-47ee-a72e-def26318c22e"
+        }
+      },
+      {
+        "parent_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+        "function_ancestry": {
+          "function_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.146951,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "retrieve",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "f8415013-28d2-48ac-9cea-e4b4bf4bd372"
+        }
+      },
+      {
+        "parent_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+        "function_ancestry": {
+          "function_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.1489239,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "retrieve",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"default_citations\": [], \"inference_performed\": false, \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"read_evidence\": [], \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"usage\": {\"elapsed_seconds\": 0.001695, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 2}}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "f8415013-28d2-48ac-9cea-e4b4bf4bd372"
+        }
+      },
+      {
+        "parent_id": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+        "function_ancestry": {
+          "function_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+          "function_name": "evidence_retrieve",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.148952,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_retrieve",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"default_citations\": [], \"inference_performed\": false, \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"read_evidence\": [], \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"usage\": {\"elapsed_seconds\": 0.001695, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 2}}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "1242f479-e8ce-47ee-a72e-def26318c22e"
+        }
+      },
+      {
+        "parent_id": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+        "function_ancestry": {
+          "function_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+          "function_name": "evidence_verify",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_START",
+          "event_timestamp": 1790582685.14899,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_verify",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\"}",
+            "output": null,
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "f139e5e1-022c-49cc-8671-c5c1110e692d"
+        }
+      },
+      {
+        "parent_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+        "function_ancestry": {
+          "function_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+          "function_name": "evidence_verify",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_START",
+          "event_timestamp": 1790582685.149018,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "verify",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\"}"
+              ],
+              {}
+            ],
+            "span_outputs": null,
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "a50cde6f-7f4f-4b3a-93e3-3bdbd1879083"
+        }
+      },
+      {
+        "parent_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+        "function_ancestry": {
+          "function_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+          "function_name": "evidence_verify",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.149746,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "verify",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\"}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"c69a55d946757676aba433d5164afa6b165a50d55e038b730a6ceb18f4254951\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [], \"result_sha256\": \"32ba262790a673da50809ddf53a018e1b0f8f328b86bc6327ff8af455e617700\", \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"no_read_evidence\", \"usage\": {\"elapsed_seconds\": 0.002386, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 3}, \"verify_request_sha256\": \"9744bb77c90edd0904c25b53df670ec1ac2edd0a99d731e2a5a27549e425b0d6\"}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "a50cde6f-7f4f-4b3a-93e3-3bdbd1879083"
+        }
+      },
+      {
+        "parent_id": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+        "function_ancestry": {
+          "function_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+          "function_name": "evidence_verify",
+          "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "parent_name": "<workflow>"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.149761,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "evidence_verify",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"citations\": [], \"expected_case_revision\": 2, \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\"}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"c69a55d946757676aba433d5164afa6b165a50d55e038b730a6ceb18f4254951\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [], \"result_sha256\": \"32ba262790a673da50809ddf53a018e1b0f8f328b86bc6327ff8af455e617700\", \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"no_read_evidence\", \"usage\": {\"elapsed_seconds\": 0.002386, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 3}, \"verify_request_sha256\": \"9744bb77c90edd0904c25b53df670ec1ac2edd0a99d731e2a5a27549e425b0d6\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "f139e5e1-022c-49cc-8671-c5c1110e692d"
+        }
+      },
+      {
+        "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+        "function_ancestry": {
+          "function_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "SPAN_END",
+          "event_timestamp": 1790582685.149774,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": [
+              [
+                "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}"
+              ],
+              {}
+            ],
+            "span_outputs": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"c69a55d946757676aba433d5164afa6b165a50d55e038b730a6ceb18f4254951\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [], \"result_sha256\": \"32ba262790a673da50809ddf53a018e1b0f8f328b86bc6327ff8af455e617700\", \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"no_read_evidence\", \"usage\": {\"elapsed_seconds\": 0.002386, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 3}, \"verify_request_sha256\": \"9744bb77c90edd0904c25b53df670ec1ac2edd0a99d731e2a5a27549e425b0d6\"}",
+            "provided_metadata": null,
+            "tools_schema": []
+          },
+          "data": null,
+          "usage_info": null,
+          "UUID": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62"
+        }
+      },
+      {
+        "parent_id": "42045bbf-fd12-42d6-87aa-a12bb3da5ce3",
+        "function_ancestry": {
+          "function_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+          "function_name": "<workflow>",
+          "parent_id": "root",
+          "parent_name": "root"
+        },
+        "payload": {
+          "event_type": "FUNCTION_END",
+          "event_timestamp": 1790582685.149785,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "<workflow>",
+          "tags": null,
+          "metadata": null,
+          "data": {
+            "input": "{\"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"expected_case_revision\": 2, \"queries\": [], \"limit\": 2}",
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"c69a55d946757676aba433d5164afa6b165a50d55e038b730a6ceb18f4254951\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [], \"result_sha256\": \"32ba262790a673da50809ddf53a018e1b0f8f328b86bc6327ff8af455e617700\", \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"no_read_evidence\", \"usage\": {\"elapsed_seconds\": 0.002386, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 3}, \"verify_request_sha256\": \"9744bb77c90edd0904c25b53df670ec1ac2edd0a99d731e2a5a27549e425b0d6\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "1b02a1ca-f154-49e1-abc4-bbea32e86497"
+        }
+      },
+      {
+        "parent_id": "root",
+        "function_ancestry": {
+          "function_id": "root",
+          "function_name": "root",
+          "parent_id": null,
+          "parent_name": null
+        },
+        "payload": {
+          "event_type": "WORKFLOW_END",
+          "event_timestamp": 1790582685.1497989,
+          "span_event_timestamp": null,
+          "framework": null,
+          "name": "cizheng_evidence_workflow",
+          "tags": null,
+          "metadata": {
+            "chat_responses": null,
+            "chat_inputs": null,
+            "tool_inputs": null,
+            "tool_outputs": null,
+            "tool_info": null,
+            "span_inputs": null,
+            "span_outputs": null,
+            "provided_metadata": {
+              "workflow_run_id": "06b2e262-c4b0-4bd8-a24e-8541eff6c52f",
+              "workflow_trace_id": "5e28c420a0bb44919920b22e2efb5769",
+              "conversation_id": null,
+              "display_name": "<workflow>"
+            },
+            "tools_schema": []
+          },
+          "data": {
+            "input": null,
+            "output": "{\"assessment_run_id\": null, \"case_id\": \"case_90f477f0a58041b693e49f973002bc32\", \"case_revision\": 2, \"checks\": [], \"events\": [{\"event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"input_sha256\": \"39c6936fbcbf1914f7ac780f078f017475729d03ab71fc54aa805c800d3156ff\", \"previous_event_sha256\": null, \"sequence\": 1, \"tool\": \"read_case\"}, {\"event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"input_sha256\": \"64cf299ccea935b67095268f70e7f94364441ce87295572722972e43d04f2fd9\", \"previous_event_sha256\": \"81f3f5e6391f2665a037dcb6878e5e941b6b9e123c3903851e39aa10666eb769\", \"sequence\": 2, \"tool\": \"freeze_case_sources\"}, {\"event_sha256\": \"c69a55d946757676aba433d5164afa6b165a50d55e038b730a6ceb18f4254951\", \"input_sha256\": \"1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b\", \"previous_event_sha256\": \"c376c902fcec09b5d2fd576640f1a76f42c121f01b382fd45f05be9203268c20\", \"sequence\": 3, \"tool\": \"verify_read_citations\"}], \"expert_reviewed\": false, \"inference_performed\": false, \"limitations\": [\"Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.\", \"This audit checks knowledge citations, not visual reference_ids or document authenticity.\", \"Reference integrity does not establish authenticity, ownership, date, or claim support.\", \"Ranking scores are text matches, not credibility or confidence.\"], \"manifest_sha256\": \"003f2275c2c2a420075278029829a0262b7baad80e13a03731bc723737703f22\", \"mode\": \"deterministic_reference_integrity\", \"nvidia_verified_skill\": false, \"read_evidence\": [], \"result_sha256\": \"32ba262790a673da50809ddf53a018e1b0f8f328b86bc6327ff8af455e617700\", \"review_required\": true, \"run_id\": \"nat_3b9542a795d645b5823b702dfd85eddf\", \"schema_version\": 1, \"snapshot_sha256\": \"c8f9d5b53d6a16ddc7142d6eeb4f67769f27f64140384d7f18eb599d35291cca\", \"source_case_revision\": 2, \"source_mode\": \"current_case_pinned_versions\", \"status\": \"no_read_evidence\", \"usage\": {\"elapsed_seconds\": 0.002386, \"max_model_calls\": 0, \"max_seconds\": 300.0, \"max_tool_calls\": 20, \"model_calls\": 0, \"tool_calls\": 3}, \"verify_request_sha256\": \"9744bb77c90edd0904c25b53df670ec1ac2edd0a99d731e2a5a27549e425b0d6\"}",
+            "chunk": null,
+            "payload": null
+          },
+          "usage_info": null,
+          "UUID": "42045bbf-fd12-42d6-87aa-a12bb3da5ce3"
+        }
+      }
+    ]
+  }
+]

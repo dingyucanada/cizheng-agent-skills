@@ -1,0 +1,23 @@
+{
+  "scope": "actual-offline-tests-no-models",
+  "records": [
+    {
+      "file": "round6-observed-full-tests.log",
+      "original_sha256": "1247061edd28f250f022f69a4cbcf18bd68bfb3e1e838aefe5ce78425256dfb6",
+      "public_sha256": "e36e0f6d2213a1c3d91b5bf9a803bb10d27916073a9f0f6b330155e97a89a85c",
+      "local_path_redacted": true
+    },
+    {
+      "file": "round6-observed-web-tests.log",
+      "original_sha256": "bf48db87730669cb6d0a116ff55d10e7bb2a1e2260b862646614d79ccd02d31e",
+      "public_sha256": "bf48db87730669cb6d0a116ff55d10e7bb2a1e2260b862646614d79ccd02d31e",
+      "local_path_redacted": false
+    },
+    {
+      "file": "round6-observed-nat-tests.log",
+      "original_sha256": "a628a5b44542fb1151eed3f36368a2c428beaf953fa3e742991b17104ef91654",
+      "public_sha256": "82d8a69a49fc9e3594c47c4668011b2e6f215ce287b9125b76c40afb6711cb26",
+      "local_path_redacted": true
+    }
+  ]
+}

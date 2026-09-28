@@ -12,6 +12,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, Response
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 from . import schemas as S
+from . import __version__
 from .agent import Engine, ROOT, LocalModel
 from .preflight import case_preflight
 from .store import Store, Problem, dump, uid
@@ -25,6 +26,8 @@ from .knowledge_seed import seed_knowledge
 from .pro_workflow import workplan, preparation_bundle, preparation_markdown, preparation_html
 from .business_records import create_business_router
 from .handoff import case_documents, make_handoff, check_case_files
+from .photo_report import photo_report
+from .nvidia_runtime import NvidiaAudit
 
 
 def export_bundle(store, case, run):
@@ -50,6 +53,7 @@ def export_bundle(store, case, run):
     exported_run['reference_snapshot'] = [r for r in exported_run['reference_snapshot']
                                           if r['id'] in reference_ids]
     return {'schema_version': 4, 'case': case, 'run': exported_run, 'knowledge_sources': knowledge_sources,
+            'photo_report': photo_report(exported_run),
             'mode': run.get('mode', 'skills'), 'preflight': case_preflight(store, case, run),
             'review': case.get('review'), 'review_required': case.get('review_required', True),
             'expert_reviewed': False,
@@ -57,6 +61,8 @@ def export_bundle(store, case, run):
                        if run.get('research_task') == 'documentary_audit' else
                        '照片辅助研究意见；不是实物真伪认证。复核记录不自动改写模型原意见。'),
             'episode': store.read('episode', case['episode_id']),
+            'nvidia_audits': [r for r in store.listing('nvidia_audit')
+                              if r['case_id'] == case['id'] and r['assessment_run_id'] == run['id']],
             'text_reviews': [r for r in store.listing('text_review') if r['case_id'] == case['id']]}
 
 
@@ -67,6 +73,7 @@ def create_app(data_dir=None, model=None, review_client=None):
     engine = Engine(store, model)
     critic = ReviewService(store, review_client)
     knowledge = KnowledgeStore(store.root)
+    nvidia_audit = NvidiaAudit(store)
     seed_knowledge(knowledge)
     session_token = secrets.token_urlsafe(32)
 
@@ -86,10 +93,11 @@ def create_app(data_dir=None, model=None, review_client=None):
                 await asyncio.gather(*list(engine.tasks.values()), return_exceptions=True)
                 fcntl.flock(lock, fcntl.LOCK_UN)
 
-    app = FastAPI(title='瓷证 · 陶瓷证据研究工作台', version='0.5.0', lifespan=lifespan)
+    app = FastAPI(title='瓷证 · 陶瓷证据研究工作台', version=__version__, lifespan=lifespan)
     app.state.store, app.state.engine = store, engine
     app.state.critic = critic
     app.state.knowledge = knowledge
+    app.state.nvidia_audit = nvidia_audit
     app.include_router(create_knowledge_router(knowledge))
     app.include_router(create_business_router(store, knowledge))
     app.add_middleware(TrustedHostMiddleware, allowed_hosts=['localhost', '127.0.0.1', '[::1]', 'testserver'])
@@ -139,10 +147,14 @@ def create_app(data_dir=None, model=None, review_client=None):
     @app.get('/api/status')
     def status():
         return {'model_configured': engine.model.configured, 'model': engine.model.identity(),
+                'harness': engine.harness_identity(),
+                'action_transport': engine.action_transport_identity(),
                 'model_verified': False, 'hardware_verified': False,
                 'model_adapter': 'local' if isinstance(engine.model, LocalModel) else 'injected_unverified',
                 'preflight_available': True,
-                'app_version': '0.5.0', 'text_review_configured': critic.client.configured,
+                'nvidia_nat_configured': nvidia_audit.configured,
+                'nvidia_nat_scope': 'offline_saved_report_reference_identity_only',
+                'app_version': __version__, 'text_review_configured': critic.client.configured,
                 'text_review_model': critic.client.identity(),
                 'session_token': session_token, 'reviewer': os.getenv('CIZHENG_REVIEWER', '本地操作人（身份未认证）'),
                 'phase': '开发版；模型已配置不代表已通过视觉或Spark验收'}
@@ -176,7 +188,17 @@ def create_app(data_dir=None, model=None, review_client=None):
     @app.get('/api/cases/{identifier}')
     def case(identifier: str):
         record = store.read('case', identifier)
-        return {'case': record, 'runs': [r for r in store.listing('run') if r['case_id'] == identifier]}
+        runs = [r for r in store.listing('run') if r['case_id'] == identifier]
+        return {'case': record, 'runs': [dict(r, photo_report=photo_report(r)) for r in runs],
+                'nvidia_audits': [r for r in store.listing('nvidia_audit') if r['case_id'] == identifier]}
+
+    @app.patch('/api/cases/{identifier}/evidence/{media_id}/capture-label')
+    def capture_label(identifier: str, media_id: str, body: S.CaptureLabelIn):
+        return store.label_capture(identifier, media_id, body.model_dump())
+
+    @app.post('/api/cases/{identifier}/nvidia-audits')
+    async def audit_nvidia(identifier: str, body: S.NvidiaAuditIn):
+        return await nvidia_audit.execute(identifier, body.model_dump())
 
     @app.patch('/api/cases/{identifier}/catalogue')
     def catalogue(identifier: str, body: S.CatalogueIn):

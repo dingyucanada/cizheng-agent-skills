@@ -6,7 +6,7 @@ description: >-
   Not for other ceramic types, price estimates, or authenticity certification.
 compatibility: Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.
 metadata:
-  version: "0.3.0"
+  version: 0.3.0
   required-tools: "inspect_images,inspect_region,retrieve_references,read_reference,read_skill_resource,record_assessment"
   expert-review: "pending"
 ---

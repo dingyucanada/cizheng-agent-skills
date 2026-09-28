@@ -307,7 +307,10 @@ function download(bytes,name,type) {
 }
 function bytesBase64(bytes) {let text='';const chunk=32768;for(let i=0;i<bytes.length;i+=chunk)text+=String.fromCharCode(...bytes.subarray(i,i+chunk));return btoa(text);}
 async function exportCase(format) {
-  if(busy)return;busy=true;render();toast('正在核对并生成教学案卷…');
+  if(busy)return;
+  const dirty=unsavedForms();
+  if(dirty.length){toast(`当前有未保存的${dirty.map(form=>form.label).join('、')}，请先保存后导出。`);return;}
+  busy=true;render();toast('正在核对并生成教学案卷…');
   try{
     const exportPack=current, exportState=state;
     const fileID=String(exportPack.id).replace(/[^a-zA-Z0-9_-]/g,'_');

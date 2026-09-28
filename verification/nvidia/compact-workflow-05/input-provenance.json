@@ -1,0 +1,145 @@
+{
+  "actual_model_observations": [
+    "青花瓷瓶，瓶身绘山水纹饰",
+    "青花瓷瓶，瓶身绘花篮纹饰"
+  ],
+  "derivative_records": [
+    {
+      "artifact_id": "media_37bb8c62a1a445f3a7ea7ec29a266e8f",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_7d002429790c4cb18c77dcff85846ea0",
+      "original_height": 1200,
+      "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    },
+    {
+      "artifact_id": "media_8408c47667ac4206a451caf288369568",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_4dba9232dc1843788712fd5232b131b1",
+      "original_height": 1200,
+      "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    }
+  ],
+  "observations_are_model_outputs_not_independent_truth_labels": true,
+  "observed_method_event": {
+    "actor": "coordinator",
+    "at": 1790591050.5275483,
+    "classification_verified": false,
+    "matched_observations": [
+      {
+        "matched_trigger": "青花",
+        "media_id": "media_7d002429790c4cb18c77dcff85846ea0",
+        "observation_id": "obs_e2d8e3e5de0d47c5a1780e2a832a51fe"
+      },
+      {
+        "matched_trigger": "青花",
+        "media_id": "media_4dba9232dc1843788712fd5232b131b1",
+        "observation_id": "obs_3e6aa097a297450eb2f85d48d274dfcb"
+      }
+    ],
+    "natural_skill_discovery": false,
+    "rule": {
+      "english_match": "case-insensitive-word",
+      "max_additional_methods": 1,
+      "method_whitelist": [
+        "bluewhite-attribution-test"
+      ],
+      "mode": "skills",
+      "research_task": "visual_research",
+      "source": "first-batch-current-run-vision-visible-only",
+      "triggers": [
+        "青花",
+        "blue-and-white"
+      ]
+    },
+    "selected_method": "bluewhite-attribution-test",
+    "selection_source": "first-batch-current-run-vision-visible-only",
+    "type": "harness_observed_method"
+  },
+  "recorded_public_source_manifest": {
+    "accession_number": "18.61.4",
+    "catalog_record": "馆方记载：清代康熙早期，景德镇釉下钴蓝瓷；此记录不等于本项目已鉴定",
+    "images": [
+      {
+        "file": "met-48607.jpg",
+        "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321545/main-image",
+        "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "view": "整体正面（公开图，视角声明）"
+      },
+      {
+        "file": "met-48607-view2.jpg",
+        "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321524/main-image",
+        "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "view": "另一面整体（公开图，视角声明）"
+      }
+    ],
+    "license": "CC0 / object page marked Public Domain",
+    "museum": "The Metropolitan Museum of Art",
+    "object_id": "48607",
+    "object_url": "https://www.metmuseum.org/art/collection/search/48607",
+    "retrieved_on": "2026-09-27",
+    "rights_url": "https://www.metmuseum.org/policies/image-resources",
+    "scope": "公开教学样例，已知身份，不是独立盲测，不附模拟模型结果"
+  },
+  "scope": "Two known public Met fixture photos; no private user photos or raw image bytes",
+  "source_manifest_is_captured_fixture_provenance_not_a_new_external_verification": true,
+  "uploaded_original_sha256": [
+    "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+    "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+  ]
+}

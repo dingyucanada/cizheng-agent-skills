@@ -5,7 +5,7 @@ description: >-
   blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.
 compatibility: Requires the Cizheng v0.4 tool host and a working multimodal endpoint.
 metadata:
-  version: "0.4.0"
+  version: 0.4.0
   required-tools: "read_case,inspect_images,load_skill"
   expert-review: "pending"
 ---

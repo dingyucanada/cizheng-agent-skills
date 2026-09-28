@@ -1,0 +1,91 @@
+{
+  "architecture": "aarch64",
+  "counts": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 85
+  },
+  "cuda_visible_devices": "-1",
+  "dependencies_installed_or_upgraded": false,
+  "exit_code": 0,
+  "final_active_business_counts": {
+    "nvidia_audits": 0,
+    "research_runs": 0,
+    "text_reviews": 0
+  },
+  "final_native_generation_in_progress": false,
+  "hash_scope": "node_original hashes commit original CPU execution log/JUnit bytes; saved_sanitized hashes commit collected account-redacted copies; this JSON public hash is recorded separately",
+  "idle_scope": "timestamped idle at completion of CPU boundary tests before coordinator starts the next GPU workflow; not a current idle claim",
+  "live_harness": {
+    "action_transport": {
+      "citation_exposure": "successful-main-canonical-body-exposure",
+      "decoder_schema_sha256": {
+        "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+        "plain/visual_research": "21804747bab80ef2685bd9b32795fe880f563ec1a3c745786622f40b2107b4bf",
+        "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+        "skills/visual_research": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec"
+      },
+      "effective_by_task": {
+        "documentary_audit": false,
+        "visual_research": true
+      },
+      "metadata_fields": [
+        "document_id",
+        "document_revision",
+        "document_sha256",
+        "chunk_id",
+        "chunk_sha256",
+        "locator"
+      ],
+      "protocol": "compact-visual-metadata-v1",
+      "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+      "scope": "visual_research-only"
+    },
+    "budgets": "original-run-and-episode-limits",
+    "compact_actions": true,
+    "documentary_preparation": [
+      "read_case"
+    ],
+    "first_image_batch_max": 4,
+    "guided_workflow": true,
+    "knowledge_prefetch_max_chunks": 2,
+    "knowledge_scope": "case-pinned-fixed-versions-only",
+    "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+    "natural_skill_discovery": false,
+    "parent_skill": "evidence-revise",
+    "preparation_actor": "coordinator",
+    "strategy": "coordinator-preparation-v1",
+    "visual_skills": [
+      "ceramic-route",
+      "ceramic-research-record"
+    ]
+  },
+  "model_requests_sent": 0,
+  "native_generation_log_unchanged": true,
+  "native_log_after_sha256": "33468e703a8c6fd2b2320ff8a0536f5c1bd3e57bd2e5fb7eddffe35fe14678b2",
+  "native_log_before_sha256": "33468e703a8c6fd2b2320ff8a0536f5c1bd3e57bd2e5fb7eddffe35fe14678b2",
+  "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+  "native_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "no_skipped": true,
+  "node_original_junit_sha256": "2663be5b21c3dead280d18c95a4a5301a0751d38b23c37b991cee3b175f1588c",
+  "node_original_log_sha256": "92f71655283eabe690039f44dbcb1a4a5d1c55fcdf24e6d520c7332ca47db07e",
+  "passed": 85,
+  "pytest_cache_disabled": true,
+  "pytest_junit_seconds": 30.074,
+  "python_dont_write_bytecode": true,
+  "python_version": "3.12.3",
+  "read_only_stage_bytes_unchanged": true,
+  "recorded_at": 1790581602.3369355,
+  "retries": 0,
+  "saved_sanitized_junit_sha256": "2663be5b21c3dead280d18c95a4a5301a0751d38b23c37b991cee3b175f1588c",
+  "saved_sanitized_log_sha256": "9c08b4b77aed812057db5df444303b7f9702ee56b0d739d2f15a217c5c700b79",
+  "scope": "actual ARM64 CPU-only compact and guided boundary software tests; mock providers and synthetic judgments; NOT GPU generation or domain accuracy",
+  "source_file_count": 238,
+  "source_manifest_sha256": "cc37996fed5d85f82bccc4e04b0a22140698fb215f14d73fa86f90d5184adfd6",
+  "tested_files": [
+    "tests/test_compact_actions.py",
+    "tests/test_guided_workflow.py"
+  ],
+  "wall_seconds": 30.21851971198339
+}

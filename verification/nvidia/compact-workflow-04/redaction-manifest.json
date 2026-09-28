@@ -1,0 +1,104 @@
+{
+  "all_six_backend_responses_exactly_matched_native_hash_usage_caps": true,
+  "all_six_finish_stop_observed_by_backend": true,
+  "clock_scope": "Spark backend/native epoch timestamps and each monotonic duration are distinct from the local client clock; no mixed-machine duration subtraction",
+  "credentials_or_account_files_read": false,
+  "evidence_or_workflow_contract_not_satisfied": true,
+  "hash_scope": "saved_source_record_sha256 commits the saved collected/assembled record. public_redacted_sha256 validates distributable bytes. node-snapshot-manifest commits original node bytes; collection-hashes separately labels node original versus locally sanitized byte SHA. CPU log hashes explicitly name raw-node versus sanitized scope.",
+  "main_business_phase_trace_maintained_separately_by_root": true,
+  "model_requests_sent_by_capture_derivation_and_redaction": 0,
+  "privacy_scan_passed": true,
+  "raw_photos_or_private_native_response_bodies_included": false,
+  "records": [
+    {
+      "public_file": "final-run.json",
+      "public_redacted_sha256": "31cbbced1c30e7002d532155252cc5294070c1abbcf0ca68edaa94a56d755c1d",
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "saved_source_record_sha256": "53bbae8716bc36e91813a5bf809b65afd884330aaaa843d4ccb628911d21523c"
+    },
+    {
+      "public_file": "native-trace.json",
+      "public_redacted_sha256": "cfbbbdb8643e9e0c03169b9537716e6d932fbe086b9d72e0214d488490a76af3",
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "38c447a39a1a80b23cd71823a845a93d22c40cd929f7db8b8265cf524b3bb0eb"
+    },
+    {
+      "public_file": "ready-summary.json",
+      "public_redacted_sha256": "ca5fa8aadc918faa10ff429211b3f44b027429b333ceb7495e72d8eea083f416",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "ca5fa8aadc918faa10ff429211b3f44b027429b333ceb7495e72d8eea083f416"
+    },
+    {
+      "public_file": "source-binding.json",
+      "public_redacted_sha256": "1f73bf4b7db43c9778793cf216efb55ebd7656b140ccdc3c80423de88a27ab77",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "1f73bf4b7db43c9778793cf216efb55ebd7656b140ccdc3c80423de88a27ab77"
+    },
+    {
+      "public_file": "terminal.json",
+      "public_redacted_sha256": "0d2b132e5e779edb2e7a5233470147cc2ecf4b5c913db58fa2ed65a2506e3f0f",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "0d2b132e5e779edb2e7a5233470147cc2ecf4b5c913db58fa2ed65a2506e3f0f"
+    },
+    {
+      "public_file": "case-terminal.json",
+      "public_redacted_sha256": "4f8d2a08be67a8e842b5c2dad40ce4df35c84cd80c7baf5e4b883310467ed6c8",
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "saved_source_record_sha256": "db56a394dd3e5a655dfa73d183860868581a173e8cef55b2e9a42e14c833ebc9"
+    },
+    {
+      "public_file": "text-reviews.json",
+      "public_redacted_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "public_file": "nvidia-audits.json",
+      "public_redacted_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "public_file": "node-snapshot-manifest.json",
+      "public_redacted_sha256": "b8518fb2e36b78086ccec3d46833cd2af1e6cfac7d9d70ed99e2f072937ca09b",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "0515de257fba95f9689204f0bfabef13b591fc1fd8ac20a73252728b12730225"
+    },
+    {
+      "public_file": "collection-hashes.json",
+      "public_redacted_sha256": "5d0ebf19ccd469502cecfd23f741a8c3f3ad10d04698a897f947425740f7ca2a",
+      "removed_fields": 10,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "1b03ea44fd9d7c05eb4acf18b3fb1aff89604676cf4775aab60a7f3c07bbe24e"
+    },
+    {
+      "public_file": "native-requests.jsonl",
+      "public_redacted_sha256": "f2e959e35f1cdb7224eebe98fe908779817681e9b6234899278db209ea70a631",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "saved_source_record_sha256": "51f7dc00efd7839e6f6bbbb3b29fcca183c3b1c0539c999aab3aeb78cf60c7e3"
+    }
+  ],
+  "run_id": "run_a91b07dc509b41d799875be004044045",
+  "scope": "actual failed guided compact semantic-affordance workflow on two known public Met photos; NOT blind ceramic accuracy, natural Skills gain, calibrated genuineness or successful report",
+  "snapshot_readonly_on_node": true,
+  "source_file_count": 270,
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9",
+  "source_records_unchanged": true,
+  "workflow_state": "failed",
+  "root_phase_trace_addition": {
+    "file": "phase-trace.json",
+    "root_original_sha256": "19d53c3e333e9a918b499677202ebf03d7e01c2ddbf3aba290e7c195f0cc4eef",
+    "public_sha256": "19d53c3e333e9a918b499677202ebf03d7e01c2ddbf3aba290e7c195f0cc4eef",
+    "changes": "absolute runtime and local paths removed, original outcome/timing/outputs metadata unchanged; original node snapshot separately bound"
+  }
+}

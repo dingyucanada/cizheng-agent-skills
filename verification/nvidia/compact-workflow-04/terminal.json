@@ -1,0 +1,34 @@
+{
+  "active_business_counts": {
+    "nvidia_audits": 0,
+    "research_runs": 0,
+    "text_reviews": 0
+  },
+  "assessment_present": false,
+  "build_opinion_called": false,
+  "case_id": "case_bc5886fe6a704c3d897a98ed07d9acbd",
+  "clock_scope": {
+    "backend_event_at": "Spark node Unix epoch seconds",
+    "client_clock": "not used or mixed into server/native request timing",
+    "cuda_elapsed_ms": "CUDA current-stream event generation interval",
+    "native_at": "same Spark node Unix epoch seconds",
+    "native_seconds": "native worker monotonic elapsed seconds"
+  },
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "model_calls": 6,
+  "model_requests_sent": 0,
+  "native_completed_record_count": 31,
+  "native_generation_in_progress": false,
+  "native_log_node_original_sha256": "51f7dc00efd7839e6f6bbbb3b29fcca183c3b1c0539c999aab3aeb78cf60c7e3",
+  "native_log_stable_for_seconds": 2,
+  "nvidia_audit_record_count": 0,
+  "observed_at": 1790584615.9952395,
+  "run_id": "run_a91b07dc509b41d799875be004044045",
+  "scope": "timestamped real failed workflow and stable completed native log; no new model calls/restart/test changes",
+  "server_run_seconds": 141.78334259986877,
+  "source_file_count": 270,
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9",
+  "state": "failed",
+  "text_review_record_count": 0,
+  "tool_calls": 10
+}

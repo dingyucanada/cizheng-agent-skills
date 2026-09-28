@@ -1,0 +1,44 @@
+{
+  "actual_runtime_proof": {
+    "exact_runtime_prefix": "[private location or secret removed]",
+    "model_calls": 0,
+    "module_priority_proven_by_actual_file": true,
+    "modules": {
+      "evidence": {
+        "module_file": "[private location or secret removed]",
+        "sha256": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6"
+      },
+      "register": {
+        "module_file": "[private location or secret removed]",
+        "sha256": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba"
+      }
+    },
+    "network_disabled": true,
+    "nvidia_nat_version": "1.9.0",
+    "profiler_version": null,
+    "pythonpath": "[private location or secret removed]",
+    "source_binding_probe_only": true,
+    "track_function_module": "cizheng_nat.register"
+  },
+  "dependency_or_profiler_installation": false,
+  "package_editable_configuration_changed": false,
+  "public_binding": {
+    "actual_isolated_runtime_module_file_and_sha_verified": true,
+    "enabled": true,
+    "method": "explicit-PYTHONPATH-prioritized-new-readonly-stage",
+    "model_calls": 0,
+    "module_sha256": {
+      "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+      "integrations/nvidia_nat/src/cizheng_nat/register.py": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba"
+    },
+    "network_disabled_in_probe": true,
+    "no_profiler_or_dependency_installation": true,
+    "nvidia_nat_version": "1.9.0",
+    "optional_profiler_fallback_used": true,
+    "profiler_version": null,
+    "runtime_binding_is_not_evidence_workflow_execution": true
+  },
+  "recorded_at": 1790583878.1245646,
+  "scope": "actual isolated NAT Python module import before backend restart; no graph/model execution",
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9"
+}

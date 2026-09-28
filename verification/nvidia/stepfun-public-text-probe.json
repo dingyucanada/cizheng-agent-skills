@@ -1,0 +1,42 @@
+{
+  "kind": "actual-application-stepfun-adapter-probe",
+  "scope": "public-text-interface-only; not full agent workflow or professional accuracy",
+  "model": {
+    "provider": "stepfun-text-only",
+    "model": "step-3.7-flash",
+    "endpoint": "https://api.stepfun.com/step_plan/v1"
+  },
+  "text_only": true,
+  "images_sent": false,
+  "packet_sha256": "3d0b5fc05be002e8f480464570d5d136fff84139b7c842e011e6811ba358b9bf",
+  "schema_valid": true,
+  "reference_ids_valid": true,
+  "result": {
+    "issues": [
+      {
+        "claim_dimension": "period",
+        "concern": "公开馆藏资料仅能证明对应馆藏器物的年代，无法直接外推外观相似的其他待鉴器物的制作年代，当前依据不足",
+        "reference_ids": [
+          "met-48607-public-record"
+        ]
+      }
+    ],
+    "suggested_evidence": "需补充待鉴器物的高清实物影像、可对应断代的工艺特征比对材料及来源传承凭证",
+    "limitations": [
+      "未查看原图"
+    ]
+  },
+  "usage": {
+    "cached_tokens": 64,
+    "prompt_tokens": 311,
+    "completion_tokens": 625,
+    "total_tokens": 936,
+    "prompt_tokens_details": {
+      "cached_tokens": 64
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "elapsed_seconds": 4.829
+}

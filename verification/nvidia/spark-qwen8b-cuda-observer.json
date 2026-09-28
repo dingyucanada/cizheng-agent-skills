@@ -1,0 +1,73 @@
+{
+  "scope": "real single synthetic-image GPU generation and CUDA observer compatibility; NOT domain accuracy or Agent success",
+  "source_directory": "native-eightb-stage-20260928",
+  "client_wall_seconds": 0.5527216320624575,
+  "image_sha256": "6e878563d76d793249e4bfd4c4f854ef26d9d03c17d9e2107fd4cad31532602f",
+  "response": {
+    "id": "chatcmpl-42969735fcdd4b70a1bdcd787edb1392",
+    "object": "chat.completion",
+    "created": 1790571674,
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"color\":\"red\"}"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "cizheng_runtime": {
+      "wall_seconds": 0.5501831329893321,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 542.1470947265625,
+        "max_memory_allocated_bytes": 17614917120,
+        "max_memory_reserved_bytes": 17825792000,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      }
+    },
+    "usage": {
+      "prompt_tokens": 113,
+      "completion_tokens": 6,
+      "total_tokens": 119
+    }
+  },
+  "matching_request_log": {
+    "at": 1790571674.5131996,
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "prompt_tokens": 113,
+    "completion_tokens": 6,
+    "image_count": 1,
+    "images": [
+      {
+        "sha256": "6e878563d76d793249e4bfd4c4f854ef26d9d03c17d9e2107fd4cad31532602f",
+        "bytes": 357
+      }
+    ],
+    "temperature": 0.1,
+    "max_tokens": 2500,
+    "seconds": 0.5501831329893321,
+    "cuda": {
+      "status": "measured",
+      "device_index": 0,
+      "elapsed_ms": 542.1470947265625,
+      "max_memory_allocated_bytes": 17614917120,
+      "max_memory_reserved_bytes": 17825792000,
+      "timing_scope": "generate_current_stream_cuda_event_interval",
+      "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+      "memory_peak_scope": "allocator_reported_high_water_marks",
+      "allocator_backend": "native",
+      "memory_is_total_system_usage": false
+    },
+    "response_sha256": "241889ca0604e33386e9c98ce9b9df036a8d1b1382b710bdef285efe4e943727"
+  },
+  "log_metrics_match_response": true,
+  "measured_on_gpu": true
+}

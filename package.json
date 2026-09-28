@@ -1,7 +1,7 @@
 {
   "name": "cizheng-agent-skills-checks",
   "private": true,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Reproducible browser DOM checks for the public teaching experience",
   "scripts": {
     "test:web": "node --test --test-timeout=30000 tests/public_demo*.mjs"

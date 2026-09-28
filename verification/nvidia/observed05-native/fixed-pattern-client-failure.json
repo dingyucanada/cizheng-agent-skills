@@ -1,0 +1,55 @@
+{
+  "all_native_source_bytes_unchanged": true,
+  "automatic_retry_performed": false,
+  "client_elapsed_seconds": 90.09024107002188,
+  "client_finish_reason": null,
+  "client_response_body_sha256": null,
+  "client_response_text_sha256": null,
+  "client_usage": null,
+  "explicit_model_request_sent": true,
+  "failure_type": "TimeoutError",
+  "format_probe_end_to_end_passed": false,
+  "http_generation_requests_attempted": 1,
+  "http_response_received": false,
+  "http_timeout_seconds": 90,
+  "native_module_manifest_sha256": "aa7c9f24660a8d736bbd72a21d9d69e28b0b63daea9989caf04e8dbca32e8e08",
+  "node_request_ended_at": 1790589211.262501,
+  "node_request_started_at": 1790589121.172258,
+  "probe_succeeded": false,
+  "request_sha256": "1b0d6cdc7de470023ea0538eb42eb5e8172de1a5c2f2a9fd9e7286f268e3714c",
+  "requested_max_tokens": 80,
+  "requested_temperature": 0,
+  "schema": {
+    "additionalProperties": false,
+    "properties": {
+      "v": {
+        "maxLength": 40,
+        "minLength": 1,
+        "pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+        "type": "string"
+      }
+    },
+    "required": [
+      "v"
+    ],
+    "type": "object"
+  },
+  "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+  "schema_sha256": "88cae9cee3ed63846e0c49ad5ab23bf7fd14818218cd1b38caa614c5bf6e0c99",
+  "scope": "one adversarial lexical-format synthetic GPU probe, not ceramic quality or professional evaluation",
+  "separate_local_path_failure": {
+    "SSH_HTTP_model_requests": 0,
+    "before_node_probe": true,
+    "local_receipt_sha256": "8e3e82b6fc0c4b8742f542636f292ab5d4189e8e54e782ef5c82506ae9fb57ce",
+    "not_a_GPU_failure": true
+  },
+  "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5",
+  "synthetic_image_bytes": 403,
+  "synthetic_image_dimensions": [
+    128,
+    128
+  ],
+  "synthetic_image_sha256": "9b5d2bc0516a2749576352b9c38c6e9f88d2db423d8a187c1c003034b2136b3c",
+  "synthetic_only_not_domain_quality": true,
+  "worker_was_still_running_at_client_timeout": true
+}

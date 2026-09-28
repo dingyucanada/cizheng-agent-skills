@@ -1,0 +1,66 @@
+{
+  "scope": "Actual ModelScope-downloaded weight file identities compared with independently read Qwen official Hugging Face LFS public pointers; this does not claim the two mutable repository revisions are generally identical",
+  "downloaded_from": "https://modelscope.cn/models/Qwen/Qwen3-VL-8B-Instruct",
+  "actual_files_manifest_sha256": "1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "official_pointer_revision": "main (mutable)",
+  "official_pointer_identity_source": "independent public-source review on 2026-09-28; no authenticated request",
+  "official_tensor_index": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/blob/main/model.safetensors.index.json",
+  "official_tensor_total_bytes": 17534247392,
+  "official_weight_file_total_bytes": 17534339512,
+  "all_four_weight_files_match": true,
+  "files": [
+    {
+      "path": "model-00001-of-00004.safetensors",
+      "official_public_pointer": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/raw/main/model-00001-of-00004.safetensors",
+      "official_pointer_identity": {
+        "bytes": 4902275944,
+        "sha256": "d5d0aef0eb170fc7453a296c43c0849a56f510555d3588e4fd662bb35490aefa"
+      },
+      "actual_downloaded_identity": {
+        "sha256": "d5d0aef0eb170fc7453a296c43c0849a56f510555d3588e4fd662bb35490aefa",
+        "bytes": 4902275944
+      },
+      "matches_official_pointer": true
+    },
+    {
+      "path": "model-00002-of-00004.safetensors",
+      "official_public_pointer": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/raw/main/model-00002-of-00004.safetensors",
+      "official_pointer_identity": {
+        "bytes": 4915962496,
+        "sha256": "8be88fb5501e4d5719a6d4cc212e6a13480330e74f3e8c77daa1a68f199106b5"
+      },
+      "actual_downloaded_identity": {
+        "sha256": "8be88fb5501e4d5719a6d4cc212e6a13480330e74f3e8c77daa1a68f199106b5",
+        "bytes": 4915962496
+      },
+      "matches_official_pointer": true
+    },
+    {
+      "path": "model-00003-of-00004.safetensors",
+      "official_public_pointer": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/raw/main/model-00003-of-00004.safetensors",
+      "official_pointer_identity": {
+        "bytes": 4999831048,
+        "sha256": "83de00eafe6e0d57ccd009dbcf71c9974d74df2f016c27afb7e95aafd16b2192"
+      },
+      "actual_downloaded_identity": {
+        "sha256": "83de00eafe6e0d57ccd009dbcf71c9974d74df2f016c27afb7e95aafd16b2192",
+        "bytes": 4999831048
+      },
+      "matches_official_pointer": true
+    },
+    {
+      "path": "model-00004-of-00004.safetensors",
+      "official_public_pointer": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/raw/main/model-00004-of-00004.safetensors",
+      "official_pointer_identity": {
+        "bytes": 2716270024,
+        "sha256": "0a88b98e9f96270973f567e6a2c103ede6ccdf915ca3075e21c755604d0377a5"
+      },
+      "actual_downloaded_identity": {
+        "sha256": "0a88b98e9f96270973f567e6a2c103ede6ccdf915ca3075e21c755604d0377a5",
+        "bytes": 2716270024
+      },
+      "matches_official_pointer": true
+    }
+  ],
+  "recorded_at": 1790571530.542168
+}

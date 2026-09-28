@@ -1,0 +1,184 @@
+{
+  "all_selected_bytes_verified": true,
+  "case_count_before": 4,
+  "compact_action_harness_verified": true,
+  "compact_actions": true,
+  "deployment_succeeded": true,
+  "guided_workflow": true,
+  "live_backend_cwd_matches_selected": true,
+  "model_requests_sent": 0,
+  "model_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "nat_runtime_binding": {
+    "actual_isolated_runtime_module_file_and_sha_verified": true,
+    "enabled": true,
+    "method": "explicit-PYTHONPATH-prioritized-new-readonly-stage",
+    "model_calls": 0,
+    "module_sha256": {
+      "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+      "integrations/nvidia_nat/src/cizheng_nat/register.py": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba"
+    },
+    "network_disabled_in_probe": true,
+    "no_profiler_or_dependency_installation": true,
+    "nvidia_nat_version": "1.9.0",
+    "optional_profiler_fallback_used": true,
+    "profiler_version": null,
+    "runtime_binding_is_not_evidence_workflow_execution": true
+  },
+  "native_active_source_matches_selected": {
+    "integrations/spark_transformers/__init__.py": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+    "integrations/spark_transformers/adapter.py": "3c48276ae329bd83a0d7aec92662ae2ba82c74d0fe7d409a597f416a187853db",
+    "integrations/spark_transformers/cuda_metrics.py": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+    "integrations/spark_transformers/requirements-gpu.txt": "df72b2b6f1c0b0443a4d8178983ecba7c8450d8756e7e8b8ee60802947fe52c9",
+    "integrations/spark_transformers/start.sh": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+    "integrations/spark_transformers/structured_generation.py": "8ec18cb7955f53a5fbe271540b2a8a409c90ba5fa4e919a4216b11ef33b113e1"
+  },
+  "native_eightb_session_unchanged": true,
+  "native_log_stable_for_seconds": 2,
+  "native_or_2b_restart_requested": false,
+  "native_worker_idle_guard_passed": true,
+  "no_active_run_or_text_review_or_nat_guard_passed": true,
+  "post_deploy_health": {
+    "failure_type": null,
+    "generation_in_progress": false,
+    "gpu": {
+      "arch_list": [
+        "sm_80",
+        "sm_90",
+        "sm_100",
+        "sm_110",
+        "sm_120"
+      ],
+      "bfloat16_matrix_multiply_passed": true,
+      "capability": [
+        12,
+        1
+      ],
+      "cuda_runtime": "13.0",
+      "device": "NVIDIA GB10",
+      "float32_matrix_multiply_passed": true,
+      "synthetic_image_generation_passed": true,
+      "torch": "2.14.0+cu130",
+      "warmup_completion_tokens": 2,
+      "warmup_is_domain_evaluation": false,
+      "warmup_seconds": 0.8074779700255021
+    },
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "status": "ready",
+    "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+  },
+  "public_status": {
+    "app_version": "0.6.0",
+    "harness": {
+      "action_transport": {
+        "alternative_text_policy": "nonblank-nonpunctuation-model-authored",
+        "citation_exposure": "successful-main-canonical-body-exposure",
+        "decoder_schema_sha256": {
+          "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+          "plain/visual_research": "21804747bab80ef2685bd9b32795fe880f563ec1a3c745786622f40b2107b4bf",
+          "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+          "skills/visual_research": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec"
+        },
+        "effective_by_task": {
+          "documentary_audit": false,
+          "visual_research": true
+        },
+        "inventory_limits": {
+          "knowledge_read_indexes": 20,
+          "observation_ids": 48,
+          "reference_ids": 10
+        },
+        "metadata_fields": [
+          "document_id",
+          "document_revision",
+          "document_sha256",
+          "chunk_id",
+          "chunk_sha256",
+          "locator"
+        ],
+        "protocol": "compact-visual-metadata-v1",
+        "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+        "scope": "visual_research-only",
+        "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+      },
+      "budgets": "original-run-and-episode-limits",
+      "compact_actions": true,
+      "documentary_preparation": [
+        "read_case"
+      ],
+      "first_image_batch_max": 4,
+      "guided_workflow": true,
+      "knowledge_prefetch_max_chunks": 2,
+      "knowledge_scope": "case-pinned-fixed-versions-only",
+      "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+      "natural_skill_discovery": false,
+      "parent_skill": "evidence-revise",
+      "preparation_actor": "coordinator",
+      "strategy": "coordinator-preparation-v1",
+      "visual_skills": [
+        "ceramic-route",
+        "ceramic-research-record"
+      ]
+    },
+    "model": {
+      "generation": {
+        "compact_actions": true,
+        "disable_thinking": false,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "structured_output_contract": {
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "21804747bab80ef2685bd9b32795fe880f563ec1a3c745786622f40b2107b4bf",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec"
+          },
+          "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+          "host_only_constraints": {
+            "numeric": [
+              "minimum",
+              "maximum",
+              "exclusiveMinimum",
+              "exclusiveMaximum",
+              "multipleOf"
+            ],
+            "semantic": [
+              "cross-field",
+              "skill-workflow",
+              "fixed-evidence",
+              "permission"
+            ]
+          },
+          "purpose": "action",
+          "schema_name": "cizheng_actions",
+          "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+          "trigger": "first-system-exact-system_prompt(mode,research_task)"
+        },
+        "structured_outputs": true,
+        "temperature": 0.1
+      },
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "provider": "local-openai-compatible",
+      "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+    },
+    "model_adapter": "local",
+    "model_configured": true,
+    "nvidia_nat_configured": true,
+    "nvidia_nat_scope": "offline_saved_report_reference_identity_only",
+    "phase": "开发版；模型已配置不代表已通过视觉或Spark验收",
+    "text_review_configured": true,
+    "text_review_model": {
+      "model": "step-3.7-flash",
+      "provider": "stepfun-text-only"
+    }
+  },
+  "recorded_at": 1790583879.2330575,
+  "running_native_module_path_verified": true,
+  "same_case_data_retained": true,
+  "source_file_count": 270,
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9",
+  "structured_outputs": true
+}

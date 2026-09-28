@@ -3,8 +3,9 @@ name: documentary-evidence-audit
 description: >-
   核查本案已许可文字凭据与固定版本知识材料的陈述关系。用于文字凭据核查任务，可无照片；不认证文书、历史经历、真伪或年代窑口风格归属。
 compatibility: Cizheng documentary_audit bounded reading tools; no OCR or expert model is bundled.
+allowed-tools: read_case read_case_records read_evidence_document search_knowledge read_knowledge read_skill_resource review_dependencies request_evidence record_documentary_findings build_opinion
 metadata:
-  version: "0.4.2"
+  version: 0.4.2
   required-tools: "read_case,read_case_records,read_evidence_document,search_knowledge,read_knowledge,record_documentary_findings,build_opinion"
   expert-review: "pending"
 ---

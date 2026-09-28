@@ -5,7 +5,7 @@ description: >-
   Not for unrelated attribution questions or deciding age from a worn appearance.
 compatibility: Requires Cizheng v0.3 inspect_images, inspect_region and evidence-request tools.
 metadata:
-  version: "0.3.0"
+  version: 0.3.0
   required-tools: "inspect_images,inspect_region,request_evidence,read_skill_resource"
   expert-review: "pending"
 ---

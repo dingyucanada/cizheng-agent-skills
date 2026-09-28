@@ -1,0 +1,986 @@
+{
+  "all_successful_model_calls_matched_native_caps": true,
+  "assessment_present": false,
+  "build_opinion_tool_called": false,
+  "calls": [
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 19.16732971102465,
+      "backend_event_at": 1790581699.884578,
+      "call_index": 1,
+      "expected_phase_max_tokens": 800,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "37210261dca26921417dd019462e7da4c235844b6b72df500b133e517c492ff7",
+      "native_generation": {
+        "at": 1790581699.8545997,
+        "completion_tokens": 204,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 19084.373046875,
+          "max_memory_allocated_bytes": 18357916160,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 800,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 2492,
+        "response_sha256": "115ff1b2cfe8b495ffaca92f49489f789c4bce2c21b23932f2fbdab911f7d9e9",
+        "seconds": 19.11256677401252,
+        "structured": {
+          "enabled": false
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "vision",
+      "response_sha256": "115ff1b2cfe8b495ffaca92f49489f789c4bce2c21b23932f2fbdab911f7d9e9",
+      "usage": {
+        "completion_tokens": 204,
+        "finish_reason": "stop",
+        "prompt_tokens": 2492,
+        "total_tokens": 2696
+      }
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 48.85683596902527,
+      "backend_event_at": 1790581748.8260057,
+      "call_index": 2,
+      "expected_phase_max_tokens": 2500,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "d37bedcca0e477fdd9ab0e07c5f8d597897aae4a82bd943c57cc07b0eb74106a",
+      "native_generation": {
+        "at": 1790581748.6925952,
+        "completion_tokens": 350,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 48546.25390625,
+          "max_memory_allocated_bytes": 21237481472,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 13796,
+        "response_sha256": "e15241e5f8cf8fb2c59baf8f50cd7be00ab5bb247cd059e5b228ff015cb5abb2",
+        "seconds": 48.64813605695963,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "action",
+      "response_sha256": "e15241e5f8cf8fb2c59baf8f50cd7be00ab5bb247cd059e5b228ff015cb5abb2",
+      "usage": {
+        "completion_tokens": 350,
+        "finish_reason": "stop",
+        "prompt_tokens": 13796,
+        "total_tokens": 14146
+      }
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 7.296306646079756,
+      "backend_event_at": 1790581756.207614,
+      "call_index": 3,
+      "expected_phase_max_tokens": 2500,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "f35c9838159313d0154a1cc7a6555cb4184bca708e19eac1e163b42b5006c867",
+      "native_generation": {
+        "at": 1790581756.177316,
+        "completion_tokens": 20,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 7149.052734375,
+          "max_memory_allocated_bytes": 21333509120,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 14179,
+        "response_sha256": "4dd95bf61b29f68d74954b89ab60b4fa05133775aa3f171a812708d73af3360e",
+        "seconds": 7.2383999560261145,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "action",
+      "response_sha256": "4dd95bf61b29f68d74954b89ab60b4fa05133775aa3f171a812708d73af3360e",
+      "usage": {
+        "completion_tokens": 20,
+        "finish_reason": "stop",
+        "prompt_tokens": 14179,
+        "total_tokens": 14199
+      }
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 8.955142642953433,
+      "backend_event_at": 1790581765.2568026,
+      "call_index": 4,
+      "expected_phase_max_tokens": 2500,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "feb67751df7caaca3d0ffaf1a4666c4e869593391425a639245586e4546600a4",
+      "native_generation": {
+        "at": 1790581765.220157,
+        "completion_tokens": 34,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 8788.4951171875,
+          "max_memory_allocated_bytes": 21268481024,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 13923,
+        "response_sha256": "84b8a6b5af1800670834eae6a8eb294ebf82ca19fb2981f237bd767523360458",
+        "seconds": 8.874705849098973,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "action",
+      "response_sha256": "84b8a6b5af1800670834eae6a8eb294ebf82ca19fb2981f237bd767523360458",
+      "usage": {
+        "completion_tokens": 34,
+        "finish_reason": "stop",
+        "prompt_tokens": 13923,
+        "total_tokens": 13957
+      }
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 16.48397494899109,
+      "backend_event_at": 1790581781.8333418,
+      "call_index": 5,
+      "expected_phase_max_tokens": 2500,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "694732c0b4b6cc06eebd29f9c00db1b2b7c57e42144aac7043c2728c8f7a4c9d",
+      "native_generation": {
+        "at": 1790581781.7750232,
+        "completion_tokens": 92,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 16315.8974609375,
+          "max_memory_allocated_bytes": 21300232704,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 14048,
+        "response_sha256": "8cb726eb22fd3b536f1bb85f6342d8de738532cfe4ea6464336445e31ace228c",
+        "seconds": 16.397926679928787,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "action",
+      "response_sha256": "8cb726eb22fd3b536f1bb85f6342d8de738532cfe4ea6464336445e31ace228c",
+      "usage": {
+        "completion_tokens": 92,
+        "finish_reason": "stop",
+        "prompt_tokens": 14048,
+        "total_tokens": 14140
+      }
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 52.28225210797973,
+      "backend_event_at": 1790581834.195739,
+      "call_index": 6,
+      "expected_phase_max_tokens": 2500,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "9c5faada1583eda929776f62e57a22f078a9242973a8bbf0ee8f88dd7b289fb7",
+      "native_generation": {
+        "at": 1790581834.062805,
+        "completion_tokens": 372,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 52000.81640625,
+          "max_memory_allocated_bytes": 21348438528,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 14231,
+        "response_sha256": "053f8f3d64052b9167e4d300603b05056c1495074a7d49d981dd3726b1698fd9",
+        "seconds": 52.0883359790314,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "action",
+      "response_sha256": "053f8f3d64052b9167e4d300603b05056c1495074a7d49d981dd3726b1698fd9",
+      "usage": {
+        "completion_tokens": 372,
+        "finish_reason": "stop",
+        "prompt_tokens": 14231,
+        "total_tokens": 14603
+      }
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 10.016048096003942,
+      "backend_event_at": 1790581844.3010488,
+      "call_index": 7,
+      "expected_phase_max_tokens": 2500,
+      "failure_type": null,
+      "finish_reason": "stop",
+      "finish_reason_observed_directly_by_backend": true,
+      "input_sha256": "33b16592750ffae56319a317602d662a28fc558254a645ca842b3bbe34807cd1",
+      "native_generation": {
+        "at": 1790581844.2627463,
+        "completion_tokens": 39,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 9841.1650390625,
+          "max_memory_allocated_bytes": 21451627008,
+          "max_memory_reserved_bytes": 23582474240,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 14644,
+        "response_sha256": "cf36875331cfcca29271d936be74f01967654bfed27d858defaf9e2e8f56d8ce",
+        "seconds": 9.930480304989032,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_match_status": "matched_response_hash",
+      "outcome": "succeeded",
+      "purpose": "action",
+      "response_sha256": "cf36875331cfcca29271d936be74f01967654bfed27d858defaf9e2e8f56d8ce",
+      "usage": {
+        "completion_tokens": 39,
+        "finish_reason": "stop",
+        "prompt_tokens": 14644,
+        "total_tokens": 14683
+      }
+    }
+  ],
+  "case_id": "case_ca04f0fbaab4473ba0a354b64d2e4b8c",
+  "client_poll_seconds": null,
+  "clock_scope": {
+    "backend_event_at": "Spark node Unix epoch seconds",
+    "client_clock": "not used or mixed into server/native request timing",
+    "cuda_elapsed_ms": "CUDA current-stream event generation interval",
+    "native_at": "same Spark node Unix epoch seconds",
+    "native_seconds": "native worker monotonic elapsed seconds"
+  },
+  "ended_at": 1790581844.336501,
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "final_run_saved_sanitized_sha256": "31597ebb35055c6dc21183e2e9b408b338a4cf82ec24233e9579fe707eb1d527",
+  "harness_changes": "guided coordinator preparation plus compact visual metadata protocol; no budget, native or model changes; not pure model comparison",
+  "image_derivations": [
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_a807e08716c04ced922f670770003b5e",
+          "original_height": 1200,
+          "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b",
+          "original_height": 1200,
+          "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        }
+      ],
+      "at": 1790581680.687044,
+      "purpose": "inspect_images"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a807e08716c04ced922f670770003b5e"
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b"
+        }
+      ],
+      "at": 1790581699.935474,
+      "purpose": null
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a807e08716c04ced922f670770003b5e"
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b"
+        }
+      ],
+      "at": 1790581748.877259,
+      "purpose": null
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a807e08716c04ced922f670770003b5e"
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b"
+        }
+      ],
+      "at": 1790581756.261085,
+      "purpose": null
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a807e08716c04ced922f670770003b5e"
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b"
+        }
+      ],
+      "at": 1790581765.304071,
+      "purpose": null
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a807e08716c04ced922f670770003b5e"
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b"
+        }
+      ],
+      "at": 1790581781.8789334,
+      "purpose": null
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_ab2fadf719804b99bf0863a04989c28a",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a807e08716c04ced922f670770003b5e"
+        },
+        {
+          "artifact_id": "media_dfd450c1301c4d14b964c34140aab5b8",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_a0ac5995412b4c32ba8dbc581bf7d40b"
+        }
+      ],
+      "at": 1790581834.2488005,
+      "purpose": null
+    }
+  ],
+  "model_calls": 7,
+  "model_identity_matches_runtime_and_weights_revision": true,
+  "native_binding": {
+    "all_backend_source_bytes_verified": true,
+    "backend_cwd_matches_snapshot": true,
+    "backend_readme_sha256": "24fd85c0d0617bbf977fae5f014ac25e0b499a9d066eb9a943c6d56a1c19c7dd",
+    "core_six_matches_backend": true,
+    "loaded_core_six_sha256": {
+      "integrations/spark_transformers/__init__.py": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+      "integrations/spark_transformers/adapter.py": "3c48276ae329bd83a0d7aec92662ae2ba82c74d0fe7d409a597f416a187853db",
+      "integrations/spark_transformers/cuda_metrics.py": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+      "integrations/spark_transformers/requirements-gpu.txt": "df72b2b6f1c0b0443a4d8178983ecba7c8450d8756e7e8b8ee60802947fe52c9",
+      "integrations/spark_transformers/start.sh": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+      "integrations/spark_transformers/structured_generation.py": "8ec18cb7955f53a5fbe271540b2a8a409c90ba5fa4e919a4216b11ef33b113e1"
+    },
+    "native_module_file_count": 13,
+    "native_module_manifest_sha256": "2a552e1973bc808ff80aa867e0c9f2bb0d84a65e9f6723b63cc3874188d0cf79",
+    "native_process_owned_and_module_path_matches": true,
+    "native_readme_not_executable": true,
+    "native_readme_sha256": "b2958307f955b12c5693af42b8880b3385a6738f95ea655d55d84351eacf3afe",
+    "native_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+    "observed_at": 1790582209.685249,
+    "run_harness_matches_live_status": true,
+    "scope": "actual running backend cwd and owned native Python child module verification; native README is a document and may differ from current backend docs",
+    "source_file_count": 238,
+    "source_manifest_sha256": "cc37996fed5d85f82bccc4e04b0a22140698fb215f14d73fa86f90d5184adfd6"
+  },
+  "native_log_node_original_sha256": "451ac5789214626b0d8595ec530040a671a256f3d66c71c2e4b5d965d9142521",
+  "native_log_saved_sanitized_sha256": "451ac5789214626b0d8595ec530040a671a256f3d66c71c2e4b5d965d9142521",
+  "native_model_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "native_worker_in_progress_at_terminal_capture": false,
+  "nvidia_audit_record_count": 0,
+  "nvidia_configuration_is_not_execution_evidence": true,
+  "nvidia_external_audit_api_execution_checked": true,
+  "nvidia_nat_configured": true,
+  "nvidia_tool_names_in_run": [],
+  "observation_visible_values": [
+    "青花瓷瓶，瓶身绘山水纹饰",
+    "青花瓷瓶，瓶身绘花篮纹饰"
+  ],
+  "observations_schema_accepted": 2,
+  "original_image_sha256": [
+    "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+    "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+  ],
+  "overall_budget": {
+    "model_calls": 12,
+    "seconds": 300,
+    "tool_calls": 20
+  },
+  "phase_caps": {
+    "action": 2500,
+    "vision": 800
+  },
+  "raw_photos_or_private_native_response_bodies_included": false,
+  "raw_response_bodies_included": false,
+  "read_knowledge_count": 1,
+  "reference_contract_not_satisfied": true,
+  "reference_snapshot_count": 0,
+  "run_harness_identity": {
+    "action_transport": {
+      "citation_exposure": "successful-main-canonical-body-exposure",
+      "decoder_schema_sha256": {
+        "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+        "plain/visual_research": "21804747bab80ef2685bd9b32795fe880f563ec1a3c745786622f40b2107b4bf",
+        "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+        "skills/visual_research": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec"
+      },
+      "effective_by_task": {
+        "documentary_audit": false,
+        "visual_research": true
+      },
+      "metadata_fields": [
+        "document_id",
+        "document_revision",
+        "document_sha256",
+        "chunk_id",
+        "chunk_sha256",
+        "locator"
+      ],
+      "protocol": "compact-visual-metadata-v1",
+      "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+      "scope": "visual_research-only"
+    },
+    "budgets": "original-run-and-episode-limits",
+    "compact_actions": true,
+    "documentary_preparation": [
+      "read_case"
+    ],
+    "first_image_batch_max": 4,
+    "guided_workflow": true,
+    "knowledge_prefetch_max_chunks": 2,
+    "knowledge_scope": "case-pinned-fixed-versions-only",
+    "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+    "natural_skill_discovery": false,
+    "parent_skill": "evidence-revise",
+    "preparation_actor": "coordinator",
+    "strategy": "coordinator-preparation-v1",
+    "visual_skills": [
+      "ceramic-route",
+      "ceramic-research-record"
+    ]
+  },
+  "run_id": "run_837db2e8d4db4aa29d1f23190e7f1431",
+  "scope": "actual compact guided public-photo failure; complete backend/native metadata; not successful report, calibrated genuineness, professional accuracy or natural Skills gain",
+  "server_run_seconds": 164.19969391822815,
+  "source_file_count": 238,
+  "source_manifest_sha256": "cc37996fed5d85f82bccc4e04b0a22140698fb215f14d73fa86f90d5184adfd6",
+  "started_at": 1790581680.1368048,
+  "state": "failed",
+  "terminal_active_business_counts": {
+    "nvidia_audits": 0,
+    "research_runs": 0,
+    "text_reviews": 0
+  },
+  "terminal_capture_observed_at": 1790582209.685306,
+  "terminal_snapshot_node_original_manifest": {
+    "recorded_at": 1790582209.6930668,
+    "records": {
+      "case-terminal.json": "e55f44a36407881edd1a1f4c28c675fc23a5384696660de33b44eb8b2e137dca",
+      "final-run.json": "e254750fbe93ac198a53200d6e7a357ed83a95d2d8389192929916b1d7602c3e",
+      "health.json": "9853c3ff19154c861f533435432a4006e4377811adf28ffc1bcce00a8e812b1e",
+      "native-requests.jsonl": "451ac5789214626b0d8595ec530040a671a256f3d66c71c2e4b5d965d9142521",
+      "nvidia-audits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "public-status.json": "8a700ca1ca0d6d77ed9b66de70cfffd85947ba51f8be3d9c3b54fef5f3ac374d",
+      "source-binding.json": "65fc18ab884ff8283ede687458f5dd2fbe8891172ed447f5085c2ba9412a02d2",
+      "terminal.json": "6ebf1eace5f082c633481058a618189fa7b03e22430f2d2f214671883356585b",
+      "text-reviews.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "scope": "original node snapshot byte hashes; no credentials/account files/raw photos/private native response bodies",
+    "snapshot_readonly": true,
+    "source_manifest_sha256": "cc37996fed5d85f82bccc4e04b0a22140698fb215f14d73fa86f90d5184adfd6"
+  },
+  "text_review_record_count": 0,
+  "tool_calls": 13,
+  "tool_sequence": [
+    "read_case",
+    "discover_skills",
+    "load_skill",
+    "load_skill",
+    "search_knowledge",
+    "read_knowledge",
+    "inspect_images",
+    "record_assessment",
+    "load_skill",
+    "retrieve_references",
+    "request_evidence",
+    "record_assessment",
+    "read_reference"
+  ],
+  "validation_errors": [
+    {
+      "at": 1790581748.863128,
+      "detail": "需加载归属比较技能",
+      "preceding_model_call_index": 2,
+      "stage": "workflow_requirement"
+    },
+    {
+      "at": 1790581834.2388508,
+      "detail": "参照必须实际读记录、看图片后才能引用",
+      "preceding_model_call_index": 6,
+      "stage": "evidence_contract"
+    },
+    {
+      "at": 1790581844.3281922,
+      "detail": "参照不存在或本地使用权限未确认",
+      "preceding_model_call_index": 7,
+      "stage": "evidence_contract"
+    }
+  ],
+  "versions": {
+    "app": "0.6.0",
+    "harness": {
+      "action_transport": {
+        "citation_exposure": "successful-main-canonical-body-exposure",
+        "decoder_schema_sha256": {
+          "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+          "plain/visual_research": "21804747bab80ef2685bd9b32795fe880f563ec1a3c745786622f40b2107b4bf",
+          "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+          "skills/visual_research": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec"
+        },
+        "effective_by_task": {
+          "documentary_audit": false,
+          "visual_research": true
+        },
+        "metadata_fields": [
+          "document_id",
+          "document_revision",
+          "document_sha256",
+          "chunk_id",
+          "chunk_sha256",
+          "locator"
+        ],
+        "protocol": "compact-visual-metadata-v1",
+        "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+        "scope": "visual_research-only"
+      },
+      "budgets": "original-run-and-episode-limits",
+      "compact_actions": true,
+      "documentary_preparation": [
+        "read_case"
+      ],
+      "first_image_batch_max": 4,
+      "guided_workflow": true,
+      "knowledge_prefetch_max_chunks": 2,
+      "knowledge_scope": "case-pinned-fixed-versions-only",
+      "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+      "natural_skill_discovery": false,
+      "parent_skill": "evidence-revise",
+      "preparation_actor": "coordinator",
+      "strategy": "coordinator-preparation-v1",
+      "visual_skills": [
+        "ceramic-route",
+        "ceramic-research-record"
+      ]
+    },
+    "knowledge_snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+    "mode": "skills",
+    "model": {
+      "generation": {
+        "compact_actions": true,
+        "disable_thinking": false,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "structured_output_contract": {
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "21804747bab80ef2685bd9b32795fe880f563ec1a3c745786622f40b2107b4bf",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "c3ec0c49db11ad2923b938d94dd6bda47bc72d2dde9c5bfba3111a3c8d921aec"
+          },
+          "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+          "host_only_constraints": {
+            "numeric": [
+              "minimum",
+              "maximum",
+              "exclusiveMinimum",
+              "exclusiveMaximum",
+              "multipleOf"
+            ],
+            "semantic": [
+              "cross-field",
+              "skill-workflow",
+              "fixed-evidence",
+              "permission"
+            ]
+          },
+          "purpose": "action",
+          "schema_name": "cizheng_actions",
+          "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+          "trigger": "first-system-exact-system_prompt(mode,research_task)"
+        },
+        "structured_outputs": true,
+        "temperature": 0.1
+      },
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "provider": "local-openai-compatible",
+      "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+    },
+    "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+    "prompt_hash": "e6c0f4f620e2d5c2e1d6c441000d8a9b5d53424f68c27ff367707007107a981f",
+    "research_task": "visual_research",
+    "skills": {
+      "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+      "ceramic-research-record": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed",
+      "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+      "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+      "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+      "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+      "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+    },
+    "source_hash": "ffe48aa3c78493b91d7fc179c860d2fa585edd0625fda4ce9049a71062731c8c",
+    "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+    "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+  }
+}

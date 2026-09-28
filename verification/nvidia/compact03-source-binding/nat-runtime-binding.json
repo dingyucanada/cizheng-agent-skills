@@ -1,0 +1,23 @@
+{
+  "actual_isolated_runtime_module_file_and_sha_verified": true,
+  "actual_runtime_version": "1.9.0",
+  "dependency_or_profiler_installation": false,
+  "enabled": true,
+  "method": "explicit-PYTHONPATH-prioritized-new-readonly-stage",
+  "model_calls": 0,
+  "module_files_verified_against_approved_repository_relative_files": true,
+  "module_sha256": {
+    "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+    "integrations/nvidia_nat/src/cizheng_nat/register.py": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba"
+  },
+  "network_disabled_in_probe": true,
+  "no_profiler_or_dependency_installation": true,
+  "nvidia_nat_version": "1.9.0",
+  "optional_profiler_fallback_used": true,
+  "package_editable_configuration_changed": false,
+  "profiler_version": null,
+  "recorded_at": 1790590860.6351225,
+  "runtime_binding_is_not_evidence_workflow_execution": true,
+  "scope": "Actual isolated NAT interpreter import/source binding only; no evidence graph/model workflow execution",
+  "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5"
+}

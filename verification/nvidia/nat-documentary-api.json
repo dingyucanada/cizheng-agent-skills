@@ -1,0 +1,104 @@
+{
+  "assessment_run_id": "run_d2e1298013da4ab6a82ecc64674a6c33",
+  "case_id": "case_3ea0cfcbc35342c4952cb966ae81e5a1",
+  "case_revision": 2,
+  "id": "nvaudit_58db46d343a443f593bb6be521c04015",
+  "notice": "只核对已读知识引用的版本、哈希和定位，不验证结论或真伪。",
+  "result": {
+    "assessment_run_id": "run_d2e1298013da4ab6a82ecc64674a6c33",
+    "case_id": "case_3ea0cfcbc35342c4952cb966ae81e5a1",
+    "case_revision": 2,
+    "checks": [
+      {
+        "citation": {
+          "chunk_id": "ksrc_c19dc9cc5cb69559e879f0ca_r1_p0001_8b11bba27793",
+          "chunk_sha256": "8b11bba277931a918f2c971362e4f141499f7ed5c670ea30d22ffabd8e876c18",
+          "document_id": "ksrc_c19dc9cc5cb69559e879f0ca",
+          "document_revision": 1,
+          "document_sha256": "4fab2f391bc7317aadf521ffe02d87fd73d6ad8bca3286811433439435b8c032",
+          "locator": "测试页第2节 · 手动录入第1段"
+        },
+        "claim_support_assessed": false,
+        "mismatched_fields": [],
+        "status": "valid_reference"
+      }
+    ],
+    "events": [
+      {
+        "event_sha256": "67e8997df1c54ddc517caa6a7f9e22d37f8f390891b19a5b7110a6c776817eb4",
+        "input_sha256": "9abf4728c8368ddd941ad47dbd8065898b9604029e38adba02e2f33d16028073",
+        "previous_event_sha256": null,
+        "sequence": 1,
+        "tool": "read_case"
+      },
+      {
+        "event_sha256": "fb4e89a60679e1f8a230243ae16bafe7ed19630cf442389367345bd8e93890b3",
+        "input_sha256": "96db67d9e9613f79d1b6233cdbc258f8c90d4fbb945fe4fa12c72a86c2f2554e",
+        "previous_event_sha256": "67e8997df1c54ddc517caa6a7f9e22d37f8f390891b19a5b7110a6c776817eb4",
+        "sequence": 2,
+        "tool": "read_saved_assessment_run"
+      },
+      {
+        "event_sha256": "9b645649120f091ff2ee63c41afb3caf0d04f3e721b712b69b74f49b47584ac0",
+        "input_sha256": "5b011944945afaa2260b81fd58eeb7cd34efc94a67e16282ffb1c2219171a0dd",
+        "previous_event_sha256": "fb4e89a60679e1f8a230243ae16bafe7ed19630cf442389367345bd8e93890b3",
+        "sequence": 3,
+        "tool": "reread_saved_snapshot_chunk"
+      },
+      {
+        "event_sha256": "aa3c8b108b84f195206033983801b6c3d049844463f8705a2971385325475a63",
+        "input_sha256": "1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b",
+        "previous_event_sha256": "9b645649120f091ff2ee63c41afb3caf0d04f3e721b712b69b74f49b47584ac0",
+        "sequence": 4,
+        "tool": "verify_read_citations"
+      }
+    ],
+    "expert_reviewed": false,
+    "inference_performed": false,
+    "limitations": [
+      "Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.",
+      "This audit checks knowledge citations, not visual reference_ids or document authenticity.",
+      "Reference integrity does not establish authenticity, ownership, date, or claim support.",
+      "Ranking scores are text matches, not credibility or confidence."
+    ],
+    "manifest_sha256": "75f03d877967b1ae28171cb26ba5601bad9366f071e3dc70802cfceed9754b83",
+    "mode": "deterministic_reference_integrity",
+    "nvidia_verified_skill": false,
+    "read_evidence": [
+      {
+        "chunk_id": "ksrc_c19dc9cc5cb69559e879f0ca_r1_p0001_8b11bba27793",
+        "chunk_sha256": "8b11bba277931a918f2c971362e4f141499f7ed5c670ea30d22ffabd8e876c18",
+        "content_kind": "authorized_text",
+        "document_id": "ksrc_c19dc9cc5cb69559e879f0ca",
+        "document_revision": 1,
+        "document_sha256": "4fab2f391bc7317aadf521ffe02d87fd73d6ad8bca3286811433439435b8c032",
+        "locator": "测试页第2节 · 手动录入第1段",
+        "ordinal": 1,
+        "original_agent_read": true,
+        "snippet_end": 21,
+        "snippet_start": 0,
+        "text": "软件协议：合成移交编号，本测试不认证文物。",
+        "truncated": false
+      }
+    ],
+    "result_sha256": "1f35eaa3ebe3f0a11b2a6885bdcdbfba5640cf0a5476f4917b9f2a9e3fb6f4c6",
+    "review_required": true,
+    "run_id": "nat_a3fe60b8343f4c2dbf09f1803ecffbd5",
+    "schema_version": 1,
+    "snapshot_sha256": "7dbf3d3d7bf16eaf9f96620b0ba588fdfbcfb665cc9dea9324f2f0d94f59509c",
+    "source_case_revision": 2,
+    "source_mode": "saved_assessment_run_snapshot",
+    "status": "references_verified",
+    "usage": {
+      "elapsed_seconds": 0.009369,
+      "max_model_calls": 0,
+      "max_seconds": 300.0,
+      "max_tool_calls": 20,
+      "model_calls": 0,
+      "tool_calls": 4
+    },
+    "verify_request_sha256": "8cd630d6319635cc35f8810d67e0934eb9840b289b44f3b097c44b2c4206a02d"
+  },
+  "source_case_revision": 2,
+  "state": "succeeded"
+}

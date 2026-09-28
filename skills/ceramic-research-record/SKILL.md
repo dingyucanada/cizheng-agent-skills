@@ -4,7 +4,7 @@ description: >-
   Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.
 compatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.
 metadata:
-  version: "0.4.0"
+  version: 0.4.0
   required-tools: "read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion"
   expert-review: "pending"
 ---

@@ -290,6 +290,7 @@ class Store:
                 raise Problem(413, '本案档案照片达到30张上限；单轮研究另选最多8张关键图')
             media = self.save_blob(db, raw, meta)
             media.update({k: body[k] for k in ('filename', 'view', 'edit_declaration', 'source')})
+            media['capture_role'] = body.get('capture_role', 'unknown')
             media['added_revision'] = case['revision'] + 1
             media['pixel_metrics'] = metrics
             media['view_verified'] = False
@@ -299,6 +300,22 @@ class Store:
             self.advance(db, case, 'photo', '保存原始照片；视角与处理情况由上传者声明')
             return {'case': case, 'media': media}
         return self.mutate('evidence:' + identifier, body, add)
+
+    def label_capture(self, identifier, media_id, body):
+        def label(db):
+            case = self.checked_case(db, identifier, body['expected_case_revision'])
+            media = next((m for m in case['media'] if m['id'] == media_id), None)
+            if media is None:
+                raise Problem(422, '视角标记只接受本案已保存的原照')
+            from .photo_report import CAPTURE_LABELS
+            if body['capture_role'] not in CAPTURE_LABELS:
+                raise Problem(422, '未知视角标记')
+            if media.get('capture_role', 'unknown') == body['capture_role'] and media['view'] == body['view']:
+                return case
+            media.update(capture_role=body['capture_role'], view=body['view'], view_verified=False)
+            return self.advance(db, case, 'capture_label', {'media_id': media_id,
+                'capture_role': body['capture_role'], 'notice': '操作人视角声明，不改变原图字节或认证画面。'})
+        return self.mutate('capture-label:' + identifier + ':' + media_id, body, label)
 
     def add_reference(self, body):
         raw, meta = decode_image(body['image_base64'])
@@ -493,6 +510,14 @@ class Store:
                     ep['seconds'] += elapsed
                     self.put(db, 'episode', ep)
                     self.put(db, 'text_review', latest)
+        for audit in self.listing('nvidia_audit'):
+            if audit['state'] in ('prepared', 'running'):
+                with self.tx() as db:
+                    latest = self.get(db, 'nvidia_audit', audit['id'])
+                    if latest['state'] in ('prepared', 'running'):
+                        latest.update(state='interrupted', result=None,
+                                      error='服务重启：NVIDIA引用核查已中断，未修改研究意见。')
+                        self.put(db, 'nvidia_audit', latest)
 
     @staticmethod
     def checked_review_method(case, body):

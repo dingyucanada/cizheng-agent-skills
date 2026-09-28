@@ -26,11 +26,16 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-          cache-dependency-path: requirements-tested.txt
+          cache-dependency-path: |
+            requirements-tested.txt
+            requirements-structured-tested.txt
       - name: Install tested dependencies
-        run: python -m pip install -r requirements-tested.txt
+        run: python -m pip install -r requirements-tested.txt -r requirements-structured-tested.txt
+      - name: Require actual structural parser dependencies
+        run: |
+          python -c "import jsonschema; from lmformatenforcer import JsonSchemaParser; from importlib.metadata import version; assert version('lm-format-enforcer') == '0.11.3'; assert version('interegular') == '0.3.3'"
       - name: Check backend contracts
-        run: python -m pytest -q -p no:cacheprovider
+        run: python -m pytest -q -p no:cacheprovider tests integrations/spark_transformers/tests
       - name: Set up Node
         uses: actions/setup-node@v7
         with:
@@ -42,3 +47,24 @@ jobs:
         run: npm ci --ignore-scripts
       - name: Check public experience contracts
         run: npm run test:web
+
+  nvidia-toolkit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      NAT_TELEMETRY_ENABLED: "false"
+      OTEL_SDK_DISABLED: "true"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up isolated Toolkit Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install official Toolkit and project plugin
+        run: python -m pip install -e 'integrations/nvidia_nat[eval,test]' 'PyYAML==6.0.3'
+      - name: Check real registered workflow boundaries and spans
+        run: python -m pytest -q -p no:cacheprovider tests/test_nvidia_nat.py tests/test_nvidia_profiler.py
+      - name: Run actual offline Toolkit profiler
+        run: python scripts/nvidia-nat-profile.py --output .tmp/ci-nat-profiler

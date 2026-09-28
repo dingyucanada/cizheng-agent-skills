@@ -1,0 +1,17 @@
+{
+  "recorded_at": 1790584616.0031693,
+  "records": {
+    "case-terminal.json": "6f39935fe044472c8f072257f21e1565a58754efc8a27be88eb800444548eae3",
+    "final-run.json": "2656064c7943ee70de35a212427d4f4b714f7e183915a75416f93d8a078ae378",
+    "health.json": "9853c3ff19154c861f533435432a4006e4377811adf28ffc1bcce00a8e812b1e",
+    "native-requests.jsonl": "51f7dc00efd7839e6f6bbbb3b29fcca183c3b1c0539c999aab3aeb78cf60c7e3",
+    "nvidia-audits.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "public-status.json": "b5e2cf02e5c2e485edac1350f86abccaa9a7e4efa44d88c204dcc263a01d3388",
+    "source-binding.json": "1f73bf4b7db43c9778793cf216efb55ebd7656b140ccdc3c80423de88a27ab77",
+    "terminal.json": "0d2b132e5e779edb2e7a5233470147cc2ecf4b5c913db58fa2ed65a2506e3f0f",
+    "text-reviews.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "scope": "original node snapshot byte hashes; no credentials/account files/raw photos/private native response bodies",
+  "snapshot_readonly": true,
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9"
+}

@@ -1,0 +1,10 @@
+# Additional CPU-only dependencies for actual schema/parser checks in CI.
+# Install after requirements-tested.txt; no CUDA or model packages are needed.
+attrs==26.1.0
+interegular==0.3.3
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+lm-format-enforcer==0.11.3
+numpy==2.2.6
+referencing==0.37.0
+rpds-py==2026.6.3

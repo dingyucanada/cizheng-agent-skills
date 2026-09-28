@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
+rootdir: [LOCAL_WORKSPACE]/work/dev-stages/source-dev-c006-compact-03
+configfile: pyproject.toml
+plugins: langsmith-0.14.1, platformdirs-4.12.0, anyio-4.15.1
+collected 22 items
+
+tests/test_nvidia_nat.py ................                                [ 72%]
+tests/test_nvidia_profiler.py ......                                     [100%]
+
+=============================== warnings summary ===============================
+tests/test_nvidia_profiler.py::test_real_registered_workflow_has_paired_nested_spans_and_keeps_case_scope
+  [LOCAL_WORKSPACE]/work/nvidia-nat-env/lib/python3.12/site-packages/nat/authentication/credential_validator/bearer_token_validator.py:25: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+  It will be compatible before version 2.0.0.
+    from authlib.jose import JsonWebKey
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 22 passed, 1 warning in 2.85s =========================

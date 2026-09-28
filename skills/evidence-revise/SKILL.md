@@ -5,7 +5,7 @@ description: >-
   or an approved text-critic result. Not for rereading an unchanged report.
 compatibility: Requires Cizheng v0.3 versioned cases, image tools and dependency-review tools.
 metadata:
-  version: "0.3.0"
+  version: 0.3.0
   required-tools: "review_dependencies,inspect_images,read_skill_resource,respond_critic,record_assessment"
   expert-review: "pending"
 ---

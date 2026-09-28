@@ -1,0 +1,25 @@
+{
+  "backend_failures_are_not_counted_as_native_failures": true,
+  "first_parser_precondition_failure": {
+    "before_restart_or_model_load": true,
+    "failure_type": "AssertionError",
+    "http_generation_requests_sent": 0
+  },
+  "later_forward_recovery_succeeded": true,
+  "native_failures_recorded": 2,
+  "one_forward_startup_with_automatic_synthetic_warmup": true,
+  "port_cause_status": "Initial failure errno and contemporaneous TIME_WAIT state were not captured; TIME_WAIT remains an unverified hypothesis",
+  "port_guard_failure": {
+    "failure_stage": "owned_eightb_restart",
+    "failure_type": "OSError",
+    "gpu_thread_never_cancelled_to_meet_deadline": true,
+    "http_generation_requests_sent": 0,
+    "old_stages_startup_and_all_logs_retained": true,
+    "previous_native_restored_and_gpu_warmup_ready": false,
+    "recorded_at": 1790586718.885584,
+    "rollback_deferred_or_unverified": true,
+    "rollback_failure_type": "OSError",
+    "transition_succeeded": false
+  },
+  "scope": "Deployment/control failures are recorded separately from model quality and backend failures"
+}

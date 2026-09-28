@@ -1,0 +1,103 @@
+{
+  "scope": "actual offline NAT1.9 CPU reference workflow using three public software fixtures; not Qwen/CUDA profile or ceramic accuracy",
+  "source_sha256": {
+    "integrations/nvidia_nat/src/cizheng_nat/register.py": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba",
+    "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+    "integrations/nvidia_nat/src/cizheng_nat/evaluators.py": "b775f85b99e32c1c4d29419a16e927513cbef957de4d0755110e1fec5b40aeb2",
+    "integrations/nvidia_nat/configs/evidence.yml": "5b312283ff568a43ea8e215d5c0087946c9e4f11edbfe10f5d80e8403199517f",
+    "scripts/nvidia-nat-verify.py": "4b7c2ddc76f7cf861fc118d9942b71527d7d003e425d7d8dbc0d3de6c4f9d4c0",
+    "scripts/nvidia-nat-profile.py": "9daa9dca33d8cab317ee1a12200af6cff001e53064414a831bf0f46fccde3d58"
+  },
+  "redactions": [
+    "absolute local output/workspace/home paths only; no opinion or timing edits"
+  ],
+  "trace_requests": 3,
+  "raw_events": 42,
+  "tracked_span_count": 9,
+  "native_function_count": 9,
+  "native_gantt_and_report_label_both_families_as_FUNCTION": true,
+  "native_total_calls_18_is_not_18_business_calls": true,
+  "native_concurrency_includes_nested_overlap_not_parallel_cases": true,
+  "configured_case_concurrency": 1,
+  "model_calls": 0,
+  "original_png_unmodified": true,
+  "files": [
+    {
+      "file": "profiler-status.json",
+      "original_sha256": "e194bbfa476774cd5fdfef716696865586ac96b35d0768230337f611d6ea7c95",
+      "public_sha256": "7969fc6c488149cd61f1c744902801952bc23d4cde395a59a88b9421e7088dd9",
+      "bytes": 11120,
+      "redacted": true
+    },
+    {
+      "file": "validate-network-audit.json",
+      "original_sha256": "db3733f6f5df32c8b80e7d5deadb621db84575dd04e4cbde27f82b0b92f81a9d",
+      "public_sha256": "db3733f6f5df32c8b80e7d5deadb621db84575dd04e4cbde27f82b0b92f81a9d",
+      "bytes": 65,
+      "redacted": false
+    },
+    {
+      "file": "eval-network-audit.json",
+      "original_sha256": "db3733f6f5df32c8b80e7d5deadb621db84575dd04e4cbde27f82b0b92f81a9d",
+      "public_sha256": "db3733f6f5df32c8b80e7d5deadb621db84575dd04e4cbde27f82b0b92f81a9d",
+      "bytes": 65,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/all_requests_profiler_traces.json",
+      "original_sha256": "6805892b5480d7b1bc28f39e38b9e23fcc995d95a5acf133335c30b85e893d14",
+      "public_sha256": "6805892b5480d7b1bc28f39e38b9e23fcc995d95a5acf133335c30b85e893d14",
+      "bytes": 126546,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/standardized_data_all.csv",
+      "original_sha256": "aa8363369643db18042b1e1733e4fef56b10c0d593cedc229aef8c851d16cb3e",
+      "public_sha256": "aa8363369643db18042b1e1733e4fef56b10c0d593cedc229aef8c851d16cb3e",
+      "bytes": 6697,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/gantt_chart.png",
+      "original_sha256": "16f23b095f37e3f6000b6f68a33f1367c9dce4e0b850e74a4fe1cfd4ee63da56",
+      "public_sha256": "16f23b095f37e3f6000b6f68a33f1367c9dce4e0b850e74a4fe1cfd4ee63da56",
+      "bytes": 120600,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/workflow_profiling_metrics.json",
+      "original_sha256": "90d764f20832627c10517a977d6ce0a9d78067bb0c34c0a3bfb60ff0f7651078",
+      "public_sha256": "90d764f20832627c10517a977d6ce0a9d78067bb0c34c0a3bfb60ff0f7651078",
+      "bytes": 14588,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/workflow_profiling_report.txt",
+      "original_sha256": "273ae941c0b34b27eebedb9e239fdb56cf9199958c78016b71419572cfee63bf",
+      "public_sha256": "273ae941c0b34b27eebedb9e239fdb56cf9199958c78016b71419572cfee63bf",
+      "bytes": 3248,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/workflow_output_atif.json",
+      "original_sha256": "827e250223916d96203dac80faec8080c4078d46de95e4f12b59f56c1793aacb",
+      "public_sha256": "827e250223916d96203dac80faec8080c4078d46de95e4f12b59f56c1793aacb",
+      "bytes": 62675,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/reference_contract_output.json",
+      "original_sha256": "1f10f30f51b95c8c91c177c83c4607fa9eeb5b4352589f44812175052df080ab",
+      "public_sha256": "1f10f30f51b95c8c91c177c83c4607fa9eeb5b4352589f44812175052df080ab",
+      "bytes": 674,
+      "redacted": false
+    },
+    {
+      "file": "nat-eval/llm_calls_output.json",
+      "original_sha256": "b98066f193fd5d2305e86da72e72252f457381bb079d6c56d3a80b6d32d924be",
+      "public_sha256": "b98066f193fd5d2305e86da72e72252f457381bb079d6c56d3a80b6d32d924be",
+      "bytes": 488,
+      "redacted": false
+    }
+  ]
+}

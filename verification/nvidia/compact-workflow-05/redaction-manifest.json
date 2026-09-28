@@ -1,0 +1,127 @@
+{
+  "records": [
+    {
+      "origins": [
+        {
+          "artifact_label": "final-run.json",
+          "local_sanitized_sha256": "e4509f695306901b2c5e68960189731a63a3f822d44591ae9127b7d15f16681a",
+          "node_original_sha256": "2617cf1b70326c992005c8f54b7c84c6e8e3c16ca56d03fd9c40c9b2ebc02597"
+        }
+      ],
+      "public_file": "node-final-run.json",
+      "public_sha256": "7944623f9d0885760d5bc5e9a5ac96cc2367a6bf2f6ff88d3027f7c28c4c54f4",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "root-local-client-final-run.json",
+          "local_source_sha256": "1c825f9392daf276409ec94a44429f08d1c4eed2ba1e9c439245ac321823e272",
+          "node_original_sha256": null
+        }
+      ],
+      "public_file": "local-client-final-run.json",
+      "public_sha256": "ecb7692bd2bf693f7382e513dd4b7187f34468616e5e123297ee1573e31d21ee",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "partial-native-trace.json",
+          "local_source_sha256": "df16c40f7644d5c368d7c63910cf47df76696080e46510f39823803ed8dd41a4"
+        },
+        {
+          "artifact_label": "native-requests.jsonl",
+          "local_sanitized_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff",
+          "node_original_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff"
+        },
+        {
+          "artifact_label": "final-run.json",
+          "local_sanitized_sha256": "e4509f695306901b2c5e68960189731a63a3f822d44591ae9127b7d15f16681a",
+          "node_original_sha256": "2617cf1b70326c992005c8f54b7c84c6e8e3c16ca56d03fd9c40c9b2ebc02597"
+        }
+      ],
+      "public_file": "phase-trace.json",
+      "public_sha256": "df16c40f7644d5c368d7c63910cf47df76696080e46510f39823803ed8dd41a4",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "terminal.json",
+          "local_sanitized_sha256": "6395a59a5266a137bf55b7da792fb3a3c4dfe123478983266a35a15abab851a6",
+          "node_original_sha256": "6395a59a5266a137bf55b7da792fb3a3c4dfe123478983266a35a15abab851a6"
+        },
+        {
+          "artifact_label": "final-run.json",
+          "local_sanitized_sha256": "e4509f695306901b2c5e68960189731a63a3f822d44591ae9127b7d15f16681a",
+          "node_original_sha256": "2617cf1b70326c992005c8f54b7c84c6e8e3c16ca56d03fd9c40c9b2ebc02597"
+        }
+      ],
+      "public_file": "captured-partial-status.json",
+      "public_sha256": "baddaa231a1b15e91e69d52fd418ea7603f9bfb50dadae2c630e07b9601e72fa",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "source-binding.json",
+          "local_sanitized_sha256": "a35caedd6ab32e7b6f1c579624034eab03de50a6bbdf765ace3c7f88b70a8348",
+          "node_original_sha256": "a35caedd6ab32e7b6f1c579624034eab03de50a6bbdf765ace3c7f88b70a8348"
+        }
+      ],
+      "public_file": "running-source-binding.json",
+      "public_sha256": "a35caedd6ab32e7b6f1c579624034eab03de50a6bbdf765ace3c7f88b70a8348",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "native-requests.jsonl",
+          "local_sanitized_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff",
+          "node_original_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff"
+        }
+      ],
+      "public_file": "partial-native-requests.json",
+      "public_sha256": "66507d8313882df3e2e46fc9471ed51132d49d3f2dd2eba053c7744bd3c4198f",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "compact-full-workflow-05-owned-worker-samples-01.json",
+          "local_sanitized_sha256": "7e259a4ce6ea1104e0e52968d49783e60bda877fa1678dd2b2b9f71e26201a0e",
+          "node_original_sha256": "7e259a4ce6ea1104e0e52968d49783e60bda877fa1678dd2b2b9f71e26201a0e"
+        }
+      ],
+      "public_file": "owned-worker-samples.json",
+      "public_sha256": "e85f28bda1bb211d2841bb8e00d9ea5a68428326b8b62256f9ccfc0ae4be822f",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [
+        {
+          "artifact_label": "root-public-source-manifest.json",
+          "local_source_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58"
+        },
+        {
+          "artifact_label": "final-run.json",
+          "local_sanitized_sha256": "e4509f695306901b2c5e68960189731a63a3f822d44591ae9127b7d15f16681a",
+          "node_original_sha256": "2617cf1b70326c992005c8f54b7c84c6e8e3c16ca56d03fd9c40c9b2ebc02597"
+        }
+      ],
+      "public_file": "input-provenance.json",
+      "public_sha256": "feb60298ac5207f1fa747e6a4debde8c0c42367b1f4121ea72ed94b12c05a3cc",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    },
+    {
+      "origins": [],
+      "public_file": "README.md",
+      "public_sha256": "756128d4ff5bf7f0aff0162e03ac40a86b638999ebbcb7e50bb3359e98167bed",
+      "transformation": "Explicit redaction of operational locations, identities and credential fields"
+    }
+  ],
+  "removed": "Node/account/process identity, operational addresses, machine locations and credential fields",
+  "scope": "Immutable public partial evidence; node-original, collected-sanitized and public hashes are distinct",
+  "unknowns_retained": "Call4 native completion, structure, usage, response digest and finish remain unknown at capture"
+}

@@ -72,7 +72,7 @@ def build_payloads():
         'skills.json': {'skills': skills},
         'knowledge.json': {'notice': '项目原创来源摘要，待专家审核，不是鉴定真值', 'sources': sources},
         'sources.json': objects,
-        'project.json': {'name': '瓷证', 'version': '0.5.0', 'mode': 'public_teaching',
+        'project.json': {'name': '瓷证', 'version': '0.6.0', 'mode': 'public_teaching',
                          'ai_inference_performed': False, 'model_calls': 0,
                          'repository': 'https://github.com/dingyucanada/cizheng-agent-skills',
                          'cases': len(objects['objects']), 'skills': len(skills), 'sources': len(sources)},

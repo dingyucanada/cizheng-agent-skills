@@ -1,0 +1,45 @@
+{
+  "RSS_scope": "Owned process resident pages; not model allocation or total device memory",
+  "actual_owner_module_argv_pythonpath_verified": true,
+  "clock_ticks_per_second": 100,
+  "cpu_time_scope": "Cumulative owned process CPU time including its threads; no attribution to a specific callback or phase",
+  "cuda_event_scope": "Generate interval may include host submission gaps; these samples cannot establish a CPU root cause",
+  "model_instrumentation_performed": false,
+  "model_requests_sent": 0,
+  "native_module_file_count": 13,
+  "native_module_manifest_sha256": "aa7c9f24660a8d736bbd72a21d9d69e28b0b63daea9989caf04e8dbca32e8e08",
+  "native_request_log_record_count": 4,
+  "native_request_log_sha256_at_observation": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff",
+  "observed_at": 1790591492.8143528,
+  "other_team_processes_read": false,
+  "process_cpu_percent_of_one_core": 98.49402564265404,
+  "process_cpu_seconds_delta": 3.07,
+  "process_cpu_ticks_delta": 307,
+  "sample_interval_seconds": 3.116940321982838,
+  "samples": [
+    {
+      "anonymous_gpu_summary_failure_type": "ValueError",
+      "health_status": "ready",
+      "native_generation_in_progress": true,
+      "observed_at": 1790591489.6774178,
+      "process_state": "S",
+      "rss_bytes": 2832232448,
+      "system_cpu_ticks": 2290,
+      "user_cpu_ticks": 73124,
+      "virtual_size_bytes": 51359227904
+    },
+    {
+      "anonymous_gpu_summary_failure_type": "ValueError",
+      "health_status": "ready",
+      "native_generation_in_progress": true,
+      "observed_at": 1790591492.7943585,
+      "process_state": "S",
+      "rss_bytes": 2832232448,
+      "system_cpu_ticks": 2291,
+      "user_cpu_ticks": 73430,
+      "virtual_size_bytes": 51359227904
+    }
+  ],
+  "scope": "Read-only two-sample metadata of the verified owned model process; not root-cause diagnosis or tokenizer benchmark",
+  "signals_sent": false
+}

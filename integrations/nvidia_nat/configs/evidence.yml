@@ -1,0 +1,15 @@
+# Run from the project root. This workflow has no LLM/provider/exporter.
+functions:
+  evidence_retrieve:
+    _type: cizheng_evidence_retrieve
+    data_dir: ${CIZHENG_DATA_DIR:-./data}
+    max_tool_calls: 20
+    max_seconds: 300
+  evidence_verify:
+    _type: cizheng_evidence_verify
+    data_dir: ${CIZHENG_DATA_DIR:-./data}
+llms: {}
+workflow:
+  _type: cizheng_evidence_workflow
+  retrieve: evidence_retrieve
+  verify: evidence_verify

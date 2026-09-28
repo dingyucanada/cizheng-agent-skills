@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "scope": "real local NAT integration; deterministic software contract only",
+  "nvidia_nat_version": "1.9.0",
+  "plugin_version": "0.1.0",
+  "telemetry_enabled": false,
+  "remote_exporters_configured": false,
+  "dataset_items": 3,
+  "reference_contract_average": 1.0,
+  "llm_calls_average": 0.0,
+  "workflow_runtime_average_seconds": 0.01,
+  "commands": [
+    {
+      "name": "telemetry",
+      "exit_code": 0,
+      "seconds": 1.424
+    },
+    {
+      "name": "discovery",
+      "exit_code": 0,
+      "seconds": 1.722
+    },
+    {
+      "name": "evaluator-discovery",
+      "exit_code": 0,
+      "seconds": 1.494
+    },
+    {
+      "name": "validate",
+      "exit_code": 0,
+      "seconds": 1.551
+    },
+    {
+      "name": "run",
+      "exit_code": 0,
+      "seconds": 2.19
+    },
+    {
+      "name": "validate-eval",
+      "exit_code": 0,
+      "seconds": 1.518
+    },
+    {
+      "name": "eval",
+      "exit_code": 0,
+      "seconds": 1.874
+    }
+  ],
+  "nvidia_verified_skill": false,
+  "ai_efficacy_or_ceramic_accuracy_measured": false
+}

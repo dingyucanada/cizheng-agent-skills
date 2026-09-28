@@ -1,0 +1,46 @@
+{
+  "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5",
+  "source_files": 296,
+  "scope": "immutable development compact03; separate real environments; no model calls",
+  "records": [
+    {
+      "file": "round6-observed-full-tests.log",
+      "sha256": "1247061edd28f250f022f69a4cbcf18bd68bfb3e1e838aefe5ce78425256dfb6"
+    },
+    {
+      "file": "round6-observed-web-tests.log",
+      "sha256": "bf48db87730669cb6d0a116ff55d10e7bb2a1e2260b862646614d79ccd02d31e"
+    },
+    {
+      "file": "round6-observed-nat-tests.log",
+      "sha256": "a628a5b44542fb1151eed3f36368a2c428beaf953fa3e742991b17104ef91654"
+    }
+  ],
+  "web_command_attempt_01": {
+    "exit_code": 1,
+    "reason": "wrong tests/web glob; shell rejected before test launch",
+    "tests_executed": 0
+  },
+  "web_command_attempt_02": {
+    "command": "node --test tests/public_demo_*.mjs",
+    "passed": 33
+  },
+  "public_build_check": {
+    "result": "pass",
+    "cases": 3,
+    "original_JPEG": 4,
+    "project_TXT": 9,
+    "skills": 7,
+    "sources": 25,
+    "models_called": 0
+  },
+  "cold_start_handoff": {
+    "scope": "actual CUA browser download from immutable compact02; no model inference",
+    "zip_file": "cold-workbench-handoff.zip",
+    "sha256": "759633f78d0b284c8e1473fe1b9ca49c5b063fe226da510deb0f2d3bf2929ea0",
+    "members": 13,
+    "declared_files": 12,
+    "manifest_matches": true,
+    "note": "Final snapshot will separately bind unchanged tested import/handoff/public experience implementation; documentation and trace UI may differ."
+  }
+}

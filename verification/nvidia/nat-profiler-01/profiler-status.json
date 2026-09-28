@@ -1,0 +1,321 @@
+{
+  "status": "passed",
+  "scope": "actual local NAT CPU reference-integrity workflow spans",
+  "profiled_qwen_visual_agent": false,
+  "gpu_requested": false,
+  "model_inference_performed": false,
+  "model_token_performance_measured": false,
+  "ceramic_accuracy_measured": false,
+  "nvidia_verified_skill": false,
+  "telemetry_enabled": false,
+  "remote_exporters_configured": false,
+  "official_profiler_documentation": "https://docs.nvidia.com/nemo/agent-toolkit/latest/improve-workflows/profiler.html",
+  "host": {
+    "system": "Darwin",
+    "machine": "arm64"
+  },
+  "commands": [
+    {
+      "name": "validate",
+      "nat_arguments": [
+        "validate",
+        "--config_file",
+        "[LOCAL-PROFILER-OUTPUT]/eval.yml"
+      ],
+      "network_guard": "Python socket audit hook",
+      "exit_code": 0,
+      "wall_seconds": 1.7880343329161406,
+      "child_cpu_user_seconds": 1.181144,
+      "child_cpu_system_seconds": 0.23757999999999999,
+      "network_audit": {
+        "network_requests_allowed": false,
+        "blocked_attempts": 0
+      }
+    },
+    {
+      "name": "eval",
+      "nat_arguments": [
+        "eval",
+        "--config_file",
+        "[LOCAL-PROFILER-OUTPUT]/eval.yml",
+        "--reps",
+        "1"
+      ],
+      "network_guard": "Python socket audit hook",
+      "exit_code": 0,
+      "wall_seconds": 16.370715082623065,
+      "child_cpu_user_seconds": 13.157922000000001,
+      "child_cpu_system_seconds": 0.942022,
+      "network_audit": {
+        "network_requests_allowed": false,
+        "blocked_attempts": 0
+      }
+    }
+  ],
+  "dependencies": {
+    "nvidia-nat": "1.9.0",
+    "nvidia-nat-core": "1.9.0",
+    "nvidia-nat-eval": "1.9.0",
+    "nvidia-nat-profiler": "1.9.0",
+    "cizheng-nvidia-nat": "0.1.0"
+  },
+  "source_sha256": {
+    "integrations/nvidia_nat/src/cizheng_nat/register.py": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba",
+    "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+    "integrations/nvidia_nat/src/cizheng_nat/evaluators.py": "b775f85b99e32c1c4d29419a16e927513cbef957de4d0755110e1fec5b40aeb2",
+    "integrations/nvidia_nat/configs/evidence.yml": "5b312283ff568a43ea8e215d5c0087946c9e4f11edbfe10f5d80e8403199517f",
+    "scripts/nvidia-nat-verify.py": "4b7c2ddc76f7cf861fc118d9942b71527d7d003e425d7d8dbc0d3de6c4f9d4c0",
+    "scripts/nvidia-nat-profile.py": "9daa9dca33d8cab317ee1a12200af6cff001e53064414a831bf0f46fccde3d58"
+  },
+  "official_decorator_sha256": "53bd71d9ca26bdb9826bd880fb34b5e60ca8fe6fe05bedb6cc10e9546c563828",
+  "inherited_credentials_and_provider_exporter_environment_stripped": true,
+  "trace_requests": 3,
+  "event_counts": {
+    "FUNCTION_END": 9,
+    "FUNCTION_START": 9,
+    "SPAN_END": 9,
+    "SPAN_START": 9,
+    "WORKFLOW_END": 3,
+    "WORKFLOW_START": 3
+  },
+  "tracked_function_span_count": 9,
+  "nat_function_invocation_count": 9,
+  "tracked_function_spans": [
+    {
+      "request_number": 0,
+      "uuid": "6ea589ee-39b3-4c52-b563-6644c147acd9",
+      "name": "retrieve",
+      "event_family": "SPAN",
+      "nat_function_name": "evidence_retrieve",
+      "parent_id": "7da74f68-f186-4662-b2c8-1640ea5995da",
+      "started_at": 1790582685.09809,
+      "ended_at": 1790582685.141006,
+      "seconds": 0.042916059494018555
+    },
+    {
+      "request_number": 0,
+      "uuid": "32f95dc2-fa86-4205-9e3b-bbde12500756",
+      "name": "verify",
+      "event_family": "SPAN",
+      "nat_function_name": "evidence_verify",
+      "parent_id": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+      "started_at": 1790582685.14131,
+      "ended_at": 1790582685.142454,
+      "seconds": 0.0011439323425292969
+    },
+    {
+      "request_number": 0,
+      "uuid": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+      "name": "workflow",
+      "event_family": "SPAN",
+      "nat_function_name": "<workflow>",
+      "parent_id": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+      "started_at": 1790582685.0950668,
+      "ended_at": 1790582685.1424918,
+      "seconds": 0.047425031661987305
+    },
+    {
+      "request_number": 1,
+      "uuid": "94cf8107-bf72-44c2-9373-aecd56f40760",
+      "name": "retrieve",
+      "event_family": "SPAN",
+      "nat_function_name": "evidence_retrieve",
+      "parent_id": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+      "started_at": 1790582685.1430342,
+      "ended_at": 1790582685.145291,
+      "seconds": 0.0022568702697753906
+    },
+    {
+      "request_number": 1,
+      "uuid": "77f8ca54-6852-445b-a141-674854b65a49",
+      "name": "verify",
+      "event_family": "SPAN",
+      "nat_function_name": "evidence_verify",
+      "parent_id": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+      "started_at": 1790582685.1454132,
+      "ended_at": 1790582685.146261,
+      "seconds": 0.0008478164672851562
+    },
+    {
+      "request_number": 1,
+      "uuid": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+      "name": "workflow",
+      "event_family": "SPAN",
+      "nat_function_name": "<workflow>",
+      "parent_id": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+      "started_at": 1790582685.1429398,
+      "ended_at": 1790582685.1463099,
+      "seconds": 0.003370046615600586
+    },
+    {
+      "request_number": 2,
+      "uuid": "f8415013-28d2-48ac-9cea-e4b4bf4bd372",
+      "name": "retrieve",
+      "event_family": "SPAN",
+      "nat_function_name": "evidence_retrieve",
+      "parent_id": "1242f479-e8ce-47ee-a72e-def26318c22e",
+      "started_at": 1790582685.146951,
+      "ended_at": 1790582685.1489239,
+      "seconds": 0.0019729137420654297
+    },
+    {
+      "request_number": 2,
+      "uuid": "a50cde6f-7f4f-4b3a-93e3-3bdbd1879083",
+      "name": "verify",
+      "event_family": "SPAN",
+      "nat_function_name": "evidence_verify",
+      "parent_id": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+      "started_at": 1790582685.149018,
+      "ended_at": 1790582685.149746,
+      "seconds": 0.0007278919219970703
+    },
+    {
+      "request_number": 2,
+      "uuid": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+      "name": "workflow",
+      "event_family": "SPAN",
+      "nat_function_name": "<workflow>",
+      "parent_id": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+      "started_at": 1790582685.1468952,
+      "ended_at": 1790582685.149774,
+      "seconds": 0.002878904342651367
+    }
+  ],
+  "nat_function_invocations": [
+    {
+      "request_number": 0,
+      "uuid": "7da74f68-f186-4662-b2c8-1640ea5995da",
+      "name": "evidence_retrieve",
+      "event_family": "FUNCTION",
+      "nat_function_name": "evidence_retrieve",
+      "parent_id": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+      "started_at": 1790582685.097968,
+      "ended_at": 1790582685.141195,
+      "seconds": 0.04322695732116699
+    },
+    {
+      "request_number": 0,
+      "uuid": "2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3",
+      "name": "evidence_verify",
+      "event_family": "FUNCTION",
+      "nat_function_name": "evidence_verify",
+      "parent_id": "f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a",
+      "started_at": 1790582685.141267,
+      "ended_at": 1790582685.142475,
+      "seconds": 0.0012078285217285156
+    },
+    {
+      "request_number": 0,
+      "uuid": "1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f",
+      "name": "<workflow>",
+      "event_family": "FUNCTION",
+      "nat_function_name": "<workflow>",
+      "parent_id": "014ccb29-0945-4d44-90c1-0241e8c47522",
+      "started_at": 1790582685.09474,
+      "ended_at": 1790582685.142505,
+      "seconds": 0.04776501655578613
+    },
+    {
+      "request_number": 1,
+      "uuid": "149e50c2-f090-4ee4-b169-651df5cd8cfe",
+      "name": "evidence_retrieve",
+      "event_family": "FUNCTION",
+      "nat_function_name": "evidence_retrieve",
+      "parent_id": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+      "started_at": 1790582685.143014,
+      "ended_at": 1790582685.145327,
+      "seconds": 0.0023131370544433594
+    },
+    {
+      "request_number": 1,
+      "uuid": "62e542e1-9c43-4965-a3f8-06ca7f464e05",
+      "name": "evidence_verify",
+      "event_family": "FUNCTION",
+      "nat_function_name": "evidence_verify",
+      "parent_id": "88abed77-d9c5-4e29-b299-4e91bbd2d93a",
+      "started_at": 1790582685.14538,
+      "ended_at": 1790582685.1462898,
+      "seconds": 0.0009098052978515625
+    },
+    {
+      "request_number": 1,
+      "uuid": "22db9361-3392-49b9-b362-2e2e3a913bc7",
+      "name": "<workflow>",
+      "event_family": "FUNCTION",
+      "nat_function_name": "<workflow>",
+      "parent_id": "47f34673-46e2-4905-8485-866c9d83ba76",
+      "started_at": 1790582685.1429162,
+      "ended_at": 1790582685.146324,
+      "seconds": 0.003407716751098633
+    },
+    {
+      "request_number": 2,
+      "uuid": "1242f479-e8ce-47ee-a72e-def26318c22e",
+      "name": "evidence_retrieve",
+      "event_family": "FUNCTION",
+      "nat_function_name": "evidence_retrieve",
+      "parent_id": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+      "started_at": 1790582685.1469288,
+      "ended_at": 1790582685.148952,
+      "seconds": 0.0020232200622558594
+    },
+    {
+      "request_number": 2,
+      "uuid": "f139e5e1-022c-49cc-8671-c5c1110e692d",
+      "name": "evidence_verify",
+      "event_family": "FUNCTION",
+      "nat_function_name": "evidence_verify",
+      "parent_id": "90c7ed45-430c-4f8d-9cc5-8b55a4003b62",
+      "started_at": 1790582685.14899,
+      "ended_at": 1790582685.149761,
+      "seconds": 0.0007710456848144531
+    },
+    {
+      "request_number": 2,
+      "uuid": "1b02a1ca-f154-49e1-abc4-bbea32e86497",
+      "name": "<workflow>",
+      "event_family": "FUNCTION",
+      "nat_function_name": "<workflow>",
+      "parent_id": "42045bbf-fd12-42d6-87aa-a12bb3da5ce3",
+      "started_at": 1790582685.146862,
+      "ended_at": 1790582685.149785,
+      "seconds": 0.0029230117797851562
+    }
+  ],
+  "timing_unit": "seconds",
+  "nested_timings_are_not_additive": true,
+  "llm_event_count": 0,
+  "software_fixture_results": [
+    {
+      "id": "reference-valid",
+      "status": "references_verified",
+      "model_calls": 0,
+      "tool_calls": 5
+    },
+    {
+      "id": "tampered-chunk-hash",
+      "status": "reference_mismatch",
+      "model_calls": 0,
+      "tool_calls": 5
+    },
+    {
+      "id": "no-retrieved-evidence",
+      "status": "no_read_evidence",
+      "model_calls": 0,
+      "tool_calls": 3
+    }
+  ],
+  "reference_contract_average": 1.0,
+  "llm_calls_average": 0.0,
+  "atif_trajectory_step_count": 12,
+  "standardized_csv_event_rows": 42,
+  "artifact_sha256": {
+    "nat-eval/all_requests_profiler_traces.json": "6805892b5480d7b1bc28f39e38b9e23fcc995d95a5acf133335c30b85e893d14",
+    "nat-eval/standardized_data_all.csv": "aa8363369643db18042b1e1733e4fef56b10c0d593cedc229aef8c851d16cb3e",
+    "nat-eval/gantt_chart.png": "16f23b095f37e3f6000b6f68a33f1367c9dce4e0b850e74a4fe1cfd4ee63da56",
+    "nat-eval/workflow_profiling_metrics.json": "90d764f20832627c10517a977d6ce0a9d78067bb0c34c0a3bfb60ff0f7651078",
+    "nat-eval/workflow_profiling_report.txt": "273ae941c0b34b27eebedb9e239fdb56cf9199958c78016b71419572cfee63bf",
+    "nat-eval/workflow_output_atif.json": "827e250223916d96203dac80faec8080c4078d46de95e4f12b59f56c1793aacb"
+  },
+  "total_wall_seconds": 19.168533582706004
+}

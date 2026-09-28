@@ -1,0 +1,25 @@
+{
+  "all_backend_source_bytes_verified": true,
+  "backend_cwd_matches_snapshot": true,
+  "backend_readme_sha256": "24fd85c0d0617bbf977fae5f014ac25e0b499a9d066eb9a943c6d56a1c19c7dd",
+  "core_six_matches_backend": true,
+  "loaded_core_six_sha256": {
+    "integrations/spark_transformers/__init__.py": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+    "integrations/spark_transformers/adapter.py": "3c48276ae329bd83a0d7aec92662ae2ba82c74d0fe7d409a597f416a187853db",
+    "integrations/spark_transformers/cuda_metrics.py": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+    "integrations/spark_transformers/requirements-gpu.txt": "df72b2b6f1c0b0443a4d8178983ecba7c8450d8756e7e8b8ee60802947fe52c9",
+    "integrations/spark_transformers/start.sh": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+    "integrations/spark_transformers/structured_generation.py": "8ec18cb7955f53a5fbe271540b2a8a409c90ba5fa4e919a4216b11ef33b113e1"
+  },
+  "native_module_file_count": 13,
+  "native_module_manifest_sha256": "2a552e1973bc808ff80aa867e0c9f2bb0d84a65e9f6723b63cc3874188d0cf79",
+  "native_process_owned_and_module_path_matches": true,
+  "native_readme_not_executable": true,
+  "native_readme_sha256": "b2958307f955b12c5693af42b8880b3385a6738f95ea655d55d84351eacf3afe",
+  "native_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "observed_at": 1790584615.9951735,
+  "run_harness_matches_live_status": true,
+  "scope": "actual running backend cwd and owned native Python child module verification; native README is a document and may differ from current backend docs",
+  "source_file_count": 270,
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9"
+}

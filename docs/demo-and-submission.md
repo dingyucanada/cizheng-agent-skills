@@ -9,7 +9,7 @@
 | 项目实用性、行业落地价值与技术创新性 | 25% | 博物馆编目、收藏档案、拍卖图录三种任务；原件、观察、资料、主张与复核分开；补证后可回看差异与交接 | [README](../README.md)、[产品架构](product-and-architecture.md)、三套免上传教学案、原文件 / 固定段落导出 | 专家用真实案例确认任务是否解决痛点，记录修改意见；不是只演示已有馆藏答案 |
 | 智能体与模型优化技术深度 | 25% | 七个自研 Skill 渐进加载；有限工具、已读文字回执、引用合同、固定快照；竞争解释、两次修订与累计预算；StepFun 文字反证接口 | [skills](../skills/)、`cizheng/agent.py`、[评测协议](../evals/PROTOCOL.md)、合同测试 | 真模型的触发 / 不触发、补证、反证响应与有 / 无 Skills 同预算对照；不能用静态示例冒充 Agent 行为 |
 | 项目完整性 | 20% | 完整 FastAPI 前后端；公开主页与免上传浏览器体验；三套材料；持续验证、部署文档、报告及离线交接 | [本地启动](../README.md#本地专业工作台)、[公开体验](public-experience.md)、`tests/`、CI、JSON / HTML / ZIP | 实际页面、三场景和导出的浏览器验收；最终版本复现检查；稳定性问题及时修复 |
-| 平台适配性 | 15% | Spark 环境检查和视觉服务适配；按 NVIDIA 配方准备量化部署；原图私网处理；StepFun 只接批准文字 | [模型选择](model-selection.md)、[Spark验收](spark-validation.md)、`deploy/`、`cizheng/review_client.py` | 真实 Spark / NVIDIA 栈版本、模型 revision、调用和成本日志；StepFun 凭据联调；效果与性能均需实测 |
+| 平台适配性 | 15% | 已连接Spark、ARM64原版后端回归；NVIDIA NAT真实插件和API引用核查、SkillSpector运行范围扫描；StepFun实际公开文字请求 | [NVIDIA集成](nvidia-integration.md)、[已执行证据](../verification/nvidia/README.md)、[模型选择](model-selection.md)、[Spark验收](spark-validation.md) | GPU已实际生成、结构约束已在节点验证；新版完整Agent、反证修订、负载与专家效果仍需分别实测；扫描不是NVIDIA Verified |
 | 演示效果 | 10% | 免上传体验可直接从材料走到定位、补证、比较、复核和导出；公开案例有许可和出处 | [体验页](https://dingyucanada.github.io/cizheng-agent-skills/demo.html)、演示脚本、实际画面 | 真实作品视频与 B 站 URL；包含实际模型工具过程和不足处理，不能只录固定答案 |
 | 赛事征文 | 5% | 如实组织研究、设计、反例、修复与验证的开发记录 | [开发文章草稿](development-article-draft.md) | 以真实过程发布到 CSDN / 知乎等指定平台，提供 URL；不虚构十天工作经历 |
 
@@ -42,7 +42,7 @@
 5. **可核查收益，25 秒。** 展示实际 Spark 环境 / 耗时、同模型有 / 无 Skills 个案、专家检查的分母。无改善和失败例保留；未测指标不显示数值。
 6. **交付，20 秒。** 人工复核，导出案卷和证据 ZIP；打开报告、核对文件清单，说明尚需实物或专业检查的部分。
 
-录制来自真实操作。等待可以剪辑并注明，不能把教学固定意见、脚本模型或纯色图测试剪成真实推理。当前未连接模型时，只能如实录制材料准备和公开教学闭环；这些画面能说明产品功能，不能证明模型效果。
+录制来自真实操作。等待可以剪辑并注明，不能把教学固定意见、脚本模型或纯色图测试剪成真实推理。模型现已连接，真实GPU生成与失败过程可以如实录制；在完整任务成功前，不能将固定教学意见剪成真实模型报告。
 
 ## 接到 Spark 与 StepFun 后的收尾顺序
 

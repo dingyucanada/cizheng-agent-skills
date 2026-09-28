@@ -1,0 +1,29 @@
+{
+  "scope": "actual-offline-parser-and-tool-contract-tests-only",
+  "records": [
+    {
+      "file": "validation.json",
+      "original_sha256": "644fef4cd31a31004fded1c5a2f09a2732e2919eb08c59e4633dcc7c8b7a37ed",
+      "public_sha256": "644fef4cd31a31004fded1c5a2f09a2732e2919eb08c59e4633dcc7c8b7a37ed",
+      "local_workspace_redacted": false
+    },
+    {
+      "file": "focused-tests.log",
+      "original_sha256": "0c39b040432f4c06b0cb131726cf47a51c57848a8bf0036f6ed2657442766d19",
+      "public_sha256": "3b482ba686b689bd9cdccbb91d7a74f244ec3326ee2703c54996e8bb646bbc19",
+      "local_workspace_redacted": true
+    },
+    {
+      "file": "parser-tests.log",
+      "original_sha256": "92efcf3370301dfc2d21c0f7b52e808b946e67c88e900a5c2d427e02c65da86a",
+      "public_sha256": "d463126ee589d4600f47bef5281c66c94cb85ca02d601a868ddb084d9cb05217",
+      "local_workspace_redacted": true
+    },
+    {
+      "file": "prefix-proof.log",
+      "original_sha256": "50060d0dbb020d29efa8f2b99cb91283f277ad33c20cda76ed6bcddfcec6cd5d",
+      "public_sha256": "f6c8cc7349ff9e4adf82b6fb90ee48452ddb60e5af6abd5cfbf7fdaac7a9d0e0",
+      "local_workspace_redacted": true
+    }
+  ]
+}

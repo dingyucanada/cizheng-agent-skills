@@ -1,0 +1,535 @@
+{
+  "NAT_evidence_graph_executed": false,
+  "StepFun_review_executed": false,
+  "active_business_counts_at_snapshot": {
+    "nvidia_audits": 0,
+    "research_runs": 0,
+    "text_reviews": 0
+  },
+  "assessment_present": false,
+  "backend_observed_stop_count": 3,
+  "budget_caps": {
+    "model_calls": 12,
+    "per_call_timeout_seconds": 90,
+    "seconds": 300,
+    "tool_calls": 20
+  },
+  "build_opinion_called": false,
+  "calls": [
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 19.524981264024973,
+      "backend_event_at": 1790591050.4824266,
+      "backend_failure_type": null,
+      "backend_finish_reason_observed": "stop",
+      "backend_input_sha256": "d29009f15ba198ccd7a907bf276dcea89287eda2af2b11abc6205f771f438b32",
+      "backend_outcome": "succeeded",
+      "backend_received_response_text_sha256": "018e674b8b8e29cb5a81bd115bd404fd6797b11ac78c84432659fbf05af83d31",
+      "backend_usage": {
+        "completion_tokens": 207,
+        "finish_reason": "stop",
+        "prompt_tokens": 2494,
+        "total_tokens": 2701
+      },
+      "call_index": 1,
+      "exact_unique_native_candidate_count": 1,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "native_generation": {
+        "at": 1790591050.4565833,
+        "completion_tokens": 207,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 19439.181640625,
+          "max_memory_allocated_bytes": 18358736384,
+          "max_memory_reserved_bytes": 18712887296,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 800,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 2494,
+        "response_sha256": "018e674b8b8e29cb5a81bd115bd404fd6797b11ac78c84432659fbf05af83d31",
+        "seconds": 19.4725339259021,
+        "structured": {
+          "enabled": false
+        },
+        "temperature": 0.1
+      },
+      "native_log_has_explicit_finish_reason": false,
+      "native_match_status": "direct_response_hash_usage_image_cap_timestamp_match",
+      "phase_token_cap": 800,
+      "purpose": "vision",
+      "successful_compact_read_indexes": [],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 1253
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 7.23588082997594,
+      "backend_event_at": 1790591057.8763378,
+      "backend_failure_type": null,
+      "backend_finish_reason_observed": "stop",
+      "backend_input_sha256": "687496bce029b02a0738ae566860cf5515abf87112d824c3b4cb05fe8b79b90a",
+      "backend_outcome": "succeeded",
+      "backend_received_response_text_sha256": "5f777fd819ee52727b60c834a3a405547e1b3e304937f82506200dafc4c27948",
+      "backend_usage": {
+        "completion_tokens": 19,
+        "finish_reason": "stop",
+        "prompt_tokens": 14124,
+        "total_tokens": 14143
+      },
+      "call_index": 2,
+      "exact_unique_native_candidate_count": 1,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "native_generation": {
+        "at": 1790591057.8218534,
+        "completion_tokens": 19,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 7058.953125,
+          "max_memory_allocated_bytes": 21326286848,
+          "max_memory_reserved_bytes": 22334668800,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 14124,
+        "response_sha256": "5f777fd819ee52727b60c834a3a405547e1b3e304937f82506200dafc4c27948",
+        "seconds": 7.148299554013647,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_log_has_explicit_finish_reason": false,
+      "native_match_status": "direct_response_hash_usage_image_cap_timestamp_match",
+      "phase_token_cap": 2500,
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 29610
+    },
+    {
+      "actual_phase_cap_matches": true,
+      "backend_elapsed_seconds": 18.502790470956825,
+      "backend_event_at": 1790591076.4693136,
+      "backend_failure_type": null,
+      "backend_finish_reason_observed": "stop",
+      "backend_input_sha256": "06b05bdec7909eb2938d736797c9c36d27ac16e1890b80859c6543cb930f250d",
+      "backend_outcome": "succeeded",
+      "backend_received_response_text_sha256": "df462750b7fdba8895078fa3b75630195b6d3ca597a0566e1b48155f8ae78157",
+      "backend_usage": {
+        "completion_tokens": 106,
+        "finish_reason": "stop",
+        "prompt_tokens": 14236,
+        "total_tokens": 14342
+      },
+      "call_index": 3,
+      "exact_unique_native_candidate_count": 1,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "native_generation": {
+        "at": 1790591076.3892152,
+        "completion_tokens": 106,
+        "cuda": {
+          "allocator_backend": "native",
+          "device_index": 0,
+          "elapsed_ms": 18315.39453125,
+          "max_memory_allocated_bytes": 21347900928,
+          "max_memory_reserved_bytes": 23152558080,
+          "memory_is_total_system_usage": false,
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "status": "measured",
+          "timing_scope": "generate_current_stream_cuda_event_interval"
+        },
+        "image_count": 2,
+        "images": [
+          {
+            "bytes": 130179,
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+          },
+          {
+            "bytes": 134337,
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+          }
+        ],
+        "max_tokens": 2500,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 14236,
+        "response_sha256": "df462750b7fdba8895078fa3b75630195b6d3ca597a0566e1b48155f8ae78157",
+        "seconds": 18.398024750989862,
+        "structured": {
+          "enabled": true,
+          "enforced": true,
+          "library": "lm-format-enforcer",
+          "mode": "prefix_allowed_tokens_fn",
+          "output_valid": true,
+          "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+          "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+          "version": "0.11.3"
+        },
+        "temperature": 0.1
+      },
+      "native_log_has_explicit_finish_reason": false,
+      "native_match_status": "direct_response_hash_usage_image_cap_timestamp_match",
+      "phase_token_cap": 2500,
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 29831
+    },
+    {
+      "actual_phase_cap_matches": null,
+      "backend_elapsed_seconds": 90.00170950801112,
+      "backend_event_at": 1790591166.5933828,
+      "backend_failure_type": "TimeoutError",
+      "backend_finish_reason_observed": null,
+      "backend_input_sha256": "16e81641ccbc1e1dbd0d43ef9619444e8e2707dddd51252f272b2d7180812b3a",
+      "backend_outcome": "failed",
+      "backend_received_response_text_sha256": null,
+      "backend_usage": {},
+      "call_index": 4,
+      "exact_unique_native_candidate_count": 0,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "native_generation": null,
+      "native_log_has_explicit_finish_reason": false,
+      "native_match_status": "unmatched_no_client_response_no_forced_association",
+      "phase_token_cap": 2500,
+      "purpose": "action",
+      "successful_compact_read_indexes": [],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 30211
+    }
+  ],
+  "case_id": "case_26437125b07442aab25944b4834736f8",
+  "clock_scope": {
+    "backend_event_at": "Spark node Unix epoch seconds",
+    "client_clock": "not used or mixed into server/native request timing",
+    "cuda_elapsed_ms": "CUDA current-stream event generation interval",
+    "native_at": "same Spark node Unix epoch seconds",
+    "native_seconds": "native worker monotonic elapsed seconds"
+  },
+  "derivative_provenance_records": [
+    {
+      "artifact_id": "media_37bb8c62a1a445f3a7ea7ec29a266e8f",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_7d002429790c4cb18c77dcff85846ea0",
+      "original_height": 1200,
+      "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    },
+    {
+      "artifact_id": "media_8408c47667ac4206a451caf288369568",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_4dba9232dc1843788712fd5232b131b1",
+      "original_height": 1200,
+      "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    }
+  ],
+  "different_representations_not_substituted": true,
+  "direct_unique_backend_native_matches": 3,
+  "error": "运行失败：TimeoutError",
+  "exports_created": false,
+  "harness": {
+    "action_transport": {
+      "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+      "citation_exposure": "successful-main-canonical-body-exposure",
+      "decoder_schema_sha256": {
+        "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+        "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+        "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+        "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+      },
+      "effective_by_task": {
+        "documentary_audit": false,
+        "visual_research": true
+      },
+      "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+      "inventory_limits": {
+        "knowledge_read_indexes": 20,
+        "observation_ids": 48,
+        "reference_ids": 10
+      },
+      "metadata_fields": [
+        "document_id",
+        "document_revision",
+        "document_sha256",
+        "chunk_id",
+        "chunk_sha256",
+        "locator"
+      ],
+      "protocol": "compact-visual-metadata-v1",
+      "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+      "scope": "visual_research-only",
+      "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+    },
+    "budgets": "original-run-and-episode-limits",
+    "compact_actions": true,
+    "documentary_preparation": [
+      "read_case"
+    ],
+    "first_image_batch_max": 4,
+    "guided_workflow": true,
+    "knowledge_prefetch_max_chunks": 2,
+    "knowledge_scope": "case-pinned-fixed-versions-only",
+    "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+    "natural_skill_discovery": false,
+    "observed_method_rule": {
+      "english_match": "case-insensitive-word",
+      "max_additional_methods": 1,
+      "method_whitelist": [
+        "bluewhite-attribution-test"
+      ],
+      "mode": "skills",
+      "research_task": "visual_research",
+      "source": "first-batch-current-run-vision-visible-only",
+      "triggers": [
+        "青花",
+        "blue-and-white"
+      ]
+    },
+    "parent_skill": "evidence-revise",
+    "preparation_actor": "coordinator",
+    "strategy": "coordinator-observed-method-v2",
+    "visual_skills": [
+      "ceramic-route",
+      "ceramic-research-record"
+    ]
+  },
+  "harness_or_native_change_is_not_pure_model_causal_comparison": true,
+  "late_native_completion_pending_at_snapshot": true,
+  "late_native_finish_reason_not_received_by_backend": true,
+  "late_native_generation": null,
+  "late_native_response_hash_not_received_by_backend": true,
+  "loaded_skills": {
+    "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+    "ceramic-research-record": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed",
+    "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf"
+  },
+  "local_and_node_differing_keys": [
+    "knowledge_snapshot"
+  ],
+  "local_and_node_events_canonical_sha256": "c16d2aefd96507396c7e7b796bae705fbf6e0fa33447aefa908642e061c76b2a",
+  "local_and_node_events_equal": true,
+  "local_and_node_full_json_equal": false,
+  "local_and_node_versions_equal": true,
+  "local_final_run_sha256": "1c825f9392daf276409ec94a44429f08d1c4eed2ba1e9c439245ac321823e272",
+  "model_calls": 4,
+  "model_requests_sent_by_collection_and_derivation": 0,
+  "native_binding": {
+    "all_backend_source_bytes_verified": true,
+    "backend_cwd_matches_snapshot": true,
+    "backend_readme_sha256": "24fd85c0d0617bbf977fae5f014ac25e0b499a9d066eb9a943c6d56a1c19c7dd",
+    "core_six_matches_backend": true,
+    "loaded_core_six_sha256": {
+      "integrations/spark_transformers/__init__.py": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+      "integrations/spark_transformers/adapter.py": "3c48276ae329bd83a0d7aec92662ae2ba82c74d0fe7d409a597f416a187853db",
+      "integrations/spark_transformers/cuda_metrics.py": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+      "integrations/spark_transformers/requirements-gpu.txt": "df72b2b6f1c0b0443a4d8178983ecba7c8450d8756e7e8b8ee60802947fe52c9",
+      "integrations/spark_transformers/start.sh": "22469c0b0a29d0ebb51e145a424ed70c72f3579a39191182e83c07f61b0958f2",
+      "integrations/spark_transformers/structured_generation.py": "05b955af62c54486592e3fd11ea6f59075dff07b58b62c1a6d66298ef2ccfa6e"
+    },
+    "native_module_file_count": 13,
+    "native_module_manifest_sha256": "aa7c9f24660a8d736bbd72a21d9d69e28b0b63daea9989caf04e8dbca32e8e08",
+    "native_process_owned_and_module_path_matches": true,
+    "native_readme_not_executable": true,
+    "native_readme_sha256": "24fd85c0d0617bbf977fae5f014ac25e0b499a9d066eb9a943c6d56a1c19c7dd",
+    "native_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+    "observed_at": 1790591555.9003067,
+    "run_harness_matches_live_status": true,
+    "scope": "actual running backend cwd and owned native Python child module verification; native README is a document and may differ from current backend docs",
+    "source_file_count": 296,
+    "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5"
+  },
+  "native_log_local_sanitized_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff",
+  "native_log_node_original_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff",
+  "native_module_file_count": 13,
+  "native_module_manifest_sha256": "aa7c9f24660a8d736bbd72a21d9d69e28b0b63daea9989caf04e8dbca32e8e08",
+  "native_worker_in_progress_at_snapshot": true,
+  "node_collected_final_run_sha256": "e4509f695306901b2c5e68960189731a63a3f822d44591ae9127b7d15f16681a",
+  "observations": [
+    {
+      "artifact_id": "media_37bb8c62a1a445f3a7ea7ec29a266e8f",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_e2d8e3e5de0d47c5a1780e2a832a51fe",
+      "interpretation": "山水纹饰，瓶口饰花边",
+      "limitation": "",
+      "media_id": "media_7d002429790c4cb18c77dcff85846ea0",
+      "region": [
+        0.22,
+        0.17,
+        0.77,
+        0.83
+      ],
+      "run_id": "run_e490a984c3f74741ba190b9df96738f4",
+      "visible": "青花瓷瓶，瓶身绘山水纹饰"
+    },
+    {
+      "artifact_id": "media_8408c47667ac4206a451caf288369568",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_3e6aa097a297450eb2f85d48d274dfcb",
+      "interpretation": "花篮纹饰，瓶口饰花边",
+      "limitation": "",
+      "media_id": "media_4dba9232dc1843788712fd5232b131b1",
+      "region": [
+        0.22,
+        0.17,
+        0.77,
+        0.83
+      ],
+      "run_id": "run_e490a984c3f74741ba190b9df96738f4",
+      "visible": "青花瓷瓶，瓶身绘花篮纹饰"
+    }
+  ],
+  "observed_method_event": {
+    "actor": "coordinator",
+    "at": 1790591050.5275483,
+    "classification_verified": false,
+    "matched_observations": [
+      {
+        "matched_trigger": "青花",
+        "media_id": "media_7d002429790c4cb18c77dcff85846ea0",
+        "observation_id": "obs_e2d8e3e5de0d47c5a1780e2a832a51fe"
+      },
+      {
+        "matched_trigger": "青花",
+        "media_id": "media_4dba9232dc1843788712fd5232b131b1",
+        "observation_id": "obs_3e6aa097a297450eb2f85d48d274dfcb"
+      }
+    ],
+    "natural_skill_discovery": false,
+    "rule": {
+      "english_match": "case-insensitive-word",
+      "max_additional_methods": 1,
+      "method_whitelist": [
+        "bluewhite-attribution-test"
+      ],
+      "mode": "skills",
+      "research_task": "visual_research",
+      "source": "first-batch-current-run-vision-visible-only",
+      "triggers": [
+        "青花",
+        "blue-and-white"
+      ]
+    },
+    "selected_method": "bluewhite-attribution-test",
+    "selection_source": "first-batch-current-run-vision-visible-only",
+    "type": "harness_observed_method"
+  },
+  "phase_token_caps": {
+    "action": 2500,
+    "vision": 800
+  },
+  "revision_completed": false,
+  "run_id": "run_e490a984c3f74741ba190b9df96738f4",
+  "scope": "Failed trial05 with three exact received-response native matches; fourth native generation pending at captured timestamp",
+  "server_run_seconds": 136.05177998542786,
+  "snapshot_observed_at": 1790591555.900332,
+  "source_file_count": 296,
+  "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5",
+  "state": "failed",
+  "timed_out_call_index": 4,
+  "tool_calls": 10,
+  "validation_errors": []
+}

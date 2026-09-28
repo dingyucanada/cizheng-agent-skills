@@ -1,0 +1,18 @@
+{
+  "GPU_or_model_failure_claimed": false,
+  "backend_failures_recorded_for_this_transition": 1,
+  "deployment_succeeded": false,
+  "diagnosis": "Approved source disclosed the new fixed-pattern alternative-text policy; the first helper still asserted the old policy",
+  "exact_failing_stack_line_not_recorded": true,
+  "failure_type": "AssertionError",
+  "model_requests_sent": 0,
+  "native_and_probe_failures_are_separate_scopes": true,
+  "native_or_2b_restart_requested": false,
+  "previous_backend_restored": true,
+  "recorded_at": 1790589807.2440782,
+  "rollback_failure_type": null,
+  "scope": "First compact03 backend deployment rejected by stale deployment-helper policy assertion, then old backend restored",
+  "second_unique_backend_attempt_succeeded": true,
+  "source_contract_failure_claimed": false,
+  "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5"
+}

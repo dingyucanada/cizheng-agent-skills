@@ -1,0 +1,51 @@
+{
+  "credentials_or_account_files_read": false,
+  "hash_scope": "source_record_sha256 commits the original saved record; public_redacted_sha256 validates these distributable JSON bytes. Native remote log hashes and local collected-redacted hashes remain separately labelled in ready-summary.",
+  "public_source_urls_have_no_authentication_or_signed_queries": true,
+  "raw_photos_or_private_model_response_bodies_included": false,
+  "ready_summary_scope": "earlier successful synthetic deployment readiness only; does not replace this failed full workflow",
+  "records": [
+    {
+      "public_file": "final-run.json",
+      "public_record_bytes": 191703,
+      "public_redacted_sha256": "512fa0a0865a6087bf1c93ffc3c7f92afd4e3911671d36e7713a40a2fd2e137b",
+      "removed_fields": 1,
+      "replaced_values": 17,
+      "source_record_bytes": 192303,
+      "source_record_sha256": "9f69b9d642b4d6797e0333f32b1b02f77267b3f6d5b88f7db0b1b2e2898567bd"
+    },
+    {
+      "public_file": "phase-trace.json",
+      "public_record_bytes": 49252,
+      "public_redacted_sha256": "ba604e4d3206c7cfdd15581cce8a603c4817e8aca3bd6c391360c9a1df418aaf",
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "source_record_bytes": 49352,
+      "source_record_sha256": "90e624cc64caaaacbfbf834b3873e65090f8f8aa6d4b1e73616e5b6669c4fa47"
+    },
+    {
+      "public_file": "ready-summary.json",
+      "public_record_bytes": 11945,
+      "public_redacted_sha256": "f2473a9cd86f50255dc10f5a9f4a92441824487ad023588f4910ee6e1931adde",
+      "removed_fields": 7,
+      "replaced_values": 0,
+      "source_record_bytes": 12384,
+      "source_record_sha256": "d3d07a76f71297bd4c48151867bb5e62925828ba2910e23d16cdac3ce3feca77"
+    },
+    {
+      "public_file": "native-running-source-binding.json",
+      "public_record_bytes": 739,
+      "public_redacted_sha256": "221c1423d73dba7b7edea4f46f1a3d1891ebda300d9f2a9901c3a7b2085e82de",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "source_note": "actual node JSON preserved through sanitized stdout; contains no account paths or process IDs",
+      "source_record_bytes": 738,
+      "source_record_sha256": "0a4f405e858aaf6bbd9f95448258ae432d38fe6538c68a1f896a3a9c5edc3683"
+    }
+  ],
+  "removed_content": "filesystem paths/stage locations, internal model endpoints and any authentication/node identity fields; original metadata hashes and GPU/usage/finish/derivation evidence remain",
+  "run_id": "run_64f314fb8cc2408f9b00f5f6125bb5d9",
+  "scope": "public verification copies of a known Met public-photo fixture and actual failed workflow; NOT blind accuracy, calibrated genuineness or a successful report",
+  "source_manifest_sha256": "bff8d81d237f8f8fab9d9cccd37683ea740a2c41e3cdbe017203eb556a596b96",
+  "workflow_state": "failed"
+}

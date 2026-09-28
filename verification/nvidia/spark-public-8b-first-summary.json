@@ -1,0 +1,88 @@
+{
+  "scope": "first frozen-c005 functional 8B run; NOT ceramic accuracy or Skills gain",
+  "run_id": "run_5db213061c944f8ca6659832287fd90b",
+  "prior_run_id": "run_75be4007d1194fd988f4256b34132d73",
+  "same_case": true,
+  "source_directory": "source-c005-c688d7",
+  "model": {
+    "endpoint": "http://127.0.0.1:8001/v1",
+    "generation": {
+      "disable_thinking": false,
+      "max_tokens": 2500,
+      "temperature": 0.1
+    },
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "provider": "local-openai-compatible",
+    "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+  },
+  "source_hash": "c7f9ed37a4f6500330f72055dd11a6a582dc9f5b851a886fb9ab1d1297a87971",
+  "prompt_hash": "427e868fc4641d0d4ab7539cc9d0ae2fea613b6d129aad4802cf28ac48568034",
+  "vision_prompt_hash": "c757135dd59ad35870b776489ffb597d193bc7d75195f4bb7cb8986d575c8f7a",
+  "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+  "same_source_and_prompt_hashes_as_2b": true,
+  "environment_change_from_2b": "NVIDIA NAT configured for 8B; no claim of a pure model-only comparison",
+  "state": "failed",
+  "error": "运行失败：TimeoutError",
+  "server_run_seconds": 185.91541051864624,
+  "client_poll_seconds": 195.21032414596993,
+  "model_calls": 7,
+  "tool_calls": 6,
+  "observations_schema_accepted": 2,
+  "all_observation_visible_text_is_template_placeholder": true,
+  "semantically_informative_observations": 0,
+  "two_photos_sent_to_real_gpu": true,
+  "assessment_present": false,
+  "photo_report_status": "incomplete_run",
+  "authenticity_probability": {
+    "value": null,
+    "status": "not_calibrated",
+    "unit": "probability",
+    "target_attribution": "馆藏身份已知，公开教学；不是本项目独立鉴定结果",
+    "calibration_version": null,
+    "calibration_dataset": null,
+    "reason": "尚无该归属范围内、独立专家真值与留出测试支持的概率校准，不能给出可信真品率。",
+    "required_evidence": [
+      "明确年代/窑口/原作等判定目标和适用器型。",
+      "包含高仿、残损与修复的专家真值样本；按器物和来源分组隔离训练、校准及测试。",
+      "留出集校准误差、Brier分数、样本覆盖及拒判规则；必要时实物与检测证据。"
+    ],
+    "router_probabilities_used": false
+  },
+  "region_generation_after_client_timeout": {
+    "derived_image_sha256": "e8b0c2abc201dd2d57b3c81f94a1ba95799e447c747bcfe78de896949b78e205",
+    "original_image_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+    "native_record": {
+      "at": 1790572015.4426749,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 550,
+      "completion_tokens": 1586,
+      "image_count": 1,
+      "images": [
+        {
+          "sha256": "e8b0c2abc201dd2d57b3c81f94a1ba95799e447c747bcfe78de896949b78e205",
+          "bytes": 119135
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 139.2551793489838,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 139240.65625,
+        "max_memory_allocated_bytes": 17915472896,
+        "max_memory_reserved_bytes": 22116564992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "response_sha256": "09524349791b8c6701971c7340b173674edc01bb6434f70cf8c913c6665e2240"
+    },
+    "completion_hit_max_tokens": false,
+    "completed_after_run_seconds": 49.24380588531494,
+    "gpu_thread_finished": true,
+    "raw_response_body_collected": false
+  }
+}

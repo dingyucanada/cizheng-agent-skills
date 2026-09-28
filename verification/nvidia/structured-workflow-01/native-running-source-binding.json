@@ -1,0 +1,13 @@
+{
+  "actual_worker_cwd_matches_verified_module": true,
+  "actual_worker_pythonpath_matches_verified_module": true,
+  "all_native_module_file_bytes_verified": true,
+  "model_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "native_gpu_worker_in_progress": false,
+  "native_module_manifest_sha256": "2a552e1973bc808ff80aa867e0c9f2bb0d84a65e9f6723b63cc3874188d0cf79",
+  "one_owned_native_python_worker": true,
+  "process_ids_or_private_paths_recorded": false,
+  "recorded_at": 1790577354.336551,
+  "scope": "read-only binding of actual owned Uvicorn Python worker, not merely its parent shell, to immutable verified native code; no model requests",
+  "tmux_pane_is_python_worker": false
+}

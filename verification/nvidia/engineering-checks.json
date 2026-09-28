@@ -1,0 +1,211 @@
+{
+  "scope": "local engineering contracts; synthetic doubles do not measure ceramic accuracy",
+  "date": "2026-09-28",
+  "backend_and_gpu_adapter_guard_tests": {
+    "passed": 615,
+    "failed": 0,
+    "seconds": 41.71,
+    "dependency_warnings": 1,
+    "log_sha256": "1247061edd28f250f022f69a4cbcf18bd68bfb3e1e838aefe5ce78425256dfb6",
+    "scope": "immutable development compact03,296 files945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5; actual offline engineering contracts, not GPU domain quality",
+    "skipped": 2,
+    "optional_skips": "real Toolkit tests passed separately in actual NAT 1.9 environment"
+  },
+  "public_experience_dom_tests": {
+    "passed": 33,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 1.452614958,
+    "log_sha256": "bf48db87730669cb6d0a116ff55d10e7bb2a1e2260b862646614d79ccd02d31e"
+  },
+  "nvidia_api_independent_checks": {
+    "actual_nat_subprocess": true,
+    "documentary_reference_checked": true,
+    "models_called": 0,
+    "history_and_reload_dom_checked": true,
+    "source_scope": "c005 historical independent checks; not repeated against mutable c006"
+  },
+  "ai_accuracy_measured": false,
+  "gpu_generation_verified": true,
+  "spark_historical_engineering_checks": {
+    "candidate": "c005-c688d7",
+    "passed": 342,
+    "failed": 0,
+    "seconds": 124.37,
+    "scope": "actual ARM64 node; software tests do not measure model quality"
+  },
+  "gpu_generation_evidence": [
+    "spark-qwen2b-warmup.json",
+    "spark-cuda-observer.json",
+    "spark-qwen8b-health.json",
+    "spark-qwen8b-cuda-observer.json"
+  ],
+  "complex_visual_agent_verified": false,
+  "complex_visual_agent_evidence": "spark-public-2b-run-failed.json; spark-public-8b-run-failed.json; spark-public-8b-bounded-run-failed.json; structured full-workflow01 failed on model/tool budget; compact-full-workflow03/04 failed contracts; compact-full-workflow05 failed90s action waiting",
+  "nvidia_verified_skill": false,
+  "structured_decoder_cpu": {
+    "library": "lm-format-enforcer",
+    "version": "0.11.3",
+    "test_dependencies": "requirements-structured-tested.txt",
+    "actual_parser_and_prefix": true,
+    "model_called": false,
+    "meaning": "structural contracts only; original host numerical and workflow constraints remain",
+    "passed": 52,
+    "skipped": 0,
+    "seconds": 2.9,
+    "evidence": "observed-method-cpu-01/parser-tests.log",
+    "escaped_quote_backslash_prefix_limitation": true
+  },
+  "structured_decoder_gpu": {
+    "library": "lm-format-enforcer",
+    "version": "0.11.3",
+    "synthetic_image": true,
+    "actual_token_prefix_constraint": true,
+    "completion_tokens": 7,
+    "wall_seconds": 2.347627176088281,
+    "cuda_current_stream_ms": 628.88623046875,
+    "not_domain_accuracy": true
+  },
+  "structured_full_workflow_01": {
+    "state": "failed",
+    "model_calls": 12,
+    "tool_calls": 16,
+    "seconds": 207.58595943450928,
+    "action_structure_passed": 9,
+    "finish_reason_stop": 12,
+    "error": "model/tool budget exhausted",
+    "assessment": false,
+    "nat_calls": 0,
+    "stepfun_calls": 0,
+    "not_domain_accuracy": true
+  },
+  "guided_workflow_cpu_contracts": {
+    "scope": "actual registered tools and synthetic model substitutes; not GPU or domain quality",
+    "strategy": "coordinator-observed-method-v2",
+    "default": "model-planned-v1",
+    "budgets_unchanged": true,
+    "natural_skill_trigger_measured": false,
+    "tests_included_in_current_full_suite": 47,
+    "observed_method": "lexical-method-selection-from-current-first-batch-visible-not-verified-classification"
+  },
+  "guided_full_workflow_02": {
+    "state": "failed",
+    "model_calls": 2,
+    "tool_calls": 7,
+    "server_seconds": 110.3881151676178,
+    "client_timeout_seconds": 90,
+    "native_late_seconds": 133.98132538597565,
+    "native_late_completion_tokens": 1029,
+    "native_late_structure_valid": true,
+    "native_late_association": "exclusive request window + start time + images/model/cap; not backend HTTP response hash match",
+    "backend_received_action_output": false,
+    "assessment": false,
+    "nat_calls": 0,
+    "stepfun_calls": 0,
+    "not_domain_accuracy": true,
+    "evidence": "guided-workflow-02/phase-trace.json"
+  },
+  "compact_actions_cpu_contracts": {
+    "tests_included_in_current_full_suite": 81,
+    "scope": "host boundaries and actual CPU LMFE parser samples, not actual GPU tokenizer or domain accuracy",
+    "default_enabled": false,
+    "enabled_protocol": "compact-visual-metadata-v1",
+    "citation_exposure": "successful-main-canonical-body-exposure",
+    "metadata_only_fields": 6,
+    "all_semantic_fields_model_authored": true,
+    "budgets_unchanged": true,
+    "queued_identity_bound": true,
+    "semantic_affordance": "current-run-eligible-evidence-inventory-v1",
+    "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$"
+  },
+  "nvidia_profiler_actual_focused": {
+    "passed": 22,
+    "skipped": 0,
+    "seconds": 2.85,
+    "scope": "actual local NAT 1.9 CPU workflow and profiler tests, no models/GPU",
+    "log_sha256": "a628a5b44542fb1151eed3f36368a2c428beaf953fa3e742991b17104ef91654"
+  },
+  "compact_full_workflow_03": {
+    "state": "failed",
+    "model_calls": 7,
+    "tool_calls": 13,
+    "seconds": 164.19969391822815,
+    "finish_reason_stop": 7,
+    "direct_native_http_response_matches": 7,
+    "client_timeout": false,
+    "error": "knowledge document ID used as artwork reference ID; evidence contract rejected",
+    "assessment": false,
+    "nat_calls": 0,
+    "stepfun_calls": 0,
+    "evidence": "compact-workflow-03/phase-trace.json",
+    "not_domain_accuracy": true
+  },
+  "observed_method_focused": {
+    "passed": 198,
+    "failed": 0,
+    "seconds": 10.87,
+    "new_tests": 26,
+    "evidence": "observed-method-cpu-01/validation.json",
+    "model_calls": 0
+  },
+  "compact_full_workflow_04": {
+    "state": "failed",
+    "model_calls": 6,
+    "tool_calls": 10,
+    "seconds": 141.78334259986877,
+    "direct_native_http_response_matches": 6,
+    "finish_reason_stop": 6,
+    "assessment": false,
+    "nat_calls": 0,
+    "stepfun_calls": 0,
+    "evidence": "compact-workflow-04/root-phase-trace.json",
+    "error": "invalid explanation then missing bluewhite method",
+    "not_domain_accuracy": true
+  },
+  "compact_full_workflow_05": {
+    "state": "failed",
+    "model_calls": 4,
+    "tool_calls": 10,
+    "server_seconds": 136.05177998542786,
+    "observations": 2,
+    "assessment": false,
+    "nat_calls": 0,
+    "stepfun_calls": 0,
+    "report_exports": 0,
+    "error": "main action client TimeoutError after90s",
+    "evidence": "compact-workflow-05/phase-trace.json",
+    "not_domain_accuracy": true
+  },
+  "spark_current_cpu_contracts": {
+    "passed": 129,
+    "skipped": 0,
+    "pytest_seconds": 49.04,
+    "torch_not_loaded": true,
+    "model_calls": 0,
+    "source_files": 296,
+    "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5",
+    "evidence": "compact03-source-binding/arm-cpu-validation.json"
+  },
+  "fixed_pattern_synthetic_gpu_probe": {
+    "http_success": false,
+    "client_seconds": 90.090241,
+    "native_late_seconds": 155.685781157,
+    "native_late_completion_tokens": 7,
+    "native_structure_valid": true,
+    "client_received_output": false,
+    "direct_response_hash_match": false,
+    "not_domain_accuracy": true,
+    "evidence": "observed05-native/README.md"
+  },
+  "release_candidate_local_checks": {
+    "python_passed": 615,
+    "optional_skipped": 2,
+    "python_seconds": 39.18,
+    "dom_passed": 33,
+    "dom_skipped": 0,
+    "dom_seconds": 1.547464458,
+    "evidence": "release-engineering-01/validation.json",
+    "actual_model_calls": 0,
+    "runtime_and_domain_unchanged_since_296_stage": true
+  }
+}

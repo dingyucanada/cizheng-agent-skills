@@ -1,0 +1,93 @@
+{
+  "all_native_source_bytes_unchanged": true,
+  "association": "Single exclusive request image + schema + token cap + temperature + time window; no client response hash received",
+  "business_counts_at_late_receipt": {
+    "nvidia_audits": 0,
+    "research_runs": 0,
+    "text_reviews": 0
+  },
+  "client_finish_reason_observed": null,
+  "client_request_still_failed_at_90_seconds": true,
+  "direct_client_response_sha_match_possible": false,
+  "health_at_late_receipt": {
+    "failure_type": null,
+    "generation_in_progress": false,
+    "gpu": {
+      "arch_list": [
+        "sm_80",
+        "sm_90",
+        "sm_100",
+        "sm_110",
+        "sm_120"
+      ],
+      "bfloat16_matrix_multiply_passed": true,
+      "capability": [
+        12,
+        1
+      ],
+      "cuda_runtime": "13.0",
+      "device": "NVIDIA GB10",
+      "float32_matrix_multiply_passed": true,
+      "synthetic_image_generation_passed": true,
+      "torch": "2.14.0+cu130",
+      "warmup_completion_tokens": 2,
+      "warmup_is_domain_evaluation": false,
+      "warmup_seconds": 0.7991968430578709
+    },
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "status": "ready",
+    "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+  },
+  "matching_native_record_count": 1,
+  "matching_native_records": [
+    {
+      "at": 1790589276.8605573,
+      "completion_tokens": 7,
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 153862.640625,
+        "max_memory_allocated_bytes": 17611608064,
+        "max_memory_reserved_bytes": 17796431872,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "image_count": 1,
+      "images": [
+        {
+          "bytes": 403,
+          "sha256": "9b5d2bc0516a2749576352b9c38c6e9f88d2db423d8a187c1c003034b2136b3c"
+        }
+      ],
+      "max_tokens": 80,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 100,
+      "response_sha256": "ecbe534c698227245dd32fc9371774df0be6f5f6c3743e33839ee538d204d96b",
+      "seconds": 155.68578115699347,
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "mode": "prefix_allowed_tokens_fn",
+        "output_valid": true,
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "schema_sha256": "88cae9cee3ed63846e0c49ad5ab23bf7fd14818218cd1b38caa614c5bf6e0c99",
+        "version": "0.11.3"
+      },
+      "temperature": 0.0
+    }
+  ],
+  "measurement_scope": "CUDA events cover generate current-stream interval; allocator peaks are this process including model/cache, not total machine memory or pure-kernel/cold-hot benchmarks",
+  "native_final_validation_passed": true,
+  "native_log_has_explicit_finish_reason": false,
+  "native_request_log_original_sha256": "8a8809145950c403845bebc70151bb736540ae04ec448b378630fab47c145877",
+  "native_service_log_original_sha256": "d7c5b46bbad4151cbfb27fd56dad13325fe3b72f11ac02b6015c72d4446d1f1a",
+  "native_worker_idle_at_late_receipt": true,
+  "no_retry_cancel_or_restart": true,
+  "node_receipt_timestamp": 1790589323.8257306,
+  "response_text_not_retained": true,
+  "scope": "Late native structured-format metadata only; not a received client response or ceramic judgment"
+}

@@ -1,0 +1,136 @@
+{
+  "CPU_scope_does_not_include_outer_read_only_loopback_status_collection": true,
+  "actual_collected_count": 129,
+  "actual_nat_module_file_and_sha_verified": true,
+  "architecture": "aarch64",
+  "collection_sha256": "1185e7dc76efa08f2473bfd7d6155f2f3b03f14d35a886736359ec6990c41002",
+  "counts": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 129
+  },
+  "cuda_visible_devices": "-1",
+  "dependencies_installed_or_upgraded": false,
+  "exit_code": 0,
+  "final_active_business_counts": {
+    "nvidia_audits": 0,
+    "research_runs": 0,
+    "text_reviews": 0
+  },
+  "final_native_generation_in_progress": false,
+  "interpreter_scope": "Actual existing project virtual environment; no package installation",
+  "junit_sha256": "1670272f6da596f8931c12641fb6146df78db0fdce8bc21e6627ac25fb6e0db3",
+  "live_harness": {
+    "action_transport": {
+      "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+      "citation_exposure": "successful-main-canonical-body-exposure",
+      "decoder_schema_sha256": {
+        "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+        "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+        "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+        "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+      },
+      "effective_by_task": {
+        "documentary_audit": false,
+        "visual_research": true
+      },
+      "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+      "inventory_limits": {
+        "knowledge_read_indexes": 20,
+        "observation_ids": 48,
+        "reference_ids": 10
+      },
+      "metadata_fields": [
+        "document_id",
+        "document_revision",
+        "document_sha256",
+        "chunk_id",
+        "chunk_sha256",
+        "locator"
+      ],
+      "protocol": "compact-visual-metadata-v1",
+      "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+      "scope": "visual_research-only",
+      "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+    },
+    "budgets": "original-run-and-episode-limits",
+    "compact_actions": true,
+    "documentary_preparation": [
+      "read_case"
+    ],
+    "first_image_batch_max": 4,
+    "guided_workflow": true,
+    "knowledge_prefetch_max_chunks": 2,
+    "knowledge_scope": "case-pinned-fixed-versions-only",
+    "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+    "natural_skill_discovery": false,
+    "observed_method_rule": {
+      "english_match": "case-insensitive-word",
+      "max_additional_methods": 1,
+      "method_whitelist": [
+        "bluewhite-attribution-test"
+      ],
+      "mode": "skills",
+      "research_task": "visual_research",
+      "source": "first-batch-current-run-vision-visible-only",
+      "triggers": [
+        "青花",
+        "blue-and-white"
+      ]
+    },
+    "parent_skill": "evidence-revise",
+    "preparation_actor": "coordinator",
+    "strategy": "coordinator-observed-method-v2",
+    "visual_skills": [
+      "ceramic-route",
+      "ceramic-research-record"
+    ]
+  },
+  "log_sha256": "0a32652035922ecd938fdbd4abaf56edfb8cd0ca0140aeee14fb36238259e2d9",
+  "model_requests_sent": 0,
+  "nat_source_binding": {
+    "actual_isolated_runtime_module_file_and_sha_verified": true,
+    "enabled": true,
+    "method": "explicit-PYTHONPATH-prioritized-new-readonly-stage",
+    "model_calls": 0,
+    "module_sha256": {
+      "integrations/nvidia_nat/src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+      "integrations/nvidia_nat/src/cizheng_nat/register.py": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba"
+    },
+    "network_disabled_in_probe": true,
+    "no_profiler_or_dependency_installation": true,
+    "nvidia_nat_version": "1.9.0",
+    "optional_profiler_fallback_used": true,
+    "profiler_version": null,
+    "runtime_binding_is_not_evidence_workflow_execution": true
+  },
+  "native_generation_log_unchanged": true,
+  "native_log_after_sha256": "8a8809145950c403845bebc70151bb736540ae04ec448b378630fab47c145877",
+  "native_log_before_sha256": "8a8809145950c403845bebc70151bb736540ae04ec448b378630fab47c145877",
+  "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+  "native_module_file_count": 13,
+  "native_module_manifest_sha256": "aa7c9f24660a8d736bbd72a21d9d69e28b0b63daea9989caf04e8dbca32e8e08",
+  "native_source_bytes_unchanged": true,
+  "native_weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "network_disabled_in_test_process": true,
+  "no_skipped": true,
+  "passed": 129,
+  "pytest_cache_disabled": true,
+  "pytest_junit_seconds": 49.041,
+  "pytest_single_run": true,
+  "python_dont_write_bytecode": true,
+  "python_version": "3.12.3",
+  "read_only_stage_bytes_unchanged": true,
+  "recorded_at": 1790590984.4062057,
+  "retries": 0,
+  "scope": "actual ARM64 CPU-only compact and guided boundary software tests; mock providers and synthetic judgments; NOT GPU generation or domain accuracy",
+  "source_file_count": 296,
+  "source_manifest_sha256": "945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5",
+  "tested_files": [
+    "tests/test_compact_actions.py",
+    "tests/test_guided_workflow.py"
+  ],
+  "torch_not_loaded": true,
+  "wall_seconds": 49.23914299800526
+}

@@ -1,0 +1,29 @@
+{
+  "average_score": 0.0,
+  "eval_output_items": [
+    {
+      "id": "reference-valid",
+      "score": 0.0,
+      "reasoning": {
+        "num_llm_calls": 0
+      },
+      "error": null
+    },
+    {
+      "id": "tampered-chunk-hash",
+      "score": 0.0,
+      "reasoning": {
+        "num_llm_calls": 0
+      },
+      "error": null
+    },
+    {
+      "id": "no-retrieved-evidence",
+      "score": 0.0,
+      "reasoning": {
+        "num_llm_calls": 0
+      },
+      "error": null
+    }
+  ]
+}

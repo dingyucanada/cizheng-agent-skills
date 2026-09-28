@@ -1,0 +1,24 @@
+{
+  "package": "libpython3.12-dev",
+  "version": "3.12.3-1ubuntu0.17",
+  "architecture": "arm64",
+  "url": "http://ports.ubuntu.com/ubuntu-ports/pool/main/p/python3.12/libpython3.12-dev_3.12.3-1ubuntu0.17_arm64.deb",
+  "sha256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+  "bytes": 5538952,
+  "sha256_verified": true,
+  "source": "Ubuntu official signed apt noble-updates main, isolated project apt state",
+  "signed_by": "/usr/share/keyrings/ubuntu-archive-keyring.gpg",
+  "node_python_version": "3.12.3",
+  "headers_python_version": "3.12.3",
+  "interpreter_upgraded": false,
+  "system_changed": false,
+  "sudo_used": false,
+  "extract_relative_directory": "runtime-headers-ubuntu-3.12.3-1ubuntu0.17",
+  "c_include_path_relative": [
+    "runtime-headers-ubuntu-3.12.3-1ubuntu0.17/usr/include/python3.12",
+    "runtime-headers-ubuntu-3.12.3-1ubuntu0.17/usr/include",
+    "runtime-headers-ubuntu-3.12.3-1ubuntu0.17/usr/include/aarch64-linux-gnu/python3.12"
+  ],
+  "gcc_python_header_check_passed": true,
+  "seconds": 15.674
+}

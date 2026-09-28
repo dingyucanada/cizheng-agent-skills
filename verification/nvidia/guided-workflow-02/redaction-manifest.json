@@ -1,0 +1,41 @@
+{
+  "credentials_or_account_files_read": false,
+  "hash_scope": "source_record_sha256 commits the original saved record; public_redacted_sha256 validates these distributable JSON bytes. Native log snapshot hashes remain in phase-trace; node original and collected sanitized deployment receipt hashes are separately labelled in public-guided01-source-binding-01/collection-hashes.json.",
+  "public_source_urls_have_no_authentication_or_signed_queries": true,
+  "raw_photos_or_private_model_response_bodies_included": false,
+  "ready_summary_scope": "guided backend deployment readiness only; does not replace this failed full workflow",
+  "records": [
+    {
+      "public_file": "final-run.json",
+      "public_record_bytes": 129096,
+      "public_redacted_sha256": "8dfb75a5b53d41b2d0d480350d0fb67dec642b61b188ba1300fc1711353d949c",
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "source_record_bytes": 129470,
+      "source_record_sha256": "488014aa90c068928a2fe0f1452625298a6eaaa6015c03aa3eef7a4dc111fd63"
+    },
+    {
+      "public_file": "phase-trace.json",
+      "public_record_bytes": 14975,
+      "public_redacted_sha256": "f90f6e25f993835dea483c6886e2c6dc77b61bcfaea046bd6f38290ccec21374",
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "source_record_bytes": 15072,
+      "source_record_sha256": "db2abb60f81daf3af9f1ce9aab09926c54dacf009bbc27901956bb1c0e46849a"
+    },
+    {
+      "public_file": "ready-summary.json",
+      "public_record_bytes": 5279,
+      "public_redacted_sha256": "409ab6c0cba523a7c615e6e2d35cc82b8b7f259fc771dafd309cdf2832345deb",
+      "removed_fields": 3,
+      "replaced_values": 0,
+      "source_record_bytes": 5491,
+      "source_record_sha256": "be16be79be563687d4616e432bcded1678996f944b7811669ddd2314252f382d"
+    }
+  ],
+  "removed_content": "filesystem paths/stage locations, internal model endpoints and any authentication/node identity fields; original metadata hashes and GPU/usage/finish/derivation evidence remain",
+  "run_id": "run_5212f0feea1e47d2a55e32e62aa2c877",
+  "scope": "public verification copies of a known Met public-photo fixture and actual failed workflow; NOT blind accuracy, calibrated genuineness or a successful report",
+  "source_manifest_sha256": "94a03fe3f253ffb143a48b6e69ac5f9851fafe8102ef509d9c2a7caa633b164e",
+  "workflow_state": "failed"
+}

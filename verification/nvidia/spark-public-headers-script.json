@@ -1,0 +1,20 @@
+{
+  "script_source_sha256": "5d1c5f1fcb4dc0b0e98c39850c613282ab55988195466f5dd63f4c6268b740d4",
+  "script_relative": "native-warmup-stage-20260928/integrations/spark_transformers/prepare_python_headers.py",
+  "exit_code": 0,
+  "recorded_at": 1790569877.6931424,
+  "package_receipt": {
+    "package": "libpython3.12-dev",
+    "version": "3.12.3-1ubuntu0.17",
+    "architecture": "arm64",
+    "url": "http://ports.ubuntu.com/ubuntu-ports/pool/main/p/python3.12/libpython3.12-dev_3.12.3-1ubuntu0.17_arm64.deb",
+    "sha256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+    "sha256_verified": true,
+    "bytes": 5538952,
+    "system_changed": false,
+    "interpreter_upgraded": false,
+    "sudo_used": false,
+    "gcc_python_header_check_passed": true,
+    "extract_relative_directory": "runtime-headers-ubuntu-3.12.3-1ubuntu0.17"
+  }
+}

@@ -26,7 +26,8 @@ class CriticFailure(Problem):
 class StepFunClient:
     def __init__(self):
         self.base_url = os.getenv('CIZHENG_STEPFUN_URL', 'https://api.stepfun.com/v1').rstrip('/')
-        if self.base_url not in ('https://api.stepfun.com/v1', 'https://api.stepfun.ai/v1'):
+        if self.base_url not in ('https://api.stepfun.com/v1', 'https://api.stepfun.ai/v1',
+                                 'https://api.stepfun.com/step_plan/v1'):
             raise ValueError('文字审查仅允许明确的 StepFun 官方 API 地址')
         self.model = os.getenv('CIZHENG_STEPFUN_MODEL', 'step-3.7-flash')
         self.key = os.getenv('CIZHENG_STEPFUN_KEY', '')

@@ -1,0 +1,56 @@
+{
+  "cpu_wrapper_preflight_correction_disclosed": true,
+  "credentials_or_account_files_read": false,
+  "hash_scope": "source_record_sha256 commits the saved original metadata; public_redacted_sha256 validates public JSON bytes. collection-hashes distinguishes original node bytes from local sanitized bytes.",
+  "model_requests_sent": 0,
+  "privacy_scan_passed": true,
+  "raw_photos_or_model_response_bodies_included": false,
+  "records": [
+    {
+      "public_file": "source-binding.json",
+      "public_redacted_sha256": "7725d95c25482f42895beb5e015ec72274b2bcdf6fc46da6e763c7c21519c01c",
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "source_record_sha256": "c61efa52812d8ba11874e12521bb813326a191a3384add5c92dc2e584b9f075e"
+    },
+    {
+      "public_file": "deployment-ready.json",
+      "public_redacted_sha256": "411bf4bc2323978c41f5f3f843cb644cb3a764b1cb9eac336e252b491c2c8874",
+      "removed_fields": 3,
+      "replaced_values": 0,
+      "source_record_sha256": "9623189d98c70423417c804192deeb2894711910fac284dc7f1ddcf04bdb6569"
+    },
+    {
+      "public_file": "collection-hashes.json",
+      "public_redacted_sha256": "fc07f9499c623a690ec073099c35ec493278fd081b254f60bf0cd4edef49952c",
+      "removed_fields": 7,
+      "replaced_values": 0,
+      "source_record_sha256": "dea31c7b88b9fdb834e43c64352da243d0a00e969f2e350f43be043f4412d106"
+    },
+    {
+      "public_file": "cpu-boundary-tests.json",
+      "public_redacted_sha256": "bb1b0c7031a1b12a5a7559a16a6ac5b24ae2301483a14226d09b4bf86cab39ba",
+      "removed_fields": 3,
+      "replaced_values": 0,
+      "source_record_sha256": "8a793375ed9f0c923d193606d9499b8c0722dc4803ed489c2186ca9735debf50"
+    },
+    {
+      "public_file": "nat-runtime-source-binding.json",
+      "public_redacted_sha256": "a20dce12ff2e42609d8a9f6ed1162250dda96a957ff7ab7ef3fd487870ce74bf",
+      "removed_fields": 0,
+      "replaced_values": 4,
+      "source_record_sha256": "564ad9eb1385b76a331f1034f6f5aa7b93ea5ce59d217dc94fb2ba9508d670c9"
+    },
+    {
+      "public_file": "execution-notes.json",
+      "public_redacted_sha256": "48d72ecce33ccd5b19d48d0bfe0810b049432badcbcf1431fe478301b28ac848",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "source_record_sha256": "48d72ecce33ccd5b19d48d0bfe0810b049432badcbcf1431fe478301b28ac848"
+    }
+  ],
+  "removed_content": "filesystem and stage locations, all endpoint fields, node/account/authentication fields",
+  "scope": "backend-only deployment source binding, runtime configuration and idle readiness; not a successful workflow or domain accuracy evaluation",
+  "source_file_count": 270,
+  "source_manifest_sha256": "d91b57be6de4538850ec1d1f01b3aa7482cac6ed31718b463719772627bbadc9"
+}

@@ -1,0 +1,35 @@
+
+
+
+=== Multi-Example Nested Call Profiling Report ===
+Total calls (across all examples): 18
+
+-- Concurrency Distribution (all examples) --
+p50=4.0, p90=4.0, p95=4.0, p99=4.0
+
+-- Top 5 Calls by Bottleneck Score (subtree_time) --
+1) UUID=1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f, FUNCTION '<workflow>', dur=0.05, self_time=0.00, subtree_time=0.05, concurrency=4.0, score=0.05
+2) UUID=f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a, FUNCTION '<workflow>', dur=0.05, self_time=0.00, subtree_time=0.05, concurrency=4.0, score=0.05
+3) UUID=7da74f68-f186-4662-b2c8-1640ea5995da, FUNCTION 'evidence_retrieve', dur=0.04, self_time=0.00, subtree_time=0.04, concurrency=4.0, score=0.04
+4) UUID=6ea589ee-39b3-4c52-b563-6644c147acd9, FUNCTION 'evidence_retrieve', dur=0.04, self_time=0.04, subtree_time=0.04, concurrency=4.0, score=0.04
+5) UUID=22db9361-3392-49b9-b362-2e2e3a913bc7, FUNCTION '<workflow>', dur=0.00, self_time=0.00, subtree_time=0.00, concurrency=4.0, score=0.00
+
+-- Full Tree(s) (All Examples) --
+- FUNCTION '<workflow>' (uuid=1fa6f5ea-f7b6-426b-8e8c-5d6975b7656f, start=1790582685.09, end=1790582685.14, dur=0.05)
+  - FUNCTION '<workflow>' (uuid=f0c2dec2-77b8-4e0e-9d39-68f25a07fd6a, start=1790582685.10, end=1790582685.14, dur=0.05)
+    - FUNCTION 'evidence_retrieve' (uuid=7da74f68-f186-4662-b2c8-1640ea5995da, start=1790582685.10, end=1790582685.14, dur=0.04)
+      - FUNCTION 'evidence_retrieve' (uuid=6ea589ee-39b3-4c52-b563-6644c147acd9, start=1790582685.10, end=1790582685.14, dur=0.04)
+    - FUNCTION 'evidence_verify' (uuid=2f429ea8-286a-4bfa-a3ee-2fe1f38fcff3, start=1790582685.14, end=1790582685.14, dur=0.00)
+      - FUNCTION 'evidence_verify' (uuid=32f95dc2-fa86-4205-9e3b-bbde12500756, start=1790582685.14, end=1790582685.14, dur=0.00)
+- FUNCTION '<workflow>' (uuid=22db9361-3392-49b9-b362-2e2e3a913bc7, start=1790582685.14, end=1790582685.15, dur=0.00)
+  - FUNCTION '<workflow>' (uuid=88abed77-d9c5-4e29-b299-4e91bbd2d93a, start=1790582685.14, end=1790582685.15, dur=0.00)
+    - FUNCTION 'evidence_retrieve' (uuid=149e50c2-f090-4ee4-b169-651df5cd8cfe, start=1790582685.14, end=1790582685.15, dur=0.00)
+      - FUNCTION 'evidence_retrieve' (uuid=94cf8107-bf72-44c2-9373-aecd56f40760, start=1790582685.14, end=1790582685.15, dur=0.00)
+    - FUNCTION 'evidence_verify' (uuid=62e542e1-9c43-4965-a3f8-06ca7f464e05, start=1790582685.15, end=1790582685.15, dur=0.00)
+      - FUNCTION 'evidence_verify' (uuid=77f8ca54-6852-445b-a141-674854b65a49, start=1790582685.15, end=1790582685.15, dur=0.00)
+- FUNCTION '<workflow>' (uuid=1b02a1ca-f154-49e1-abc4-bbea32e86497, start=1790582685.15, end=1790582685.15, dur=0.00)
+  - FUNCTION '<workflow>' (uuid=90c7ed45-430c-4f8d-9cc5-8b55a4003b62, start=1790582685.15, end=1790582685.15, dur=0.00)
+    - FUNCTION 'evidence_retrieve' (uuid=1242f479-e8ce-47ee-a72e-def26318c22e, start=1790582685.15, end=1790582685.15, dur=0.00)
+      - FUNCTION 'evidence_retrieve' (uuid=f8415013-28d2-48ac-9cea-e4b4bf4bd372, start=1790582685.15, end=1790582685.15, dur=0.00)
+    - FUNCTION 'evidence_verify' (uuid=f139e5e1-022c-49cc-8671-c5c1110e692d, start=1790582685.15, end=1790582685.15, dur=0.00)
+      - FUNCTION 'evidence_verify' (uuid=a50cde6f-7f4f-4b3a-93e3-3bdbd1879083, start=1790582685.15, end=1790582685.15, dur=0.00)

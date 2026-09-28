@@ -1,0 +1,169 @@
+{
+  "includes_prior_synthetic_probe_record": true,
+  "record_count": 4,
+  "records": [
+    {
+      "at": 1790589276.8605573,
+      "completion_tokens": 7,
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 153862.640625,
+        "max_memory_allocated_bytes": 17611608064,
+        "max_memory_reserved_bytes": 17796431872,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "image_count": 1,
+      "images": [
+        {
+          "bytes": 403,
+          "sha256": "9b5d2bc0516a2749576352b9c38c6e9f88d2db423d8a187c1c003034b2136b3c"
+        }
+      ],
+      "max_tokens": 80,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 100,
+      "response_sha256": "ecbe534c698227245dd32fc9371774df0be6f5f6c3743e33839ee538d204d96b",
+      "seconds": 155.68578115699347,
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "mode": "prefix_allowed_tokens_fn",
+        "output_valid": true,
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "schema_sha256": "88cae9cee3ed63846e0c49ad5ab23bf7fd14818218cd1b38caa614c5bf6e0c99",
+        "version": "0.11.3"
+      },
+      "temperature": 0.0
+    },
+    {
+      "at": 1790591050.4565833,
+      "completion_tokens": 207,
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 19439.181640625,
+        "max_memory_allocated_bytes": 18358736384,
+        "max_memory_reserved_bytes": 18712887296,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "image_count": 2,
+      "images": [
+        {
+          "bytes": 130179,
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+        },
+        {
+          "bytes": 134337,
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+        }
+      ],
+      "max_tokens": 800,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 2494,
+      "response_sha256": "018e674b8b8e29cb5a81bd115bd404fd6797b11ac78c84432659fbf05af83d31",
+      "seconds": 19.4725339259021,
+      "structured": {
+        "enabled": false
+      },
+      "temperature": 0.1
+    },
+    {
+      "at": 1790591057.8218534,
+      "completion_tokens": 19,
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 7058.953125,
+        "max_memory_allocated_bytes": 21326286848,
+        "max_memory_reserved_bytes": 22334668800,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "image_count": 2,
+      "images": [
+        {
+          "bytes": 130179,
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+        },
+        {
+          "bytes": 134337,
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+        }
+      ],
+      "max_tokens": 2500,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14124,
+      "response_sha256": "5f777fd819ee52727b60c834a3a405547e1b3e304937f82506200dafc4c27948",
+      "seconds": 7.148299554013647,
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "mode": "prefix_allowed_tokens_fn",
+        "output_valid": true,
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "version": "0.11.3"
+      },
+      "temperature": 0.1
+    },
+    {
+      "at": 1790591076.3892152,
+      "completion_tokens": 106,
+      "cuda": {
+        "allocator_backend": "native",
+        "device_index": 0,
+        "elapsed_ms": 18315.39453125,
+        "max_memory_allocated_bytes": 21347900928,
+        "max_memory_reserved_bytes": 23152558080,
+        "memory_is_total_system_usage": false,
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "status": "measured",
+        "timing_scope": "generate_current_stream_cuda_event_interval"
+      },
+      "image_count": 2,
+      "images": [
+        {
+          "bytes": 130179,
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c"
+        },
+        {
+          "bytes": 134337,
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11"
+        }
+      ],
+      "max_tokens": 2500,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14236,
+      "response_sha256": "df462750b7fdba8895078fa3b75630195b6d3ca597a0566e1b48155f8ae78157",
+      "seconds": 18.398024750989862,
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "mode": "prefix_allowed_tokens_fn",
+        "output_valid": true,
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "version": "0.11.3"
+      },
+      "temperature": 0.1
+    }
+  ],
+  "scope": "Completed metadata only at partial snapshot; fourth business generation still running",
+  "source_jsonl_original_sha256": "9725feab5d381d7398db75bf32e7f6e8263f8a46a596edba158a2fb0c0eb1bff"
+}

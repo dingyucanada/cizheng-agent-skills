@@ -144,6 +144,28 @@ class AckOnlySyntheticModel(SyntheticDocumentaryModel):
         return '{"actions":[{"tool":"read_case","arguments":{}}]}', {'synthetic_fixture': True}
 
 
+def test_documentary_md_and_html_include_only_this_saved_report_nvidia_audit(tmp_path):
+    store = Store(tmp_path)
+    case, _ = attach(store, new_case(store))
+    engine, rid = start(store, case)
+    asyncio.run(engine.execute(rid))
+    run = store.read('run', rid)
+    audit = {'id': uid('nvaudit'), 'case_id': case['id'], 'case_revision': case['revision'],
+             'assessment_run_id': rid, 'source_case_revision': run['case_revision'],
+             'state': 'succeeded', 'result': {'status': 'no_read_evidence',
+                                             'snapshot_sha256': run['versions']['knowledge_snapshot_sha256']}}
+    with store.tx() as db:
+        store.put(db, 'nvidia_audit', audit)
+        store.put(db, 'nvidia_audit', dict(audit, id=uid('nvaudit'), assessment_run_id='run-other'))
+    bundle = export_bundle(store, store.read('case', case['id']), run)
+    assert [a['id'] for a in bundle['nvidia_audits']] == [audit['id']]
+    markdown = markdown_report(bundle)
+    rendered = html_report(bundle, lambda _: pytest.fail('Documentary report must not load images'))
+    assert audit['id'] in markdown and audit['id'] in rendered
+    assert 'NVIDIA 引用身份核查' in markdown and 'no_read_evidence' in rendered
+    assert 'run-other' not in markdown and 'run-other' not in rendered
+
+
 def test_real_documentary_zero_photo_loop_and_report(tmp_path):
     store = Store(tmp_path)
     case, document = attach(store, new_case(store))
@@ -181,7 +203,11 @@ def test_wrong_citation_model_failure_has_no_fake_current_result(tmp_path):
     run = store.read('run', rid)
     assert run['state'] == 'failed' and run['assessment'] is None
     assert store.read('case', case['id'])['current_run_id'] is None
-    assert len([event for event in run['events'] if event['type'] == 'validation_error']) == 1
+    errors = [event for event in run['events'] if event['type'] == 'validation_error']
+    assert len(errors) == 2
+    assert [event['repair_allowed'] for event in errors] == [True, False]
+    assert all(event['error_type'] == 'ValueError' and '本轮实际阅读' in event['detail']
+               for event in errors)
     assert run['model_calls'] == 4
 
 

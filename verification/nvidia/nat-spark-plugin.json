@@ -1,0 +1,93 @@
+{
+  "phase": "plugin_registered_validated_and_run",
+  "architecture": "aarch64",
+  "source_release": "source-c005-c688d7",
+  "versions": {
+    "nvidia-nat": "1.9.0",
+    "nvidia-nat-core": "1.9.0",
+    "nvidia-nat-atif": "1.9.0",
+    "nvidia-nat-langchain": "1.9.0",
+    "cizheng-nvidia-nat": "0.1.0"
+  },
+  "steps": [
+    {
+      "step": "plugin-wheel-build",
+      "exit_code": 0
+    },
+    {
+      "step": "plugin-wheel-install",
+      "exit_code": 0
+    },
+    {
+      "step": "telemetry-status",
+      "exit_code": 0
+    },
+    {
+      "step": "component-discovery",
+      "exit_code": 0
+    },
+    {
+      "step": "workflow-validate",
+      "exit_code": 0
+    },
+    {
+      "step": "workflow-cli-run",
+      "exit_code": 0
+    },
+    {
+      "step": "application-call",
+      "exit_code": 0
+    },
+    {
+      "step": "saved-application-call",
+      "exit_code": 0
+    },
+    {
+      "step": "real-api-contract",
+      "exit_code": 0
+    }
+  ],
+  "source_manifest": {
+    "configs/evidence.yml": "5b312283ff568a43ea8e215d5c0087946c9e4f11edbfe10f5d80e8403199517f",
+    "pyproject.toml": "9d837c2197cdac2528ee31c66f3b98a2b14f0c933a376cdeb87c8f83fd7209eb",
+    "src/cizheng_nat/__init__.py": "dca7d77302264516ac3d2cb1417925beaffd1c8ac727e37c6208177cdc997174",
+    "src/cizheng_nat/evaluators.py": "b775f85b99e32c1c4d29419a16e927513cbef957de4d0755110e1fec5b40aeb2",
+    "src/cizheng_nat/evidence.py": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+    "src/cizheng_nat/register.py": "a5c0962c9bf3e271dac50e2a967db31fe9bb8ef63dccc036c09c05faeba59378"
+  },
+  "wheel_sha256": "893f39ea55755fea6c4624b1649899c1723be6257c746da1aaa03fb5d29e8039",
+  "status": "references_verified",
+  "usage": {
+    "elapsed_seconds": 0.022478,
+    "max_model_calls": 0,
+    "max_seconds": 300.0,
+    "max_tool_calls": 20,
+    "model_calls": 0,
+    "tool_calls": 5
+  },
+  "fixture": "project-original software contract only",
+  "saved_report_status": "references_verified",
+  "saved_report_source_mode": "saved_assessment_run_snapshot",
+  "saved_report_source_case_revision": 2,
+  "saved_report_current_case_revision": 3,
+  "saved_report_usage": {
+    "elapsed_seconds": 0.008545,
+    "max_model_calls": 0,
+    "max_seconds": 300.0,
+    "max_tool_calls": 20,
+    "model_calls": 0,
+    "tool_calls": 4
+  },
+  "saved_report_fixture_not_ai_result": true,
+  "saved_report_field": "documentary_findings.evidence_refs[kind=knowledge]",
+  "api_http_status": 200,
+  "api_state": "succeeded",
+  "api_status": "references_verified",
+  "api_transport": "real_application_ASGI_HTTP_contract",
+  "api_fixture_only_not_live_backend": true,
+  "telemetry_enabled": false,
+  "network_calls_allowed_during_validation": false,
+  "inference_performed": false,
+  "nvidia_verified_skill": false,
+  "gpu_acceleration_measured": false
+}

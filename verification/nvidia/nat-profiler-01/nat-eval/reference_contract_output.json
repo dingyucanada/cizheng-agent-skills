@@ -1,0 +1,32 @@
+{
+  "average_score": 1.0,
+  "eval_output_items": [
+    {
+      "id": "reference-valid",
+      "score": 1.0,
+      "reasoning": {
+        "contract_failures": [],
+        "scope": "deterministic software contract only"
+      },
+      "error": null
+    },
+    {
+      "id": "tampered-chunk-hash",
+      "score": 1.0,
+      "reasoning": {
+        "contract_failures": [],
+        "scope": "deterministic software contract only"
+      },
+      "error": null
+    },
+    {
+      "id": "no-retrieved-evidence",
+      "score": 1.0,
+      "reasoning": {
+        "contract_failures": [],
+        "scope": "deterministic software contract only"
+      },
+      "error": null
+    }
+  ]
+}

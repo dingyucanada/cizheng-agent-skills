@@ -1,0 +1,107 @@
+{
+  "excluded": "Accounts, credentials, tokens, private documents, node identity, machine paths, service addresses, process IDs and startup environment",
+  "records": [
+    {
+      "public_file": "full-source-manifest.json",
+      "public_sha256": "aae6b4120e368977c514a6f1ce7c17a027fe695e78c2c6ace134a788a80a3783",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "a4310c0ef350994f98ac5a4f6724ece186075460646fd475e41e21b1d18a2ace",
+          "node_original_sha256": "a4310c0ef350994f98ac5a4f6724ece186075460646fd475e41e21b1d18a2ace",
+          "source_artifact_label": "observed05-compact03-backend-02-stage.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "source-binding.json",
+      "public_sha256": "28adf62a2c52e7733832bebac3e5b60aadb5a426445e13b1c1b95d0a15508cb9",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "4b7d4d1926b9c248526069b1acd87cd79c14747833f48cae62b09eb725fbe6b6",
+          "node_original_sha256": "4b7d4d1926b9c248526069b1acd87cd79c14747833f48cae62b09eb725fbe6b6",
+          "source_artifact_label": "observed05-compact03-backend-02-deploy-01.json"
+        },
+        {
+          "local_sanitized_sha256": "a4310c0ef350994f98ac5a4f6724ece186075460646fd475e41e21b1d18a2ace",
+          "node_original_sha256": "a4310c0ef350994f98ac5a4f6724ece186075460646fd475e41e21b1d18a2ace",
+          "source_artifact_label": "observed05-compact03-backend-02-stage.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "backend-failed-attempt01.json",
+      "public_sha256": "29462a146a71e4af98d4f33d943df240b8c2496b9cffecc2261f0d481cf8659f",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "68e67f76501b562e39443afcdfd03a2388b2f9f9d0b51814ed04e4038c135d02",
+          "node_original_sha256": "68e67f76501b562e39443afcdfd03a2388b2f9f9d0b51814ed04e4038c135d02",
+          "source_artifact_label": "observed05-compact03-backend-01-deploy-01.json"
+        },
+        {
+          "local_sanitized_sha256": "4b7d4d1926b9c248526069b1acd87cd79c14747833f48cae62b09eb725fbe6b6",
+          "node_original_sha256": "4b7d4d1926b9c248526069b1acd87cd79c14747833f48cae62b09eb725fbe6b6",
+          "source_artifact_label": "observed05-compact03-backend-02-deploy-01.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "nat-runtime-binding.json",
+      "public_sha256": "94ea3cac7e7b78d44c0f3d1e8a820740cac962276035898a85c0827a5da95f85",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "801ce3d3ad63c31d7fe369c808eed11066e41ec464e69580447bb404f4f41b4d",
+          "node_original_sha256": "358012438303d401fbb0074fa65b43505d48b774124bf3335c12088e68cb9a76",
+          "source_artifact_label": "observed05-compact03-backend-02-nat-runtime-binding-01.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "arm-cpu-validation.json",
+      "public_sha256": "c5f024f4ea7859a9cccb18402da31ef810d95b13b2c42b93d182fec549aa1339",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "72e89c51a311ecc2611c9942f3956fbcd58c61631aa9c04daa4012b4d03bd333",
+          "node_original_sha256": "72e89c51a311ecc2611c9942f3956fbcd58c61631aa9c04daa4012b4d03bd333",
+          "source_artifact_label": "compact-guided-arm-tests-observed05-01.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "arm-test-collection.json",
+      "public_sha256": "78461a4145db9da207870938d69d18135dd09f086161b4ccaf2f3d050f515d69",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "1185e7dc76efa08f2473bfd7d6155f2f3b03f14d35a886736359ec6990c41002",
+          "node_original_sha256": "1185e7dc76efa08f2473bfd7d6155f2f3b03f14d35a886736359ec6990c41002",
+          "source_artifact_label": "compact-guided-arm-tests-observed05-01-collection.json"
+        }
+      ],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    },
+    {
+      "public_file": "arm-pytest-summary.log",
+      "public_sha256": "16442247fdee3a83938cdab40aa00f476837020200b17d13ed807d23ddc8a655",
+      "source_artifacts": [
+        {
+          "local_sanitized_sha256": "17a314d91c9a3eef2727af75f04df00f785229201362d2a00980e78cf2caa369",
+          "node_original_sha256": "0a32652035922ecd938fdbd4abaf56edfb8cd0ca0140aeee14fb36238259e2d9",
+          "source_artifact_label": "compact-guided-arm-tests-observed05-01.log"
+        }
+      ],
+      "transformation": "Verbatim selected collected-count/result/Torch-state lines from actual pytest log; operational runner paths omitted"
+    },
+    {
+      "public_file": "README.md",
+      "public_sha256": "9f190aeb0d8794df87c3b6825ffcc2c974dd66abfdb508c5051ea114ed2ec019",
+      "source_artifacts": [],
+      "transformation": "Explicit public field whitelist; operational locations and identities omitted"
+    }
+  ],
+  "retained": "Model and dependency versions, approved source/module hashes, request/response digests, measured usage/timing, failed outcomes and software contracts",
+  "scope": "Public redacted evidence; hashes distinguish node original, collected sanitized, and public bytes"
+}

@@ -4,7 +4,7 @@ description: >-
   Audit the documentary provenance of a ceramic research case, distinguishing holder statements, dated records, gaps, and object-identity links. Use when a museum accession, collection purchase, or auction consignment asks about source history. Not for proving title, legality, price, or authenticity from a story.
 compatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.
 metadata:
-  version: "0.4.0"
+  version: 0.4.0
   required-tools: "read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment"
   expert-review: "pending"
 ---

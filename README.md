@@ -6,7 +6,7 @@
 
 [项目主页](https://dingyucanada.github.io/cizheng-agent-skills/) · [免上传完整体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html) · [使用手册](docs/user-guide.md) · [比赛交付清单](docs/demo-and-submission.md) · [当前状态](STATUS.md)
 
-网站地址对应本仓库的 GitHub Pages 发布目标；部署是否成功以仓库的 Pages 工作流及实际网页为准。公开体验使用真实公开馆藏图片和项目编写的研究示例，**当前不调用 AI 模型，示例不是鉴定结论或专家签署**。实时推理需要连接模型服务。Spark 与 StepFun 的现场验证尚待完成。
+网站地址对应本仓库的GitHub Pages发布目标；是否成功以工作流及实际网页为准。公开体验使用真实馆藏图片和项目编写的研究示例，**不调用AI，示例不是鉴定结论或专家签署**。私有Spark已执行真实GPU图像生成，历史c005冻结后端在ARM64节点通过342项工程检查；StepFun公开文字适配器已实际请求。2B及8B历次复杂流程失败均保留；最新第05轮已观察双图并加载适用方法，但主动作90秒超时，未产生AI报告、NAT报告核查或StepFun反证闭环，详见 [当前状态](STATUS.md)。
 
 ## 为什么做瓷证
 
@@ -53,7 +53,7 @@ python -m uvicorn cizheng.api:create_app --factory --host 127.0.0.1 --port 8780
 | 图像研究 | 原图、双图、缩放、局部框选、人工区域观察；档案最多 30 图，本轮选 1–8 图 |
 | 知识资料库 | 中文关键词检索、查看出处及段落、固定本案采用的资料版本 |
 | 研判与补证 | 连接模型后执行有预算的工具流程，保存证据主张和修订历史 |
-| 报告复核 | 分别复核材料准备与模型意见，导出 JSON、Markdown、HTML 和离线交接 ZIP |
+| 报告复核 | 逐图细节、各项判断理由、采集覆盖指数、补证与历史意见；NVIDIA 固定引用核查，导出 JSON、Markdown、HTML 和离线交接 ZIP |
 
 无照片委托可以使用“文字凭据核查”：只读本案许可 UTF-8 TXT 和固定资料段落，逐项记录相符、冲突、缺失与需复核。PDF 保留原始文件和定位登记，当前不自动 OCR；这条任务不作年代、窑口、风格或真伪归属。
 
@@ -71,7 +71,9 @@ python -m uvicorn cizheng.api:create_app --factory --host 127.0.0.1 --port 8780
 | [documentary-evidence-audit](skills/documentary-evidence-audit/SKILL.md) | 依据实际读到的文字片段核查记载，不做视觉归属 |
 | [evidence-revise](skills/evidence-revise/SKILL.md) | 补证后比较主张和依据，保留旧运行、失败和未解决项 |
 
-描述 → 方法正文 → 按需参考资源，形成渐进加载；整包 SHA256 固定实际采用的方法版本。工具执行不开放通用 Shell。运行固定案卷、图片、资料及 Skill 版本，引用必须对应成功读取的段落和定位。单轮预算为 12 次主模型、20 次工具、300 秒；初轮与最多两次修订共享 36 / 60 / 900 的累计上限，取消和失败同样保留用量。
+描述 → 方法正文 → 按需参考资源，形成渐进加载；整包 SHA256 固定实际采用的方法版本。工具执行不开放通用 Shell。运行固定案卷、图片、资料及 Skill 版本，引用必须对应成功读取的段落和定位。单轮预算为 12 次模型调用（包含视觉子调用）、20 次工具、300 秒；初轮与最多两次修订共享 36 / 60 / 900 的累计上限，取消和失败同样保留用量。
+
+可选的[受控材料准备](docs/controlled-workflow.md)先执行本案读取、有限方法加载、最多两段固定资料和首批真实图片，仍按原预算收费。策略记录在运行身份中；协调器选择不称模型自然触发，判断与意见仍由真实模型产生。默认关闭，真实节点验收结果以记录为准。可选短动作传输只从本轮已读正文回执补齐六个引用身份字段，判断和理由仍由模型写出，并经原证据校验；单动作、短理由与单引用有表达限制，效果另测。
 
 ## RAG：可回查的资料，不是自动可信标签
 
@@ -83,20 +85,24 @@ python -m uvicorn cizheng.api:create_app --factory --host 127.0.0.1 --port 8780
 
 推荐将正式模型演示的后端、数据库与视觉模型部署在同一 Spark 项目目录，笔记本通过 SSH 转发访问。原图由指定本机 / Spark 服务处理；如果后端仍在笔记本，笔记本也保存原图，需如实说明。
 
-| 技术 | 当前事实 | 接入后的验证 |
+| 技术 | 当前已完成 | 仍需验证 |
 |---|---|---|
-| DGX Spark / CUDA | 部署和只读环境检查脚本已提供，节点尚未连接 | 记录真实 ARM64、驱动、CUDA、内存和运行日志 |
-| Qwen3.6-35B-A3B-NVFP4 + vLLM | 按 NVIDIA Spark 配方准备的首选部署候选，未在节点执行 | 先复用健康现有服务；新增时固定镜像 digest 与模型 revision，验证多图、局部和动作合同 |
-| 量化、上下文、并发调整 | 初始参数为项目候选，不是已证明的性能收益 | 比较真实冷 / 热请求、图片负载、内存、延迟及专家案例 |
-| StepFun 文字反证审查 | API 适配、预览、批准包固定与单次提交逻辑已实现，实际凭据联调待完成 | 仅提交公开或明确获准脱敏的文字，不发原图，不自动重试 |
-| NVIDIA Agent Skills 生态 | 方法包设计和培训落地对照已完成 | 实际运行记录 Skill 发现、加载、参考读取与效果边界 |
+| DGX Spark / NVIDIA GB10 | 实际ARM64节点；历史c005冻结源码342项工程检查通过，真实CUDA FP32/BF16运算、GPU加载及合成图生成预热通过 | 工程通过和部署就绪不等于陶瓷专业质量；冷/热、负载与专家效果分别验收 |
+| CUDA / PyTorch / Transformers / Triton | 官方CUDA13轮子、BF16/SDPA原生推理、权重SHA核对；缺Python.h真实失败后通过项目内官方头文件修复；原始生成输出保留 | 8B基础探针通过，旧版复杂工具流程失败；GPU结构约束已通过合成格式验证，公开两图full-workflow01因调用预算失败；未用NVFP4/Marlin/FlashInfer |
+| NVIDIA NeMo Agent Toolkit 1.9.0 | 正式注册、组合工作流、真实CLI及三个合同评测；本机与Spark独立环境均完成API、固定历史引用、权限和幂等检查 | 引用软件合同fixture；0模型调用，不能替代真实视觉报告、结论正确性或Skills效果 |
+| NVIDIA NAT profiler 1.9.0 | 实际离线执行三个引用软件样例；42条原始事件、9个tracked SPAN与9个原生FUNCTION，生成ATIF、CSV、Gantt及指标 | CPU工具轨迹，0模型调用；嵌套区间不可相加，不是Qwen视觉或GPU性能 |
+| NVIDIA SkillSpector 2.12.0 | 七个运行范围按官方Tier-1暂存规则静态扫描完成，无范围内发现；保留全包诊断和排除项 | 未完成live有/无Skills专业效果评测或NVIDIA签名，不是Verified |
+| StepFun step-3.7-flash | 实际公开文字请求、结构与引用ID校验通过，936 total tokens / 4.829秒为单次适配器探针 | 完整反证修订和专业验收；单次探针不代表性能统计，未发原图 |
 
-详见 [模型选择](docs/model-selection.md)、[Spark 部署验收](docs/spark-validation.md)、[培训落地对照](docs/training-implementation.md)。当前没有实测 tokens/s、GPU 使用率、准确率或 Skills 提升百分比。Jev 不在本地核心链路，Laya 仅保留默认关闭的文本影子实验；没有将二者宣传成陶瓷视觉预审模型。
+[NVIDIA架构与采用路线](docs/nvidia-architecture.md) · [集成与复现](docs/nvidia-integration.md) · [已执行的公开证据](verification/nvidia/README.md) · [评分项逐条对照](docs/competition-score-evidence.md) · [模型选择](docs/model-selection.md) · [Spark部署验收](docs/spark-validation.md)。实际用了什么、作用是什么及未验证之处分别记录。TensorRT-LLM、NIM、Dynamo和NeMo Retriever保留为瓶颈驱动的后续候选，没有把它们列为已使用。
+
+照片研究报告列出原图SHA、每张实际观察、支持和冲突依据、分项理由及下一项补证。**采集覆盖指数**按本轮用户标注的整体、底足、口沿、釉面、纹饰五类去重计算；它不表示图片质量、证据充分性或真品率。真品概率字段保留为“待校准”，没有用模型自报置信或路由概率充当概率。详见 [报告与数字口径](docs/authenticity-and-scoring.md)。Jev不在本地核心链路，Laya仅保留默认关闭的文本影子实验。
 
 ## 验证与复现
 
 ```bash
-python -m pytest -q
+pip install -r requirements-structured-tested.txt
+PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider tests integrations/spark_transformers/tests
 python scripts/build-public-site.py
 npm ci --ignore-scripts
 npm run test:web
@@ -114,6 +120,8 @@ skills/               七个 SKILL.md、方法卡、参考文件与评测合同
 knowledge/            25 条原创来源摘要与出处
 examples/public-demo/ 公开馆藏照片、许可、来源与教学材料
 site/                 GitHub Pages 主页与免上传体验
+integrations/         NVIDIA NAT插件与Spark原生GPU适配器
+verification/         已实际执行的公开集成记录与扫描范围
 deploy/               本地与 Spark 启动、环境检查及配置示例
 docs/                 产品、使用、模型、部署、比赛与权利说明
 evals/ tests/          专业评测协议与工程验证

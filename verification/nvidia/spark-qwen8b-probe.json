@@ -1,0 +1,79 @@
+{
+  "scope": "synthetic transport, image-order and JSON behavior only; NOT ceramic accuracy",
+  "model": {
+    "provider": "local-openai-compatible",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "endpoint": "http://127.0.0.1:8001/v1",
+    "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+    "generation": {
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "disable_thinking": false
+    }
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39"
+  },
+  "checks": [
+    {
+      "name": "json-action",
+      "passed": true,
+      "response": "{\"actions\":[{\"tool\":\"read_case\",\"arguments\":{}}]}",
+      "parsed": {
+        "actions": [
+          {
+            "tool": "read_case",
+            "arguments": {}
+          }
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 40,
+        "completion_tokens": 14,
+        "total_tokens": 54
+      },
+      "seconds": 1.3382,
+      "image_count": 0,
+      "error": null
+    },
+    {
+      "name": "single-image",
+      "passed": true,
+      "response": "{\"color\":\"red\"}",
+      "parsed": {
+        "color": "red"
+      },
+      "usage": {
+        "prompt_tokens": 113,
+        "completion_tokens": 6,
+        "total_tokens": 119
+      },
+      "seconds": 0.5719,
+      "image_count": 1,
+      "error": null
+    },
+    {
+      "name": "two-images",
+      "passed": true,
+      "response": "{\"colors\":[\"red\",\"blue\"]}",
+      "parsed": {
+        "colors": [
+          "red",
+          "blue"
+        ]
+      },
+      "usage": {
+        "prompt_tokens": 185,
+        "completion_tokens": 8,
+        "total_tokens": 193
+      },
+      "seconds": 0.7788,
+      "image_count": 2,
+      "error": null
+    }
+  ],
+  "started_at": 1790571650.830764,
+  "passed": true,
+  "ceramic_accuracy": "not_measured"
+}

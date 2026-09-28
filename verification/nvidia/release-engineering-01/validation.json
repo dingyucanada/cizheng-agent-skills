@@ -1,0 +1,43 @@
+{
+  "scope": "release candidate runtime verification before final documentation/evidence freeze; not ceramic accuracy",
+  "python": {
+    "passed": 615,
+    "skipped": 2,
+    "warning": 1,
+    "seconds": 39.18
+  },
+  "web": {
+    "passed": 33,
+    "skipped": 0,
+    "failed": 0,
+    "seconds": 1.547464458
+  },
+  "optional_skips": "actual NAT1.9 independent environment22 passed separately; overlapping tests not added",
+  "unchanged_runtime_and_domain_files_from_development_stage": "296files,945a8f4069d572f7b2ebcf8cbcdb471a7e01e14ac0d67752cc5310f28d825cd5; all .py,.mjs,.js,.css,skills,knowledge,examples unchanged; documentation/evidence/HTML text differ",
+  "public_site_check": {
+    "cases": 3,
+    "jpeg": 4,
+    "authored_txt": 9,
+    "skills": 7,
+    "sources": 25,
+    "model_calls": 0,
+    "result": "pass"
+  },
+  "source_changes_after_tests": "only documentation and verification records; frozen binding recorded outside candidate",
+  "log_identities": [
+    {
+      "file": "python-tests.log",
+      "original_log_sha256": "42178b94d6d667e48599289fd0ac0f64fc5b8e916a89ae235f938cae9abf3592",
+      "public_file_sha256": "d8a7d5f87ced8e5791283d5e683b531f47b51ae2b1605de4f29973300221edc4",
+      "scope": "local actual software contracts; no models/GPU/domain quality",
+      "redaction": "absolute local workspace/home paths only"
+    },
+    {
+      "file": "web-tests.log",
+      "original_log_sha256": "965b4bb0b50eb06e9def7807fba04e34964b5757d8df6ed2e7179be4f3fa21ad",
+      "public_file_sha256": "965b4bb0b50eb06e9def7807fba04e34964b5757d8df6ed2e7179be4f3fa21ad",
+      "scope": "local actual software contracts; no models/GPU/domain quality",
+      "redaction": "absolute local workspace/home paths only"
+    }
+  ]
+}

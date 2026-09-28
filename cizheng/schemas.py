@@ -3,6 +3,18 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
+def reject_uncalibrated_probability(content):
+    """A text guard for model-generated findings, not a semantic truth verifier."""
+    subject = r"(?:真品|赝品|真伪|真假|真实性|AI.{0,3}生成|人工智能生成|authenticity|authentic|fake|ai.generated)"
+    probability = r"(?:概率|置信|可能性|真品率|probability|confidence|likelihood)"
+    number = r"(?:\d+(?:\.\d+)?\s*[%％]|0\.\d+|[一二三四五六七八九十]成)"
+    patterns = [subject + r"[^，。;；\n]{0,16}" + probability + r"[^，。;；\n]{0,8}" + number,
+                number + r"[^，。;；\n]{0,16}" + subject,
+                subject + r"[^，。;；\n]{0,8}\d+(?:\.\d+)?\s*[%％]"]
+    if any(re.search(p, content, flags=re.IGNORECASE) for p in patterns):
+        raise ValueError("未经校准，不得输出真伪或AI生成的数值概率")
+
+
 class Strict(BaseModel):
     model_config = ConfigDict(extra="forbid", str_max_length=20000)
 
@@ -75,6 +87,12 @@ class EvidenceIn(Revised):
     view: str = Field(min_length=1, max_length=100)
     edit_declaration: str = Field(default="未知", max_length=1000)
     source: str = Field(default="用户提供，来源待核", max_length=1000)
+    capture_role: Literal["unknown", "overall", "base", "mouth", "glaze", "decoration", "inscription", "condition"] = "unknown"
+
+
+class CaptureLabelIn(Revised):
+    capture_role: Literal["unknown", "overall", "base", "mouth", "glaze", "decoration", "inscription", "condition"]
+    view: str = Field(min_length=1, max_length=100)
 
 
 class ReferenceIn(Mutation):
@@ -91,6 +109,10 @@ class ReferenceIn(Mutation):
 
 class RunIn(Revised):
     mode: Literal["skills", "plain"] = "skills"
+
+
+class NvidiaAuditIn(Revised):
+    assessment_run_id: str = Field(min_length=1, max_length=200)
 
 
 class CorrectionIn(Revised):
@@ -160,15 +182,7 @@ class Assessment(Strict):
     def no_uncalibrated_authenticity_probability(self):
         # Descriptive pixel fractions are outside Assessment. Prevent presenting an
         # uncalibrated authenticity / AI-origin likelihood as a numerical finding.
-        content = self.model_dump_json()
-        subject = r"(?:真品|赝品|真伪|真假|真实性|AI.{0,3}生成|人工智能生成|authenticity|authentic|fake|ai.generated)"
-        probability = r"(?:概率|置信|可能性|probability|confidence|likelihood)"
-        number = r"(?:\d+(?:\.\d+)?\s*[%％]|0\.\d+|[一二三四五六七八九十]成)"
-        patterns = [subject + r"[^，。;；\n]{0,16}" + probability + r"[^，。;；\n]{0,8}" + number,
-                    number + r"[^，。;；\n]{0,16}" + subject,
-                    subject + r"[^，。;；\n]{0,8}\d+(?:\.\d+)?\s*[%％]"]
-        if any(re.search(p, content, flags=re.IGNORECASE) for p in patterns):
-            raise ValueError("未经校准，不得输出真伪或AI生成的数值概率")
+        reject_uncalibrated_probability(self.model_dump_json())
         return self
 
 
@@ -348,6 +362,11 @@ class EvidenceRequest(Strict):
     reason: str = Field(min_length=1, max_length=1000)
     distinguishes: str = Field(min_length=1, max_length=1000)
     capture_instructions: str = Field(min_length=1, max_length=1000)
+
+    @model_validator(mode="after")
+    def no_uncalibrated_probability(self):
+        reject_uncalibrated_probability(self.model_dump_json())
+        return self
 
 
 class Action(Strict):

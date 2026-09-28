@@ -3,9 +3,25 @@ import base64
 import html
 import json
 from .visual_tools import derivative
+from .photo_report import photo_report, CAPTURE_LABELS
 
 DIM={'period':'制作时期','kiln':'窑口归属','style':'装饰风格'}
 STATUS={'supported':'当前资料支持','conflicting':'存在冲突','insufficient':'依据不足','out_of_scope':'专科范围外'}
+
+
+def nvidia_audit_lines(bundle):
+    """The same fixed-report audit scope is visible in both research tasks."""
+    lines = ['', '## NVIDIA 引用身份核查（独立可选流程）']
+    for audit in bundle.get('nvidia_audits', []):
+        result = audit.get('result') or {}
+        lines += ['核查记录：'+audit['id']+'；执行状态：'+audit['state'],
+                  '源意见：'+audit['assessment_run_id']+'；资料第'+str(audit['source_case_revision'])+'版。',
+                  '引用核查结果：'+result.get('status', '未完成')+'；模型调用：0。',
+                  '知识快照SHA256：'+str(result.get('snapshot_sha256', '未完成')),
+                  '只核对实际阅读知识引用的版本、哈希与定位；不认证资料文字、图像、归属或真伪。']
+    if not bundle.get('nvidia_audits'):
+        lines.append('本报告未执行独立 NVIDIA NAT 引用核查；原有读取合同继续保留。')
+    return lines
 
 
 def markdown_report(bundle):
@@ -24,12 +40,36 @@ def markdown_report(bundle):
     from .pro_workflow import CATALOGUE_LABELS
     for key, label in CATALOGUE_LABELS.items():
         lines.append(label+'：'+(case.get('catalogue', {}).get(key) or '未登记'))
-    lines += ['', '## 归属意见']
+    indicators = photo_report(run)
+    capture = indicators['capture_coverage']
+    observed = indicators['photo_observation_coverage']
+    lines += ['', '## 多图研判 · 指数与适用范围',
+              f'采集覆盖指数：{capture["value"]}/100（{capture["numerator"]}/{capture["denominator"]}类上传者视角标记）。',
+              capture['meaning'], *capture['limitations'],
+              '待标记 / 补拍：'+('、'.join(CAPTURE_LABELS[r] for r in capture['missing_roles']) or '通用采集类别已标记，仍须核对实际画面。'),
+              f'有模型区域观察记录：{observed["observed_count"]}/{observed["selected_count"]}张本轮原照。',
+              observed['meaning'], '真品概率：尚不可估计（not_calibrated，数值为null）。',
+              '拟核查归属：'+indicators['authenticity_probability']['target_attribution'],
+              indicators['authenticity_probability']['reason'], indicators['notice'],
+              '', '## 每张照片的细节与解释']
+    for item in indicators['photos']:
+        lines += ['', '### '+item['filename']+' · '+item['media_id'],
+                  '上传者视角标记：'+CAPTURE_LABELS.get(item['capture_role'], '未标记')+'；原视角声明：'+item['declared_view'],
+                  '原图SHA256：'+str(item['sha256'])]
+        for observation in item['observations']:
+            lines += ['定位 '+observation['id']+'：'+str(observation['region']),
+                      '可见现象：'+observation['visible'],
+                      '解释：'+(observation.get('interpretation') or '未作解释'),
+                      '限制：'+(observation.get('limitation') or '未另登记')]
+        if not item['observations']:
+            lines.append('本轮没有该图的区域观察记录；不能据此声称已研究此图。')
+    lines += ['', '## 归属意见 · 判断理由与反证']
     for claim in assessment.get('claims',[]):
         lines += ['', '### '+DIM[claim['dimension']]+'：'+claim['candidate'],
             '状态：'+STATUS[claim['status']],claim['reasoning_summary'],
             '支持观察：'+('、'.join(claim['support']) or '未登记'),
             '冲突观察：'+('、'.join(claim['conflict']) or '未登记')]
+    lines += ['', '## 状况疑点与解释（需回查）'] + (assessment.get('condition_hypotheses', []) or ['本轮未登记状况解释；不表示没有损伤或修复。'])
     lines += ['', '## 竞争解释']+assessment.get('alternatives',[])+['','## 参照比较',assessment.get('reference_comparison','未形成意见'),'', '## 限制']+assessment.get('limitations',[])
     if run.get('evidence_request'):
         request=run['evidence_request'];lines += ['','## 下一项优先补证',request['view'],request['reason'],
@@ -64,6 +104,7 @@ def markdown_report(bundle):
     lines+=['','## 修订及文字审查回应',assessment.get('revision_explanation','无已完成修订')]
     for disposition in run.get('critic_dispositions',[]):
         lines += ['疑点 '+str(disposition['issue_index']+1)+'：'+disposition['decision']+'；'+disposition['reason']]
+    lines += nvidia_audit_lines(bundle)
     lines+=['','## 人工复核记录（身份未认证）']
     for record in case.get('reviews',[]):lines += [record['reviewer']+'：'+record['note'],'依据：'+record['basis']]
     for record in case.get('corrections',[]):lines += [record['reviewer']+'：'+record['correction'],'依据：'+record['basis']]
@@ -129,6 +170,7 @@ def documentary_report(bundle):
     if run.get('evidence_request'):
         request = run['evidence_request']
         lines += ['', '## 下一项优先补证', request['view'], request['reason'], request['capture_instructions']]
+    lines += nvidia_audit_lines(bundle)
     lines += ['', '## 人工资料复核与订正（操作人身份未认证）']
     for record in case.get('reviews', []):
         lines += ['资料核对方式：'+record.get('review_method', '未登记')+'；复核人：'+record.get('reviewer', ''),
@@ -150,6 +192,18 @@ def documentary_report(bundle):
 def html_report(bundle,get_blob):
     escape=lambda value:html.escape(str(value),quote=True)
     run=bundle['run'];body=markdown_report(bundle)
+    summary = ''
+    indicators = photo_report(run)
+    if indicators['status'] != 'not_applicable':
+        coverage = indicators['capture_coverage']
+        observation = indicators['photo_observation_coverage']
+        summary = ('<aside class="report-indicators" aria-label="报告指标">'
+                   '<div><small>采集覆盖 · 上传者标记</small><strong>'+str(coverage['value'])+
+                   '<span>/100</span></strong><p>'+str(coverage['numerator'])+'/5类通用视角，不表示真伪</p></div>'
+                   '<div><small>有区域观察记录</small><strong>'+str(observation['observed_count'])+'<span>/'+
+                   str(observation['selected_count'])+'张</span></strong><p>观察内容及定位需逐项复核</p></div>'
+                   '<div><small>真品概率</small><strong class="uncalibrated">待校准</strong>'
+                   '<p>尚无独立专家真值支持的数值</p></div></aside>')
     # Plain-text paragraphs/headings rendered with escaping, no raw HTML or arbitrary markdown URL execution.
     sections=[];in_code=False;code=[]
     for line in body.splitlines():
@@ -176,4 +230,4 @@ def html_report(bundle,get_blob):
         images += ['</div><figcaption>'+escape(identifier)+' · 原图SHA256：'+escape(metadata['sha256'])+
                    '<br>显示图SHA256：'+escape(derived['derived_sha256'])+'</figcaption></figure>']
     return '''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>瓷证研究档案</title><style>body{margin:auto;max-width:920px;padding:32px;font:16px/1.8 system-ui;background:#faf9f5;color:#203b3e}h1,h2,h3{line-height:1.4}h2{margin-top:2em;border-bottom:1px solid #cdd6ce}p{white-space:pre-wrap;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}.image{position:relative;width:fit-content;max-width:100%}img{max-width:100%;display:block;max-height:650px}.box{position:absolute;border:2px solid #a76c23;box-sizing:border-box}figure{margin:25px 0}figcaption{font-size:12px;overflow-wrap:anywhere}@media print{body{background:white;padding:0}.image{break-inside:avoid}}</style><body>'''+''.join(sections+images)+'</body></html>'
+<title>瓷证研究档案</title><style>body{margin:auto;max-width:920px;padding:32px;font:16px/1.8 system-ui;background:#faf9f5;color:#203b3e}h1,h2,h3{line-height:1.4}h2{margin-top:2em;border-bottom:1px solid #cdd6ce}p{white-space:pre-wrap;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}.image{position:relative;width:fit-content;max-width:100%}img{max-width:100%;display:block;max-height:650px}.box{position:absolute;border:2px solid #a76c23;box-sizing:border-box}figure{margin:25px 0}figcaption{font-size:12px;overflow-wrap:anywhere}.report-indicators{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:24px;background:#eaf0e9;border:1px solid #cdd6ce;border-radius:8px;margin-bottom:32px}.report-indicators small{font-size:12px}.report-indicators strong{display:block;font:42px/1.8 Georgia,serif}.report-indicators strong span{font:15px system-ui;color:#64776b}.report-indicators p{font-size:12px;margin:0}.report-indicators .uncalibrated{font:26px/2.9 system-ui}@media(max-width:600px){body{padding:18px}.report-indicators{grid-template-columns:1fr;gap:15px}.report-indicators div+div{border-top:1px solid #cdd6ce;padding-top:12px}}@media print{body{background:white;padding:0}.image{break-inside:avoid}.report-indicators{break-inside:avoid}}</style><body>'''+summary+''.join(sections+images)+'</body></html>'

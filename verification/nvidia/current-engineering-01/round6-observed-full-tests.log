@@ -1,0 +1,58 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.11, pytest-8.3.4, pluggy-1.6.0
+rootdir: [LOCAL_WORKSPACE]/work/dev-stages/source-dev-c006-compact-03
+configfile: pyproject.toml
+plugins: anyio-4.15.1
+collected 617 items
+
+tests/test_action_output_contract.py ................................... [  5%]
+.                                                                        [  5%]
+tests/test_business_records.py ..............................            [ 10%]
+tests/test_closed_loop.py ...........................                    [ 15%]
+tests/test_compact_actions.py .......................................... [ 21%]
+........................................                                 [ 28%]
+tests/test_condition_evidence.py .....                                   [ 29%]
+tests/test_critic_revision.py ........                                   [ 30%]
+tests/test_demo.py ..                                                    [ 30%]
+tests/test_demo_migration.py .                                           [ 30%]
+tests/test_documentary_audit.py ........................................ [ 37%]
+                                                                         [ 37%]
+tests/test_documentary_readiness.py .....                                [ 38%]
+tests/test_guided_demo.py .....                                          [ 39%]
+tests/test_guided_workflow.py .......................................... [ 45%]
+.....                                                                    [ 46%]
+tests/test_handoff.py ......                                             [ 47%]
+tests/test_knowledge.py ..............................                   [ 52%]
+tests/test_laya_shadow.py .....                                          [ 53%]
+tests/test_message_compaction.py .............                           [ 55%]
+tests/test_nvidia_nat.py ................                                [ 58%]
+tests/test_nvidia_profiler.py ....ss                                     [ 58%]
+tests/test_nvidia_runtime.py ...............                             [ 61%]
+tests/test_nvidia_skill_scan.py ..                                       [ 61%]
+tests/test_original_integrity.py ........                                [ 63%]
+tests/test_paired_eval.py ..............                                 [ 65%]
+tests/test_photo_report.py ...............                               [ 67%]
+tests/test_plan_repair.py ......                                         [ 68%]
+tests/test_pro_knowledge_api.py .........                                [ 70%]
+tests/test_pro_workflow.py ..............                                [ 72%]
+tests/test_probe_eval.py ....                                            [ 73%]
+tests/test_review_integrity.py ...........                               [ 74%]
+tests/test_runtime_v3.py ............................                    [ 79%]
+tests/test_skill_race.py .                                               [ 79%]
+tests/test_stepfun_endpoint.py ..........                                [ 81%]
+tests/test_upgrade.py .......................                            [ 84%]
+tests/test_vision_output_contract.py ..............                      [ 87%]
+tests/test_workplan_readiness.py ....                                    [ 87%]
+integrations/spark_transformers/tests/test_cuda_metrics.py ............. [ 89%]
+....                                                                     [ 90%]
+integrations/spark_transformers/tests/test_readiness.py ......           [ 91%]
+integrations/spark_transformers/tests/test_structured_generation.py .... [ 92%]
+................................................                         [100%]
+
+=============================== warnings summary ===============================
+../../clean-env-v3/lib/python3.11/site-packages/starlette/testclient.py:40
+  [LOCAL_WORKSPACE]/work/clean-env-v3/lib/python3.11/site-packages/starlette/testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 615 passed, 2 skipped, 1 warning in 41.71s ==================

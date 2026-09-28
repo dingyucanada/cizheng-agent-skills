@@ -1,0 +1,480 @@
+{
+  "scope": "new bounded development harness; real public-photo metadata; NOT ceramic accuracy, Skills gain, or a pure model-only comparison",
+  "run_id": "run_5626f0f38f2145ba8da6d0ee047bc7eb",
+  "case_id": "case_37cf80a1a7134954a67d8f1a7aa755bb",
+  "state": "failed",
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "source_directory": "source-dev-c006-vision-bounded-01",
+  "source_manifest_sha256": "aee99edba66cefdef579e68b6da469870b2b10bd0c2528b81149becf49e56eaf",
+  "versions": {
+    "app": "0.6.0",
+    "knowledge_snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+    "mode": "skills",
+    "model": {
+      "endpoint": "http://127.0.0.1:8001/v1",
+      "generation": {
+        "disable_thinking": false,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "temperature": 0.1
+      },
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "provider": "local-openai-compatible",
+      "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+    },
+    "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+    "prompt_hash": "0e647e1be526dfdc4c97982879962447cf50a97eb81d0891c70fedcb62c725d8",
+    "research_task": "visual_research",
+    "skills": {
+      "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+      "ceramic-research-record": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed",
+      "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+      "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+      "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+      "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+      "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+    },
+    "source_hash": "91a6f1dce3daff92d0dee1e2e1b9ceedc7800d89b4e4c16df93906d80430fc11",
+    "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+    "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+  },
+  "harness_changes": [
+    "legal action and vision JSON/schema",
+    "short observation fields and template-placeholder rejection",
+    "method bodies pinned during context compaction",
+    "consecutive repair reset",
+    "vision output cap 800; action 2500"
+  ],
+  "overall_budget": {
+    "model_calls": 12,
+    "tool_calls": 20,
+    "seconds": 300
+  },
+  "phase_caps": {
+    "action": 2500,
+    "vision": 800
+  },
+  "server_run_seconds": 185.05004453659058,
+  "client_poll_seconds": 195.22410554497037,
+  "started_at": 1790573051.8128119,
+  "ended_at": 1790573236.8628612,
+  "model_calls": 5,
+  "tool_calls": 2,
+  "tool_sequence": [
+    "read_case",
+    "inspect_images"
+  ],
+  "build_opinion_tool_called": false,
+  "assessment_present": false,
+  "observations_schema_accepted": 2,
+  "observation_visible_values": [
+    "青花瓷瓶，瓶身绘山水纹饰",
+    "青花瓷瓶，瓶身绘花篮纹饰"
+  ],
+  "reference_snapshot_count": 0,
+  "read_knowledge_count": 0,
+  "nvidia_tool_names_in_run": [],
+  "nvidia_nat_configured": true,
+  "nvidia_configuration_is_not_execution_evidence": true,
+  "nvidia_external_audit_api_execution_checked": false,
+  "all_successful_model_calls_matched_native_caps": true,
+  "original_image_sha256": [
+    "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+    "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+  ],
+  "image_derivations": [
+    {
+      "purpose": "inspect_images",
+      "at": 1790573064.5229423,
+      "assets": [
+        {
+          "artifact_id": "media_1449365ef99c43b0ba8e96a79004e2b8",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_220d35159b7a4c1f901c0e1f0fa8c5b6",
+          "original_height": 1200,
+          "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        },
+        {
+          "artifact_id": "media_80bea75c97c54107865c9207b86bae41",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_d0666515c8d140bda7bc69654835466f",
+          "original_height": 1200,
+          "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        }
+      ]
+    },
+    {
+      "purpose": null,
+      "at": 1790573085.5645697,
+      "assets": [
+        {
+          "artifact_id": "media_1449365ef99c43b0ba8e96a79004e2b8",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_220d35159b7a4c1f901c0e1f0fa8c5b6"
+        },
+        {
+          "artifact_id": "media_80bea75c97c54107865c9207b86bae41",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_d0666515c8d140bda7bc69654835466f"
+        }
+      ]
+    },
+    {
+      "purpose": null,
+      "at": 1790573153.0514112,
+      "assets": [
+        {
+          "artifact_id": "media_1449365ef99c43b0ba8e96a79004e2b8",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_220d35159b7a4c1f901c0e1f0fa8c5b6"
+        },
+        {
+          "artifact_id": "media_80bea75c97c54107865c9207b86bae41",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_d0666515c8d140bda7bc69654835466f"
+        }
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "purpose": "action",
+      "outcome": "succeeded",
+      "failure_type": null,
+      "backend_elapsed_seconds": 2.232608909951523,
+      "backend_event_at": 1790573054.0744898,
+      "input_sha256": "6e6ae59e04615acbe54fc23f94dfc1c34493ef3eb044173e7c963bc6a0b7c186",
+      "response_sha256": "1def881d6610b85e0010fb4097bc7c9f5abba3592155a30c80f4c4e9687a6955",
+      "usage": {
+        "completion_tokens": 14,
+        "finish_reason": "stop",
+        "prompt_tokens": 3251,
+        "total_tokens": 3265
+      },
+      "finish_reason": "stop",
+      "expected_phase_max_tokens": 2500,
+      "native_match_status": "matched_response_hash",
+      "actual_phase_cap_matches": true,
+      "native_generation": {
+        "at": 1790573054.034602,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 3251,
+        "completion_tokens": 14,
+        "image_count": 0,
+        "images": [],
+        "temperature": 0.1,
+        "max_tokens": 2500,
+        "seconds": 2.1751312320120633,
+        "cuda": {
+          "status": "measured",
+          "device_index": 0,
+          "elapsed_ms": 2160.06298828125,
+          "max_memory_allocated_bytes": 18409470976,
+          "max_memory_reserved_bytes": 22116564992,
+          "timing_scope": "generate_current_stream_cuda_event_interval",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "allocator_backend": "native",
+          "memory_is_total_system_usage": false
+        },
+        "response_sha256": "1def881d6610b85e0010fb4097bc7c9f5abba3592155a30c80f4c4e9687a6955"
+      }
+    },
+    {
+      "purpose": "action",
+      "outcome": "succeeded",
+      "failure_type": null,
+      "backend_elapsed_seconds": 10.335068603046238,
+      "backend_event_at": 1790573064.445052,
+      "input_sha256": "1dd1ed1338aa087354db3e1609bd9ba5da9013b698b6b392bec90e96602ebcf5",
+      "response_sha256": "c96b7e14f6021f1da4fbf50226f7d16a9dced68c8dbe974f74622f1a90fc2015",
+      "usage": {
+        "completion_tokens": 98,
+        "finish_reason": "stop",
+        "prompt_tokens": 4536,
+        "total_tokens": 4634
+      },
+      "finish_reason": "stop",
+      "expected_phase_max_tokens": 2500,
+      "native_match_status": "matched_response_hash",
+      "actual_phase_cap_matches": true,
+      "native_generation": {
+        "at": 1790573064.4210453,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 4536,
+        "completion_tokens": 98,
+        "image_count": 0,
+        "images": [],
+        "temperature": 0.1,
+        "max_tokens": 2500,
+        "seconds": 10.298125354922377,
+        "cuda": {
+          "status": "measured",
+          "device_index": 0,
+          "elapsed_ms": 10278.505859375,
+          "max_memory_allocated_bytes": 18736665600,
+          "max_memory_reserved_bytes": 22116564992,
+          "timing_scope": "generate_current_stream_cuda_event_interval",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "allocator_backend": "native",
+          "memory_is_total_system_usage": false
+        },
+        "response_sha256": "c96b7e14f6021f1da4fbf50226f7d16a9dced68c8dbe974f74622f1a90fc2015"
+      }
+    },
+    {
+      "purpose": "vision",
+      "outcome": "succeeded",
+      "failure_type": null,
+      "backend_elapsed_seconds": 20.990481758024544,
+      "backend_event_at": 1790573085.5311437,
+      "input_sha256": "f218bcbe69056ea85b61c9bb31710d8d09f8df3dc17abc2fed5bf25346e2f34d",
+      "response_sha256": "c6429880f29887eeb980c4aa55b0625cfe0485850e333e7395dccb71552ab5fa",
+      "usage": {
+        "completion_tokens": 224,
+        "finish_reason": "stop",
+        "prompt_tokens": 2448,
+        "total_tokens": 2672
+      },
+      "finish_reason": "stop",
+      "expected_phase_max_tokens": 800,
+      "native_match_status": "matched_response_hash",
+      "actual_phase_cap_matches": true,
+      "native_generation": {
+        "at": 1790573085.5006602,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 2448,
+        "completion_tokens": 224,
+        "image_count": 2,
+        "images": [
+          {
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+            "bytes": 130179
+          },
+          {
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+            "bytes": 134337
+          }
+        ],
+        "temperature": 0.1,
+        "max_tokens": 800,
+        "seconds": 20.94707327603828,
+        "cuda": {
+          "status": "measured",
+          "device_index": 0,
+          "elapsed_ms": 20917.458984375,
+          "max_memory_allocated_bytes": 18346537984,
+          "max_memory_reserved_bytes": 22116564992,
+          "timing_scope": "generate_current_stream_cuda_event_interval",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "allocator_backend": "native",
+          "memory_is_total_system_usage": false
+        },
+        "response_sha256": "c6429880f29887eeb980c4aa55b0625cfe0485850e333e7395dccb71552ab5fa"
+      }
+    },
+    {
+      "purpose": "action",
+      "outcome": "succeeded",
+      "failure_type": null,
+      "backend_elapsed_seconds": 67.4518347060075,
+      "backend_event_at": 1790573153.0350018,
+      "input_sha256": "c99d652c2195329f1cf2adac4823284c07501d2b71e15b4212c9b72c2a5e354a",
+      "response_sha256": "1f4587c4ed76b58f5c992ae5fb9bccca2a36aefa018d034b99716ffad4337416",
+      "usage": {
+        "completion_tokens": 649,
+        "finish_reason": "stop",
+        "prompt_tokens": 8035,
+        "total_tokens": 8684
+      },
+      "finish_reason": "stop",
+      "expected_phase_max_tokens": 2500,
+      "native_match_status": "matched_response_hash",
+      "actual_phase_cap_matches": true,
+      "native_generation": {
+        "at": 1790573152.9900913,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 8035,
+        "completion_tokens": 649,
+        "image_count": 2,
+        "images": [
+          {
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+            "bytes": 130179
+          },
+          {
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+            "bytes": 134337
+          }
+        ],
+        "temperature": 0.1,
+        "max_tokens": 2500,
+        "seconds": 67.39545033301692,
+        "cuda": {
+          "status": "measured",
+          "device_index": 0,
+          "elapsed_ms": 67344.28125,
+          "max_memory_allocated_bytes": 19768628224,
+          "max_memory_reserved_bytes": 22116564992,
+          "timing_scope": "generate_current_stream_cuda_event_interval",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "allocator_backend": "native",
+          "memory_is_total_system_usage": false
+        },
+        "response_sha256": "1f4587c4ed76b58f5c992ae5fb9bccca2a36aefa018d034b99716ffad4337416"
+      }
+    },
+    {
+      "purpose": "action",
+      "outcome": "succeeded",
+      "failure_type": null,
+      "backend_elapsed_seconds": 83.77384898497257,
+      "backend_event_at": 1790573236.8430917,
+      "input_sha256": "c97e5295b3fbd2b88b6e5b790e5e8887a346fa15ebc6819a8f3fa666f6647be9",
+      "response_sha256": "91867f46d579101e68913f68f3b3c12ece27c50f190128ccea196b1819388ec0",
+      "usage": {
+        "completion_tokens": 787,
+        "finish_reason": "stop",
+        "prompt_tokens": 9179,
+        "total_tokens": 9966
+      },
+      "finish_reason": "stop",
+      "expected_phase_max_tokens": 2500,
+      "native_match_status": "matched_response_hash",
+      "actual_phase_cap_matches": true,
+      "native_generation": {
+        "at": 1790573236.8091693,
+        "model": "Qwen/Qwen3-VL-8B-Instruct",
+        "prompt_tokens": 9179,
+        "completion_tokens": 787,
+        "image_count": 2,
+        "images": [
+          {
+            "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+            "bytes": 130179
+          },
+          {
+            "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+            "bytes": 134337
+          }
+        ],
+        "temperature": 0.1,
+        "max_tokens": 2500,
+        "seconds": 83.71882910002023,
+        "cuda": {
+          "status": "measured",
+          "device_index": 0,
+          "elapsed_ms": 83664.109375,
+          "max_memory_allocated_bytes": 20062458368,
+          "max_memory_reserved_bytes": 22116564992,
+          "timing_scope": "generate_current_stream_cuda_event_interval",
+          "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+          "memory_peak_scope": "allocator_reported_high_water_marks",
+          "allocator_backend": "native",
+          "memory_is_total_system_usage": false
+        },
+        "response_sha256": "91867f46d579101e68913f68f3b3c12ece27c50f190128ccea196b1819388ec0"
+      }
+    }
+  ],
+  "validation_errors": [
+    {
+      "at": 1790573153.0419886,
+      "stage": "evidence_contract",
+      "detail": "[{\"type\":\"missing\",\"loc\":[\"scope\"],\"msg\":\"Field required\"},{\"type\":\"literal_error\",\"loc\":[\"claims\",0,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",1,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",2,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",3,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",7,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",8,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"missing\",\"loc\":[\"alternatives\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"condition_hypotheses\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"reference_ids\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"reference_comparison\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"limitations\"],\"msg\":\"Field required\"},{\"type\":\"missing\",\"loc\":[\"revision_explanation\"],\"msg\":\"Field required\"}]"
+    },
+    {
+      "at": 1790573236.8516152,
+      "stage": "evidence_contract",
+      "detail": "[{\"type\":\"literal_error\",\"loc\":[\"claims\",0,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",1,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",2,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",3,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",7,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"literal_error\",\"loc\":[\"claims\",8,\"dimension\"],\"msg\":\"Input should be 'period', 'kiln' or 'style'\",\"ctx\":{\"expected\":\"'period', 'kiln' or 'style'\"}},{\"type\":\"string_too_short\",\"loc\":[\"reference_comparison\"],\"msg\":\"String should have at least 1 character\",\"ctx\":{\"min_length\":1}}]"
+    }
+  ],
+  "raw_response_bodies_included": false
+}
