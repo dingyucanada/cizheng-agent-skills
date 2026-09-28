@@ -1,0 +1,62 @@
+{
+  "cap_add": [
+    "CAP_DAC_OVERRIDE"
+  ],
+  "cap_drop": [
+    "ALL"
+  ],
+  "cgroup_memory_bytes": 25769803776,
+  "container_id": "14d1bf9ee812bcd32e2cf84caeec61e078b80b27b9af01930e9f0d7adf773c01",
+  "endpoints": {
+    "/health": {
+      "body": null,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": 200
+    },
+    "/v1/models": {
+      "body": {
+        "data": [
+          {
+            "created": 1790627902,
+            "id": "Qwen3-4B-Instruct-2507",
+            "object": "model",
+            "owned_by": "tensorrt_llm"
+          }
+        ],
+        "object": "list"
+      },
+      "body_sha256": "a21feea87067d4ea1e1dd55edc7b06e860d2e0a02f0a3935eb4782beca54ffda",
+      "status": 200
+    },
+    "/version": {
+      "body": {
+        "version": "1.3.0rc13"
+      },
+      "body_sha256": "64b40a7d916598a87dbb8c564fe162a5c114dfa8d1bce162d32ed25948d9677e",
+      "status": 200
+    }
+  },
+  "image": "nvcr.io/nvidia/tensorrt-llm/release@sha256:4f30c464ead64fb9727a24064b25057dacc07bef848022421108e544c91f0965",
+  "image_id": "sha256:a384d33e67176ec805f669780530245b461826636e58f748925edc1cbf6b5a14",
+  "mounts": [
+    {
+      "destination": "/model",
+      "rw": false
+    },
+    {
+      "destination": "/config/serve.yaml",
+      "rw": false
+    },
+    {
+      "destination": "/evidence",
+      "rw": true
+    }
+  ],
+  "oom_killed": false,
+  "restart_count": 0,
+  "running": true,
+  "security_options": [
+    "no-new-privileges"
+  ],
+  "started_at": "2026-09-28T20:31:23.390557032Z"
+}

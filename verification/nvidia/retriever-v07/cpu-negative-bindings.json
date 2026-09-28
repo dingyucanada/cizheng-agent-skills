@@ -1,0 +1,34 @@
+{
+  "scope": "Actual CPU negative identity checks against deployed verification code; no model loading or production mutation",
+  "cases": [
+    {
+      "case": "wrong_model_revision",
+      "actual_rejected": true,
+      "reason": "fixed expected identity assertion"
+    },
+    {
+      "case": "wrong_snapshot_identity",
+      "actual_rejected": true,
+      "reason": "fixed expected identity assertion"
+    },
+    {
+      "case": "wrong_dimensions",
+      "actual_rejected": true,
+      "reason": "fixed expected identity assertion"
+    },
+    {
+      "case": "changed_service_code_sha",
+      "actual_rejected": true,
+      "reason": "deployed code bytes do not match runtime manifest"
+    },
+    {
+      "case": "changed_runtime_version",
+      "actual_rejected": true,
+      "reason": "runtime versions changed"
+    }
+  ],
+  "GPU_model_loaded": false,
+  "production_changed": false,
+  "service_deployment_proven": false,
+  "current_runtime_identity": "2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f"
+}

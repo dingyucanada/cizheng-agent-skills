@@ -1,0 +1,1655 @@
+{
+  "scope": "Independent NVIDIA open embedding + cuVS actual service integration, not NIM or production replacement",
+  "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+  "runtime_identity_kind": "Canonical SHA256 of actual locally verified deployment manifest; actual HTTP health binding also checked. Not a container digest or hardware attestation",
+  "client_code_sha256": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+  "corpus_snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+  "source_count": 25,
+  "chunk_count": 25,
+  "health_binding_checks": [
+    {
+      "stage": "before_original_client_requests",
+      "actual_HTTP_status": 200,
+      "response_sha256": "e615d0695d1eeacc09c6a8017ecb61a9e6b2b0addb50e3e3dc9140874f042c04",
+      "response_bytes": 3670,
+      "checks": {
+        "ready": true,
+        "message": true,
+        "model": true,
+        "weights_revision": true,
+        "weights_sha256": true,
+        "precision": true,
+        "embedding_dimensions": true,
+        "corpus_sources": true,
+        "corpus_chunks": true,
+        "snapshot_sha256": true,
+        "index": true,
+        "capability": true,
+        "matrix_cuda_array_interface": true,
+        "matrix_dtype": true,
+        "model_parameter_device": true,
+        "model_parameter_dtype": true,
+        "index_class": true,
+        "SDK_pipeline_used": true,
+        "default_production_backend_changed": true,
+        "professional_accuracy_measured": true,
+        "hard_memory_limit_enforced": true,
+        "runtime_identity": true,
+        "runtime_identity_kind": true,
+        "runtime_manifest_file_sha256": true,
+        "verified_code_sha256": true,
+        "verified_package_versions": true,
+        "verified_runtime_versions": true,
+        "snapshot_file_sha256": true,
+        "local_bytes_verified_before_loading": true,
+        "model_files_verified": true,
+        "candidate_header_bytes_and_CPU_compile_verified": true,
+        "candidate_header_CPATH_verified": true,
+        "candidate_header_package": true,
+        "candidate_header_package_sha256": true,
+        "compiler_binary_sha256": true,
+        "GB10_device": true,
+        "actual_embedding_matrix_bytes": true
+      },
+      "health": {
+        "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "runtime_identity_kind": "canonical SHA256 of verified local manifest; not a container digest or remote attestation",
+        "runtime_manifest_file_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+        "verified_code_sha256": {
+          "gpu_service.py": "1f41134ac96fb3175f012452ec3e9bff65e8a5f2a96e3a032f32ae50ce2e426f",
+          "runtime_contract.py": "16f1ca3da37e11c6cbaf7e3dacd811e147fff75421b40ab35ddb90f0b367eae6",
+          "verify-and-runtime-manifest.py": "fe643170141d48a843e7197cd277f4b0e37cdd34f0c5634cc0e12b91d815ed6c",
+          "launch-candidate.sh": "b3ee5291d8337ff150908adb8f57aaf1c51607399229d166c2cb4e8a7a30ab98",
+          "app-core-readonly/cizheng/knowledge.py": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+          "app-core-readonly/integrations/nvidia_retriever/client.py": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+          "real-client-acceptance.py": "41c9beb84adc808f6c891fc4524312cf5a7322930651f0a07f71f287895a8e56"
+        },
+        "verified_package_versions": {
+          "cuvs-cu13": "26.8.1",
+          "libcuvs-cu13": "26.8.1",
+          "pylibraft-cu13": "26.8.0",
+          "libraft-cu13": "26.8.0",
+          "librmm-cu13": "26.8.0",
+          "rmm-cu13": "26.8.0",
+          "rapids-logger": "0.2.3",
+          "cupy-cuda13x": "14.2.0",
+          "transformers": "4.44.2",
+          "huggingface-hub": "0.36.0",
+          "tokenizers": "0.19.1",
+          "requests": "2.34.2",
+          "charset-normalizer": "3.5.1",
+          "urllib3": "2.8.0"
+        },
+        "verified_runtime_versions": {
+          "torch": "2.14.0+cu130",
+          "transformers": "4.44.2",
+          "fastapi": "0.115.6",
+          "uvicorn": "0.51.0",
+          "pydantic": "2.13.5",
+          "numpy": "2.5.3"
+        },
+        "snapshot_file_sha256": "7da8b95f277e9e0185b0fc9688ba95a9d7d7b180dd58ae0ab48d5037b1248bf9",
+        "local_bytes_verified_before_loading": true,
+        "model_files_verified": 13,
+        "candidate_header_bytes_and_CPU_compile_verified": true,
+        "candidate_header_CPATH_verified": true,
+        "candidate_header_package": "3.12.3-1ubuntu0.17",
+        "candidate_header_package_sha256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+        "compiler_binary_sha256": "dc21472a2f0865001620971accab1bc5838774c668d7d7443bffdaa6929f3450",
+        "object": "health.response",
+        "message": "ready",
+        "ready": true,
+        "runtime_kind": "NVIDIA NeMo Retriever open-model + cuVS GPU candidate; not Embedding NIM",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "weights_sha256": "45f8440682a89ac577cc8d53b1bb345804772adb7b34e0573562e2fca4e62b0d",
+        "precision": "torch.bfloat16",
+        "device": "NVIDIA GB10",
+        "capability": [
+          12,
+          1
+        ],
+        "embedding_dimensions": 2048,
+        "corpus_sources": 25,
+        "corpus_chunks": 25,
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_matrix_sha256": "9f7b63d90a1b196eebd5b228887892ac14a4ae3a106eea979e7d297c82d54598",
+        "matrix_cuda_array_interface": true,
+        "matrix_dtype": "float32",
+        "model_parameter_device": "cuda:0",
+        "model_parameter_dtype": "torch.bfloat16",
+        "index_class": "cuvs.neighbors.brute_force.brute_force.Index",
+        "index": "cuvs.neighbors.brute_force/cosine/CUDA",
+        "startup_seconds": 16.313778701005504,
+        "corpus_prompt_tokens": 2628,
+        "mem_available_before_kib": 70276892,
+        "mem_available_after_kib": 66245848,
+        "torch_peak_allocated_bytes": 2523421696,
+        "torch_peak_reserved_bytes": 2537553920,
+        "versions": {
+          "torch": "2.14.0+cu130",
+          "transformers": "4.44.2",
+          "cuvs-cu13": "26.8.1",
+          "libcuvs-cu13": "26.8.1",
+          "pylibraft-cu13": "26.8.0",
+          "cupy-cuda13x": "14.2.0",
+          "nemo-retriever": null
+        },
+        "memory_guard_kind": "soft 2-second MemAvailable polling; not a hard memory limit",
+        "hard_memory_limit_enforced": false,
+        "remaining_memory_watchdog_seconds": 2,
+        "minimum_remaining_memory_kib": 33554432,
+        "SDK_installed": false,
+        "SDK_pipeline_used": false,
+        "default_production_backend_changed": false,
+        "expert_validation": false,
+        "professional_accuracy_measured": false
+      },
+      "binding_scope": "Actual loopback endpoint response matched separately verified deployed bytes and runtime versions; operational identity binding, not cryptographic remote attestation"
+    },
+    {
+      "stage": "after_original_client_and_negative_requests",
+      "actual_HTTP_status": 200,
+      "response_sha256": "e615d0695d1eeacc09c6a8017ecb61a9e6b2b0addb50e3e3dc9140874f042c04",
+      "response_bytes": 3670,
+      "checks": {
+        "ready": true,
+        "message": true,
+        "model": true,
+        "weights_revision": true,
+        "weights_sha256": true,
+        "precision": true,
+        "embedding_dimensions": true,
+        "corpus_sources": true,
+        "corpus_chunks": true,
+        "snapshot_sha256": true,
+        "index": true,
+        "capability": true,
+        "matrix_cuda_array_interface": true,
+        "matrix_dtype": true,
+        "model_parameter_device": true,
+        "model_parameter_dtype": true,
+        "index_class": true,
+        "SDK_pipeline_used": true,
+        "default_production_backend_changed": true,
+        "professional_accuracy_measured": true,
+        "hard_memory_limit_enforced": true,
+        "runtime_identity": true,
+        "runtime_identity_kind": true,
+        "runtime_manifest_file_sha256": true,
+        "verified_code_sha256": true,
+        "verified_package_versions": true,
+        "verified_runtime_versions": true,
+        "snapshot_file_sha256": true,
+        "local_bytes_verified_before_loading": true,
+        "model_files_verified": true,
+        "candidate_header_bytes_and_CPU_compile_verified": true,
+        "candidate_header_CPATH_verified": true,
+        "candidate_header_package": true,
+        "candidate_header_package_sha256": true,
+        "compiler_binary_sha256": true,
+        "GB10_device": true,
+        "actual_embedding_matrix_bytes": true
+      },
+      "health": {
+        "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "runtime_identity_kind": "canonical SHA256 of verified local manifest; not a container digest or remote attestation",
+        "runtime_manifest_file_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+        "verified_code_sha256": {
+          "gpu_service.py": "1f41134ac96fb3175f012452ec3e9bff65e8a5f2a96e3a032f32ae50ce2e426f",
+          "runtime_contract.py": "16f1ca3da37e11c6cbaf7e3dacd811e147fff75421b40ab35ddb90f0b367eae6",
+          "verify-and-runtime-manifest.py": "fe643170141d48a843e7197cd277f4b0e37cdd34f0c5634cc0e12b91d815ed6c",
+          "launch-candidate.sh": "b3ee5291d8337ff150908adb8f57aaf1c51607399229d166c2cb4e8a7a30ab98",
+          "app-core-readonly/cizheng/knowledge.py": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+          "app-core-readonly/integrations/nvidia_retriever/client.py": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+          "real-client-acceptance.py": "41c9beb84adc808f6c891fc4524312cf5a7322930651f0a07f71f287895a8e56"
+        },
+        "verified_package_versions": {
+          "cuvs-cu13": "26.8.1",
+          "libcuvs-cu13": "26.8.1",
+          "pylibraft-cu13": "26.8.0",
+          "libraft-cu13": "26.8.0",
+          "librmm-cu13": "26.8.0",
+          "rmm-cu13": "26.8.0",
+          "rapids-logger": "0.2.3",
+          "cupy-cuda13x": "14.2.0",
+          "transformers": "4.44.2",
+          "huggingface-hub": "0.36.0",
+          "tokenizers": "0.19.1",
+          "requests": "2.34.2",
+          "charset-normalizer": "3.5.1",
+          "urllib3": "2.8.0"
+        },
+        "verified_runtime_versions": {
+          "torch": "2.14.0+cu130",
+          "transformers": "4.44.2",
+          "fastapi": "0.115.6",
+          "uvicorn": "0.51.0",
+          "pydantic": "2.13.5",
+          "numpy": "2.5.3"
+        },
+        "snapshot_file_sha256": "7da8b95f277e9e0185b0fc9688ba95a9d7d7b180dd58ae0ab48d5037b1248bf9",
+        "local_bytes_verified_before_loading": true,
+        "model_files_verified": 13,
+        "candidate_header_bytes_and_CPU_compile_verified": true,
+        "candidate_header_CPATH_verified": true,
+        "candidate_header_package": "3.12.3-1ubuntu0.17",
+        "candidate_header_package_sha256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+        "compiler_binary_sha256": "dc21472a2f0865001620971accab1bc5838774c668d7d7443bffdaa6929f3450",
+        "object": "health.response",
+        "message": "ready",
+        "ready": true,
+        "runtime_kind": "NVIDIA NeMo Retriever open-model + cuVS GPU candidate; not Embedding NIM",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "weights_sha256": "45f8440682a89ac577cc8d53b1bb345804772adb7b34e0573562e2fca4e62b0d",
+        "precision": "torch.bfloat16",
+        "device": "NVIDIA GB10",
+        "capability": [
+          12,
+          1
+        ],
+        "embedding_dimensions": 2048,
+        "corpus_sources": 25,
+        "corpus_chunks": 25,
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_matrix_sha256": "9f7b63d90a1b196eebd5b228887892ac14a4ae3a106eea979e7d297c82d54598",
+        "matrix_cuda_array_interface": true,
+        "matrix_dtype": "float32",
+        "model_parameter_device": "cuda:0",
+        "model_parameter_dtype": "torch.bfloat16",
+        "index_class": "cuvs.neighbors.brute_force.brute_force.Index",
+        "index": "cuvs.neighbors.brute_force/cosine/CUDA",
+        "startup_seconds": 16.313778701005504,
+        "corpus_prompt_tokens": 2628,
+        "mem_available_before_kib": 70276892,
+        "mem_available_after_kib": 66245848,
+        "torch_peak_allocated_bytes": 2523421696,
+        "torch_peak_reserved_bytes": 2537553920,
+        "versions": {
+          "torch": "2.14.0+cu130",
+          "transformers": "4.44.2",
+          "cuvs-cu13": "26.8.1",
+          "libcuvs-cu13": "26.8.1",
+          "pylibraft-cu13": "26.8.0",
+          "cupy-cuda13x": "14.2.0",
+          "nemo-retriever": null
+        },
+        "memory_guard_kind": "soft 2-second MemAvailable polling; not a hard memory limit",
+        "hard_memory_limit_enforced": false,
+        "remaining_memory_watchdog_seconds": 2,
+        "minimum_remaining_memory_kib": 33554432,
+        "SDK_installed": false,
+        "SDK_pipeline_used": false,
+        "default_production_backend_changed": false,
+        "expert_validation": false,
+        "professional_accuracy_measured": false
+      },
+      "binding_scope": "Actual loopback endpoint response matched separately verified deployed bytes and runtime versions; operational identity binding, not cryptographic remote attestation"
+    }
+  ],
+  "independent_local_runtime_binding": {
+    "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+    "runtime_identity_kind": "canonical SHA256 of verified local manifest; not a container digest or remote attestation",
+    "runtime_manifest_file_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+    "verified_code_sha256": {
+      "gpu_service.py": "1f41134ac96fb3175f012452ec3e9bff65e8a5f2a96e3a032f32ae50ce2e426f",
+      "runtime_contract.py": "16f1ca3da37e11c6cbaf7e3dacd811e147fff75421b40ab35ddb90f0b367eae6",
+      "verify-and-runtime-manifest.py": "fe643170141d48a843e7197cd277f4b0e37cdd34f0c5634cc0e12b91d815ed6c",
+      "launch-candidate.sh": "b3ee5291d8337ff150908adb8f57aaf1c51607399229d166c2cb4e8a7a30ab98",
+      "app-core-readonly/cizheng/knowledge.py": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+      "app-core-readonly/integrations/nvidia_retriever/client.py": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+      "real-client-acceptance.py": "41c9beb84adc808f6c891fc4524312cf5a7322930651f0a07f71f287895a8e56"
+    },
+    "verified_package_versions": {
+      "cuvs-cu13": "26.8.1",
+      "libcuvs-cu13": "26.8.1",
+      "pylibraft-cu13": "26.8.0",
+      "libraft-cu13": "26.8.0",
+      "librmm-cu13": "26.8.0",
+      "rmm-cu13": "26.8.0",
+      "rapids-logger": "0.2.3",
+      "cupy-cuda13x": "14.2.0",
+      "transformers": "4.44.2",
+      "huggingface-hub": "0.36.0",
+      "tokenizers": "0.19.1",
+      "requests": "2.34.2",
+      "charset-normalizer": "3.5.1",
+      "urllib3": "2.8.0"
+    },
+    "verified_runtime_versions": {
+      "torch": "2.14.0+cu130",
+      "transformers": "4.44.2",
+      "fastapi": "0.115.6",
+      "uvicorn": "0.51.0",
+      "pydantic": "2.13.5",
+      "numpy": "2.5.3"
+    },
+    "snapshot_file_sha256": "7da8b95f277e9e0185b0fc9688ba95a9d7d7b180dd58ae0ab48d5037b1248bf9",
+    "local_bytes_verified_before_loading": true,
+    "model_files_verified": 13,
+    "candidate_header_bytes_and_CPU_compile_verified": true,
+    "candidate_header_CPATH_verified": true,
+    "candidate_header_package": "3.12.3-1ubuntu0.17",
+    "candidate_header_package_sha256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+    "compiler_binary_sha256": "dc21472a2f0865001620971accab1bc5838774c668d7d7443bffdaa6929f3450"
+  },
+  "health": {
+    "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+    "runtime_identity_kind": "canonical SHA256 of verified local manifest; not a container digest or remote attestation",
+    "runtime_manifest_file_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+    "verified_code_sha256": {
+      "gpu_service.py": "1f41134ac96fb3175f012452ec3e9bff65e8a5f2a96e3a032f32ae50ce2e426f",
+      "runtime_contract.py": "16f1ca3da37e11c6cbaf7e3dacd811e147fff75421b40ab35ddb90f0b367eae6",
+      "verify-and-runtime-manifest.py": "fe643170141d48a843e7197cd277f4b0e37cdd34f0c5634cc0e12b91d815ed6c",
+      "launch-candidate.sh": "b3ee5291d8337ff150908adb8f57aaf1c51607399229d166c2cb4e8a7a30ab98",
+      "app-core-readonly/cizheng/knowledge.py": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+      "app-core-readonly/integrations/nvidia_retriever/client.py": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+      "real-client-acceptance.py": "41c9beb84adc808f6c891fc4524312cf5a7322930651f0a07f71f287895a8e56"
+    },
+    "verified_package_versions": {
+      "cuvs-cu13": "26.8.1",
+      "libcuvs-cu13": "26.8.1",
+      "pylibraft-cu13": "26.8.0",
+      "libraft-cu13": "26.8.0",
+      "librmm-cu13": "26.8.0",
+      "rmm-cu13": "26.8.0",
+      "rapids-logger": "0.2.3",
+      "cupy-cuda13x": "14.2.0",
+      "transformers": "4.44.2",
+      "huggingface-hub": "0.36.0",
+      "tokenizers": "0.19.1",
+      "requests": "2.34.2",
+      "charset-normalizer": "3.5.1",
+      "urllib3": "2.8.0"
+    },
+    "verified_runtime_versions": {
+      "torch": "2.14.0+cu130",
+      "transformers": "4.44.2",
+      "fastapi": "0.115.6",
+      "uvicorn": "0.51.0",
+      "pydantic": "2.13.5",
+      "numpy": "2.5.3"
+    },
+    "snapshot_file_sha256": "7da8b95f277e9e0185b0fc9688ba95a9d7d7b180dd58ae0ab48d5037b1248bf9",
+    "local_bytes_verified_before_loading": true,
+    "model_files_verified": 13,
+    "candidate_header_bytes_and_CPU_compile_verified": true,
+    "candidate_header_CPATH_verified": true,
+    "candidate_header_package": "3.12.3-1ubuntu0.17",
+    "candidate_header_package_sha256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+    "compiler_binary_sha256": "dc21472a2f0865001620971accab1bc5838774c668d7d7443bffdaa6929f3450",
+    "object": "health.response",
+    "message": "ready",
+    "ready": true,
+    "runtime_kind": "NVIDIA NeMo Retriever open-model + cuVS GPU candidate; not Embedding NIM",
+    "model": "nvidia/llama-nemotron-embed-1b-v2",
+    "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+    "weights_sha256": "45f8440682a89ac577cc8d53b1bb345804772adb7b34e0573562e2fca4e62b0d",
+    "precision": "torch.bfloat16",
+    "device": "NVIDIA GB10",
+    "capability": [
+      12,
+      1
+    ],
+    "embedding_dimensions": 2048,
+    "corpus_sources": 25,
+    "corpus_chunks": 25,
+    "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+    "embedding_matrix_sha256": "9f7b63d90a1b196eebd5b228887892ac14a4ae3a106eea979e7d297c82d54598",
+    "matrix_cuda_array_interface": true,
+    "matrix_dtype": "float32",
+    "model_parameter_device": "cuda:0",
+    "model_parameter_dtype": "torch.bfloat16",
+    "index_class": "cuvs.neighbors.brute_force.brute_force.Index",
+    "index": "cuvs.neighbors.brute_force/cosine/CUDA",
+    "startup_seconds": 16.313778701005504,
+    "corpus_prompt_tokens": 2628,
+    "mem_available_before_kib": 70276892,
+    "mem_available_after_kib": 66245848,
+    "torch_peak_allocated_bytes": 2523421696,
+    "torch_peak_reserved_bytes": 2537553920,
+    "versions": {
+      "torch": "2.14.0+cu130",
+      "transformers": "4.44.2",
+      "cuvs-cu13": "26.8.1",
+      "libcuvs-cu13": "26.8.1",
+      "pylibraft-cu13": "26.8.0",
+      "cupy-cuda13x": "14.2.0",
+      "nemo-retriever": null
+    },
+    "memory_guard_kind": "soft 2-second MemAvailable polling; not a hard memory limit",
+    "hard_memory_limit_enforced": false,
+    "remaining_memory_watchdog_seconds": 2,
+    "minimum_remaining_memory_kib": 33554432,
+    "SDK_installed": false,
+    "SDK_pipeline_used": false,
+    "default_production_backend_changed": false,
+    "expert_validation": false,
+    "professional_accuracy_measured": false
+  },
+  "embedding_requests": [
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "passage",
+      "input_count": 8,
+      "input_sha256": [
+        "350e6dfd2d68e8f2134acd3dfbf2120bab1412c46b6eb5a87b9514e7aed91d96",
+        "a1d46dd76d7fe1addc1f6e02f334691d99090d7bd69a83969309177520656645",
+        "3fdfadf28f14ffc02b544d93594d9988e20bc4a5e6225cea19af3dcb9ec9ae8f",
+        "8b60472e0ef8b30f8c82e5bfe0a2397c3953610694226667f38ce940c00f99e3",
+        "046a7fe180e28109c935ce0df76adb0e252b0c2b76b75ab0ab40f697c517a291",
+        "c054c1ee9b83ebc9971667d1ef9c610dc3737535a8234a5e24a4de6cac4f3e5b",
+        "e193a0c1783e9871866db434534a30988ceda37d0630373449a552704043e551",
+        "4f373ee988ca1e3c9b7daec75be775d63a5a1a81fae090f8351e6883c9625f52"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 941,
+        "total_tokens": 941
+      },
+      "embedding_dimensions": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "response_bytes": 349744,
+      "response_sha256": "ae247b51d273156be05d129cce826a9acb7e9ea2a91ab91587be759d8d473679",
+      "server_elapsed_seconds": 0.07924241793807596
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "passage",
+      "input_count": 8,
+      "input_sha256": [
+        "f4e09cd359d0b7e2c2b37f5584b1368271277d92cdec661cb27f55595c04b285",
+        "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d",
+        "8109c49ed205a74ccc4c0f390fb24387b816dd8bf19463f5ab60b98163222331",
+        "4a640d1b846574ba3d8f4d7bd9d5f97fb9f4a3cf92bbfc279974da783135c5b2",
+        "5e259a21fe0256fd91dd649654093ff17cc5d228de1d8987f84457a7af364b28",
+        "67bf95c51e26d5967ea161844b85a4b6f6f5b57d7dade1ac36fd16ac85af56b6",
+        "aa3cee8e2cd142a34c9e36243b2b1d844126ca9a0989ac87173ac2b42e2da2b7",
+        "264b318e3115b759f9d10ef827354f56cd283bef15b339d5534c44b085c36021"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 779,
+        "total_tokens": 779
+      },
+      "embedding_dimensions": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "response_bytes": 349588,
+      "response_sha256": "be11b0c3fca7723c979d131d85e0a53457b85b70380d1d2c44082a37e64ab0df",
+      "server_elapsed_seconds": 0.0739719569683075
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "passage",
+      "input_count": 8,
+      "input_sha256": [
+        "4e8a9e7920fc570adc430aafdac73cebd7b0d7542af2670a71fcca98f5ec577f",
+        "9cf784fa738e79f8c33abeeef230a92c8f2da384b5109acba656853fa1373374",
+        "b83a5fa32ca2ab6cf86cdee4ed7d263cc8b59b8ace47544f10bbc6c905e52631",
+        "27f814969d7f033f7266bc6bda63e5daeb82ca5cf2b9f8b7b5c0c8d1a27f42c6",
+        "aa3a575dd65729c10376d1e7a8ffbc8f4d8c7f13e12da2b8bb0b14eb94084d23",
+        "e3ad5642a7d9ab9a2d4da454c7702a95887c79f9f3fd8d8c952f666018d18493",
+        "b09a212847e94937b7f9d7e06ecb8049fdd563c6007c1ae1a1c1458624555191",
+        "7c3094bd2549169148897aed47c75b73b802eb6572bfb2410405907aa2e4b366"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 831,
+        "total_tokens": 831
+      },
+      "embedding_dimensions": [
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "response_bytes": 349632,
+      "response_sha256": "cb8176c4157cf7ec04e43d0bad662c09a84010cd44030210fc9042a4bf52d8dd",
+      "server_elapsed_seconds": 0.07404206902720034
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "passage",
+      "input_count": 1,
+      "input_sha256": [
+        "55244994443254746cf8d6fdf1bf54acfe783121c6bb9e374ce8a86f70a9a0ab"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 77,
+        "total_tokens": 77
+      },
+      "embedding_dimensions": [
+        2048
+      ],
+      "response_bytes": 43927,
+      "response_sha256": "d2246c54731aab9f37cf8812be304b6547a7c4112770be147879c52dfbddca56",
+      "server_elapsed_seconds": 0.013072683941572905
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "query",
+      "input_count": 1,
+      "input_sha256": [
+        "3a62ae6600af3dd9020141607af44271de5548870a703d094e3e06a3c44158b3"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 22,
+        "total_tokens": 22
+      },
+      "embedding_dimensions": [
+        2048
+      ],
+      "response_bytes": 43845,
+      "response_sha256": "8a37abc1f03547624b529bb6d6f69913d152affc9174246670542bdbfe4474ea",
+      "server_elapsed_seconds": 0.011863772058859468
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "query",
+      "input_count": 1,
+      "input_sha256": [
+        "fc76b253671ea9ce1e215bef80763eebcb052c6b0e03a74d5d8ac44f7a3263ee"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 24,
+        "total_tokens": 24
+      },
+      "embedding_dimensions": [
+        2048
+      ],
+      "response_bytes": 43829,
+      "response_sha256": "d31e29ae7c793dccb92abda2a13e3662444442c7691ec1a96feb61ef681fe6cc",
+      "server_elapsed_seconds": 0.011698508053086698
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "query",
+      "input_count": 1,
+      "input_sha256": [
+        "7cfc6c642e294283c0a9fb061d221f79418165528403c2deb78ec3eada5c6a3b"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 17,
+        "total_tokens": 17
+      },
+      "embedding_dimensions": [
+        2048
+      ],
+      "response_bytes": 43889,
+      "response_sha256": "48974ba91533f1db425ef0d533ed3a37682359a487b25f3cff318df70d78042f",
+      "server_elapsed_seconds": 0.011762298992834985
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "query",
+      "input_count": 1,
+      "input_sha256": [
+        "9a89a51a07831e2af57afc40736a3cec3f8ef6a5ed2d17a88545416460182515"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 30,
+        "total_tokens": 30
+      },
+      "embedding_dimensions": [
+        2048
+      ],
+      "response_bytes": 43787,
+      "response_sha256": "cfd305f89971101cdc2e06e995535743114f65818699ea1ea3c4e688a45ee317",
+      "server_elapsed_seconds": 0.012557594920508564
+    },
+    {
+      "method": "POST",
+      "path": "/v1/embeddings",
+      "status": 200,
+      "input_type": "query",
+      "input_count": 1,
+      "input_sha256": [
+        "b74c0a73907c1145ebcea5efd46ba22ae00b822e530de25f4d87f9f4e6afbcac"
+      ],
+      "model": "nvidia/llama-nemotron-embed-1b-v2",
+      "usage": {
+        "prompt_tokens": 22,
+        "total_tokens": 22
+      },
+      "embedding_dimensions": [
+        2048
+      ],
+      "response_bytes": 43876,
+      "response_sha256": "5506d78580f9de4a6380a07386d43c7acc3f03a52055304375ef14d63432c85f",
+      "server_elapsed_seconds": 0.012284651980735362
+    }
+  ],
+  "queries": [
+    {
+      "query": "看到青花蓝色能否证明钴料、年代和窑口？",
+      "existing_client_results": {
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_model": "nvidia/llama-nemotron-embed-1b-v2",
+        "embedding_runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "results": [
+          {
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "semantic_score": 0.4949449334530683
+          },
+          {
+            "document_id": "ksrc_7befd2101b694a67d06ebd18",
+            "document_revision": 1,
+            "document_sha256": "1201a86157c0e87225d47a215f722055bfedc6731fa7d5ed65dd544a3c26831b",
+            "chunk_id": "ksrc_7befd2101b694a67d06ebd18_r1_p0001_339233d2bfa1",
+            "chunk_sha256": "339233d2bfa178a125a306b386ae9de4201829a96e8312b3d2b8ad7d0800be33",
+            "locator": "孔雀绿釉青花莲池鱼纹盘 · 详细年代/尺寸/工艺/款识字段；简介第1–2段 · 手动录入第1段",
+            "semantic_score": 0.33504447035027923
+          },
+          {
+            "document_id": "ksrc_01de38279a5b8e521e388442",
+            "document_revision": 1,
+            "document_sha256": "14dd7c226cfb8ada5f57edb385bcd3dd12487d79015ecec0522722ad0df24a9e",
+            "chunk_id": "ksrc_01de38279a5b8e521e388442_r1_p0001_fca5abd0d8ee",
+            "chunk_sha256": "fca5abd0d8eea8dc2bf7f8e0553616d79b65d07cf60f494a7e24f116ed67af74",
+            "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段 · 手动录入第1段",
+            "semantic_score": 0.3036869204480702
+          },
+          {
+            "document_id": "ksrc_ee3b149974186323ea740d3c",
+            "document_revision": 1,
+            "document_sha256": "407e5f3b4a453303575eba01a255959105d477d47f4ae6060bac384f2cf73002",
+            "chunk_id": "ksrc_ee3b149974186323ea740d3c_r1_p0001_84b27fdf4826",
+            "chunk_sha256": "84b27fdf48260382c0c9078fcc1b7666ae76a9d7f7fb0ae9eea145bf5f9daed8",
+            "locator": "祭蓝釉白龙纹盘 · 对象正文第1–3段 · 手动录入第1段",
+            "semantic_score": 0.3032326428624933
+          },
+          {
+            "document_id": "ksrc_04eafc9065686f06cb7e0b73",
+            "document_revision": 1,
+            "document_sha256": "6c902aaf8eac76c1fa748fe58ebe4850dee8add87177a2b0268af6d3e232debf",
+            "chunk_id": "ksrc_04eafc9065686f06cb7e0b73_r1_p0001_806c346a7d70",
+            "chunk_sha256": "806c346a7d709d7f71887ac0071d1caec2ab6dcc02b875cfe0e189fc45400f83",
+            "locator": "建窯 黑釉兔毫盞 · 故瓷008624N000000000 · 基本资料/说明；款识 · 手动录入第1段",
+            "semantic_score": 0.2734004729858436
+          }
+        ],
+        "read_receipt_created": false,
+        "claim_support_assessed": false,
+        "notice": "semantic_score 是相似性排序分，不是真伪、可靠性或置信概率；候选段落必须经原阅读工具读取后才可引用。"
+      },
+      "actual_gpu_results": {
+        "query": "看到青花蓝色能否证明钴料、年代和窑口？",
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "results": [
+          {
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "title": "釉下装饰的限定定义",
+            "semantic_score": 0.4949449300765991
+          },
+          {
+            "document_id": "ksrc_7befd2101b694a67d06ebd18",
+            "document_revision": 1,
+            "document_sha256": "1201a86157c0e87225d47a215f722055bfedc6731fa7d5ed65dd544a3c26831b",
+            "chunk_id": "ksrc_7befd2101b694a67d06ebd18_r1_p0001_339233d2bfa1",
+            "chunk_sha256": "339233d2bfa178a125a306b386ae9de4201829a96e8312b3d2b8ad7d0800be33",
+            "locator": "孔雀绿釉青花莲池鱼纹盘 · 详细年代/尺寸/工艺/款识字段；简介第1–2段 · 手动录入第1段",
+            "title": "孔雀绿釉青花莲池鱼纹盘：罩釉、圈足和款识的馆藏参照",
+            "semantic_score": 0.3350445032119751
+          },
+          {
+            "document_id": "ksrc_01de38279a5b8e521e388442",
+            "document_revision": 1,
+            "document_sha256": "14dd7c226cfb8ada5f57edb385bcd3dd12487d79015ecec0522722ad0df24a9e",
+            "chunk_id": "ksrc_01de38279a5b8e521e388442_r1_p0001_fca5abd0d8ee",
+            "chunk_sha256": "fca5abd0d8eea8dc2bf7f8e0553616d79b65d07cf60f494a7e24f116ed67af74",
+            "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段 · 手动录入第1段",
+            "title": "成化款斗彩鸡缸杯：卧足、底款与装饰层次的馆藏参照",
+            "semantic_score": 0.3036869764328003
+          },
+          {
+            "document_id": "ksrc_ee3b149974186323ea740d3c",
+            "document_revision": 1,
+            "document_sha256": "407e5f3b4a453303575eba01a255959105d477d47f4ae6060bac384f2cf73002",
+            "chunk_id": "ksrc_ee3b149974186323ea740d3c_r1_p0001_84b27fdf4826",
+            "chunk_sha256": "84b27fdf48260382c0c9078fcc1b7666ae76a9d7f7fb0ae9eea145bf5f9daed8",
+            "locator": "祭蓝釉白龙纹盘 · 对象正文第1–3段 · 手动录入第1段",
+            "title": "蓝釉白龙纹盘：蓝釉与白泥贴塑的馆藏参照",
+            "semantic_score": 0.30323266983032227
+          },
+          {
+            "document_id": "ksrc_04eafc9065686f06cb7e0b73",
+            "document_revision": 1,
+            "document_sha256": "6c902aaf8eac76c1fa748fe58ebe4850dee8add87177a2b0268af6d3e232debf",
+            "chunk_id": "ksrc_04eafc9065686f06cb7e0b73_r1_p0001_806c346a7d70",
+            "chunk_sha256": "806c346a7d709d7f71887ac0071d1caec2ab6dcc02b875cfe0e189fc45400f83",
+            "locator": "建窯 黑釉兔毫盞 · 故瓷008624N000000000 · 基本资料/说明；款识 · 手动录入第1段",
+            "title": "建窑黑釉兔毫盏：釉止线、垂釉及足内刻字的馆藏参照",
+            "semantic_score": 0.2734004855155945
+          }
+        ],
+        "gpu_search_seconds": 0.0009714239276945591,
+        "total_seconds": 0.02297781500965357,
+        "cosine_numpy_topk_parity": true,
+        "gpu_cpu_crosscheck": {
+          "distance_tolerance": 2e-05,
+          "maximum_score_error": 1.1920928955078125e-07,
+          "distance_matches_cpu_dot": true,
+          "selected_scores_within_topk_tolerance": true,
+          "ordered_ids_exactly_match": true,
+          "gpu_local_ids": [
+            11,
+            10,
+            0,
+            21,
+            2
+          ],
+          "numpy_local_ids": [
+            11,
+            10,
+            0,
+            21,
+            2
+          ],
+          "numpy_selected_scores": [
+            0.4949449598789215,
+            0.3350444436073303,
+            0.30368685722351074,
+            0.30323266983032227,
+            0.2734004259109497
+          ],
+          "tie_order_not_accuracy_claim": true
+        },
+        "body_read_performed": false,
+        "citation_permission_issued": false,
+        "notice": "相似性不是可靠性或真伪概率；须经原read_snapshot阅读与生产证据门禁，候选服务不授予引用权限。"
+      },
+      "elapsed_seconds": 0.04772350296843797,
+      "expert_relevance_judgment": null,
+      "client_gpu_crosscheck": {
+        "ordered_ids_exactly_match": true,
+        "shared_score_error": 5.598473007406568e-08,
+        "tolerance": 2e-05,
+        "topk_membership_within_tolerance": true,
+        "tied_order_may_differ": true,
+        "expert_relevance_judgment": null
+      },
+      "original_read_identity_checks": [
+        {
+          "source_title": "釉下装饰的限定定义",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+          "document_revision": 1,
+          "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+          "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+          "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+          "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+          "body_text_sha256": "4a640d1b846574ba3d8f4d7bd9d5f97fb9f4a3cf92bbfc279974da783135c5b2",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        },
+        {
+          "source_title": "孔雀绿釉青花莲池鱼纹盘：罩釉、圈足和款识的馆藏参照",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_7befd2101b694a67d06ebd18",
+          "document_revision": 1,
+          "document_sha256": "1201a86157c0e87225d47a215f722055bfedc6731fa7d5ed65dd544a3c26831b",
+          "chunk_id": "ksrc_7befd2101b694a67d06ebd18_r1_p0001_339233d2bfa1",
+          "chunk_sha256": "339233d2bfa178a125a306b386ae9de4201829a96e8312b3d2b8ad7d0800be33",
+          "locator": "孔雀绿釉青花莲池鱼纹盘 · 详细年代/尺寸/工艺/款识字段；简介第1–2段 · 手动录入第1段",
+          "body_text_sha256": "8109c49ed205a74ccc4c0f390fb24387b816dd8bf19463f5ab60b98163222331",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        }
+      ]
+    },
+    {
+      "query": "旧胶发黄、补色和紫外荧光能判断修复年代吗？",
+      "existing_client_results": {
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_model": "nvidia/llama-nemotron-embed-1b-v2",
+        "embedding_runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "results": [
+          {
+            "document_id": "ksrc_9e903ad512cf7d8be37d54f2",
+            "document_revision": 1,
+            "document_sha256": "4725cba6ff056f5edc1f4c1e82b00f0186ed74329b1294905c448adfc8af765e",
+            "chunk_id": "ksrc_9e903ad512cf7d8be37d54f2_r1_p0001_14c0f52a0887",
+            "chunk_sha256": "14c0f52a08878272b352908820059f0afd250c0b6d68b5683f48e89426aec660",
+            "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs · 手动录入第1段",
+            "semantic_score": 0.5171200631198711
+          },
+          {
+            "document_id": "ksrc_8e16579e867208888691e9e0",
+            "document_revision": 1,
+            "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+            "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+            "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+            "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段",
+            "semantic_score": 0.3271569247052017
+          },
+          {
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "semantic_score": 0.1839828353560359
+          },
+          {
+            "document_id": "ksrc_90b705aac7c184a56c19c74f",
+            "document_revision": 1,
+            "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+            "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+            "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+            "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段",
+            "semantic_score": 0.17393227048170326
+          },
+          {
+            "document_id": "ksrc_a00e8d1137608fb689d3616a",
+            "document_revision": 1,
+            "document_sha256": "bf236483859af7d4ed37f8b9d5ebef5a0f7923a00588ae4d172e85c7fc84f331",
+            "chunk_id": "ksrc_a00e8d1137608fb689d3616a_r1_p0001_939c42eb8475",
+            "chunk_sha256": "939c42eb8475331e5ee8c359aee9011e90834b9dabf186e138086709616949f8",
+            "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role · 手动录入第1段",
+            "semantic_score": 0.1640970653883573
+          }
+        ],
+        "read_receipt_created": false,
+        "claim_support_assessed": false,
+        "notice": "semantic_score 是相似性排序分，不是真伪、可靠性或置信概率；候选段落必须经原阅读工具读取后才可引用。"
+      },
+      "actual_gpu_results": {
+        "query": "旧胶发黄、补色和紫外荧光能判断修复年代吗？",
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "results": [
+          {
+            "document_id": "ksrc_9e903ad512cf7d8be37d54f2",
+            "document_revision": 1,
+            "document_sha256": "4725cba6ff056f5edc1f4c1e82b00f0186ed74329b1294905c448adfc8af765e",
+            "chunk_id": "ksrc_9e903ad512cf7d8be37d54f2_r1_p0001_14c0f52a0887",
+            "chunk_sha256": "14c0f52a08878272b352908820059f0afd250c0b6d68b5683f48e89426aec660",
+            "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs · 手动录入第1段",
+            "title": "旧修复迹象与观察方法",
+            "semantic_score": 0.5171201229095459
+          },
+          {
+            "document_id": "ksrc_8e16579e867208888691e9e0",
+            "document_revision": 1,
+            "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+            "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+            "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+            "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段",
+            "title": "清宫陶瓷旧补痕：实物、历史图册与档案的个案比对",
+            "semantic_score": 0.3271569013595581
+          },
+          {
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "title": "釉下装饰的限定定义",
+            "semantic_score": 0.18398284912109375
+          },
+          {
+            "document_id": "ksrc_90b705aac7c184a56c19c74f",
+            "document_revision": 1,
+            "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+            "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+            "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+            "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段",
+            "title": "胎体、釉层与细开裂需分别记录",
+            "semantic_score": 0.1739322543144226
+          },
+          {
+            "document_id": "ksrc_a00e8d1137608fb689d3616a",
+            "document_revision": 1,
+            "document_sha256": "bf236483859af7d4ed37f8b9d5ebef5a0f7923a00588ae4d172e85c7fc84f331",
+            "chunk_id": "ksrc_a00e8d1137608fb689d3616a_r1_p0001_939c42eb8475",
+            "chunk_sha256": "939c42eb8475331e5ee8c359aee9011e90834b9dabf186e138086709616949f8",
+            "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role · 手动录入第1段",
+            "title": "来源链中的事件、角色与缺口",
+            "semantic_score": 0.16409707069396973
+          }
+        ],
+        "gpu_search_seconds": 0.00040622404776513577,
+        "total_seconds": 0.01211092306766659,
+        "cosine_numpy_topk_parity": true,
+        "gpu_cpu_crosscheck": {
+          "distance_tolerance": 2e-05,
+          "maximum_score_error": 1.1920928955078125e-07,
+          "distance_matches_cpu_dot": true,
+          "selected_scores_within_topk_tolerance": true,
+          "ordered_ids_exactly_match": true,
+          "gpu_local_ids": [
+            14,
+            12,
+            11,
+            13,
+            15
+          ],
+          "numpy_local_ids": [
+            14,
+            12,
+            11,
+            13,
+            15
+          ],
+          "numpy_selected_scores": [
+            0.5171200037002563,
+            0.3271568715572357,
+            0.18398280441761017,
+            0.17393222451210022,
+            0.16409705579280853
+          ],
+          "tie_order_not_accuracy_claim": true
+        },
+        "body_read_performed": false,
+        "citation_permission_issued": false,
+        "notice": "相似性不是可靠性或真伪概率；须经原read_snapshot阅读与生产证据门禁，候选服务不授予引用权限。"
+      },
+      "elapsed_seconds": 0.0371545139933005,
+      "expert_relevance_judgment": null,
+      "client_gpu_crosscheck": {
+        "ordered_ids_exactly_match": true,
+        "shared_score_error": 5.978967476671926e-08,
+        "tolerance": 2e-05,
+        "topk_membership_within_tolerance": true,
+        "tied_order_may_differ": true,
+        "expert_relevance_judgment": null
+      },
+      "original_read_identity_checks": [
+        {
+          "source_title": "旧修复迹象与观察方法",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_9e903ad512cf7d8be37d54f2",
+          "document_revision": 1,
+          "document_sha256": "4725cba6ff056f5edc1f4c1e82b00f0186ed74329b1294905c448adfc8af765e",
+          "chunk_id": "ksrc_9e903ad512cf7d8be37d54f2_r1_p0001_14c0f52a0887",
+          "chunk_sha256": "14c0f52a08878272b352908820059f0afd250c0b6d68b5683f48e89426aec660",
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs · 手动录入第1段",
+          "body_text_sha256": "aa3cee8e2cd142a34c9e36243b2b1d844126ca9a0989ac87173ac2b42e2da2b7",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        },
+        {
+          "source_title": "清宫陶瓷旧补痕：实物、历史图册与档案的个案比对",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_8e16579e867208888691e9e0",
+          "document_revision": 1,
+          "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+          "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+          "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+          "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段",
+          "body_text_sha256": "5e259a21fe0256fd91dd649654093ff17cc5d228de1d8987f84457a7af364b28",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        }
+      ]
+    },
+    {
+      "query": "仿年款与本朝归属怎样区分？",
+      "existing_client_results": {
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_model": "nvidia/llama-nemotron-embed-1b-v2",
+        "embedding_runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "results": [
+          {
+            "document_id": "ksrc_fdba06b2ae1c821991423a34",
+            "document_revision": 1,
+            "document_sha256": "29d6eab44abb6922c571fe648cb92c31a3b077ff6d2b9bcdb7dceaaf3126b6e2",
+            "chunk_id": "ksrc_fdba06b2ae1c821991423a34_r1_p0001_ef3da7bef1e6",
+            "chunk_sha256": "ef3da7bef1e607cf2d911179b8eb999e110508ed913fe324ae8fdfc175b24a71",
+            "locator": "New York Conditions of Sale, Explanation of Cataloguing Practice · PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART · 手动录入第1段",
+            "semantic_score": 0.3389814464286855
+          },
+          {
+            "document_id": "ksrc_f886ff2d42a5239677ca49b9",
+            "document_revision": 1,
+            "document_sha256": "8bf117193f6e24c7730ac26de5251fa0f58134ab1aba1747405a0c596624e6d9",
+            "chunk_id": "ksrc_f886ff2d42a5239677ca49b9_r1_p0001_d1119449c248",
+            "chunk_sha256": "d1119449c2485f85ce13fa637978d2e0e3b9797c5b50a36aadd95988525e273a",
+            "locator": "鬥彩雞缸杯 · 故瓷017673N000000000 · 基本资料/说明；款识；使用说明 · 手动录入第1段",
+            "semantic_score": 0.26651611578440637
+          },
+          {
+            "document_id": "ksrc_b985f84d8de80de7d3edf675",
+            "document_revision": 1,
+            "document_sha256": "5fe1b34ebcbdfc992613d1c844148e3d7a000d70c9287ea17e5bb5d1235265f1",
+            "chunk_id": "ksrc_b985f84d8de80de7d3edf675_r1_p0001_bf15c98d3d75",
+            "chunk_sha256": "bf15c98d3d759f90de6aba50e164f9dd63e99259f5e56d0a73ff4def58b04e91",
+            "locator": "An A–Z of Ceramics · A is for A-marked · 手动录入第1段",
+            "semantic_score": 0.2361387958272754
+          },
+          {
+            "document_id": "ksrc_4077600a4cc569c7af29c9f1",
+            "document_revision": 1,
+            "document_sha256": "3949daa1e2e8139e4372f29423f48ab2f5e4edec31254cb9841768a7a83d6d94",
+            "chunk_id": "ksrc_4077600a4cc569c7af29c9f1_r1_p0001_da8b93d42cf1",
+            "chunk_sha256": "da8b93d42cf1cd185b481c48de83387344494f1a35fd5b45ac1e37f83a17aaec",
+            "locator": "汝窯 青瓷紙槌瓶「奉華」銘 · 故瓷17856 · 简介；另核典藏资料检索对象32 · 手动录入第1段",
+            "semantic_score": 0.22293811123547536
+          },
+          {
+            "document_id": "ksrc_01de38279a5b8e521e388442",
+            "document_revision": 1,
+            "document_sha256": "14dd7c226cfb8ada5f57edb385bcd3dd12487d79015ecec0522722ad0df24a9e",
+            "chunk_id": "ksrc_01de38279a5b8e521e388442_r1_p0001_fca5abd0d8ee",
+            "chunk_sha256": "fca5abd0d8eea8dc2bf7f8e0553616d79b65d07cf60f494a7e24f116ed67af74",
+            "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段 · 手动录入第1段",
+            "semantic_score": 0.22048891457438258
+          }
+        ],
+        "read_receipt_created": false,
+        "claim_support_assessed": false,
+        "notice": "semantic_score 是相似性排序分，不是真伪、可靠性或置信概率；候选段落必须经原阅读工具读取后才可引用。"
+      },
+      "actual_gpu_results": {
+        "query": "仿年款与本朝归属怎样区分？",
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "results": [
+          {
+            "document_id": "ksrc_fdba06b2ae1c821991423a34",
+            "document_revision": 1,
+            "document_sha256": "29d6eab44abb6922c571fe648cb92c31a3b077ff6d2b9bcdb7dceaaf3126b6e2",
+            "chunk_id": "ksrc_fdba06b2ae1c821991423a34_r1_p0001_ef3da7bef1e6",
+            "chunk_sha256": "ef3da7bef1e607cf2d911179b8eb999e110508ed913fe324ae8fdfc175b24a71",
+            "locator": "New York Conditions of Sale, Explanation of Cataloguing Practice · PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART · 手动录入第1段",
+            "title": "拍卖编目中款识与本朝归属的语言",
+            "semantic_score": 0.3389815092086792
+          },
+          {
+            "document_id": "ksrc_f886ff2d42a5239677ca49b9",
+            "document_revision": 1,
+            "document_sha256": "8bf117193f6e24c7730ac26de5251fa0f58134ab1aba1747405a0c596624e6d9",
+            "chunk_id": "ksrc_f886ff2d42a5239677ca49b9_r1_p0001_d1119449c248",
+            "chunk_sha256": "d1119449c2485f85ce13fa637978d2e0e3b9797c5b50a36aadd95988525e273a",
+            "locator": "鬥彩雞缸杯 · 故瓷017673N000000000 · 基本资料/说明；款识；使用说明 · 手动录入第1段",
+            "title": "带成化款的晚期斗彩鸡缸杯：款文与归属意见分开的馆藏参照",
+            "semantic_score": 0.26651614904403687
+          },
+          {
+            "document_id": "ksrc_b985f84d8de80de7d3edf675",
+            "document_revision": 1,
+            "document_sha256": "5fe1b34ebcbdfc992613d1c844148e3d7a000d70c9287ea17e5bb5d1235265f1",
+            "chunk_id": "ksrc_b985f84d8de80de7d3edf675_r1_p0001_bf15c98d3d75",
+            "chunk_sha256": "bf15c98d3d759f90de6aba50e164f9dd63e99259f5e56d0a73ff4def58b04e91",
+            "locator": "An A–Z of Ceramics · A is for A-marked · 手动录入第1段",
+            "title": "款识不能作为单独归属依据",
+            "semantic_score": 0.23613882064819336
+          },
+          {
+            "document_id": "ksrc_4077600a4cc569c7af29c9f1",
+            "document_revision": 1,
+            "document_sha256": "3949daa1e2e8139e4372f29423f48ab2f5e4edec31254cb9841768a7a83d6d94",
+            "chunk_id": "ksrc_4077600a4cc569c7af29c9f1_r1_p0001_da8b93d42cf1",
+            "chunk_sha256": "da8b93d42cf1cd185b481c48de83387344494f1a35fd5b45ac1e37f83a17aaec",
+            "locator": "汝窯 青瓷紙槌瓶「奉華」銘 · 故瓷17856 · 简介；另核典藏资料检索对象32 · 手动录入第1段",
+            "title": "奉华铭汝窑纸槌瓶：口部改动与后刻铭文意见的馆藏参照",
+            "semantic_score": 0.22293812036514282
+          },
+          {
+            "document_id": "ksrc_01de38279a5b8e521e388442",
+            "document_revision": 1,
+            "document_sha256": "14dd7c226cfb8ada5f57edb385bcd3dd12487d79015ecec0522722ad0df24a9e",
+            "chunk_id": "ksrc_01de38279a5b8e521e388442_r1_p0001_fca5abd0d8ee",
+            "chunk_sha256": "fca5abd0d8eea8dc2bf7f8e0553616d79b65d07cf60f494a7e24f116ed67af74",
+            "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段 · 手动录入第1段",
+            "title": "成化款斗彩鸡缸杯：卧足、底款与装饰层次的馆藏参照",
+            "semantic_score": 0.22048896551132202
+          }
+        ],
+        "gpu_search_seconds": 0.00036747194826602936,
+        "total_seconds": 0.01218961097765714,
+        "cosine_numpy_topk_parity": true,
+        "gpu_cpu_crosscheck": {
+          "distance_tolerance": 2e-05,
+          "maximum_score_error": 8.940696716308594e-08,
+          "distance_matches_cpu_dot": true,
+          "selected_scores_within_topk_tolerance": true,
+          "ordered_ids_exactly_match": true,
+          "gpu_local_ids": [
+            24,
+            22,
+            17,
+            7,
+            0
+          ],
+          "numpy_local_ids": [
+            24,
+            22,
+            17,
+            7,
+            0
+          ],
+          "numpy_selected_scores": [
+            0.3389815390110016,
+            0.2665161192417145,
+            0.2361387312412262,
+            0.2229381650686264,
+            0.22048892080783844
+          ],
+          "tie_order_not_accuracy_claim": true
+        },
+        "body_read_performed": false,
+        "citation_permission_issued": false,
+        "notice": "相似性不是可靠性或真伪概率；须经原read_snapshot阅读与生产证据门禁，候选服务不授予引用权限。"
+      },
+      "elapsed_seconds": 0.03635174594819546,
+      "expert_relevance_judgment": null,
+      "client_gpu_crosscheck": {
+        "ordered_ids_exactly_match": true,
+        "shared_score_error": 6.277999370363219e-08,
+        "tolerance": 2e-05,
+        "topk_membership_within_tolerance": true,
+        "tied_order_may_differ": true,
+        "expert_relevance_judgment": null
+      },
+      "original_read_identity_checks": [
+        {
+          "source_title": "拍卖编目中款识与本朝归属的语言",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_fdba06b2ae1c821991423a34",
+          "document_revision": 1,
+          "document_sha256": "29d6eab44abb6922c571fe648cb92c31a3b077ff6d2b9bcdb7dceaaf3126b6e2",
+          "chunk_id": "ksrc_fdba06b2ae1c821991423a34_r1_p0001_ef3da7bef1e6",
+          "chunk_sha256": "ef3da7bef1e607cf2d911179b8eb999e110508ed913fe324ae8fdfc175b24a71",
+          "locator": "New York Conditions of Sale, Explanation of Cataloguing Practice · PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART · 手动录入第1段",
+          "body_text_sha256": "55244994443254746cf8d6fdf1bf54acfe783121c6bb9e374ce8a86f70a9a0ab",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        },
+        {
+          "source_title": "带成化款的晚期斗彩鸡缸杯：款文与归属意见分开的馆藏参照",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_f886ff2d42a5239677ca49b9",
+          "document_revision": 1,
+          "document_sha256": "8bf117193f6e24c7730ac26de5251fa0f58134ab1aba1747405a0c596624e6d9",
+          "chunk_id": "ksrc_f886ff2d42a5239677ca49b9_r1_p0001_d1119449c248",
+          "chunk_sha256": "d1119449c2485f85ce13fa637978d2e0e3b9797c5b50a36aadd95988525e273a",
+          "locator": "鬥彩雞缸杯 · 故瓷017673N000000000 · 基本资料/说明；款识；使用说明 · 手动录入第1段",
+          "body_text_sha256": "b09a212847e94937b7f9d7e06ecb8049fdd563c6007c1ae1a1c1458624555191",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        }
+      ]
+    },
+    {
+      "query": "Met 18.61.4 花觚的山水、花篮、福字与康熙记录是什么？",
+      "existing_client_results": {
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_model": "nvidia/llama-nemotron-embed-1b-v2",
+        "embedding_runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "results": [
+          {
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "semantic_score": 0.5105105677711177
+          },
+          {
+            "document_id": "ksrc_d9741b382d20353b49704731",
+            "document_revision": 1,
+            "document_sha256": "51a8e34172938a407629e33747ed6a9103e56138de2ed514826f59b87b692127",
+            "chunk_id": "ksrc_d9741b382d20353b49704731_r1_p0001_82748ad9a408",
+            "chunk_sha256": "82748ad9a40833ae7c041b1fb6c1246a741860b2b473cd8ebc8aa7db74639ce6",
+            "locator": "Teapot · Artwork Details → Object Information → Overview · 手动录入第1段",
+            "semantic_score": 0.2751725348649352
+          },
+          {
+            "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+            "document_revision": 1,
+            "document_sha256": "24aaaf74e928fd8ac8d9d41d58d07e2a659b22a08760e001c9e8b93546320394",
+            "chunk_id": "ksrc_ad6f5879178777be8df3b2b4_r1_p0001_1bcf92858f9a",
+            "chunk_sha256": "1bcf92858f9aa494479ee9cc1ca769ed5e7554b3a79a540e0767a0a0f318ecca",
+            "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview · 手动录入第1段",
+            "semantic_score": 0.2728827082005999
+          },
+          {
+            "document_id": "ksrc_1259bc9c28d9979cf6d75ced",
+            "document_revision": 1,
+            "document_sha256": "b2dc3615cbcaeba92d5491d5f47e0757c63fc0bba11d5180ef49ed40d352b4f9",
+            "chunk_id": "ksrc_1259bc9c28d9979cf6d75ced_r1_p0001_8b141fb2d7b2",
+            "chunk_sha256": "8b141fb2d7b2bc357d9905e3e8064ad257e8df10c64a49f85403bfcee1820ccd",
+            "locator": "琺瑯彩黃地牡丹紋碗 · 故瓷014156N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "semantic_score": 0.2697116984371807
+          },
+          {
+            "document_id": "ksrc_124b99ccb873ee54dfdf6e82",
+            "document_revision": 1,
+            "document_sha256": "e1f6787df1a2ee6f85e7c969330dd024d2ade9207312d09924f59de1181b647d",
+            "chunk_id": "ksrc_124b99ccb873ee54dfdf6e82_r1_p0001_b2818f6724af",
+            "chunk_sha256": "b2818f6724af2f7009f9b58cdc66a266a6c247f721243f73527224292efe43ff",
+            "locator": "青花人物紋如意耳扁壺 · 故瓷012549N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "semantic_score": 0.24608469081214737
+          }
+        ],
+        "read_receipt_created": false,
+        "claim_support_assessed": false,
+        "notice": "semantic_score 是相似性排序分，不是真伪、可靠性或置信概率；候选段落必须经原阅读工具读取后才可引用。"
+      },
+      "actual_gpu_results": {
+        "query": "Met 18.61.4 花觚的山水、花篮、福字与康熙记录是什么？",
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "results": [
+          {
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "title": "山水纹花觚的馆藏编目参照",
+            "semantic_score": 0.5105106234550476
+          },
+          {
+            "document_id": "ksrc_d9741b382d20353b49704731",
+            "document_revision": 1,
+            "document_sha256": "51a8e34172938a407629e33747ed6a9103e56138de2ed514826f59b87b692127",
+            "chunk_id": "ksrc_d9741b382d20353b49704731_r1_p0001_82748ad9a408",
+            "chunk_sha256": "82748ad9a40833ae7c041b1fb6c1246a741860b2b473cd8ebc8aa7db74639ce6",
+            "locator": "Teapot · Artwork Details → Object Information → Overview · 手动录入第1段",
+            "title": "透雕青花茶壶的馆藏参照记录",
+            "semantic_score": 0.27517253160476685
+          },
+          {
+            "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+            "document_revision": 1,
+            "document_sha256": "24aaaf74e928fd8ac8d9d41d58d07e2a659b22a08760e001c9e8b93546320394",
+            "chunk_id": "ksrc_ad6f5879178777be8df3b2b4_r1_p0001_1bcf92858f9a",
+            "chunk_sha256": "1bcf92858f9aa494479ee9cc1ca769ed5e7554b3a79a540e0767a0a0f318ecca",
+            "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview · 手动录入第1段",
+            "title": "耕织图纹饰与题识的馆藏参照",
+            "semantic_score": 0.27288269996643066
+          },
+          {
+            "document_id": "ksrc_1259bc9c28d9979cf6d75ced",
+            "document_revision": 1,
+            "document_sha256": "b2dc3615cbcaeba92d5491d5f47e0757c63fc0bba11d5180ef49ed40d352b4f9",
+            "chunk_id": "ksrc_1259bc9c28d9979cf6d75ced_r1_p0001_8b141fb2d7b2",
+            "chunk_sha256": "8b141fb2d7b2bc357d9905e3e8064ad257e8df10c64a49f85403bfcee1820ccd",
+            "locator": "琺瑯彩黃地牡丹紋碗 · 故瓷014156N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "title": "康熙珐琅彩黄地牡丹碗：蓝料宋体款与浅碗的馆藏参照",
+            "semantic_score": 0.2697116732597351
+          },
+          {
+            "document_id": "ksrc_124b99ccb873ee54dfdf6e82",
+            "document_revision": 1,
+            "document_sha256": "e1f6787df1a2ee6f85e7c969330dd024d2ade9207312d09924f59de1181b647d",
+            "chunk_id": "ksrc_124b99ccb873ee54dfdf6e82_r1_p0001_b2818f6724af",
+            "chunk_sha256": "b2818f6724af2f7009f9b58cdc66a266a6c247f721243f73527224292efe43ff",
+            "locator": "青花人物紋如意耳扁壺 · 故瓷012549N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "title": "青花人物如意耳扁壶：双耳、扁腹与两面纹饰的馆藏参照",
+            "semantic_score": 0.24608469009399414
+          }
+        ],
+        "gpu_search_seconds": 0.0003392790677025914,
+        "total_seconds": 0.012279018992558122,
+        "cosine_numpy_topk_parity": true,
+        "gpu_cpu_crosscheck": {
+          "distance_tolerance": 2e-05,
+          "maximum_score_error": 5.960464477539063e-08,
+          "distance_matches_cpu_dot": true,
+          "selected_scores_within_topk_tolerance": true,
+          "ordered_ids_exactly_match": true,
+          "gpu_local_ids": [
+            9,
+            18,
+            16,
+            4,
+            3
+          ],
+          "numpy_local_ids": [
+            9,
+            18,
+            16,
+            4,
+            3
+          ],
+          "numpy_selected_scores": [
+            0.5105105638504028,
+            0.2751725912094116,
+            0.27288275957107544,
+            0.2697116732597351,
+            0.24608471989631653
+          ],
+          "tie_order_not_accuracy_claim": true
+        },
+        "body_read_performed": false,
+        "citation_permission_issued": false,
+        "notice": "相似性不是可靠性或真伪概率；须经原read_snapshot阅读与生产证据门禁，候选服务不授予引用权限。"
+      },
+      "elapsed_seconds": 0.03764509002212435,
+      "expert_relevance_judgment": null,
+      "client_gpu_crosscheck": {
+        "ordered_ids_exactly_match": true,
+        "shared_score_error": 5.568392991150972e-08,
+        "tolerance": 2e-05,
+        "topk_membership_within_tolerance": true,
+        "tied_order_may_differ": true,
+        "expert_relevance_judgment": null
+      },
+      "original_read_identity_checks": [
+        {
+          "source_title": "山水纹花觚的馆藏编目参照",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_51b142960ebb1cac53087148",
+          "document_revision": 1,
+          "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+          "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+          "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+          "body_text_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        },
+        {
+          "source_title": "透雕青花茶壶的馆藏参照记录",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_d9741b382d20353b49704731",
+          "document_revision": 1,
+          "document_sha256": "51a8e34172938a407629e33747ed6a9103e56138de2ed514826f59b87b692127",
+          "chunk_id": "ksrc_d9741b382d20353b49704731_r1_p0001_82748ad9a408",
+          "chunk_sha256": "82748ad9a40833ae7c041b1fb6c1246a741860b2b473cd8ebc8aa7db74639ce6",
+          "locator": "Teapot · Artwork Details → Object Information → Overview · 手动录入第1段",
+          "body_text_sha256": "b83a5fa32ca2ab6cf86cdee4ed7d263cc8b59b8ace47544f10bbc6c905e52631",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        }
+      ]
+    },
+    {
+      "query": "白色沉积和剥釉能证明出土或海水环境吗？",
+      "existing_client_results": {
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "embedding_model": "nvidia/llama-nemotron-embed-1b-v2",
+        "embedding_runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "results": [
+          {
+            "document_id": "ksrc_021d660523a7c98ea0246dfb",
+            "document_revision": 1,
+            "document_sha256": "82260435168bb6da260366d6d4bcd65421b26a768698ed2a6b1c54600e89f40c",
+            "chunk_id": "ksrc_021d660523a7c98ea0246dfb_r1_p0001_e8279038cb11",
+            "chunk_sha256": "e8279038cb119061147d0e57154c681aace36fc072217abc7cec32b6fd9572a1",
+            "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Problems with Ceramics and Glass → Soluble salts · 手动录入第1段",
+            "semantic_score": 0.45504142714888945
+          },
+          {
+            "document_id": "ksrc_90b705aac7c184a56c19c74f",
+            "document_revision": 1,
+            "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+            "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+            "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+            "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段",
+            "semantic_score": 0.24369455966551065
+          },
+          {
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "semantic_score": 0.24261764981730133
+          },
+          {
+            "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+            "document_revision": 1,
+            "document_sha256": "24aaaf74e928fd8ac8d9d41d58d07e2a659b22a08760e001c9e8b93546320394",
+            "chunk_id": "ksrc_ad6f5879178777be8df3b2b4_r1_p0001_1bcf92858f9a",
+            "chunk_sha256": "1bcf92858f9aa494479ee9cc1ca769ed5e7554b3a79a540e0767a0a0f318ecca",
+            "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview · 手动录入第1段",
+            "semantic_score": 0.17681800851653126
+          },
+          {
+            "document_id": "ksrc_8e16579e867208888691e9e0",
+            "document_revision": 1,
+            "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+            "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+            "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+            "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段",
+            "semantic_score": 0.1634511881332454
+          }
+        ],
+        "read_receipt_created": false,
+        "claim_support_assessed": false,
+        "notice": "semantic_score 是相似性排序分，不是真伪、可靠性或置信概率；候选段落必须经原阅读工具读取后才可引用。"
+      },
+      "actual_gpu_results": {
+        "query": "白色沉积和剥釉能证明出土或海水环境吗？",
+        "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "weights_revision": "113abe4acafa848e77ead9c0623205e511932348",
+        "results": [
+          {
+            "document_id": "ksrc_021d660523a7c98ea0246dfb",
+            "document_revision": 1,
+            "document_sha256": "82260435168bb6da260366d6d4bcd65421b26a768698ed2a6b1c54600e89f40c",
+            "chunk_id": "ksrc_021d660523a7c98ea0246dfb_r1_p0001_e8279038cb11",
+            "chunk_sha256": "e8279038cb119061147d0e57154c681aace36fc072217abc7cec32b6fd9572a1",
+            "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Problems with Ceramics and Glass → Soluble salts · 手动录入第1段",
+            "title": "盐类引起的釉层剥落风险",
+            "semantic_score": 0.45504140853881836
+          },
+          {
+            "document_id": "ksrc_90b705aac7c184a56c19c74f",
+            "document_revision": 1,
+            "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+            "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+            "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+            "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段",
+            "title": "胎体、釉层与细开裂需分别记录",
+            "semantic_score": 0.24369454383850098
+          },
+          {
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "title": "釉下装饰的限定定义",
+            "semantic_score": 0.24261760711669922
+          },
+          {
+            "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+            "document_revision": 1,
+            "document_sha256": "24aaaf74e928fd8ac8d9d41d58d07e2a659b22a08760e001c9e8b93546320394",
+            "chunk_id": "ksrc_ad6f5879178777be8df3b2b4_r1_p0001_1bcf92858f9a",
+            "chunk_sha256": "1bcf92858f9aa494479ee9cc1ca769ed5e7554b3a79a540e0767a0a0f318ecca",
+            "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview · 手动录入第1段",
+            "title": "耕织图纹饰与题识的馆藏参照",
+            "semantic_score": 0.17681801319122314
+          },
+          {
+            "document_id": "ksrc_8e16579e867208888691e9e0",
+            "document_revision": 1,
+            "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+            "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+            "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+            "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段",
+            "title": "清宫陶瓷旧补痕：实物、历史图册与档案的个案比对",
+            "semantic_score": 0.1634511947631836
+          }
+        ],
+        "gpu_search_seconds": 0.0003491679672151804,
+        "total_seconds": 0.012149772024713457,
+        "cosine_numpy_topk_parity": true,
+        "gpu_cpu_crosscheck": {
+          "distance_tolerance": 2e-05,
+          "maximum_score_error": 7.450580596923828e-08,
+          "distance_matches_cpu_dot": true,
+          "selected_scores_within_topk_tolerance": true,
+          "ordered_ids_exactly_match": true,
+          "gpu_local_ids": [
+            1,
+            13,
+            11,
+            16,
+            12
+          ],
+          "numpy_local_ids": [
+            1,
+            13,
+            11,
+            16,
+            12
+          ],
+          "numpy_selected_scores": [
+            0.45504143834114075,
+            0.24369458854198456,
+            0.2426176518201828,
+            0.17681793868541718,
+            0.1634511798620224
+          ],
+          "tie_order_not_accuracy_claim": true
+        },
+        "body_read_performed": false,
+        "citation_permission_issued": false,
+        "notice": "相似性不是可靠性或真伪概率；须经原read_snapshot阅读与生产证据门禁，候选服务不授予引用权限。"
+      },
+      "elapsed_seconds": 0.03752830601297319,
+      "expert_relevance_judgment": null,
+      "client_gpu_crosscheck": {
+        "ordered_ids_exactly_match": true,
+        "shared_score_error": 4.270060210975757e-08,
+        "tolerance": 2e-05,
+        "topk_membership_within_tolerance": true,
+        "tied_order_may_differ": true,
+        "expert_relevance_judgment": null
+      },
+      "original_read_identity_checks": [
+        {
+          "source_title": "盐类引起的釉层剥落风险",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_021d660523a7c98ea0246dfb",
+          "document_revision": 1,
+          "document_sha256": "82260435168bb6da260366d6d4bcd65421b26a768698ed2a6b1c54600e89f40c",
+          "chunk_id": "ksrc_021d660523a7c98ea0246dfb_r1_p0001_e8279038cb11",
+          "chunk_sha256": "e8279038cb119061147d0e57154c681aace36fc072217abc7cec32b6fd9572a1",
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Problems with Ceramics and Glass → Soluble salts · 手动录入第1段",
+          "body_text_sha256": "a1d46dd76d7fe1addc1f6e02f334691d99090d7bd69a83969309177520656645",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        },
+        {
+          "source_title": "胎体、釉层与细开裂需分别记录",
+          "rights": "authorized_text",
+          "review_status": "pending",
+          "document_id": "ksrc_90b705aac7c184a56c19c74f",
+          "document_revision": 1,
+          "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+          "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+          "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+          "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段",
+          "body_text_sha256": "67bf95c51e26d5967ea161844b85a4b6f6f5b57d7dade1ac36fd16ac85af56b6",
+          "candidate_body_view_matches_original_read_snapshot": true,
+          "production_read_receipt_created": false
+        }
+      ]
+    }
+  ],
+  "negative_requests": [
+    {
+      "test": "snapshot_changed",
+      "actual_status": 409,
+      "detail": "frozen_snapshot_changed"
+    },
+    {
+      "test": "binding_changed",
+      "actual_status": 409,
+      "detail": "case_source_boundary_mismatch"
+    },
+    {
+      "test": "unauthorized_passage",
+      "actual_status": 403,
+      "detail": "only_frozen_authorized_passages"
+    }
+  ],
+  "actual_existing_client_http_requests": 9,
+  "all_candidate_ids_and_body_hashes_valid": true,
+  "gpu_numpy_and_client_numeric_crosschecks_passed": true,
+  "all_ordered_topk_ids_exactly_match": true,
+  "default_production_backend_changed": false,
+  "production_read_receipt_created": false,
+  "expert_validation": false,
+  "professional_accuracy_measured": false,
+  "total_seconds": 1.7868368969066069,
+  "public_normalization": {
+    "source_receipt_sha256": "21be568a183575c24c830e6d7649ea9ed1afedc58d8cc06ec3c658d6c0e22dd0",
+    "source_receipt_bytes": 87426,
+    "body_views_checked": 10,
+    "omitted": "All original_read_snapshot source/body objects; no embedding vectors exported",
+    "public_copy_is_original_bytes": false,
+    "public_source_scope": "Fixed25 original authorized seed summaries, identities and actual finite5query service results; not private expert corpus"
+  }
+}

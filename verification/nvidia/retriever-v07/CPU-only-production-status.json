@@ -1,0 +1,19 @@
+{
+  "native": {
+    "HTTP": 200,
+    "ready": null,
+    "app_version": null,
+    "model_configured": null,
+    "model_verified": null,
+    "hardware_verified": null
+  },
+  "backend": {
+    "HTTP": 200,
+    "ready": null,
+    "app_version": "0.7.0",
+    "model_configured": true,
+    "model_verified": false,
+    "hardware_verified": false
+  },
+  "mem_available_kib": 70613768
+}

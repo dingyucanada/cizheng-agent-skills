@@ -1,0 +1,17 @@
+{
+  "official_index_url": "https://ports.ubuntu.com/ubuntu-ports/dists/noble-updates/main/binary-arm64/Packages.xz",
+  "index_sha256": "17720201da502f6d3cef7d21fe1cc0e624443674912b48460e99ebf2236a061b",
+  "index_bytes": 1374348,
+  "official_InRelease_signature_verified": true,
+  "signature_receipt_sha256": "ac33d06ecde1bcb0932b1a96d545bd40ed7716ddf7406323fb68d09ccd927456",
+  "InRelease_sha256": "e90a91abb82b6431255986981bea4f4f37fc3b0dad767e7acb42a8e573d69c4f",
+  "package": {
+    "Package": "libpython3.12-dev",
+    "Version": "3.12.3-1ubuntu0.17",
+    "Architecture": "arm64",
+    "Filename": "pool/main/p/python3.12/libpython3.12-dev_3.12.3-1ubuntu0.17_arm64.deb",
+    "SHA256": "945ad3f651f683c11e72d19d804b1cff097308dcffa01057635cba038f875164",
+    "Size": "5538952"
+  },
+  "system_apt_lists_changed": false
+}

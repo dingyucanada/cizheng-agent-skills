@@ -1,0 +1,73 @@
+{
+  "schema": "cizheng.spark-coexistence.v1",
+  "checked_at": "2026-09-28T20:54:06.201468+00:00",
+  "checks": [
+    {
+      "service": "production_vision",
+      "http_status": 200,
+      "response_bytes": 733,
+      "response_sha256": "c2a5abf74a3af96b2944231aaf2a612d12dfcf0426671ea16f5041d7495dff75",
+      "elapsed_seconds": 0.016802,
+      "bounded_fields": {
+        "status": "ready",
+        "generation_in_progress": false,
+        "model": "Qwen/Qwen3-VL-8B-Instruct"
+      }
+    },
+    {
+      "service": "production_application",
+      "http_status": 200,
+      "response_bytes": 9835,
+      "response_sha256": "951997e164f09a6301b2a432a1655c8efed511e7876436fc323f39b9776bf0ff",
+      "elapsed_seconds": 0.050387,
+      "bounded_fields": {
+        "model_configured": true,
+        "nvidia_nat_configured": true,
+        "text_review_configured": true,
+        "app_version": "0.7.0"
+      }
+    },
+    {
+      "service": "tensorrt_llm_text",
+      "http_status": 200,
+      "response_bytes": 0,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "elapsed_seconds": 0.000712,
+      "bounded_fields": {}
+    },
+    {
+      "service": "nvidia_open_retriever",
+      "http_status": 200,
+      "response_bytes": 3670,
+      "response_sha256": "e615d0695d1eeacc09c6a8017ecb61a9e6b2b0addb50e3e3dc9140874f042c04",
+      "elapsed_seconds": 0.001042,
+      "bounded_fields": {
+        "ready": true,
+        "model": "nvidia/llama-nemotron-embed-1b-v2",
+        "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+        "runtime_manifest_file_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+        "embedding_dimensions": 2048,
+        "corpus_chunks": 25,
+        "SDK_pipeline_used": false,
+        "default_production_backend_changed": false
+      }
+    }
+  ],
+  "tensorrt_owned_container": {
+    "container_id": "14d1bf9ee812bcd32e2cf84caeec61e078b80b27b9af01930e9f0d7adf773c01",
+    "image": "nvcr.io/nvidia/tensorrt-llm/release@sha256:4f30c464ead64fb9727a24064b25057dacc07bef848022421108e544c91f0965",
+    "started_at": "2026-09-28T20:31:23.390557032Z",
+    "running": true,
+    "restart_count": 0
+  },
+  "memory": {
+    "MemTotal_bytes": 128520015872,
+    "MemAvailable_bytes": 67694841856,
+    "SwapTotal_bytes": 0,
+    "SwapFree_bytes": 0
+  },
+  "all_four_services_http_200": true,
+  "model_requests_sent": 0,
+  "production_configuration_changed": false,
+  "scope": "read-only actual four-service health, owned TRT container identity and shared-memory observation; no inference request or service mutation; not professional quality validation"
+}

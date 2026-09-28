@@ -1,0 +1,20 @@
+{
+  "scope": "Offline independent public-record audit; no network/model requests. Confirms recorded identities/numeric execution, not expert relevance or accuracy",
+  "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+  "frozen_sources": 25,
+  "frozen_chunks": 25,
+  "actual_request_records": 9,
+  "queries": 5,
+  "returned_identity_rows_verified": 50,
+  "original_body_text_SHA_views_verified": 10,
+  "health_checks_per_observation": [
+    37,
+    37
+  ],
+  "public_client_sha256": "713aeb8bf4d4819a2f171857558698c4fdd995b8662d5526e561b7a3058d6485",
+  "source_client_sha256": "21be568a183575c24c830e6d7649ea9ed1afedc58d8cc06ec3c658d6c0e22dd0",
+  "all_checks_passed": true,
+  "GPU_or_HTTP_requests_in_this_audit": false,
+  "expert_validation": false,
+  "professional_accuracy_measured": false
+}

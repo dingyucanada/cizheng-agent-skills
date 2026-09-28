@@ -1,0 +1,18 @@
+# Single-request text service; values apply only to the pinned rc13 candidate.
+dtype: bfloat16
+max_batch_size: 1
+max_seq_len: 4096
+max_num_tokens: 2048
+enable_chunked_prefill: true
+kv_cache_config:
+  dtype: auto
+  max_tokens: 4096
+  free_gpu_memory_fraction: 0.05
+  enable_block_reuse: false
+cuda_graph_config:
+  batch_sizes: [1]
+  max_batch_size: 1
+  enable_padding: false
+disable_overlap_scheduler: true
+enable_iter_perf_stats: true
+print_iter_log: false

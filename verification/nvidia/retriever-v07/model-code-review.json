@@ -1,0 +1,42 @@
+{
+  "repo": "nvidia/llama-nemotron-embed-1b-v2",
+  "revision": "113abe4acafa848e77ead9c0623205e511932348",
+  "review_scope": "Manual full-file review and AST import inventory, not formal security certification",
+  "python_files": [
+    {
+      "filename": "llama_bidirectional_model.py",
+      "sha256": "fd26e459b1277bee61b3d501cddd61291714e48a93a9a1c0ab81b1342c59fcc2",
+      "imports": [
+        "inspect",
+        "torch",
+        "transformers.cache_utils",
+        "transformers.modeling_outputs",
+        "transformers.models.llama.configuration_llama",
+        "transformers.models.llama.modeling_llama",
+        "transformers.utils",
+        "transformers.masking_utils",
+        "transformers.modeling_attn_mask_utils"
+      ],
+      "reviewed": true,
+      "network_IO_found": false,
+      "subprocess_or_shell_execution_found": false
+    },
+    {
+      "filename": "pooling.py",
+      "sha256": "117422c718eac86f834c1cacf39c1eca13f80a254e03bacdf3a4f4e4e98da4bb",
+      "imports": [
+        "torch",
+        "torch"
+      ],
+      "reviewed": true,
+      "network_IO_found": false,
+      "subprocess_or_shell_execution_found": false
+    }
+  ],
+  "loading_policy": {
+    "local_files_only": true,
+    "trust_fixed_local_model_code": true,
+    "runtime_network_fetch_allowed": false,
+    "full_model_manifest_SHA_before_load": true
+  }
+}

@@ -12,7 +12,9 @@
 - [JSON Mode 探针](v07-workflows/stepfun-json-mode-probe.json)：公开合成四字段，1 次 / stop / Schema 有效，不是业务验收。
 - [总公开派生与 SHA 清单](v07-workflows/redaction-manifest.json)：原件保留，公开证据移除凭证、私有地址 / 路径、原图 base64、SSH 身份与 raw nsys；不由程序补写意见或引用。
 
-NAT 检查資料版本 / 哈希 / 定位及读取身份，不验证来源支持或真伪；StepFun 只收批准文字，未看原图。vLLM 镜像未完整部署，NIM 受中国区官方分发限制，TRT / Dynamo / Retriever 未部署。专家样本在另一台电脑，未接收验证或校准真品率。
+本次新增 [TRT实际部署](tensorrt-llm-v08/README.md) 与 [开放embedding/cuVS Retriever](retriever-v07/index.json)：分别为独立文字接口/CUDA前8迭代，以及25段/2048维/原client9 HTTP/5query数值与身份核验。原8B视觉和SQLite主流程未替换。[完整部署范围](../../docs/spark-deployment-update-v08.md)。
+
+NAT核对引用身份，不验证观点或真伪；StepFun只收批准文字。NIM仍受官方中国区分发与伙伴授权限制，vLLM镜像未完整部署，Dynamo未部署。开放Retriever不称NIM/完整SDK。专家样本尚未接收，真品概率未校准。
 
 ## 历史记录
 

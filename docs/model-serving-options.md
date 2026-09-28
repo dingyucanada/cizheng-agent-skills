@@ -8,10 +8,13 @@
 | Transformers 32B BF16 | 官方 25 文件 / 66.73 GB 核验、CUDA 热身与三项合成协议成功；真实双图流程失败后停止 | 新视觉合同下的独立实际流程，固定条件的专业比较 |
 | 官方 NVIDIA vLLM 25.11 ARM64 | 镜像拉取随专属会话退出而停止，镜像尚未完整存在，未部署 | 镜像 digest、平台、真实模型及图片 / 完整 Schema / 内存 / 耗时 |
 | NIM | 中国区官方分发限制阻止下载，未部署 | 官方允许的分发与对应模型 / 硬件配置 |
-| TensorRT-LLM / Dynamo | 未部署 | 对应 Qwen3-VL checkpoint、GB10、精度及完整业务，不据通用支持表推断 |
-| NeMo Retriever | 未部署；当前仍为 SQLite 中文关键词 RAG | 专家相关段落、Recall@k / 错误引用 / 耗时及同机峰值内存 |
+| TensorRT-LLM rc13 | 官方ARM64 / Qwen3-4B BF16独立8006已运行；1公开文字请求与前8迭代CUDA绑定 | PyTorch backend，未生成序列化TRT engine；未替视觉，需要同视觉模型/预算的业务、质量与速度对照 |
+| NVIDIA开放embedding + cuVS Retriever | 固定官方1B v2、独立8003、25段/2048维、原client9 HTTP/5中文查询身份/数值核验 | 非Embedding NIM/完整SDK；生产仍SQLite，专家相关性/Recall@k/错引/收益未测 |
+| Dynamo | 未部署 | 当前无机构并发负载或分布式收益证据 |
 
 32B 权重与失败保留，当前不驻留。替换旧 profile 子进程时专属 tmux 会话同时意外退出；节点未重启，已查 kernel journal 未发现 OOM 匹配，原因不能确证。不能写成确诊 OOM、主动完成镜像拉取或部署成功。[候选原始边界](../verification/nvidia/v07-workflows/candidate-32b.json)。
+
+本次独立服务的固定镜像/权重/代码/运行身份、实际请求、失败和资源范围见 [部署说明](spark-deployment-update-v08.md)。NIM还需官方授权ARM64分发，开放组件成功不能等同NIM部署。
 
 ## 用实际测量选择优化
 

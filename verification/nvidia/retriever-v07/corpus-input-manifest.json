@@ -1,0 +1,211 @@
+{
+  "scope": "Independent candidate, all 25 existing project-authored authorized Chinese seed summaries; not production case access or expert validation",
+  "source_file": "knowledge/seeds.json",
+  "source_file_sha256": "613257e15b09f8a5d86edb7515ae98ee45ffb518364a67e7787364fbdae9ee6b",
+  "snapshot_sha256": "e3b1f9290e502d27d2ecae2b16fc8a611aed5367d693e4f678df7f2b0cc1be24",
+  "indexer_version": "cizheng-zh-bigram-v1",
+  "source_count": 25,
+  "chunk_count": 25,
+  "chunks": [
+    {
+      "document_id": "ksrc_01de38279a5b8e521e388442",
+      "document_revision": 1,
+      "document_sha256": "14dd7c226cfb8ada5f57edb385bcd3dd12487d79015ecec0522722ad0df24a9e",
+      "chunk_id": "ksrc_01de38279a5b8e521e388442_r1_p0001_fca5abd0d8ee",
+      "chunk_sha256": "fca5abd0d8eea8dc2bf7f8e0553616d79b65d07cf60f494a7e24f116ed67af74",
+      "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_021d660523a7c98ea0246dfb",
+      "document_revision": 1,
+      "document_sha256": "82260435168bb6da260366d6d4bcd65421b26a768698ed2a6b1c54600e89f40c",
+      "chunk_id": "ksrc_021d660523a7c98ea0246dfb_r1_p0001_e8279038cb11",
+      "chunk_sha256": "e8279038cb119061147d0e57154c681aace36fc072217abc7cec32b6fd9572a1",
+      "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Problems with Ceramics and Glass → Soluble salts · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_04eafc9065686f06cb7e0b73",
+      "document_revision": 1,
+      "document_sha256": "6c902aaf8eac76c1fa748fe58ebe4850dee8add87177a2b0268af6d3e232debf",
+      "chunk_id": "ksrc_04eafc9065686f06cb7e0b73_r1_p0001_806c346a7d70",
+      "chunk_sha256": "806c346a7d709d7f71887ac0071d1caec2ab6dcc02b875cfe0e189fc45400f83",
+      "locator": "建窯 黑釉兔毫盞 · 故瓷008624N000000000 · 基本资料/说明；款识 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_124b99ccb873ee54dfdf6e82",
+      "document_revision": 1,
+      "document_sha256": "e1f6787df1a2ee6f85e7c969330dd024d2ade9207312d09924f59de1181b647d",
+      "chunk_id": "ksrc_124b99ccb873ee54dfdf6e82_r1_p0001_b2818f6724af",
+      "chunk_sha256": "b2818f6724af2f7009f9b58cdc66a266a6c247f721243f73527224292efe43ff",
+      "locator": "青花人物紋如意耳扁壺 · 故瓷012549N000000000 · 基本资料/说明；使用说明 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_1259bc9c28d9979cf6d75ced",
+      "document_revision": 1,
+      "document_sha256": "b2dc3615cbcaeba92d5491d5f47e0757c63fc0bba11d5180ef49ed40d352b4f9",
+      "chunk_id": "ksrc_1259bc9c28d9979cf6d75ced_r1_p0001_8b141fb2d7b2",
+      "chunk_sha256": "8b141fb2d7b2bc357d9905e3e8064ad257e8df10c64a49f85403bfcee1820ccd",
+      "locator": "琺瑯彩黃地牡丹紋碗 · 故瓷014156N000000000 · 基本资料/说明；使用说明 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_1520cc223a658b96c4de6ca7",
+      "document_revision": 1,
+      "document_sha256": "0adf09b77cda2e577d66e4c5ffbaa34de1a9cbd7f390f01ce5185bf103c6d25a",
+      "chunk_id": "ksrc_1520cc223a658b96c4de6ca7_r1_p0001_f4de83722e8c",
+      "chunk_sha256": "f4de83722e8c8406afbde84d9e6f38a979b463a0c499f6ae324c293b81276050",
+      "locator": "青花穿蓮龍紋天球瓶 · 故瓷011422N000000000 · 基本资料/说明；使用说明 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_1a96a9d4f6ac6ca5a83e7190",
+      "document_revision": 1,
+      "document_sha256": "80d412040aa95acb9bde54567eb50f8042b3f1b07dcb3364e16f9fc286b34fe1",
+      "chunk_id": "ksrc_1a96a9d4f6ac6ca5a83e7190_r1_p0001_f388aed9ae3b",
+      "chunk_sha256": "f388aed9ae3bc9aa6018a922bedb8a14a5c375c94998eef43cfb39de2542a141",
+      "locator": "釉里红三鱼纹高足碗 · 新00194689 · 简介第1–5段；撰稿人栏 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_4077600a4cc569c7af29c9f1",
+      "document_revision": 1,
+      "document_sha256": "3949daa1e2e8139e4372f29423f48ab2f5e4edec31254cb9841768a7a83d6d94",
+      "chunk_id": "ksrc_4077600a4cc569c7af29c9f1_r1_p0001_da8b93d42cf1",
+      "chunk_sha256": "da8b93d42cf1cd185b481c48de83387344494f1a35fd5b45ac1e37f83a17aaec",
+      "locator": "汝窯 青瓷紙槌瓶「奉華」銘 · 故瓷17856 · 简介；另核典藏资料检索对象32 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_4691480425d5bc38b1e47f2e",
+      "document_revision": 1,
+      "document_sha256": "b086ecd555ec2e73c93c2502199a7ff2875a73cf204964f1a02bd37a87a07013",
+      "chunk_id": "ksrc_4691480425d5bc38b1e47f2e_r1_p0001_8e8300e53176",
+      "chunk_sha256": "8e8300e531764e8dffca7c0814f7118c716824d830230ec1d4719aaca6149806",
+      "locator": "青花印花紋瓷碗 · 2003.001.0283 · 文物描述；编目者/编目日期 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_7befd2101b694a67d06ebd18",
+      "document_revision": 1,
+      "document_sha256": "1201a86157c0e87225d47a215f722055bfedc6731fa7d5ed65dd544a3c26831b",
+      "chunk_id": "ksrc_7befd2101b694a67d06ebd18_r1_p0001_339233d2bfa1",
+      "chunk_sha256": "339233d2bfa178a125a306b386ae9de4201829a96e8312b3d2b8ad7d0800be33",
+      "locator": "孔雀绿釉青花莲池鱼纹盘 · 详细年代/尺寸/工艺/款识字段；简介第1–2段 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+      "document_revision": 1,
+      "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+      "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+      "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+      "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_8e16579e867208888691e9e0",
+      "document_revision": 1,
+      "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+      "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+      "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+      "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_90b705aac7c184a56c19c74f",
+      "document_revision": 1,
+      "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+      "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+      "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+      "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_9e903ad512cf7d8be37d54f2",
+      "document_revision": 1,
+      "document_sha256": "4725cba6ff056f5edc1f4c1e82b00f0186ed74329b1294905c448adfc8af765e",
+      "chunk_id": "ksrc_9e903ad512cf7d8be37d54f2_r1_p0001_14c0f52a0887",
+      "chunk_sha256": "14c0f52a08878272b352908820059f0afd250c0b6d68b5683f48e89426aec660",
+      "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_a00e8d1137608fb689d3616a",
+      "document_revision": 1,
+      "document_sha256": "bf236483859af7d4ed37f8b9d5ebef5a0f7923a00588ae4d172e85c7fc84f331",
+      "chunk_id": "ksrc_a00e8d1137608fb689d3616a_r1_p0001_939c42eb8475",
+      "chunk_sha256": "939c42eb8475331e5ee8c359aee9011e90834b9dabf186e138086709616949f8",
+      "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+      "document_revision": 1,
+      "document_sha256": "24aaaf74e928fd8ac8d9d41d58d07e2a659b22a08760e001c9e8b93546320394",
+      "chunk_id": "ksrc_ad6f5879178777be8df3b2b4_r1_p0001_1bcf92858f9a",
+      "chunk_sha256": "1bcf92858f9aa494479ee9cc1ca769ed5e7554b3a79a540e0767a0a0f318ecca",
+      "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_b985f84d8de80de7d3edf675",
+      "document_revision": 1,
+      "document_sha256": "5fe1b34ebcbdfc992613d1c844148e3d7a000d70c9287ea17e5bb5d1235265f1",
+      "chunk_id": "ksrc_b985f84d8de80de7d3edf675_r1_p0001_bf15c98d3d75",
+      "chunk_sha256": "bf15c98d3d759f90de6aba50e164f9dd63e99259f5e56d0a73ff4def58b04e91",
+      "locator": "An A–Z of Ceramics · A is for A-marked · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_d9741b382d20353b49704731",
+      "document_revision": 1,
+      "document_sha256": "51a8e34172938a407629e33747ed6a9103e56138de2ed514826f59b87b692127",
+      "chunk_id": "ksrc_d9741b382d20353b49704731_r1_p0001_82748ad9a408",
+      "chunk_sha256": "82748ad9a40833ae7c041b1fb6c1246a741860b2b473cd8ebc8aa7db74639ce6",
+      "locator": "Teapot · Artwork Details → Object Information → Overview · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_e4aaa122a24b640c7f104b3f",
+      "document_revision": 1,
+      "document_sha256": "70d0dcc81c8e9f8c384e71d1fe0c069e49551c554ba33900b27e4b2a53c6abdc",
+      "chunk_id": "ksrc_e4aaa122a24b640c7f104b3f_r1_p0001_74b402909ba1",
+      "chunk_sha256": "74b402909ba167ae70c0a2d354c8802ce324efc321383d5224518100da32784a",
+      "locator": "汝窯 青瓷蓮花式溫碗 · 故瓷016929N000000000 · 基本资料/说明；使用说明 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_e5de4b7e19ee87fc99d5b867",
+      "document_revision": 1,
+      "document_sha256": "dd3edccbf43136bbc9bc05b0b72a9dfa5f08be189a40fe409c9b34bc10962704",
+      "chunk_id": "ksrc_e5de4b7e19ee87fc99d5b867_r1_p0001_ee2d6e638299",
+      "chunk_sha256": "ee2d6e638299bfdcabc216f3fce1329faf56af5cdad63f9ae64d415bf296d5bb",
+      "locator": "汝窑天青釉盘 · 对象正文第1–2段 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_ee3b149974186323ea740d3c",
+      "document_revision": 1,
+      "document_sha256": "407e5f3b4a453303575eba01a255959105d477d47f4ae6060bac384f2cf73002",
+      "chunk_id": "ksrc_ee3b149974186323ea740d3c_r1_p0001_84b27fdf4826",
+      "chunk_sha256": "84b27fdf48260382c0c9078fcc1b7666ae76a9d7f7fb0ae9eea145bf5f9daed8",
+      "locator": "祭蓝釉白龙纹盘 · 对象正文第1–3段 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_f886ff2d42a5239677ca49b9",
+      "document_revision": 1,
+      "document_sha256": "8bf117193f6e24c7730ac26de5251fa0f58134ab1aba1747405a0c596624e6d9",
+      "chunk_id": "ksrc_f886ff2d42a5239677ca49b9_r1_p0001_d1119449c248",
+      "chunk_sha256": "d1119449c2485f85ce13fa637978d2e0e3b9797c5b50a36aadd95988525e273a",
+      "locator": "鬥彩雞缸杯 · 故瓷017673N000000000 · 基本资料/说明；款识；使用说明 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_fbd986d34d1c92422df7f01f",
+      "document_revision": 1,
+      "document_sha256": "82dc0c32e03cb69d84764c06cd05260cfb68bee7f445606842078c76dd3607f6",
+      "chunk_id": "ksrc_fbd986d34d1c92422df7f01f_r1_p0001_008f26b52fd3",
+      "chunk_sha256": "008f26b52fd3a57d153dc132140f2ef65a264d163b0835c8ef77f449724fb725",
+      "locator": "青花花卉紋碗 · 贈瓷000501N000000000 · 基本资料/说明；使用说明 · 手动录入第1段"
+    },
+    {
+      "document_id": "ksrc_fdba06b2ae1c821991423a34",
+      "document_revision": 1,
+      "document_sha256": "29d6eab44abb6922c571fe648cb92c31a3b077ff6d2b9bcdb7dceaaf3126b6e2",
+      "chunk_id": "ksrc_fdba06b2ae1c821991423a34_r1_p0001_ef3da7bef1e6",
+      "chunk_sha256": "ef3da7bef1e607cf2d911179b8eb999e110508ed913fe324ae8fdfc175b24a71",
+      "locator": "New York Conditions of Sale, Explanation of Cataloguing Practice · PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART · 手动录入第1段"
+    }
+  ]
+}

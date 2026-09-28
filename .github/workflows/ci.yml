@@ -68,3 +68,26 @@ jobs:
         run: python -m pytest -q -p no:cacheprovider tests/test_nvidia_nat.py tests/test_nvidia_profiler.py
       - name: Run actual offline Toolkit profiler
         run: python scripts/nvidia-nat-profile.py --output .tmp/ci-nat-profiler
+
+  deployment-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python for offline deployment contracts
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check pinned downloads and one-request CUDA evidence boundaries
+        run: |
+          python -B -S deploy/tensorrt-llm-spark/tests/test_download_model.py
+          python -B -S deploy/tensorrt-llm-spark/tests/test_accept_text_once.py
+          python -B -S deploy/tensorrt-llm-spark/tests/test_gpu_trace.py
+          bash -n deploy/tensorrt-llm-spark/probe_cuda.sh
+          bash -n deploy/tensorrt-llm-spark/start_candidate.sh
+          python -B -S verification/nvidia/retriever-v07/audit_public_evidence.py
+          bash -n deploy/nvidia-retriever-candidate-launch.sh
+          bash -n deploy/nvidia-serve-retriever-open.sh

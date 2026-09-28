@@ -101,7 +101,72 @@
   "professional_quality_passed": false,
   "expert_validation_performed": false,
   "image_ROIs": "CSS overlays from actual normalized regions; original JPEG bytes unchanged; semantic accuracy not expert validated",
-  "new_deployment_status": "pending, independent JSON; no claim that planned services are deployed",
+  "new_deployment_status": "Actual independent TRT text and NVIDIA open embedding/cuVS services accepted; NIM not deployed; original production path unchanged. New receipts separately bound, no expert quality or end-to-end acceleration claim.",
   "report_page_calls_model": false,
-  "teaching_calls_model": false
+  "teaching_calls_model": false,
+  "deployment_files": [
+    {
+      "path": "verification/nvidia/v08-deployment/coexistence-final.json",
+      "actual_public_sha256": "bcc4add1543bbc6ce95c9c1a7b3b857c46fc72c2c1df089f379d35b9f2a5a6b0",
+      "bytes": 2681,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/v08-deployment/nim-distribution-check.json",
+      "actual_public_sha256": "a818222607289a2ed9e9695a0136024c0a4c767de55dfe265fbc9f458064daf4",
+      "bytes": 2581,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/tensorrt-llm-v08/public-text-once/receipt.json",
+      "actual_public_sha256": "d71109c51acb1713ba9f5fabe9efab94aa485b07b263a6f90419d1455781dd9e",
+      "bytes": 1121,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/tensorrt-llm-v08/gpu-proof-summary-final.json",
+      "actual_public_sha256": "fc9f5e2d00e279acf69c6a89d027eb704f61c618fdb61a463c404c5713e1ea30",
+      "bytes": 1295,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/tensorrt-llm-v08/runtime-files-final.json",
+      "actual_public_sha256": "34a12f46510487ff855c4db23902c465cb67b5b3a1f9a1f9a3faaab8c68b6cb6",
+      "bytes": 1446,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/startup-receipt.json",
+      "actual_public_sha256": "7a6871f88c1d61db47108701c3c29a0d02ae63ef5cf3c2981863cf71b3059e37",
+      "bytes": 4105,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/real-client-acceptance.json",
+      "actual_public_sha256": "713aeb8bf4d4819a2f171857558698c4fdd995b8662d5526e561b7a3058d6485",
+      "bytes": 82429,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": true
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/deployment-runtime-manifest.json",
+      "actual_public_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+      "bytes": 36423,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/public-code-byte-bindings.json",
+      "actual_public_sha256": "cab349a857a5080e7e65b9129fdd18144e59be31a93eafdffb6304bd94f25aa1",
+      "bytes": 1842,
+      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "public_normalization": false
+    }
+  ]
 }

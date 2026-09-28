@@ -1,0 +1,213 @@
+{
+  "scope": "Actual independent NVIDIA open checkpoint+cuVS service on Spark; not Embedding NIM or production RAG switch",
+  "current_runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+  "original_remote_byte_identical_receipts": [
+    "deployment-runtime-manifest.json",
+    "runtime-contract-cpu-verification.json",
+    "isolated-python-headers-proof.json",
+    "official-python-header-package-index.json",
+    "cpu-negative-bindings.json",
+    "pre-load-production-check-third.json",
+    "startup-receipt.json",
+    "first-start-failure-summary.json",
+    "second-start-failure-summary.json",
+    "post-acceptance-production-status.json"
+  ],
+  "normalized_allowlist_client_receipt": {
+    "path": "real-client-acceptance.json",
+    "original_sha256": "21be568a183575c24c830e6d7649ea9ed1afedc58d8cc06ec3c658d6c0e22dd0",
+    "public_sha256": "713aeb8bf4d4819a2f171857558698c4fdd995b8662d5526e561b7a3058d6485",
+    "byte_identical": false,
+    "normalization": "All original source/body objects removed; original_read_identity_checks keep source/chunk identities, locator, text SHA and actual verification booleans; no vectors."
+  },
+  "SDK_pipeline_used": false,
+  "default_production_backend_changed": false,
+  "professional_accuracy_measured": false,
+  "publication_files": [
+    {
+      "path": "deploy/nvidia-retriever-candidate-launch.sh",
+      "bytes": 1141,
+      "sha256": "b3ee5291d8337ff150908adb8f57aaf1c51607399229d166c2cb4e8a7a30ab98"
+    },
+    {
+      "path": "deploy/nvidia-retriever-cpu-negative-bindings.sh",
+      "bytes": 2136,
+      "sha256": "7dbecff2850597f9b8000bd29b6647f02ad04de9a6e764656227164fe5fc3726"
+    },
+    {
+      "path": "deploy/nvidia-serve-retriever-open.sh",
+      "bytes": 1960,
+      "sha256": "8b543879f7d2d657b884901a469251705b77597c7cf33fe3e52f1e71c4c0c04e"
+    },
+    {
+      "path": "integrations/nvidia_retriever/README-open-service.md",
+      "bytes": 5827,
+      "sha256": "986dd4a9c119bcc4ef379b2d715d62067296776f76fcd60e7132c871ce315eda"
+    },
+    {
+      "path": "integrations/nvidia_retriever/cuvs_no_model_probe.py",
+      "bytes": 2399,
+      "sha256": "6faaea9124f15426c09221f23587bea4219a90a5559dfd34d3b28d03fde76cd5"
+    },
+    {
+      "path": "integrations/nvidia_retriever/gpu_service.py",
+      "bytes": 11739,
+      "sha256": "1f41134ac96fb3175f012452ec3e9bff65e8a5f2a96e3a032f32ae50ce2e426f"
+    },
+    {
+      "path": "integrations/nvidia_retriever/real_client_acceptance.py",
+      "bytes": 9451,
+      "sha256": "41c9beb84adc808f6c891fc4524312cf5a7322930651f0a07f71f287895a8e56"
+    },
+    {
+      "path": "integrations/nvidia_retriever/runtime_contract.py",
+      "bytes": 5149,
+      "sha256": "16f1ca3da37e11c6cbaf7e3dacd811e147fff75421b40ab35ddb90f0b367eae6"
+    },
+    {
+      "path": "integrations/nvidia_retriever/verify_runtime_manifest.py",
+      "bytes": 2738,
+      "sha256": "fe643170141d48a843e7197cd277f4b0e37cdd34f0c5634cc0e12b91d815ed6c"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/CPU-only-production-status.json",
+      "bytes": 378,
+      "sha256": "1efd473268efa2c960219e576552f5e4b620ff55718baf9e00722013193c7f9a"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/actual-public-byte-bindings.json",
+      "bytes": 2450,
+      "sha256": "d312ff74d93f824bb4fc6ba94b010c5fc613d047a927694730684a925d1ed790"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/audit_public_evidence.py",
+      "bytes": 3754,
+      "sha256": "48a7cc6cc688541e9ff3e30ceb81aafcca402d5a95a77c95e2985f02f17e190e"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/corpus-input-manifest.json",
+      "bytes": 12536,
+      "sha256": "40339e1fe8dee539eac20c0cf9d5e1162b84a42324ff270ea97d304f3914c1dc"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/cpu-model-contract-probe.json",
+      "bytes": 513,
+      "sha256": "29dc0b05336911886f236dad7ce9bdbdfe0b207bf23b44f25a1f56195c68d640"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/cpu-negative-bindings.json",
+      "bytes": 1025,
+      "sha256": "e0fd9c2baea5585ff517a632b014c9aecdea52ea15a2604704924e26029b4fdd"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/cuvs-no-model-probe.json",
+      "bytes": 1102,
+      "sha256": "123accc4b8a23d268b8c523959a2ccfc27adad9e552540635938cf6ef6dde540"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/deployment-runtime-manifest.json",
+      "bytes": 36423,
+      "sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/existing-client-unit-tests.json",
+      "bytes": 269,
+      "sha256": "265cecc0d7009edd14a13e5974a49c022722e8531a066a9af0f5345051027857"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/first-start-failure-summary.json",
+      "bytes": 647,
+      "sha256": "a145b9728758b93fed11facd4a3bdbbb7b5680d6418a54ed899d7eb4621a0111"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/health-observations.json",
+      "bytes": 13294,
+      "sha256": "34961904f2ebd99ea13df1ae06701744fc5bc54ddc344852b8c75dc08001af5f"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/independent-public-record-audit.json",
+      "bytes": 839,
+      "sha256": "34c54d2558fd5875d919f0910c496ef2e93ffc453f048f7c105373a08fddaf9c"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/isolated-python-headers-proof.json",
+      "bytes": 29754,
+      "sha256": "168948bb645616cd41f46f21170536dde35f59ab44905498d374cfa83a0d8d06"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/model-code-review.json",
+      "bytes": 1347,
+      "sha256": "16c010417c8adabccb999c5d31e6dbf7c80abae1e562bf329f7577460a1757ea"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/official-model-download-proof.json",
+      "bytes": 638,
+      "sha256": "a6b82107f603db205b635428dc107837cb40cd4fffceac084c4bd0c397763ff1"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/official-package-download-proof.json",
+      "bytes": 3644,
+      "sha256": "f5ce735de08161d6cb0097a0beb33eb40582ecc422bba4bd7d59837d7abc6efd"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/official-python-header-package-index.json",
+      "bytes": 819,
+      "sha256": "26578b1712da048c99c8b635e9502ad69be9e2d993a0a5eda423bd339af2fd6a"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/official-route.md",
+      "bytes": 8288,
+      "sha256": "e1a75c10a0c0e5b633669a1f3fea4b134c3e94eb5c3574eb4fedb523274c7276"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/post-acceptance-production-status.json",
+      "bytes": 1476,
+      "sha256": "4a41e5077d5b67ee7cb8e2f05001c5c31865e7d437a30fdf4e3f0d0fcab0c269"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/pre-load-production-check-third.json",
+      "bytes": 1425,
+      "sha256": "64b26089d2a87eab02eee07dd35d194c639cc65cf38baff34318e66e9b46b77d"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/public-code-byte-bindings.json",
+      "bytes": 1842,
+      "sha256": "cab349a857a5080e7e65b9129fdd18144e59be31a93eafdffb6304bd94f25aa1"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/public-seed-snapshot-v07.json",
+      "bytes": 69760,
+      "sha256": "7da8b95f277e9e0185b0fc9688ba95a9d7d7b180dd58ae0ab48d5037b1248bf9"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/real-client-acceptance.json",
+      "bytes": 82429,
+      "sha256": "713aeb8bf4d4819a2f171857558698c4fdd995b8662d5526e561b7a3058d6485"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/runtime-contract-cpu-verification.json",
+      "bytes": 2285,
+      "sha256": "53d8439150d1337a8d87ac828006a081c977bc842e773f2eeb1ba3da4ab04889"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/second-start-failure-summary.json",
+      "bytes": 614,
+      "sha256": "b927aae6c850aeedc58dd5cd43207d45fde66862594af1b59a7eb27b6d5e06ce"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/startup-receipt.json",
+      "bytes": 4105,
+      "sha256": "7a6871f88c1d61db47108701c3c29a0d02ae63ef5cf3c2981863cf71b3059e37"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/weights-manifest.json",
+      "bytes": 2481,
+      "sha256": "d998e23cbbb45521a0e27d4255a883938fd99cbaa6a45c4590065e610d2d447c"
+    },
+    {
+      "path": "verification/nvidia/retriever-v07/wheel-transfer-receipt.json",
+      "bytes": 202,
+      "sha256": "cc9768929b429968f40700fa49c02f311f4185da381e4bedfb80b8a71f3d5763"
+    }
+  ]
+}

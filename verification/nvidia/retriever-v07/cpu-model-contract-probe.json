@@ -1,0 +1,17 @@
+{
+  "CPU_config_and_tokenizer_loaded": true,
+  "model_class": "LlamaBidirectionalConfig",
+  "hidden_size": 2048,
+  "num_layers": 16,
+  "max_position_embeddings": 131072,
+  "max_actual_corpus_tokens": 130,
+  "corpus_chunks": 25,
+  "corpus_total_tokens": 2628,
+  "precision_from_original_config": "torch.bfloat16",
+  "transformers": "4.44.2",
+  "huggingface_hub": "0.36.0",
+  "tokenizers": "0.19.1",
+  "official_model_files_modified": false,
+  "CUDA_model_loaded": false,
+  "elapsed_seconds": 0.18754686799366027
+}

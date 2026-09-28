@@ -17,3 +17,5 @@ StepFun仅通过项目文字API适配器使用，没分发其权重。Laya影子
 NVIDIA NeMo Agent Toolkit 1.9.0与SkillSpector 2.12.0在各自隔离环境安装；本包分发的是自研插件、调用脚本和范围明确的验证记录，不分发上游依赖或NVIDIA签名件。Spark原生适配器使用PyTorch、Transformers及Qwen官方模型；依赖和权重须遵守各自上游许可，模型不纳入公开仓库。技术作用、官方出处和实际验证见 docs/nvidia-integration.md、integrations/spark_transformers/README.md。
 
 结构化动作生成采用第三方 LM Format Enforcer 0.11.3 与 interegular 0.3.3；上游源码见 [LM Format Enforcer](https://github.com/noamgat/lm-format-enforcer)。这是格式约束依赖，不是NVIDIA专属框架，不提供真伪概率或知识正确性保证。GPU适配器的有界Schema检查与最终校验为本项目代码；原有主机数值、证据、权限与工作流校验仍独立执行。本包不分发上述依赖；固定CPU解析器检查环境见 requirements-structured-tested.txt。
+
+本次独立 TensorRT-LLM 部署使用 NVIDIA 官方 rc13 ARM64 容器与 Qwen3-4B BF16，容器、CUDA及模型按各自上游条款，权重和镜像不进入本公开仓库。[NVIDIA项目许可](https://github.com/NVIDIA/TensorRT-LLM/blob/v1.3.0rc13/LICENSE) · [Qwen模型卡](https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507)。NVIDIA开放 `llama-nemotron-embed-1b-v2` 模型依原固定版本的[官方模型许可](https://huggingface.co/nvidia/llama-nemotron-embed-1b-v2/blob/113abe4acafa848e77ead9c0623205e511932348/LICENSE)；cuVS、CuPy和隔离依赖保留各自许可。本仓库仅提供适配源码、固定身份与范围明确的凭证，不分发权重、wheel、Ubuntu开发包或依赖。NIM没有部署；开放服务不构成NIM分发授权或NVIDIA认证。

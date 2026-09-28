@@ -1,0 +1,41 @@
+[
+  {
+    "memory_scope": "docker_cgroup_not_all_unified_cuda",
+    "owned_container_cpu_percent": "0.83%",
+    "owned_container_memory_percent": "16.50%",
+    "owned_container_memory_usage": "3.96GiB / 24GiB"
+  },
+  {
+    "candidate_exclusive_peak_proven": false,
+    "reported_memory_fields_unique": {
+      "cpuMemUsage": [
+        0
+      ],
+      "gpuMemUsage": [
+        118685200384,
+        118713421824,
+        118713774080
+      ]
+    }
+  },
+  {
+    "body_bytes": 733,
+    "body_exposed": false,
+    "body_sha256": "c2a5abf74a3af96b2944231aaf2a612d12dfcf0426671ea16f5041d7495dff75",
+    "existing_endpoint": "http://127.0.0.1:8005/health",
+    "status": 200
+  },
+  {
+    "body_bytes": 9835,
+    "body_exposed": false,
+    "body_sha256": "951997e164f09a6301b2a432a1655c8efed511e7876436fc323f39b9776bf0ff",
+    "existing_endpoint": "http://127.0.0.1:8780/api/status",
+    "status": 200
+  },
+  {
+    "unified_system_memory": {
+      "MemAvailable": 72258371584,
+      "MemTotal": 128520015872
+    }
+  }
+]

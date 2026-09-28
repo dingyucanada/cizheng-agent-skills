@@ -1,0 +1,47 @@
+{
+  "native8005": {
+    "HTTP": 200,
+    "operational": true,
+    "app_version": null,
+    "model_configured": null,
+    "model_verified": null,
+    "hardware_verified": null,
+    "response_sha256": "c2a5abf74a3af96b2944231aaf2a612d12dfcf0426671ea16f5041d7495dff75"
+  },
+  "backend8780": {
+    "HTTP": 200,
+    "operational": true,
+    "app_version": "0.7.0",
+    "model_configured": true,
+    "model_verified": false,
+    "hardware_verified": false,
+    "response_sha256": "951997e164f09a6301b2a432a1655c8efed511e7876436fc323f39b9776bf0ff"
+  },
+  "TRT8006": {
+    "read_only_health_checks": {
+      "health": {
+        "HTTP": 200,
+        "path": "/health",
+        "response_bytes": 0,
+        "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "version": {
+        "HTTP": 200,
+        "path": "/version",
+        "response_bytes": 23,
+        "response_sha256": "64b40a7d916598a87dbb8c564fe162a5c114dfa8d1bce162d32ed25948d9677e"
+      },
+      "models": {
+        "HTTP": 200,
+        "path": "/v1/models",
+        "response_bytes": 122,
+        "response_sha256": "0e6b7425ccf548a196f3a1df37a24c09f33c83140ffc92f44aae72d47b8f87d4"
+      }
+    },
+    "operational": true,
+    "inference_request_sent": false
+  },
+  "mem_available_before_load_kib": 70542040,
+  "load_window": "root explicitly authorized third sole 1B candidate",
+  "production_services_touched": false
+}

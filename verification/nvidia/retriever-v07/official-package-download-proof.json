@@ -1,0 +1,91 @@
+{
+  "GPU_environment_packages": [
+    {
+      "name": "cuvs-cu13",
+      "version": "26.8.1",
+      "sha256": "84997a618b5045ebf88835699e245f331e4de998b8c992d3b1932bb568f462d6",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "libcuvs-cu13",
+      "version": "26.8.1",
+      "sha256": "08e220fb30a209373d799710d549643b339ce658407ca7a18caf9df7970fc0f1",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "pylibraft-cu13",
+      "version": "26.8.0",
+      "sha256": "70dd2994b29b3044131f4be18ca07e0572fccdc212894892f4b27544d7662cf6",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "libraft-cu13",
+      "version": "26.8.0",
+      "sha256": "a122d60168d2e0cfa672415f8efa87c486061de5c3301a5a3353f37da43c906c",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "librmm-cu13",
+      "version": "26.8.0",
+      "sha256": "291579acbda638a6588bcd6d3b028ab90fc76c05c939864b5ee21c255946ccd3",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "rmm-cu13",
+      "version": "26.8.0",
+      "sha256": "d2f833a9c5a132941927d883da674f46da23074ea1bfde2aea7c00d005929042",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "rapids-logger",
+      "version": "0.2.3",
+      "sha256": "119a0391a6965b773dc0e48c35e3872585e69418aedbc8b618ac2bf63ae12e28",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "cupy-cuda13x",
+      "version": "14.2.0",
+      "sha256": "0a9b6538079c5151dcd99cf44b94cc3f1242315b7de0498b4619cef9b2a7c2c8",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "transformers",
+      "version": "4.44.2",
+      "sha256": "1c02c65e7bfa5e52a634aff3da52138b583fc6f263c1f28d547dc144ba3d412d",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "0.36.0",
+      "sha256": "7bcc9ad17d5b3f07b57c78e79d527102d08313caa278a641993acddcb894548d",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.19.1",
+      "sha256": "9620b78e0b2d52ef07b0d428323fb34e8ea1219c5eac98c2596311f20f1f9266",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "sha256": "4582c27e8c889d64811987b5967fbd3ae0c823fe1fd933b543d55ac20bb475fa",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "distribution_kind": "official PyPI/NVIDIA wheel, or verified local official PyPI wheel"
+    }
+  ],
+  "installed_in_isolated_environment": true,
+  "production_dependencies_modified": false,
+  "NeMo_SDK_pipeline_executed": false
+}

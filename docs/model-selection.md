@@ -21,6 +21,6 @@
 
 ## 服务候选
 
-官方 30B-A3B-FP8 仅为后续候选，尚未下载或部署；其当前官方说明要求 vLLM / SGLang 路线，不能按 Transformers 普通权重直接加载。详细证据和边界由 [更大模型候选](larger-model-candidates.md)单独记录。NVIDIA vLLM 镜像未完整存在，NIM 下载受中国区官方分发限制；TensorRT-LLM、Dynamo 与 NeMo Retriever 也未部署。[优化路线](model-serving-options.md)。
+官方 30B-A3B-FP8 仅为后续候选，尚未下载或部署；其当前官方说明要求 vLLM / SGLang 路线，不能按 Transformers 普通权重直接加载。详细证据和边界由 [更大模型候选](larger-model-candidates.md)单独记录。NVIDIA vLLM镜像未完整存在，NIM官方中国区分发与伙伴授权仍受限，Dynamo未部署。本次已部署独立 TensorRT-LLM rc13 / Qwen3-4B **文字**服务，以及官方1B v2 embedding + cuVS检索服务；两者不是更大的视觉模型，也未替代当前8B/SQLite主流程。接口与数值验收不证明专业优劣。[本次部署](spark-deployment-update-v08.md) · [优化路线](model-serving-options.md)。
 
 历史模型、旧紧凑协议和超时记录见 [NVIDIA 运行证据](../verification/nvidia/README.md)。旧轮次编号与 `v07-workflows/round-*` 属于不同实验序列，不可混写。

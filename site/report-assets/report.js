@@ -35,7 +35,7 @@
       }
       if(typeof audit.checked_at==='string'&&audit.checked_at){
         const note=document.querySelector('[data-deployment-updated]');
-        if(note){const link=document.createElement('a');link.href='report-assets/deployment-status.json';link.textContent='查看当前状态数据';note.replaceChildren(document.createTextNode('核验更新时间：'+audit.checked_at+'。'),link)}
+        if(note){const link=document.createElement('a');link.href='report-assets/deployment-status.json';link.textContent='查看当前状态数据';const parsed=new Date(audit.checked_at);const display=Number.isNaN(parsed.getTime())?audit.checked_at:parsed.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+'（北京时间）';note.replaceChildren(document.createTextNode('核验更新时间：'+display+'。'),link)}
       }
     }
     const pdf=data.pdf,url=pdf&&localURL(pdf.href);
@@ -46,6 +46,6 @@
       }
     }
   }catch{
-    // The static pending notice remains readable offline or before publication.
+    // The static verified snapshot remains readable if the independent update fails.
   }
 })();

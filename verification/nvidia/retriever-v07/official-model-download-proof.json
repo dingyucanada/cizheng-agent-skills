@@ -1,0 +1,13 @@
+{
+  "official_source": "fixed NVIDIA HF resolve redirect to official CDN; private signed URL omitted",
+  "revision": "113abe4acafa848e77ead9c0623205e511932348",
+  "downloaded_bytes": 2471644736,
+  "actual_sha256": "45f8440682a89ac577cc8d53b1bb345804772adb7b34e0573562e2fca4e62b0d",
+  "official_SHA_verified": true,
+  "parallel_ranges": 16,
+  "range_count": 295,
+  "model_loaded": false,
+  "resume_seconds": 10.312326807994395,
+  "resume_scope": "Two missing 8MiB ranges recovered; 293 validated ranges retained. This is not whole-download elapsed time.",
+  "source_model_url": "https://huggingface.co/nvidia/llama-nemotron-embed-1b-v2"
+}

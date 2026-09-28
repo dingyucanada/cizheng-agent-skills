@@ -1,0 +1,38 @@
+{
+  "runtime_identity": "sha256:2772939ad8e9d1ad54354ce18e6df5bf289f153a9c9b4f8be9643aa24f2efc2f",
+  "code_mapping": [
+    {
+      "actual_remote_relative_name": "gpu_service.py",
+      "public_relative_name": "integrations/nvidia_retriever/gpu_service.py",
+      "actual_and_public_sha256": "1f41134ac96fb3175f012452ec3e9bff65e8a5f2a96e3a032f32ae50ce2e426f",
+      "byte_identical": true
+    },
+    {
+      "actual_remote_relative_name": "runtime_contract.py",
+      "public_relative_name": "integrations/nvidia_retriever/runtime_contract.py",
+      "actual_and_public_sha256": "16f1ca3da37e11c6cbaf7e3dacd811e147fff75421b40ab35ddb90f0b367eae6",
+      "byte_identical": true
+    },
+    {
+      "actual_remote_relative_name": "verify-and-runtime-manifest.py",
+      "public_relative_name": "integrations/nvidia_retriever/verify_runtime_manifest.py",
+      "actual_and_public_sha256": "fe643170141d48a843e7197cd277f4b0e37cdd34f0c5634cc0e12b91d815ed6c",
+      "byte_identical": true
+    },
+    {
+      "actual_remote_relative_name": "real-client-acceptance.py",
+      "public_relative_name": "integrations/nvidia_retriever/real_client_acceptance.py",
+      "actual_and_public_sha256": "41c9beb84adc808f6c891fc4524312cf5a7322930651f0a07f71f287895a8e56",
+      "byte_identical": true
+    },
+    {
+      "actual_remote_relative_name": "launch-candidate.sh",
+      "public_relative_name": "deploy/nvidia-retriever-candidate-launch.sh",
+      "actual_and_public_sha256": "b3ee5291d8337ff150908adb8f57aaf1c51607399229d166c2cb4e8a7a30ab98",
+      "byte_identical": true
+    }
+  ],
+  "unchanged_original_client_sha256": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+  "unchanged_original_knowledge_sha256": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+  "public_code_matches_executed_current_bytes": true
+}

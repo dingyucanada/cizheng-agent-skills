@@ -14,7 +14,7 @@ A3B表示激活规模，不意味着只需3B模型的常驻内存。应分别记
 
 NVIDIA vLLM 25.11官方容器含CUDA13.0.2及vLLM0.11.0。项目已核对ARM64 manifest，但镜像仅部分下载、没有完成服务；不能声称已经用其推理或加速。[NVIDIA发行说明](https://docs.nvidia.com/deeplearning/frameworks/vllm-release-notes/rel-25-11.html)
 
-TensorRT-LLM应核对对应版本中的模型、精度、GPU及功能支持，而不只看量化名称。项目未部署TensorRT-LLM，不将其他文本模型的Spark量化示例当作Qwen3-VL的运行证明。[官方支持矩阵](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html)
+TensorRT-LLM应核对对应版本中的模型、精度、GPU及功能支持，而不只看量化名称。本次已部署独立TensorRT-LLM rc13 / Qwen3-4B BF16文字服务并完成接口/CUDA验收，但没有部署其Qwen3-VL视觉路径或生成序列化TRT engine。小型文本模型不能代替本页视觉候选比较。[本次实际部署](spark-deployment-update-v08.md)。[官方支持矩阵](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html)
 
 ## 换模型前必须验证
 

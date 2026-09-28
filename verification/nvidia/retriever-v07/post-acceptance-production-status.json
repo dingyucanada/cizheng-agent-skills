@@ -1,0 +1,53 @@
+{
+  "observed_UTC": "2026-09-28T20:44:37.357951+00:00",
+  "production_modified": false,
+  "native8005": {
+    "HTTP": 200,
+    "path": "/health",
+    "response_sha256": "c2a5abf74a3af96b2944231aaf2a612d12dfcf0426671ea16f5041d7495dff75",
+    "response_bytes": 733,
+    "status": "ready",
+    "ready": null,
+    "app_version": null,
+    "model_configured": null,
+    "model_verified": null,
+    "hardware_verified": null
+  },
+  "backend8780": {
+    "HTTP": 200,
+    "path": "/api/status",
+    "response_sha256": "951997e164f09a6301b2a432a1655c8efed511e7876436fc323f39b9776bf0ff",
+    "response_bytes": 9835,
+    "status": null,
+    "ready": null,
+    "app_version": "0.7.0",
+    "model_configured": true,
+    "model_verified": false,
+    "hardware_verified": false
+  },
+  "TRT8006": {
+    "HTTP": 200,
+    "path": "/health",
+    "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "response_bytes": 0,
+    "status": null,
+    "ready": null,
+    "app_version": null,
+    "model_configured": null,
+    "model_verified": null,
+    "hardware_verified": null
+  },
+  "candidate8003": {
+    "HTTP": 200,
+    "path": "/v1/health/ready",
+    "response_sha256": "e615d0695d1eeacc09c6a8017ecb61a9e6b2b0addb50e3e3dc9140874f042c04",
+    "response_bytes": 3670,
+    "status": null,
+    "ready": true,
+    "app_version": null,
+    "model_configured": null,
+    "model_verified": null,
+    "hardware_verified": null
+  },
+  "mem_available_kib": 66129884
+}

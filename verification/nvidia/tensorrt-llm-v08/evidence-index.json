@@ -1,0 +1,63 @@
+{
+  "canonical_manifest_sha256": "34a12f46510487ff855c4db23902c465cb67b5b3a1f9a1f9a3faaab8c68b6cb6",
+  "credentials_not_copied": true,
+  "files": [
+    {
+      "bytes": 1199,
+      "file": "public-text-once/claimed.json",
+      "sha256": "97d588af9f2bb0ba7230471589ace5f10855d901c0e14c7a119a705f18710f27"
+    },
+    {
+      "bytes": 882,
+      "file": "public-text-once/response.raw.json",
+      "sha256": "d6344b7dc76c1f5f91c9ea2910ddb50576581b979723f8232de2d470dda4f3d2"
+    },
+    {
+      "bytes": 1121,
+      "file": "public-text-once/receipt.json",
+      "sha256": "d71109c51acb1713ba9f5fabe9efab94aa485b07b263a6f90419d1455781dd9e"
+    },
+    {
+      "bytes": 606,
+      "file": "container-before-public.json",
+      "sha256": "df874fd998df80e745e1526357991ce9aec3f58dddee217bf8c73b0b5c2538be"
+    },
+    {
+      "bytes": 604,
+      "file": "container-after-public.json",
+      "sha256": "1be7fcbf4538575b71e92af0996eb41a2693afcd31f4ac292deedcd47f714fda"
+    },
+    {
+      "bytes": 1295,
+      "file": "gpu-proof-summary-final.json",
+      "sha256": "fc9f5e2d00e279acf69c6a89d027eb704f61c618fdb61a463c404c5713e1ea30"
+    },
+    {
+      "bytes": 1446,
+      "file": "runtime-files-final.json",
+      "sha256": "34a12f46510487ff855c4db23902c465cb67b5b3a1f9a1f9a3faaab8c68b6cb6"
+    },
+    {
+      "bytes": 3023,
+      "file": "qwen4b-verified-model.json",
+      "sha256": "a41c5affd0d9dcc418f5d7aed2071c146347d3c4f676ee46a02b3a8ee0cba694"
+    },
+    {
+      "bytes": 270,
+      "file": "local-image-identity.json",
+      "sha256": "40816e575af1bce52a6aefa8c322772fb6cd42d07fd13b53d0c3d63a75b7c4c3"
+    },
+    {
+      "bytes": 1549,
+      "file": "service-identity-final.json",
+      "sha256": "ec662003633e12950a63412324430d054661fb9b6f66ddb449158750a058a7be"
+    },
+    {
+      "bytes": 1013,
+      "file": "memory-health-summary.json",
+      "sha256": "11c26851573adf8c3ecae4068193c1d94104f0d97ed405c80d32cdf132ac4d30"
+    }
+  ],
+  "raw_trace_private_not_copied": true,
+  "source_file_count": 10
+}

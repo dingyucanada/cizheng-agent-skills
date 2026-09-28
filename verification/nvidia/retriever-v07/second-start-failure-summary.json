@@ -1,0 +1,10 @@
+{
+  "scope": "Second actual startup stopped before ready at CUDA forward helper compilation; not OOM or a professional model-quality verdict",
+  "original_log_sha256": "d44a4a51de023e2df41cfeb06f4b7df71029e729de53e950a96784cb25af615b",
+  "original_log_bytes": 7855,
+  "actual_error": "Triton driver.c:9:10 fatal error: Python.h: No such file or directory; gcc exit1",
+  "ready": false,
+  "embedding_request_acceptance_completed": false,
+  "repair": "Official signed Ubuntu3.12 headers extracted into candidate, CPATH only candidate; actual original-driver CPU compile/link exit0",
+  "production_modified": false
+}

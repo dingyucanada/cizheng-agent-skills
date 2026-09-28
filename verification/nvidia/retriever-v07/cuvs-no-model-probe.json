@@ -1,0 +1,59 @@
+{
+  "no_model_loaded": true,
+  "gpu_index_built": true,
+  "cuvs_class": "cuvs.neighbors.brute_force.brute_force.Index",
+  "array_cuda_interface": true,
+  "device": "NVIDIA GB10",
+  "compute_capability": [
+    12,
+    1
+  ],
+  "cuda_driver_version": 13000,
+  "cuda_runtime_version": 13020,
+  "matrix_shape": [
+    32,
+    8
+  ],
+  "gpu_pool_used_bytes": 1536,
+  "gpu_pool_total_bytes": 1536,
+  "memory_available_before_kib": 84205428,
+  "memory_available_after_kib": 83747832,
+  "elapsed_seconds": 0.42942049191333354,
+  "gpu_neighbor_ids": [
+    [
+      7,
+      8,
+      6,
+      9
+    ],
+    [
+      19,
+      18,
+      20,
+      21
+    ]
+  ],
+  "numpy_reference_ids": [
+    [
+      7,
+      8,
+      6,
+      9
+    ],
+    [
+      19,
+      20,
+      18,
+      21
+    ]
+  ],
+  "max_distance_math_error": 5.960464477539063e-08,
+  "distance_math_passed": true,
+  "versions": {
+    "cuvs-cu13": "26.8.1",
+    "libcuvs-cu13": "26.8.1",
+    "pylibraft-cu13": "26.8.0",
+    "cupy-cuda13x": "14.2.0"
+  },
+  "scope": "Actual small numeric GPU library validation, not Chinese retrieval or model deployment"
+}

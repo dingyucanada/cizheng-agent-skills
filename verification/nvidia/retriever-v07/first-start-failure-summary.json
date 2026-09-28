@@ -1,0 +1,15 @@
+{
+  "first_start_result": "configuration_compatibility_failure",
+  "error_class": "AttributeError",
+  "affected_config_class": "PreTrainedConfig",
+  "missing_attribute": "max_position_embeddings",
+  "transformers": "5.14.1",
+  "official_model_files_modified": false,
+  "candidate_ready": false,
+  "business_embedding_or_retrieval_result": false,
+  "candidate_exited": true,
+  "production_touched": false,
+  "private_error_log_sha256": "1504f975b7bff778e4e894c74f85387caaac79d5e3491fcedc15e2497e06097e",
+  "not_professional_quality_failure": true,
+  "remedy": "isolated official-config-declared Transformers4.44.2; original model files retained"
+}

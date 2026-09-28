@@ -1,0 +1,9 @@
+{
+  "test_target": "integrations/nvidia_retriever/tests/test_client.py",
+  "passed": 21,
+  "failed": 0,
+  "seconds": 1.52,
+  "kind": "Actual existing unit tests in isolated desktop environment",
+  "real_GPU_or_model": false,
+  "professional_accuracy_measured": false
+}

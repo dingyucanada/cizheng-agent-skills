@@ -10,7 +10,7 @@
 | DGX Spark / GB10 / PyTorch CUDA BF16 | Qwen3-VL-8B 接收本轮允许的原图或区域像素 | 已实际双图生成、受约束动作和原 Schema 后校验；记录逐请求 SHA 与 usage |
 | SQLite / 原始文件 | 原图、附件、固定资料、观察及历史意见 | 原件保留，更新不改写已采用的资料版本 |
 | 7 个项目自研 Skills | 按需读取方法正文与参考资源 | 工具范围、读取回执、权限与预算由宿主约束；专业增益未测 |
-| SQLite 关键词 RAG | 25 条原创来源摘要及本案许可段落 | 绑定版本、文段、定位和真正送达主动作的正文；未使用 NeMo Retriever |
+| SQLite 关键词 RAG | 25 条原创来源摘要及本案许可段落 | 主流程绑定版本、文段、定位和送达正文；新增 GPU 检索另行独立验收，尚未切换此路径 |
 | NVIDIA NeMo Agent Toolkit | 核对所选报告的来源引用身份 | 固定版本、哈希、定位和成功读取凭据；不验证观点支持或真伪 |
 | StepFun step-3.7-flash | 外部文字反证审查 | 只发送明确批准的公开或脱敏文字；原图与图像访问地址不发送 |
 | 人工复核与导出 | 检查意见、说明待补证、交接报告与原件 | 保留历史；备注不是可信专家签名 |
@@ -29,7 +29,13 @@ Nsight Systems 2025.3.2 已采集第 03 轮首次双图视觉请求。`cizheng.m
 
 32B 官方 25 文件、66,726,510,714 字节权重已核验，CUDA/BF16 热身与三项合成协议通过；真实双照片流程因区域语义合同失败，尚未产生意见，候选已停止，恢复单 8B 服务。未获得专家或同条件模型比较结论。[候选证据](../verification/nvidia/v07-workflows/candidate-32b.json)。
 
-官方 NVIDIA vLLM 25.11 ARM64 镜像拉取未完成、未部署；NIM 中国区官方分发限制阻止下载。TensorRT-LLM、Dynamo、NeMo Retriever 未部署，不列为已使用组件。候选说明见 [服务与优化选择](model-serving-options.md) 与 [更大模型候选](larger-model-candidates.md)。
+新增独立 TensorRT-LLM 文字服务与 NVIDIA 开放 embedding + cuVS 检索已在 Spark 真实运行，原主流程不变：
+
+![本次 Spark 运行拓扑与独立服务](../site/report-assets/spark-deployment-map.svg)
+
+8006 为固定官方 ARM64 rc13 / Qwen3-4B BF16，1次公开文字请求及对应前8迭代CUDA核验；8003为固定官方1B v2/2048维/25段 GPU 索引，原客户端9 HTTP/5中文query与来源身份核验。前者 PyTorch backend、无序列化 TRT engine；后者非NIM、SDK流水线未使用；都未代替原8B视觉或SQLite资料读取与引用许可。[本次源码、运行身份及回执](spark-deployment-update-v08.md)。
+
+NIM官方中国区分发和伙伴授权仍受限，未部署；vLLM镜像未完整存在，Dynamo未部署。[服务与优化选择](model-serving-options.md)。
 
 ## 工程证据与未完成验证
 

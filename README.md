@@ -58,7 +58,18 @@
 
 第 12 轮已实际完成初稿、一次批准文字审查、本地修订、两版 NAT 核查和两版各三格式导出；两版均实际读取正文并保留一条来源上下文引用，14 次原生请求与业务事件逐条对应。**技术流程完成，专业质量仍未通过**：初稿有同器来源身份错误，修订的风格依据和三项未解决疑点理由仍薄弱，尚未经专家核验。引用身份和结构正确不能替代研究判断。当前局限与此前失败见 [第 12 轮质量记录](verification/nvidia/v07-workflows/round-12/quality-limitations-audit.json)、[逐轮运行证据](verification/nvidia/v07-workflows/README.md)、[当前状态](STATUS.md) 与 [系统架构](docs/nvidia-architecture.md)。
 
-32B 官方权重完整性、CUDA/BF16 热身与合成协议已验证，真实双图业务失败后已停止候选，继续保留权重和失败记录；不能声称更准或已采用。官方 NVIDIA vLLM 镜像拉取未完成、未部署；NIM 中国区官方分发限制阻止下载。TensorRT-LLM、Dynamo 与 NeMo Retriever 未部署。见 [服务与优化选择](docs/model-serving-options.md) 和 [更大模型候选](docs/larger-model-candidates.md)。
+32B 官方权重完整性、CUDA/BF16 热身与合成协议已验证，真实双图业务失败后已停止候选，保留权重和失败；未证明优于 8B。官方 NVIDIA vLLM 镜像仍未完整部署，Dynamo 未部署。NIM 官方 NGC 中国区分发受限，伙伴入口需要授权，尚未取得可用 ARM64 镜像。见 [实际授权检查](verification/nvidia/v08-deployment/nim-distribution-check.json)。
+
+## 本次 Spark 服务部署
+
+![最新 Spark 运行拓扑：原8B视觉、案卷与SQLite主流程保持；新增TensorRT-LLM文字服务和NVIDIA开放embedding加cuVS独立检索已运行；StepFun只收批准文字；NIM尚需官方授权分发](site/report-assets/spark-deployment-map.svg)
+
+| 独立服务 | 实际部署与验收 | 与案卷主流程的关系 |
+|---|---|---|
+| [TensorRT-LLM · 8006](deploy/tensorrt-llm-spark/README.md) | 固定官方 ARM64 1.3.0rc13 + Qwen3-4B BF16；一次公开陶瓷文字 POST 正常结束，257 输入 / 93 输出 tokens；对应前八迭代 CUDA 轨迹核验 | PyTorch backend，未生成序列化 TRT engine；未替换 8B 视觉，未证明整案提速或专业判断质量 |
+| [NVIDIA Embedding + cuVS · 8003](integrations/nvidia_retriever/README-open-service.md) | 官方 1B v2，25 段 / 2048 维 CUDA 索引；原客户端 9 次真实向量 HTTP、5 个中文查询，50 条身份与 10 个正文 SHA 核对通过 | 开放组件服务，非 Embedding NIM / 完整 SDK 流水线；生产仍使用 SQLite，排名不授予引用许可 |
+
+两项均在真实 GB10 完成部署与接口验收，失败和修复过程保留，原 8005 / 8780 健康保持。模型、镜像或运行清单、当前源码和实际请求分别固定；内存与耗时按各自实测范围说明。NIM 未部署，不能把开放服务改名冒充 NIM。[本次完整部署说明与原件](docs/spark-deployment-update-v08.md) · [TRT 凭证](verification/nvidia/tensorrt-llm-v08/README.md) · [Retriever 凭证](verification/nvidia/retriever-v07/index.json)。
 
 ## Skills：把研究方法变成下一步
 

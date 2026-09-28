@@ -1,0 +1,77 @@
+{
+  "repo": "nvidia/llama-nemotron-embed-1b-v2",
+  "revision": "113abe4acafa848e77ead9c0623205e511932348",
+  "gated": false,
+  "official_only": true,
+  "container_NIM": false,
+  "files": [
+    {
+      "filename": "1_Pooling/config.json",
+      "bytes": 313,
+      "sha256": "2bc529695125f68de57d1fd347e3d2920b993bc635c5f4f09a45e130c102a989"
+    },
+    {
+      "filename": "LICENSE",
+      "bytes": 21817,
+      "sha256": "a739c0dafa8fd2223e8d65c4a85f91d7a52d50bfe7f4fa65749a5aead58df496"
+    },
+    {
+      "filename": "README.md",
+      "bytes": 19821,
+      "sha256": "f844f7f28bb115bcd69da216961a02ee9b3e5e63d4d8ba8cf9ca6cebdec3c9e3"
+    },
+    {
+      "filename": "config.json",
+      "bytes": 1158,
+      "sha256": "ddf5697053b34611da16ea2dd565f86d4341f14a05fc460b54d20e50a10b9895"
+    },
+    {
+      "filename": "config_sentence_transformers.json",
+      "bytes": 299,
+      "sha256": "07d88ba0e782f2a3479b52e9eb08ba08db91eed33fb1f5b7c1cb756c022c71ad"
+    },
+    {
+      "filename": "llama_bidirectional_model.py",
+      "bytes": 9059,
+      "sha256": "fd26e459b1277bee61b3d501cddd61291714e48a93a9a1c0ab81b1342c59fcc2"
+    },
+    {
+      "filename": "modules.json",
+      "bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "filename": "pooling.py",
+      "bytes": 1108,
+      "sha256": "117422c718eac86f834c1cacf39c1eca13f80a254e03bacdf3a4f4e4e98da4bb"
+    },
+    {
+      "filename": "sentence_bert_config.json",
+      "bytes": 58,
+      "sha256": "9ee3935137f87c9ce6662ae17fe7afb7c9c64744a41247359fd228dc37e627b3"
+    },
+    {
+      "filename": "special_tokens_map.json",
+      "bytes": 449,
+      "sha256": "03d62862d41de30db9e05cb4865de4f36c48ab3032327139fcdfacc5798a4828"
+    },
+    {
+      "filename": "tokenizer.json",
+      "bytes": 9085657,
+      "sha256": "79e3e522635f3171300913bb421464a87de6222182a0570b9b2ccba2a964b2b4"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "bytes": 50534,
+      "sha256": "a800da9323f6bc65b8a87ae3d209f46a18eb09cf381b6c416551d30372cf1ce6"
+    },
+    {
+      "filename": "model.safetensors",
+      "bytes": 2471644736,
+      "sha256": "45f8440682a89ac577cc8d53b1bb345804772adb7b34e0573562e2fca4e62b0d"
+    }
+  ],
+  "total_bytes": 2480835358,
+  "weight_SHA_kind": "published official LFS expectation; requires actual complete remote verification before use",
+  "download_method": "official fixed HF metadata and public HF CDN redirect; signed URL omitted"
+}

@@ -1,0 +1,51 @@
+{
+  "files": {
+    "deployment-runtime-manifest.json": {
+      "original_and_public_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
+      "byte_identical": true
+    },
+    "runtime-contract-cpu-verification.json": {
+      "original_and_public_sha256": "53d8439150d1337a8d87ac828006a081c977bc842e773f2eeb1ba3da4ab04889",
+      "byte_identical": true
+    },
+    "isolated-python-headers-proof.json": {
+      "original_and_public_sha256": "168948bb645616cd41f46f21170536dde35f59ab44905498d374cfa83a0d8d06",
+      "byte_identical": true
+    },
+    "official-python-header-package-index.json": {
+      "original_and_public_sha256": "26578b1712da048c99c8b635e9502ad69be9e2d993a0a5eda423bd339af2fd6a",
+      "byte_identical": true
+    },
+    "cpu-negative-bindings.json": {
+      "original_and_public_sha256": "e0fd9c2baea5585ff517a632b014c9aecdea52ea15a2604704924e26029b4fdd",
+      "byte_identical": true
+    },
+    "pre-load-production-check-third.json": {
+      "original_and_public_sha256": "64b26089d2a87eab02eee07dd35d194c639cc65cf38baff34318e66e9b46b77d",
+      "byte_identical": true
+    },
+    "startup-receipt.json": {
+      "original_and_public_sha256": "7a6871f88c1d61db47108701c3c29a0d02ae63ef5cf3c2981863cf71b3059e37",
+      "byte_identical": true
+    },
+    "first-start-failure-summary.json": {
+      "original_and_public_sha256": "a145b9728758b93fed11facd4a3bdbbb7b5680d6418a54ed899d7eb4621a0111",
+      "byte_identical": true
+    },
+    "second-start-failure-summary.json": {
+      "original_and_public_sha256": "b927aae6c850aeedc58dd5cd43207d45fde66862594af1b59a7eb27b6d5e06ce",
+      "byte_identical": true
+    },
+    "post-acceptance-production-status.json": {
+      "original_and_public_sha256": "4a41e5077d5b67ee7cb8e2f05001c5c31865e7d437a30fdf4e3f0d0fcab0c269",
+      "byte_identical": true
+    },
+    "real-client-acceptance.json": {
+      "original_sha256": "21be568a183575c24c830e6d7649ea9ed1afedc58d8cc06ec3c658d6c0e22dd0",
+      "public_sha256": "713aeb8bf4d4819a2f171857558698c4fdd995b8662d5526e561b7a3058d6485",
+      "byte_identical": false,
+      "normalization": "All original source/body objects removed; original_read_identity_checks keep source/chunk identities, locator, text SHA and actual verification booleans; no vectors."
+    }
+  },
+  "scope": "Actual independent runtime source receipts; normalized client evidence explicitly differs in bytes. Not container/hardware attestation."
+}

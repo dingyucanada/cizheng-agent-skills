@@ -17,10 +17,12 @@ NAT 只核对引用身份，不推断来源支持、实物归属或真伪。第 
 
 工程回归覆盖权限、固定版本、读取回执、预算、幂等与导出。合成图片、脚本模型或模拟网络只测试软件合同，不能计为鉴定效果。专家材料仍在另一台电脑，尚未接收或校准；[专家接入与盲评](expert-validation-intake.md)。
 
-## 性能证据与未部署组件
+## 性能证据与独立模块部署
 
 Nsight 的一个 NVTX 区间 19.920507616 秒、144 行 kernel 聚合、447,028 个实例，证明限定区间的 GPU 活动已采集，不是整案时长、利用率或提速结果。CPU 解码重放亦是无模型请求的工程诊断，私有 profiler 路径已经脱敏。[重放记录](../verification/nvidia/v07-workflows/decoder-cpu-replay.json)。
 
-32B 官方权重已核验并实际热身，合成协议通过，但真实双图流程违反区域合同，未形成意见，已停止候选。没有同条件专业效果排名。官方 NVIDIA vLLM 25.11 ARM64 镜像未完整存在；NIM 下载受中国区官方分发限制阻止；TensorRT-LLM、Dynamo 与 NeMo Retriever 未部署。[候选与服务路线](model-serving-options.md) 和 [更大模型候选](larger-model-candidates.md)。
+32B 官方权重、CUDA 热身与合成协议通过，但真实双图区域合同失败，已停止，未证明专业效果更好。官方 vLLM 镜像仍未完整部署，Dynamo 未部署。NIM 受官方中国区分发与伙伴授权限制，未部署。
+
+本次实际新增 [TensorRT-LLM 8006](../verification/nvidia/tensorrt-llm-v08/README.md) 和 [NVIDIA 开放 embedding + cuVS 8003](../integrations/nvidia_retriever/README-open-service.md)。前者官方 ARM64 rc13 / 4B BF16 完成1次公开陶瓷文字请求和对应前八迭代 CUDA 验收；后者完成25段/2048维索引、原客户端9次HTTP/5中文查询、50条返回身份与10个正文SHA核对。两项是已运行的独立服务，原8B/SQLite未替换；不称 NIM、完整 Retriever SDK 管线或专业相关性通过。[完整部署说明](spark-deployment-update-v08.md) 与 [模型候选](larger-model-candidates.md)。
 
 复现前阅读 [NAT 插件](../integrations/nvidia_nat/)、[Spark 适配器](../integrations/spark_transformers/README.md) 和 [限定范围证据](../verification/nvidia/v07-workflows/README.md)。公开副本保留原件与脱敏副本 SHA，不含密码、API key、SSH 身份、原图 base64、私有启动命令或原始 nsys。

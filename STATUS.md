@@ -6,7 +6,7 @@
 
 产品主页以馆藏实物、工作台实拍和可视架构介绍三种业务场景。公开教学页预置三件 Met Open Access 器物，可编辑、定位证据、比较补证版本、填写复核和导出；清楚标识此页不调用模型。专业前后端支持案件、原件、区域观察、来源凭据、资料固定版本、AI研究意见、反证、补证修订及交接。当前没有机构多用户授权或可信专家电子签署。
 
-提供十页可编辑路演 PPT、2分43秒静音中文字幕教学演示与十章实际开发纪实。教学视频不是连续 AI 推理录像；实际运行记录及其回放单独标识范围。
+主页顶部设完整报告书入口和图文预览，提供十章网页报告与可下载 A4 PDF，含真实照片、架构、原始模型理由与最新部署核验。另提供十页可编辑 v0.7 路演 PPT、2分43秒静音中文字幕教学演示与十章开发纪实；旧 PPT 为第12轮基线，教学视频不是连续 AI 推理录像。
 
 ## 已实际运行的技术
 
@@ -24,7 +24,9 @@ r14加入当前状态阶段工具合同；r15仅修复新测试的旧规划器�
 
 32B官方权重已完整下载（66,726,510,714字节）、实际单模型加载及三项合成协议探针通过；一件真实照片流程在区域合同处失败，候选已停止，保留权重与失败。没有同条件专业8B/32B优劣证据。30B-A3B FP8另有[采用研究](docs/larger-model-candidates.md)，尚未部署。
 
-NIM分发访问受限，TensorRT-LLM候选镜像访问未完成，官方ARM64 vLLM镜像仅部分拉取且未成服务；Retriever适配器工程测试通过但没有实时服务。NIM、TensorRT-LLM、Retriever、SGLang、Dynamo与Triton服务不列为已部署。[采用条件](docs/model-serving-options.md)
+本次新增两项实际独立服务：TensorRT-LLM 官方 ARM64 rc13 / Qwen3-4B BF16 在8006完成1次公开陶瓷文字请求及前8迭代 CUDA 绑定；NVIDIA 开放 embedding 1B v2 + cuVS 在8003完成25段/2048维GPU检索、原客户端9 HTTP/5中文查询与正文身份验收。原8B视觉与SQLite主流程未切换，不将接口或数值验收称专业质量通过。[本次部署与真实凭证](docs/spark-deployment-update-v08.md)
+
+NIM仍未部署：官方NGC中国区分发限制，伙伴入口需授权；须取得官方ARM64/GB10分发。官方vLLM镜像未完整存在，SGLang、Dynamo与Triton Inference Server未部署。开放embedding/cuVS不是Embedding NIM，未运行完整Retriever SDK流水线。[采用条件](docs/model-serving-options.md)
 
 ## 真实报告验收与已知不足
 
