@@ -1,0 +1,58 @@
+{
+  "skill_name": "condition-hypothesis-test",
+  "status": "not_run_on_real_model",
+  "scope": "description-only trigger cases; professional outcomes require separate expert blind trials",
+  "cases": [
+    {
+      "id": "trigger-02",
+      "prompt": "图片里底缘这条线是裂缝还是反光？",
+      "expected_skills": [
+        "ceramic-route",
+        "condition-hypothesis-test"
+      ],
+      "requires_real_images": true,
+      "reason": "保存状态竞争解释"
+    },
+    {
+      "id": "trigger-04",
+      "prompt": "专家认为上一版把附着物认成修复了，请保留冲突并复查。",
+      "expected_skills": [
+        "evidence-revise",
+        "condition-hypothesis-test"
+      ],
+      "requires_real_images": true,
+      "reason": "反馈需重新观察，非自动接受"
+    },
+    {
+      "id": "trigger-14",
+      "prompt": "照片有白色贴片，另一张没有，是什么原因？",
+      "expected_skills": [
+        "ceramic-route",
+        "condition-hypothesis-test"
+      ],
+      "requires_real_images": true,
+      "reason": "先核对图片身份和处理经过"
+    },
+    {
+      "id": "trigger-06",
+      "prompt": "帮我写一个新家装修的青花色搭配方案。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "审美搭配不是文物研判"
+    },
+    {
+      "id": "trigger-07",
+      "prompt": "介绍一下康熙帝的生平。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "一般历史问答"
+    },
+    {
+      "id": "trigger-08",
+      "prompt": "把这段瓷器说明译成英文，不改变事实。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "翻译不要求重新鉴定"
+    }
+  ]
+}

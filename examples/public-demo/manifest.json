@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "id": "public-teaching-48607",
+      "object_id": "met-48607",
+      "question": "只依据照片核对器形、纹饰与可见部位，说明哪些证据不足及下一项补证。",
+      "target_attribution": "制作时期与窑口不预填结论；仅作已知身份教学案的功能检查",
+      "source_declaration": "Met公开馆藏48607 / 18.61.4，CC0。已知身份，非独立盲测；不能用此案例声称专业准确率或Skills增益。",
+      "images": [
+        {
+          "path": "met-48607.jpg",
+          "view": "整体正面（声明）",
+          "edit_declaration": "馆方公开JPEG；未取得原拍文件"
+        },
+        {
+          "path": "met-48607-view2.jpg",
+          "view": "另一面整体（声明）",
+          "edit_declaration": "馆方公开JPEG；未取得原拍文件"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

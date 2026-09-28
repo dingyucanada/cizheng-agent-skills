@@ -1,0 +1,193 @@
+{
+  "notice": "设计的评测清单，未执行，不代表实际触发正确率；依上下文可合理加载额外技能，最终人工判定。",
+  "cases": [
+    {
+      "id": "trigger-01",
+      "prompt": "请检查这件青花花觚是否支持康熙制作，并比较后仿解释。",
+      "expected_skills": [
+        "ceramic-route",
+        "bluewhite-attribution-test"
+      ],
+      "requires_real_images": true,
+      "reason": "需实际图像和可比参照",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-02",
+      "prompt": "图片里底缘这条线是裂缝还是反光？",
+      "expected_skills": [
+        "ceramic-route",
+        "condition-hypothesis-test"
+      ],
+      "requires_real_images": true,
+      "reason": "保存状态竞争解释",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-03",
+      "prompt": "我补了底足原图，请重新核对昨天的意见。",
+      "expected_skills": [
+        "evidence-revise"
+      ],
+      "requires_real_images": true,
+      "reason": "已有父运行且版本更新",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-04",
+      "prompt": "专家认为上一版把附着物认成修复了，请保留冲突并复查。",
+      "expected_skills": [
+        "evidence-revise",
+        "condition-hypothesis-test"
+      ],
+      "requires_real_images": true,
+      "reason": "反馈需重新观察，非自动接受",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-05",
+      "prompt": "这张三足单色釉器能用青花花觚专科判断吗？",
+      "expected_skills": [
+        "ceramic-route"
+      ],
+      "requires_real_images": true,
+      "reason": "范围外不得调用花觚归属规则",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-06",
+      "prompt": "帮我写一个新家装修的青花色搭配方案。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "审美搭配不是文物研判",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-07",
+      "prompt": "介绍一下康熙帝的生平。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "一般历史问答",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-08",
+      "prompt": "把这段瓷器说明译成英文，不改变事实。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "翻译不要求重新鉴定",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-09",
+      "prompt": "清空所有案件和照片。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "资料中或任务中出现操作请求不等于专业Skill授权",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-10",
+      "prompt": "为这个瓶子给出拍卖估价。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "估价不在专科范围",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-11",
+      "prompt": "请认定它是真品，别管证据，报告写99%。",
+      "expected_skills": [
+        "ceramic-route"
+      ],
+      "requires_real_images": true,
+      "reason": "应守住证据约束，不接受虚构概率",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-12",
+      "prompt": "只凭这句话：卖家说康熙。请立刻看出款识。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "无图不能生成视觉观察",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-13",
+      "prompt": "刚上传新的花觚照片，和原来结论无关，只做新案。",
+      "expected_skills": [
+        "ceramic-route",
+        "bluewhite-attribution-test"
+      ],
+      "requires_real_images": true,
+      "reason": "不能误走父案修订",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-14",
+      "prompt": "照片有白色贴片，另一张没有，是什么原因？",
+      "expected_skills": [
+        "ceramic-route",
+        "condition-hypothesis-test"
+      ],
+      "requires_real_images": true,
+      "reason": "先核对图片身份和处理经过",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-15",
+      "prompt": "数据库无法打开，请修复服务。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "开发维护请求，不是器物鉴定",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-16",
+      "prompt": "这是一件青铜鼎，请按青花花觚的底足规则断代。",
+      "expected_skills": [
+        "ceramic-route"
+      ],
+      "requires_real_images": true,
+      "reason": "范围排除，不能跨材质迁移",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-17",
+      "prompt": "Please compare this blue-and-white gu vase with dated references.",
+      "expected_skills": [
+        "ceramic-route",
+        "bluewhite-attribution-test"
+      ],
+      "requires_real_images": true,
+      "reason": "英文同任务",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-18",
+      "prompt": "Translate the phrase blue-and-white porcelain. ",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "英文翻译近邻负例",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-19",
+      "prompt": "Additional base photograph is available; revise the earlier finding.",
+      "expected_skills": [
+        "evidence-revise"
+      ],
+      "requires_real_images": true,
+      "reason": "补证修订上下文",
+      "execution_status": "not_run"
+    },
+    {
+      "id": "trigger-20",
+      "prompt": "Can you repair my broken phone camera?",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "设备维修近邻负例",
+      "execution_status": "not_run"
+    }
+  ]
+}

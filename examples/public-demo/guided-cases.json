@@ -1,0 +1,1225 @@
+{
+  "schema_version": 1,
+  "mode": "guided_teaching",
+  "ai_inference_performed": false,
+  "model_calls": 0,
+  "notice": "公开馆藏教学导览：已知对象身份，非盲测、非真实委托。研究示例由项目人工编写；本页未调用模型，不是鉴定或专家签署。",
+  "case_count": 3,
+  "citation_coordinates": "Zero-based half-open character ranges; all supplied text is Unicode BMP.",
+  "cases": [
+    {
+      "id": "met-48607",
+      "title": "山水纹花觚（馆方名称译记）",
+      "role": "museum",
+      "accession_number": "18.61.4",
+      "object_url": "https://www.metmuseum.org/art/collection/search/48607",
+      "scope": "公开教学 · 已知馆藏身份 · 非盲测 · 非真实业务委托",
+      "catalogue": {
+        "inventory_number": "18.61.4",
+        "object_name": "山水纹花觚（馆方名称译记）",
+        "object_type": "花觚（馆方记载）",
+        "material": "瓷、釉下青花（馆方记载）",
+        "requested_output": "记录器形、纹饰与可见部位，明确照片不能支持的判断。",
+        "dimensions": "高48.3厘米、直径23.2厘米；馆方记载，未重新测量"
+      },
+      "origin": "project_curated_teaching",
+      "ai_inference_performed": false,
+      "expert_reviewed": false,
+      "sources": [
+        {
+          "id": "48607-source-1",
+          "title": "山水纹花觚的馆藏编目参照",
+          "url": "https://www.metmuseum.org/art/collection/search/48607",
+          "authority": "The Metropolitan Museum of Art",
+          "summary": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+          "license": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+            "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+          ]
+        },
+        {
+          "id": "48607-source-2",
+          "title": "旧修复迹象与观察方法",
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+          "authority": "Canadian Conservation Institute",
+          "summary": "CCI介绍旧胶和补色可能变色，发黄脆化的胶应视为脆弱迹象。紫外检查有时能显示非原有胶、补色或填补，需由熟悉方法的保护人员实施。普通照片没显示修复，不能据此写成无修复。",
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：本次只保留原创短摘要与链接，不再分发CCI原文或图片；政府商业再分发许可条件需另行满足。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "不能凭变色自动确定修复年代；UV不是对所有修复的充分检测，更不是器物断代证明。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        },
+        {
+          "id": "48607-source-3",
+          "title": "来源链中的事件、角色与缺口",
+          "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/",
+          "authority": "Getty Research Institute",
+          "summary": "Getty CDWA要求来源史保存已知的日期、持有人、地点、转移方式和引用依据，并标明推测与断档。所有者、保管人、代理和拍卖行角色需要区分。系统应显示未知跨度和陈述来源，而不补造连续收藏史。",
+          "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：未把Getty词汇数据ODC-By许可套用于CDWA出版正文；只保存原创摘要与链接。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "规范能帮助记录，不能验证文件真伪，也不能自动证明合法所有权或器物真实性。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "48607-image-1",
+          "file": "assets/met-48607.jpg",
+          "view": "整体正面（公开图，视角声明）",
+          "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321545/main-image",
+          "license": "CC0 / object page marked Public Domain",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "edit_declaration": "馆方公开 JPEG 的原下载字节；未改像素；相机原文件与摄影处理历史未知"
+        },
+        {
+          "id": "48607-image-2",
+          "file": "assets/met-48607-view2.jpg",
+          "view": "另一面整体（公开图，视角声明）",
+          "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321524/main-image",
+          "license": "CC0 / object page marked Public Domain",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "edit_declaration": "馆方公开 JPEG 的原下载字节；未改像素；相机原文件与摄影处理历史未知",
+          "supplement_id": "48607-supplement"
+        }
+      ],
+      "limits": [
+        "预写研究示例只说明证据组织方法，不能当作实时模型表现或准确率。",
+        "公开 JPEG 不是相机原文件；未检查实物、底足、内部和全部表面。",
+        "馆方归属仅属于该馆藏对象，不能外推给外观相似的待鉴器物。",
+        "照片和网页未证明无修复、交易来源连续性、所有权合法性或真实性。"
+      ],
+      "workflow_steps": [
+        {
+          "id": "case",
+          "title": "读取案卷",
+          "detail": "核对馆藏号、业务问题、资料与照片来源，保留已知身份声明。"
+        },
+        {
+          "id": "observe",
+          "title": "定位观察",
+          "detail": "点击区域观察回到原图；观察事实与归属推断分开。"
+        },
+        {
+          "id": "evidence",
+          "title": "回查证据",
+          "detail": "查看可定位原创摘记与来源卡，确定哪些问题仍缺资料。"
+        },
+        {
+          "id": "supplement",
+          "title": "补证与修订",
+          "detail": "打开预置补充件，对比人工编写 v1 / v2 的陈述变化。"
+        },
+        {
+          "id": "review",
+          "title": "记录复核",
+          "detail": "访客填写自己的准备复核意见；没有专家身份认证。"
+        },
+        {
+          "id": "export",
+          "title": "交接档案",
+          "detail": "导出包含真实编辑、照片、资料及 SHA256 清单的教学交接包。"
+        }
+      ],
+      "skills": [
+        "ceramic-route",
+        "ceramic-research-record",
+        "bluewhite-attribution-test",
+        "provenance-evidence-audit",
+        "documentary-evidence-audit",
+        "evidence-revise"
+      ],
+      "observations": [
+        {
+          "id": "48607-obs-1",
+          "image_id": "48607-image-1",
+          "title": "山水开光",
+          "text": "这一面开光内可见树木与山石样景物；记录纹饰布局，不作独立年代判断。",
+          "region": {
+            "x": 0.31,
+            "y": 0.35,
+            "width": 0.34,
+            "height": 0.35
+          },
+          "feature": "decoration",
+          "origin": "project_curated_teaching"
+        },
+        {
+          "id": "48607-obs-2",
+          "image_id": "48607-image-1",
+          "title": "外扩口沿",
+          "text": "可见口部外扩轮廓；未看到完整内壁与口沿微距，不能排除口部旧修复。",
+          "region": {
+            "x": 0.22,
+            "y": 0.17,
+            "width": 0.55,
+            "height": 0.11
+          },
+          "feature": "body",
+          "origin": "project_curated_teaching"
+        },
+        {
+          "id": "48607-obs-3",
+          "image_id": "48607-image-1",
+          "title": "下部装饰带与号记",
+          "text": "下部可见装饰带及较小号记；照片不是底足视角，不转录为底款。",
+          "region": {
+            "x": 0.28,
+            "y": 0.78,
+            "width": 0.4,
+            "height": 0.075
+          },
+          "feature": "other",
+          "origin": "project_curated_teaching"
+        }
+      ],
+      "findings": [
+        {
+          "id": "f1",
+          "title": "馆方归属与本项目观察分开",
+          "text": "可以登记馆方记录为资料标签；尚不能把本案写成瓷证独立断代结果。",
+          "status": "limited",
+          "citations": [
+            {
+              "kind": "document",
+              "target_id": "48607-catalogue",
+              "locator": {
+                "start": 165,
+                "end": 186
+              }
+            }
+          ],
+          "next_evidence": "取得独立检查和具有区分力的比较依据，明确其来源与范围。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        },
+        {
+          "id": "f2",
+          "title": "目前只掌握首面纹饰",
+          "text": "首面支持开光内有山水景物；全器纹饰覆盖尚不完整。",
+          "status": "limited",
+          "citations": [
+            {
+              "kind": "image",
+              "target_id": "48607-image-1",
+              "region": {
+                "x": 0.31,
+                "y": 0.35,
+                "width": 0.34,
+                "height": 0.35
+              }
+            },
+            {
+              "kind": "document",
+              "target_id": "48607-observation",
+              "locator": {
+                "start": 201,
+                "end": 222
+              }
+            }
+          ],
+          "next_evidence": "打开另一面公开影像，核对两面装饰差异。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        },
+        {
+          "id": "f3",
+          "title": "未见异常不能写成无修复",
+          "text": "当前材料没有完整状况检查记录；不输出无冲、无修、全品等肯定措辞。",
+          "status": "missing",
+          "citations": [
+            {
+              "kind": "document",
+              "target_id": "48607-observation",
+              "locator": {
+                "start": 223,
+                "end": 249
+              }
+            }
+          ],
+          "next_evidence": "补充口沿、底足、内壁与局部近照，必要时由保护人员检查。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        }
+      ],
+      "documents": [
+        {
+          "id": "48607-catalogue",
+          "title": "馆方记录摘记与使用范围",
+          "filename": "48607-catalogue.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "公开教学对象：The Metropolitan Museum of Art 馆藏18.61.4，山水纹花觚（馆方名称译记）。\n\n馆方记录：该器列为清代康熙早期景德镇釉下钴蓝瓷，高48.3厘米、直径23.2厘米，购藏记载为Rogers Fund, 1918。这里保存的是本项目原创短摘记，馆方原页面可通过来源链接回查。\n\n编目边界：年代、产地、材料及尺寸均为该对象的馆方记载；本项目没有重新测量、检查实物或进行独立鉴定。不得将这些标签转给另一件外形相似器物。\n\n影像来源：本案两幅JPEG来自该馆公开对象图像。原下载字节及SHA256随包保留，图像标为Public Domain / CC0。公共授权不等于原始摄影未经处理；本项目没有相机原文件、拍摄时间或灯光校色记录。\n\n委托问题（教学）：为博物馆接收资料的准备阶段，记录看得到的器形与装饰、写清哪些部位尚未查看，并提出下一项必要补证。该业务视角不表示本馆实际委托瓷证。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "sha256": "73bdb0e840d624e15a6f0ae8a9b88d5eeb6344e2551720717fff2e002705b648",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。"
+        },
+        {
+          "id": "48607-observation",
+          "title": "首面观察与证据边界",
+          "filename": "48607-observation.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "项目人工教学观察，记录对象为公开照片 met-48607.jpg；不是模型输出或文博专家意见。\n\n整体记录：器口向外扩展，器身较长，中段收窄，下部向外扩展。照片仅展示一个投影视角，不能由像素直接取得真实高度、口径、胎壁厚度或器重。\n\n装饰记录：正面长条开光内可见树木、山石和层次变化的蓝色景物；上部与下部还有蓝白相间的装饰带。可记录可见布局，不把蓝色色调直接当作钴料成分、窑口或年代证明。\n\n缺项记录：首面照片没有呈现底足、底款、器内和整圈纹饰。普通正面图也不足以排除胶接、补彩、内壁裂缝或局部修复。\n\n资料使用方法：CCI关于旧修复的原创摘要提醒，普通照片未显修复不能写成无修复；Getty CDWA来源史方法摘要提示日期、角色和缺口应分开。这里的摘要是方法参考，并非对本件状况和来源真伪的验证。\n\n阶段产物：可以交接对象信息、图片、定位观察和待补证问题；暂不能形成独立断代、窑口判定、真实性概率或收藏史连续性的结论。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "sha256": "054ffbe9e618231336acdbdf2c1115f36231f72314fd94b044921d64e5a2d00c",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。"
+        },
+        {
+          "id": "48607-supplement-note",
+          "title": "另一面影像加入后的教学修订",
+          "filename": "48607-supplement-note.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "本补证动作只打开包内已下载的另一面公开照片 met-48607-view2.jpg。它不是重新拍照、外部抓取或实时模型推理，新增与修订文字仍为项目人工教学示例。\n\n新增可见信息：另一面长条开光内显示花篮样纹饰，与首面山水景物不同。因此首面材料只能支持某一面的山水布局，不能把全器纹饰概括为只有山水。\n\n修订范围：教学v2将纹饰记录改为至少两种可见开光内容，并保留两幅影像的各自定位。第二面增加的是装饰覆盖范围，没有增加底足、底款、内部、实物材质或摄影原始性证据。\n\n仍需补证：如下一步研究问题涉及制作工艺或状况，应另取底足、器内和口沿近照，并由专业人员按适当方法检查。来源链若要用于交易，还需逐项取得对应的原始记录；1918年购藏摘记不构成完整流转链。\n\n可复核结果：补证前后陈述的变化可以由访客直接核对两幅图像；本动作不能证明某个年代假设正确，也不是模型性能或鉴定准确率的实测。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "sha256": "f76a032f1d399f4ee160ef90e53afc60fb8dd3082cad194d43de9782213d1f3a",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。",
+          "supplement_id": "48607-supplement"
+        }
+      ],
+      "supplements": [
+        {
+          "id": "48607-supplement",
+          "title": "另一面公开影像与修订说明",
+          "reason": "打开另一面公开影像，核对两面装饰差异。",
+          "document_ids": [
+            "48607-supplement-note"
+          ],
+          "image_ids": [
+            "48607-image-2"
+          ],
+          "after_findings": [
+            {
+              "id": "f1",
+              "title": "馆方归属与本项目观察分开",
+              "text": "可以登记馆方记录为资料标签；尚不能把本案写成瓷证独立断代结果。",
+              "status": "limited",
+              "citations": [
+                {
+                  "kind": "document",
+                  "target_id": "48607-catalogue",
+                  "locator": {
+                    "start": 165,
+                    "end": 186
+                  }
+                }
+              ],
+              "next_evidence": "取得独立检查和具有区分力的比较依据，明确其来源与范围。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            },
+            {
+              "id": "f2",
+              "title": "新增另一面花篮样纹饰",
+              "text": "两幅公开图像支持分别记录山水景物与花篮样纹饰；首面概括应修订为至少两面不同的开光内容。",
+              "status": "supported",
+              "citations": [
+                {
+                  "kind": "image",
+                  "target_id": "48607-image-1",
+                  "region": {
+                    "x": 0.31,
+                    "y": 0.35,
+                    "width": 0.34,
+                    "height": 0.35
+                  }
+                },
+                {
+                  "kind": "image",
+                  "target_id": "48607-image-2",
+                  "region": {
+                    "x": 0.35,
+                    "y": 0.4,
+                    "width": 0.24,
+                    "height": 0.32
+                  }
+                },
+                {
+                  "kind": "document",
+                  "target_id": "48607-supplement-note",
+                  "locator": {
+                    "start": 89,
+                    "end": 114
+                  }
+                }
+              ],
+              "next_evidence": "若需要全器纹饰编目，继续获取未呈现部分并记录方向。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            },
+            {
+              "id": "f3",
+              "title": "未见异常不能写成无修复",
+              "text": "当前材料没有完整状况检查记录；不输出无冲、无修、全品等肯定措辞。",
+              "status": "missing",
+              "citations": [
+                {
+                  "kind": "document",
+                  "target_id": "48607-observation",
+                  "locator": {
+                    "start": 223,
+                    "end": 249
+                  }
+                }
+              ],
+              "next_evidence": "补充口沿、底足、内壁与局部近照，必要时由保护人员检查。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            }
+          ],
+          "change_note": "加入真实另一面公开JPEG，修订纹饰覆盖范围；年代、来源和状况证据仍未得到独立验证。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        }
+      ],
+      "provenance": [
+        {
+          "id": "48607-public-record",
+          "date_text": "公开页面查阅：2026-09-27",
+          "event_type": "publication",
+          "status": "documented",
+          "party": "The Metropolitan Museum of Art（对象页资料机构）",
+          "place": "公开网页",
+          "description": "本项目保存该馆藏号对应页面的原创资料摘记；查阅日期不是对象取得或交易日期。",
+          "object_link_basis": "馆藏号、对象页 URL 与公开照片共同指向此教学对象；未验证另一件器物的同一性。",
+          "document_id": "48607-catalogue",
+          "locator": "TXT全文；馆方资料摘记和来源边界",
+          "event_truth_verified": false,
+          "identity_verified": false
+        },
+        {
+          "id": "48607-gap",
+          "date_text": "未取得完整流转时段",
+          "event_type": "gap",
+          "status": "gap",
+          "party": "未知",
+          "place": "未知",
+          "description": "未取得完整前手、转移与对应原始凭据；不补造连续收藏或交易史。",
+          "object_link_basis": "只登记本教学案未包含的资料，不对外部历史作否定或肯定判断。",
+          "document_id": "48607-observation",
+          "locator": "TXT全文；缺项与交接范围",
+          "event_truth_verified": false,
+          "identity_verified": false
+        }
+      ],
+      "review_prompt": "先核对观察定位、资料来源与未完成事项，再记录您自己的准备复核意见。预写示例不是专家意见；访客身份未经认证。"
+    },
+    {
+      "id": "met-51185",
+      "title": "青花镂空茶壶（馆方名称译记）",
+      "role": "collection",
+      "accession_number": "79.2.1202a, b",
+      "object_url": "https://www.metmuseum.org/art/collection/search/51185",
+      "scope": "公开教学 · 已知馆藏身份 · 非盲测 · 非真实业务委托",
+      "catalogue": {
+        "inventory_number": "79.2.1202a, b",
+        "object_name": "青花镂空茶壶（馆方名称译记）",
+        "object_type": "茶壶（馆方记载）",
+        "material": "瓷、镂空装饰、釉下青花（馆方记载）",
+        "dimensions": "高13.3厘米、宽17.8厘米；馆方页面记载，未重新测量",
+        "requested_output": "区分公开馆藏资料与本项目观察，不生成独立断代或真伪认证。"
+      },
+      "origin": "project_curated_teaching",
+      "ai_inference_performed": false,
+      "expert_reviewed": false,
+      "sources": [
+        {
+          "id": "51185-source-1",
+          "title": "透雕青花茶壶的馆藏参照记录",
+          "url": "https://www.metmuseum.org/art/collection/search/51185",
+          "authority": "The Metropolitan Museum of Art",
+          "summary": "Met将藏品79.2.1202a, b记录为18世纪中国瓷质茶壶，具有透雕和釉下蓝色装饰，高13.3厘米、宽17.8厘米。此对象可作为器形、装饰层次和尺寸记录的教学参照；这些年代与材料标签只属于这件馆藏。",
+          "locator": "Teapot · Artwork Details → Object Information → Overview",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：页面标Public Domain；Met OA公共领域图像和基本馆藏元数据为CC0。若另行导入图像须保留具体对象和权利记录；本摘要不包含图像。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "不能据外观相似把未知茶壶归为18世纪或真实；普通图像不能替代材料分析。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        },
+        {
+          "id": "51185-source-2",
+          "title": "旧修复迹象与观察方法",
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+          "authority": "Canadian Conservation Institute",
+          "summary": "CCI介绍旧胶和补色可能变色，发黄脆化的胶应视为脆弱迹象。紫外检查有时能显示非原有胶、补色或填补，需由熟悉方法的保护人员实施。普通照片没显示修复，不能据此写成无修复。",
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：本次只保留原创短摘要与链接，不再分发CCI原文或图片；政府商业再分发许可条件需另行满足。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "不能凭变色自动确定修复年代；UV不是对所有修复的充分检测，更不是器物断代证明。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        },
+        {
+          "id": "51185-source-3",
+          "title": "来源链中的事件、角色与缺口",
+          "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/",
+          "authority": "Getty Research Institute",
+          "summary": "Getty CDWA要求来源史保存已知的日期、持有人、地点、转移方式和引用依据，并标明推测与断档。所有者、保管人、代理和拍卖行角色需要区分。系统应显示未知跨度和陈述来源，而不补造连续收藏史。",
+          "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：未把Getty词汇数据ODC-By许可套用于CDWA出版正文；只保存原创摘要与链接。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "规范能帮助记录，不能验证文件真伪，也不能自动证明合法所有权或器物真实性。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "51185-image-1",
+          "file": "assets/met-51185.jpg",
+          "view": "整体公开图（视角声明）",
+          "sha256": "01401537e5591a07f4c5a6b3f24ae8c37def39d5e0dae71275c0edce6154839b",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/51185/201874/main-image",
+          "license": "CC0 / object page marked Public Domain",
+          "source_url": "https://www.metmuseum.org/art/collection/search/51185",
+          "edit_declaration": "馆方公开 JPEG 的原下载字节；未改像素；相机原文件与摄影处理历史未知"
+        }
+      ],
+      "limits": [
+        "预写研究示例只说明证据组织方法，不能当作实时模型表现或准确率。",
+        "公开 JPEG 不是相机原文件；未检查实物、底足、内部和全部表面。",
+        "馆方归属仅属于该馆藏对象，不能外推给外观相似的待鉴器物。",
+        "照片和网页未证明无修复、交易来源连续性、所有权合法性或真实性。"
+      ],
+      "workflow_steps": [
+        {
+          "id": "case",
+          "title": "读取案卷",
+          "detail": "核对馆藏号、业务问题、资料与照片来源，保留已知身份声明。"
+        },
+        {
+          "id": "observe",
+          "title": "定位观察",
+          "detail": "点击区域观察回到原图；观察事实与归属推断分开。"
+        },
+        {
+          "id": "evidence",
+          "title": "回查证据",
+          "detail": "查看可定位原创摘记与来源卡，确定哪些问题仍缺资料。"
+        },
+        {
+          "id": "supplement",
+          "title": "补证与修订",
+          "detail": "打开预置补充件，对比人工编写 v1 / v2 的陈述变化。"
+        },
+        {
+          "id": "review",
+          "title": "记录复核",
+          "detail": "访客填写自己的准备复核意见；没有专家身份认证。"
+        },
+        {
+          "id": "export",
+          "title": "交接档案",
+          "detail": "导出包含真实编辑、照片、资料及 SHA256 清单的教学交接包。"
+        }
+      ],
+      "skills": [
+        "ceramic-route",
+        "ceramic-research-record",
+        "condition-hypothesis-test",
+        "provenance-evidence-audit",
+        "documentary-evidence-audit",
+        "evidence-revise"
+      ],
+      "observations": [
+        {
+          "id": "51185-obs-1",
+          "image_id": "51185-image-1",
+          "title": "成排镂孔",
+          "text": "正面矩形区域有成排镂孔；内部层次和制作细节仍须更多视角。",
+          "region": {
+            "x": 0.38,
+            "y": 0.46,
+            "width": 0.23,
+            "height": 0.36
+          },
+          "feature": "decoration",
+          "origin": "project_curated_teaching"
+        },
+        {
+          "id": "51185-obs-2",
+          "image_id": "51185-image-1",
+          "title": "曲柄与连接处",
+          "text": "可定位曲柄及与壶身连接的区域；当前图像不足以排除连接处旧修复。",
+          "region": {
+            "x": 0.64,
+            "y": 0.25,
+            "width": 0.21,
+            "height": 0.43
+          },
+          "feature": "body",
+          "origin": "project_curated_teaching"
+        },
+        {
+          "id": "51185-obs-3",
+          "image_id": "51185-image-1",
+          "title": "盖与顶部",
+          "text": "可见盖与顶端镂空部分；未取得盖内和口部配合面的近照，原配关系待查。",
+          "region": {
+            "x": 0.35,
+            "y": 0.09,
+            "width": 0.3,
+            "height": 0.28
+          },
+          "feature": "body",
+          "origin": "project_curated_teaching"
+        }
+      ],
+      "findings": [
+        {
+          "id": "f1",
+          "title": "尺寸字段需要来源限定",
+          "text": "可查到馆方尺寸，但本案没有实测记录；应避免混填实测栏。",
+          "status": "limited",
+          "citations": [
+            {
+              "kind": "document",
+              "target_id": "51185-observation",
+              "locator": {
+                "start": 151,
+                "end": 184
+              }
+            }
+          ],
+          "next_evidence": "打开预置尺寸与缺项说明，完善编目字段措辞。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        },
+        {
+          "id": "f2",
+          "title": "镂空与构件可见，原配未核",
+          "text": "可记录盖、流、柄和镂孔布局；构件的原配关系未被图像证明。",
+          "status": "limited",
+          "citations": [
+            {
+              "kind": "image",
+              "target_id": "51185-image-1",
+              "region": {
+                "x": 0.38,
+                "y": 0.46,
+                "width": 0.23,
+                "height": 0.36
+              }
+            },
+            {
+              "kind": "document",
+              "target_id": "51185-catalogue",
+              "locator": {
+                "start": 206,
+                "end": 225
+              }
+            }
+          ],
+          "next_evidence": "取得构件配合面、内部与连接处近照。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        },
+        {
+          "id": "f3",
+          "title": "连接处状况有检查缺口",
+          "text": "当前材料不能支持无修复或可以安全使用的判断。",
+          "status": "missing",
+          "citations": [
+            {
+              "kind": "image",
+              "target_id": "51185-image-1",
+              "region": {
+                "x": 0.64,
+                "y": 0.25,
+                "width": 0.21,
+                "height": 0.43
+              }
+            },
+            {
+              "kind": "document",
+              "target_id": "51185-observation",
+              "locator": {
+                "start": 253,
+                "end": 283
+              }
+            }
+          ],
+          "next_evidence": "请专业人员检查盖、柄、流与壶身连接处；不由软件提供实物处理处方。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        }
+      ],
+      "documents": [
+        {
+          "id": "51185-catalogue",
+          "title": "茶壶馆藏资料摘记",
+          "filename": "51185-catalogue.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "公开教学对象：The Metropolitan Museum of Art 馆藏79.2.1202a, b，青花镂空茶壶（馆方名称译记）。\n\n馆方资料摘记：页面将对象记为18世纪中国瓷质茶壶，具有透雕和釉下蓝色装饰，高13.3厘米、宽17.8厘米。尺寸与归属来自该对象馆方记录；本项目没有实测、材质检测或独立断代。\n\n档案匹配：用馆藏号、对象页链接和这幅公开图像共同定位本次教学对象。a, b是原馆藏号的一部分，本项目不据此自行确认每个构件的原配关系。\n\n影像权利：公开图像为馆方标Public Domain / CC0的对象JPEG。保存原下载字节、SHA256及对象URL，没有相机原文件或拍摄处理记录。\n\n收藏者视角（教学）：整理接收到的器物资料，区分“馆方记载尺寸”和“本人实测尺寸”，并避免把一幅照片未呈现的部位写成已经检查。该视角不是实际购买、估价或交易委托。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/51185",
+          "sha256": "ded845438cb7126c920506f0d5368511bcfa7a7c7e84d525272b739b0f2c639f",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。"
+        },
+        {
+          "id": "51185-observation",
+          "title": "茶壶人工观察与状况问题",
+          "filename": "51185-observation.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "项目人工教学观察：依据公开照片 met-51185.jpg，只登记能指向具体图像部位的现象；没有调用AI模型，也没有查看实物。\n\n器形记录：照片中可见盖、流、曲柄和多角形壶身。正面矩形区域呈现成排镂孔，周围有蓝白装饰。图像亮部可能受到灯光反射影响，不能把所有亮色区域解释为补彩或釉质异常。\n\n资料来源：高13.3厘米、宽17.8厘米来自馆方页面，不能放入“本次实测”栏。照片不含标尺；器物距离、投影与拍摄角度也不受本项目控制。\n\n状况缺项：未取得盖内、流口内壁、柄与壶身连接处、壶底及镂空层内部的详细影像。不能据正面图确认是否曾断裂、粘接、补配，亦不能写成可安全使用。\n\n复核方法：CCI原创方法摘要提示旧胶或补色有时需专门观察；一般照片没有呈现相关迹象，仍不能排除修复。本案仅提出检查方向，不提供清洗、拆卸或其他实物处理指令。\n\n交接原则：登记尺寸资料的出处，标出连接处待检事项，并列明缺少的背面与底部照片。人工意见保留为操作者声明，不作为专家身份确认或价值估计。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/51185",
+          "sha256": "78efa802c0870fae796042125d4d9138856e49cf15a65614225e1ceb94959cc1",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。"
+        },
+        {
+          "id": "51185-supplement-note",
+          "title": "尺寸与缺项清单补充",
+          "filename": "51185-supplement-note.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "这是包内预置的项目原创文字补充件，引用同一对象页既有尺寸信息；没有新增照片、实测数据、馆方回复或专家检查。补证后示例为人工编写。\n\n尺寸字段修订：高13.3厘米、宽17.8厘米应保存为“馆方页面记载，未重新测量”。物理尺寸来自外部记录，而不是照片像素计算。访客若拥有实测记录，可另建真实测量事项，不能直接改写本摘要为已实测。\n\n构件清单：盖、流、柄及多角形壶身在当前图像中可见；构件存在不等于原配关系成立。接合处和内部情况仍需近照与专业人员检查。\n\n资料审查问题：本件馆方记录不属于收藏者的交易凭据。页面可以用作教学参照，但不能证明另一件相似茶壶的年代、所有权、成交历史或真伪。\n\n补充后的结果：可以将编目中的尺寸出处写得完整，减少实测与转记混淆；图像覆盖和状况检查的缺口没有被这份文字材料消除。报告仍应保留待取底部、背面与关键连接处近照的要求。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/51185",
+          "sha256": "978739af174eb99d47e44b15e6f842fc4cd4bf79c90f9c0d2c9015bc8b7827f1",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。",
+          "supplement_id": "51185-supplement"
+        }
+      ],
+      "supplements": [
+        {
+          "id": "51185-supplement",
+          "title": "尺寸与缺项说明",
+          "reason": "打开预置尺寸与缺项说明，完善编目字段措辞。",
+          "document_ids": [
+            "51185-supplement-note"
+          ],
+          "image_ids": [],
+          "after_findings": [
+            {
+              "id": "f1",
+              "title": "尺寸出处已写入编目建议",
+              "text": "补充说明明确尺寸为馆方记载且未重新测量；解决措辞缺项，没有增加真实测量证据。",
+              "status": "supported",
+              "citations": [
+                {
+                  "kind": "document",
+                  "target_id": "51185-supplement-note",
+                  "locator": {
+                    "start": 73,
+                    "end": 106
+                  }
+                }
+              ],
+              "next_evidence": "若业务要求实测，另取有日期、方法与操作者的记录。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            },
+            {
+              "id": "f2",
+              "title": "镂空与构件可见，原配未核",
+              "text": "可记录盖、流、柄和镂孔布局；构件的原配关系未被图像证明。",
+              "status": "limited",
+              "citations": [
+                {
+                  "kind": "image",
+                  "target_id": "51185-image-1",
+                  "region": {
+                    "x": 0.38,
+                    "y": 0.46,
+                    "width": 0.23,
+                    "height": 0.36
+                  }
+                },
+                {
+                  "kind": "document",
+                  "target_id": "51185-catalogue",
+                  "locator": {
+                    "start": 206,
+                    "end": 225
+                  }
+                }
+              ],
+              "next_evidence": "取得构件配合面、内部与连接处近照。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            },
+            {
+              "id": "f3",
+              "title": "连接处状况有检查缺口",
+              "text": "当前材料不能支持无修复或可以安全使用的判断。",
+              "status": "missing",
+              "citations": [
+                {
+                  "kind": "image",
+                  "target_id": "51185-image-1",
+                  "region": {
+                    "x": 0.64,
+                    "y": 0.25,
+                    "width": 0.21,
+                    "height": 0.43
+                  }
+                },
+                {
+                  "kind": "document",
+                  "target_id": "51185-observation",
+                  "locator": {
+                    "start": 253,
+                    "end": 283
+                  }
+                }
+              ],
+              "next_evidence": "请专业人员检查盖、柄、流与壶身连接处；不由软件提供实物处理处方。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            }
+          ],
+          "change_note": "加入同页公开尺寸的原创来源说明，完善编目措辞；没有新增实测、照片或状况判断。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        }
+      ],
+      "provenance": [
+        {
+          "id": "51185-public-record",
+          "date_text": "公开页面查阅：2026-09-28",
+          "event_type": "publication",
+          "status": "documented",
+          "party": "The Metropolitan Museum of Art（对象页资料机构）",
+          "place": "公开网页",
+          "description": "本项目保存该馆藏号对应页面的原创资料摘记；查阅日期不是对象取得或交易日期。",
+          "object_link_basis": "馆藏号、对象页 URL 与公开照片共同指向此教学对象；未验证另一件器物的同一性。",
+          "document_id": "51185-catalogue",
+          "locator": "TXT全文；馆方资料摘记和来源边界",
+          "event_truth_verified": false,
+          "identity_verified": false
+        },
+        {
+          "id": "51185-gap",
+          "date_text": "未取得完整流转时段",
+          "event_type": "gap",
+          "status": "gap",
+          "party": "未知",
+          "place": "未知",
+          "description": "未取得完整前手、转移与对应原始凭据；不补造连续收藏或交易史。",
+          "object_link_basis": "只登记本教学案未包含的资料，不对外部历史作否定或肯定判断。",
+          "document_id": "51185-observation",
+          "locator": "TXT全文；缺项与交接范围",
+          "event_truth_verified": false,
+          "identity_verified": false
+        }
+      ],
+      "review_prompt": "先核对观察定位、资料来源与未完成事项，再记录您自己的准备复核意见。预写示例不是专家意见；访客身份未经认证。"
+    },
+    {
+      "id": "met-50839",
+      "title": "五彩耕织图瓶（馆方名称译记）",
+      "role": "auction",
+      "accession_number": "61.200.30",
+      "object_url": "https://www.metmuseum.org/art/collection/search/50839",
+      "scope": "公开教学 · 已知馆藏身份 · 非盲测 · 非真实业务委托",
+      "catalogue": {
+        "inventory_number": "61.200.30",
+        "object_name": "五彩耕织图瓶（馆方名称译记）",
+        "object_type": "瓶（馆方记载）",
+        "material": "瓷、釉上多彩珐琅；景德镇器（馆方记载）",
+        "dimensions": "高45.7厘米、直径18.1厘米；馆方页面记载，未重新测量",
+        "requested_output": "区分公开馆藏资料与本项目观察，不生成独立断代或真伪认证。"
+      },
+      "origin": "project_curated_teaching",
+      "ai_inference_performed": false,
+      "expert_reviewed": false,
+      "sources": [
+        {
+          "id": "50839-source-1",
+          "title": "耕织图纹饰与题识的馆藏参照",
+          "url": "https://www.metmuseum.org/art/collection/search/50839",
+          "authority": "The Metropolitan Museum of Art",
+          "summary": "Met藏品61.200.30的说明将纹饰联系到耕织图传统，内容包括稻作与蚕桑，并给出相关题识解释。页面将材料技术记为景德镇瓷、釉上多色彩绘。此记录支持纹饰与题识分开核对，不能把题材相同当作同年代证据。",
+          "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：页面标Public Domain；Met OA公共领域图像和基本馆藏元数据为CC0。项目原创摘要与原始页面解释文字授权须区分。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "题材跨媒介传播；本页只说明该馆藏，不能为未知器物直接确定康熙归属。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        },
+        {
+          "id": "50839-source-2",
+          "title": "旧修复迹象与观察方法",
+          "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+          "authority": "Canadian Conservation Institute",
+          "summary": "CCI介绍旧胶和补色可能变色，发黄脆化的胶应视为脆弱迹象。紫外检查有时能显示非原有胶、补色或填补，需由熟悉方法的保护人员实施。普通照片没显示修复，不能据此写成无修复。",
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：本次只保留原创短摘要与链接，不再分发CCI原文或图片；政府商业再分发许可条件需另行满足。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "不能凭变色自动确定修复年代；UV不是对所有修复的充分检测，更不是器物断代证明。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        },
+        {
+          "id": "50839-source-3",
+          "title": "来源链中的事件、角色与缺口",
+          "url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/",
+          "authority": "Getty Research Institute",
+          "summary": "Getty CDWA要求来源史保存已知的日期、持有人、地点、转移方式和引用依据，并标明推测与断档。所有者、保管人、代理和拍卖行角色需要区分。系统应显示未知跨度和陈述来源，而不补造连续收藏史。",
+          "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role",
+          "license": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：未把Getty词汇数据ODC-By许可套用于CDWA出版正文；只保存原创摘要与链接。",
+          "origin": "project_original_summary",
+          "review_status": "pending",
+          "limitations": [
+            "规范能帮助记录，不能验证文件真伪，也不能自动证明合法所有权或器物真实性。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "50839-image-1",
+          "file": "assets/met-50839.jpg",
+          "view": "整体公开图（视角声明）",
+          "sha256": "1cc100a71af987f0bcbb05633fafb719d212bc0e9112e8ba0c80756a11e65c8a",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/50839/189935/main-image",
+          "license": "CC0 / object page marked Public Domain",
+          "source_url": "https://www.metmuseum.org/art/collection/search/50839",
+          "edit_declaration": "馆方公开 JPEG 的原下载字节；未改像素；相机原文件与摄影处理历史未知"
+        }
+      ],
+      "limits": [
+        "预写研究示例只说明证据组织方法，不能当作实时模型表现或准确率。",
+        "公开 JPEG 不是相机原文件；未检查实物、底足、内部和全部表面。",
+        "馆方归属仅属于该馆藏对象，不能外推给外观相似的待鉴器物。",
+        "照片和网页未证明无修复、交易来源连续性、所有权合法性或真实性。"
+      ],
+      "workflow_steps": [
+        {
+          "id": "case",
+          "title": "读取案卷",
+          "detail": "核对馆藏号、业务问题、资料与照片来源，保留已知身份声明。"
+        },
+        {
+          "id": "observe",
+          "title": "定位观察",
+          "detail": "点击区域观察回到原图；观察事实与归属推断分开。"
+        },
+        {
+          "id": "evidence",
+          "title": "回查证据",
+          "detail": "查看可定位原创摘记与来源卡，确定哪些问题仍缺资料。"
+        },
+        {
+          "id": "supplement",
+          "title": "补证与修订",
+          "detail": "打开预置补充件，对比人工编写 v1 / v2 的陈述变化。"
+        },
+        {
+          "id": "review",
+          "title": "记录复核",
+          "detail": "访客填写自己的准备复核意见；没有专家身份认证。"
+        },
+        {
+          "id": "export",
+          "title": "交接档案",
+          "detail": "导出包含真实编辑、照片、资料及 SHA256 清单的教学交接包。"
+        }
+      ],
+      "skills": [
+        "ceramic-route",
+        "ceramic-research-record",
+        "condition-hypothesis-test",
+        "provenance-evidence-audit",
+        "documentary-evidence-audit",
+        "evidence-revise"
+      ],
+      "observations": [
+        {
+          "id": "50839-obs-1",
+          "image_id": "50839-image-1",
+          "title": "人物与建筑场景",
+          "text": "可见人物、树木与建筑场景；具体图像学解释另引馆方资料，不从相似题材推出年代。",
+          "region": {
+            "x": 0.38,
+            "y": 0.32,
+            "width": 0.28,
+            "height": 0.5
+          },
+          "feature": "decoration",
+          "origin": "project_curated_teaching"
+        },
+        {
+          "id": "50839-obs-2",
+          "image_id": "50839-image-1",
+          "title": "竖行文字区域",
+          "text": "图像中有竖行文字区域；本项目没有完成全文转录，不补造字句。",
+          "region": {
+            "x": 0.38,
+            "y": 0.32,
+            "width": 0.08,
+            "height": 0.19
+          },
+          "feature": "inscription",
+          "origin": "project_curated_teaching"
+        },
+        {
+          "id": "50839-obs-3",
+          "image_id": "50839-image-1",
+          "title": "颈部装饰带",
+          "text": "可见长颈部与装饰带；照片未展示全部侧面、器内或底足。",
+          "region": {
+            "x": 0.42,
+            "y": 0.05,
+            "width": 0.18,
+            "height": 0.23
+          },
+          "feature": "body",
+          "origin": "project_curated_teaching"
+        }
+      ],
+      "findings": [
+        {
+          "id": "f1",
+          "title": "题材解释的来源需要单列",
+          "text": "“耕织图”作为馆方资料记载保留；本项目图像观察另列可見场景，不冒称独立完成图像学识别。",
+          "status": "limited",
+          "citations": [
+            {
+              "kind": "image",
+              "target_id": "50839-image-1",
+              "region": {
+                "x": 0.38,
+                "y": 0.32,
+                "width": 0.28,
+                "height": 0.5
+              }
+            },
+            {
+              "kind": "document",
+              "target_id": "50839-catalogue",
+              "locator": {
+                "start": 74,
+                "end": 87
+              }
+            }
+          ],
+          "next_evidence": "打开目录措辞审查补充件，逐项保留观察与资料的出处。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        },
+        {
+          "id": "f2",
+          "title": "题识尚未完成逐字转录",
+          "text": "只能定位竖行文字区域，不生成未读清的诗文或年款。",
+          "status": "missing",
+          "citations": [
+            {
+              "kind": "image",
+              "target_id": "50839-image-1",
+              "region": {
+                "x": 0.38,
+                "y": 0.32,
+                "width": 0.08,
+                "height": 0.19
+              }
+            },
+            {
+              "kind": "document",
+              "target_id": "50839-observation",
+              "locator": {
+                "start": 146,
+                "end": 156
+              }
+            }
+          ],
+          "next_evidence": "补充题识原比例高清与逐字校读记录。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        },
+        {
+          "id": "f3",
+          "title": "交易来源链不在教学包内",
+          "text": "已知对象公开记录不构成完整交易或所有权链；不写传承有序。",
+          "status": "missing",
+          "citations": [
+            {
+              "kind": "document",
+              "target_id": "50839-catalogue",
+              "locator": {
+                "start": 378,
+                "end": 415
+              }
+            }
+          ],
+          "next_evidence": "真实交易时逐项取得原始权属、流转与核查材料，明确责任人。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        }
+      ],
+      "documents": [
+        {
+          "id": "50839-catalogue",
+          "title": "五彩瓶馆藏资料摘记",
+          "filename": "50839-catalogue.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "公开教学对象：The Metropolitan Museum of Art 馆藏61.200.30，五彩耕织图瓶（馆方名称译记）。\n\n馆方资料摘记：页面将纹饰联系到耕织图传统，并给出相关题识解释；材料技术记为景德镇瓷、釉上多色彩绘。尺寸高45.7厘米、直径18.1厘米均为馆方記载，未重新测量。这里保存项目原创短摘记，没有复制页面解释长文。\n\n图像资料：包内只有一幅该对象的公开整体JPEG，保留原下载字节、SHA256和对象页URL；原馆方标记Public Domain / CC0。图像不是本项目现场拍摄，没有题识高清、底部或全部侧面影像。\n\n拍卖编目视角（教学）：形成可供后续审阅的目录素材与补证清单，区分馆方标题、照片中的可见文字区域和真正完成的转录；这个视角不表示本件正在拍卖或已被拍卖行委托。\n\n来源限定：公开网页记录只支持该页的馆藏对象描述。本项目没有本次交易、委托人、价款、所有权文件、出口资料、买卖记录或专家签字，不能由软件生成这些内容。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/50839",
+          "sha256": "bf33ab2fefcd5aea09ee22096c9ec5562658b9d7ff6b4f4268826fe77e403334",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。"
+        },
+        {
+          "id": "50839-observation",
+          "title": "人物场景、题识区域与目录措辞",
+          "filename": "50839-observation.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "项目人工教学观察：只依据公开照片 met-50839.jpg，不进行AI识别、题识OCR或专家鉴定。\n\n可见装饰：瓶身正面画面中可见人物、树木、建筑和作业场景，上方左侧有竖行文字区域；颈部和肩部另有装饰带。馆方题名与解释属于资料记载，可见场景属于照片观察，两者的出处应分别保留。\n\n题识边界：目前没有完成逐字转录；整体图像中的字形大小不足以支持可靠的全部辨读。不能根据馆方标题补造诗文，不能把画面里的字直接写成底款或本朝年款。\n\n目录建议：写明“馆方记录将纹饰联系到耕织图传统”；如描述照片，可另写“整体图可见人物、建筑与竖行文字区域，未完成全文转录”。避免把资料转记混成独立图像学识别。\n\n来源链方法：Getty CDWA原创摘要要求已知日期、角色、地点与引用依据分开登记，未知跨度应明确显示。本案只有公开馆藏资料，不含可回查的交易链；不得补写传承有序或所有权已核。\n\n下一步：需要题识原比例高清、其他侧面与底部影像；若进入真实交易业务，应由相应人员核对原始权属与流转材料，并在档案中说明责任人和核查范围。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/50839",
+          "sha256": "6cb19d63e5745678232994cb2d4dcf2e8d860bdbf6d80492fdc7eb46026c5a23",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。"
+        },
+        {
+          "id": "50839-supplement-note",
+          "title": "目录措辞审查补充件",
+          "filename": "50839-supplement-note.txt",
+          "kind": "project_original_note",
+          "origin": "project_curated_teaching",
+          "text": "本补充件为预置项目原创文字，采用当前已有馆藏页面与图像，不构成新增高清、馆方授权声明、拍卖成交或专家审阅记录。补证前后示例均由项目人工编写。\n\n可采用的限定措辞：馆方记录将纹饰联系到耕织图传统；本项目公开整体图可见人物、建筑与竖行文字区域，题识尚未完成逐字转录。资料归属、图像观察和未完成事项分开保存。\n\n暂不能采用的措辞：全文诗题已核、年款已核、所有权已确认、来源传承完整、无修复或真品保证。这些句子要求当前包内未包含的材料或检查，不能通过文字润色自动成立。\n\n人工复核准备：先核对每句话引用的是对象记录、图像区域还是未完成任务；有引用并不表示引文内容已被证实，更不代表引用资料与另一个未知器物具有同一性。\n\n修订效果：教学v2可形成更加谨慎的目录描述，并明确题识与来源链的缺口。这个变化属于证据措辞的整理，未增加器物真伪、市场估值、流转真实性或文物合规结论。",
+          "source_url": "https://www.metmuseum.org/art/collection/search/50839",
+          "sha256": "f4ef3388f200fb3226cf293181c1d8c851f260efd5742f9ebe27b6182fd9c9ab",
+          "rights_note": "瓷证项目原创教学摘记与方法说明；不转载来源网页长文；未由馆方或专家审核。",
+          "supplement_id": "50839-supplement"
+        }
+      ],
+      "supplements": [
+        {
+          "id": "50839-supplement",
+          "title": "目录措辞审查说明",
+          "reason": "打开目录措辞审查补充件，逐项保留观察与资料的出处。",
+          "document_ids": [
+            "50839-supplement-note"
+          ],
+          "image_ids": [],
+          "after_findings": [
+            {
+              "id": "f1",
+              "title": "形成有来源限定的目录描述",
+              "text": "目录建议将馆方题材记录与当前图像可见场景分开，并显式保留题识未转录状态。",
+              "status": "supported",
+              "citations": [
+                {
+                  "kind": "document",
+                  "target_id": "50839-supplement-note",
+                  "locator": {
+                    "start": 131,
+                    "end": 150
+                  }
+                }
+              ],
+              "next_evidence": "取得题识高清后由具备能力的审阅者校读，记录修改依据。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            },
+            {
+              "id": "f2",
+              "title": "题识尚未完成逐字转录",
+              "text": "只能定位竖行文字区域，不生成未读清的诗文或年款。",
+              "status": "missing",
+              "citations": [
+                {
+                  "kind": "image",
+                  "target_id": "50839-image-1",
+                  "region": {
+                    "x": 0.38,
+                    "y": 0.32,
+                    "width": 0.08,
+                    "height": 0.19
+                  }
+                },
+                {
+                  "kind": "document",
+                  "target_id": "50839-observation",
+                  "locator": {
+                    "start": 146,
+                    "end": 156
+                  }
+                }
+              ],
+              "next_evidence": "补充题识原比例高清与逐字校读记录。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            },
+            {
+              "id": "f3",
+              "title": "交易来源链不在教学包内",
+              "text": "已知对象公开记录不构成完整交易或所有权链；不写传承有序。",
+              "status": "missing",
+              "citations": [
+                {
+                  "kind": "document",
+                  "target_id": "50839-catalogue",
+                  "locator": {
+                    "start": 378,
+                    "end": 415
+                  }
+                }
+              ],
+              "next_evidence": "真实交易时逐项取得原始权属、流转与核查材料，明确责任人。",
+              "origin": "project_curated_teaching",
+              "ai_inference_performed": false
+            }
+          ],
+          "change_note": "补充原创目录措辞审查清单，完善叙述来源；题识高清、流转和真实专家核验仍缺失。",
+          "origin": "project_curated_teaching",
+          "ai_inference_performed": false
+        }
+      ],
+      "provenance": [
+        {
+          "id": "50839-public-record",
+          "date_text": "公开页面查阅：2026-09-28",
+          "event_type": "publication",
+          "status": "documented",
+          "party": "The Metropolitan Museum of Art（对象页资料机构）",
+          "place": "公开网页",
+          "description": "本项目保存该馆藏号对应页面的原创资料摘记；查阅日期不是对象取得或交易日期。",
+          "object_link_basis": "馆藏号、对象页 URL 与公开照片共同指向此教学对象；未验证另一件器物的同一性。",
+          "document_id": "50839-catalogue",
+          "locator": "TXT全文；馆方资料摘记和来源边界",
+          "event_truth_verified": false,
+          "identity_verified": false
+        },
+        {
+          "id": "50839-gap",
+          "date_text": "未取得完整流转时段",
+          "event_type": "gap",
+          "status": "gap",
+          "party": "未知",
+          "place": "未知",
+          "description": "未取得完整前手、转移与对应原始凭据；不补造连续收藏或交易史。",
+          "object_link_basis": "只登记本教学案未包含的资料，不对外部历史作否定或肯定判断。",
+          "document_id": "50839-observation",
+          "locator": "TXT全文；缺项与交接范围",
+          "event_truth_verified": false,
+          "identity_verified": false
+        }
+      ],
+      "review_prompt": "先核对观察定位、资料来源与未完成事项，再记录您自己的准备复核意见。预写示例不是专家意见；访客身份未经认证。"
+    }
+  ]
+}

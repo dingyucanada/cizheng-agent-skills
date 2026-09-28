@@ -1,0 +1,16 @@
+{
+  "cases": [{
+    "id": "blind-001", "object_id": "unique-vessel-001",
+    "question": "检查所提出的制作时期归属是否有证据支持，说明竞争解释与下一项补证。",
+    "target_attribution": "填写待检主张，不是标准答案",
+    "source_declaration": "填写真实已知来源；未知明确写未知",
+    "images": [{"path": "private-images/case-001.png", "view": "整体（上传者声明）", "edit_declaration": "按实际填写"}]
+  }],
+  "references": [{
+    "object_id": "reference-vessel-001", "title": "填写真实参照名称",
+    "locator": "真实馆藏号或文献页图", "source_url": "",
+    "attribution": "参照自身的已知归属", "authority": "归属依据",
+    "permission": "local_use_authorized", "notes": "可比范围与限制",
+    "path": "private-images/reference-001.png"
+  }]
+}

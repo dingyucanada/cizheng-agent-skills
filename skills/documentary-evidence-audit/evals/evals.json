@@ -1,0 +1,14 @@
+{
+  "skill": "documentary-evidence-audit",
+  "evaluation_kind": "structured_intent_and_software_contract_fixture",
+  "not_measured": ["natural_language_trigger_accuracy", "ceramic_expertise", "document_authenticity", "historical_truth"],
+  "allowed_intents": ["new_documentary_audit"],
+  "cases": [
+    {"id":"txt_audit","prompt":"核对本案许可TXT中的编号与移交陈述","research_task":"documentary_audit","intent":"new_documentary_audit","expected_trigger":true},
+    {"id":"fixed_knowledge","prompt":"用本案已绑定资料版本核对来源说明的缺口","research_task":"documentary_audit","intent":"new_documentary_audit","expected_trigger":true},
+    {"id":"report_download","prompt":"下载昨日文字核查报告","research_task":"documentary_audit","intent":"read_existing_report","expected_trigger":false},
+    {"id":"status","prompt":"这次文字核查是否完成","research_task":"documentary_audit","intent":"read_status","expected_trigger":false},
+    {"id":"visual_attribution","prompt":"根据底足照片判断年代窑口","research_task":"visual_research","intent":"visual_attribution","expected_trigger":false},
+    {"id":"authenticity","prompt":"确认这件瓷器是真品并出证书","research_task":"documentary_audit","intent":"authenticity_certification","expected_trigger":false}
+  ]
+}

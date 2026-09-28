@@ -1,0 +1,313 @@
+[
+  {
+    "id": "KS-VA-UNDERGLAZE-001",
+    "title": "釉下装饰的限定定义",
+    "source_institution": "Victoria and Albert Museum",
+    "summary_author": "项目",
+    "source_url": "https://www.vam.ac.uk/articles/a-z-of-ceramics",
+    "source_title": "An A–Z of Ceramics",
+    "source_locator": "U is for underglaze",
+    "verified_at": "2026-09-28",
+    "access_result": "全文可读，直接阅读该章节",
+    "authorized_text": "釉下装饰指位于釉层下面的装饰，釉层覆盖其上。V&A介绍钴蓝是可靠的釉下色料之一。这一定义可帮助记录装饰层次，但照片中的蓝色纹饰本身不能证明采用了钴料，也不能独立确定器物年代或窑口。",
+    "supported_question": "记录中如何解释釉下装饰？蓝色纹饰能否独立确定年代？",
+    "applicable_scope": "陶瓷装饰层次的术语解释与编目提示",
+    "limitations": "不能凭普通照片确认色料成分、烧成工艺或年代；需保留实际观察与推测之别。",
+    "source_claims": [
+      {
+        "claim": "釉下装饰位于釉层下方",
+        "locator": "U is for underglaze，第1段"
+      },
+      {
+        "claim": "该章节介绍钴蓝作为可靠釉下颜色",
+        "locator": "U is for underglaze，第2段"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "V&A网站内容不是通用商业开源语料；非商业使用和商业许可条件见官方条款。摘要权利与原页图像权利分开。",
+    "rights_url": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+    "reference_role": "术语资料",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-VA-MARKS-002",
+    "title": "款识不能作为单独归属依据",
+    "source_institution": "Victoria and Albert Museum",
+    "summary_author": "项目",
+    "source_url": "https://www.vam.ac.uk/articles/a-z-of-ceramics",
+    "source_title": "An A–Z of Ceramics",
+    "source_locator": "A is for A-marked",
+    "verified_at": "2026-09-28",
+    "access_result": "全文可读，直接阅读该章节",
+    "authorized_text": "V&A指出陶瓷常通过款识辨认，但一些知名厂标曾被仿用，其他标记的意义仍不确定。记录款识时应先转录可见文字或图形，再单独保存含义和归属意见；标记可读不等于器物归属已经成立。",
+    "supported_question": "一个可识读的陶瓷标记是否足以确定制作机构？",
+    "applicable_scope": "款识记录与制造者归属的风险提示；本例主要涉及欧洲瓷厂标记",
+    "limitations": "不能将欧洲厂标实例直接推广成某件中国年款的鉴定结论。",
+    "source_claims": [
+      {
+        "claim": "部分知名陶瓷标记曾被仿用，另有标记意义不明",
+        "locator": "A is for A-marked，第1段"
+      },
+      {
+        "claim": "A标组有变化中的归属假设",
+        "locator": "A is for A-marked，第2段"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "保留原创摘要与官方链接；不导入V&A原图或复制原始文章正文。",
+    "rights_url": "https://www.vam.ac.uk/info/va-websites-terms-conditions",
+    "reference_role": "解释限制",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-CCI-GLAZE-003",
+    "title": "胎体、釉层与细开裂需分别记录",
+    "source_institution": "Canadian Conservation Institute",
+    "summary_author": "项目",
+    "source_url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html",
+    "source_title": "Caring for ceramic and glass objects",
+    "source_locator": "Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes",
+    "verified_at": "2026-09-28",
+    "access_result": "全文可读，直接阅读胎体、釉层和Figure 3说明",
+    "authorized_text": "CCI将釉说明为陶瓷胎体上的玻璃层，并介绍某些铅釉表面可见细密开裂。状况记录应区分表层釉裂、贯穿胎体的裂缝和缺损；见到网状细裂仅支持描述该可见现象，不能单独证明历史年代或真伪。",
+    "supported_question": "网状细裂应如何记录，是否足以证明器物很旧？",
+    "applicable_scope": "状况描述、胎釉分层的基础知识",
+    "limitations": "本页并未提供中国各窑开片断代规则；照片不足以确认裂纹深度或釉的化学成分。",
+    "source_claims": [
+      {
+        "claim": "釉是胎体上的玻璃层",
+        "locator": "Ceramic finishes → Glazes，第1段"
+      },
+      {
+        "claim": "铅釉可见细密开裂",
+        "locator": "Glazes，Figure 3之前的段落及Figure 3说明"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "加拿大政府版权内容；非商业复制需准确并注明作者标题与URL，商业再分发通常需许可。未下载图片。",
+    "rights_url": "https://www.canada.ca/en/transparency/terms.html",
+    "reference_role": "状况知识",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-CCI-REPAIRS-004",
+    "title": "旧修复迹象与观察方法",
+    "source_institution": "Canadian Conservation Institute",
+    "summary_author": "项目",
+    "source_url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+    "source_title": "Care of Ceramics and Glass – CCI Notes 5/1",
+    "source_locator": "Cleaning and Repair → Recognizing Old Repairs",
+    "verified_at": "2026-09-28",
+    "access_result": "全文可读，直接阅读旧修复章节",
+    "authorized_text": "CCI介绍旧胶和补色可能变色，发黄脆化的胶应视为脆弱迹象。紫外检查有时能显示非原有胶、补色或填补，需由熟悉方法的保护人员实施。普通照片没显示修复，不能据此写成无修复。",
+    "supported_question": "照片未见修复是否可以记录为无修复？哪些旧胶迹象需要复核？",
+    "applicable_scope": "状况核对、修复史待核事项与检查方法记录",
+    "limitations": "不能凭变色自动确定修复年代；UV不是对所有修复的充分检测，更不是器物断代证明。",
+    "source_claims": [
+      {
+        "claim": "旧胶和补色会变色，发黄脆胶提示脆弱",
+        "locator": "Recognizing Old Repairs，第1段"
+      },
+      {
+        "claim": "部分修复可经UV发现，操作由熟悉方法的保护人员进行",
+        "locator": "Recognizing Old Repairs，第4段"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "本次只保留原创短摘要与链接，不再分发CCI原文或图片；政府商业再分发许可条件需另行满足。",
+    "rights_url": "https://www.canada.ca/en/transparency/terms.html",
+    "reference_role": "状况知识",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-CCI-SALTS-005",
+    "title": "盐类引起的釉层剥落风险",
+    "source_institution": "Canadian Conservation Institute",
+    "summary_author": "项目",
+    "source_url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+    "source_title": "Care of Ceramics and Glass – CCI Notes 5/1",
+    "source_locator": "Problems with Ceramics and Glass → Soluble salts",
+    "verified_at": "2026-09-28",
+    "access_result": "全文可读，直接阅读Soluble salts章节",
+    "authorized_text": "多孔陶瓷在含盐土壤、海水或盛盐用途下可能吸收可溶盐。CCI说明湿度变化中的溶解与再结晶可造成松动釉层剥落或裸胎表面脱落。白色沉积和剥落应先作为待核状况记录，不应直接写成出土证明。",
+    "supported_question": "剥落与白色沉积是否足以证明出土背景？应记录什么风险？",
+    "applicable_scope": "多孔陶瓷的状况检查与环境历史待核",
+    "limitations": "照片不能确认沉积是盐，也不能确认埋藏或海水经历；本条不提供清洗处方。",
+    "source_claims": [
+      {
+        "claim": "陶瓷可在特定含盐环境或使用中吸盐",
+        "locator": "Soluble salts，第1句"
+      },
+      {
+        "claim": "湿度变化中的盐溶解再结晶可导致剥落",
+        "locator": "Soluble salts，第2–3句"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "只索引项目原创摘要及出处；不将CCI全文作为商业授权语料。",
+    "rights_url": "https://www.canada.ca/en/transparency/terms.html",
+    "reference_role": "状况知识",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-MET-TEAPOT-006",
+    "title": "透雕青花茶壶的馆藏参照记录",
+    "source_institution": "The Metropolitan Museum of Art",
+    "summary_author": "项目",
+    "source_url": "https://www.metmuseum.org/art/collection/search/51185",
+    "source_title": "Teapot",
+    "source_locator": "Artwork Details → Object Information → Overview",
+    "verified_at": "2026-09-28",
+    "access_result": "对象页全文可读，页面明确Public Domain；主图链接可访问",
+    "authorized_text": "Met将藏品79.2.1202a, b记录为18世纪中国瓷质茶壶，具有透雕和釉下蓝色装饰，高13.3厘米、宽17.8厘米。此对象可作为器形、装饰层次和尺寸记录的教学参照；这些年代与材料标签只属于这件馆藏。",
+    "supported_question": "怎样建立一条同时包含器形、装饰技术、尺寸和馆藏编号的参照记录？",
+    "applicable_scope": "编目教学、透雕茶壶器形比较的独立参照",
+    "limitations": "不能据外观相似把未知茶壶归为18世纪或真实；普通图像不能替代材料分析。",
+    "source_claims": [
+      {
+        "claim": "该对象记录为18世纪中国瓷质透雕釉下蓝装饰茶壶",
+        "locator": "Overview：Date、Culture、Medium"
+      },
+      {
+        "claim": "尺寸13.3厘米高、17.8厘米宽，藏品号79.2.1202a, b",
+        "locator": "Overview：Dimensions、Object Number"
+      }
+    ],
+    "object_id": 51185,
+    "accession_number": "79.2.1202a, b",
+    "reference_image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/51185/201874/main-image",
+    "image_access_result": "通过对象页主图链接实际打开，web返回成功图像资源",
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "页面标Public Domain；Met OA公共领域图像和基本馆藏元数据为CC0。若另行导入图像须保留具体对象和权利记录；本摘要不包含图像。",
+    "rights_url": "https://www.metmuseum.org/hubs/open-access",
+    "reference_role": "教学与独立参照",
+    "is_authentication_rule": false,
+    "is_blind_test_ground_truth": false
+  },
+  {
+    "id": "KS-MET-FARMING-007",
+    "title": "耕织图纹饰与题识的馆藏参照",
+    "source_institution": "The Metropolitan Museum of Art",
+    "summary_author": "项目",
+    "source_url": "https://www.metmuseum.org/art/collection/search/50839",
+    "source_title": "Vase with scenes and poems from Farming and Weaving",
+    "source_locator": "顶部对象说明；Artwork Details → Overview",
+    "verified_at": "2026-09-28",
+    "access_result": "对象页全文可读，页面明确Public Domain；主图链接可访问",
+    "authorized_text": "Met藏品61.200.30的说明将纹饰联系到耕织图传统，内容包括稻作与蚕桑，并给出相关题识解释。页面将材料技术记为景德镇瓷、釉上多色彩绘。此记录支持纹饰与题识分开核对，不能把题材相同当作同年代证据。",
+    "supported_question": "耕织图题材的纹饰和题识应怎样拆开记录与比较？",
+    "applicable_scope": "图像学检索、题识核对、釉上彩器物的教学参照",
+    "limitations": "题材跨媒介传播；本页只说明该馆藏，不能为未知器物直接确定康熙归属。",
+    "source_claims": [
+      {
+        "claim": "纹饰描绘稻作与蚕桑并联系耕织图传统",
+        "locator": "顶部说明第1段"
+      },
+      {
+        "claim": "馆藏材料技术记录为景德镇瓷、釉上多色彩绘",
+        "locator": "Overview：Medium"
+      },
+      {
+        "claim": "对象编号61.200.30",
+        "locator": "Overview：Object Number"
+      }
+    ],
+    "object_id": 50839,
+    "accession_number": "61.200.30",
+    "reference_image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/50839/189935/main-image",
+    "image_access_result": "通过对象页主图链接实际打开，web返回成功图像资源",
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "页面标Public Domain；Met OA公共领域图像和基本馆藏元数据为CC0。项目原创摘要与原始页面解释文字授权须区分。",
+    "rights_url": "https://www.metmuseum.org/hubs/open-access",
+    "reference_role": "教学与独立参照",
+    "is_authentication_rule": false,
+    "is_blind_test_ground_truth": false
+  },
+  {
+    "id": "KS-GETTY-PROVENANCE-008",
+    "title": "来源链中的事件、角色与缺口",
+    "source_institution": "Getty Research Institute",
+    "summary_author": "项目",
+    "source_url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/",
+    "source_title": "CDWA 23 Ownership/Collecting History",
+    "source_locator": "23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role",
+    "verified_at": "2026-09-28",
+    "access_result": "全文可读，直接阅读来源描述与角色章节",
+    "authorized_text": "Getty CDWA要求来源史保存已知的日期、持有人、地点、转移方式和引用依据，并标明推测与断档。所有者、保管人、代理和拍卖行角色需要区分。系统应显示未知跨度和陈述来源，而不补造连续收藏史。",
+    "supported_question": "来源文件不完整时，怎样记录时间线而不制造连续来源链？",
+    "applicable_scope": "对象档案与来源文献整理；适用于陶瓷等文化对象",
+    "limitations": "规范能帮助记录，不能验证文件真伪，也不能自动证明合法所有权或器物真实性。",
+    "source_claims": [
+      {
+        "claim": "来源描述需标明推测、日期和断档并附引用",
+        "locator": "23.1 Discussion and Guidelines，Indicate / Form and syntax段落"
+      },
+      {
+        "claim": "应区分所有者与代理等角色",
+        "locator": "23.5.1 Owner/Agent Role → Discussion and Guidelines"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "未把Getty词汇数据ODC-By许可套用于CDWA出版正文；只保存原创摘要与链接。",
+    "rights_url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/",
+    "reference_role": "来源记录规范",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-CHRISTIES-MARK-PERIOD-009",
+    "title": "拍卖编目中款识与本朝归属的语言",
+    "source_institution": "Christie's",
+    "summary_author": "项目",
+    "source_url": "https://www.christies.com/-/media/conditions-of-sale/ConditionsOfSale-NewYork-19OCT23",
+    "source_title": "New York Conditions of Sale, Explanation of Cataloguing Practice",
+    "source_locator": "PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART",
+    "verified_at": "2026-09-28",
+    "access_result": "34页PDF全文可读，直接阅读中国陶瓷编目章节",
+    "authorized_text": "Christie's的中国陶瓷编目实践将款识描述与是否本朝的意见分开，并为probably或possibly of the period赋予不同限定含义。解读该机构拍品时应保留原始措辞，分别记录可见款识与年代归属，不把款文直接当作制作时间。",
+    "supported_question": "拍品描述的年款、of the period、probably和possibly如何分别记录？",
+    "applicable_scope": "该版本Christie's条款下的拍卖目录语言解释",
+    "limitations": "是特定机构与条款版本的编目规范，不是通用真伪检测方法，也不表示本项目对某件器物认可该归属。",
+    "source_claims": [
+      {
+        "claim": "中国陶瓷章节区分款识与本朝归属",
+        "locator": "PDF第21页CHINESE CERAMICS AND WORKS OF ART，第1–2例"
+      },
+      {
+        "claim": "probably与possibly of the period有不同限定表述",
+        "locator": "PDF第22页QUALIFIED HEADINGS，Kangxi两例"
+      }
+    ],
+    "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。",
+    "source_rights": "本次只保留原创短摘要和官方条款链接；未获拍卖行原始全文、图像或品牌复制许可。",
+    "rights_url": "https://www.christies.com/-/media/conditions-of-sale/ConditionsOfSale-NewYork-19OCT23",
+    "reference_role": "机构术语解释",
+    "is_authentication_rule": false
+  },
+  {
+    "id": "KS-MET-BEAKER-010",
+    "title": "山水纹花觚的馆藏编目参照",
+    "source_institution": "The Metropolitan Museum of Art",
+    "summary_author": "项目",
+    "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+    "source_title": "Beaker with landscape",
+    "source_locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+    "verified_at": "2026-09-28",
+    "access_result": "实际打开对象页；Overview可读，图像明确Public Domain",
+    "authorized_text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+    "source_claims": [
+      {
+        "claim": "馆藏号、材料、馆方归属、尺寸及购藏来源",
+        "locator": "Overview：Period、Medium、Dimensions、Credit Line、Object Number"
+      }
+    ],
+    "applicable_scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+    "limitations": [
+      "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+      "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+    ],
+    "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+    "rights_url": "https://www.metmuseum.org/hubs/open-access",
+    "is_authentication_rule": false,
+    "is_blind_test_ground_truth": false
+  }
+]

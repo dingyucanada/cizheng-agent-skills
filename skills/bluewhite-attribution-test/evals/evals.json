@@ -1,0 +1,58 @@
+{
+  "skill_name": "bluewhite-attribution-test",
+  "status": "not_run_on_real_model",
+  "scope": "description-only trigger cases; professional outcomes require separate expert blind trials",
+  "cases": [
+    {
+      "id": "trigger-01",
+      "prompt": "请检查这件青花花觚是否支持康熙制作，并比较后仿解释。",
+      "expected_skills": [
+        "ceramic-route",
+        "bluewhite-attribution-test"
+      ],
+      "requires_real_images": true,
+      "reason": "需实际图像和可比参照"
+    },
+    {
+      "id": "trigger-13",
+      "prompt": "刚上传新的花觚照片，和原来结论无关，只做新案。",
+      "expected_skills": [
+        "ceramic-route",
+        "bluewhite-attribution-test"
+      ],
+      "requires_real_images": true,
+      "reason": "不能误走父案修订"
+    },
+    {
+      "id": "trigger-17",
+      "prompt": "Please compare this blue-and-white gu vase with dated references.",
+      "expected_skills": [
+        "ceramic-route",
+        "bluewhite-attribution-test"
+      ],
+      "requires_real_images": true,
+      "reason": "英文同任务"
+    },
+    {
+      "id": "trigger-06",
+      "prompt": "帮我写一个新家装修的青花色搭配方案。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "审美搭配不是文物研判"
+    },
+    {
+      "id": "trigger-07",
+      "prompt": "介绍一下康熙帝的生平。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "一般历史问答"
+    },
+    {
+      "id": "trigger-08",
+      "prompt": "把这段瓷器说明译成英文，不改变事实。",
+      "expected_skills": [],
+      "requires_real_images": false,
+      "reason": "翻译不要求重新鉴定"
+    }
+  ]
+}

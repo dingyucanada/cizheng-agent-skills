@@ -1,0 +1,44 @@
+name: Engineering checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-tested.txt
+      - name: Install tested dependencies
+        run: python -m pip install -r requirements-tested.txt
+      - name: Check backend contracts
+        run: python -m pytest -q -p no:cacheprovider
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          package-manager-cache: false
+      - name: Build public teaching site
+        run: python scripts/build-public-site.py
+      - name: Install browser DOM check dependencies
+        run: npm ci --ignore-scripts
+      - name: Check public experience contracts
+        run: npm run test:web

@@ -1,0 +1,22 @@
+{
+  "skill": "ceramic-research-record",
+  "purpose": "prospective trigger checks, not completed professional evaluation",
+  "cases": [
+    {
+      "prompt": "为博物馆新登记的一只单色釉碗整理尺寸、底足图和资料缺口",
+      "expected_trigger": true
+    },
+    {
+      "prompt": "这件器物据称有旧藏经历，请核对文件与器物的对应关系",
+      "expected_trigger": true
+    },
+    {
+      "prompt": "下载昨天已经完成的报告",
+      "expected_trigger": false
+    },
+    {
+      "prompt": "直接告诉我值多少钱，并保证它是真品",
+      "expected_trigger": false
+    }
+  ]
+}

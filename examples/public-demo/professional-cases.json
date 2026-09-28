@@ -1,0 +1,92 @@
+{
+  "scope": "三种业务视角的公开教学档案，不是实际委托或盲测",
+  "objects": [
+    {
+      "scope": "公开教学样例，已知身份，不是独立盲测，不附模拟模型结果",
+      "museum": "The Metropolitan Museum of Art",
+      "object_id": "48607",
+      "accession_number": "18.61.4",
+      "object_url": "https://www.metmuseum.org/art/collection/search/48607",
+      "rights_url": "https://www.metmuseum.org/policies/image-resources",
+      "license": "CC0 / object page marked Public Domain",
+      "retrieved_on": "2026-09-27",
+      "catalog_record": "馆方记载：清代康熙早期，景德镇釉下钴蓝瓷；此记录不等于本项目已鉴定",
+      "images": [
+        {
+          "file": "met-48607.jpg",
+          "view": "整体正面（公开图，视角声明）",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321545/main-image",
+          "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc"
+        },
+        {
+          "file": "met-48607-view2.jpg",
+          "view": "另一面整体（公开图，视角声明）",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321524/main-image",
+          "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+        }
+      ],
+      "workflow": "museum",
+      "catalogue": {
+        "inventory_number": "18.61.4",
+        "object_name": "山水纹花觚（馆方名称译记）",
+        "object_type": "花觚（馆方记载）",
+        "material": "瓷、釉下青花（馆方记载）",
+        "requested_output": "记录器形、纹饰与可见部位，明确照片不能支持的判断。"
+      }
+    },
+    {
+      "scope": "公开教学样例，已知身份，不是独立盲测，不附模拟模型结果",
+      "museum": "The Metropolitan Museum of Art",
+      "object_id": "51185",
+      "accession_number": "79.2.1202a, b",
+      "object_url": "https://www.metmuseum.org/art/collection/search/51185",
+      "rights_url": "https://www.metmuseum.org/policies/image-resources",
+      "license": "CC0 / object page marked Public Domain",
+      "retrieved_on": "2026-09-28",
+      "workflow": "collection",
+      "catalogue": {
+        "inventory_number": "79.2.1202a, b",
+        "object_name": "青花镂空茶壶（馆方名称译记）",
+        "object_type": "茶壶（馆方记载）",
+        "material": "瓷、镂空装饰、釉下青花（馆方记载）",
+        "dimensions": "高13.3厘米、宽17.8厘米；馆方页面记载，未重新测量",
+        "requested_output": "区分公开馆藏资料与本项目观察，不生成独立断代或真伪认证。"
+      },
+      "images": [
+        {
+          "file": "met-51185.jpg",
+          "view": "整体公开图（视角声明）",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/51185/201874/main-image",
+          "sha256": "01401537e5591a07f4c5a6b3f24ae8c37def39d5e0dae71275c0edce6154839b"
+        }
+      ]
+    },
+    {
+      "scope": "公开教学样例，已知身份，不是独立盲测，不附模拟模型结果",
+      "museum": "The Metropolitan Museum of Art",
+      "object_id": "50839",
+      "accession_number": "61.200.30",
+      "object_url": "https://www.metmuseum.org/art/collection/search/50839",
+      "rights_url": "https://www.metmuseum.org/policies/image-resources",
+      "license": "CC0 / object page marked Public Domain",
+      "retrieved_on": "2026-09-28",
+      "workflow": "auction",
+      "catalogue": {
+        "inventory_number": "61.200.30",
+        "object_name": "五彩耕织图瓶（馆方名称译记）",
+        "object_type": "瓶（馆方记载）",
+        "material": "瓷、釉上多彩珐琅；景德镇器（馆方记载）",
+        "dimensions": "高45.7厘米、直径18.1厘米；馆方页面记载，未重新测量",
+        "requested_output": "区分公开馆藏资料与本项目观察，不生成独立断代或真伪认证。"
+      },
+      "images": [
+        {
+          "file": "met-50839.jpg",
+          "view": "整体公开图（视角声明）",
+          "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/50839/189935/main-image",
+          "sha256": "1cc100a71af987f0bcbb05633fafb719d212bc0e9112e8ba0c80756a11e65c8a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="无需上传，直接体验瓷证的公开教学案卷：编目、图像观察、资料定位、Skills 阅读、补证与版本比较、人工复核及案卷导出。">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>瓷证 · 完整体验</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%23192e40'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-size='26' fill='%23d5bb83'%3E瓷%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="返回瓷证项目主页"><span class="brand-mark">瓷</span><span>瓷证<small>CIZHENG · EVIDENCE WORKBENCH</small></span></a>
+    <nav aria-label="网站导航"><a href="./">项目介绍</a><a class="current" href="demo.html" aria-current="page">完整体验</a><a href="https://github.com/dingyucanada/cizheng-agent-skills" target="_blank" rel="noreferrer">开源仓库 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <div class="teaching-banner"><span class="status-dot"></span><strong>公开教学体验</strong><span>真实公开图像 · 项目编写研究示例 · 本次未调用 AI 模型</span><button id="scope-button" type="button">体验说明</button></div>
+  <div id="app" aria-busy="true"><main class="loading-screen" id="main-content"><div class="loading-mark">瓷</div><h1>正在准备三套完整教学案卷</h1><p>所有图片、资料和研究示例已预置，无需上传。</p></main></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="scope-dialog" aria-labelledby="scope-title"><div class="dialog-head"><span class="eyebrow">EXPERIENCE SCOPE</span><button type="button" class="icon-button" data-close-dialog aria-label="关闭说明">×</button></div><h2 id="scope-title">可以完成整套工作流程</h2><p>选择一套公开教学案卷，即可编辑编目、查看图像区域、阅读定位资料与 Skills、纳入预置补充证据、比较真实编辑版本、记录人工复核，并下载包含原图的案卷包。</p><div class="notice-box">图像来自大都会艺术博物馆公开馆藏；研究发现、观察与补证示例由项目人工编写。当前网页没有调用模型，不是独立鉴定、真实委托、盲测结果或专家签署。每份导出均携带 <code>ai_inference_performed=false</code>。</div><p>浏览器保留你的编辑；此页面不会上传图像、发送文本或请求 API 凭证。静态体验与可部署的完整后台分别交付。Spark 与 StepFun 的实际运行记录会在接通服务并完成验证后另行发布。</p><button type="button" class="button primary" data-close-dialog>开始体验</button></dialog>
+  <noscript><p class="notice-box">完整体验需要启用 JavaScript。项目介绍与开源仓库仍可阅读。</p></noscript>
+  <script type="module" src="demo.js"></script>
+</body>
+</html>
