@@ -1,0 +1,107 @@
+{
+  "schema": "cizheng-report-source-index.v1",
+  "scope": "Project report editorial text plus actual round12 saved model outputs; not expert appraisal. Model quotes kept distinct from catalogue summaries and editorial comments. Fixed sources are pinned to6385789; new deployment data is independent.",
+  "source_revision": "6385789",
+  "files": [
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/initial/final-run.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c",
+      "bytes": 169171,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/revision/final-run.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e",
+      "bytes": 191831,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/text-review/executed.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "0df39212a13543e853aff7785902e54897791cb48e89d37737bb024c2c66b5ea",
+      "bytes": 6240,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/knowledge/source-1.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "bytes": 2476,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/authenticity-audit.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "05920ec5e98bd9efa1c9126f3335fb6da6dc969159e09ffe1c4f8c3c5736efba",
+      "bytes": 9574,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/quality-limitations-audit.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "0c181bc685cfbb23ae3924e06d5115125d330a44d5c245a7c3264921e0b0fd03",
+      "bytes": 2772,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/native-binding.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7",
+      "bytes": 10240,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/engineering-checks-v07.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "3b4f9c390feaaf7adc8e1b0eb786295d939db202f78a7372da535cce679829f2",
+      "bytes": 17007,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/candidate-32b.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "76764493c3e426cc95751c9b2256d87326d4ff36949d550ca62b12d0ae1dc302",
+      "bytes": 12055,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-03/nsight-summary.json",
+      "source_revision": "6385789",
+      "actual_source_sha256": "2523314f338bae01562bfc9307bb7b2bd236c1186aa29b3aebeda7404e34367e",
+      "bytes": 1055,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "site/assets/met-48607.jpg",
+      "source_revision": "6385789",
+      "actual_source_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "bytes": 107321,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "site/assets/met-48607-view2.jpg",
+      "source_revision": "6385789",
+      "actual_source_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "bytes": 109880,
+      "current_bytes_equal_pinned_revision": true
+    },
+    {
+      "path": "site/assets/workbench-v06.jpg",
+      "source_revision": "6385789",
+      "actual_source_sha256": "3600a41a3426fff6ecd14d649ee8ee9bcee954c19abdffa064d209dafc4487da",
+      "bytes": 83416,
+      "current_bytes_equal_pinned_revision": true
+    }
+  ],
+  "actual_photos": "Real Met Open Access same-object images; no generated images or recreated model evidence",
+  "technical_workflow_completed": true,
+  "task_source_checks_passed": true,
+  "professional_quality_passed": false,
+  "expert_validation_performed": false,
+  "image_ROIs": "CSS overlays from actual normalized regions; original JPEG bytes unchanged; semantic accuracy not expert validated",
+  "new_deployment_status": "pending, independent JSON; no claim that planned services are deployed",
+  "report_page_calls_model": false,
+  "teaching_calls_model": false
+}

@@ -1,0 +1,68 @@
+{
+  "schema": "cizheng.nim-distribution-check.v1",
+  "checked_at": "2026-09-28T19:55:23.849664+00:00",
+  "state": "not_deployed",
+  "runtime_ready": false,
+  "successful_model_requests": 0,
+  "registry_attempts": [
+    {
+      "image": "nvcr.io/nim/nvidia/model-free-nim:2.0.13",
+      "exit_code": 1,
+      "outcome": "official_registry_denied_china_distribution",
+      "authorization_supplied": false
+    },
+    {
+      "image": "nvcr.io/nim/nvidia/model-free-nim:2.0.12",
+      "exit_code": 1,
+      "outcome": "official_registry_denied_china_distribution",
+      "authorization_supplied": false
+    }
+  ],
+  "registry_original_log_sha256": "aff4da305c12fff684700673c00266e619876658d77a5cd522f716a3421fef9d",
+  "registry_checked_at": "2026-09-28T19:36:14.000230+00:00",
+  "distributor_directory": "https://catalog.ngc.nvidia.com/china-nim-distributors",
+  "portal_checks": [
+    {
+      "url": "https://cgc.chancloud.com/container/model_free_nim",
+      "observed_entry": "资源下载",
+      "outcome": "login_required",
+      "arm64_image_verified": false
+    },
+    {
+      "url": "https://cgc.chancloud.com/container/vLLM%20Model-Free%20NIM",
+      "observed_entry": "资源下载",
+      "outcome": "login_required",
+      "observed_version": "3.0.1",
+      "observed_architecture": "AMD64",
+      "arm64_image_verified": false
+    },
+    {
+      "url": "https://nim.turingcm.com/resource/nvidia/sglang-model-free-nim/modelcard?id=-38&from=ModelsList",
+      "observed_entry": "本地部署",
+      "outcome": "login_dialog_required",
+      "arm64_image_verified": false
+    }
+  ],
+  "portal_original_record_sha256": [
+    {
+      "name": "cizheng-v08-cnd-detail.json",
+      "sha256": "b8af27708a9d2b210ab144d839ea3d794b3ea0510559008ac8e245023e1b733c"
+    },
+    {
+      "name": "cizheng-v08-cnd-local.json",
+      "sha256": "92ee9f1c96d1f54fd5afedbee54dcf9a250ae8be1b5d201d8e36f5fade9e8827"
+    }
+  ],
+  "reason": "Spark 的官方 NGC 请求返回中国区 CND 分发限制；公开中国区门户的下载或部署入口要求登录授权，现有配置未提供该授权。",
+  "required_to_resume": "组委会或 NVIDIA 官方中国区合作伙伴提供的适用 ARM64 / GB10 镜像包或授权下载方式；仍需校验镜像、运行健康与真实请求。",
+  "not_performed": [
+    "account_creation",
+    "account_login",
+    "agreement_acceptance",
+    "regional_access_bypass",
+    "unofficial_mirror_pull",
+    "container_start",
+    "model_inference"
+  ],
+  "scope": "分发与授权检查；不是 NIM 运行、平台不兼容或模型质量判定。"
+}

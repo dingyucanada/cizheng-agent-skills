@@ -1,0 +1,46 @@
+{
+  "schema": "cizheng-report-deployment.v1",
+  "deployment_audit": {
+    "state": "partial",
+    "checked_at": "2026-09-28T20:12:36.299343+00:00",
+    "summary": "完整图文报告已制作。现有 Spark 视觉、案卷、NAT 与批准文字审查保持运行；新增 TensorRT-LLM 和 NVIDIA 嵌入/cuVS 检索尚在准备，未宣布完成。NIM 官方分发和门户授权检查已有实际回执。",
+    "components": [
+      {
+        "name": "现有 Spark 视觉与案卷服务",
+        "state": "ready",
+        "detail": "本次只读健康检查均 HTTP 200；8B 视觉就绪，后端 0.7.0，NAT 与文字审查配置保持。"
+      },
+      {
+        "name": "NIM",
+        "state": "not_deployed",
+        "detail": "官方 NGC 返回中国区 CND 限制；官方伙伴下载或部署入口要求登录授权。未拉取完整镜像、未启动。",
+        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/v08-deployment/nim-distribution-check.json"
+      },
+      {
+        "name": "TensorRT-LLM",
+        "state": "pending",
+        "detail": "官方 ARM64 1.3.0rc13 镜像与独立 4B 文字模型下载、校验中；尚未进行 GPU 模型加载与文本请求。"
+      },
+      {
+        "name": "NVIDIA 嵌入模型 + cuVS Retriever",
+        "state": "pending",
+        "detail": "固定官方 1B 模型与 GPU 向量检索环境准备中；未完成模型加载、实时检索或主流程切换。"
+      }
+    ]
+  },
+  "fixed_case": {
+    "round": 12,
+    "technical_workflow_completed": true,
+    "task_source_checks_passed": true,
+    "professional_quality_passed": false,
+    "expert_validation_performed": false,
+    "source_revision": "6385789"
+  },
+  "pdf": {
+    "state": "ready",
+    "href": "assets/cizheng-report-v08.pdf",
+    "sha256": "9855715bc5da0e3d7022f3fb8bde19690d5167910c00f68e9343bfbf0126bb0f",
+    "bytes": 3242688,
+    "pages": 15
+  }
+}

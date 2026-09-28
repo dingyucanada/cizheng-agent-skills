@@ -2,9 +2,13 @@
 
 <h1 align="center">瓷证 CIZHENG</h1>
 <p align="center"><strong>器物有来处，研究有凭据。</strong><br>面向博物馆、收藏者与拍卖从业者的陶瓷证据研究工作台</p>
-<p align="center"><a href="https://dingyucanada.github.io/cizheng-agent-skills/">产品主页</a> · <a href="https://dingyucanada.github.io/cizheng-agent-skills/demo.html">免上传完整体验</a> · <a href="docs/user-guide.md">使用手册</a> · <a href="https://github.com/dingyucanada/cizheng-agent-skills/releases">版本与下载</a></p>
+<p align="center"><strong><a href="https://dingyucanada.github.io/cizheng-agent-skills/report.html">阅读完整图文报告书</a></strong> · <a href="https://dingyucanada.github.io/cizheng-agent-skills/">产品主页</a> · <a href="https://dingyucanada.github.io/cizheng-agent-skills/demo.html">免上传完整体验</a> · <a href="docs/user-guide.md">使用手册</a> · <a href="https://github.com/dingyucanada/cizheng-agent-skills/releases">版本与下载</a></p>
 
 把器物原图、观察记录、来源凭据、专业资料和研究意见，组织成能够回到原始证据的案卷。先观察和定位，再查资料并提出竞争解释，补证后比较版本，由人工复核并导出。瓷证让研究者看清一项意见从哪里来、缺少什么，以及为什么改变。
+
+**[完整图文报告书 →](https://dingyucanada.github.io/cizheng-agent-skills/report.html)** 以真实馆藏照片、原生架构和流程图，完整介绍业务、七个 Skills、证据链与第 12 轮实际 AI 案卷。逐项保留模型观察、初稿、批准文字审查、修订依据和三个未解决项的原始理由，明确区分馆方资料、模型原话、项目编辑说明与免调用教学。第 12 轮技术流程完成，专业质量仍未通过；本次新增部署核验由独立状态数据更新。提供逐页核对的 A4 PDF，与网页共享固定原件；点击报告页顶部即可下载。
+
+[![完整图文报告书封面实际网页截图：专业蓝白版式、两张真实馆藏照片与第12轮实际AI案例入口](site/report-assets/report-cover.jpg)](https://dingyucanada.github.io/cizheng-agent-skills/report.html)
 
 **立即试用：** [公开教学体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html)预置三套完整案卷，无需注册或上传。支持实际编辑、证据定位、补证比较、复核与导出；材料使用真实公开馆藏图像，研究示例由项目编写，**此网页不调用 AI 模型**。
 
