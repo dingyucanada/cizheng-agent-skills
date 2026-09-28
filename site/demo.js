@@ -12,10 +12,60 @@ const statusLabels = {supported:'有资料支撑',limited:'证据有限',contrad
 const reviewLabels = {not_reviewed:'尚未记录人工复核',reviewed:'已记录使用者复核意见',needs_more_evidence:'使用者要求继续补证',stale:'案卷已改变，复核记录需更新'};
 const skillLabels = {'ceramic-route':'预审与任务路由','ceramic-research-record':'陶瓷研究记录','bluewhite-attribution-test':'青花归属检验','condition-hypothesis-test':'状况假设核查','provenance-evidence-audit':'来源证据审计','documentary-evidence-audit':'文献证据核查','evidence-revise':'补证与修订'};
 let cases = [], skills = [], current = null, state = null, stage = 0, selectedImage = '', selectedObservation = '', selectedDoc = '', selectedSkill = '', citationHighlight = null, highlightedSource = '', zoom = 1, drawMode = false, draftRegion = null, busy = false, snapshotFrom = null, snapshotTo = null, toastTimer;
-let observationEditingID = null, observationDraft = null;
+let observationEditingID = null, observationDraft = null, observationBaseline = null;
+
+function formValues(form) {
+  return Object.fromEntries(Array.from(new FormData(form),([key,value])=>[key,String(value)]));
+}
+function unsavedForms() {
+  if (!current || !state) return [];
+  const dirty=[];
+  const compare=(id,label,expected)=>{
+    const form=$('#'+id);if(!form)return;
+    const values=formValues(form);
+    if(Object.keys(values).some(key=>values[key]!==String(expected[key] ?? ''))) dirty.push({id,label,values});
+  };
+  compare('catalogue-form','编目',state.catalogue);
+  compare('notes-form','工作备注',{notes:state.notes});
+  if(observationBaseline) compare('observation-form','观察',observationBaseline);
+  // not_reviewed/stale are record states; the visible form starts at "reviewed".
+  compare('review-form','复核意见',{name:state.review.name || '',notes:state.review.notes || '',
+    status:state.review.status==='needs_more_evidence'?'needs_more_evidence':'reviewed'});
+  return dirty;
+}
+// Own this dialog outside #app so an unrelated workbench render cannot remove it.
+const unsavedDialog=document.createElement('dialog');
+unsavedDialog.id='unsaved-dialog';unsavedDialog.setAttribute('aria-labelledby','unsaved-title');
+unsavedDialog.setAttribute('aria-describedby','unsaved-description');
+unsavedDialog.innerHTML=`<div class="dialog-head"><span class="eyebrow">UNSAVED CHANGES</span></div>
+  <h2 id="unsaved-title">还有未保存的修改</h2><p id="unsaved-description"></p>
+  <div class="form-actions" style="flex-wrap:wrap"><button type="button" class="button primary" data-keep-editing autofocus>继续编辑</button>
+  <button type="button" class="button" data-discard-unsaved>放弃未保存内容并继续</button></div>`;
+document.body.append(unsavedDialog);
+let pendingNavigation=null;
+function finishNavigation(discard) {
+  const pending=pendingNavigation;if(!pending)return;
+  pendingNavigation=null;unsavedDialog.close();
+  if(discard)pending.action();
+  else {pending.cancel?.();if(pending.returnFocus?.isConnected)pending.returnFocus.focus();}
+}
+unsavedDialog.querySelector('[data-keep-editing]').addEventListener('click',()=>finishNavigation(false));
+unsavedDialog.querySelector('[data-discard-unsaved]').addEventListener('click',()=>finishNavigation(true));
+unsavedDialog.addEventListener('cancel',event=>{event.preventDefault();finishNavigation(false);});
+unsavedDialog.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();finishNavigation(false);}});
+unsavedDialog.addEventListener('close',()=>{if(!unsavedDialog.open)finishNavigation(false);});
+function allowLeaving(action,cancel) {
+  const dirty=unsavedForms();
+  if(!dirty.length){action();return true;}
+  if(pendingNavigation)return false;
+  pendingNavigation={action,cancel,returnFocus:document.activeElement};
+  unsavedDialog.querySelector('#unsaved-description').textContent=`当前有未保存的${dirty.map(form=>form.label).join('、')}。继续编辑会保留输入；放弃后才会离开当前内容。`;
+  unsavedDialog.showModal();unsavedDialog.querySelector('[data-keep-editing]').focus();
+  return false;
+}
 
 function clearObservationEditor() {
-  observationEditingID=null; observationDraft=null; drawMode=false; draftRegion=null;
+  observationEditingID=null; observationDraft=null; observationBaseline=null; drawMode=false; draftRegion=null;
 }
 function captureObservationDraft() {
   const form=$('#observation-form'); if (!form || !current) return;
@@ -42,10 +92,14 @@ function refreshAnnotationDraft() {
 function editObservation(id) {
   const observation=state.observations.find(o=>o.id===id && o.image_id===selectedImage && o.origin==='browser_user');
   if (!observation) return;
-  observationEditingID=id; selectedObservation=id; drawMode=false; draftRegion=normalRegion(observation.region);
-  observationDraft={image_id:selectedImage,title:observation.title || '',text:observation.text || '',
-    bounds:Object.fromEntries(Object.entries(draftRegion).map(([key,value])=>[key,String(Math.round(value*100))]))};
-  render(); $('#observation-title')?.focus();
+  if(observationEditingID===id){$('#observation-title')?.focus();return;}
+  return allowLeaving(()=>{
+    clearObservationEditor();
+    observationEditingID=id; selectedObservation=id; drawMode=false; draftRegion=normalRegion(observation.region);
+    observationDraft={image_id:selectedImage,title:observation.title || '',text:observation.text || '',
+      bounds:Object.fromEntries(Object.entries(draftRegion).map(([key,value])=>[key,String(Math.round(value*100))]))};
+    render(); $('#observation-title')?.focus();
+  });
 }
 
 function toast(message) {
@@ -60,7 +114,16 @@ function getStored(pack) {
   try { return restoreState(pack,JSON.parse(localStorage.getItem(STORAGE_PREFIX + pack.id) || 'null')); }
   catch { return createState(pack); }
 }
-function commit(patch,action) { state = updateState(state,patch,action); snapshotTo=null; save(); render(); }
+function commit(patch,action,savedFormID) {
+  // Preserve the other visible form's draft when one form saves and rerenders.
+  // These values stay in the browser form; they are not saved automatically.
+  const otherDrafts=unsavedForms().filter(form=>form.id!==savedFormID);
+  state = updateState(state,patch,action); snapshotTo=null; save(); render();
+  for(const draft of otherDrafts){
+    const form=$('#'+draft.id);if(!form)continue;
+    for(const [name,value] of Object.entries(draft.values)){const field=form.elements.namedItem(name);if(field)field.value=value;}
+  }
+}
 function visibleImages() { return current.images.filter(i=>isAvailable(i,state)); }
 function visibleDocuments() { return current.documents.filter(d=>isAvailable(d,state)); }
 function objectURL() { return current.object_url || current.object?.url || ''; }
@@ -73,17 +136,22 @@ function field(name,label,type='input',wide=false) {
   return `<div class="field${wide?' wide':''}"><label for="field-${name}">${label}</label>${type==='textarea'?`<textarea id="field-${name}" name="${name}" maxlength="2500">${value}</textarea>`:`<input id="field-${name}" name="${name}" value="${value}" maxlength="500">`}</div>`;
 }
 function selectCase(id,withToast=false) {
-  const pack = cases.find(c=>c.id===id); if (!pack) return;
-  clearObservationEditor();
-  current = pack; state = getStored(pack); stage = 0; selectedImage = visibleImages()[0]?.id || ''; selectedDoc = visibleDocuments()[0]?.id || ''; selectedSkill = skills[0]?.id || ''; selectedObservation = ''; citationHighlight = null; highlightedSource = ''; zoom = 1; snapshotFrom = null; snapshotTo = null;
-  history.replaceState(null,'',caseURL(location.href, pack.id)); render();
-  if (withToast) toast('已打开完整教学案卷，图片与资料已准备好。');
+  const pack = cases.find(c=>c.id===id); if (!pack) return false;
+  if(current?.id===id)return true;
+  return allowLeaving(()=>{
+    clearObservationEditor();
+    current = pack; state = getStored(pack); stage = 0; selectedImage = visibleImages()[0]?.id || ''; selectedDoc = visibleDocuments()[0]?.id || ''; selectedSkill = skills[0]?.id || ''; selectedObservation = ''; citationHighlight = null; highlightedSource = ''; zoom = 1; snapshotFrom = null; snapshotTo = null;
+    history.replaceState(null,'',caseURL(location.href, pack.id)); render();
+    if (withToast) toast('已打开完整教学案卷，图片与资料已准备好。');
+  },()=>{const selector=$('#case-switch');if(selector && current)selector.value=current.id;});
 }
 function setStage(next) {
   const target=Math.max(0,Math.min(stageNames.length-1,Number(next)));
-  if (target!==stage) clearObservationEditor(); else captureObservationDraft();
-  stage=target;
-  render(); $('#main-content')?.focus({preventScroll:true}); window.scrollTo({top:0,behavior:'smooth'});
+  if(target===stage)return;
+  return allowLeaving(()=>{
+    clearObservationEditor();stage=target;
+    render(); $('#main-content')?.focus({preventScroll:true}); window.scrollTo({top:0,behavior:'smooth'});
+  });
 }
 function chooser() {
   return `<main class="chooser" id="main-content" tabindex="-1"><div class="chooser-title"><div><span class="eyebrow">A COMPLETE DOSSIER, READY TO EXPLORE</span><h1>从一件器物，走完整条证据链。</h1><p>选择你的业务场景。每套案卷已准备好公开图像、定位资料、观察与研究示例；无需上传，也无需配置模型。</p></div><span class="vertical-note">观器 · 据证 · 留痕</span></div><div class="choice-grid">${cases.map((pack,index)=>`<article class="case-card"><div class="case-cover"><img src="${e(pack.images[0]?.file)}" alt="${e(pack.title)}的公开馆藏图像" loading="${index===0?'eager':'lazy'}"><span class="role-tag">${e(roleLabels[pack.role || pack.workflow])}场景</span></div><div class="case-card-body"><span class="eyebrow">${e(roleEnglish[pack.role || pack.workflow])}</span><h2>${e(pack.title)}</h2><p>${e(roleTasks[pack.role || pack.workflow])}</p><div class="case-materials"><span>${pack.images.length} 张公开图像</span><span>${pack.documents.length} 份预置资料</span><span>${pack.findings.length} 项研究示例</span></div><button class="button primary block" data-open-case="${e(pack.id)}">进入完整体验 <span aria-hidden="true">→</span></button></div></article>`).join('')}</div><div class="chooser-how"><div><h3>三分钟体验，所有材料都在案卷里</h3><p>先查看观察与资料，再打开方法包和研究示例；纳入预置补充件后比较版本，填写自己的复核意见，最后下载包含图像、原文和校验清单的案卷包。研究示例由项目人工编写，页面不会生成鉴定结论。</p></div><div class="process-inline">观察 → 据证 → 补证 → 复核 → 交接</div></div><p class="case-footnote">三套案卷均使用 The Metropolitan Museum of Art 已知身份的公开馆藏；是不同业务视角的教学材料，不代表馆方、真实收藏委托或实际拍卖项目。</p></main>`;
@@ -95,6 +163,7 @@ function render() {
   const currentReview = reviewLabels[state.review.status] || reviewLabels.not_reviewed;
   app.innerHTML=`<div class="shell"><aside class="sidebar" aria-label="工作流程"><p class="sidebar-label">CURRENT TEACHING DOSSIER</p><label class="tiny" for="case-switch"><span class="sidebar-label">切换完整案卷</span></label><select id="case-switch" class="case-switch">${cases.map(pack=>`<option value="${e(pack.id)}"${attrs(pack.id===current.id)}>${e(roleLabels[pack.role || pack.workflow])} · ${e(pack.title)}</option>`).join('')}</select><p class="case-accession">MET ${e(accession())}<br>公开教学案卷 · 使用者编辑</p><nav class="stage-nav" aria-label="案卷步骤">${stageNames.map((name,index)=>`<button class="stage-button${stage===index?' active':''}" data-stage="${index}"${stage===index?' aria-current="step"':''}><span class="stage-number">0${index+1}</span>${name}</button>`).join('')}</nav><div class="sidebar-footer"><span class="eyebrow">BROWSER-LOCAL WORKSPACE</span><p>编辑保存在此浏览器。没有图像上传、文本外发或模型调用。</p><button data-reset>重置当前教学案卷</button><p><a href="#" data-show-chooser>返回场景选择</a></p></div></aside><main class="workspace main-focus" id="main-content" tabindex="-1"><div class="work-head"><div><span class="eyebrow">${e(roleEnglish[role()])} / GUIDED TEACHING</span><h1>${e(state.catalogue.object_name || current.title)}</h1><p>MET ${e(accession())} · ${e(roleLabels[role()])}业务视角 · 教学材料</p></div><div class="work-head-actions"><div class="case-state">真实编辑版本<span class="revision-num">r${state.revision}</span></div><button class="button text small" data-reset>重置当前案卷</button></div></div>${stages[stage]()}<footer class="work-footer"><span>${e(currentReview)}<br>编辑仅存于浏览器 · 未调用 AI 模型</span><div>${stage>0?`<button class="button small" data-stage="${stage-1}">← ${stageNames[stage-1]}</button>`:''} ${stage<5?`<button class="button primary small" data-stage="${stage+1}">${stageNames[stage+1]} →</button>`:''}</div></footer></main></div>`;
   if (stage===1) attachDrawing();
+  if(stage===1 && !observationBaseline){const form=$('#observation-form');if(form)observationBaseline=formValues(form);}
 }
 function heading(kicker,title,description) {return `<div class="stage-heading"><div><div class="stage-kicker">${kicker}</div><h2>${title}</h2><p>${description}</p></div></div>`;}
 function catalogueView() {
@@ -213,6 +282,7 @@ function attachDrawing() {
 function followCitation(findingID,index) {
   const f=findingsFor(current,state).find(f=>f.id===findingID);
   const citation=f?.citations?.[Number(index)];if(!citation)return;
+  return allowLeaving(()=>{
   clearObservationEditor();
   const target=citation.target_id || citation.ref_id;
   if(citation.kind==='image'){
@@ -226,6 +296,7 @@ function followCitation(findingID,index) {
     citationHighlight={doc:target,start,end};stage=2;render();
   }else if(citation.kind==='source'){highlightedSource=target;stage=2;render();setTimeout(()=>document.getElementById('source-'+target)?.scrollIntoView({behavior:'smooth',block:'center'}),40);}
   $('#main-content')?.focus({preventScroll:true});
+  });
 }
 async function loadAsset(path) {
   if(!/^assets\/[a-zA-Z0-9._-]+$/.test(path))throw new Error('公开图像路径不合法。');
@@ -257,11 +328,11 @@ async function exportCase(format) {
 app.addEventListener('click',event=>{
   const button=event.target.closest('button,a[data-show-chooser]');if(!button)return;
   if(button.dataset.openCase){selectCase(button.dataset.openCase,true);return;}
-  if(button.hasAttribute('data-show-chooser')){event.preventDefault();clearObservationEditor();current=null;history.replaceState(null,'',location.pathname+location.search);render();return;}
+  if(button.hasAttribute('data-show-chooser')){event.preventDefault();allowLeaving(()=>{clearObservationEditor();current=null;history.replaceState(null,'',caseURL(location.href,''));render();});return;}
   if(button.dataset.stage!==undefined){setStage(button.dataset.stage);return;}
-  if(button.dataset.image){if(button.dataset.image!==selectedImage){clearObservationEditor();selectedObservation='';}else captureObservationDraft();selectedImage=button.dataset.image;zoom=1;render();return;}
+  if(button.dataset.image){const changeImage=()=>{clearObservationEditor();selectedObservation='';selectedImage=button.dataset.image;zoom=1;render();};if(button.dataset.image!==selectedImage)allowLeaving(changeImage);else{captureObservationDraft();zoom=1;render();}return;}
   if(button.dataset.editObservation){editObservation(button.dataset.editObservation);return;}
-  if(button.hasAttribute('data-cancel-observation-edit')){clearObservationEditor();render();toast('已取消修订。');return;}
+  if(button.hasAttribute('data-cancel-observation-edit')){allowLeaving(()=>{clearObservationEditor();render();toast('已取消修订。');});return;}
   if(button.dataset.observation){captureObservationDraft();selectedObservation=button.dataset.observation;draftRegion=observationEditingID?regionFromDraft():null;render();return;}
   if(button.dataset.zoom){captureObservationDraft();zoom=Math.max(.5,Math.min(3,zoom+Number(button.dataset.zoom)));render();return;}
   if(button.hasAttribute('data-fit')){captureObservationDraft();zoom=1;render();return;}
@@ -285,8 +356,8 @@ app.addEventListener('input',event=>{
 });
 app.addEventListener('submit',event=>{
   event.preventDefault();const form=event.target;if(!form.reportValidity())return;const data=new FormData(form);
-  if(form.id==='catalogue-form'){const catalogue={...state.catalogue};for(const key of ['inventory_number','object_name','object_type','material','dimensions','requested_output'])catalogue[key]=String(data.get(key) || '').trim();commit({catalogue},'保存使用者编目修改');toast('已保存编目，产生新的真实编辑版本。');}
-  else if(form.id==='notes-form'){commit({notes:String(data.get('notes') || '').trim()},'保存使用者工作备注');toast('工作备注已保存。');}
+  if(form.id==='catalogue-form'){const catalogue={...state.catalogue};for(const key of ['inventory_number','object_name','object_type','material','dimensions','requested_output'])catalogue[key]=String(data.get(key) || '').trim();commit({catalogue},'保存使用者编目修改',form.id);toast('已保存编目，产生新的真实编辑版本。');}
+  else if(form.id==='notes-form'){commit({notes:String(data.get('notes') || '').trim()},'保存使用者工作备注',form.id);toast('工作备注已保存。');}
   else if(form.id==='observation-form'){
     const region={};for(const key of ['x','y','width','height'])region[key]=Number(data.get(key))/100;
     if(!Object.values(region).every(Number.isFinite) || region.x<0 || region.y<0 || region.x+region.width>1.001 || region.y+region.height>1.001 || region.width<=0 || region.height<=0){toast('区域超过照片范围，请检查 X、Y、宽与高。');return;}
@@ -297,12 +368,15 @@ app.addEventListener('submit',event=>{
       if(!original){clearObservationEditor();render();toast('这条观察不能通过使用者编辑器修订。');return;}
       const observation={...original,title,text,region,updated_at:new Date().toISOString()};
       const observations=state.observations.map(o=>o.id===original.id?observation:o);
-      selectedObservation=original.id;clearObservationEditor();commit({observations},'修订使用者定位观察');toast('已保存观察的新版本，先前内容保留在历史中。');
+      selectedObservation=original.id;clearObservationEditor();commit({observations},'修订使用者定位观察',form.id);toast('已保存观察的新版本，先前内容保留在历史中。');
     }else{
       const id='user-observation-'+Date.now().toString(36);const observation={id,image_id:selectedImage,title,text,region,origin:'browser_user',ai_inference_performed:false};
-      selectedObservation=id;clearObservationEditor();commit({observations:[...state.observations,observation]},'添加使用者定位观察');toast('区域观察已保存，保持为使用者记录。');
+      selectedObservation=id;clearObservationEditor();commit({observations:[...state.observations,observation]},'添加使用者定位观察',form.id);toast('区域观察已保存，保持为使用者记录。');
     }
-  }else if(form.id==='review-form'){const review={status:String(data.get('status')),name:String(data.get('name')).trim(),notes:String(data.get('notes')).trim(),at:new Date().toISOString(),verified_identity:false};commit({review},'保存使用者人工复核记录');toast('已记录人工复核意见；身份未验证，非专家签署。');}
+  }else if(form.id==='review-form'){const review={status:String(data.get('status')),name:String(data.get('name')).trim(),notes:String(data.get('notes')).trim(),at:new Date().toISOString(),verified_identity:false};commit({review},'保存使用者人工复核记录',form.id);toast('已记录人工复核意见；身份未验证，非专家签署。');}
+});
+window.addEventListener('beforeunload',event=>{
+  if(unsavedForms().length){event.preventDefault();event.returnValue='';}
 });
 $('#scope-button').addEventListener('click',()=>$('#scope-dialog').showModal());
 document.querySelectorAll('[data-close-dialog]').forEach(button=>button.addEventListener('click',()=>$('#scope-dialog').close()));
