@@ -1,0 +1,146 @@
+{
+  "schema": "cizheng-media-manifest.v2",
+  "as_of": "2026-09-29",
+  "title": "瓷证 v0.7 · 最终媒体清单",
+  "technical_workflow": "actual full-workflow-v07-12 completed; both reports waiting_evidence; NAT verifies reference identity",
+  "professional_quality_passed": false,
+  "expert_validation": "not performed; expert samples not imported",
+  "current_local_model": "Single Spark8B PyTorch CUDA BF16; 32B candidate actual pilot failed region validation and is not adopted",
+  "nvidia_services": "Official vLLM ARM64 image pull incomplete; NIM, TRT-LLM and Retriever not deployed",
+  "development_period": "2026-09-25 through 2026-09-29; ten article chapters, not ten elapsed days",
+  "artifacts": [
+    {
+      "path": "site/assets/cizheng-pitch-v07.pptx",
+      "bytes": 896709,
+      "sha256": "18b29ef314945f101c3446a5da472b38b5a9801b83ce3d0e2dfe71f83c21c426"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07.pdf",
+      "bytes": 1317957,
+      "sha256": "449c46541550d6075bf932ebe410c602a0faacc9876a6ff04d07548de4ec53ae"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07-preview.html",
+      "bytes": 3511115,
+      "sha256": "a457292da9a6618b5f3029298465119c7459655b29f86bb212698c61f1ebb1c1"
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.mp4",
+      "bytes": 2933997,
+      "sha256": "40ff32dc5e3232a21fcd086c94488b9c8fe414147d55bdfc2a829d6a8fffa9c8"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-v07.mp4",
+      "bytes": 1661177,
+      "sha256": "aca010a6b9bdc33fd3e64eb1bdcc8f0dbb5752bff063bed21077f4fe6e380ab9"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-v07.json",
+      "bytes": 6589,
+      "sha256": "a8a9b555fe28dd6e5aec160f358cadc24ac1f76ac78040b0323aab024ad0693f"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-v07.srt",
+      "bytes": 682,
+      "sha256": "80693e78c53a22b7ca3b7ed7253b7c89354dbb3b5f79308db7d8656ead24a112"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-v07-poster.png",
+      "bytes": 540120,
+      "sha256": "d917b76b4094adbc36c77155931d8876b9a423094f60c01f38991e6b68c62aae"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-round11-v07.mp4",
+      "bytes": 1657026,
+      "sha256": "7c99d169fc06754c1ca15e86b1cd1438f75e6152b6c0f7fe8c38115d2fa561a9"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-round11-v07.json",
+      "bytes": 4145,
+      "sha256": "62b14be857e63931bbd704efc6671022a560afa60abd711f37cbacca79db9242"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-round11-v07.srt",
+      "bytes": 656,
+      "sha256": "8abfbb9b9d051d720b403ceaf90b931024d5c0200bf33d4006268210b528a635"
+    },
+    {
+      "path": "site/assets/cizheng-media-qa-v07.json",
+      "bytes": 1673,
+      "sha256": "a59e9047c6785a3f05447ec0b359a0d5050ff7401ca19f8587817685514d2af7"
+    },
+    {
+      "path": "docs/development-story.md",
+      "bytes": 20609,
+      "sha256": "60472c41586e776dd0383b5f5c3996faa4a7617490182d4655f25f737d609e34"
+    },
+    {
+      "path": "docs/demo-script.md",
+      "bytes": 3533,
+      "sha256": "d1580a4d056551e606a61612bc2ef120e4c0b76f6dc0b517e5d41b7d2da6e29f"
+    },
+    {
+      "path": "site/story.html",
+      "bytes": 27692,
+      "sha256": "36a6911f664ac3ac052045dd2087b914d91cb3637f42f871e7e92aecb4482474"
+    }
+  ],
+  "video_metadata": [
+    {
+      "path": "site/assets/cizheng-demo-v07.mp4",
+      "seconds": 163,
+      "frames": 4075,
+      "fps": 25,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "scope": "Actual teaching-interface screenshots and burned Chinese subtitles; not continuous screen recording or full AI process"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-v07.mp4",
+      "seconds": 80,
+      "frames": 2000,
+      "fps": 25,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "round": 12,
+      "scope": "Actual saved record reconstruction; technical complete and professional quality false"
+    },
+    {
+      "path": "site/assets/cizheng-ai-replay-round11-v07.mp4",
+      "seconds": 80,
+      "frames": 2000,
+      "fps": 25,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "round": 11,
+      "scope": "Actual failed revision saved-record reconstruction; independent archive"
+    }
+  ],
+  "qa": {
+    "schema": "cizheng-media-qa.v1",
+    "as_of": "2026-09-29",
+    "ppt_sha256": "18b29ef314945f101c3446a5da472b38b5a9801b83ce3d0e2dfe71f83c21c426",
+    "slide_count": 10,
+    "authoring": "@oai/artifact-tool; editable native shapes, text, connectors and model table",
+    "package_integrity": "pass; 0 findings",
+    "geometry_checks": "pass; 0 findings, 0 warnings",
+    "exact_final_ppt_first_party_import": "pass, 10 slides",
+    "actual_office_renderer": "LibreOfficeDev 26.8 AARCH64, headless Impress PDF export",
+    "font_environment": "Local fontconfig included installed macOS Hiragino Sans GB and Songti SC; fonts embedded in final PDF",
+    "actual_office_visual_review": "All 10 PDF-rendered pages viewed; no missing Chinese glyphs, clipping or text overlap",
+    "preview_kind": "Images rendered from actual final PPTX via Impress PDF; not HTML reconstruction",
+    "pdf_sha256": "449c46541550d6075bf932ebe410c602a0faacc9876a6ff04d07548de4ec53ae",
+    "microsoft_powerpoint_native_ui_checked": false,
+    "screen_lock": "No GUI operation or screen-lock bypass used",
+    "domain_limit": "Technical checks and citation identity checks do not establish ceramic claim truth, accuracy or expert approval",
+    "video_checks": "All 3 videos fully decoded successfully; actual round11/12 frame review completed; metadata and copied SHA match",
+    "video1_scope": "163s silent Chrome screenshots teaching case, not continuous screen recording or actual full AI run",
+    "video2_scope": "80s actual round12 saved-record reconstruction, not continuous screen recording; technical complete, quality false",
+    "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive"
+  },
+  "source_notes": "All 10 PPT slides contain source references in speaker notes; public evidence paths are repository-relative; no private host paths in this manifest",
+  "originals_preserved": "Original teaching video unchanged; original r8/r9 presentation revisions and round11 replay retained"
+}

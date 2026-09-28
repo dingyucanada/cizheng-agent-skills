@@ -1,0 +1,49 @@
+{
+  "source": {
+    "author": "瓷证项目原创摘要；原资料机构见来源卡",
+    "chunk_count": 1,
+    "created_at": 1790565889.1596918,
+    "document_id": "ksrc_51b142960ebb1cac53087148",
+    "document_revision": 1,
+    "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+    "expert_reviewed": false,
+    "id": "ksrc_51b142960ebb1cac53087148",
+    "imported_manually": true,
+    "institution": "The Metropolitan Museum of Art",
+    "limitations": [
+      "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+      "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+    ],
+    "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+    "review_required": true,
+    "review_status": "pending",
+    "revision": 1,
+    "rights": "authorized_text",
+    "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+    "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+    "source_type": "catalogue_record_summary",
+    "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+    "text_bytes": 320,
+    "text_sha256": "e2054eb895834aae86d08b8da00f18dc7dd3ba3fcaa246cd2cca89711caf2f7e",
+    "title": "山水纹花觚的馆藏编目参照",
+    "updated_at": 1790565889.1596918,
+    "year": "访问核实：2026-09-28"
+  },
+  "chunks": [
+    {
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "ordinal": 1,
+      "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+    }
+  ],
+  "revisions": [
+    1
+  ],
+  "index_version": "dfcb4a68c8b9962e42094f08ace72013d68d61f93d9a178c183b85d7904d48d8",
+  "indexer_version": "cizheng-zh-bigram-v1"
+}

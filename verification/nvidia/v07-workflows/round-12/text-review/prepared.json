@@ -1,0 +1,97 @@
+{
+  "id": "textreview_d20d27ecfa6c4c8b9467582c149d2d6a",
+  "case_id": "case_1a8de5e2e6f241d9b98f8bcdf0354862",
+  "case_revision": 5,
+  "assessment_run_id": "run_107add88d2dd498885c51ec1da1ce1e9",
+  "episode_id": "episode_2722e8032e7a485d8add255791da3dda",
+  "payload": {
+    "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+    "claims": [
+      {
+        "dimension": "period",
+        "candidate": "康熙早期",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "馆方记录提及康熙早期，但无实物佐证"
+      },
+      {
+        "dimension": "kiln",
+        "candidate": "景德镇",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无款识或胎体证据支持窑口"
+      },
+      {
+        "dimension": "style",
+        "candidate": "山水花篮纹饰风格",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "纹饰布局符合清代早期特征"
+      }
+    ],
+    "observations": [
+      {
+        "media_id": "media_d240b86aa8cd42919b84082e67fd2a2f",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘山水纹饰",
+        "interpretation": "山水纹饰，瓶口有装饰",
+        "limitation": "",
+        "id": "obs_35853e6b340a458c86aed05de2ce4cf2"
+      },
+      {
+        "media_id": "media_6ec564306f964c029f2caed62b92718b",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘花篮纹饰",
+        "interpretation": "花篮纹饰，瓶口有装饰",
+        "limitation": "",
+        "id": "obs_fc7fcedac5484c5d98647055f7362dee"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "title": "山水纹花觚的馆藏编目参照",
+        "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+        "excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+      }
+    ]
+  },
+  "packet_hash": "02953e199035038cb75e5d26d58f69f4bd613baf3e24071b5fa169c9d1d206a0",
+  "permission": "public",
+  "approval_basis": "用户已授权本轮公开教学完整文字联调；输入为Met48607公开CC0双图及明确绑定的公开馆藏资料。仅批准本次本地预览原四字段文字包，SHA256 02953e199035038cb75e5d26d58f69f4bd613baf3e24071b5fa169c9d1d206a0；原图、图像访问地址和私有材料不发送。馆方记载不等于本项目独立鉴定，审查非专家认证。",
+  "state": "prepared",
+  "knowledge_reference_bindings": {
+    "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99": {
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "use": "source_context",
+      "relevance": "馆方记载仅针对Met馆藏18.61.4，不适用本件",
+      "body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "snippet_start": 0,
+      "snippet_end": 130,
+      "content_kind": "authorized_text",
+      "read_text_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d",
+      "approved_excerpt_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d"
+    }
+  },
+  "created_at": 1790615862.641001,
+  "result": null,
+  "error": null
+}

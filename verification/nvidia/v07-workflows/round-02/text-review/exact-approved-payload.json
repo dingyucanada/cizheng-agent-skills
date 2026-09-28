@@ -1,0 +1,58 @@
+{
+  "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+  "claims": [
+    {
+      "candidate": "康熙早期",
+      "conflict": [],
+      "dimension": "period",
+      "reasoning_summary": "馆藏参照显示康熙早期风格，但无实物对比。",
+      "status": "insufficient",
+      "support": []
+    },
+    {
+      "candidate": "景德镇窑",
+      "conflict": [],
+      "dimension": "kiln",
+      "reasoning_summary": "器形与纹饰符合景德镇窑特征，但无底部款识确认。",
+      "status": "insufficient",
+      "support": []
+    },
+    {
+      "candidate": "山水花篮纹饰风格",
+      "conflict": [],
+      "dimension": "style",
+      "reasoning_summary": "纹饰布局与装饰风格符合清代早期青花花觚特征，但无参照对比。",
+      "status": "insufficient",
+      "support": []
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs_602cdf3a31a8405cbfbcd428405a1376",
+      "media_id": "media_c92ae15813b14350ad889daedbc098e2",
+      "region": [
+        0.22,
+        0.17,
+        0.77,
+        0.83
+      ],
+      "visible": "青花瓷瓶，瓶身绘山水纹饰",
+      "interpretation": "山水纹饰，瓶口有装饰",
+      "limitation": ""
+    },
+    {
+      "id": "obs_c1b2ef55635e4304a545b1516b3d290c",
+      "media_id": "media_fd92968914fb450d880e97b87c3a13d4",
+      "region": [
+        0.22,
+        0.17,
+        0.77,
+        0.83
+      ],
+      "visible": "青花瓷瓶，瓶身绘花篮纹饰",
+      "interpretation": "花篮纹饰，瓶口有装饰",
+      "limitation": ""
+    }
+  ],
+  "references": []
+}

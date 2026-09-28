@@ -1,0 +1,104 @@
+{
+  "assessment_run_id": "run_07e73f61f04e4d7ab8fb30338e2d1f4a",
+  "case_id": "case_b087256e85e5479ca0ceddfe77edc737",
+  "case_revision": 5,
+  "id": "nvaudit_d24c391ae0ad413591306911b6cba474",
+  "notice": "只核对已读知识引用的版本、哈希和定位，不验证结论或真伪。",
+  "result": {
+    "assessment_run_id": "run_07e73f61f04e4d7ab8fb30338e2d1f4a",
+    "case_id": "case_b087256e85e5479ca0ceddfe77edc737",
+    "case_revision": 5,
+    "checks": [
+      {
+        "citation": {
+          "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+          "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+          "document_id": "ksrc_51b142960ebb1cac53087148",
+          "document_revision": 1,
+          "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段"
+        },
+        "claim_support_assessed": false,
+        "mismatched_fields": [],
+        "status": "valid_reference"
+      }
+    ],
+    "events": [
+      {
+        "event_sha256": "b1924e71745131acf9972f22b76d596887920d3e7f968f5b40c332d18926f7dc",
+        "input_sha256": "bf963814e1002af4e95f5ac23d6874c08ac417db3be3ad05857a4fadbe609e20",
+        "previous_event_sha256": null,
+        "sequence": 1,
+        "tool": "read_case"
+      },
+      {
+        "event_sha256": "17097cae9bbe8cc267a22fbd5541ef578d77c87e0b41b1dddf36cf8ec39c4da5",
+        "input_sha256": "08c4046aa85c603c85ebd0513130e83b3f92d318f41a579cb090e3180ae51334",
+        "previous_event_sha256": "b1924e71745131acf9972f22b76d596887920d3e7f968f5b40c332d18926f7dc",
+        "sequence": 2,
+        "tool": "read_saved_assessment_run"
+      },
+      {
+        "event_sha256": "3c7b57bcf48ddae36ff762ade6a28520f941bda2dde897eeb40c0248c5198681",
+        "input_sha256": "9b9898ad5a221fef084cae424f014b43ac0d604a95ef81128e55422db23eef8a",
+        "previous_event_sha256": "17097cae9bbe8cc267a22fbd5541ef578d77c87e0b41b1dddf36cf8ec39c4da5",
+        "sequence": 3,
+        "tool": "reread_saved_snapshot_chunk"
+      },
+      {
+        "event_sha256": "a8d5a0103bbee282dec78dfb4b05d58a83ae52debb205ee37d2bebc2efef370d",
+        "input_sha256": "1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b",
+        "previous_event_sha256": "3c7b57bcf48ddae36ff762ade6a28520f941bda2dde897eeb40c0248c5198681",
+        "sequence": 4,
+        "tool": "verify_read_citations"
+      }
+    ],
+    "expert_reviewed": false,
+    "inference_performed": false,
+    "limitations": [
+      "Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.",
+      "This audit checks knowledge citations, not visual reference_ids or document authenticity.",
+      "Reference integrity does not establish authenticity, ownership, date, or claim support.",
+      "Ranking scores are text matches, not credibility or confidence."
+    ],
+    "manifest_sha256": "a29669996cd6f3a8a20fbd7c24805555a25e4573f78cdecc5580eb295fc1642d",
+    "mode": "deterministic_reference_integrity",
+    "nvidia_verified_skill": false,
+    "read_evidence": [
+      {
+        "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+        "content_kind": "authorized_text",
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+        "ordinal": 1,
+        "original_agent_read": true,
+        "snippet_end": 130,
+        "snippet_start": 0,
+        "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+        "truncated": false
+      }
+    ],
+    "result_sha256": "db50e8b13cb9b2c00a8616990e029575d36d451dfa9fb81c3d05f6ee073e257d",
+    "review_required": true,
+    "run_id": "nat_69b262a0f64e4212bd036d362860937e",
+    "schema_version": 1,
+    "snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+    "source_case_revision": 5,
+    "source_mode": "saved_assessment_run_snapshot",
+    "status": "references_verified",
+    "usage": {
+      "elapsed_seconds": 0.018171,
+      "max_model_calls": 0,
+      "max_seconds": 300.0,
+      "max_tool_calls": 20,
+      "model_calls": 0,
+      "tool_calls": 4
+    },
+    "verify_request_sha256": "570339e973c68171995dd3bfd9bc12302bb0cad3bc97617be490336e6f77b432"
+  },
+  "source_case_revision": 5,
+  "state": "succeeded"
+}

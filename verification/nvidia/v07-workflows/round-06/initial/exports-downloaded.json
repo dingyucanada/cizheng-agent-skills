@@ -1,0 +1,29 @@
+[
+  {
+    "id": "artifact_49206420410d49e893f96ba8991d4769",
+    "filename": "cizheng-report.json",
+    "url": "[private location or secret removed]",
+    "local_file": "initial/exports/report.json",
+    "server_sha256": "981599b2547c35a474504d79dadbec6c15d92fdc088ad56ad96e9256289140cb",
+    "saved_sha256": "981599b2547c35a474504d79dadbec6c15d92fdc088ad56ad96e9256289140cb",
+    "bytes": 94153
+  },
+  {
+    "id": "artifact_e525fb40a47b4337b9006d7f68703d3e",
+    "filename": "cizheng-report.md",
+    "url": "[private location or secret removed]",
+    "local_file": "initial/exports/report.md",
+    "server_sha256": "dcbd3995b0d26f4608068de12bc62c39270025867e13f9ea23c87929b795c536",
+    "saved_sha256": "dcbd3995b0d26f4608068de12bc62c39270025867e13f9ea23c87929b795c536",
+    "bytes": 13421
+  },
+  {
+    "id": "artifact_700469216d3f4fb38547aa3b971cd81b",
+    "filename": "cizheng-report.html",
+    "url": "[private location or secret removed]",
+    "local_file": "initial/exports/report.html",
+    "server_sha256": "f2853d9211e2c48c9b26e08c71321d442ca8b77bdb8874d750a1ca28069059d0",
+    "saved_sha256": "f2853d9211e2c48c9b26e08c71321d442ca8b77bdb8874d750a1ca28069059d0",
+    "bytes": 371454
+  }
+]

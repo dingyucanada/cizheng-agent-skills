@@ -1,0 +1,58 @@
+{
+  "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+  "claims": [
+    {
+      "candidate": "insufficient",
+      "conflict": [],
+      "dimension": "period",
+      "reasoning_summary": "无参照图支持制作时期",
+      "status": "insufficient",
+      "support": []
+    },
+    {
+      "candidate": "insufficient",
+      "conflict": [],
+      "dimension": "kiln",
+      "reasoning_summary": "无参照图支持窑口",
+      "status": "insufficient",
+      "support": []
+    },
+    {
+      "candidate": "insufficient",
+      "conflict": [],
+      "dimension": "style",
+      "reasoning_summary": "无参照图支持装饰风格",
+      "status": "insufficient",
+      "support": []
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs_75fbff69624c46ffbcd83ec0cb70b4d5",
+      "media_id": "media_4183d29467194a2ba6f41480cd7da452",
+      "region": [
+        0.22,
+        0.17,
+        0.78,
+        0.83
+      ],
+      "visible": "青花瓷瓶，瓶身绘山水纹饰",
+      "interpretation": "山水纹饰，瓶口有装饰",
+      "limitation": ""
+    },
+    {
+      "id": "obs_efee51773b584aef9cf9e86e61b24bb0",
+      "media_id": "media_ac7a40b294914d3c9cd76f9573f9483e",
+      "region": [
+        0.22,
+        0.17,
+        0.78,
+        0.83
+      ],
+      "visible": "青花瓷瓶，瓶身绘花篮纹饰",
+      "interpretation": "花篮纹饰，瓶口有装饰",
+      "limitation": ""
+    }
+  ],
+  "references": []
+}

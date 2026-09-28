@@ -6,7 +6,7 @@ import os
 import time
 from pathlib import Path
 
-MODELS = ("Qwen/Qwen3-VL-2B-Instruct", "Qwen/Qwen3-VL-8B-Instruct")
+MODELS = ("Qwen/Qwen3-VL-2B-Instruct", "Qwen/Qwen3-VL-8B-Instruct", "Qwen/Qwen3-VL-32B-Instruct")
 PATTERNS = ["*.json", "*.safetensors", "*.txt", "*.model", "*.jinja", "LICENSE*"]
 
 
@@ -33,6 +33,8 @@ def main():
     parser.add_argument("--revision", default="master")
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--cache-dir", type=Path)
+    parser.add_argument("--download-workers", type=int, choices=range(1, 9), default=2,
+                        help="Parallel official-repository file downloads (default: 2)")
     parser.add_argument("--hash-existing", action="store_true",
                         help="Offline identity hashing; does not prove original download source")
     args = parser.parse_args()
@@ -46,13 +48,14 @@ def main():
     if not args.hash_existing:
         from modelscope import snapshot_download
         options = {"revision": args.revision, "local_dir": str(destination),
-                   "max_workers": 2, "allow_patterns": PATTERNS}
+                   "max_workers": args.download_workers, "allow_patterns": PATTERNS}
         if args.cache_dir:
             options["cache_dir"] = str(args.cache_dir.expanduser())
         snapshot_download(args.model, **options)
     identities = file_identities(destination)
     canonical = json.dumps(identities, sort_keys=True, separators=(",", ":")).encode()
     manifest = {"model": args.model,
+                "download_workers": None if args.hash_existing else args.download_workers,
                 "source": ("operator-supplied local copy; original download route not inferred"
                            if args.hash_existing else "official Qwen ModelScope repository"),
                 "official_repository": "https://modelscope.cn/models/" + args.model,

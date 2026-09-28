@@ -1,0 +1,34 @@
+{
+  "scope": "actual HTTP public teaching workflow; NOT ceramic accuracy or a model A/B test",
+  "ceramic_accuracy": "not_measured",
+  "skills_gain": "not_measured",
+  "started_at": 1790615710.7810218,
+  "execution_route": "existing local HTTP backend; no model substitution by this helper",
+  "nvidia_scope": "saved-report knowledge reference identity; no claim-truth assessment",
+  "stepfun_scope": "one approved public text packet; no original image or image URL",
+  "case_id": "case_1a8de5e2e6f241d9b98f8bcdf0354862",
+  "initial_run_id": "run_107add88d2dd498885c51ec1da1ce1e9",
+  "initial_nat_reference_status": "references_verified",
+  "initial_knowledge_task_checks": {
+    "fixed_source_read_receipts": 1,
+    "fixed_source_citations": 1,
+    "fixed_source_read_present": true,
+    "fixed_source_citation_present": true,
+    "meaning": "Software receipts/version citations; neither proves content accuracy or object attribution."
+  },
+  "revision_run_id": "run_6e6ab6a4641a4c81a308c36f0262c730",
+  "revision_nat_reference_status": "references_verified",
+  "revision_knowledge_task_checks": {
+    "fixed_source_read_receipts": 1,
+    "fixed_source_citations": 1,
+    "fixed_source_read_present": true,
+    "fixed_source_citation_present": true,
+    "meaning": "Software receipts/version citations; neither proves content accuracy or object attribution."
+  },
+  "state": "completed",
+  "ended_at": 1790616009.78686,
+  "stepfun_execute_attempts": 1,
+  "final_run_state": "waiting_evidence",
+  "final_assessment_present": true,
+  "task_source_read_and_citation_present": true
+}

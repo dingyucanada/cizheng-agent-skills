@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 770" role="img" aria-labelledby="title desc">
+<title id="title">瓷证系统架构与材料隐私边界</title>
+<desc id="desc">公开教学页只在浏览器编辑和导出。专业工作台通过本地服务或SSH隧道进入指定本机或DGX Spark，原图在本地存储与Qwen3-VL-8B视觉模型处理；Agent按需读取七个Skills与固定版本RAG资料。NAT核查报告引用身份，人工复核后导出。StepFun只接收批准的公开或脱敏文字，不发送原图；真实初稿、批准文字审查、本地修订及两版导出流程已完成，Nsight GPU性能采集已运行，专业质量仍待验。32B候选通过CUDA与合成协议，但真实双图业务失败后已停止，未证明更好。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#74879a"/></marker><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;fill:#142b40}.label{font-size:11px;letter-spacing:1.2px;fill:#586d7f}.head{font-size:17px;font-weight:600}.body{font-size:12px;fill:#536675}.small{font-size:11px;fill:#596b79}.arrow{fill:none;stroke:#74879a;stroke-width:1.7;marker-end:url(#arrow)}.wire{fill:none;stroke:#a48a56;stroke-width:1.7;stroke-dasharray:5 5;marker-end:url(#arrow)}</style></defs>
+<rect width="1120" height="770" fill="#fff"/>
+<text class="label" x="42" y="39">CIZHENG / SYSTEM &amp; DATA BOUNDARIES</text>
+<text class="small" x="1078" y="39" text-anchor="end">已实现组件 · 验收范围见运行记录</text>
+<rect x="42" y="63" width="1036" height="92" fill="#f2f3ee" stroke="#d5dddc"/>
+<text class="head" x="64" y="94">公开教学体验</text><text class="body" x="64" y="119">浏览器 · 预置公开案卷 · 本浏览器编辑与导出</text>
+<text class="body" x="697" y="100">无需上传 / 不调用模型 / 不保存 API 密钥</text><text class="small" x="697" y="124">教学入口与私有工作台分别运行</text>
+<rect x="42" y="184" width="252" height="107" fill="#fff" stroke="#a6b6c4"/>
+<text class="label" x="62" y="210">PROFESSIONAL WORKBENCH</text><text class="head" x="62" y="238">专业人员 · 器物案卷</text><text class="body" x="62" y="264">原图、来源附件、研究问题</text>
+<path class="arrow" d="M294 237H372"/><text class="small" x="306" y="219">本地 / SSH</text>
+<rect x="391" y="184" width="687" height="350" fill="#edf2f4" stroke="#7d97ac" stroke-width="1.4"/>
+<text class="label" x="414" y="211">PRIVATE SERVICE / 指定本机 · DGX SPARK</text>
+<rect x="414" y="231" width="641" height="58" fill="#142b40"/><text class="head" x="435" y="257" style="fill:#fff">FastAPI 案卷服务 · 受约束 Agent Harness</text><text x="435" y="277" style="fill:#c2d0db;font-size:11px">固定案件与版本 / 工具权限 / 执行预算 / 读取回执 / 失败留痕</text>
+<path class="arrow" d="M518 289V326"/><path class="arrow" d="M735 289V326"/><path class="arrow" d="M947 289V326"/>
+<rect x="414" y="338" width="205" height="136" fill="#fff" stroke="#bdcbd5"/>
+<text class="head" x="430" y="365">视觉研究</text><text class="body" x="430" y="391">Qwen3-VL-8B · BF16</text><text class="body" x="430" y="413">PyTorch / CUDA · GB10</text><text class="small" x="430" y="451">授权照片在本地服务处理</text>
+<rect x="633" y="338" width="205" height="136" fill="#fff" stroke="#bdcbd5"/>
+<text class="head" x="649" y="365">方法与资料</text><text class="body" x="649" y="391">7 个 Skills · 按需读取</text><text class="body" x="649" y="413">RAG · 固定版本段落</text><text class="small" x="649" y="451">SQLite 关键词检索</text>
+<rect x="852" y="338" width="203" height="136" fill="#fff" stroke="#bdcbd5"/>
+<text class="head" x="868" y="365">本地案卷存储</text><text class="body" x="868" y="391">原图 / 附件 / 案件版本</text><text class="body" x="868" y="413">SQLite / SHA256 清单</text><text class="small" x="868" y="451">更新资料保留历史依据</text>
+<text class="small" x="414" y="507">原图仅在指定服务所在本机处理；后端位于笔记本时，笔记本也保存原图。</text>
+<path class="arrow" d="M736 534V555H561V569"/>
+<rect x="391" y="581" width="340" height="100" fill="#fff" stroke="#a6b6c4"/>
+<text class="label" x="411" y="606">NVIDIA NEMO AGENT TOOLKIT</text><text class="head" x="411" y="632">NAT · 固定引用身份核查</text><text class="body" x="411" y="656">资料版本、段落、哈希与成功读取回执</text>
+<path class="arrow" d="M731 631H771"/>
+<rect x="788" y="581" width="290" height="100" fill="#142b40"/>
+<text x="809" y="613" style="fill:#fff;font-size:17px;font-weight:600">人工复核 · 版本保留 · 导出</text><text x="809" y="638" style="fill:#c2d0db;font-size:12px">JSON / HTML / 原件交接 ZIP</text><text x="809" y="660" style="fill:#c2d0db;font-size:11px">引用核查不代替专业结论复核</text>
+<rect x="42" y="346" width="252" height="188" fill="#f7f2e8" stroke="#b7a47b" stroke-dasharray="5 4"/>
+<text class="label" x="62" y="375" style="fill:#826a3e">OPTIONAL TEXT REVIEW</text><text class="head" x="62" y="406">StepFun · 文字反证</text><text class="body" x="62" y="433">仅批准的公开 / 脱敏文字</text><text class="head" x="62" y="461" style="fill:#826a3e;font-size:14px">不发送原图</text><text class="small" x="62" y="492">真实技术流程已完成</text><text class="small" x="62" y="512">专业研究质量仍待验</text>
+<path class="wire" d="M391 491H315V435H294"/><text class="small" x="308" y="469" transform="rotate(-90 308 469)">批准文字</text>
+<path class="wire" d="M168 346V314H374V260H414"/><text class="small" x="42" y="584">虚线为可选文字审查 / 修订路径</text><text class="small" x="42" y="607">技术完成不等于专业质量通过</text>
+<line x1="42" y1="716" x2="1078" y2="716" stroke="#d5dddc"/>
+<text class="small" x="42" y="742">Nsight GPU 性能采集已运行 · 不代表提速或鉴定质量</text><text class="small" x="569" y="742">32B 合成协议通过，实际双图失败后停止 · 质量待验</text>
+</svg>

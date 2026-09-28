@@ -1,0 +1,747 @@
+{
+  "scope": "actual native r11 request receipts; not ceramic accuracy",
+  "source_stage": "source-v07-runtime-r11-20260928",
+  "source_manifest_sha256": "8a001fe1bd119a8e2025f9e104323edc4cf83ce42d2cf51c33fd3ff1a01661d5",
+  "collector_record_sha256": "ff53c3094ed0ab8c85790b999ca682dcff58d2c3f0030870bf0a8f1f75bb2197",
+  "collected_at": 1790614185.1065214,
+  "raw_log_sha256": "f15d2cf7d5fa2522f7f176859c344b7a45e9992e29af7302bdcdb1cf3997250f",
+  "native_requests": [
+    {
+      "at": 1790613746.9151006,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 2502,
+      "completion_tokens": 209,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 800,
+      "seconds": 21.879917038953863,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 21843.259765625,
+        "max_memory_allocated_bytes": 18360709120,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "060caa93b616c0259d1398ddee5565ed591fed5acf5a140a579ebf44872d77f2",
+        "postvalidated_constraints": [
+          "inclusive-numeric-range"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "af4b897dbae79a5b23b30c0f4bbbe2278ccee457225733a37e9a40c7fc4568bb",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.036351243034005165,
+      "decoder_cpu": {
+        "calls": 209,
+        "seconds": 11.391057346016169,
+        "max_callback_seconds": 0.4168923320248723
+      },
+      "termination": "eos",
+      "response_sha256": "d86f441495e9ddf84526bcd187e4e7a0dd29413c4629e05fa4618845ac72b2fc"
+    },
+    {
+      "at": 1790613755.8710542,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14984,
+      "completion_tokens": 28,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 8.74552340595983,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 8659.04296875,
+        "max_memory_allocated_bytes": 21537994752,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.08597486699000001,
+      "decoder_cpu": {
+        "calls": 28,
+        "seconds": 4.172492869780399,
+        "max_callback_seconds": 2.476102998945862
+      },
+      "termination": "eos",
+      "response_sha256": "ecaae3537ca3e5f18e95138fc40e517d0b8b9e7f338af05ef1ee5de80d1f4cfc"
+    },
+    {
+      "at": 1790613772.7020605,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 15105,
+      "completion_tokens": 87,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 16.651900533004664,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 16561.802734375,
+        "max_memory_allocated_bytes": 21574998016,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.08966179401613772,
+      "decoder_cpu": {
+        "calls": 87,
+        "seconds": 7.939186117378995,
+        "max_callback_seconds": 2.4910768610425293
+      },
+      "termination": "eos",
+      "response_sha256": "996262bca7ea9734fb36c68fa2dcc816d30d3c4212115472d70923b8c2b2a506"
+    },
+    {
+      "at": 1790613811.2402625,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 15283,
+      "completion_tokens": 254,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 38.361543841077946,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 38271.8125,
+        "max_memory_allocated_bytes": 21615836672,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.0895128520205617,
+      "decoder_cpu": {
+        "calls": 254,
+        "seconds": 19.051235310384072,
+        "max_callback_seconds": 2.5243643099674955
+      },
+      "termination": "eos",
+      "response_sha256": "23eac6d8287964af305a656c8be33100ac2ae560d76736d94aa3effaf65626b4"
+    },
+    {
+      "at": 1790613852.2279587,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14437,
+      "completion_tokens": 279,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 40.739444948965684,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 40654.38671875,
+        "max_memory_allocated_bytes": 21399046144,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.08483649091795087,
+      "decoder_cpu": {
+        "calls": 279,
+        "seconds": 20.27020578982774,
+        "max_callback_seconds": 2.375824615941383
+      },
+      "termination": "eos",
+      "response_sha256": "5af1f473fda77d58cba8369b47857c966afe15ade035dd19db5b5137b06f191c"
+    },
+    {
+      "at": 1790613859.3324497,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14596,
+      "completion_tokens": 15,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 6.855145778041333,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 6763.095703125,
+        "max_memory_allocated_bytes": 21439435776,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.09151182603091002,
+      "decoder_cpu": {
+        "calls": 15,
+        "seconds": 3.2889045558404177,
+        "max_callback_seconds": 2.4183462139917538
+      },
+      "termination": "eos",
+      "response_sha256": "3a3eb2f69ce83375604982de88c26cee86d996482489e4a29bd3c25733730986"
+    },
+    {
+      "at": 1790613895.9855292,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 2502,
+      "completion_tokens": 209,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 800,
+      "seconds": 22.012925088987686,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 21979.498046875,
+        "max_memory_allocated_bytes": 18360709120,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "060caa93b616c0259d1398ddee5565ed591fed5acf5a140a579ebf44872d77f2",
+        "postvalidated_constraints": [
+          "inclusive-numeric-range"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "af4b897dbae79a5b23b30c0f4bbbe2278ccee457225733a37e9a40c7fc4568bb",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.03303698101080954,
+      "decoder_cpu": {
+        "calls": 209,
+        "seconds": 11.44656935299281,
+        "max_callback_seconds": 0.41971828194800764
+      },
+      "termination": "eos",
+      "response_sha256": "d86f441495e9ddf84526bcd187e4e7a0dd29413c4629e05fa4618845ac72b2fc"
+    },
+    {
+      "at": 1790613904.8554754,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14603,
+      "completion_tokens": 28,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 8.6343459879281,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 8546.8447265625,
+        "max_memory_allocated_bytes": 21441213440,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.08695630193687975,
+      "decoder_cpu": {
+        "calls": 28,
+        "seconds": 4.113701676949859,
+        "max_callback_seconds": 2.4131376169389114
+      },
+      "termination": "eos",
+      "response_sha256": "ecaae3537ca3e5f18e95138fc40e517d0b8b9e7f338af05ef1ee5de80d1f4cfc"
+    },
+    {
+      "at": 1790613925.6709464,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14723,
+      "completion_tokens": 117,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 20.585757171036676,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 20496.048828125,
+        "max_memory_allocated_bytes": 21471695872,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.0892796510597691,
+      "decoder_cpu": {
+        "calls": 117,
+        "seconds": 9.789558166638017,
+        "max_callback_seconds": 2.439364359015599
+      },
+      "termination": "eos",
+      "response_sha256": "e6232a0d0f6b1dd8430680306f915b46b28c823f71692b8be8956a58374a71bb"
+    },
+    {
+      "at": 1790613970.709659,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 14931,
+      "completion_tokens": 303,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 44.81908098096028,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 44730.0,
+        "max_memory_allocated_bytes": 21524589056,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.0888018780387938,
+      "decoder_cpu": {
+        "calls": 303,
+        "seconds": 22.16096746129915,
+        "max_callback_seconds": 2.45824364409782
+      },
+      "termination": "eos",
+      "response_sha256": "1b24229785ed080b7001817883afa55a590ef9d5beffb6d37c4273facb128c3e"
+    },
+    {
+      "at": 1790613992.4585743,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 15274,
+      "completion_tokens": 126,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 21.500332548981532,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 21409.970703125,
+        "max_memory_allocated_bytes": 21613771776,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.08998978696763515,
+      "decoder_cpu": {
+        "calls": 126,
+        "seconds": 10.48752334935125,
+        "max_callback_seconds": 2.525408860994503
+      },
+      "termination": "eos",
+      "response_sha256": "1fc1c8ac5d15bf0a674a87a4531ac59e383c1e4f17ea611e06fb3a17082c149f"
+    },
+    {
+      "at": 1790614000.0149055,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 15565,
+      "completion_tokens": 15,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 7.288277699030004,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 7191.92138671875,
+        "max_memory_allocated_bytes": 21685532672,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.09584267204627395,
+      "decoder_cpu": {
+        "calls": 15,
+        "seconds": 3.483533615246415,
+        "max_callback_seconds": 2.593169342027977
+      },
+      "termination": "eos",
+      "response_sha256": "3a3eb2f69ce83375604982de88c26cee86d996482489e4a29bd3c25733730986"
+    },
+    {
+      "at": 1790614045.6302872,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 15617,
+      "completion_tokens": 301,
+      "image_count": 2,
+      "images": [
+        {
+          "sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "bytes": 130179
+        },
+        {
+          "sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "bytes": 134337
+        }
+      ],
+      "temperature": 0.1,
+      "max_tokens": 2500,
+      "seconds": 45.445234228041954,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 45351.02734375,
+        "max_memory_allocated_bytes": 21698689024,
+        "max_memory_reserved_bytes": 25262292992,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": true,
+        "enforced": true,
+        "library": "lm-format-enforcer",
+        "version": "0.11.3",
+        "policy": "bounded-semantic-postvalidation-v1",
+        "original_schema_postvalidation_required": true,
+        "decoder_schema_sha256": "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202",
+        "postvalidated_constraints": [
+          "compact-text-pattern"
+        ],
+        "mode": "prefix_allowed_tokens_fn",
+        "schema_sha256": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+        "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)",
+        "output_valid": true
+      },
+      "preprocessing_seconds": 0.09391716599930078,
+      "decoder_cpu": {
+        "calls": 301,
+        "seconds": 22.454249181086197,
+        "max_callback_seconds": 2.6135833330918103
+      },
+      "termination": "eos",
+      "response_sha256": "1b24229785ed080b7001817883afa55a590ef9d5beffb6d37c4273facb128c3e"
+    }
+  ],
+  "health": {
+    "status": "ready",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "generation_in_progress": false,
+    "failure_type": null,
+    "generation_deadline_seconds": 80,
+    "decoder_policy": "bounded-semantic-postvalidation-v1"
+  },
+  "excluded_historical_rows": 21
+}

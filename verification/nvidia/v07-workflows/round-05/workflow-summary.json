@@ -1,0 +1,16 @@
+{
+  "scope": "actual HTTP public teaching workflow; NOT ceramic accuracy or a model A/B test",
+  "ceramic_accuracy": "not_measured",
+  "skills_gain": "not_measured",
+  "started_at": 1790604153.333156,
+  "execution_route": "existing local HTTP backend; no model substitution by this helper",
+  "nvidia_scope": "saved-report knowledge reference identity; no claim-truth assessment",
+  "stepfun_scope": "one approved public text packet; no original image or image URL",
+  "case_id": "case_f632f240ecec4d2f878cc55c5398d1b9",
+  "initial_run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+  "state": "failed",
+  "failure_stage": "initial_poll",
+  "ended_at": 1790604241.980266,
+  "stepfun_execute_attempts": 0,
+  "remote_completion_unknown_after_transport_failure": false
+}

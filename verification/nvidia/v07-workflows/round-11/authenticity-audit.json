@@ -1,0 +1,155 @@
+{
+  "scope": "Read-only actual round11 Met teaching fixture receipts, failed revision and original export bytes; not expert appraisal, ceramic accuracy or Skills A/B",
+  "input_public_SHA256": {
+    "workflow-summary.json": "4bb76cf0c88904105cd51e98839fae1508eba3641059a1523e3842b4e8de75ca",
+    "failure.json": "51ea6d845dcbc866bbb784c86a2b96b9dc5a097c05af3fa25108007690352dfd",
+    "failure-case-record.json": "ca88487c7eba687b62f53f80a9fe4512a5b98b3e8e160b8c44f1d4e8e3ac7825",
+    "failure-run-record.json": "9993a5987b012a55dec6a1ec86093227cf44204fa4133be8447c1b8baeb973c8",
+    "failure-text-reviews.json": "d57530af490471761ee67b45d9efa8cb98c613432fa683b65f8d1365c745d131",
+    "public-status.json": "4da8ef60dfaa43da8299e9471819e02ccaa34efe0c650749e329e73fa8a7abe2",
+    "public-image-identities.json": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+    "public-source-manifest.json": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+    "knowledge/source-1.json": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+    "knowledge/binding-1.json": "48db8d466dde9b36cb71ad1234e34f6cc665264ba1fa83cad00bd4b06d777658",
+    "initial/final-run.json": "f5072661e9fe1bfcddaaa8abfa94ec554ce88560e3cfea3e02198c4248e2eb1e",
+    "initial/nat-audit.json": "0804c1431014a0cae32adce83328f874e2e2991ff3078a811c3635698ff12c72",
+    "initial/exports-downloaded.json": "74ed94ec268936e28af4cecc72ee65b9eb71b10cbbe0a3ff724c9fec5a9655bb",
+    "text-review/exact-approved-payload.json": "7dd5e2ecee69a9d2780769d29b0bca5eccf0dda8984d6eceb75da24412ab464f",
+    "text-review/exact-preview.json": "ffaba3168a9ab3341864ff446f2252fba49d256f76c1bacc5252d866bc539cfc",
+    "text-review/prepared.json": "ccf19283db5072b84b8ae1c7043784dff4b8d1a68094d77aed65fcc4ba5a6b03",
+    "text-review/executed.json": "7c40eb57bf9720b5fc011f691b7f1a2e9203fdd328a1f0a9fa826ec1599b6fd0",
+    "text-review/revised-case.json": "bad09f129a282e26ca41ea1787085d980e167ba379ff6ec929ff4e8b7ac28f80",
+    "revision/final-run.json": "9993a5987b012a55dec6a1ec86093227cf44204fa4133be8447c1b8baeb973c8",
+    "native-requests.json": "16867c7e68a258cedd40aa33ba67004ee723765c528cf77032b0063f39ade8b3",
+    "native-binding.json": "18a63050c3c34f1542b1f3ece5f735e11245a2caa869fc982c78c0234d76785d"
+  },
+  "technical_workflow_state": "failed",
+  "failure_stage": "revision_poll",
+  "professional_quality_pass": false,
+  "initial": {
+    "run_id": "run_b81ab01e9330478ab7f57e8494d77290",
+    "state": "waiting_evidence",
+    "model_calls": 6,
+    "tool_calls": 13,
+    "business_active_seconds": 134.76197695732117,
+    "body_hashes_delivered": [
+      "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+    ],
+    "source_context_citation_count": 1,
+    "source_task_read_and_citation_present": true,
+    "NAT_status": "references_verified",
+    "six_identity_fields_match_read_receipt_NAT_review_binding": true,
+    "claim_truth_assessed": false
+  },
+  "text_review": {
+    "state": "succeeded",
+    "model": "step-3.7-flash",
+    "provider_request_actually_occurred": true,
+    "execute_attempts": 1,
+    "valid_critic_result_obtained": true,
+    "issues": 3,
+    "elapsed_seconds": 9.251642994931899,
+    "prompt_tokens": 827,
+    "completion_tokens": 1385,
+    "total_tokens": 2212,
+    "cached_tokens": 192,
+    "exact_preview_prepared_approved_packet_equals_executed_packet": true,
+    "packet_hash_actual_project_store_serialization_match": true,
+    "approved_references": 1,
+    "knowledge_body_bindings": 1,
+    "approved_excerpt_SHA_matches": true,
+    "original_images_or_image_URLs_sent": false
+  },
+  "revision": {
+    "run_id": "run_d8b9f05ba9dd4088b216cf69e705d11a",
+    "parent_run_id": "run_b81ab01e9330478ab7f57e8494d77290",
+    "state": "failed",
+    "model_calls": 7,
+    "tool_calls": 16,
+    "business_active_seconds": 172.32284951210022,
+    "body_hashes_delivered": [
+      "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+    ],
+    "assessment_obtained": false,
+    "NAT_obtained": false,
+    "exports_obtained": false,
+    "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+    "evidence_contract_validation_errors": [
+      {
+        "event_index": 62,
+        "stage": "evidence_contract",
+        "error_type": "ValueError",
+        "detail": "需先回应文字审查疑点；不得直接当作事实",
+        "repair_allowed": true
+      },
+      {
+        "event_index": 74,
+        "stage": "evidence_contract",
+        "error_type": "ValueError",
+        "detail": "请先完成可核验的意见",
+        "repair_allowed": true
+      },
+      {
+        "event_index": 81,
+        "stage": "evidence_contract",
+        "error_type": "ValueError",
+        "detail": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性",
+        "repair_allowed": false
+      }
+    ],
+    "HTTP_timeout": false
+  },
+  "actual_initial_export_byte_checks": [
+    {
+      "filename": "cizheng-report.json",
+      "bytes": 93971,
+      "actual_original_export_SHA256": "d7c8e6ca5273953d848c1d7b5cfb50fe4855622622a2146fe17123788cd7da7f",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "filename": "cizheng-report.md",
+      "bytes": 14001,
+      "actual_original_export_SHA256": "fedb128916ee9236d09dd0ecec05629cd81bdd20dddaaa5ae50b903bb3823a6b",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "filename": "cizheng-report.html",
+      "bytes": 372294,
+      "actual_original_export_SHA256": "128f83ea6f00131189a3a85a330fd0df844da7a0d57936a30cf759226912495c",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    }
+  ],
+  "final_completed_reference_chain": false,
+  "native_13_call_response_SHA_binding_pending": false,
+  "expert_sample_received_or_validated": false,
+  "ceramic_accuracy": "not_measured",
+  "Skills_gain": "not_measured",
+  "program_selected_citations_or_completed_opinion": false,
+  "limits": [
+    "Initial source-context citation passed identity checks and one actual approved StepFun review returned3 issues; local revision subsequently failed the evidence contract and yielded no valid assessment.",
+    "The failed revision received the same source body but did not produce an assessment; no revised NAT audit/export or completed final reference chain exists.",
+    "NAT verifies source version/hash/location identity, not source support, object attribution, professional judgement or genuine rate.",
+    "Helper/backend timestamps are not independently synchronized; per-run seconds are business activity, not total-loop or single-model timing.",
+    "All13 new initial6+revision7 native calls bind to actual application events and original collector by response SHA, usage and image metadata;21 historical round09/10 rows are excluded. Valid transport/schema results do not repair the subsequent application evidence contract failure."
+  ],
+  "native_binding": {
+    "actual_native_rows": 13,
+    "application_model_events": 13,
+    "response_SHA_and_three_usage_fields_and_image_count_and_bytes_match": 13,
+    "max_HTTP_elapsed_seconds": 45.617929158965126,
+    "HTTP_timeout_seconds": 90,
+    "all_below_HTTP_timeout": true,
+    "explicit_eos_rows": 13,
+    "original_schema_valid_rows": 13,
+    "excluded_historical_rows": 21,
+    "original_collector_actual_SHA256": "ff53c3094ed0ab8c85790b999ca682dcff58d2c3f0030870bf0a8f1f75bb2197",
+    "remote_raw_log_SHA256": "f15d2cf7d5fa2522f7f176859c344b7a45e9992e29af7302bdcdb1cf3997250f",
+    "public_native_SHA256": "16867c7e68a258cedd40aa33ba67004ee723765c528cf77032b0063f39ade8b3",
+    "public_binding_SHA256": "18a63050c3c34f1542b1f3ece5f735e11245a2caa869fc982c78c0234d76785d",
+    "collector_unchanged_on_reread": true,
+    "scope": "Identity/usage/transport/schema checks do not establish professional quality or citation support"
+  }
+}

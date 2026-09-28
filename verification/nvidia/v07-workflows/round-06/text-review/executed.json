@@ -1,0 +1,142 @@
+{
+  "approval_basis": "用户已授权本轮公开教学完整文字联调；输入为Met48607公开CC0双图及明确绑定的公开馆藏资料。仅批准本次本地预览原四字段文字包，SHA256 707872419e4097bdeb4fbb939d65552b2d6ff3940b068e551faf4df503db13d9；原图、图像访问地址和私有材料不发送。馆方记载不等于本项目独立鉴定，审查非专家认证。",
+  "assessment_run_id": "run_43a152be1ef24f85a81e23832a04ee6b",
+  "case_id": "case_e9f2937d78834f3588032ce21624cf35",
+  "case_revision": 5,
+  "created_at": 1790606718.596285,
+  "episode_id": "episode_1f94a673cbc242f5b646006fafc44078",
+  "error": null,
+  "execute_request_id": "complete-public-stepfun-once-85cf0d6e5c484b18889dd01a8fe628f6",
+  "id": "textreview_8bdb2e32371d4656bfd8951682d170df",
+  "knowledge_reference_bindings": {
+    "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99": {
+      "approved_excerpt_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d",
+      "body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "read_text_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d",
+      "relevance": "馆方记录提及Met馆藏18.61.4，但无实际参照图。",
+      "snippet_end": 130,
+      "snippet_start": 0,
+      "use": "source_context"
+    }
+  },
+  "model": {
+    "model": "step-3.7-flash",
+    "provider": "stepfun-text-only"
+  },
+  "packet_hash": "707872419e4097bdeb4fbb939d65552b2d6ff3940b068e551faf4df503db13d9",
+  "payload": {
+    "claims": [
+      {
+        "candidate": "康熙早期",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "馆方记录提及，但无可靠参照图支持，引用read_index 1。",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "景德镇",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "纹饰风格与馆方记录吻合，但无实物参照验证，引用readIndex",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "山水纹饰风格",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "纹饰布局与馆方记录一致，但无实物参照验证，引用readIndex",
+        "status": "insufficient",
+        "support": []
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs_b835adf284ed4f25b5c42614e39cf6a5",
+        "interpretation": "山水纹饰，瓶口有装饰",
+        "limitation": "",
+        "media_id": "media_982199aba47c4214a0c997d70adbda1c",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘山水纹饰"
+      },
+      {
+        "id": "obs_dd8e76147f154cbfabcf5acec32e90c4",
+        "interpretation": "花篮纹饰，瓶口有装饰",
+        "limitation": "",
+        "media_id": "media_5e448470ebee44a6b417eb8c69031925",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘花篮纹饰"
+      }
+    ],
+    "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+    "references": [
+      {
+        "excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+        "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+        "reference_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "title": "山水纹花觚的馆藏编目参照"
+      }
+    ]
+  },
+  "permission": "public",
+  "prompt_hash": "4314f2f0751d07180e31d223f1b0cd941a33dc05f6849eb35e8c4daadb4db050",
+  "result": {
+    "issues": [
+      {
+        "claim_dimension": "period",
+        "concern": "断代主张仅提及馆方记录，无对应有效引用支持，且无实物参照验证，依据不足",
+        "reference_ids": []
+      },
+      {
+        "claim_dimension": "kiln",
+        "concern": "窑口主张仅提及纹饰风格与馆方记录吻合，无对应有效引用支持，且无实物参照验证，依据不足",
+        "reference_ids": []
+      },
+      {
+        "claim_dimension": "style",
+        "concern": "风格主张与部分观察记录（花篮纹饰）存在冲突未予解释，且仅提及纹饰布局与馆方记录一致，无对应有效引用支持，无实物参照验证，依据不足",
+        "reference_ids": []
+      }
+    ],
+    "suggested_evidence": "补充待审青花瓷瓶的官方馆藏编号、多角度高清实物图像及对应馆方编目记录，核对胎釉特征、青花发色、纹饰细节与康熙早期景德镇青花瓷的典型特征是否匹配，核实断代、窑口及风格归属的合理性，同时解释观察记录中花篮纹饰与主张的山水纹饰的差异原因",
+    "limitations": [
+      "未查看原图",
+      "现有参考资料为其他器物的馆藏记录，与待审器物无直接对应关系"
+    ]
+  },
+  "started_at": 1790606718.720216,
+  "state": "succeeded",
+  "error_diagnostic": null,
+  "usage": {
+    "cached_tokens": 64,
+    "prompt_tokens": 786,
+    "completion_tokens": 2323,
+    "total_tokens": 3109,
+    "prompt_tokens_details": {
+      "cached_tokens": 64
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "elapsed": 13.711984295980074,
+  "ended_at": 1790606732.4446125
+}

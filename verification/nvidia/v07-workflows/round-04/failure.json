@@ -1,0 +1,102 @@
+{
+  "stage": "stepfun_once",
+  "error_type": "IntegrationFailure",
+  "detail": "One-shot text critic failed; it will not be retried",
+  "details": {
+    "review": {
+      "approval_basis": "用户已授权本轮公开教学完整文字联调；输入为Met48607公开CC0双图及明确绑定的公开馆藏资料。仅批准本次本地预览原四字段文字包，SHA256 c8300f7a5ec73d766ef72a197e6b8a1180a36fcf7bfbf60192ad0346aa50ed9a；原图、图像访问地址和私有材料不发送。馆方记载不等于本项目独立鉴定，审查非专家认证。",
+      "assessment_run_id": "run_07e73f61f04e4d7ab8fb30338e2d1f4a",
+      "case_id": "case_b087256e85e5479ca0ceddfe77edc737",
+      "case_revision": 5,
+      "created_at": 1790602859.3230677,
+      "episode_id": "episode_4259649309414f81bcc8de6b5265f183",
+      "error": "文字审查失败：ValueError",
+      "execute_request_id": "complete-public-stepfun-once-24dcad8627aa45c7b05958b527188ae5",
+      "id": "textreview_f50a4983af0e40fc9dddd9682018b974",
+      "model": {
+        "model": "step-3.7-flash",
+        "provider": "stepfun-text-only"
+      },
+      "packet_hash": "c8300f7a5ec73d766ef72a197e6b8a1180a36fcf7bfbf60192ad0346aa50ed9a",
+      "payload": {
+        "claims": [
+          {
+            "candidate": "康熙早期",
+            "conflict": [],
+            "dimension": "period",
+            "reasoning_summary": "馆方记录提及，但无可靠参照图支持，引用ksrc_51b14296",
+            "status": "insufficient",
+            "support": []
+          },
+          {
+            "candidate": "景德镇",
+            "conflict": [],
+            "dimension": "kiln",
+            "reasoning_summary": "纹饰风格与馆方记录吻合，但无实物参照验证，引用ksrc_51b1",
+            "status": "insufficient",
+            "support": []
+          },
+          {
+            "candidate": "山水纹饰风格",
+            "conflict": [],
+            "dimension": "style",
+            "reasoning_summary": "纹饰布局与馆方记录一致，但无参照图比较，引用ksrc_51b1",
+            "status": "insufficient",
+            "support": []
+          }
+        ],
+        "observations": [
+          {
+            "id": "obs_e29c6ebc7ca74c5ea23bde06b074b2a9",
+            "interpretation": "山水纹饰，瓶口有装饰",
+            "limitation": "",
+            "media_id": "media_82f466ccca534b429b652bd9c8e74ef5",
+            "region": [
+              0.22,
+              0.17,
+              0.78,
+              0.83
+            ],
+            "visible": "青花瓷瓶，瓶身绘山水纹饰"
+          },
+          {
+            "id": "obs_a5fe861a960f4516a05448ae834444b9",
+            "interpretation": "花篮纹饰，瓶口有装饰",
+            "limitation": "",
+            "media_id": "media_2606ead2e2794a8fb9719352f52100eb",
+            "region": [
+              0.22,
+              0.17,
+              0.78,
+              0.83
+            ],
+            "visible": "青花瓷瓶，瓶身绘花篮纹饰"
+          }
+        ],
+        "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+        "references": []
+      },
+      "permission": "public",
+      "prompt_hash": "ea36e97cdbd19e601df2b11a2831df727658f25b484403fb7c78f794263407da",
+      "result": null,
+      "started_at": 1790602859.4669423,
+      "state": "failed",
+      "usage": {
+        "cached_tokens": 128,
+        "prompt_tokens": 560,
+        "completion_tokens": 1087,
+        "total_tokens": 1647,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "elapsed": 6.4134150869213045,
+      "ended_at": 1790602865.8978217
+    }
+  },
+  "dependent_stages_stopped": true,
+  "no_automatic_mutation_retry": true
+}

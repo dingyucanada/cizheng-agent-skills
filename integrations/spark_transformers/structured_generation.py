@@ -1,7 +1,8 @@
 """Bounded JSON structure decoding using the released LM Format Enforcer.
 
-Schemas are in-memory JSON, never filenames or remote resources. Numeric range
-and research-evidence checks remain the application's original tool contract.
+Schemas are in-memory JSON, never filenames or remote resources. Inclusive
+numeric ranges are checked after decoding against the unchanged original schema;
+research-evidence and positive-area checks remain the application's contract.
 """
 import copy
 import hashlib
@@ -19,7 +20,8 @@ SAFE_COMPACT_TEXT_PATTERN = r"^[A-Za-z0-9一-鿿][^\r\n]{0,39}$"
 ANNOTATIONS = {"title", "description", "default"}
 KEYWORDS = ANNOTATIONS | {"type", "properties", "required", "additionalProperties",
                          "items", "minItems", "maxItems", "minLength", "maxLength",
-                         "pattern", "enum", "const", "anyOf", "oneOf", "$ref", "$defs"}
+                         "pattern", "enum", "const", "anyOf", "oneOf", "$ref", "$defs",
+                         "minimum", "maximum"}
 _tokenizer_cache = None
 
 
@@ -48,7 +50,23 @@ class StructuredDependencyError(RuntimeError):
 
 
 class StructuredGenerationError(RuntimeError):
-    """Generated text failed the requested structure; it is never repaired."""
+    """Original-schema rejection with safe metadata, never generated text.
+
+    The adapter rejects the output unchanged. A client may ask its model to
+    generate a new response within the client's existing repair budget.
+    """
+
+    def __init__(self, *, schema_sha256, response_sha256, usage):
+        super().__init__("Generated output failed the requested original schema")
+        self.schema_sha256 = schema_sha256
+        self.response_sha256 = response_sha256
+        self.usage = dict(usage)
+
+    def safe_detail(self):
+        return {"type": "structured_output_validation",
+                "schema_sha256": self.schema_sha256,
+                "response_sha256": self.response_sha256,
+                "usage": dict(self.usage)}
 
 
 def canonical_schema(schema):
@@ -151,9 +169,21 @@ def _compile_schema(schema):
             raise StructuredFormatError("Unsupported or missing schema type")
         relevant = {"object": {"properties", "required", "additionalProperties"},
                     "array": {"items", "minItems", "maxItems"},
-                    "string": {"minLength", "maxLength", "pattern"}}.get(kind, set())
+                    "string": {"minLength", "maxLength", "pattern"},
+                    "number": {"minimum", "maximum"},
+                    "integer": {"minimum", "maximum"}}.get(kind, set())
         if set(node) - (ANNOTATIONS | {"type", "enum", "const", "$defs"} | relevant):
             raise StructuredFormatError("Schema constraints do not match their type")
+        if kind in ("integer", "number"):
+            for keyword in ("minimum", "maximum"):
+                if keyword in node and not _finite_number(node[keyword]):
+                    raise StructuredFormatError("Numeric bounds must be finite numbers, not booleans")
+            if "minimum" in node and "maximum" in node and node["minimum"] > node["maximum"]:
+                raise StructuredFormatError("Inconsistent numeric bounds")
+            # LMFE 0.11.3 cannot enforce numeric ranges. Strip only from its
+            # private parser copy; the original schema/hash and final checks stay.
+            result.pop("minimum", None)
+            result.pop("maximum", None)
         if "enum" in node:
             options = node["enum"]
             if not isinstance(options, list) or not 1 <= len(options) <= 128:
@@ -221,6 +251,10 @@ def _compile_schema(schema):
             if kind == "string" and any(not node.get("minLength", 0) <= len(value) <= node.get("maxLength", 2_000_000) or
                                         ("pattern" in node and not re.fullmatch(node["pattern"], value)) for value in values):
                 raise StructuredFormatError("Enum or constant conflicts with its constraints")
+            if kind in ("integer", "number") and any(
+                    ("minimum" in node and value < node["minimum"]) or
+                    ("maximum" in node and value > node["maximum"]) for value in values):
+                raise StructuredFormatError("Enum or constant conflicts with numeric bounds")
         if "$defs" in node:
             result["$defs"] = {key: walk(child, depth + 1, (key,)) for key, child in definitions.items()}
         return result
@@ -249,12 +283,65 @@ def make_parser(schema):
         raise StructuredFormatError("Schema cannot be compiled by the pinned decoder") from error
 
 
-def build_structured_generation(tokenizer, response_format):
+def bounded_parser_schema(schema):
+    """Keep JSON/length constraints; check expensive CJK regex after generation.
+
+    This is a decoder projection, never a change to the accepted output contract.
+    The caller must validate the unchanged original schema before returning text.
+    """
+    projected = copy.deepcopy(schema)
+    def visit(node):
+        if isinstance(node, dict):
+            if node.get('pattern') == SAFE_COMPACT_TEXT_PATTERN:
+                node.pop('pattern')
+                node['minLength'], node['maxLength'] = 1, 40
+            for child in node.values():
+                visit(child)
+        elif isinstance(node, list):
+            for child in node:
+                visit(child)
+    visit(projected)
+    return projected
+
+
+def numeric_parser_schema(schema):
+    """Parser-only inclusive-range projection; final validation uses the original."""
+    projected = copy.deepcopy(schema)
+    def visit(node):
+        if isinstance(node, dict):
+            if node.get('type') in ('integer', 'number'):
+                node.pop('minimum', None)
+                node.pop('maximum', None)
+            for key in ('properties', '$defs'):
+                children = node.get(key)
+                if isinstance(children, dict):
+                    for child in children.values():
+                        visit(child)
+            for key in ('items', 'additionalProperties'):
+                if isinstance(node.get(key), dict):
+                    visit(node[key])
+            for key in ('anyOf', 'oneOf'):
+                if isinstance(node.get(key), list):
+                    for child in node[key]:
+                        visit(child)
+    visit(projected)
+    return projected
+
+
+def build_structured_generation(tokenizer, response_format, *, policy='strict-token-v1'):
     if response_format is None:
         return None, {"enabled": False}
     validate_response_format(response_format)
     schema = response_format["json_schema"]["schema"]
-    parser = make_parser(schema)
+    if policy not in ('strict-token-v1', 'bounded-semantic-postvalidation-v1'):
+        raise StructuredFormatError('Unknown decoder policy')
+    decoder_schema = bounded_parser_schema(schema) if policy == 'bounded-semantic-postvalidation-v1' else schema
+    postvalidated_constraints = ['compact-text-pattern'] if decoder_schema != schema else []
+    numeric_projection = numeric_parser_schema(decoder_schema)
+    if numeric_projection != decoder_schema:
+        postvalidated_constraints.append('inclusive-numeric-range')
+    decoder_schema = numeric_projection
+    parser = make_parser(decoder_schema)
     global _tokenizer_cache
     try:
         import transformers.tokenization_utils as tokenization_utils
@@ -271,6 +358,9 @@ def build_structured_generation(tokenizer, response_format):
     except ImportError as error:
         raise StructuredDependencyError("Structured decoder integration is unavailable") from error
     metadata = {"enabled": True, "enforced": True, "library": "lm-format-enforcer", "version": LMFE_VERSION,
+                "policy": policy, "original_schema_postvalidation_required": True,
+                "decoder_schema_sha256": hashlib.sha256(canonical_schema(decoder_schema)).hexdigest(),
+                "postvalidated_constraints": postvalidated_constraints,
                 "mode": "prefix_allowed_tokens_fn", "schema_sha256": hashlib.sha256(canonical_schema(schema)).hexdigest(),
                 "schema_hash_canonicalization": "UTF8 json.dumps(ensure_ascii=False,sort_keys=True,separators=(',',':'),allow_nan=False)"}
     return prefix, metadata
@@ -311,7 +401,10 @@ def output_matches_schema(text, schema):
                 if "pattern" in node and not re.fullmatch(node["pattern"], item):
                     return False
             elif kind in ("integer", "number"):
-                if type(item) not in (int, float) or not math.isfinite(item) or (kind == "integer" and int(item) != item):
+                if not _finite_number(item) or (kind == "integer" and int(item) != item):
+                    return False
+                if (("minimum" in node and item < node["minimum"]) or
+                        ("maximum" in node and item > node["maximum"])):
                     return False
             elif kind == "boolean" and type(item) is not bool:
                 return False

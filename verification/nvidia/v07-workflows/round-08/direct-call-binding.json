@@ -1,0 +1,55 @@
+{
+  "scope": "One actual native response directly bound to saved failed source-r10 8B run; no new model requests or quality/speedup inference",
+  "run_id": "run_95d7e0a1707d48459fd0d52d1561ece0",
+  "case_id": "case_42579d88ee144e7686f676b5b25651a5",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "input_public_SHA256": {
+    "failure-run-record.json": "ca65b2917743fc53db038c202fb26158f91837a098ddc07d5567baff64e04e5b",
+    "native-requests.json": "e144b547007ccd6e07ec60dcc9bbb44383357ff47b8c52de1663b8f9a7dec220"
+  },
+  "matched_calls": 1,
+  "all_saved_model_events_bound": true,
+  "native_collection_row_count": 14,
+  "selected_new_run_row_count": 1,
+  "excluded_unrelated_or_historical_rows": 13,
+  "source_manifest_sha256": "8ba6986d2577d786bfa4e105bd4ea55d63eadeef826f7d582fdfb8fbe797a618",
+  "adapter_sha256": "0d4e94ad0e5ecea7a1ca5dd0cfd0951b1e412f6742068dc3aff1f6e77f28234b",
+  "checks": [
+    {
+      "purpose": "vision",
+      "response_sha256": "842937b1c657c7d257a07618bac2f85504404b8078e56b1431743e8b2adeccdc",
+      "response_SHA_matches": true,
+      "prompt_tokens": 2496,
+      "completion_tokens": 152,
+      "total_tokens": 2648,
+      "usage_matches": true,
+      "image_count": 2,
+      "image_count_matches": true,
+      "client_seconds": 14.989654805045575,
+      "native_seconds": 14.943406060920097,
+      "native_structured_decoder_enabled": false,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 14908.25390625,
+        "max_memory_allocated_bytes": 18359228928,
+        "max_memory_reserved_bytes": 18710790144,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      }
+    }
+  ],
+  "saved_run_state": "failed",
+  "host_error": "ValidationError: required region missing",
+  "assessment_exists": false,
+  "NAT_or_StepFun_executed": false,
+  "HTTP_timeout_failure": false,
+  "limits": [
+    "CUDA event elapsed can include host launch gaps; not pure aggregate kernel time or end-to-end workflow latency.",
+    "CUDA allocator peak is not total system/shared memory usage.",
+    "Matching a returned response cannot prove ceramic accuracy or completed business contract."
+  ]
+}

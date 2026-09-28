@@ -1,0 +1,62 @@
+{
+  "scope": "Read-only cross-record audit of two actual public teaching runs; no model call, no answer/citation rewriting, no ceramic accuracy or expert validation",
+  "input_public_sha256": {
+    "round-04/workflow-summary.json": "1913c8aa09106446ef2d1bb09ebc6a52dd28af303d7a0e10f2221b05ead83f36",
+    "round-04/initial/final-run.json": "ea2caaa7c143692630c8598124a1b165b160581d20006176381f5e2075d37e5c",
+    "round-04/initial/nat-audit.json": "8d8d92b3f3a51b406ff3e4509b9a8a8d93f109057378b47b86aee09d7f91ae91",
+    "round-04/text-review/exact-approved-payload.json": "de25bcaf253ebc7b97d55bb3c099d815ec7af87aee3f949425cd8046c0968c06",
+    "round-04/text-review/executed.json": "8a8f0ae90634e817184ddc5415b581a52f03dd3716781b2dd884287286d364bc",
+    "round-05/workflow-summary.json": "fafbeef6e8616611b60fa4940a80bc17c30a37012388888e851ee1a08288c68c",
+    "round-05/initial/final-run.json": "80942cfee67d376a18d4b02a811083a783cffb212d8db5ac67ed7d7261d876d6",
+    "round-05/failure.json": "8f495a826642528e5fa1bd13a95b420ee71be4e814809d189b90075a6e65d624",
+    "round-05/native-failure-diagnostic.json": "2614e25e7906196d73abf082cbd5179847ed14fe3d071c61978059cb9c9eaa04"
+  },
+  "round_04": {
+    "run_state": "waiting_evidence",
+    "model_calls": 6,
+    "tool_calls": 13,
+    "business_active_seconds": 150.8492341041565,
+    "knowledge_citations": 1,
+    "citation_use": "source_context",
+    "citation_identity_matches_saved_read_receipt": true,
+    "citation_identity_matches_NAT_check": true,
+    "NAT_status": "references_verified",
+    "NAT_claim_support_assessed": false,
+    "approved_payload_equals_saved_execute_payload": true,
+    "approved_payload_reference_count": 0,
+    "approved_payload_reference_gap": "The initial assessment has one source_context citation; the actually approved four-field payload has an empty references array. This is observable, but it does not establish the unpreserved raw cause of the ValueError.",
+    "text_review_state": "failed",
+    "text_review_error": "文字审查失败：ValueError",
+    "text_review_result_saved": false,
+    "text_review_elapsed_seconds": 6.4134150869213045,
+    "text_review_total_tokens": 1647,
+    "raw_text_review_error_cause_confirmed": false,
+    "local_revision_performed": false,
+    "complete_workflow_finished": false,
+    "summary_ended_at": 1790602855.5231209,
+    "review_started_at": 1790602859.4669423,
+    "review_ended_at": 1790602865.8978217,
+    "summary_end_predates_review_start": true,
+    "timing_limit": "The saved workflow summary ends before the recorded text review begins; preserve both original records and do not derive a complete-loop duration from that summary."
+  },
+  "round_05": {
+    "run_state": "failed",
+    "model_calls": 4,
+    "tool_calls": 10,
+    "business_active_seconds": 74.68043541908264,
+    "assessment_exists": false,
+    "saved_application_error": "本地模型请求失败或响应格式不支持：HTTPStatusError",
+    "native_error_classes": [
+      "StructuredGenerationError"
+    ],
+    "HTTP_status_line_independently_preserved_in_native_excerpt": false,
+    "stepfun_execute_attempts": 0,
+    "local_revision_performed": false,
+    "assessment_export_performed": false,
+    "complete_workflow_finished": false
+  },
+  "expert_sample_received_or_validated": false,
+  "professional_quality_pass": false,
+  "Skills_gain_measured": false,
+  "round_06_or_32B_result_claimed": false
+}

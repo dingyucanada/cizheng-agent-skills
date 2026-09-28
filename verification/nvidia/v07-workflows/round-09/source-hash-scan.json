@@ -1,0 +1,123 @@
+{
+  "scope": "Actual byte/hash scan of14 selected workflow originals plus original native collector and root-derived16-call binding; no model requests or secret values; not final full repository source binding",
+  "files": [
+    {
+      "path": "workflow-summary.json",
+      "private_original_SHA256": "d5196e89243111037718774ccf8eca3f1c3b0b924b5a2672ac10e9505c70274a",
+      "public_derivative_SHA256": "e4a86cc5c80a784f051917d2575dd569caf27d3822d32fe5de525ea5938a3787",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "public-status.json",
+      "private_original_SHA256": "e2580701bcd14cd793bafd3c5e2c709d0d0a74b678094471b34ffb2b8ae85565",
+      "public_derivative_SHA256": "943b18c87c85af550a2ffa555146f717d1eeb267af61962f277bf4db03732aa5",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "public-image-identities.json",
+      "private_original_SHA256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_SHA256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "public-source-manifest.json",
+      "private_original_SHA256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_SHA256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "knowledge/source-1.json",
+      "private_original_SHA256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "public_derivative_SHA256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "knowledge/binding-1.json",
+      "private_original_SHA256": "16dc09384a3db526535440882df608757aa1eeffd8bf5aa1f99a7bda47b98e17",
+      "public_derivative_SHA256": "f1234e32b55031ba8034b4fc659f0008f63444d5904b9d70ce3dd7c245551b18",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "initial/final-run.json",
+      "private_original_SHA256": "8460f654340a04f0f16d5cf9d21975426b65a243fa62928529626457be236b43",
+      "public_derivative_SHA256": "4ab88cd4142232dc63921d51939b57fd763dee037ce550282c6b3a613714c3bc",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "initial/nat-audit.json",
+      "private_original_SHA256": "2103c888ca778d771fe65170d38100da7da476587b9490db79d7c7ca59005650",
+      "public_derivative_SHA256": "12715b398200b7c112851f96e958778c6fe8d76004f6357b65772378d61b4f78",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "initial/exports-downloaded.json",
+      "private_original_SHA256": "874a36c1859288781688a3bfd17687ebb00e4da2d59c8a7ae595320ee6b4806c",
+      "public_derivative_SHA256": "4590057f3bdfe044334e6cccd68333cdc39c965ba44414736f37bd493cd42cca",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "text-review/exact-approved-payload.json",
+      "private_original_SHA256": "5155ba22b6034a1015cf795defab94aa54bb1d392f2ae350675af73e53004c3f",
+      "public_derivative_SHA256": "e62513eb00f19ccdb5e5b958ba7291144de659538798ae6fba021a8ce9566967",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "text-review/executed.json",
+      "private_original_SHA256": "87f8223876909efc904b286aaa7aba3857cbf455539a653336c10c117b51a6e0",
+      "public_derivative_SHA256": "bb9cf3b9a52e8cd85f5a4f0cf167ffd1a0e2518a813476b310ab0c128e6fd603",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "revision/final-run.json",
+      "private_original_SHA256": "63f8ea0014c134484618a5603a0acf93802178a6144c9e98f420fa161eca054a",
+      "public_derivative_SHA256": "d8d7ed76f90ec6ebab507e0ed5c97a95f0128eae2ed8838eeeee8b317ee6c3d4",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "revision/nat-audit.json",
+      "private_original_SHA256": "2519af75b6b5bec61ae8f55acdc80de94544ea173d29b625a32a767d792650fa",
+      "public_derivative_SHA256": "7b08ad3166cb8110d3f8e6d2162484322b8846b66886cb84e0fc182633d0091a",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    },
+    {
+      "path": "revision/exports-downloaded.json",
+      "private_original_SHA256": "5c104689b63487f60897033a3153c7ce1b8201729aaa989118ebe14c0b145d63",
+      "public_derivative_SHA256": "8683645eb23d1e7940e480a2a01eb1de828830f652d2339e0780375cdd330f46",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_reread_unchanged": true
+    }
+  ],
+  "actual_secret_and_private_content_scan": "passed for16 selected public record inputs; no values emitted",
+  "actual_originals_reread_matches": 15,
+  "canonical_tmp_byte_equal": 16,
+  "model_answers_or_citations_rewritten": false,
+  "root_native_derivatives": [
+    {
+      "path": "native-requests.json",
+      "public_derivative_SHA256": "7880a999c1ea8d86a33f75d21b73faebbcd9e3d809b1d8e4252d9a4084b38330",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_collector_SHA256": "90deb8c5271cbcbe5282e4cceabb321f3ff2cad9f79eb80e8fed054837b44dc1",
+      "independent_16_call_binding_rechecked": true
+    },
+    {
+      "path": "native-binding.json",
+      "public_derivative_SHA256": "04f7b7ef06fb1200d3e9becd2d8b3c55650e5b5d84def46039af78f916a3eca7",
+      "canonical_tmp_actual_bytes_equal": true,
+      "original_collector_SHA256": "90deb8c5271cbcbe5282e4cceabb321f3ff2cad9f79eb80e8fed054837b44dc1",
+      "independent_16_call_binding_rechecked": true
+    }
+  ]
+}

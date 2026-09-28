@@ -1,0 +1,25 @@
+{
+  "scope": "actual HTTP public teaching workflow; NOT ceramic accuracy or a model A/B test",
+  "ceramic_accuracy": "not_measured",
+  "skills_gain": "not_measured",
+  "started_at": 1790606434.7360299,
+  "execution_route": "existing local HTTP backend; no model substitution by this helper",
+  "nvidia_scope": "saved-report knowledge reference identity; no claim-truth assessment",
+  "stepfun_scope": "one approved public text packet; no original image or image URL",
+  "case_id": "case_e9f2937d78834f3588032ce21624cf35",
+  "initial_run_id": "run_43a152be1ef24f85a81e23832a04ee6b",
+  "initial_nat_reference_status": "references_verified",
+  "initial_knowledge_task_checks": {
+    "fixed_source_read_receipts": 1,
+    "fixed_source_citations": 1,
+    "fixed_source_read_present": true,
+    "fixed_source_citation_present": true,
+    "meaning": "Software receipts/version citations; neither proves content accuracy or object attribution."
+  },
+  "revision_run_id": "run_6233efff2efd483581864d1926a3d0db",
+  "state": "failed",
+  "failure_stage": "revision_poll",
+  "ended_at": 1790606898.979563,
+  "stepfun_execute_attempts": 1,
+  "remote_completion_unknown_after_transport_failure": false
+}

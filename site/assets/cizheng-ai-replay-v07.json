@@ -1,0 +1,166 @@
+{
+  "title": "瓷证真实AI运行证据回放 · 第12轮",
+  "as_of": "2026-09-29",
+  "round": "full-workflow-v07-12",
+  "video_sha256": "aca010a6b9bdc33fd3e64eb1bdcc8f0dbb5752bff063bed21077f4fe6e380ab9",
+  "video_bytes": 1661177,
+  "duration_seconds": 80,
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "frames": 2000,
+  "codec": "H264/yuv420p",
+  "audio": false,
+  "burned_Chinese_text": true,
+  "full_decode": "passed, ffmpeg exit 0",
+  "visual_review": "all6 scenes plus actual decoded frame reviewed; no missing Chinese glyphs or text obstruction",
+  "permanent_label": "根据真实保存记录制作，非连续屏幕录制",
+  "technical_workflow_completed": true,
+  "final_state": "waiting_evidence",
+  "professional_quality_passed": false,
+  "total_workflow_wall_seconds": 299.00583815574646,
+  "teaching_video_changed": false,
+  "round11_archive": "assets/cizheng-ai-replay-round11-v07.mp4",
+  "initial": {
+    "seconds": 133.96552181243896,
+    "model_calls": 6,
+    "tool_calls": 13,
+    "body_deliveries": 1,
+    "source_context_citations": 1,
+    "NAT": "references_verified",
+    "claim_truth_assessed": false,
+    "quality_issue": "Known same Met fixture wrongly described as not applicable to this object"
+  },
+  "StepFun": {
+    "seconds": 10.635108241112903,
+    "execute_attempts": 1,
+    "prompt_tokens": 818,
+    "completion_tokens": 1707,
+    "total_tokens": 2525,
+    "cached_tokens": 256,
+    "issues": 3,
+    "approved_text_fields": 4,
+    "original_images_sent": false
+  },
+  "revision": {
+    "seconds": 142.18276619911194,
+    "model_calls": 8,
+    "tool_calls": 16,
+    "state": "waiting_evidence",
+    "assessment_present": true,
+    "body_deliveries": 1,
+    "source_context_citations": 1,
+    "NAT": "references_verified",
+    "export_count": 3,
+    "validation_errors": 0,
+    "critic_all3": "unresolved with model-authored reasons",
+    "quality_issue": "Not-applicable phrase removed, but period/style support and critic reasons still weak/unvalidated"
+  },
+  "native_binding": {
+    "matched": 14,
+    "native_count": 14,
+    "application_model_events": 14,
+    "max_http_elapsed_seconds": 47.78022638207767,
+    "http_timeout_seconds": 90,
+    "all_below_http_timeout": true,
+    "all_explicit_eos": true,
+    "all_original_schemas_valid": true
+  },
+  "export_hashes": {
+    "initial": [
+      {
+        "filename": "cizheng-report.json",
+        "bytes": 97744,
+        "server_sha256": "6230502e41d11a1cab95c7534e3806a745b2be9d1cac0363ad2cc31193aa3779",
+        "saved_sha256": "6230502e41d11a1cab95c7534e3806a745b2be9d1cac0363ad2cc31193aa3779"
+      },
+      {
+        "filename": "cizheng-report.md",
+        "bytes": 16519,
+        "server_sha256": "01ff17e19090a466344a881e3ff12f886cba3a48411bd03dfe437fa61d27f787",
+        "saved_sha256": "01ff17e19090a466344a881e3ff12f886cba3a48411bd03dfe437fa61d27f787"
+      },
+      {
+        "filename": "cizheng-report.html",
+        "bytes": 375408,
+        "server_sha256": "6adac426582a4b25f584787b9e8bbdcf8590f69b35b9ebe27aa6a393cdb3a41d",
+        "saved_sha256": "6adac426582a4b25f584787b9e8bbdcf8590f69b35b9ebe27aa6a393cdb3a41d"
+      }
+    ],
+    "revision": [
+      {
+        "filename": "cizheng-report.json",
+        "bytes": 121910,
+        "server_sha256": "a46154bfd560e9da386a5f09ea59804b237e9b0cb722d660c263cb847a968ddb",
+        "saved_sha256": "a46154bfd560e9da386a5f09ea59804b237e9b0cb722d660c263cb847a968ddb"
+      },
+      {
+        "filename": "cizheng-report.md",
+        "bytes": 17446,
+        "server_sha256": "29e520ab75b7912dc56ca99c730f8e987dabc7e2c46b72e8cbc1c41b2422b4e1",
+        "saved_sha256": "29e520ab75b7912dc56ca99c730f8e987dabc7e2c46b72e8cbc1c41b2422b4e1"
+      },
+      {
+        "filename": "cizheng-report.html",
+        "bytes": 376505,
+        "server_sha256": "a56c9265cfc529fb0c2217ce5964dd66b78209a0ca53a30144ca972cbec44f37",
+        "saved_sha256": "a56c9265cfc529fb0c2217ce5964dd66b78209a0ca53a30144ca972cbec44f37"
+      }
+    ]
+  },
+  "public_evidence": [
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/workflow-summary.json",
+      "sha256": "0bc8a5b0967821277b34de1d21dc1b48b222f5ff1ad813a0b0a63561401514e4"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/initial/final-run.json",
+      "sha256": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/initial/nat-audit.json",
+      "sha256": "880847eb32864edb1780e001576dbb641fba87bcad18f30129862ae2f8547dc7"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/revision/final-run.json",
+      "sha256": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/revision/nat-audit.json",
+      "sha256": "78187de399d0d462a38d799a0ffe8dc4eb0188b313fbe69d7f54494ba7eb0840"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/text-review/executed.json",
+      "sha256": "0df39212a13543e853aff7785902e54897791cb48e89d37737bb024c2c66b5ea"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/initial/exports-downloaded.json",
+      "sha256": "9971c706c457e55d3a014c8bc8d8263b4b6e1bdb9b1b031fb24ae03621aaae09"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/revision/exports-downloaded.json",
+      "sha256": "19291868d3e61d970b28cf4b2bec7285ba8364f21f57ef57a93fc59e65da11df"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/authenticity-audit.json",
+      "sha256": "05920ec5e98bd9efa1c9126f3335fb6da6dc969159e09ffe1c4f8c3c5736efba"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/quality-limitations-audit.json",
+      "sha256": "0c181bc685cfbb23ae3924e06d5115125d330a44d5c245a7c3264921e0b0fd03"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/native-binding.json",
+      "sha256": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-12/derivation-manifest.json",
+      "sha256": "baaa8281ca1d493e5982c244c7834bb660e732dd226d7c6eeaa6166ee1dab3a6"
+    }
+  ],
+  "original_and_public_hash_relationship": "Public derivation manifest separately preserves original hashes and sanitized file hashes. Export original files are not published by this replay receipt.",
+  "expert_validation": "not performed, expert samples on another computer not imported",
+  "ceramic_accuracy": "not measured",
+  "authenticity_probability": "not calibrated",
+  "Skills_gain": "not measured"
+}

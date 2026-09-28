@@ -1,0 +1,50 @@
+{
+  "scope": "One actual native response directly bound to saved failed 32B run; no new model requests or quality/speedup inference",
+  "run_id": "run_56635330a4164b2ba38677fc5fdae9a3",
+  "case_id": "case_06c730bf1d784804b1c19326014d7936",
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "input_public_SHA256": {
+    "failure-run-record.json": "5f95cfa69fb7c5b0dce1570596142422fa0ee816c7def3e5b9e818262413e7bc",
+    "native-requests.json": "392dc75526f7756bd43321f1596c40b56613147513a2ff517c1e475c86ca5b06"
+  },
+  "matched_calls": 1,
+  "all_saved_model_events_bound": true,
+  "checks": [
+    {
+      "purpose": "vision",
+      "response_sha256": "3ff2add5535a516126027a736f2fad97df4af69cdf0e92ec01727525127e6322",
+      "response_SHA_matches": true,
+      "prompt_tokens": 2504,
+      "completion_tokens": 269,
+      "total_tokens": 2773,
+      "usage_matches": true,
+      "image_count": 2,
+      "image_count_matches": true,
+      "client_seconds": 80.32860798295587,
+      "native_seconds": 80.27332768100314,
+      "native_structured_decoder_enabled": false,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 80223.1875,
+        "max_memory_allocated_bytes": 68075514880,
+        "max_memory_reserved_bytes": 68281171968,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      }
+    }
+  ],
+  "saved_run_state": "failed",
+  "host_error": "ValidationError: original-image-normalized region contract",
+  "assessment_exists": false,
+  "NAT_or_StepFun_executed": false,
+  "HTTP_timeout_failure": false,
+  "limits": [
+    "CUDA event elapsed can include host launch gaps; not pure aggregate kernel time or end-to-end workflow latency.",
+    "CUDA allocator peak is not total system/shared memory usage.",
+    "Matching a returned response cannot prove ceramic accuracy or completed business contract."
+  ]
+}

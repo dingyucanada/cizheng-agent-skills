@@ -1,38 +1,82 @@
-# 瓷证 · 陶瓷证据研究 Agent
+![瓷证：器物有来处，研究有凭据。原创产品封面，原图→资料→意见→复核；器形线描为装饰](site/assets/readme-cover.svg)
 
-**把器物照片、来源凭据、专业资料和研究意见，组织成能够回到原始证据的案卷。**
+<h1 align="center">瓷证 CIZHENG</h1>
+<p align="center"><strong>器物有来处，研究有凭据。</strong><br>面向博物馆、收藏者与拍卖从业者的陶瓷证据研究工作台</p>
+<p align="center"><a href="https://dingyucanada.github.io/cizheng-agent-skills/">产品主页</a> · <a href="https://dingyucanada.github.io/cizheng-agent-skills/demo.html">免上传完整体验</a> · <a href="docs/user-guide.md">使用手册</a> · <a href="https://github.com/dingyucanada/cizheng-agent-skills/releases">版本与下载</a></p>
 
-面向博物馆编目研究、收藏档案整理与拍卖图录准备。瓷证提供完整的公开教学体验和可在本机 / DGX Spark 部署的专业工作台：先观察和定位，再查资料和提出竞争解释，补证后比较版本，由人工复核并导出案卷。
+把器物原图、观察记录、来源凭据、专业资料和研究意见，组织成能够回到原始证据的案卷。先观察和定位，再查资料并提出竞争解释，补证后比较版本，由人工复核并导出。瓷证让研究者看清一项意见从哪里来、缺少什么，以及为什么改变。
 
-[项目主页](https://dingyucanada.github.io/cizheng-agent-skills/) · [免上传完整体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html) · [使用手册](docs/user-guide.md) · [比赛交付清单](docs/demo-and-submission.md) · [当前状态](STATUS.md)
+**立即试用：** [公开教学体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html)预置三套完整案卷，无需注册或上传。支持实际编辑、证据定位、补证比较、复核与导出；材料使用真实公开馆藏图像，研究示例由项目编写，**此网页不调用 AI 模型**。
 
-网站地址对应本仓库的GitHub Pages发布目标；是否成功以工作流及实际网页为准。公开体验使用真实馆藏图片和项目编写的研究示例，**不调用AI，示例不是鉴定结论或专家签署**。私有Spark已执行真实GPU图像生成，历史c005冻结后端在ARM64节点通过342项工程检查；StepFun公开文字适配器已实际请求。2B及8B历次复杂流程失败均保留；最新第05轮已观察双图并加载适用方法，但主动作90秒超时，未产生AI报告、NAT报告核查或StepFun反证闭环，详见 [当前状态](STATUS.md)。
+![瓷证专业工作台实际截图：山水纹花觚原图、区域观察及右侧原件来源信息](site/assets/workbench-v06.jpg)
 
-## 为什么做瓷证
+*专业工作台真实界面 · v0.6 · 公开教学案。截图展示图像研究功能，不作为模型研究质量证明。*
 
-专业研究工作会同时遇到几类问题：器物名称和时期标签混在一起，照片中的可见现象被直接写成制作工艺判断，转引资料失去页码和版本，来源经历只有叙述而没有对应文件，研究意见改变后无法解释改了什么。单次聊天回答难以承载这些责任。瓷证将器物登记、图像观察、资料记载、归属主张和人工复核分别保存，并通过定位、版本和文件哈希把它们联系起来。
+[观看教学演示 · 2:43 MP4](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4) · [真实 AI 记录回放 · 1:20 MP4](site/assets/cizheng-ai-replay-v07.mp4) · [下载产品与架构介绍 · 10 页 PPTX](site/assets/cizheng-pitch-v07.pptx) · [阅读开发纪实](https://dingyucanada.github.io/cizheng-agent-skills/story.html)
 
-博物馆场景强调编目、状况和文献核查；收藏场景强调来源凭据、未知经历及补拍计划；拍卖场景强调图录措辞、归属依据与条件说明。三个入口改变研究任务和材料重点，不代表系统已经接入某家机构或具备机构审批资格。输出是可以继续研究、交接和订正的证据案卷，供专业人员判断。
+教学演示与主回放均为静音中文字幕。2:43 演示展示预置教学操作，未调用模型；1:20 回放根据第 12 轮真实保存记录制作，展示初稿、批准文字审查、本地修订、NAT 与两版导出完成，**专业质量仍未通过**。回放不是连续屏幕录制或专家验收；来源见 [回放记录清单](site/assets/cizheng-ai-replay-v07.json)。[第 11 轮修订失败回放](site/assets/cizheng-ai-replay-round11-v07.mp4)和 [原来源清单](site/assets/cizheng-ai-replay-round11-v07.json)保留为历史归档。
 
-这也是 Agent Skills 的具体用处：把“下一步怎样研究、需要读什么、遇到矛盾怎样保留不足”组织成可复用方法包。模型运行由有限工具、实际读取回执和执行预算约束。没有模型时，材料登记、检索关联、图像操作、准备复核与离线导出仍然可用；有模型时，工具执行、证据引用、补证修订和失败记录进入同一案卷。系统不会用预先写好的答案替代实际模型调用。
+## 为三种研究工作提供同一条证据链
 
-## 不上传材料，也能完整体验
+| 使用场景 | 从材料到交接 | 可操作教学案 |
+|---|---|---|
+| 博物馆编目与研究 | 登记馆藏 → 定位观察 → 文献参照 → 材料复核 | [山水纹花觚](https://dingyucanada.github.io/cizheng-agent-skills/demo.html?case=met-48607) |
+| 收藏档案与来源 | 器物建档 → 来源凭据 → 缺项补证 → 案卷交接 | [青花镂空茶壶](https://dingyucanada.github.io/cizheng-agent-skills/demo.html?case=met-51185) |
+| 拍卖图录准备 | 核对描述 → 归属依据 → 措辞订正 → 报告导出 | [五彩耕织图瓶](https://dingyucanada.github.io/cizheng-agent-skills/demo.html?case=met-50839) |
 
-公开体验预置三套教学案卷：山水纹花觚、青花镂空茶壶和五彩耕织图瓶。真实图片与馆藏基本资料来自 Met Open Access；资料出处、文件哈希和图片许可均可回查。三件身份已知，不能用于宣称未知器物鉴定准确率。
+三件样例来自 Met Open Access，馆藏身份已知，业务角色用于教学。它们不是实际委托或鉴定盲测，不能用于宣称未知器物鉴定准确率。
 
-进入 [体验页](https://dingyucanada.github.io/cizheng-agent-skills/demo.html) 后可以直接：
+## 不上传材料，也能走完整个过程
 
-1. 选择业务场景和器物，阅读准备好的照片、档案、来源与研究问题。
-2. 编辑登记内容与自己的观察，点击证据回到图像区域或文字定位。
-3. 阅读实际 Skill 方法，检查示例解释的支持、冲突和缺口，按提示查看预置补证。
-4. 比较补证前后的记录与意见，保存本浏览器的人工复核备注。
-5. 导出研究报告及带清单的证据交接包，并核对文件哈希。
+1. **打开案卷。** 照片、档案、来源和研究问题已准备好。
+2. **定位证据。** 编辑自己的观察，点击事项回到原图区域或文字段落。
+3. **阅读方法。** 查看实际 Skill，核对支持、冲突与证据缺口。
+4. **补证与比较。** 纳入预置材料，比较记录和意见具体改了什么。
+5. **复核与导出。** 留下人工备注，下载报告、原图和 SHA256 文件清单。
 
-访客的修改保存在自己的浏览器，不上传服务器。所有预写意见均标为教学示例；浏览器复核备注不是可信专家签名。公开体验与本地服务的能力边界详见 [公开体验说明](docs/public-experience.md)。
+访客修改保存在本浏览器。导出保留教学标记，说明预写示例与访客修改；浏览器备注不是可信专家签名。见 [公开体验范围](docs/public-experience.md)。
+
+## 系统架构与材料边界
+
+![瓷证系统架构：公开教学在浏览器运行；专业工作台连接本机或Spark，原图本地存储和视觉处理，Agent使用7个Skills与固定RAG资料，NAT核查引用，人工复核后导出；StepFun仅可选批准文字审查，不发送原图](site/assets/architecture.svg)
+
+专业工作台将视觉处理、方法执行与案卷存储放在指定本机 / DGX Spark，笔记本可通过 SSH 隧道访问。原图在服务所在本机保存和处理；后端位于笔记本时，笔记本也保存原图。只有批准的公开或脱敏文字，才进入可选外部文字审查。
+
+| 组件 | 在瓷证中的职责 | 当前范围 |
+|---|---|---|
+| DGX Spark / GB10 · Qwen3-VL-8B | 在本地处理授权照片与区域像素 | PyTorch / CUDA / BF16 实际运行；当前服务与逐调用证据单独绑定，研究质量仍待验 |
+| FastAPI / SQLite / 原始文件 | 案件、权限、版本、附件与交接 | 原件保留、固定资料版本、幂等动作与导出已实现 |
+| 7 个领域 Skills / RAG | 按需读取方法与可定位资料 | 自研 Markdown 方法包；SQLite 关键词检索，25 条原创来源摘要 |
+| NVIDIA NeMo Agent Toolkit | 核对所选报告的引用身份 | 资料版本、段落、哈希与成功读取回执；软件合同已有真实运行 |
+| StepFun · step-3.7-flash | 可选的文字反证审查 | 第 06、09、11、12 轮有真实批准文字审查成功记录；只发批准文字，不发送原图 |
+| NVIDIA Nsight Systems | 限定视觉生成区间的 GPU 性能采集 | 已实际采集第 03 轮首次双图观察；不是提速或模型质量结论 |
+| 人工复核 | 检查意见、补证和交接范围 | 保留旧版本、备注及原件清单；当前没有可信专家签署 |
+
+第 12 轮已实际完成初稿、一次批准文字审查、本地修订、两版 NAT 核查和两版各三格式导出；两版均实际读取正文并保留一条来源上下文引用，14 次原生请求与业务事件逐条对应。**技术流程完成，专业质量仍未通过**：初稿有同器来源身份错误，修订的风格依据和三项未解决疑点理由仍薄弱，尚未经专家核验。引用身份和结构正确不能替代研究判断。当前局限与此前失败见 [第 12 轮质量记录](verification/nvidia/v07-workflows/round-12/quality-limitations-audit.json)、[逐轮运行证据](verification/nvidia/v07-workflows/README.md)、[当前状态](STATUS.md) 与 [系统架构](docs/nvidia-architecture.md)。
+
+32B 官方权重完整性、CUDA/BF16 热身与合成协议已验证，真实双图业务失败后已停止候选，继续保留权重和失败记录；不能声称更准或已采用。官方 NVIDIA vLLM 镜像拉取未完成、未部署；NIM 中国区官方分发限制阻止下载。TensorRT-LLM、Dynamo 与 NeMo Retriever 未部署。见 [服务与优化选择](docs/model-serving-options.md) 和 [更大模型候选](docs/larger-model-candidates.md)。
+
+## Skills：把研究方法变成下一步
+
+例如山水纹花觚的青花比较研究：先分列可见器形、装饰、照片覆盖与馆方记载；读取实际资料段落，列出相符线索、反例和竞争解释；新增同器照片后，逐项说明哪些观察改变、哪些归属仍需补证。风格相近本身不足以推出制作时期或真伪。
+
+| Skill | 具体方法 |
+|---|---|
+| [任务与补拍路由](skills/ceramic-route/SKILL.md) | 确认任务，检查输入质量与缺失部位，确定下一项材料 |
+| [陶瓷编目研究](skills/ceramic-research-record/SKILL.md) | 分开对象登记、可见观察、资料记载与归属主张 |
+| [青花比较研究](skills/bluewhite-attribution-test/SKILL.md) | 核对相似、反例与竞争解释，保留证据限制 |
+| [状况竞争解释](skills/condition-hypothesis-test/SKILL.md) | 区分照片现象、状况假说与实际检查记录 |
+| [来源经历核查](skills/provenance-evidence-audit/SKILL.md) | 核对来源事件、同器联系与原始凭据，保留经历缺口 |
+| [文字凭据核查](skills/documentary-evidence-audit/SKILL.md) | 读取本案许可文字，分列相符、冲突、缺失与需复核 |
+| [补证与版本修订](skills/evidence-revise/SKILL.md) | 比较新旧主张与依据，保留历史意见、失败和未解决项 |
+
+方法以描述 → 正文 → 按需参考资源渐进加载，整包 SHA256 固定实际采用的版本。工具执行、权限、读取回执和预算由宿主约束。七个领域方法为项目自研，未获得 NVIDIA Verified、专家签署或专业准确率认证；专业效果需独立专家样本的有 / 无 Skills 对照。
+
+RAG 提供 25 条项目原创来源摘要，注明机构链接、适用范围、权利与局限，专业准确性待专家核查。后端使用 SQLite 与中文关键词索引；文字匹配分不表示证据可信度。引用必须绑定实际读到的资料版本、段落与定位，知识库更新保留旧案依据。见 [资料库](https://dingyucanada.github.io/cizheng-agent-skills/knowledge.html) 与 [中文来源核查](docs/chinese-source-audit.md)。
 
 ## 本地专业工作台
 
-要求 Python 3.11+。`requirements-tested.txt` 固定本项目实际测试的依赖，`requirements.txt` 保留兼容范围。以下命令创建本地环境、导入完整教学材料并启动服务：
+要求 Python 3.11+。以下命令建立环境、导入教学材料并启动服务。`requirements-tested.txt` 固定实际测试依赖，`requirements.txt` 保留兼容范围。
 
 ```bash
 git clone https://github.com/dingyucanada/cizheng-agent-skills.git
@@ -44,59 +88,18 @@ python -m cizheng.demo --guided --data-dir ./data
 python -m uvicorn cizheng.api:create_app --factory --host 127.0.0.1 --port 8780
 ```
 
-浏览器打开 `http://127.0.0.1:8780`。完整教学材料可重复导入，不覆盖后续人工修改，不请求模型。仅需基本照片和馆藏登记可改用 `--professional`。
+浏览器打开 `http://127.0.0.1:8780`。教学材料可重复导入，不覆盖后续人工修改，不请求模型。真实 AI 研究需另行配置视觉服务，见 [Spark 部署与验收](docs/spark-validation.md)、[模型选择](docs/model-selection.md) 与 [NVIDIA 集成复现](docs/nvidia-integration.md)。
 
-| 工作区 | 可以实际完成的工作 |
+| 工作区 | 可以完成的工作 |
 |---|---|
-| 案件总览 | 选择博物馆、收藏、拍卖任务，查看准备度与下一项工作 |
-| 器物档案 | 记录尺寸、款识、来源事件、状况检查及对应原文件 |
-| 图像研究 | 原图、双图、缩放、局部框选、人工区域观察；档案最多 30 图，本轮选 1–8 图 |
-| 知识资料库 | 中文关键词检索、查看出处及段落、固定本案采用的资料版本 |
-| 研判与补证 | 连接模型后执行有预算的工具流程，保存证据主张和修订历史 |
-| 报告复核 | 逐图细节、各项判断理由、采集覆盖指数、补证与历史意见；NVIDIA 固定引用核查，导出 JSON、Markdown、HTML 和离线交接 ZIP |
+| 案件总览 | 选择业务任务，查看准备度与下一项工作 |
+| 器物档案 | 记录尺寸、款识、来源、状况检查和对应附件 |
+| 图像研究 | 原图、双图、缩放、局部框选与人工观察；档案最多 30 图，本轮选 1–8 图 |
+| 知识资料库 | 中文关键词检索，查看出处与段落，固定本案资料版本 |
+| 研判与补证 | 配置模型后执行有预算的工具流程，保存主张与修订历史 |
+| 报告复核 | 逐图观察、支持与冲突、分项理由及待补证；固定引用核查与 JSON / Markdown / HTML / ZIP 导出 |
 
-无照片委托可以使用“文字凭据核查”：只读本案许可 UTF-8 TXT 和固定资料段落，逐项记录相符、冲突、缺失与需复核。PDF 保留原始文件和定位登记，当前不自动 OCR；这条任务不作年代、窑口、风格或真伪归属。
-
-## Agent Skills 与证据执行
-
-本项目使用开放的 Skill 目录与 Markdown 方法结构，学习 [NVIDIA/skills](https://github.com/nvidia/skills) 的方法包与运行框架分工。业务技能均为项目自研，**未获得 NVIDIA Verified、专家签名或专业准确率认证**。Skill 文件本身不等于运行系统：前端、后端、工具、模型适配器和验证合同共同完成流程。
-
-| Skill | 方法与边界 |
-|---|---|
-| [ceramic-route](skills/ceramic-route/SKILL.md) | 根据材料与任务选择研究路径，明确需要补拍或保留不足 |
-| [ceramic-research-record](skills/ceramic-research-record/SKILL.md) | 分开对象登记、可见观察、资料记载与归属主张 |
-| [bluewhite-attribution-test](skills/bluewhite-attribution-test/SKILL.md) | 对青花花觚提出竞争解释，不以相似风格直接推出制作时期 |
-| [condition-hypothesis-test](skills/condition-hypothesis-test/SKILL.md) | 分开照片中的现象与实物状况解释，指出未检范围 |
-| [provenance-evidence-audit](skills/provenance-evidence-audit/SKILL.md) | 核对来源事件、同器联系与实际凭据，保留经历缺口 |
-| [documentary-evidence-audit](skills/documentary-evidence-audit/SKILL.md) | 依据实际读到的文字片段核查记载，不做视觉归属 |
-| [evidence-revise](skills/evidence-revise/SKILL.md) | 补证后比较主张和依据，保留旧运行、失败和未解决项 |
-
-描述 → 方法正文 → 按需参考资源，形成渐进加载；整包 SHA256 固定实际采用的方法版本。工具执行不开放通用 Shell。运行固定案卷、图片、资料及 Skill 版本，引用必须对应成功读取的段落和定位。单轮预算为 12 次模型调用（包含视觉子调用）、20 次工具、300 秒；初轮与最多两次修订共享 36 / 60 / 900 的累计上限，取消和失败同样保留用量。
-
-可选的[受控材料准备](docs/controlled-workflow.md)先执行本案读取、有限方法加载、最多两段固定资料和首批真实图片，仍按原预算收费。策略记录在运行身份中；协调器选择不称模型自然触发，判断与意见仍由真实模型产生。默认关闭，真实节点验收结果以记录为准。可选短动作传输只从本轮已读正文回执补齐六个引用身份字段，判断和理由仍由模型写出，并经原证据校验；单动作、短理由与单引用有表达限制，效果另测。
-
-## RAG：可回查的资料，不是自动可信标签
-
-`knowledge/` 提供 25 条项目原创来源短摘要，覆盖馆藏个案、编目、来源、状况及研究方法，注明机构链接、作者、适用范围、文字权利和局限，均待专家核查。没有分发机构页面全文、用户培训 PDF 或私人专家资料。逐条中文来源见 [来源核查表](docs/chinese-source-audit.md)。
-
-后端使用 SQLite 和中文重叠双字词的关键词索引，不是向量模型。检索分表示文字匹配程度；实际引用还要读到指定段落，校验资料版本、文档哈希、段落哈希和定位。知识库更新不会静默改写旧案。馆藏时期标签只属于对应编号的器物，不能变成待鉴对象答案。RAG 和证据链有助于回查，不能保证模型不出错。
-
-## Spark、NVIDIA 与 StepFun
-
-推荐将正式模型演示的后端、数据库与视觉模型部署在同一 Spark 项目目录，笔记本通过 SSH 转发访问。原图由指定本机 / Spark 服务处理；如果后端仍在笔记本，笔记本也保存原图，需如实说明。
-
-| 技术 | 当前已完成 | 仍需验证 |
-|---|---|---|
-| DGX Spark / NVIDIA GB10 | 实际ARM64节点；历史c005冻结源码342项工程检查通过，真实CUDA FP32/BF16运算、GPU加载及合成图生成预热通过 | 工程通过和部署就绪不等于陶瓷专业质量；冷/热、负载与专家效果分别验收 |
-| CUDA / PyTorch / Transformers / Triton | 官方CUDA13轮子、BF16/SDPA原生推理、权重SHA核对；缺Python.h真实失败后通过项目内官方头文件修复；原始生成输出保留 | 8B基础探针通过，旧版复杂工具流程失败；GPU结构约束已通过合成格式验证，公开两图full-workflow01因调用预算失败；未用NVFP4/Marlin/FlashInfer |
-| NVIDIA NeMo Agent Toolkit 1.9.0 | 正式注册、组合工作流、真实CLI及三个合同评测；本机与Spark独立环境均完成API、固定历史引用、权限和幂等检查 | 引用软件合同fixture；0模型调用，不能替代真实视觉报告、结论正确性或Skills效果 |
-| NVIDIA NAT profiler 1.9.0 | 实际离线执行三个引用软件样例；42条原始事件、9个tracked SPAN与9个原生FUNCTION，生成ATIF、CSV、Gantt及指标 | CPU工具轨迹，0模型调用；嵌套区间不可相加，不是Qwen视觉或GPU性能 |
-| NVIDIA SkillSpector 2.12.0 | 七个运行范围按官方Tier-1暂存规则静态扫描完成，无范围内发现；保留全包诊断和排除项 | 未完成live有/无Skills专业效果评测或NVIDIA签名，不是Verified |
-| StepFun step-3.7-flash | 实际公开文字请求、结构与引用ID校验通过，936 total tokens / 4.829秒为单次适配器探针 | 完整反证修订和专业验收；单次探针不代表性能统计，未发原图 |
-
-[NVIDIA架构与采用路线](docs/nvidia-architecture.md) · [集成与复现](docs/nvidia-integration.md) · [已执行的公开证据](verification/nvidia/README.md) · [评分项逐条对照](docs/competition-score-evidence.md) · [模型选择](docs/model-selection.md) · [Spark部署验收](docs/spark-validation.md)。实际用了什么、作用是什么及未验证之处分别记录。TensorRT-LLM、NIM、Dynamo和NeMo Retriever保留为瓶颈驱动的后续候选，没有把它们列为已使用。
-
-照片研究报告列出原图SHA、每张实际观察、支持和冲突依据、分项理由及下一项补证。**采集覆盖指数**按本轮用户标注的整体、底足、口沿、釉面、纹饰五类去重计算；它不表示图片质量、证据充分性或真品率。真品概率字段保留为“待校准”，没有用模型自报置信或路由概率充当概率。详见 [报告与数字口径](docs/authenticity-and-scoring.md)。Jev不在本地核心链路，Laya仅保留默认关闭的文本影子实验。
+没有模型时，材料登记、图像操作、资料检索、准备复核和离线导出仍可用。文字凭据任务只核对本案许可 UTF-8 TXT 与固定资料段落，不作视觉归属；PDF 当前保留原文件和定位，不自动 OCR。
 
 ## 验证与复现
 
@@ -106,31 +109,32 @@ PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider tests integrat
 python scripts/build-public-site.py
 npm ci --ignore-scripts
 npm run test:web
-python -m cizheng.paired_eval --manifest examples/public-demo/manifest.json --output prepared-teaching-input.json
 ```
 
-工程测试检查原文件保留、跨案权限、资料版本、已读回执、预算、补证和导出等合同；纯色图、脚本模型、模拟网络不能衡量陶瓷鉴定能力。公开教学样本用于说明流程。有 / 无 Skills 的专业比较需使用独立专家样本、相同模型、资料和预算，保留无改善和失败例；3–5 件个案也不能推出行业准确率。见 [评测协议](evals/PROTOCOL.md) 与 [专家材料接入](docs/expert-intake.md)。
+已实测的 Spark ARM64 r15 工程回归为 **913 passed / 8 skipped / 1 warning，309.15 秒**；专项为 403 passed / 6 skipped / 1 warning，143.49 秒。原生生产服务仍为 r11；包含 8 项新增阶段 Schema 的原生测试在 r14 实测 147 passed / 1 warning，4.54 秒，生产代码与 r15 相同。这些工程检查均为 0 次 GPU 模型请求；公开核心、集成与测试 Python 文件另与实际 r15 部署清单逐 SHA 核对 86/86，范围不包含整个 Git 仓库。见 [工程记录](verification/nvidia/v07-workflows/engineering-checks-v07.json) 和 [源码一致性](verification/nvidia/v07-workflows/runtime-public-python-parity.json)。
 
-## 仓库与参赛交付
+工程检查覆盖原件保留、跨案权限、资料版本、读取回执、预算、修订和导出。纯色图、脚本模型和模拟网络只用于软件合同，不衡量陶瓷鉴定能力。专家材料仍在另一台电脑，尚未接收验证或校准真品率；接入字段与盲评流程见 [专家验证接入](docs/expert-validation-intake.md)。专业比较应固定模型、资料与预算，保留失败；少量个案不能推出行业准确率。
+
+[评测协议](evals/PROTOCOL.md) · [评测口径](BENCHMARK.md) · [专家材料接入](docs/expert-intake.md) · [报告与数字口径](docs/authenticity-and-scoring.md) · [受控工作流](docs/controlled-workflow.md)
+
+## 仓库导航
 
 ```text
-cizheng/              FastAPI、案卷、工具执行、资料库、模型与评测适配
-static/               本地专业工作台前端
-skills/               七个 SKILL.md、方法卡、参考文件与评测合同
-knowledge/            25 条原创来源摘要与出处
-examples/public-demo/ 公开馆藏照片、许可、来源与教学材料
-site/                 GitHub Pages 主页与免上传体验
-integrations/         NVIDIA NAT插件与Spark原生GPU适配器
-verification/         已实际执行的公开集成记录与扫描范围
-deploy/               本地与 Spark 启动、环境检查及配置示例
-docs/                 产品、使用、模型、部署、比赛与权利说明
-evals/ tests/          专业评测协议与工程验证
+cizheng/              案卷服务、工具、资料库、模型与评测适配
+static/               本地专业工作台界面
+site/                 产品主页与免上传教学体验
+skills/               七个方法包及参考资源
+knowledge/            原创来源摘要与出处
+examples/public-demo/ 公开馆藏图像、许可和教学材料
+integrations/         NAT 插件与 Spark GPU 适配器
+deploy/               本地与 Spark 环境、启动及配置
+docs/                 产品、使用、架构、部署与权利说明
+verification/         已执行的运行证据及失败记录
+evals/ tests/          专业评测协议与工程检查
 ```
-
-官方要求的 500 字以上作品说明、技术架构、部署 / 优化 / Skills 设计与技能 Markdown 已组织在本仓库。按六项评分对应的事实、证据和待补项见 [比赛交付清单](docs/demo-and-submission.md)。公开仓库和教学体验不能替代真实 Spark / StepFun 模型演示、B 站视频、真实团队合影及组委会表单提交；这些事项完成后，应以实际链接和记录更新状态。
 
 ## 适用范围与许可
 
-本版提供可在本地受控试用的单人工作台，尚未实现机构多用户授权、可信专家签署、实物检测、价格评估或产权审批。原件校验和复核记录用于证据回查，不能直接变成自动鉴定证书。
+当前提供单人受控试用，尚未实现机构多用户授权、可信专家签署、实物检测、价格评估或产权审批。**采集覆盖指数**仅反映本轮照片所标注的整体、底足、口沿、釉面和纹饰覆盖；真品概率保持“待校准”。研究报告用于继续研究与人工复核，不是自动鉴定证书。
 
-项目自研代码采用 [MIT](LICENSE)。Met 公版图片与基本记录遵守馆方 Open Access / CC0；图片、资料和依赖不因代码采用 MIT 就统一改变许可。见 [第三方来源与权利](THIRD_PARTY.md)。GitHub Pages 只发布 `site/`，不发布私人数据库、密钥、模型权重或用户提供的培训材料。可先阅读 [公开部署说明](docs/github-pages.md) 再发布自己的副本。
+项目自研代码采用 [MIT](LICENSE)。Met 图像和基本记录遵守馆方 Open Access / CC0；资料与依赖保留各自许可，原机构不背书本项目。见 [第三方来源与权利](THIRD_PARTY.md)。GitHub Pages 只发布 `site/`，不发布私人数据库、密钥、模型权重或用户培训材料。发布副本前可阅读 [公开部署说明](docs/github-pages.md)。

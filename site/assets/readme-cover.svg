@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">瓷证 CIZHENG：器物有来处，研究有凭据</title>
+<desc id="desc">深蓝与瓷白的原创产品封面。原图、资料、意见、复核依次相连。右侧为装饰性器形线描，不是馆藏照片或模型观察证据。</desc>
+<defs>
+  <linearGradient id="field" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#102439"/><stop offset="1" stop-color="#203f52"/></linearGradient>
+  <linearGradient id="glaze" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#cfdee0"/><stop offset="1" stop-color="#77a0b7"/></linearGradient>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1L9 5L1 9" fill="none" stroke="#92a8b5" stroke-width="1.5"/></marker>
+</defs>
+<rect width="1200" height="540" fill="url(#field)"/>
+<path d="M0 539H1200" stroke="#ae9d7d" stroke-width="2"/>
+<circle cx="1065" cy="90" r="240" fill="none" stroke="#fff" stroke-opacity=".04"/>
+<circle cx="1065" cy="90" r="310" fill="none" stroke="#fff" stroke-opacity=".03"/>
+<g font-family="PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+<text x="70" y="71" fill="#adc3cf" font-size="14" letter-spacing="4">CIZHENG · CERAMIC EVIDENCE</text>
+<text x="70" y="123" fill="#f5f3e9" font-size="34" font-weight="600" letter-spacing="7">瓷证</text>
+<g font-family="Songti SC,Noto Serif CJK SC,serif" font-size="72" fill="#f5f3e9">
+<text x="67" y="223">器物有来处，</text><text x="67" y="309">研究有凭据。</text>
+</g>
+<text x="70" y="363" fill="#bed0d8" font-size="20">面向博物馆、收藏者与拍卖从业者的陶瓷证据研究工作台</text>
+<g fill="#ffffff" fill-opacity=".04" stroke="#7893a5" stroke-opacity=".55">
+<rect x="70" y="421" width="126" height="54" rx="3"/><rect x="240" y="421" width="126" height="54" rx="3"/><rect x="410" y="421" width="126" height="54" rx="3"/><rect x="580" y="421" width="126" height="54" rx="3"/>
+</g>
+<g font-size="19" fill="#f2f0e7" text-anchor="middle"><text x="133" y="456">原图</text><text x="303" y="456">资料</text><text x="473" y="456">意见</text><text x="643" y="456">复核</text></g>
+<g fill="none" stroke="#92a8b5" stroke-width="1.5" marker-end="url(#arrow)"><path d="M204 448H232"/><path d="M374 448H402"/><path d="M544 448H572"/></g>
+<text x="72" y="507" fill="#92a9b8" font-size="12" letter-spacing="2">OBSERVE / TRACE / REVISE</text>
+</g>
+<g fill="none" stroke="url(#glaze)" stroke-width="2" opacity=".88">
+<ellipse cx="962" cy="139" rx="64" ry="9"/>
+<path d="M898 140C906 161 924 187 927 216C930 241 908 266 903 293C896 327 907 365 923 412L925 423M1026 140C1018 161 1000 187 997 216C994 241 1016 266 1021 293C1028 327 1017 365 1001 412L999 423"/>
+<ellipse cx="962" cy="423" rx="37" ry="6"/>
+<path d="M913 175Q962 184 1011 175M927 212Q962 220 997 212M913 268Q962 276 1011 268M905 295Q962 305 1019 295M913 365Q962 375 1011 365M922 407Q962 415 1002 407" opacity=".6"/>
+<path d="M925 321C944 301 957 324 977 306C990 294 1006 315 1014 318M914 344C935 325 950 352 970 333C986 316 1001 340 1016 339" opacity=".55"/>
+</g>
+<g stroke="#9eb6c4" stroke-opacity=".25" fill="none"><path d="M854 121H840V451H854M1070 121H1084V451H1070"/><path d="M827 139H846M1078 423H1097"/></g>
+<text x="962" y="480" text-anchor="middle" font-family="sans-serif" fill="#809daF" font-size="10" letter-spacing="2">DECORATIVE LINE STUDY</text>
+</svg>

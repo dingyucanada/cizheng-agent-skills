@@ -1,0 +1,147 @@
+{
+  "scope": "Read-only source/receipt/export audit of actual round09 Met teaching fixture; not ceramic accuracy, expert judgement or Skills A/B",
+  "input_public_SHA256": {
+    "workflow-summary.json": "e4a86cc5c80a784f051917d2575dd569caf27d3822d32fe5de525ea5938a3787",
+    "public-status.json": "943b18c87c85af550a2ffa555146f717d1eeb267af61962f277bf4db03732aa5",
+    "public-image-identities.json": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+    "public-source-manifest.json": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+    "knowledge/source-1.json": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+    "knowledge/binding-1.json": "f1234e32b55031ba8034b4fc659f0008f63444d5904b9d70ce3dd7c245551b18",
+    "initial/final-run.json": "4ab88cd4142232dc63921d51939b57fd763dee037ce550282c6b3a613714c3bc",
+    "initial/nat-audit.json": "12715b398200b7c112851f96e958778c6fe8d76004f6357b65772378d61b4f78",
+    "initial/exports-downloaded.json": "4590057f3bdfe044334e6cccd68333cdc39c965ba44414736f37bd493cd42cca",
+    "text-review/exact-approved-payload.json": "e62513eb00f19ccdb5e5b958ba7291144de659538798ae6fba021a8ce9566967",
+    "text-review/executed.json": "bb9cf3b9a52e8cd85f5a4f0cf167ffd1a0e2518a813476b310ab0c128e6fd603",
+    "revision/final-run.json": "d8d7ed76f90ec6ebab507e0ed5c97a95f0128eae2ed8838eeeee8b317ee6c3d4",
+    "revision/nat-audit.json": "7b08ad3166cb8110d3f8e6d2162484322b8846b66886cb84e0fc182633d0091a",
+    "revision/exports-downloaded.json": "8683645eb23d1e7940e480a2a01eb1de828830f652d2339e0780375cdd330f46",
+    "native-requests.json": "7880a999c1ea8d86a33f75d21b73faebbcd9e3d809b1d8e4252d9a4084b38330",
+    "native-binding.json": "04f7b7ef06fb1200d3e9becd2d8b3c55650e5b5d84def46039af78f916a3eca7"
+  },
+  "technical_workflow_state": "completed",
+  "professional_quality_pass": false,
+  "task_source_read_and_citation_present": false,
+  "initial": {
+    "run_id": "run_8be349d9d0ee4f82aaf07d4043ddfb78",
+    "state": "waiting_evidence",
+    "model_calls": 6,
+    "tool_calls": 13,
+    "business_active_seconds": 146.6570041179657,
+    "body_hashes_delivered": [
+      "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+    ],
+    "fixed_source_citation_count": 1,
+    "citation_use": "source_context",
+    "NAT_status": "references_verified",
+    "six_identity_fields_match_read_receipt_NAT_review_binding": true,
+    "claim_truth_assessed": false
+  },
+  "text_review": {
+    "state": "succeeded",
+    "model": "step-3.7-flash",
+    "execute_attempts": 1,
+    "elapsed_seconds": 14.499942191992886,
+    "prompt_tokens": 784,
+    "completion_tokens": 1656,
+    "total_tokens": 2440,
+    "cached_tokens": 192,
+    "issues": 3,
+    "approved_references": 1,
+    "knowledge_body_bindings": 1,
+    "exact_approved_packet_equals_saved_executed_packet": true,
+    "approved_excerpt_SHA_matches": true,
+    "original_images_or_image_URLs_sent": false
+  },
+  "revision": {
+    "run_id": "run_809d3e2a1adc40c1a14928430569bb20",
+    "state": "waiting_evidence",
+    "model_calls": 10,
+    "tool_calls": 18,
+    "business_active_seconds": 170.91728234291077,
+    "body_hashes_delivered": [
+      "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+    ],
+    "fixed_source_read_receipts": 1,
+    "fixed_source_citation_count": 0,
+    "NAT_status": "no_read_evidence",
+    "source_read_and_citation_check": false
+  },
+  "actual_initial_and_revision_export_byte_checks": [
+    {
+      "phase": "initial",
+      "filename": "cizheng-report.json",
+      "bytes": 94673,
+      "actual_private_export_SHA256": "901aff722c8269328f4e81ae5150dd4727fc45d7037a4e4473e56e06cd71e379",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "initial",
+      "filename": "cizheng-report.md",
+      "bytes": 14174,
+      "actual_private_export_SHA256": "5776aa541d8b080b0500e527f9705f1ed64cb996679616bdedd1b00636136f41",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "initial",
+      "filename": "cizheng-report.html",
+      "bytes": 372467,
+      "actual_private_export_SHA256": "dd6d5eb603597b4d0d6040c58b3d6d0a3041bec04ff86c814c4bc6f1b410982e",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "revision",
+      "filename": "cizheng-report.json",
+      "bytes": 119876,
+      "actual_private_export_SHA256": "eeb19f4d8c450048f4c8863f6cd1f1df38cd52a23900ca7882cd1f2323d81307",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "revision",
+      "filename": "cizheng-report.md",
+      "bytes": 13386,
+      "actual_private_export_SHA256": "ee0883d18b17e0bdb7e881f3ee6f94cc7f9f8cf25b881fa187594780aea3e484",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "revision",
+      "filename": "cizheng-report.html",
+      "bytes": 371792,
+      "actual_private_export_SHA256": "2d2743823caaec8ea1855237c53ceba503febf89c8dba53bd43e4f9de257b5ac",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    }
+  ],
+  "final_report_has_verified_knowledge_reference_chain": false,
+  "native_16_call_response_SHA_binding_pending": false,
+  "expert_sample_received_or_validated": false,
+  "ceramic_accuracy": "not_measured",
+  "Skills_gain": "not_measured",
+  "program_selected_citations_or_completed_opinion": false,
+  "limits": [
+    "Technical orchestration and six export byte checks succeeded, while revised knowledge reference presence failed.",
+    "NAT identity checks do not establish source support, object attribution or genuine rate.",
+    "Helper and backend timestamps are not independently synchronized; per-run seconds are business activity, not total-loop or single-model timing.",
+    "All16 native calls bind to actual application events and original collector by response SHA, usage and image metadata; valid transport/schema results do not repair the revised missing knowledge citation."
+  ],
+  "native_binding": {
+    "actual_native_rows": 16,
+    "application_model_events": 16,
+    "response_SHA_and_three_usage_fields_and_image_count_and_bytes_match": 16,
+    "max_HTTP_elapsed_seconds": 44.333091087057255,
+    "HTTP_timeout_seconds": 90,
+    "all_below_HTTP_timeout": true,
+    "explicit_eos_rows": 16,
+    "original_schema_valid_rows": 16,
+    "original_collector_actual_SHA256": "90deb8c5271cbcbe5282e4cceabb321f3ff2cad9f79eb80e8fed054837b44dc1",
+    "remote_raw_log_SHA256": "6e1fdfada9988ba06ce4b1aa058c92b85e4182e546af7e4e1d2f0a9f0fb3c12c",
+    "public_native_SHA256": "7880a999c1ea8d86a33f75d21b73faebbcd9e3d809b1d8e4252d9a4084b38330",
+    "public_binding_SHA256": "04f7b7ef06fb1200d3e9becd2d8b3c55650e5b5d84def46039af78f916a3eca7",
+    "collector_unchanged_on_reread": true,
+    "scope": "Identity/usage/transport/schema checks do not establish professional quality or citation support"
+  }
+}

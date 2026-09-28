@@ -1,0 +1,12 @@
+{
+  "stage": "revision_poll",
+  "error_type": "IntegrationFailure",
+  "detail": "Actual research did not deliver a completed assessment",
+  "details": {
+    "run_id": "run_d8b9f05ba9dd4088b216cf69e705d11a",
+    "state": "failed",
+    "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功"
+  },
+  "dependent_stages_stopped": true,
+  "no_automatic_mutation_retry": true
+}

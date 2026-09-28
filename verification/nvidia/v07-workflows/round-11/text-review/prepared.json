@@ -1,0 +1,97 @@
+{
+  "id": "textreview_4de493fd529c4b488b439f079dba46d2",
+  "case_id": "case_a632f8cf6d3e42529a1cb3a9fa30871d",
+  "case_revision": 5,
+  "assessment_run_id": "run_b81ab01e9330478ab7f57e8494d77290",
+  "episode_id": "episode_96ab93a0854f4d48899758b47b33fee1",
+  "payload": {
+    "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+    "claims": [
+      {
+        "dimension": "period",
+        "candidate": "康熙早期",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "馆方记录提及康熙早期，但无图像参照支持"
+      },
+      {
+        "dimension": "kiln",
+        "candidate": "景德镇窑",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无款识与胎体特征，无法确认窑口"
+      },
+      {
+        "dimension": "style",
+        "candidate": "山水花篮纹饰风格",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "纹饰布局与装饰风格符合清代青花花觚特征"
+      }
+    ],
+    "observations": [
+      {
+        "media_id": "media_5f81054b2974478783abeb795e5d6c31",
+        "region": [
+          0.22,
+          0.17,
+          0.77,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘山水纹饰",
+        "interpretation": "山水纹饰，瓶口有装饰",
+        "limitation": "",
+        "id": "obs_99cc79498f6f4bf28054f94838c08902"
+      },
+      {
+        "media_id": "media_69e9a7fa86654f93886b78fe948b7702",
+        "region": [
+          0.22,
+          0.17,
+          0.77,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘花篮纹饰",
+        "interpretation": "花篮纹饰，瓶口有装饰",
+        "limitation": "",
+        "id": "obs_00b9a3d4c6e847209b491c196e886047"
+      }
+    ],
+    "references": [
+      {
+        "reference_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "title": "山水纹花觚的馆藏编目参照",
+        "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+        "excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+      }
+    ]
+  },
+  "packet_hash": "3d104205e09507051417a9e6c0ec014814bfc4bb4c2e0604d666e760148a2477",
+  "permission": "public",
+  "approval_basis": "用户已授权本轮公开教学完整文字联调；输入为Met48607公开CC0双图及明确绑定的公开馆藏资料。仅批准本次本地预览原四字段文字包，SHA256 3d104205e09507051417a9e6c0ec014814bfc4bb4c2e0604d666e760148a2477；原图、图像访问地址和私有材料不发送。馆方记载不等于本项目独立鉴定，审查非专家认证。",
+  "state": "prepared",
+  "knowledge_reference_bindings": {
+    "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99": {
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "use": "source_context",
+      "relevance": "馆方记录提及康熙早期，但无图像参照支持",
+      "body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "snippet_start": 0,
+      "snippet_end": 130,
+      "content_kind": "authorized_text",
+      "read_text_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d",
+      "approved_excerpt_sha256": "f9f1cdd82024ba9dea08f7ab90f00039018a6ab8ffdab268ca9d0c6e220c668d"
+    }
+  },
+  "created_at": 1790613863.6976576,
+  "result": null,
+  "error": null
+}

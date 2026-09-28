@@ -1,0 +1,25 @@
+{
+  "scope": "公开教学样例，已知身份，不是独立盲测，不附模拟模型结果",
+  "museum": "The Metropolitan Museum of Art",
+  "object_id": "48607",
+  "accession_number": "18.61.4",
+  "object_url": "https://www.metmuseum.org/art/collection/search/48607",
+  "rights_url": "https://www.metmuseum.org/policies/image-resources",
+  "license": "CC0 / object page marked Public Domain",
+  "retrieved_on": "2026-09-27",
+  "catalog_record": "馆方记载：清代康熙早期，景德镇釉下钴蓝瓷；此记录不等于本项目已鉴定",
+  "images": [
+    {
+      "file": "met-48607.jpg",
+      "view": "整体正面（公开图，视角声明）",
+      "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321545/main-image",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc"
+    },
+    {
+      "file": "met-48607-view2.jpg",
+      "view": "另一面整体（公开图，视角声明）",
+      "image_url": "https://collectionapi.metmuseum.org/api/collection/v1/iiif/48607/1321524/main-image",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+    }
+  ]
+}

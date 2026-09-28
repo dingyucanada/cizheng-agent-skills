@@ -1,0 +1,65 @@
+{
+  "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+  "claims": [
+    {
+      "candidate": "康熙早期",
+      "conflict": [],
+      "dimension": "period",
+      "reasoning_summary": "馆方记录提及康熙早期，但无实物佐证",
+      "status": "insufficient",
+      "support": []
+    },
+    {
+      "candidate": "景德镇",
+      "conflict": [],
+      "dimension": "kiln",
+      "reasoning_summary": "无款识或胎体证据支持窑口",
+      "status": "insufficient",
+      "support": []
+    },
+    {
+      "candidate": "山水花篮纹饰风格",
+      "conflict": [],
+      "dimension": "style",
+      "reasoning_summary": "纹饰布局符合清代早期特征",
+      "status": "insufficient",
+      "support": []
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs_35853e6b340a458c86aed05de2ce4cf2",
+      "media_id": "media_d240b86aa8cd42919b84082e67fd2a2f",
+      "region": [
+        0.22,
+        0.17,
+        0.78,
+        0.83
+      ],
+      "visible": "青花瓷瓶，瓶身绘山水纹饰",
+      "interpretation": "山水纹饰，瓶口有装饰",
+      "limitation": ""
+    },
+    {
+      "id": "obs_fc7fcedac5484c5d98647055f7362dee",
+      "media_id": "media_6ec564306f964c029f2caed62b92718b",
+      "region": [
+        0.22,
+        0.17,
+        0.78,
+        0.83
+      ],
+      "visible": "青花瓷瓶，瓶身绘花篮纹饰",
+      "interpretation": "花篮纹饰，瓶口有装饰",
+      "limitation": ""
+    }
+  ],
+  "references": [
+    {
+      "reference_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "title": "山水纹花觚的馆藏编目参照",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+    }
+  ]
+}

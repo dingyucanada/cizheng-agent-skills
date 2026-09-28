@@ -1,0 +1,370 @@
+{
+  "scope": "actual engineering unit tests, no GPU generation or expert quality measurement",
+  "source_stage": "source-v07-runtime-r15-20260929",
+  "source_manifest_sha256": "4cf1bbcc94b4f3725d9967c5a955fd3b0fb711d90216597596085d833545bfa5",
+  "patched_files": {
+    "tests/test_guided_phase_transport.py": "eecedbeae35a09fcd869aab48fc99787e7eceb349d1062ebac468ccdf61f6e89"
+  },
+  "app": {
+    "passed": 913,
+    "skipped": 8,
+    "warnings": 1,
+    "seconds": 309.15,
+    "model_calls": 0,
+    "local_record_sha256": "97a8ae21d6c6a9f3145ea7c94bfc8ea40b6b4ab0f8af209185504fd7b1799270"
+  },
+  "native": {
+    "passed": 147,
+    "skipped": 0,
+    "warnings": 1,
+    "seconds": 4.54,
+    "model_calls": 0,
+    "local_record_sha256": "9530a0ec4858da04fc288674a95d8722f9e62502d459b86ae42ca1c75e842fee",
+    "source_stage": "source-v07-runtime-r14-20260929",
+    "runtime_source_stage": "source-v07-runtime-r11-20260928",
+    "production_native_unchanged": true,
+    "new_phase_schema_tests": 8
+  },
+  "postvalidation_checks": [
+    {
+      "input_kind": "valid",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "input_kind": "invalid",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input_kind": "invalid",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input_kind": "invalid",
+      "expected": false,
+      "actual": false
+    },
+    {
+      "input_kind": "invalid",
+      "expected": false,
+      "actual": false
+    }
+  ],
+  "schema_repair": "action native schema rejection shares the existing single consecutive repair allowance; matching vision rejection is fatal-with-usage and does not grant evidence delivery; general HTTP failures are fatal",
+  "runtime_restored": {
+    "restored_single_model": true,
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "source_stage": "source-v07-runtime-r7-20260928",
+    "source_manifest_sha256": "8ba6986d2577d786bfa4e105bd4ea55d63eadeef826f7d582fdfb8fbe797a618",
+    "backend_launcher_sha256": "09b936af950250e6bfe30387ef0054a7c2b4f24b3299609caf84e4abc2184ca7",
+    "same_data_directory": true,
+    "larger_candidate_running": false,
+    "no_model_generation_by_restore": true,
+    "warmup_runs_on_service_startup": true,
+    "at": 1790606227.7429314
+  },
+  "historical_r7_checks": {
+    "source_stage": "source-v07-runtime-r7-20260928",
+    "source_manifest_sha256": "8ba6986d2577d786bfa4e105bd4ea55d63eadeef826f7d582fdfb8fbe797a618",
+    "patched_files": {
+      "cizheng/agent.py": "c71cb3613c21f8dd37eda200d5832d752fb05719234543f73e5651fb7409eec5",
+      "integrations/spark_transformers/adapter.py": "0d4e94ad0e5ecea7a1ca5dd0cfd0951b1e412f6742068dc3aff1f6e77f28234b",
+      "integrations/spark_transformers/structured_generation.py": "423b3ae323ef5d01c986a5d04c4d74a0df67ceb7533e6fd1147b318051741968",
+      "integrations/spark_transformers/tests/test_structured_generation.py": "30224413a776106ff9766f09a012e39e75a46e6cdc88f09d16dc444a2bf4925d",
+      "tests/test_local_schema_repair.py": "e137eb290c2ca913b1fc69038cac8c40cd4bb75f4c93345eb66b1adeb4224ac1"
+    },
+    "app": {
+      "passed": 738,
+      "skipped": 8,
+      "warnings": 1,
+      "seconds": 227.03,
+      "model_calls": 0,
+      "log_sha256": "a73517decd414de10778cedc90d15dcc2fcc5b9b9420dfc666c76198d3afcb5e"
+    }
+  },
+  "trusted_stage_reminders": "r12 successful body delivery and seen reference images separated; r14 guided+compact visual phase derived only from current saved state; same registered tool argument schemas remove incompatible record/build tools; model authors opinions/citations/reasons; original execution/source gates and budgets retained",
+  "historical_r10_checks": {
+    "source_stage": "source-v07-runtime-r10-20260928",
+    "source_manifest_sha256": "30064777a572c7ae481bb42d18cbffdc160db9a2ab677ae88696785080c91688",
+    "patched_files": {
+      "cizheng/agent.py": "6a1357ba443e1fe9fceff24cc8f1a1ba3b5c0eb3b40882aac3ee5aaa527984ff",
+      "integrations/spark_transformers/adapter.py": "0d4e94ad0e5ecea7a1ca5dd0cfd0951b1e412f6742068dc3aff1f6e77f28234b",
+      "integrations/spark_transformers/structured_generation.py": "423b3ae323ef5d01c986a5d04c4d74a0df67ceb7533e6fd1147b318051741968",
+      "integrations/spark_transformers/tests/test_structured_generation.py": "30224413a776106ff9766f09a012e39e75a46e6cdc88f09d16dc444a2bf4925d",
+      "tests/test_local_schema_repair.py": "e137eb290c2ca913b1fc69038cac8c40cd4bb75f4c93345eb66b1adeb4224ac1",
+      "tests/test_guided_phase_context.py": "c5075bbf3d71a618bcb27240e41bbe6ce6f34a2e7411be4af6ce6e5564588ab3"
+    },
+    "app": {
+      "passed": 763,
+      "skipped": 8,
+      "warnings": 1,
+      "seconds": 252.56,
+      "model_calls": 0,
+      "local_record_sha256": "c011936b3464d91a29b079f86fbdae26aba9b4ba2caf37d3bb4846391215f378"
+    },
+    "native": {
+      "passed": 99,
+      "skipped": 0,
+      "warnings": 1,
+      "seconds": 5.6,
+      "model_calls": 0,
+      "log_sha256": "f8f921cccd73994c8b142ad5d6c258c400a267fb4245071981525bef30b96754",
+      "source_stage": "source-v07-runtime-r7-20260928"
+    }
+  },
+  "focused_visual": {
+    "passed": 403,
+    "skipped": 6,
+    "warnings": 1,
+    "seconds": 143.49,
+    "model_calls": 0,
+    "local_record_sha256": "7700bd4284f1f0091f1c639ca9b22edaf7d330f0ad920cf1a36e7741c089eb6e"
+  },
+  "runtime_current": {
+    "at": 1790615685.9276469,
+    "source_stage": "source-v07-runtime-r15-20260929",
+    "source_manifest_sha256": "4cf1bbcc94b4f3725d9967c5a955fd3b0fb711d90216597596085d833545bfa5",
+    "patched_files": {
+      "tests/test_guided_phase_transport.py": "eecedbeae35a09fcd869aab48fc99787e7eceb349d1062ebac468ccdf61f6e89"
+    },
+    "native_source_stage": "source-v07-runtime-r11-20260928",
+    "native_source_unchanged": true,
+    "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+    "started": true,
+    "ready": true,
+    "same_data_directory": true,
+    "same_budgets": true,
+    "single_model_only": true,
+    "backend_launcher_sha256": "0fa213436dcdae9ce68b5f84fd540f25f6db85b801c8b1b696e66a1c57f071cb",
+    "ready_receipt_at": 1790615701.4427254,
+    "ready_record_sha256": "4a100dba0ace8590a5dc8ec7044330eb573003dbea3fd743268ba6fb29f60a4f",
+    "promotion_record_sha256": "2b9310ed4b51c88c81a5e3521c205d1aa2daa4ef9aca616094047e2b02c74785",
+    "larger_candidate_running": false
+  },
+  "vision_output_contract": "same original vision schema, host-paired media IDs only, numerical bounds projected only in private decoder copy and postvalidated; positive area and per-image host checks retained",
+  "termination_contract": "only explicit native deadline/token_limit plus length is fatal-with-usage; EOS recorded directly; unknown EOS remains unknown; ordinary provider legacy transport unchanged; callback exceptions are not claimed to carry token usage",
+  "native_generation_deadline_seconds": 80,
+  "client_timeout_seconds": 90,
+  "budgets_unchanged": true,
+  "visual_schema_work": "production native r11 unchanged; round09 all16, round10 all5, round11 all13 and round12 all14 original-schema-valid/eos; body/source professional quality separately audited",
+  "source_record_sha256": "4a100dba0ace8590a5dc8ec7044330eb573003dbea3fd743268ba6fb29f60a4f",
+  "historical_r11_checks": {
+    "source_stage": "source-v07-runtime-r11-20260928",
+    "source_manifest_sha256": "8a001fe1bd119a8e2025f9e104323edc4cf83ce42d2cf51c33fd3ff1a01661d5",
+    "patched_files": {
+      "cizheng/agent.py": "6bb13c5d2ca85be8291ea1091cf75fd6343a496fa259339a545af766e9c3b78b",
+      "integrations/spark_transformers/adapter.py": "2fb264767b870d4bd2d3555df94958111fb7329506caf97c8bc494723ee56e63",
+      "integrations/spark_transformers/structured_generation.py": "d14f636f5c9e97420766f0eeb57a5b457dce80027b3050b1a6a4f37c24663e56",
+      "integrations/spark_transformers/tests/test_structured_generation.py": "d14f9cf06677b97b9a719dbb61652dc14cd139aa104701d167f8261242cc1b06",
+      "tests/test_compact_actions.py": "8aa9af436b4f34e4508720d15c9161600cd8fdaa55c706133ed51c9123102350",
+      "tests/test_structured_vision_transport.py": "290b044e1d850143be06aa5eb0535802f0bb79a1103ee495b117ae8921336f52"
+    },
+    "app": {
+      "passed": 811,
+      "skipped": 8,
+      "warnings": 1,
+      "seconds": 243.96,
+      "model_calls": 0,
+      "local_record_sha256": "9250b2d77dc677008010d961ab6e5f2570aa990a3b109c4ea6ed9438d47bb274"
+    },
+    "focused_visual": {
+      "passed": 249,
+      "skipped": 6,
+      "warnings": 1,
+      "seconds": 46.59,
+      "model_calls": 0,
+      "local_record_sha256": "b661daf70533b6623269b5b7a08dc69f276735c953dd7ac27e3031dfff737f15"
+    },
+    "runtime_current": {
+      "at": 1790610907.198818,
+      "source_stage": "source-v07-runtime-r11-20260928",
+      "source_manifest_sha256": "8a001fe1bd119a8e2025f9e104323edc4cf83ce42d2cf51c33fd3ff1a01661d5",
+      "patched_files": {
+        "cizheng/agent.py": "6bb13c5d2ca85be8291ea1091cf75fd6343a496fa259339a545af766e9c3b78b",
+        "integrations/spark_transformers/adapter.py": "2fb264767b870d4bd2d3555df94958111fb7329506caf97c8bc494723ee56e63",
+        "integrations/spark_transformers/structured_generation.py": "d14f636f5c9e97420766f0eeb57a5b457dce80027b3050b1a6a4f37c24663e56",
+        "integrations/spark_transformers/tests/test_structured_generation.py": "d14f9cf06677b97b9a719dbb61652dc14cd139aa104701d167f8261242cc1b06",
+        "tests/test_compact_actions.py": "8aa9af436b4f34e4508720d15c9161600cd8fdaa55c706133ed51c9123102350",
+        "tests/test_structured_vision_transport.py": "290b044e1d850143be06aa5eb0535802f0bb79a1103ee495b117ae8921336f52"
+      },
+      "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+      "started": true,
+      "ready": true,
+      "same_data_directory": true,
+      "same_budgets": true,
+      "single_model_only": true,
+      "backend_launcher_sha256": "2fe1ca2e70b130e81c73f544320bdf060f414d359bce398ee90cfae9253d2a91",
+      "ready_receipt_at": 1790611032.20726,
+      "larger_candidate_running": false
+    },
+    "source_record_sha256": "b86393acb22a029d5bd1e0a8eec066a3497f9d69036c6b16c4315e18ddf4e5b7"
+  },
+  "historical_r12_checks": {
+    "source_stage": "source-v07-runtime-r12-20260929",
+    "source_manifest_sha256": "26b7c6fb0f70f43765c60bd68a6f5f0f48fbeccbf10c3a1252ad64553a82cf5e",
+    "patched_files": {
+      "cizheng/agent.py": "2254a3055a76a436e15d8c261be545faab9a153d4eb90233a986ee54b261303a",
+      "tests/test_guided_phase_context.py": "1a9794c22399b87e46666f557eea4db73af73f82628d80ad72bd84a37e377a03"
+    },
+    "app": {
+      "passed": 843,
+      "skipped": 8,
+      "warnings": 1,
+      "seconds": 278.72,
+      "model_calls": 0,
+      "local_record_sha256": "9a4c0db856e34b0a29d93dab52c5210ca8e4e3905e43f5ea813d319f4ded3716"
+    },
+    "focused_visual": {
+      "passed": 281,
+      "skipped": 6,
+      "warnings": 1,
+      "seconds": 77.19,
+      "model_calls": 0,
+      "local_record_sha256": "2fa069df39710215318692ca519d77cfea56c367c0c94b762db3871d85bd0131"
+    }
+  },
+  "stepfun_transport_contract": {
+    "revision": "r13",
+    "response_format": {
+      "type": "json_object"
+    },
+    "max_tokens": 2500,
+    "prompt_caps_only": true,
+    "explicit_length_rejected_even_if_parseable": true,
+    "other_explicit_nonstop_rejected": true,
+    "missing_finish_reason_compatible_but_not_verified": true,
+    "failure_usage_preserved": true,
+    "automatic_retry": false,
+    "packet_fields": [
+      "question",
+      "claims",
+      "observations",
+      "references"
+    ],
+    "response_schema_permissions_unchanged": true,
+    "raw_images_sent": false,
+    "new_mock_transport_tests": 29,
+    "synthetic_json_mode_probe": "stepfun-json-mode-probe.json",
+    "domain_success": "recorded independently in round-11 and latest round-12 terminal evidence"
+  },
+  "historical_r13_checks": {
+    "source_stage": "source-v07-runtime-r13-20260929",
+    "source_manifest_sha256": "6ec79168b7f15d673307b974bf072a5e1bc2910a5550a163ad77eca83484f11a",
+    "patched_files": {
+      "cizheng/review_client.py": "54de5f11a0263332a5d58ffc996bf10ff4bcd76cb1ab166db1585f6201fd679e",
+      "tests/test_stepfun_json_transport.py": "10344ae7cd240a90d135c31eff4c07e4318e04069ad0f67e88c8694cab6b47ca"
+    },
+    "app": {
+      "passed": 872,
+      "skipped": 8,
+      "warnings": 1,
+      "seconds": 280.09,
+      "model_calls": 0,
+      "local_record_sha256": "ac217eaff6341d85de6265902074cc3252d243628b4773f2030cdf06745e5f31"
+    },
+    "focused_visual": {
+      "passed": 362,
+      "skipped": 6,
+      "warnings": 1,
+      "seconds": 122.15,
+      "model_calls": 0,
+      "local_record_sha256": "87d178883086bc1b2e9604a6348eff12cbf8484780b2eb7fea23bf0198caa80e"
+    },
+    "native": {
+      "passed": 139,
+      "skipped": 0,
+      "warnings": 1,
+      "seconds": 4.34,
+      "model_calls": 0,
+      "source_stage": "source-v07-runtime-r11-20260928",
+      "local_record_sha256": "155d774f11215524d862972c18be20cc88fef4f8538e37d22ad46d27e6f40b34"
+    },
+    "runtime_current": {
+      "at": 1790613688.1768825,
+      "source_stage": "source-v07-runtime-r13-20260929",
+      "source_manifest_sha256": "6ec79168b7f15d673307b974bf072a5e1bc2910a5550a163ad77eca83484f11a",
+      "patched_files": {
+        "cizheng/review_client.py": "54de5f11a0263332a5d58ffc996bf10ff4bcd76cb1ab166db1585f6201fd679e",
+        "tests/test_stepfun_json_transport.py": "10344ae7cd240a90d135c31eff4c07e4318e04069ad0f67e88c8694cab6b47ca"
+      },
+      "native_source_stage": "source-v07-runtime-r11-20260928",
+      "native_source_unchanged": true,
+      "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+      "started": true,
+      "ready": true,
+      "same_data_directory": true,
+      "same_budgets": true,
+      "single_model_only": true,
+      "backend_launcher_sha256": "38bec8c30eb23939e635261908d4bd383eb81d94a970f94998f05f75da88a166",
+      "ready_receipt_at": 1790613702.4779432,
+      "ready_record_sha256": "6a514098542d3c006538da54aa235cdcd197c258d25f1110e6e121cab8ccb666",
+      "promotion_record_sha256": "9f35be9b900c90ff3ee87f0e177e680ce060c1e546a37839a5386172df400014",
+      "larger_candidate_running": false
+    },
+    "source_record_sha256": "6a514098542d3c006538da54aa235cdcd197c258d25f1110e6e121cab8ccb666"
+  },
+  "application_change_stage": "source-v07-runtime-r14-20260929",
+  "application_change_files": {
+    "cizheng/agent.py": "5948d0f402d7f0b2aa0e2fbc289a7d7316e69579d28f9b855537b38d0d40eeae",
+    "integrations/spark_transformers/tests/test_guided_phase_schemas.py": "81a50f0e66ecdd60079abf5bf4f4e944fa44cb612502672e7adc49fa965fb6b1",
+    "tests/test_compact_actions.py": "b104653aa2970f6d603f7f31eabe0524b1dcfd10bf6c38d050f4af0484d2e37f",
+    "tests/test_guided_phase_transport.py": "e2c70845d54f8e1942c1be24a49c985b59a7ee33ec3397bf29b2f0a397e98cf9"
+  },
+  "historical_r14_failed_tests": {
+    "source_stage": "source-v07-runtime-r14-20260929",
+    "source_manifest_sha256": "72574e1cf42024a4f76a962ceb0ed183d59cc9945054f83073b5e57b96e80a21",
+    "app": {
+      "failed": 3,
+      "passed": 910,
+      "skipped": 8,
+      "warnings": 1,
+      "seconds": 313.31,
+      "local_record_sha256": "ff7420cf0f51a18c579ce7be11dbc5595b48af3fa7f77d256261d330025c668d"
+    },
+    "focused": {
+      "failed": 3,
+      "passed": 400,
+      "skipped": 6,
+      "warnings": 1,
+      "seconds": 129.4,
+      "local_record_sha256": "e49492a928c8a216621945a1ef438a7aad38a1c9c94cb3684ada984c6ae5d556"
+    },
+    "failure_scope": "new tests enabled guided/compact before historical multi-action parent fixture; original gates correctly rejected incompatible fixture; r15 changes only test preparation and asserts old parent flags; production r14 code unchanged",
+    "model_calls": 0
+  },
+  "phase_tool_contract": {
+    "scope": "guided+compact visual research only",
+    "application_revision": "r14",
+    "test_fixture_revision": "r15",
+    "derived_from": "current saved run assessment/text_review_snapshot/critic_dispositions, never question or parent assessment",
+    "phases": [
+      "respond_critic_required",
+      "record_assessment_required",
+      "build_opinion_available"
+    ],
+    "native_validates": "exact request original schema; native does not independently derive app state",
+    "structured_false": "prompt-only phase guidance with unchanged host gates",
+    "forced_citation_or_opinion": false,
+    "same_budgets": true,
+    "new_app_cases": 41,
+    "new_native_schema_cases": 8
+  },
+  "latest_actual_workflow": {
+    "round": "12",
+    "scope": "actual known public teaching workflow; not expert sample or model A/B",
+    "technical_state": "completed",
+    "source_read_and_citation_present_both_rounds": true,
+    "quality_audit_passed": false,
+    "expert_validated": false,
+    "native_binding_path": "round-12/native-binding.json",
+    "native_binding_sha256": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7",
+    "native_match_count": 14,
+    "max_http_elapsed_seconds": 47.78022638207767,
+    "native_ready_after_run": true,
+    "stepfun_execute_attempts": 1,
+    "source_identity_error_initial": true,
+    "revised_reasons_require_expert_review": true
+  }
+}

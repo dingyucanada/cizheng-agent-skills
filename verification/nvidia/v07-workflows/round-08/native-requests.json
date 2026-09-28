@@ -1,0 +1,47 @@
+{
+  "scope": "Actual one-call native metrics, collected read-only after failed public source-r10 8B business attempt; raw log, image bytes/metadata, private endpoints and launch context omitted",
+  "private_collected_original_sha256": "0be70354c798d3b6cda6eeb95e66c3e9907a7acec0f462c8cbf0c8bf18f44d53",
+  "private_collected_original_bytes": 22330,
+  "native_remote_log_sha256": "f2a3033337a86ac207fbf31b45e6c7f0073c1b46c05e5344e49e0ff72c354d5a",
+  "no_model_calls_by_collection": true,
+  "native_collection_row_count": 14,
+  "selected_new_run_row_count": 1,
+  "excluded_unrelated_or_historical_rows": 13,
+  "selection": "exact unique saved model output SHA match, then usage and image-count match",
+  "source_manifest_sha256": "8ba6986d2577d786bfa4e105bd4ea55d63eadeef826f7d582fdfb8fbe797a618",
+  "adapter_sha256": "0d4e94ad0e5ecea7a1ca5dd0cfd0951b1e412f6742068dc3aff1f6e77f28234b",
+  "native_requests": [
+    {
+      "at": 1790608859.5792544,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "prompt_tokens": 2496,
+      "completion_tokens": 152,
+      "image_count": 2,
+      "temperature": 0.1,
+      "max_tokens": 800,
+      "seconds": 14.943406060920097,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 14908.25390625,
+        "max_memory_allocated_bytes": 18359228928,
+        "max_memory_reserved_bytes": 18710790144,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": false
+      },
+      "preprocessing_seconds": 0.034070280962623656,
+      "decoder_cpu": {
+        "calls": 0,
+        "seconds": 0.0,
+        "max_callback_seconds": 0.0
+      },
+      "response_sha256": "842937b1c657c7d257a07618bac2f85504404b8078e56b1431743e8b2adeccdc"
+    }
+  ]
+}

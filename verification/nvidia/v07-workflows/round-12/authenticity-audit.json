@@ -1,0 +1,191 @@
+{
+  "scope": "Read-only actual round12 public Met fixture technical workflow, source/approval identity and original export byte audit; not expert appraisal, ceramic accuracy or Skills A/B",
+  "input_public_SHA256": {
+    "workflow-summary.json": "0bc8a5b0967821277b34de1d21dc1b48b222f5ff1ad813a0b0a63561401514e4",
+    "public-status.json": "a67080b849af0aae0d7a0ab97ee7d2ea55163a1e23315008182c99d6486186da",
+    "public-image-identities.json": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+    "public-source-manifest.json": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+    "knowledge/source-1.json": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+    "knowledge/binding-1.json": "1b9aca281fbcce920b44b2a3e52fc01b8adbd0690e6564a91c46bcc097d2deaf",
+    "initial/final-run.json": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c",
+    "initial/nat-audit.json": "880847eb32864edb1780e001576dbb641fba87bcad18f30129862ae2f8547dc7",
+    "initial/exports-downloaded.json": "9971c706c457e55d3a014c8bc8d8263b4b6e1bdb9b1b031fb24ae03621aaae09",
+    "text-review/exact-approved-payload.json": "7da8d4b29347d75b6f6f6a4a5c5e1a570df16b97b7a4d9ee3b29ac61786a535a",
+    "text-review/exact-preview.json": "cb151c046aaa72e9fbe31d634030c29e2425c7cc4157a372d2de62065577d90f",
+    "text-review/prepared.json": "0314cd006b4c20b4722632b12a9f5f102c493e799c8dda1076a072e09e09d1f3",
+    "text-review/executed.json": "0df39212a13543e853aff7785902e54897791cb48e89d37737bb024c2c66b5ea",
+    "text-review/revised-case.json": "1c29cc5e8b526f8b5f741b2c687c1d55347436f69a6725ec638a8134cc593e70",
+    "revision/final-run.json": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e",
+    "revision/nat-audit.json": "78187de399d0d462a38d799a0ffe8dc4eb0188b313fbe69d7f54494ba7eb0840",
+    "revision/exports-downloaded.json": "19291868d3e61d970b28cf4b2bec7285ba8364f21f57ef57a93fc59e65da11df",
+    "native-requests.json": "0cbb6c347bcdc8815792a7bd62ba8a7eea3f6a45569c91880e0f28c9c419ac6a",
+    "native-binding.json": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7"
+  },
+  "technical_workflow_state": "completed",
+  "quality_audit_passed": false,
+  "professional_quality_pass": false,
+  "task_source_read_and_citation_present": true,
+  "helper_summary_elapsed_seconds": 299.00583815574646,
+  "helper_elapsed_scope": "two successive inference runs,one text review,audits,exports; not single generation time or benchmark",
+  "initial": {
+    "run_id": "run_107add88d2dd498885c51ec1da1ce1e9",
+    "state": "waiting_evidence",
+    "model_calls": 6,
+    "tool_calls": 13,
+    "business_active_seconds": 133.96552181243896,
+    "observed_original_photos": 2,
+    "body_hashes_delivered": [
+      "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+    ],
+    "source_context_citation_count": 1,
+    "NAT_status": "references_verified",
+    "six_identity_fields_match_read_receipt_NAT_review_binding": true,
+    "source_task_checks_passed": true,
+    "source_gate_validation_errors": [
+      {
+        "stage": "evidence_contract",
+        "error_type": "ValueError",
+        "detail": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性",
+        "repair_allowed": true
+      }
+    ],
+    "known_fixture_identity_inconsistency_retained": true,
+    "claim_truth_assessed": false
+  },
+  "text_review": {
+    "state": "succeeded",
+    "model": "step-3.7-flash",
+    "provider_request_actually_occurred": true,
+    "execute_attempts": 1,
+    "valid_critic_result_obtained": true,
+    "issues": 3,
+    "elapsed_seconds": 10.635108241112903,
+    "prompt_tokens": 818,
+    "completion_tokens": 1707,
+    "total_tokens": 2525,
+    "cached_tokens": 256,
+    "approved_packet_hash": "02953e199035038cb75e5d26d58f69f4bd613baf3e24071b5fa169c9d1d206a0",
+    "exact_four_fields_approved_packet_equals_preview_prepared_executed": true,
+    "packet_hash_actual_project_store_serialization_match": true,
+    "approved_references": 1,
+    "knowledge_body_bindings": 1,
+    "approved_excerpt_SHA_matches": true,
+    "original_images_or_image_URLs_sent": false
+  },
+  "revision": {
+    "run_id": "run_6e6ab6a4641a4c81a308c36f0262c730",
+    "parent_run_id": "run_107add88d2dd498885c51ec1da1ce1e9",
+    "state": "waiting_evidence",
+    "model_calls": 8,
+    "tool_calls": 16,
+    "business_active_seconds": 142.18276619911194,
+    "body_hashes_delivered": [
+      "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+    ],
+    "source_context_citation_count": 1,
+    "NAT_status": "references_verified",
+    "source_task_checks_passed": true,
+    "validation_error_count": 0,
+    "critic_dispositions": [
+      {
+        "decision": "unresolved",
+        "issue_index": 0,
+        "reason": "需实物检测确认款识与胎体"
+      },
+      {
+        "decision": "unresolved",
+        "issue_index": 1,
+        "reason": "需实物检测确认胎体"
+      },
+      {
+        "decision": "unresolved",
+        "issue_index": 2,
+        "reason": "需实物检测确认釉面"
+      }
+    ],
+    "unresolved_issues": 3,
+    "all_reasons_model_authored": true
+  },
+  "actual_initial_and_revision_export_byte_checks": [
+    {
+      "phase": "initial",
+      "filename": "cizheng-report.json",
+      "bytes": 97744,
+      "actual_original_export_SHA256": "6230502e41d11a1cab95c7534e3806a745b2be9d1cac0363ad2cc31193aa3779",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "initial",
+      "filename": "cizheng-report.md",
+      "bytes": 16519,
+      "actual_original_export_SHA256": "01ff17e19090a466344a881e3ff12f886cba3a48411bd03dfe437fa61d27f787",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "initial",
+      "filename": "cizheng-report.html",
+      "bytes": 375408,
+      "actual_original_export_SHA256": "6adac426582a4b25f584787b9e8bbdcf8590f69b35b9ebe27aa6a393cdb3a41d",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "revision",
+      "filename": "cizheng-report.json",
+      "bytes": 121910,
+      "actual_original_export_SHA256": "a46154bfd560e9da386a5f09ea59804b237e9b0cb722d660c263cb847a968ddb",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "revision",
+      "filename": "cizheng-report.md",
+      "bytes": 17446,
+      "actual_original_export_SHA256": "29e520ab75b7912dc56ca99c730f8e987dabc7e2c46b72e8cbc1c41b2422b4e1",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    },
+    {
+      "phase": "revision",
+      "filename": "cizheng-report.html",
+      "bytes": 376505,
+      "actual_original_export_SHA256": "a56c9265cfc529fb0c2217ce5964dd66b78209a0ca53a30144ca972cbec44f37",
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_published": true
+    }
+  ],
+  "final_report_has_verified_reference_identity_chain": true,
+  "reference_identity_chain_establishes_domain_quality": false,
+  "native_14_call_response_SHA_binding_pending": false,
+  "expert_sample_received_or_validated": false,
+  "ceramic_accuracy": "not_measured",
+  "Skills_gain": "not_measured",
+  "program_selected_citations_or_completed_opinion": false,
+  "limits": [
+    "Same-object record identity error in initial opinion is observable against the known public fixture; no expert accuracy rate is inferred.",
+    "All3 issues retained as unresolved with model-authored reasons; sufficient domain reasoning and support are not established by software identity checks.",
+    "Host did not insert citations, opinions or dispositions to fabricate completion.",
+    "Independent expert samples remain on another computer, not received/validated; genuine-rate calibration and Skills A/B absent.",
+    "All14 new initial6+revision8 native calls bind to actual application events and original collector by response SHA, usage and image metadata;34 historical round09/10/11 rows are excluded. Valid transport/schema and source identity results do not establish domain quality or adequate revised reasons.",
+    "Helper/backend timestamps are not independently synchronized; per-run seconds are business active time, not total-loop or single-model latency."
+  ],
+  "native_binding": {
+    "actual_native_rows": 14,
+    "application_model_events": 14,
+    "response_SHA_and_three_usage_fields_and_image_count_and_bytes_match": 14,
+    "max_HTTP_elapsed_seconds": 47.78022638207767,
+    "HTTP_timeout_seconds": 90,
+    "all_below_HTTP_timeout": true,
+    "explicit_eos_rows": 14,
+    "original_schema_valid_rows": 14,
+    "excluded_historical_rows": 34,
+    "original_collector_actual_SHA256": "5e624d2ae896d746a36a0b425252dbbe60ab31cbb0049d822790b354dd5f9730",
+    "remote_raw_log_SHA256": "d3b2dbbc51f8007934de75273937ca7fd5ccfb2341f3bfc1b9d6e922a30c3271",
+    "public_native_SHA256": "0cbb6c347bcdc8815792a7bd62ba8a7eea3f6a45569c91880e0f28c9c419ac6a",
+    "public_binding_SHA256": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7",
+    "collector_unchanged_on_reread": true,
+    "scope": "Identity/usage/transport/schema checks do not establish professional quality or citation support"
+  }
+}

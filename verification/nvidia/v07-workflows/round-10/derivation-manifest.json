@@ -1,0 +1,188 @@
+{
+  "scope": "Actual public Met fixture round10 selected records, not ceramic accuracy; model words/opinions and missing references remain unchanged",
+  "files": [
+    {
+      "path": "round-10/workflow-summary.json",
+      "private_original_sha256": "9aee2553fb54d4fcde880bf4e6e0ff7cf77558e8d36c012bba817b3c1e81367d",
+      "private_original_bytes": 1233,
+      "public_derivative_sha256": "deb75e9910bffd2de0e2f23349c46de885ecc316404fadbd00f4c17dd1188375",
+      "public_derivative_bytes": 1128,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/failure.json",
+      "private_original_sha256": "81370f7b1b26ffb93900267b6efd07f4a1904a9987254f8ffc6c9f348652ab91",
+      "private_original_bytes": 5977,
+      "public_derivative_sha256": "95203c421d8fd7cb33c6f34f5e9e6a182d17b677d92875b7f7a185ad1d275016",
+      "public_derivative_bytes": 5918,
+      "removed_fields": 1,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/failure-case-record.json",
+      "private_original_sha256": "e0c74e50402d744ba240c5d0a8259e4a1f2faf3458218b7dccc978cc12423692",
+      "private_original_bytes": 191819,
+      "public_derivative_sha256": "271d81f2acebf7959b1be4eb5ac36275a842271d2819453a045eb989b63c9cd0",
+      "public_derivative_bytes": 191441,
+      "removed_fields": 1,
+      "replaced_values": 11
+    },
+    {
+      "path": "round-10/failure-run-record.json",
+      "private_original_sha256": "f78177571955b23070d9e13846a5ed90f0698c33d9933b5765ea92efe9817f9c",
+      "private_original_bytes": 159910,
+      "public_derivative_sha256": "c553e36b0d8feb46dc4bce08e4360c095362e86493179fcc4910bf9793ea719f",
+      "public_derivative_bytes": 159536,
+      "removed_fields": 1,
+      "replaced_values": 11
+    },
+    {
+      "path": "round-10/failure-text-reviews.json",
+      "private_original_sha256": "5a731f11bee68e08a02f18077173248110a17502065b98e2e22750112be062c1",
+      "private_original_bytes": 5485,
+      "public_derivative_sha256": "685c4276ad9a88bbc9b02e4a5d0269c86d9405dbd2cfdb67981ed74354116385",
+      "public_derivative_bytes": 5428,
+      "removed_fields": 1,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/public-status.json",
+      "private_original_sha256": "e2580701bcd14cd793bafd3c5e2c709d0d0a74b678094471b34ffb2b8ae85565",
+      "private_original_bytes": 5561,
+      "public_derivative_sha256": "943b18c87c85af550a2ffa555146f717d1eeb267af61962f277bf4db03732aa5",
+      "public_derivative_bytes": 5462,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "private_original_bytes": 615,
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "private_original_bytes": 1167,
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "private_original_bytes": 2475,
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/knowledge/binding-1.json",
+      "private_original_sha256": "9317f560e27a2bf0a0b472201b3bdf8cdfcd96035fec1e3cb5a84621e695f58b",
+      "private_original_bytes": 6507,
+      "public_derivative_sha256": "ebd3974fdb3dc037988554f8bb03fbcb3c4cb3333d17413b2ba9873a83191143",
+      "public_derivative_bytes": 6508,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/initial/final-run.json",
+      "private_original_sha256": "f78177571955b23070d9e13846a5ed90f0698c33d9933b5765ea92efe9817f9c",
+      "private_original_bytes": 159910,
+      "public_derivative_sha256": "c553e36b0d8feb46dc4bce08e4360c095362e86493179fcc4910bf9793ea719f",
+      "public_derivative_bytes": 159536,
+      "removed_fields": 1,
+      "replaced_values": 11
+    },
+    {
+      "path": "round-10/initial/nat-audit.json",
+      "private_original_sha256": "70fd9d8d5cc52c2806e5846692f6650267a141c9c8982bf95e07386651105753",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "83c083955464278c9a8b39aae1b9bc8db28ea2ec2e28e014762ede914924c48d",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/initial/exports-downloaded.json",
+      "private_original_sha256": "44b1c3e1b9fec5a0a46296a3d0f36685b1896260c76c62f68f59af29eaaaab63",
+      "private_original_bytes": 1289,
+      "public_derivative_sha256": "cb632d23bdc430150f2917e62fd66c5dc32284c49a59df7ac50b93e15a21178f",
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3
+    },
+    {
+      "path": "round-10/text-review/exact-approved-payload.json",
+      "private_original_sha256": "341c45bef2cfa75a0a1065594ced8b4670075fcef04b61c832846b63870599fd",
+      "private_original_bytes": 2216,
+      "public_derivative_sha256": "7ea7318ce8b3412d62839155b796446fb2be88f79da46642a5e9cb850cbe0955",
+      "public_derivative_bytes": 2217,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/text-review/exact-preview.json",
+      "private_original_sha256": "bf364eeb9cddbaef76c4ab7d22762270c3a5d0e845c217af2ff5aea61d2f3c2c",
+      "private_original_bytes": 2595,
+      "public_derivative_sha256": "17b352c3a03ada82d62a09d534afc82345b74c88d8f0204e67bcafdec7d237fa",
+      "public_derivative_bytes": 2596,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/text-review/prepared.json",
+      "private_original_sha256": "d343899764ad5732d74f56a55b12ba55e3fe724a23a3673fba414c51849dbf2c",
+      "private_original_bytes": 4269,
+      "public_derivative_sha256": "817e80e68529131ba76dd3c7df50d7c90ec55218ff507d5f64a423d5baccf488",
+      "public_derivative_bytes": 4270,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/text-review/executed.json",
+      "private_original_sha256": "f12bc7887b656acc7194f1cca5dc9ba5a674a875e93b17ce92f801470fb4bab2",
+      "private_original_bytes": 5225,
+      "public_derivative_sha256": "8bc6ab79aae6ff01977a7db3c6cb0485eb09b2078e4a5f3f2d58d1dbcbdf2db7",
+      "public_derivative_bytes": 5170,
+      "removed_fields": 1,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-10/native-requests.json",
+      "private_original_sha256": "3cb35844ac4a3010ec9238a98ca902ade83d93f631d897aa2d5dffd032bf7568",
+      "private_original_bytes": 37126,
+      "public_derivative_sha256": "6f6cd4aea25997cf8eea7e3bbf769f4452430068dd7365208990d2fa74e7c013",
+      "public_derivative_bytes": 11490,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "scope": "Root-derived safe native collector; raw remote log retained private; native rows independently match sanitized original collector",
+      "raw_remote_log_sha256": "2e4e33eaf47541a2f79dc2ef08ff2b11aff361d8dd74cfb63b6ec700803533ec",
+      "excluded_historical_rows": 16,
+      "actual_selected_native_rows": 5,
+      "historical_rows_exactly_match_prior_round09": true,
+      "sanitizer_counts_scope": "Full21-row original collector before excluding16 historical rows"
+    },
+    {
+      "path": "round-10/native-binding.json",
+      "public_derivative_sha256": "debbd0059c377d1160eda84fd25e5c5618dc837a365482b318312b4474b95c0c",
+      "public_derivative_bytes": 3901,
+      "scope": "Root-derived5-call binding independently rechecked against original collector and saved initial only model events; no new inference",
+      "input_native_public_sha256": "6f6cd4aea25997cf8eea7e3bbf769f4452430068dd7365208990d2fa74e7c013",
+      "input_application_run_public_sha256": {
+        "initial": "c553e36b0d8feb46dc4bce08e4360c095362e86493179fcc4910bf9793ea719f"
+      }
+    }
+  ],
+  "errors": [],
+  "credential_values_or_private_value_hashes_emitted": false,
+  "raw_native_or_nsys_or_original_images_published": false,
+  "global_redaction_manifest_modified": false,
+  "model_answers_or_citations_completed_by_program": false
+}

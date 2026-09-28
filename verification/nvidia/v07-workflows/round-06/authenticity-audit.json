@@ -1,0 +1,106 @@
+{
+  "scope": "Cross-record audit of actual public teaching run06, approved text packet and original initial exports; no model call or opinion rewriting; not expert/domain evaluation",
+  "input_public_SHA256": {
+    "workflow-summary.json": "7d2c7c9e85a628307e68ec08a67622df0f578c3ced584fa6b47bdfd0251559e8",
+    "failure.json": "4c8c3173136fe3f7c1d82c4ced62454e07dbb13ae8d42d9ec04d3e6e5f8e0253",
+    "initial/final-run.json": "7b647fb9ec42f254bd0150b5c7efa2bcfe3ecb0c71ed3037ff870e1e7e0d8dff",
+    "initial/nat-audit.json": "5153e645320f91524b6fbe42a2e10fa3f14f62b09d06d5db3c8c7ccff7d811f7",
+    "initial/exports-downloaded.json": "83f488ee523c06a2959e1ba4396e3282fe280267c600ca3d8b641a5112aa96e9",
+    "text-review/exact-approved-payload.json": "8a882882c8fe874e6fbf00a83dfa1814b00eb7dc7abef39da9fabca50836d4a9",
+    "text-review/executed.json": "361b7ed267890b0cf2d7daac06d910c9c6b6d854b5c985c2504f385fd0d23af9",
+    "revision/final-run.json": "5ae631c82e220cf5c3f2fef3f388e9b6efebd666554f92e15988b739121131a9",
+    "knowledge/source-1.json": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+    "knowledge/binding-1.json": "88762b33ff1f8c51a1167c8911e49b73bb5e9d5f0efd33aa84ed22950e297196"
+  },
+  "initial": {
+    "run_id": "run_43a152be1ef24f85a81e23832a04ee6b",
+    "state": "waiting_evidence",
+    "model_calls": 6,
+    "tool_calls": 13,
+    "business_active_seconds": 154.0437171459198,
+    "source_context_citation_count": 1,
+    "body_SHA_delivered_to_main": true,
+    "citation_matches_read_receipt": true,
+    "citation_matches_NAT": true,
+    "NAT_status": "references_verified",
+    "claim_support_assessed": false
+  },
+  "text_review": {
+    "state": "succeeded",
+    "model": "step-3.7-flash",
+    "execute_attempts": 1,
+    "elapsed_seconds": 13.711984295980074,
+    "total_tokens": 3109,
+    "issues_returned": 3,
+    "approved_payload_equals_saved_execute_payload": true,
+    "approved_reference_count": 1,
+    "knowledge_body_binding_count": 1,
+    "binding_matches_fixed_source_identity": true,
+    "approved_excerpt_SHA_matches_binding": true,
+    "packet_SHA256": "707872419e4097bdeb4fbb939d65552b2d6ff3940b068e551faf4df503db13d9",
+    "original_images_or_image_URLs_sent": false,
+    "expert_validated": false
+  },
+  "revision": {
+    "run_id": "run_6233efff2efd483581864d1926a3d0db",
+    "state": "failed",
+    "model_calls": 7,
+    "tool_calls": 16,
+    "business_active_seconds": 171.13082671165466,
+    "assessment_exists": false,
+    "actual_gate_sequence": [
+      {
+        "failed_tool": "record_assessment",
+        "detail": "需先回应文字审查疑点；不得直接当作事实",
+        "repair_allowed": true
+      },
+      {
+        "tool": "respond_critic",
+        "result": {
+          "recorded": true
+        }
+      },
+      {
+        "failed_tool": "build_opinion",
+        "detail": "请先完成可核验的意见",
+        "repair_allowed": true
+      },
+      {
+        "failed_tool": "record_assessment",
+        "detail": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性",
+        "repair_allowed": false
+      }
+    ],
+    "saved_error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+    "NAT_or_assessment_export_performed": false,
+    "timeout_failure": false
+  },
+  "initial_actual_export_byte_checks": [
+    {
+      "filename": "cizheng-report.json",
+      "actual_original_SHA256": "981599b2547c35a474504d79dadbec6c15d92fdc088ad56ad96e9256289140cb",
+      "bytes": 94153,
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_copied_to_public": true
+    },
+    {
+      "filename": "cizheng-report.md",
+      "actual_original_SHA256": "dcbd3995b0d26f4608068de12bc62c39270025867e13f9ea23c87929b795c536",
+      "bytes": 13421,
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_copied_to_public": true
+    },
+    {
+      "filename": "cizheng-report.html",
+      "actual_original_SHA256": "f2853d9211e2c48c9b26e08c71321d442ca8b77bdb8874d750a1ca28069059d0",
+      "bytes": 371454,
+      "server_saved_actual_SHA_match": true,
+      "original_report_not_copied_to_public": true
+    }
+  ],
+  "complete_closed_loop_finished": false,
+  "professional_quality_pass": false,
+  "expert_sample_received_or_validated": false,
+  "Skills_gain_measured": false,
+  "timing_limit": "Helper summary and backend run timestamps are not independently verified as synchronized. Use each run seconds only for its own business-active scope; do not infer total-loop latency from cross-clock timestamps."
+}

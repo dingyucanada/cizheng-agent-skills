@@ -1,0 +1,309 @@
+{
+  "scope": "official 32B integrity, CUDA readiness, synthetic protocols and retained real public-photo workflow failure; NOT appraisal accuracy",
+  "model": "Qwen/Qwen3-VL-32B-Instruct",
+  "official_source": "official Qwen ModelScope repository",
+  "file_count": 25,
+  "downloaded_bytes": 66726510714,
+  "weight_files_manifest_sha256": "dfff3dabb9b62e8fa186fd8a8cc2863c368593774e777f423ecd8e71288bdb9e",
+  "actual_ready_at": 1790605830.8287854,
+  "cuda_readiness": {
+    "status": "ready",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "weights_revision": "files-sha256:dfff3dabb9b62e8fa186fd8a8cc2863c368593774e777f423ecd8e71288bdb9e",
+    "gpu": {
+      "torch": "2.14.0+cu130",
+      "cuda_runtime": "13.0",
+      "device": "NVIDIA GB10",
+      "capability": [
+        12,
+        1
+      ],
+      "arch_list": [
+        "sm_80",
+        "sm_90",
+        "sm_100",
+        "sm_110",
+        "sm_120"
+      ],
+      "float32_matrix_multiply_passed": true,
+      "bfloat16_matrix_multiply_passed": true,
+      "synthetic_image_generation_passed": true,
+      "warmup_completion_tokens": 2,
+      "warmup_seconds": 2.4416058799251914,
+      "warmup_is_domain_evaluation": false
+    },
+    "decoder_policy": "bounded-semantic-postvalidation-v1",
+    "generation_deadline_seconds": 80,
+    "nvtx_ranges": [
+      "cizheng.model-generate",
+      "cizheng.structured-decoder"
+    ],
+    "failure_type": null,
+    "generation_in_progress": false
+  },
+  "synthetic_probe": {
+    "scope": "synthetic transport, image-order and JSON behavior only; NOT ceramic accuracy",
+    "model": {
+      "provider": "local-openai-compatible",
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "endpoint": "http://127.0.0.1:8006/v1",
+      "weights_revision": "files-sha256:dfff3dabb9b62e8fa186fd8a8cc2863c368593774e777f423ecd8e71288bdb9e",
+      "generation": {
+        "temperature": 0.1,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "disable_thinking": false,
+        "structured_outputs": true,
+        "compact_actions": true,
+        "structured_output_contract": {
+          "purpose": "action",
+          "schema_name": "cizheng_actions",
+          "trigger": "first-system-exact-system_prompt(mode,research_task)",
+          "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+          "decoder_schema_sha256": {
+            "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821"
+          },
+          "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+          "host_only_constraints": {
+            "numeric": [
+              "minimum",
+              "maximum",
+              "exclusiveMinimum",
+              "exclusiveMaximum",
+              "multipleOf"
+            ],
+            "semantic": [
+              "cross-field",
+              "skill-workflow",
+              "fixed-evidence",
+              "permission"
+            ]
+          }
+        }
+      }
+    },
+    "environment": {
+      "python": "3.12.3",
+      "platform": "Linux-6.17.0-1021-nvidia-aarch64-with-glibc2.39"
+    },
+    "checks": [
+      {
+        "name": "json-action",
+        "passed": true,
+        "response": "{\"actions\":[{\"tool\":\"read_case\",\"arguments\":{}}]}",
+        "parsed": {
+          "actions": [
+            {
+              "tool": "read_case",
+              "arguments": {}
+            }
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 40,
+          "completion_tokens": 14,
+          "total_tokens": 54,
+          "finish_reason": "stop"
+        },
+        "seconds": 4.1505,
+        "image_count": 0,
+        "error": null
+      },
+      {
+        "name": "single-image",
+        "passed": true,
+        "response": "{\"color\":\"red\"}",
+        "parsed": {
+          "color": "red"
+        },
+        "usage": {
+          "prompt_tokens": 113,
+          "completion_tokens": 6,
+          "total_tokens": 119,
+          "finish_reason": "stop"
+        },
+        "seconds": 1.804,
+        "image_count": 1,
+        "error": null
+      },
+      {
+        "name": "two-images",
+        "passed": true,
+        "response": "{\"colors\":[\"red\",\"blue\"]}",
+        "parsed": {
+          "colors": [
+            "red",
+            "blue"
+          ]
+        },
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 8,
+          "total_tokens": 193,
+          "finish_reason": "stop"
+        },
+        "seconds": 2.4249,
+        "image_count": 2,
+        "error": null
+      }
+    ],
+    "started_at": 1790605899.0207987,
+    "passed": true,
+    "ceramic_accuracy": "not_measured",
+    "probe_exit_code": 0
+  },
+  "expert_validation": "not_performed; authorized expert samples are on another computer",
+  "business_workflow": {
+    "round": "07",
+    "state": "failed",
+    "model_calls": 1,
+    "model_elapsed_seconds": 80.32860798295587,
+    "failure": "host region normalized coordinate ValidationError",
+    "assessment_present": false,
+    "nat_calls": 0,
+    "stepfun_calls": 0,
+    "evidence": "round-07/authenticity-audit.json"
+  },
+  "current_deployment": "32B stopped after failed real workflow; single original 8B native r11 and backend r15 ready at recorded check",
+  "unexpected_sessions_exit": {
+    "at": 1790606179.7492657,
+    "node_did_not_reboot": true,
+    "root_cause": "not_confirmed; no matched kernel memory messages",
+    "data_and_evidence_preserved": true
+  },
+  "original_log_sha256": {
+    "v07-qwen32-ready-05.log": "53ef9e11b5d3a6dab2ca2453df06808559e99fbdecf146d7fdac2c5e90156062",
+    "v07-qwen32-synthetic-probe-01.log": "b1e7f0fd4eb6db83d6e53d8749a555c34c140109e5c106bd18347239d2c0f7b6",
+    "v07-runtime-r7-recovery-01.log": "da8ccb839c68e279d89871d6e6170d2b269c67a5f30970ec73bd4efd5e3426eb",
+    "v07-node-incident-01.log": "924a3ec9d28ce55128e37e48414bce05103d04f87a68a42a67127d638205a2c2"
+  },
+  "current_ready_evidence": {
+    "source_record_sha256": "4a100dba0ace8590a5dc8ec7044330eb573003dbea3fd743268ba6fb29f60a4f",
+    "at": 1790615701.4427254,
+    "status": "ready",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "generation_in_progress": false,
+    "failure_type": null,
+    "generation_deadline_seconds": 80,
+    "decoder_policy": "bounded-semantic-postvalidation-v1",
+    "app_version": "0.7.0",
+    "model_configured": true,
+    "nvidia_nat_configured": true,
+    "text_review_configured": true,
+    "model_adapter": "local"
+  },
+  "historical_single_model_recovery_r7": {
+    "restored_single_model": true,
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "source_stage": "source-v07-runtime-r7-20260928",
+    "source_manifest_sha256": "8ba6986d2577d786bfa4e105bd4ea55d63eadeef826f7d582fdfb8fbe797a618",
+    "backend_launcher_sha256": "09b936af950250e6bfe30387ef0054a7c2b4f24b3299609caf84e4abc2184ca7",
+    "same_data_directory": true,
+    "larger_candidate_running": false,
+    "no_model_generation_by_restore": true,
+    "warmup_runs_on_service_startup": true,
+    "at": 1790606227.7429314
+  },
+  "current_single_model_deployment": {
+    "at": 1790615685.9276469,
+    "source_stage": "source-v07-runtime-r15-20260929",
+    "source_manifest_sha256": "4cf1bbcc94b4f3725d9967c5a955fd3b0fb711d90216597596085d833545bfa5",
+    "patched_files": {
+      "tests/test_guided_phase_transport.py": "eecedbeae35a09fcd869aab48fc99787e7eceb349d1062ebac468ccdf61f6e89"
+    },
+    "native_source_stage": "source-v07-runtime-r11-20260928",
+    "native_source_unchanged": true,
+    "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+    "started": true,
+    "ready": true,
+    "same_data_directory": true,
+    "same_budgets": true,
+    "single_model_only": true,
+    "backend_launcher_sha256": "0fa213436dcdae9ce68b5f84fd540f25f6db85b801c8b1b696e66a1c57f071cb",
+    "ready_receipt_at": 1790615701.4427254,
+    "ready_record_sha256": "4a100dba0ace8590a5dc8ec7044330eb573003dbea3fd743268ba6fb29f60a4f",
+    "promotion_record_sha256": "2b9310ed4b51c88c81a5e3521c205d1aa2daa4ef9aca616094047e2b02c74785",
+    "larger_candidate_running": false
+  },
+  "historical_single_model_deployment_r11": {
+    "at": 1790610907.198818,
+    "source_stage": "source-v07-runtime-r11-20260928",
+    "source_manifest_sha256": "8a001fe1bd119a8e2025f9e104323edc4cf83ce42d2cf51c33fd3ff1a01661d5",
+    "patched_files": {
+      "cizheng/agent.py": "6bb13c5d2ca85be8291ea1091cf75fd6343a496fa259339a545af766e9c3b78b",
+      "integrations/spark_transformers/adapter.py": "2fb264767b870d4bd2d3555df94958111fb7329506caf97c8bc494723ee56e63",
+      "integrations/spark_transformers/structured_generation.py": "d14f636f5c9e97420766f0eeb57a5b457dce80027b3050b1a6a4f37c24663e56",
+      "integrations/spark_transformers/tests/test_structured_generation.py": "d14f9cf06677b97b9a719dbb61652dc14cd139aa104701d167f8261242cc1b06",
+      "tests/test_compact_actions.py": "8aa9af436b4f34e4508720d15c9161600cd8fdaa55c706133ed51c9123102350",
+      "tests/test_structured_vision_transport.py": "290b044e1d850143be06aa5eb0535802f0bb79a1103ee495b117ae8921336f52"
+    },
+    "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+    "started": true,
+    "ready": true,
+    "same_data_directory": true,
+    "same_budgets": true,
+    "single_model_only": true,
+    "backend_launcher_sha256": "2fe1ca2e70b130e81c73f544320bdf060f414d359bce398ee90cfae9253d2a91",
+    "ready_receipt_at": 1790611032.20726,
+    "larger_candidate_running": false
+  },
+  "historical_ready_evidence_r11": {
+    "source_record_sha256": "b86393acb22a029d5bd1e0a8eec066a3497f9d69036c6b16c4315e18ddf4e5b7",
+    "at": 1790611032.20726,
+    "status": "ready",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "generation_in_progress": false,
+    "failure_type": null,
+    "generation_deadline_seconds": 80,
+    "decoder_policy": "bounded-semantic-postvalidation-v1",
+    "app_version": "0.7.0",
+    "model_configured": true,
+    "nvidia_nat_configured": true,
+    "text_review_configured": true,
+    "model_adapter": "local"
+  },
+  "historical_single_model_deployment_r13": {
+    "at": 1790613688.1768825,
+    "source_stage": "source-v07-runtime-r13-20260929",
+    "source_manifest_sha256": "6ec79168b7f15d673307b974bf072a5e1bc2910a5550a163ad77eca83484f11a",
+    "patched_files": {
+      "cizheng/review_client.py": "54de5f11a0263332a5d58ffc996bf10ff4bcd76cb1ab166db1585f6201fd679e",
+      "tests/test_stepfun_json_transport.py": "10344ae7cd240a90d135c31eff4c07e4318e04069ad0f67e88c8694cab6b47ca"
+    },
+    "native_source_stage": "source-v07-runtime-r11-20260928",
+    "native_source_unchanged": true,
+    "native_model": "Qwen/Qwen3-VL-8B-Instruct",
+    "started": true,
+    "ready": true,
+    "same_data_directory": true,
+    "same_budgets": true,
+    "single_model_only": true,
+    "backend_launcher_sha256": "38bec8c30eb23939e635261908d4bd383eb81d94a970f94998f05f75da88a166",
+    "ready_receipt_at": 1790613702.4779432,
+    "ready_record_sha256": "6a514098542d3c006538da54aa235cdcd197c258d25f1110e6e121cab8ccb666",
+    "promotion_record_sha256": "9f35be9b900c90ff3ee87f0e177e680ce060c1e546a37839a5386172df400014",
+    "larger_candidate_running": false
+  },
+  "historical_ready_evidence_r13": {
+    "source_record_sha256": "6a514098542d3c006538da54aa235cdcd197c258d25f1110e6e121cab8ccb666",
+    "at": 1790613702.4779432,
+    "status": "ready",
+    "model": "Qwen/Qwen3-VL-8B-Instruct",
+    "generation_in_progress": false,
+    "failure_type": null,
+    "generation_deadline_seconds": 80,
+    "decoder_policy": "bounded-semantic-postvalidation-v1",
+    "app_version": "0.7.0",
+    "model_configured": true,
+    "nvidia_nat_configured": true,
+    "text_review_configured": true,
+    "model_adapter": "local"
+  }
+}

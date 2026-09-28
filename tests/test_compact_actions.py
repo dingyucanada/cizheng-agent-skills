@@ -172,13 +172,20 @@ def test_real_guided_tools_http_transport_and_final_contract_preserve_all_opinio
     assert set(run['main_seen_media_ids']) == {media['id'] for media in case['media']}
     actions = [payload for payload in captured if payload['messages'][0]['content'] != VISION_SYSTEM]
     assert len(actions) == 3 and all(payload['max_tokens'] == 2500 for payload in actions)
-    assert captured[0]['max_tokens'] == 800 and 'response_format' not in captured[0]
-    for payload in actions:
-        assert payload['messages'][0]['content'] == system_prompt(mode, 'visual_research', True)
+    assert captured[0]['max_tokens'] == 800
+    if structured:
+        assert captured[0]['response_format'] == {'type': 'json_schema', 'json_schema': {
+            'name': 'cizheng_observations', 'strict': True,
+            'schema': agent.vision_output_schema(fixture.vision_ids[0])}}
+    else:
+        assert 'response_format' not in captured[0]
+    phases = ['record_assessment_required', 'record_assessment_required', 'build_opinion_available']
+    for payload, phase in zip(actions, phases, strict=True):
+        assert payload['messages'][0]['content'] == system_prompt(mode, 'visual_research', True, phase)
         if structured:
             body_schema = payload['response_format']['json_schema']['schema']
-            assert body_schema == action_output_schema(mode, 'visual_research', True)
-            assert decoder_schema_sha256(body_schema) == run['versions']['harness']['action_transport']['decoder_schema_sha256'][mode+'/visual_research']
+            assert body_schema == action_output_schema(mode, 'visual_research', True, phase)
+            assert decoder_schema_sha256(body_schema) == run['versions']['harness']['action_transport']['phase_tool_contract']['schema_sha256'][mode+'/'+phase]
         else:
             assert 'response_format' not in payload
     inventories = [inventory_from_messages(payload['messages']) for payload in actions]
@@ -227,14 +234,25 @@ def test_compacted_body_never_delivered_is_not_citable_then_canonical_delivery_a
     store, engine, run_id, _, source, chunks = active_reader(tmp_path, monkeypatch)
     result = read(engine, run_id, source, chunks[0])
     canonical = _ToolResultMessage('read_knowledge', result)
-    request = [{'role': 'system', 'content': system_prompt('plain', 'visual_research', True)},
-        {'role': 'user', 'content': 'SYNTHETIC'},
+    prompt = system_prompt('plain', 'visual_research', True)
+    first_user = {'role': 'user', 'content': 'SYNTHETIC'}
+    context_limit = 32000
+    empty_latest = _ToolResultMessage('read_case', {'padding': ''})
+    # Fill the same production limit after accounting for the actual prompt,
+    # first user, and tool envelope; reserve room for the compaction notice.
+    padding_chars = context_limit - len(prompt) - len(first_user['content']) - len(empty_latest['content']) - 256
+    assert padding_chars > 0
+    latest = _ToolResultMessage('read_case', {'padding': 'X'*padding_chars})
+    request = [{'role': 'system', 'content': prompt}, first_user,
         {'role': 'assistant', 'content': dump({'actions': [{'tool': 'read_knowledge', 'arguments': {}}]})},
         canonical,
         {'role': 'assistant', 'content': dump({'actions': [{'tool': 'read_case', 'arguments': {}}]})},
-        _ToolResultMessage('read_case', {'padding': 'X'*22000})]
+        latest]
     # The mandatory anchors alone still fit; the old real body is dropped.
+    assert sum(len(message['content']) for message in request) > context_limit
     bounded = bounded_messages(request)
+    assert sum(len(message['content']) for message in bounded) <= context_limit
+    assert bounded[0] is request[0] and bounded[1] is first_user and bounded[-1] is latest
     assert not any(message is canonical for message in bounded)
     engine.model = DeliveryProtocolModel()
     asyncio.run(engine.call(run_id, bounded, 'action'))

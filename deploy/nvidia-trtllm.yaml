@@ -1,0 +1,12 @@
+# Project's conservative single-request candidate config, not benchmark evidence.
+max_batch_size: 1
+enable_chunked_prefill: true
+guided_decoding_backend: xgrammar
+kv_cache_config:
+  dtype: auto
+  free_gpu_memory_fraction: 0.20
+  enable_block_reuse: false
+cuda_graph_config:
+  mode: decode
+  batch_sizes: [1]
+  max_batch_size: 1

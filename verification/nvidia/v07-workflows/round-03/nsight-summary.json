@@ -1,0 +1,35 @@
+{
+  "at": "2026-09-28T13:09:10.359326+00:00",
+  "passed": true,
+  "report_bytes": 29060529,
+  "report_sha256": "f66fb4710713fc6cccc7ea14ae08eb66f07181b4a5ad9cfadabc8025d8845236",
+  "errors": [],
+  "nsys_version": "NVIDIA Nsight Systems version 2025.3.2.474-253236389321v0",
+  "target_range": "cizheng.model-generate",
+  "expected_range_count": 1,
+  "target_range_count": 1,
+  "target_nvtx_rows": [
+    {
+      "Time (%)": "98.3",
+      "Total Time (ns)": "19920507616",
+      "Instances": "1",
+      "Avg (ns)": "19920507616.0",
+      "Med (ns)": "19920507616.0",
+      "Min (ns)": "19920507616",
+      "Max (ns)": "19920507616",
+      "StdDev (ns)": "0.0",
+      "Style": "PushPop",
+      "Range": ":cizheng.model-generate"
+    }
+  ],
+  "cuda_kernel_rows": 144,
+  "cuda_kernel_instances": 447028,
+  "scope": "NVTX range count and CUDA kernel presence in this report only",
+  "does_not_establish": [
+    "end-to-end speedup",
+    "GPU utilization",
+    "ceramic quality",
+    "32B or candidate-container readiness"
+  ],
+  "raw_nsys_report_public": false
+}

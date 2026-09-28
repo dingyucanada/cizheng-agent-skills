@@ -1,0 +1,56 @@
+{
+  "scope": "synthetic public four-field JSON Mode API protocol probe; no ceramic sample, image or expert validation",
+  "attempts": 1,
+  "provider": {
+    "provider": "stepfun-text-only",
+    "model": "step-3.7-flash",
+    "endpoint": "https://api.stepfun.com/step_plan/v1",
+    "generation": {
+      "response_format": {
+        "type": "json_object"
+      },
+      "max_tokens": 2500,
+      "finish_reason_policy": "reject-explicit-nonstop-missing-not-verified",
+      "prompt_limits": {
+        "issues": 3,
+        "concern_chars": 100,
+        "suggested_evidence_chars": 160,
+        "limitations": 3,
+        "limitation_chars": 80
+      },
+      "automatic_retry": false
+    }
+  },
+  "request_payload_sha256": "5dfe6546e4bbfbe5fbb1dccb59e3a035b29a6eee2101badbeef2be30a3e0fb86",
+  "approved_payload_fields": [
+    "question",
+    "claims",
+    "observations",
+    "references"
+  ],
+  "original_images_sent": false,
+  "configured": true,
+  "http_status": 200,
+  "usage": {
+    "cached_tokens": 128,
+    "prompt_tokens": 295,
+    "completion_tokens": 567,
+    "total_tokens": 862,
+    "prompt_tokens_details": {
+      "cached_tokens": 128
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "finish_reason": "stop",
+  "response_sha256": "41696cd082eac95a375feadbb5dff7f49ee2de966b03a18b726400cf8660f2e0",
+  "schema_valid": true,
+  "issue_count": 1,
+  "success": true,
+  "elapsed_seconds": 4.8817534080008045,
+  "collector_record_sha256": "7576de89cda27d2656ebc6d1c6c42daaa44219851b549a775749647bf7ebed75",
+  "source_stage": "source-v07-runtime-r13-20260929",
+  "source_manifest_sha256": "6ec79168b7f15d673307b974bf072a5e1bc2910a5550a163ad77eca83484f11a",
+  "domain_quality_measured": false
+}

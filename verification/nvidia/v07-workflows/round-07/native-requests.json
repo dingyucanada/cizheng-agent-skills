@@ -1,0 +1,41 @@
+{
+  "scope": "Actual one-call native metrics, collected read-only after failed public 32B business pilot; raw log, image bytes/metadata, private endpoints and launch context omitted",
+  "private_collected_original_sha256": "e8c721d41ca3786e1bb3eaa26fc60f00910671d26106c8e24ce9f565dfcf6b9a",
+  "private_collected_original_bytes": 1300,
+  "native_remote_log_sha256": "91f6a3f274ff2f44e44b9a3caa7c27419b167f2f9de3a613f49381a5d57556d3",
+  "no_model_calls_by_collection": true,
+  "native_requests": [
+    {
+      "at": 1790607694.5016582,
+      "model": "Qwen/Qwen3-VL-32B-Instruct",
+      "prompt_tokens": 2504,
+      "completion_tokens": 269,
+      "image_count": 2,
+      "temperature": 0.1,
+      "max_tokens": 800,
+      "seconds": 80.27332768100314,
+      "cuda": {
+        "status": "measured",
+        "device_index": 0,
+        "elapsed_ms": 80223.1875,
+        "max_memory_allocated_bytes": 68075514880,
+        "max_memory_reserved_bytes": 68281171968,
+        "timing_scope": "generate_current_stream_cuda_event_interval",
+        "memory_scope": "this_process_pytorch_allocator_including_model_and_cache",
+        "memory_peak_scope": "allocator_reported_high_water_marks",
+        "allocator_backend": "native",
+        "memory_is_total_system_usage": false
+      },
+      "structured": {
+        "enabled": false
+      },
+      "preprocessing_seconds": 0.04448193602729589,
+      "decoder_cpu": {
+        "calls": 0,
+        "seconds": 0.0,
+        "max_callback_seconds": 0.0
+      },
+      "response_sha256": "3ff2add5535a516126027a736f2fad97df4af69cdf0e92ec01727525127e6322"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Allowlisted diagnostic fields from the actual native structured-output failure; raw log and model output omitted",
+  "private_original_sha256": "f9023d27e6058a5311bf9019ecc3ea9a36a8990b6bc6ac4dcd68a4c7aff0b16a",
+  "private_original_bytes": 1810,
+  "safe_diagnostic_fields": {
+    "status": [
+      "measured"
+    ],
+    "original_schema_postvalidation_required": [
+      true
+    ],
+    "decoder_schema_sha256": [
+      "f1759d0e11ddfd04b719ebc25140aee036e2920f8e4662ac6a26f19cce722202"
+    ],
+    "schema_sha256": [
+      "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+    ],
+    "error_type": [
+      "StructuredGenerationError"
+    ]
+  },
+  "HTTP_500_marker_in_original": false,
+  "timeout_marker_in_original": false,
+  "no_original_model_text_or_launch_command": true,
+  "classification_limit": "The saved application run records HTTPStatusError; the native diagnostic records StructuredGenerationError and original-schema postvalidation. This excerpt does not independently preserve an HTTP status line."
+}

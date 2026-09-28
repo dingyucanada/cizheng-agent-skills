@@ -1,0 +1,1806 @@
+{
+  "schema_version": 1,
+  "scope": "Actual-byte v0.7 public proof and index lineage; teaching fixture/engineering evidence, not ceramic accuracy or expert validation",
+  "publication_state": "final_round12_terminal",
+  "latest_actual_round": "round-12",
+  "private_originals_preserved": true,
+  "raw_original_images_base64_credentials_SSH_identities_private_commands_or_raw_nsys_published": false,
+  "program_completed_model_opinions_or_citations": false,
+  "actual_public_content_scan_findings": 0,
+  "public_files_total": 184,
+  "files": [
+    {
+      "path": "README.md",
+      "scope": "Safe public derived/index byte identity; private original hash not independently available in finalizer",
+      "public_derivative_sha256": "760751bc663ce4c9c2f7e097be2a7d435670872ae2f80d9d5e3a9ea883b4b520",
+      "public_derivative_bytes": 9070
+    },
+    {
+      "path": "candidate-32b.json",
+      "root_derived": true,
+      "scope": "Latest root-owned public engineering/candidate/runtime Python parity snapshot; producer records not independently rerun by finalizer",
+      "root_recorded_source_hashes": {
+        "weight_files_manifest_sha256": "dfff3dabb9b62e8fa186fd8a8cc2863c368593774e777f423ecd8e71288bdb9e",
+        "original_log_sha256": {
+          "v07-qwen32-ready-05.log": "53ef9e11b5d3a6dab2ca2453df06808559e99fbdecf146d7fdac2c5e90156062",
+          "v07-qwen32-synthetic-probe-01.log": "b1e7f0fd4eb6db83d6e53d8749a555c34c140109e5c106bd18347239d2c0f7b6",
+          "v07-runtime-r7-recovery-01.log": "da8ccb839c68e279d89871d6e6170d2b269c67a5f30970ec73bd4efd5e3426eb",
+          "v07-node-incident-01.log": "924a3ec9d28ce55128e37e48414bce05103d04f87a68a42a67127d638205a2c2"
+        }
+      },
+      "public_derivative_sha256": "76764493c3e426cc95751c9b2256d87326d4ff36949d550ca62b12d0ae1dc302",
+      "public_derivative_bytes": 12055
+    },
+    {
+      "path": "decoder-cpu-replay.json",
+      "private_original_sha256": "6aa94fc2d3d92556816e987ae406cd76132641798ee219670ee29c7d8ab3db10",
+      "private_original_bytes": 8553,
+      "public_derivative_sha256": "97f5c23b6fe90801e2939bd51d99b93bb154545b8f9a9ec5c1c52f608dc39583",
+      "public_derivative_bytes": 1134,
+      "replaced_values": 4,
+      "private_path_mentions_removed": 34,
+      "scope": "Same prior sanitizer rule: replace full string containing private absolute location; four CPU profiling text fields only; structured timing and protocol outcomes unchanged",
+      "structured_result_fields_unchanged": true,
+      "model_calls": 0,
+      "intentional_privacy_redaction": true,
+      "original_preserved_private": true
+    },
+    {
+      "path": "engineering-checks-v07.json",
+      "root_derived": true,
+      "scope": "Latest root-owned public engineering/candidate/runtime Python parity snapshot; producer records not independently rerun by finalizer",
+      "root_recorded_source_hashes": {
+        "source_manifest_sha256": "4cf1bbcc94b4f3725d9967c5a955fd3b0fb711d90216597596085d833545bfa5",
+        "source_record_sha256": "4a100dba0ace8590a5dc8ec7044330eb573003dbea3fd743268ba6fb29f60a4f"
+      },
+      "public_derivative_sha256": "3b4f9c390feaaf7adc8e1b0eb786295d939db202f78a7372da535cce679829f2",
+      "public_derivative_bytes": 17007
+    },
+    {
+      "path": "round-02/initial/exports-downloaded.json",
+      "private_original_sha256": "153a4834542e03180533cc90856d951a4e600a8d8bb120d97c8431063331f0e4",
+      "public_derivative_sha256": "62b9a15b976f942ab60ebb100d390a8013a7a7e985be69acee05960258376228",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1290
+    },
+    {
+      "path": "round-02/initial/final-run.json",
+      "private_original_sha256": "f0e3956a975d8e783d8d173ecb6b57897467d90040b37066a09c3ba72d6f2abb",
+      "public_derivative_sha256": "71da1407285757f29c5bbb3cd8ec6d3837bc0fd69c5c0e19d4cddd940145072e",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 154966
+    },
+    {
+      "path": "round-02/initial/nat-audit.json",
+      "private_original_sha256": "8f9d3c515d626160864fd24fc538c7011893773189bc84e1d9bc8d08aefddb71",
+      "public_derivative_sha256": "097e4152cb3ed3eb46f6c3b689fd42084309e738cfa7d354dcab2e3257729f70",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 2959
+    },
+    {
+      "path": "round-02/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "efca0a6acdc94bf604583f055d903838811e7cb0bd9ab9f86b43f57c0383f617",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 616
+    },
+    {
+      "path": "round-02/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b307ad71975d3189c5fab68ea1a78010ad774abeeb59bc803a6940d5ea3ada8",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1168
+    },
+    {
+      "path": "round-02/public-status.json",
+      "private_original_sha256": "a148b1922cc0b1021db268d705bc7d9dfec18fd1ad8cc95830f6f5d789ad3366",
+      "public_derivative_sha256": "4012103cf9a7fe93e7113594c021174ffdce5da9152232361ea504f56fbeb1d7",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 4660
+    },
+    {
+      "path": "round-02/revision/exports-downloaded.json",
+      "private_original_sha256": "cb9a4cf68f89c3099c8d3a515c2bac499cb96e4f1cb0e4a9961ca3cdb07aee53",
+      "public_derivative_sha256": "643bdf71a6759d0e5a71ccc07c59c73301053a1bdbdedcd1d876e56b59d4a452",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1294
+    },
+    {
+      "path": "round-02/revision/final-run.json",
+      "private_original_sha256": "03d00abe5e31f069b81e657d1df7041bce2e84b480a7d182921ee3383bcc3aee",
+      "public_derivative_sha256": "f175d6e3c6d436d3d52225bce1256f46058c757727d69b6bf7705ea99dd1c2ae",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 178453
+    },
+    {
+      "path": "round-02/revision/nat-audit.json",
+      "private_original_sha256": "4d2979c85f80a2494fa06819bf9333479ba69e1c8cf1b00b12d3242f914e1dc8",
+      "public_derivative_sha256": "87d587c306542871c056ff1df56fbc2e75cfcbb0626e01cc1d4cacb8ac851a12",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 2961
+    },
+    {
+      "path": "round-02/text-review/exact-approved-payload.json",
+      "private_original_sha256": "104e092ae35fa4c487ad4b296617f87101f58834e1d7f5186b9559104715d75f",
+      "public_derivative_sha256": "81e621e49fb0e72ddcc8439101cdfc0259aae98471ea05eb52630fd2fb890485",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1616
+    },
+    {
+      "path": "round-02/text-review/executed.json",
+      "private_original_sha256": "03ac02bb848b539d521d2574824c4206c12f27e27c63452883691e9153e35117",
+      "public_derivative_sha256": "c17cffbf5aca3326a6f19ae6ad7fcbd4a8b89b27c39b819c221d392f8ba1de24",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 4057
+    },
+    {
+      "path": "round-02/workflow-summary.json",
+      "private_original_sha256": "44d9f254c378907788e7b134d4c8420501c0e6796cbb2609fab68e7874b3d7e7",
+      "public_derivative_sha256": "e78878c35b10d27cb85d5b1403e8712573a94caeaa724fbac921a329700c9277",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1618
+    },
+    {
+      "path": "round-03/direct-call-binding.json",
+      "public_derivative_sha256": "2387ca13458567b128c28199e9e2f9f161c70ebc55ba0d6ff64ef81de374f04c",
+      "scope": "Derived actual read-only diagnostics; original input hashes retained in artifact where available",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 26563
+    },
+    {
+      "path": "round-03/initial/exports-downloaded.json",
+      "private_original_sha256": "cf76177a9fb1b31e00f0fe3bfb32ee590cd23f6aeef1ef6ea41bf02099568c8b",
+      "public_derivative_sha256": "d256ea5d829e8c46b90b77e40d650f90e2018775d772c4b87aba797d951b78de",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1290
+    },
+    {
+      "path": "round-03/initial/final-run.json",
+      "private_original_sha256": "bb281bb5e8cf1c70680639f9767c5a1e33dfa5b93a7a5bbf17891133ea7e6eb9",
+      "public_derivative_sha256": "ea50b7c44fd046168e590dc04d4500dd736d94c207202a2a96e515632f0eea73",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 154568
+    },
+    {
+      "path": "round-03/initial/nat-audit.json",
+      "private_original_sha256": "9c39ede63f43055e7254148dd72a7d938e80896a1d9dd2782dd8c389b19ddfc9",
+      "public_derivative_sha256": "1ff7e254c66695a16afee98bb9a56ec31640acd6f9d67b28c53badf36e56ec07",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 2960
+    },
+    {
+      "path": "round-03/native-requests.json",
+      "public_derivative_sha256": "a0972aeea43d9b69b264b997076edc65d437fd3cedf5551a04e74a85a65546db",
+      "scope": "Derived actual read-only diagnostics; original input hashes retained in artifact where available",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 28803
+    },
+    {
+      "path": "round-03/nsight-summary.json",
+      "public_derivative_sha256": "2523314f338bae01562bfc9307bb7b2bd236c1186aa29b3aebeda7404e34367e",
+      "scope": "Derived actual read-only diagnostics; original input hashes retained in artifact where available",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1055
+    },
+    {
+      "path": "round-03/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "efca0a6acdc94bf604583f055d903838811e7cb0bd9ab9f86b43f57c0383f617",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 616
+    },
+    {
+      "path": "round-03/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b307ad71975d3189c5fab68ea1a78010ad774abeeb59bc803a6940d5ea3ada8",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1168
+    },
+    {
+      "path": "round-03/public-status.json",
+      "private_original_sha256": "510a62b1e05637f8e4a66da00c7bd553c7be4be750207f21be4e509d15ec88af",
+      "public_derivative_sha256": "5f13d34c7016ed5a2af91a61c8d830e7d5a3300235c3c510769c8ec4ad8b445f",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 4660
+    },
+    {
+      "path": "round-03/revision/exports-downloaded.json",
+      "private_original_sha256": "f27ea6a3be2479f0185ee46399f142ca3e532bb43411f9c953a862e25d6de963",
+      "public_derivative_sha256": "e659097a5e42f48f6bb2404aa431fe46653390f21ca51b3d4d6b081309362323",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1294
+    },
+    {
+      "path": "round-03/revision/final-run.json",
+      "private_original_sha256": "0404a30dc023a44ba0d4ec6583b9b4143cc73a2637cf454bee5519dfb23de560",
+      "public_derivative_sha256": "6460ab90f4a2c38333c2a27dfe22151ca2445fbe7b20f8e548e56ed98f6e8739",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 188998
+    },
+    {
+      "path": "round-03/revision/nat-audit.json",
+      "private_original_sha256": "4d161704ac3ce57d70fd1d54d4450b51909d010b0d18bf483ffa3693d7d468b2",
+      "public_derivative_sha256": "4785b72a107c2b463d689d38584580d68b84d3017a189da123062ff2bedae59d",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 2961
+    },
+    {
+      "path": "round-03/text-review/exact-approved-payload.json",
+      "private_original_sha256": "08edccb3265905fcb9ae3ad9c3d73a6377c621d9a3a017d700eead5ce9ff032d",
+      "public_derivative_sha256": "371563cfa1e0456c66afd3bf4434d795101b5920df878c07ecacb279039137fd",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1472
+    },
+    {
+      "path": "round-03/text-review/executed.json",
+      "private_original_sha256": "cca81e74f844d6fd1c9a13a536dcb675784e077f818c381f85c0e8663a75fea8",
+      "public_derivative_sha256": "d1901deefb3e6b01143538dadd0a599ab798640903c591fba5d20965a28b3255",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 3877
+    },
+    {
+      "path": "round-03/workflow-summary.json",
+      "private_original_sha256": "82191cc04b6e48ce3dda5d24742cb45fe4e210693a818da2656ae7010817e26b",
+      "public_derivative_sha256": "2936dac4182346eb588f9f62ab7b403db9b8472dac68946649bccf2ce3191d55",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 1620
+    },
+    {
+      "path": "round-04/failure.json",
+      "private_original_sha256": "ded49a41cb169dc21e44e8aabb0a82ddf89a40d1bcab84968fd8cf26fae4f268",
+      "public_derivative_sha256": "cc085da431974a16a3dedf926a16a367a35dd92547a63a0d59440f383f575e44",
+      "private_original_bytes": 3922,
+      "public_derivative_bytes": 3863,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/initial/exports-downloaded.json",
+      "private_original_sha256": "377dac9d5e3a21aa2440a12a302bd7b2772dab5bfeba03987ff1dc9c77827d17",
+      "public_derivative_sha256": "1a6085e0b4aee97516eeb8a107898881cf6be47f563fa9bc2dbe9633a3624772",
+      "private_original_bytes": 1289,
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/initial/final-run.json",
+      "private_original_sha256": "dc2cbe9728b85d34d4adc4800d27be5056825e68a9ad8b467b0143d4ed2c8ea6",
+      "public_derivative_sha256": "ea2caaa7c143692630c8598124a1b165b160581d20006176381f5e2075d37e5c",
+      "private_original_bytes": 163594,
+      "public_derivative_bytes": 163220,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/initial/nat-audit.json",
+      "private_original_sha256": "08f848096171d77a1da8b22256ca121698bfeae1302f561aa45d6a4596687705",
+      "public_derivative_sha256": "8d8d92b3f3a51b406ff3e4509b9a8a8d93f109057378b47b86aee09d7f91ae91",
+      "private_original_bytes": 4987,
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/knowledge/binding-1.json",
+      "private_original_sha256": "c3936f885a61c008c7c73585b0ccfa1cd70dd6f7f1ab807073237cff6595efeb",
+      "public_derivative_sha256": "d428d91775a5fce454e3fd856df55f871e1ece306f58a0ffc9f744f5761b5996",
+      "private_original_bytes": 6506,
+      "public_derivative_bytes": 6507,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "private_original_bytes": 2475,
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "private_original_bytes": 615,
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "private_original_bytes": 1167,
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/public-status.json",
+      "private_original_sha256": "510a62b1e05637f8e4a66da00c7bd553c7be4be750207f21be4e509d15ec88af",
+      "public_derivative_sha256": "b4532f207acd8a922581a03b59104c794593e7b5e86fb4985220328e2a17b0a2",
+      "private_original_bytes": 4659,
+      "public_derivative_bytes": 4560,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/text-review/exact-approved-payload.json",
+      "private_original_sha256": "eb717d48017843c5d893e86e39f0eca6a75ca34c76d5e7e5111c1802b27ad1b1",
+      "public_derivative_sha256": "de25bcaf253ebc7b97d55bb3c099d815ec7af87aee3f949425cd8046c0968c06",
+      "private_original_bytes": 1613,
+      "public_derivative_bytes": 1614,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/text-review/executed.json",
+      "private_original_sha256": "b3f2c10e7be92d9a6627817b49fe6bb0246bdb0b77726869455faef4068693dd",
+      "public_derivative_sha256": "8a8f0ae90634e817184ddc5415b581a52f03dd3716781b2dd884287286d364bc",
+      "private_original_bytes": 3306,
+      "public_derivative_bytes": 3251,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-04/workflow-summary.json",
+      "private_original_sha256": "7cc53a83a0ec8fe4206b9ff479f3ca95a30d7aa2987cb683fc5ff2252bcab86e",
+      "public_derivative_sha256": "1913c8aa09106446ef2d1bb09ebc6a52dd28af303d7a0e10f2221b05ead83f36",
+      "private_original_bytes": 1303,
+      "public_derivative_bytes": 1128,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/failure.json",
+      "private_original_sha256": "e5a2c90224c20268a7a06bc7d5473527548ef245c7d286e0e9e5a2dbd35390cd",
+      "public_derivative_sha256": "8f495a826642528e5fa1bd13a95b420ee71be4e814809d189b90075a6e65d624",
+      "private_original_bytes": 391,
+      "public_derivative_bytes": 392,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/initial/final-run.json",
+      "private_original_sha256": "25f938579594dd351d6aba62096c6cfba03b8a2b4c10c430b7b4735f9a6e0b92",
+      "public_derivative_sha256": "80942cfee67d376a18d4b02a811083a783cffb212d8db5ac67ed7d7261d876d6",
+      "private_original_bytes": 148614,
+      "public_derivative_bytes": 148240,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/knowledge/binding-1.json",
+      "private_original_sha256": "4ac4cbf8845b4242810bc9824886e0cccf964a38cdbdf5bfe071d9620616fb1e",
+      "public_derivative_sha256": "39f03390cf160e3bc60cfafa6eb9b0e6508eb0c7df6b3c7c5befb47b4655aab4",
+      "private_original_bytes": 6507,
+      "public_derivative_bytes": 6508,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "private_original_bytes": 2475,
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/native-failure-diagnostic.json",
+      "private_original_sha256": "f9023d27e6058a5311bf9019ecc3ea9a36a8990b6bc6ac4dcd68a4c7aff0b16a",
+      "private_original_bytes": 1810,
+      "public_derivative_sha256": "2614e25e7906196d73abf082cbd5179847ed14fe3d071c61978059cb9c9eaa04",
+      "public_derivative_bytes": 1046,
+      "scope": "Safe allowlisted extraction; raw native log, inference output, paths, identity and commands not included",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "private_original_bytes": 615,
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "private_original_bytes": 1167,
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/public-status.json",
+      "private_original_sha256": "510a62b1e05637f8e4a66da00c7bd553c7be4be750207f21be4e509d15ec88af",
+      "public_derivative_sha256": "b4532f207acd8a922581a03b59104c794593e7b5e86fb4985220328e2a17b0a2",
+      "private_original_bytes": 4659,
+      "public_derivative_bytes": 4560,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-05/workflow-summary.json",
+      "private_original_sha256": "08fd208f06277087bf6a6e7190882e902bd6cc4378f3289e6baa320591238736",
+      "public_derivative_sha256": "fafbeef6e8616611b60fa4940a80bc17c30a37012388888e851ee1a08288c68c",
+      "private_original_bytes": 941,
+      "public_derivative_bytes": 766,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/authenticity-audit.json",
+      "public_derivative_sha256": "aeddf4e7bae8ef54ba06ad7174c4f7a38900922d484614eefb0c0d304e9143fb",
+      "scope": "Derived actual cross-record and original-export byte audit; original/public input hashes retained in manifest and audit; no raw report copies",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 4803
+    },
+    {
+      "path": "round-06/direct-call-binding.json",
+      "public_derivative_sha256": "817f6487f43f99e7ab99fb5961b65727e9d4101b3dec3212b406c0d69b45395a",
+      "public_derivative_bytes": 10091,
+      "scope": "Root-derived actual native request/call binding verification; source hashes retained in record; raw logs, commands and private identities not published",
+      "source_manifest_sha256": "8ba6986d2577d786bfa4e105bd4ea55d63eadeef826f7d582fdfb8fbe797a618",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/failure.json",
+      "private_original_sha256": "fb89656a9cd65fda0a7700665b7fbbd8633929b3055d6ace9ff431ebe064c8e1",
+      "public_derivative_sha256": "4c8c3173136fe3f7c1d82c4ced62454e07dbb13ae8d42d9ec04d3e6e5f8e0253",
+      "private_original_bytes": 401,
+      "public_derivative_bytes": 402,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/initial/exports-downloaded.json",
+      "private_original_sha256": "3b2d6b8497556f43875425882730c0d7e4cdaa86e346825d047a434dc9082962",
+      "public_derivative_sha256": "83f488ee523c06a2959e1ba4396e3282fe280267c600ca3d8b641a5112aa96e9",
+      "private_original_bytes": 1289,
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/initial/final-run.json",
+      "private_original_sha256": "8aa22610a2b7070c13db350995b6405b27160e0239e127f86d38e0324f3c409e",
+      "public_derivative_sha256": "7b647fb9ec42f254bd0150b5c7efa2bcfe3ecb0c71ed3037ff870e1e7e0d8dff",
+      "private_original_bytes": 164512,
+      "public_derivative_bytes": 164138,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/initial/nat-audit.json",
+      "private_original_sha256": "1136b82722472b627a0f21af45a4dc8f51c5af8e514d7719e803fc936f156b01",
+      "public_derivative_sha256": "5153e645320f91524b6fbe42a2e10fa3f14f62b09d06d5db3c8c7ccff7d811f7",
+      "private_original_bytes": 4987,
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/knowledge/binding-1.json",
+      "private_original_sha256": "7e03e0005e188d857786e55960e2db4f5b12358266e23c29fd74637c5ddc5249",
+      "public_derivative_sha256": "88762b33ff1f8c51a1167c8911e49b73bb5e9d5f0efd33aa84ed22950e297196",
+      "private_original_bytes": 6505,
+      "public_derivative_bytes": 6506,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "private_original_bytes": 2475,
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/native-requests.json",
+      "public_derivative_sha256": "0e8f0301f4bfa9a4da6cc8b360d85b8bc3f78062983054e9bb2d64d0882caba2",
+      "public_derivative_bytes": 26530,
+      "scope": "Root-derived actual native request/call binding verification; source hashes retained in record; raw logs, commands and private identities not published",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "private_original_bytes": 615,
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "private_original_bytes": 1167,
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/revision/final-run.json",
+      "private_original_sha256": "556a59033baebb231b69d3d3c410e3b42645cb69c9e29ddeedcba1b223004e77",
+      "public_derivative_sha256": "5ae631c82e220cf5c3f2fef3f388e9b6efebd666554f92e15988b739121131a9",
+      "private_original_bytes": 178378,
+      "public_derivative_bytes": 177882,
+      "removed_fields": 3,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/text-review/exact-approved-payload.json",
+      "private_original_sha256": "fc0015ae572cb717af0ea8b4924bd09f17b78bcf159cd5983a107979555b1e9c",
+      "public_derivative_sha256": "8a882882c8fe874e6fbf00a83dfa1814b00eb7dc7abef39da9fabca50836d4a9",
+      "private_original_bytes": 2219,
+      "public_derivative_bytes": 2220,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/text-review/executed.json",
+      "private_original_sha256": "339e953efe2e0837383561e0def9f5a3a5f2dd4e4862491d157e5ce0814840ce",
+      "public_derivative_sha256": "361b7ed267890b0cf2d7daac06d910c9c6b6d854b5c985c2504f385fd0d23af9",
+      "private_original_bytes": 6258,
+      "public_derivative_bytes": 6203,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-06/workflow-summary.json",
+      "private_original_sha256": "98b862ee68c568a02d851a508e23369dfcca3b6b4aebe8ace4c23a4c91704eb3",
+      "public_derivative_sha256": "7d2c7c9e85a628307e68ec08a67622df0f578c3ced584fa6b47bdfd0251559e8",
+      "private_original_bytes": 1364,
+      "public_derivative_bytes": 1189,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/authenticity-audit.json",
+      "public_derivative_sha256": "344991a4156838b11c9b3a9616d4d550b04000e9f89dcef03f0d3044ed97f70b",
+      "scope": "Derived read-only application/native cross-record audit; original/public input hashes retained",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 3427
+    },
+    {
+      "path": "round-07/direct-call-binding.json",
+      "public_derivative_sha256": "48996ea3079f477021c29b58722f6749f0b4b8425501071b391882d449df8401",
+      "scope": "Derived actual output SHA, usage and image-count binding; original/public input hashes retained",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 2105
+    },
+    {
+      "path": "round-07/failure-case-record.json",
+      "private_original_sha256": "40768be9d6fbbdbd7bf7d5b559932a5bc2e225fc08f6090aeb9271af899d21d7",
+      "public_derivative_sha256": "c4b5afc5623048a87979ae58ce9f023acb2bbc55f7ddcc5f14c7c63a716e40ad",
+      "private_original_bytes": 147664,
+      "public_derivative_bytes": 147286,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/failure-run-record.json",
+      "private_original_sha256": "711fc2a5925c3a136376b7dc01210decd6bd77dd1176a05c534d506bb4f72dbc",
+      "public_derivative_sha256": "5f95cfa69fb7c5b0dce1570596142422fa0ee816c7def3e5b9e818262413e7bc",
+      "private_original_bytes": 127154,
+      "public_derivative_bytes": 126780,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/failure.json",
+      "private_original_sha256": "d9e33e3536179d83965317790d11d159443f775851c98cef5c345dc54ab332e4",
+      "public_derivative_sha256": "7fda51282e27d5edf6960b481df2eb4dbb7eb60867a52b3381d89f5eb43d19aa",
+      "private_original_bytes": 355,
+      "public_derivative_bytes": 356,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/initial/final-run.json",
+      "private_original_sha256": "711fc2a5925c3a136376b7dc01210decd6bd77dd1176a05c534d506bb4f72dbc",
+      "public_derivative_sha256": "5f95cfa69fb7c5b0dce1570596142422fa0ee816c7def3e5b9e818262413e7bc",
+      "private_original_bytes": 127154,
+      "public_derivative_bytes": 126780,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/knowledge/binding-1.json",
+      "private_original_sha256": "9a92eaee78a1345c052476d69d72bf2d90983a77cfac83e0cb2de81bfb4748dc",
+      "public_derivative_sha256": "9eba5f00f886ea9a218df8a68909397d246be0d55f76f9d2278796e86ab6c368",
+      "private_original_bytes": 6506,
+      "public_derivative_bytes": 6507,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "private_original_bytes": 2475,
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/native-requests.json",
+      "private_original_sha256": "e8c721d41ca3786e1bb3eaa26fc60f00910671d26106c8e24ce9f565dfcf6b9a",
+      "private_original_bytes": 1300,
+      "public_derivative_sha256": "392dc75526f7756bd43321f1596c40b56613147513a2ff517c1e475c86ca5b06",
+      "public_derivative_bytes": 1600,
+      "scope": "Allowlisted actual native request metrics; raw log not copied",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "private_original_bytes": 615,
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "private_original_bytes": 1167,
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/public-status.json",
+      "private_original_sha256": "af8fce08483bb86637dca36f7723a84f9ca88f57cb3b1f3ec0b3eb3729221eec",
+      "public_derivative_sha256": "de52d8e22028648b92e7d6e4e5af4522f7a5ef2694ca98c13875cf2fb70bfdd7",
+      "private_original_bytes": 4660,
+      "public_derivative_bytes": 4561,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-07/workflow-summary.json",
+      "private_original_sha256": "606c4aaba7e63382ab305570bd2214ad4910398ecf3750a8343d333da5641308",
+      "public_derivative_sha256": "59f90699eedbf8d161f686f16cccab25976a14a000e74d35e49637528be9685b",
+      "private_original_bytes": 943,
+      "public_derivative_bytes": 768,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/authenticity-audit.json",
+      "public_derivative_sha256": "0a8ccfaad5d042cc3461775f7cbee1a88521286db740369cd987565fee0c4cb5",
+      "scope": "Derived read-only application/native cross-record audit; original/public input hashes retained",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 3402
+    },
+    {
+      "path": "round-08/direct-call-binding.json",
+      "public_derivative_sha256": "8e77dbf5e3acc367fc7aa7a9bfd0f3ef22a6098965b655eaa723003339769f67",
+      "scope": "Derived actual output SHA, usage and image-count binding; original/public input hashes retained",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 2405
+    },
+    {
+      "path": "round-08/failure-case-record.json",
+      "private_original_sha256": "ec21eab2c792ce6e735cd59c25ef5d3d0f2e4e69e7f00ec241d715f47ef0cf9a",
+      "public_derivative_sha256": "e48d2375d5864c42ec7f472d3f41dced0e98dd7766a9ad5af3b4cfae87b8abfd",
+      "private_original_bytes": 147670,
+      "public_derivative_bytes": 147292,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/failure-run-record.json",
+      "private_original_sha256": "dd607a142cc1da1fd931bfda32e1c639b0f879d2d1fb9fde8fc44e6953d49ebc",
+      "public_derivative_sha256": "ca65b2917743fc53db038c202fb26158f91837a098ddc07d5567baff64e04e5b",
+      "private_original_bytes": 127154,
+      "public_derivative_bytes": 126780,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/failure.json",
+      "private_original_sha256": "2d54d6e60bdfe8e7609f975f5e37c2ce779ef1a9b474b3dede6eb1d4dea78ebd",
+      "public_derivative_sha256": "035b0650e94d96c3773233b3f2df3ed7572018226a7f2934343245843d909857",
+      "private_original_bytes": 355,
+      "public_derivative_bytes": 356,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/initial/final-run.json",
+      "private_original_sha256": "dd607a142cc1da1fd931bfda32e1c639b0f879d2d1fb9fde8fc44e6953d49ebc",
+      "public_derivative_sha256": "ca65b2917743fc53db038c202fb26158f91837a098ddc07d5567baff64e04e5b",
+      "private_original_bytes": 127154,
+      "public_derivative_bytes": 126780,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/knowledge/binding-1.json",
+      "private_original_sha256": "ba5df51410ded1c5b7bf146a5e3419e99f2c0515c363c076b1e1c12c23e4bee8",
+      "public_derivative_sha256": "5587a5677110ce1da4c3520c9a02e8757ded829d41ee7fb7569e3565dbab9eda",
+      "private_original_bytes": 6504,
+      "public_derivative_bytes": 6505,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "private_original_bytes": 2475,
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/native-requests.json",
+      "private_original_sha256": "0be70354c798d3b6cda6eeb95e66c3e9907a7acec0f462c8cbf0c8bf18f44d53",
+      "private_original_bytes": 22330,
+      "public_derivative_sha256": "e144b547007ccd6e07ec60dcc9bbb44383357ff47b8c52de1663b8f9a7dec220",
+      "public_derivative_bytes": 2015,
+      "scope": "Allowlisted actual native request metrics; raw log not copied",
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "private_original_bytes": 615,
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "private_original_bytes": 1167,
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/public-status.json",
+      "private_original_sha256": "6b7206abea513554d0a849fd2465fae90e68a85cc27a3cee64ff4f505a4d4e85",
+      "public_derivative_sha256": "0d3f889a1819d8c096d86130f640fdde57515e5bb618bd9dd32915705be3c525",
+      "private_original_bytes": 4716,
+      "public_derivative_bytes": 4617,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-08/workflow-summary.json",
+      "private_original_sha256": "e2fcf32f9e80b5f6afa083b5ef60841ce6cb4d88747cc2960be3189a5b721051",
+      "public_derivative_sha256": "7e40168c578e7c00c00d54e7d81999429ff72b6a1f67ef538c607da902e10225",
+      "private_original_bytes": 940,
+      "public_derivative_bytes": 765,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer"
+    },
+    {
+      "path": "round-09/authenticity-audit.json",
+      "public_derivative_sha256": "6e4b7848b7acb9c16dd3fa9318fe7492f6abc0d0c5ff9d225624c0770426f279",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 7073
+    },
+    {
+      "path": "round-09/derivation-manifest.json",
+      "public_derivative_sha256": "2f8a19b41dc25e2a882a7c01e6ebe060e59b04fa051c42d8c9890f7ebdf0140b",
+      "scope": "Per-round lineage; global final manifest merge pending",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 7347
+    },
+    {
+      "path": "round-09/initial/exports-downloaded.json",
+      "private_original_sha256": "874a36c1859288781688a3bfd17687ebb00e4da2d59c8a7ae595320ee6b4806c",
+      "private_original_bytes": 1289,
+      "public_derivative_sha256": "4590057f3bdfe044334e6cccd68333cdc39c965ba44414736f37bd493cd42cca",
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/initial/final-run.json",
+      "private_original_sha256": "8460f654340a04f0f16d5cf9d21975426b65a243fa62928529626457be236b43",
+      "private_original_bytes": 165333,
+      "public_derivative_sha256": "4ab88cd4142232dc63921d51939b57fd763dee037ce550282c6b3a613714c3bc",
+      "public_derivative_bytes": 164959,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/initial/nat-audit.json",
+      "private_original_sha256": "2103c888ca778d771fe65170d38100da7da476587b9490db79d7c7ca59005650",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "12715b398200b7c112851f96e958778c6fe8d76004f6357b65772378d61b4f78",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/knowledge/binding-1.json",
+      "private_original_sha256": "16dc09384a3db526535440882df608757aa1eeffd8bf5aa1f99a7bda47b98e17",
+      "private_original_bytes": 6508,
+      "public_derivative_sha256": "f1234e32b55031ba8034b4fc659f0008f63444d5904b9d70ce3dd7c245551b18",
+      "public_derivative_bytes": 6509,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "private_original_bytes": 2475,
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/native-binding.json",
+      "public_derivative_sha256": "04f7b7ef06fb1200d3e9becd2d8b3c55650e5b5d84def46039af78f916a3eca7",
+      "public_derivative_bytes": 11651,
+      "scope": "Root-derived16-call binding independently rechecked against original collector and saved initial+revision model events; no new inference",
+      "input_native_public_sha256": "7880a999c1ea8d86a33f75d21b73faebbcd9e3d809b1d8e4252d9a4084b38330",
+      "input_application_run_public_sha256": {
+        "initial": "4ab88cd4142232dc63921d51939b57fd763dee037ce550282c6b3a613714c3bc",
+        "revision": "d8d7ed76f90ec6ebab507e0ed5c97a95f0128eae2ed8838eeeee8b317ee6c3d4"
+      },
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/native-requests.json",
+      "private_original_sha256": "90deb8c5271cbcbe5282e4cceabb321f3ff2cad9f79eb80e8fed054837b44dc1",
+      "private_original_bytes": 28528,
+      "public_derivative_sha256": "7880a999c1ea8d86a33f75d21b73faebbcd9e3d809b1d8e4252d9a4084b38330",
+      "public_derivative_bytes": 35893,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "scope": "Root-derived safe native collector; raw remote log retained private; native rows independently match sanitized original collector",
+      "raw_remote_log_sha256": "6e1fdfada9988ba06ce4b1aa058c92b85e4182e546af7e4e1d2f0a9f0fb3c12c",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "private_original_bytes": 615,
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "private_original_bytes": 1167,
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/public-status.json",
+      "private_original_sha256": "e2580701bcd14cd793bafd3c5e2c709d0d0a74b678094471b34ffb2b8ae85565",
+      "private_original_bytes": 5561,
+      "public_derivative_sha256": "943b18c87c85af550a2ffa555146f717d1eeb267af61962f277bf4db03732aa5",
+      "public_derivative_bytes": 5462,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/revision/exports-downloaded.json",
+      "private_original_sha256": "5c104689b63487f60897033a3153c7ce1b8201729aaa989118ebe14c0b145d63",
+      "private_original_bytes": 1293,
+      "public_derivative_sha256": "8683645eb23d1e7940e480a2a01eb1de828830f652d2339e0780375cdd330f46",
+      "public_derivative_bytes": 1201,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/revision/final-run.json",
+      "private_original_sha256": "63f8ea0014c134484618a5603a0acf93802178a6144c9e98f420fa161eca054a",
+      "private_original_bytes": 193944,
+      "public_derivative_sha256": "d8d7ed76f90ec6ebab507e0ed5c97a95f0128eae2ed8838eeeee8b317ee6c3d4",
+      "public_derivative_bytes": 193448,
+      "removed_fields": 3,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/revision/nat-audit.json",
+      "private_original_sha256": "2519af75b6b5bec61ae8f55acdc80de94544ea173d29b625a32a767d792650fa",
+      "private_original_bytes": 2960,
+      "public_derivative_sha256": "7b08ad3166cb8110d3f8e6d2162484322b8846b66886cb84e0fc182633d0091a",
+      "public_derivative_bytes": 2961,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/source-hash-scan.json",
+      "public_derivative_sha256": "d4b92cd1a3faa52a8e89694e0c36d0df5193d813df2223243b5ae77156e0ff4d",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 6075
+    },
+    {
+      "path": "round-09/text-review/exact-approved-payload.json",
+      "private_original_sha256": "5155ba22b6034a1015cf795defab94aa54bb1d392f2ae350675af73e53004c3f",
+      "private_original_bytes": 2193,
+      "public_derivative_sha256": "e62513eb00f19ccdb5e5b958ba7291144de659538798ae6fba021a8ce9566967",
+      "public_derivative_bytes": 2194,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/text-review/executed.json",
+      "private_original_sha256": "87f8223876909efc904b286aaa7aba3857cbf455539a653336c10c117b51a6e0",
+      "private_original_bytes": 5891,
+      "public_derivative_sha256": "bb9cf3b9a52e8cd85f5a4f0cf167ffd1a0e2518a813476b310ab0c128e6fd603",
+      "public_derivative_bytes": 5836,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-09/workflow-summary.json",
+      "private_original_sha256": "d5196e89243111037718774ccf8eca3f1c3b0b924b5a2672ac10e9505c70274a",
+      "private_original_bytes": 1685,
+      "public_derivative_sha256": "e4a86cc5c80a784f051917d2575dd569caf27d3822d32fe5de525ea5938a3787",
+      "public_derivative_bytes": 1580,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/authenticity-audit.json",
+      "public_derivative_sha256": "0614de323eb5bfe984cc1b2bbdb149be8bd5ac06a451f541ddc317e2a082acfc",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 7014
+    },
+    {
+      "path": "round-10/derivation-manifest.json",
+      "public_derivative_sha256": "288a23f71d8856c3b7ca8872323c2ee3cd7f1f98274389456d4bc2384c311958",
+      "scope": "Per-round lineage; global final manifest merge pending",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 8678
+    },
+    {
+      "path": "round-10/failure-case-record.json",
+      "private_original_sha256": "e0c74e50402d744ba240c5d0a8259e4a1f2faf3458218b7dccc978cc12423692",
+      "private_original_bytes": 191819,
+      "public_derivative_sha256": "271d81f2acebf7959b1be4eb5ac36275a842271d2819453a045eb989b63c9cd0",
+      "public_derivative_bytes": 191441,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/failure-run-record.json",
+      "private_original_sha256": "f78177571955b23070d9e13846a5ed90f0698c33d9933b5765ea92efe9817f9c",
+      "private_original_bytes": 159910,
+      "public_derivative_sha256": "c553e36b0d8feb46dc4bce08e4360c095362e86493179fcc4910bf9793ea719f",
+      "public_derivative_bytes": 159536,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/failure-text-reviews.json",
+      "private_original_sha256": "5a731f11bee68e08a02f18077173248110a17502065b98e2e22750112be062c1",
+      "private_original_bytes": 5485,
+      "public_derivative_sha256": "685c4276ad9a88bbc9b02e4a5d0269c86d9405dbd2cfdb67981ed74354116385",
+      "public_derivative_bytes": 5428,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/failure.json",
+      "private_original_sha256": "81370f7b1b26ffb93900267b6efd07f4a1904a9987254f8ffc6c9f348652ab91",
+      "private_original_bytes": 5977,
+      "public_derivative_sha256": "95203c421d8fd7cb33c6f34f5e9e6a182d17b677d92875b7f7a185ad1d275016",
+      "public_derivative_bytes": 5918,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/initial/exports-downloaded.json",
+      "private_original_sha256": "44b1c3e1b9fec5a0a46296a3d0f36685b1896260c76c62f68f59af29eaaaab63",
+      "private_original_bytes": 1289,
+      "public_derivative_sha256": "cb632d23bdc430150f2917e62fd66c5dc32284c49a59df7ac50b93e15a21178f",
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/initial/final-run.json",
+      "private_original_sha256": "f78177571955b23070d9e13846a5ed90f0698c33d9933b5765ea92efe9817f9c",
+      "private_original_bytes": 159910,
+      "public_derivative_sha256": "c553e36b0d8feb46dc4bce08e4360c095362e86493179fcc4910bf9793ea719f",
+      "public_derivative_bytes": 159536,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/initial/nat-audit.json",
+      "private_original_sha256": "70fd9d8d5cc52c2806e5846692f6650267a141c9c8982bf95e07386651105753",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "83c083955464278c9a8b39aae1b9bc8db28ea2ec2e28e014762ede914924c48d",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/knowledge/binding-1.json",
+      "private_original_sha256": "9317f560e27a2bf0a0b472201b3bdf8cdfcd96035fec1e3cb5a84621e695f58b",
+      "private_original_bytes": 6507,
+      "public_derivative_sha256": "ebd3974fdb3dc037988554f8bb03fbcb3c4cb3333d17413b2ba9873a83191143",
+      "public_derivative_bytes": 6508,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "private_original_bytes": 2475,
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/native-binding.json",
+      "public_derivative_sha256": "debbd0059c377d1160eda84fd25e5c5618dc837a365482b318312b4474b95c0c",
+      "public_derivative_bytes": 3901,
+      "scope": "Root-derived5-call binding independently rechecked against original collector and saved initial only model events; no new inference",
+      "input_native_public_sha256": "6f6cd4aea25997cf8eea7e3bbf769f4452430068dd7365208990d2fa74e7c013",
+      "input_application_run_public_sha256": {
+        "initial": "c553e36b0d8feb46dc4bce08e4360c095362e86493179fcc4910bf9793ea719f"
+      },
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/native-requests.json",
+      "private_original_sha256": "3cb35844ac4a3010ec9238a98ca902ade83d93f631d897aa2d5dffd032bf7568",
+      "private_original_bytes": 37126,
+      "public_derivative_sha256": "6f6cd4aea25997cf8eea7e3bbf769f4452430068dd7365208990d2fa74e7c013",
+      "public_derivative_bytes": 11490,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "scope": "Root-derived safe native collector; raw remote log retained private; native rows independently match sanitized original collector",
+      "raw_remote_log_sha256": "2e4e33eaf47541a2f79dc2ef08ff2b11aff361d8dd74cfb63b6ec700803533ec",
+      "excluded_historical_rows": 16,
+      "actual_selected_native_rows": 5,
+      "historical_rows_exactly_match_prior_round09": true,
+      "sanitizer_counts_scope": "Full21-row original collector before excluding16 historical rows",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "private_original_bytes": 615,
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "private_original_bytes": 1167,
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/public-status.json",
+      "private_original_sha256": "e2580701bcd14cd793bafd3c5e2c709d0d0a74b678094471b34ffb2b8ae85565",
+      "private_original_bytes": 5561,
+      "public_derivative_sha256": "943b18c87c85af550a2ffa555146f717d1eeb267af61962f277bf4db03732aa5",
+      "public_derivative_bytes": 5462,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/source-hash-scan.json",
+      "public_derivative_sha256": "c1a0b30659c12cbcf4de0ed877bb16eb91c5a401d3a941e9b324dfd6bb9cb035",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 7099
+    },
+    {
+      "path": "round-10/text-review/exact-approved-payload.json",
+      "private_original_sha256": "341c45bef2cfa75a0a1065594ced8b4670075fcef04b61c832846b63870599fd",
+      "private_original_bytes": 2216,
+      "public_derivative_sha256": "7ea7318ce8b3412d62839155b796446fb2be88f79da46642a5e9cb850cbe0955",
+      "public_derivative_bytes": 2217,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/text-review/exact-preview.json",
+      "private_original_sha256": "bf364eeb9cddbaef76c4ab7d22762270c3a5d0e845c217af2ff5aea61d2f3c2c",
+      "private_original_bytes": 2595,
+      "public_derivative_sha256": "17b352c3a03ada82d62a09d534afc82345b74c88d8f0204e67bcafdec7d237fa",
+      "public_derivative_bytes": 2596,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/text-review/executed.json",
+      "private_original_sha256": "f12bc7887b656acc7194f1cca5dc9ba5a674a875e93b17ce92f801470fb4bab2",
+      "private_original_bytes": 5225,
+      "public_derivative_sha256": "8bc6ab79aae6ff01977a7db3c6cb0485eb09b2078e4a5f3f2d58d1dbcbdf2db7",
+      "public_derivative_bytes": 5170,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/text-review/prepared.json",
+      "private_original_sha256": "d343899764ad5732d74f56a55b12ba55e3fe724a23a3673fba414c51849dbf2c",
+      "private_original_bytes": 4269,
+      "public_derivative_sha256": "817e80e68529131ba76dd3c7df50d7c90ec55218ff507d5f64a423d5baccf488",
+      "public_derivative_bytes": 4270,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-10/workflow-summary.json",
+      "private_original_sha256": "9aee2553fb54d4fcde880bf4e6e0ff7cf77558e8d36c012bba817b3c1e81367d",
+      "private_original_bytes": 1233,
+      "public_derivative_sha256": "deb75e9910bffd2de0e2f23349c46de885ecc316404fadbd00f4c17dd1188375",
+      "public_derivative_bytes": 1128,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/authenticity-audit.json",
+      "public_derivative_sha256": "a90208490720a661734b9fdfdfb7754df75b20c4433f9cebd613c673856659c2",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 8232
+    },
+    {
+      "path": "round-11/derivation-manifest.json",
+      "public_derivative_sha256": "9418ce5e12a0c628f84e806d88225b70301d83c4e9f1094c5edc5fd33515d065",
+      "scope": "Per-round lineage; global final manifest merge pending",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 9582
+    },
+    {
+      "path": "round-11/failure-case-record.json",
+      "private_original_sha256": "674bb2b9732eadbbaa7b4a1a5b19e2f7e305bfb1c736f6bfb3ec3e3d12eb4c9d",
+      "private_original_bytes": 398019,
+      "public_derivative_sha256": "ca88487c7eba687b62f53f80a9fe4512a5b98b3e8e160b8c44f1d4e8e3ac7825",
+      "public_derivative_bytes": 397132,
+      "removed_fields": 4,
+      "replaced_values": 22,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/failure-run-record.json",
+      "private_original_sha256": "f36097ee8668c12edccd5f20b9069df7e73b28feb9684ebc4eec5d24ef91af39",
+      "private_original_bytes": 179823,
+      "public_derivative_sha256": "9993a5987b012a55dec6a1ec86093227cf44204fa4133be8447c1b8baeb973c8",
+      "public_derivative_bytes": 179327,
+      "removed_fields": 3,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/failure-text-reviews.json",
+      "private_original_sha256": "1a40bc2ced8e6dff718293be5d9225687d7ad1550db76f4d23a61ab6a48bce23",
+      "private_original_bytes": 6635,
+      "public_derivative_sha256": "d57530af490471761ee67b45d9efa8cb98c613432fa683b65f8d1365c745d131",
+      "public_derivative_bytes": 6578,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/failure.json",
+      "private_original_sha256": "0bdd39d90cc3c13caf7b2900e2bf3bda86a55417d751eeecc4a84a7ccd8ffd16",
+      "private_original_bytes": 401,
+      "public_derivative_sha256": "51ea6d845dcbc866bbb784c86a2b96b9dc5a097c05af3fa25108007690352dfd",
+      "public_derivative_bytes": 402,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/initial/exports-downloaded.json",
+      "private_original_sha256": "434e6fb19df27a91622901e277a891159b7662f26b15f9b5be9714d56d87dcfd",
+      "private_original_bytes": 1289,
+      "public_derivative_sha256": "74ed94ec268936e28af4cecc72ee65b9eb71b10cbbe0a3ff724c9fec5a9655bb",
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/initial/final-run.json",
+      "private_original_sha256": "2368f3faf1f4d9d6b98aed8604c75dd34f2b17b6b6c67b37082ae415027e204e",
+      "private_original_bytes": 164759,
+      "public_derivative_sha256": "f5072661e9fe1bfcddaaa8abfa94ec554ce88560e3cfea3e02198c4248e2eb1e",
+      "public_derivative_bytes": 164385,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/initial/nat-audit.json",
+      "private_original_sha256": "3a3b6ed21273bef020a7cffafc1e010d9080c31a25cb3f4f7303c06ba0406a1d",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "0804c1431014a0cae32adce83328f874e2e2991ff3078a811c3635698ff12c72",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/knowledge/binding-1.json",
+      "private_original_sha256": "fe519d211d988de74c92588f9aadee34542d801722b5b3bee1e4cdeba34631d7",
+      "private_original_bytes": 6506,
+      "public_derivative_sha256": "48db8d466dde9b36cb71ad1234e34f6cc665264ba1fa83cad00bd4b06d777658",
+      "public_derivative_bytes": 6507,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "private_original_bytes": 2475,
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/native-binding.json",
+      "public_derivative_sha256": "18a63050c3c34f1542b1f3ece5f735e11245a2caa869fc982c78c0234d76785d",
+      "public_derivative_bytes": 9545,
+      "scope": "Root-derived13-call binding independently rechecked against original collector and saved initial+revision model events; no new inference",
+      "input_native_public_sha256": "16867c7e68a258cedd40aa33ba67004ee723765c528cf77032b0063f39ade8b3",
+      "input_application_run_public_sha256": {
+        "initial": "f5072661e9fe1bfcddaaa8abfa94ec554ce88560e3cfea3e02198c4248e2eb1e",
+        "revision": "9993a5987b012a55dec6a1ec86093227cf44204fa4133be8447c1b8baeb973c8"
+      },
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/native-requests.json",
+      "private_original_sha256": "ff53c3094ed0ab8c85790b999ca682dcff58d2c3f0030870bf0a8f1f75bb2197",
+      "private_original_bytes": 59488,
+      "public_derivative_sha256": "16867c7e68a258cedd40aa33ba67004ee723765c528cf77032b0063f39ade8b3",
+      "public_derivative_bytes": 28677,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "scope": "Root-derived safe native collector; raw remote log retained private; native rows independently match sanitized original collector",
+      "raw_remote_log_sha256": "f15d2cf7d5fa2522f7f176859c344b7a45e9992e29af7302bdcdb1cf3997250f",
+      "excluded_historical_rows": 21,
+      "actual_selected_native_rows": 13,
+      "historical_rows_exactly_match_prior_round09_and_10": true,
+      "sanitizer_counts_scope": "Full34-row original collector before excluding21 historical rows",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "private_original_bytes": 615,
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "private_original_bytes": 1167,
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/public-status.json",
+      "private_original_sha256": "d01ce6dc8ae62df99b1f04bfc75f915b0cef687f70e2a7bdcc0641f3aef34304",
+      "private_original_bytes": 5972,
+      "public_derivative_sha256": "4da8ef60dfaa43da8299e9471819e02ccaa34efe0c650749e329e73fa8a7abe2",
+      "public_derivative_bytes": 5873,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/revision/final-run.json",
+      "private_original_sha256": "f36097ee8668c12edccd5f20b9069df7e73b28feb9684ebc4eec5d24ef91af39",
+      "private_original_bytes": 179823,
+      "public_derivative_sha256": "9993a5987b012a55dec6a1ec86093227cf44204fa4133be8447c1b8baeb973c8",
+      "public_derivative_bytes": 179327,
+      "removed_fields": 3,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/source-hash-scan.json",
+      "public_derivative_sha256": "628dc9b73d96879df2eaa7b76c4ddd295f39bae11744ffa3e1f1df39a01defac",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 7798
+    },
+    {
+      "path": "round-11/text-review/exact-approved-payload.json",
+      "private_original_sha256": "249ae1b3cda081861ad48cfcdac9d65db343533bbd2dfec5d733023f716090b2",
+      "private_original_bytes": 2159,
+      "public_derivative_sha256": "7dd5e2ecee69a9d2780769d29b0bca5eccf0dda8984d6eceb75da24412ab464f",
+      "public_derivative_bytes": 2160,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/text-review/exact-preview.json",
+      "private_original_sha256": "05214824369895bfa73a82ec6b5c91a8058e0d3e0521f4a90fc835b5f51975c2",
+      "private_original_bytes": 2538,
+      "public_derivative_sha256": "ffaba3168a9ab3341864ff446f2252fba49d256f76c1bacc5252d866bc539cfc",
+      "public_derivative_bytes": 2539,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/text-review/executed.json",
+      "private_original_sha256": "661a340f9b0b794052cd7b02d62c8909b06ecf887b391d1fbbf8555175514fdc",
+      "private_original_bytes": 6313,
+      "public_derivative_sha256": "7c40eb57bf9720b5fc011f691b7f1a2e9203fdd328a1f0a9fa826ec1599b6fd0",
+      "public_derivative_bytes": 6258,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/text-review/prepared.json",
+      "private_original_sha256": "4222a262c7fe1f40689cf9fd2df3d6950132936830f9bed0a855d3ddbbffe219",
+      "private_original_bytes": 4209,
+      "public_derivative_sha256": "ccf19283db5072b84b8ae1c7043784dff4b8d1a68094d77aed65fcc4ba5a6b03",
+      "public_derivative_bytes": 4210,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/text-review/revised-case.json",
+      "private_original_sha256": "401007fee766cafa4aa4dd81b36de393e39ecd80411a0a551a5bbea999e97688",
+      "private_original_bytes": 7255,
+      "public_derivative_sha256": "bad09f129a282e26ca41ea1787085d980e167ba379ff6ec929ff4e8b7ac28f80",
+      "public_derivative_bytes": 7256,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-11/workflow-summary.json",
+      "private_original_sha256": "56470ea22cc32e605b709ca8feadb3fdda7c7b82029b11f2d59b611254965b19",
+      "private_original_bytes": 1293,
+      "public_derivative_sha256": "4bb76cf0c88904105cd51e98839fae1508eba3641059a1523e3842b4e8de75ca",
+      "public_derivative_bytes": 1188,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/authenticity-audit.json",
+      "public_derivative_sha256": "05920ec5e98bd9efa1c9126f3335fb6da6dc969159e09ffe1c4f8c3c5736efba",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 9574
+    },
+    {
+      "path": "round-12/derivation-manifest.json",
+      "public_derivative_sha256": "baaa8281ca1d493e5982c244c7834bb660e732dd226d7c6eeaa6166ee1dab3a6",
+      "scope": "Per-round lineage; global final manifest merge pending",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 8797
+    },
+    {
+      "path": "round-12/initial/exports-downloaded.json",
+      "private_original_sha256": "43151f6257d74bf915a08d0a000e4e7a0371244470ba368ced0db77de04a7867",
+      "private_original_bytes": 1289,
+      "public_derivative_sha256": "9971c706c457e55d3a014c8bc8d8263b4b6e1bdb9b1b031fb24ae03621aaae09",
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/initial/final-run.json",
+      "private_original_sha256": "c345bb7e65749690e89a10422f0a52f35924a834fc5c1cc6b884743e901dcbaf",
+      "private_original_bytes": 169545,
+      "public_derivative_sha256": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c",
+      "public_derivative_bytes": 169171,
+      "removed_fields": 1,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/initial/nat-audit.json",
+      "private_original_sha256": "91921f77f8ceaa27ed174dac9cb25117d47d04cf6afb0a227e663171903dbe87",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "880847eb32864edb1780e001576dbb641fba87bcad18f30129862ae2f8547dc7",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/knowledge/binding-1.json",
+      "private_original_sha256": "322539be802ee7d99e04b53e82bbfdfc9320b960be9f94117dbe5ec9467fefb0",
+      "private_original_bytes": 6507,
+      "public_derivative_sha256": "1b9aca281fbcce920b44b2a3e52fc01b8adbd0690e6564a91c46bcc097d2deaf",
+      "public_derivative_bytes": 6508,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "private_original_bytes": 2475,
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/native-binding.json",
+      "public_derivative_sha256": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7",
+      "public_derivative_bytes": 10240,
+      "scope": "Root-derived14-call binding independently rechecked against original collector and saved initial+revision model events; no new inference",
+      "input_native_public_sha256": "0cbb6c347bcdc8815792a7bd62ba8a7eea3f6a45569c91880e0f28c9c419ac6a",
+      "input_application_run_public_sha256": {
+        "initial": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c",
+        "revision": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e"
+      },
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/native-requests.json",
+      "private_original_sha256": "5e624d2ae896d746a36a0b425252dbbe60ab31cbb0049d822790b354dd5f9730",
+      "private_original_bytes": 83855,
+      "public_derivative_sha256": "0cbb6c347bcdc8815792a7bd62ba8a7eea3f6a45569c91880e0f28c9c419ac6a",
+      "public_derivative_bytes": 31183,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "scope": "Root-derived safe native collector; raw remote log retained private; native rows independently match sanitized original collector",
+      "raw_remote_log_sha256": "d3b2dbbc51f8007934de75273937ca7fd5ccfb2341f3bfc1b9d6e922a30c3271",
+      "excluded_historical_rows": 34,
+      "actual_selected_native_rows": 14,
+      "historical_rows_exactly_match_prior_round09_10_11": true,
+      "sanitizer_counts_scope": "Full48-row original collector before excluding34 historical rows",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "private_original_bytes": 615,
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "private_original_bytes": 1167,
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/public-status.json",
+      "private_original_sha256": "4f2715540838b4b4ba95d1300d465c97b7947c05b70de05a38e8531bec79291a",
+      "private_original_bytes": 8458,
+      "public_derivative_sha256": "a67080b849af0aae0d7a0ab97ee7d2ea55163a1e23315008182c99d6486186da",
+      "public_derivative_bytes": 8359,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/quality-limitations-audit.json",
+      "public_derivative_sha256": "0c181bc685cfbb23ae3924e06d5115125d330a44d5c245a7c3264921e0b0fd03",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 2772
+    },
+    {
+      "path": "round-12/revision/exports-downloaded.json",
+      "private_original_sha256": "921e7dfeb955dc1b27156a9773b3520292d4ebe5230022c4ffd8cc5dc38143a8",
+      "private_original_bytes": 1293,
+      "public_derivative_sha256": "19291868d3e61d970b28cf4b2bec7285ba8364f21f57ef57a93fc59e65da11df",
+      "public_derivative_bytes": 1201,
+      "removed_fields": 0,
+      "replaced_values": 3,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/revision/final-run.json",
+      "private_original_sha256": "5e4760d2fe7b52c7a3d42046c1a53099b2e6537bec307c79e4cf3af328fa13a7",
+      "private_original_bytes": 192327,
+      "public_derivative_sha256": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e",
+      "public_derivative_bytes": 191831,
+      "removed_fields": 3,
+      "replaced_values": 11,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/revision/nat-audit.json",
+      "private_original_sha256": "97cc152e513acb7f33c040b2e79cf4fd8b6236c25dacbee1ed4fcc4ee7affeb8",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "78187de399d0d462a38d799a0ffe8dc4eb0188b313fbe69d7f54494ba7eb0840",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/source-hash-scan.json",
+      "public_derivative_sha256": "d7751d27abfe9d01b1c52c9316113c51851935ace791f44173465229d8d752d2",
+      "scope": "Derived read-only original/public byte and receipt/native/export binding audit; no opinion rewriting",
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit",
+      "public_derivative_bytes": 7647
+    },
+    {
+      "path": "round-12/text-review/exact-approved-payload.json",
+      "private_original_sha256": "b7a76532770bd0cdab8df75175ebb13ec2a2b06ea9eeb6947ad7df66a437e33e",
+      "private_original_bytes": 2120,
+      "public_derivative_sha256": "7da8d4b29347d75b6f6f6a4a5c5e1a570df16b97b7a4d9ee3b29ac61786a535a",
+      "public_derivative_bytes": 2121,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/text-review/exact-preview.json",
+      "private_original_sha256": "74c54c052c322421a932356e42b5ba9932367a63419d11a5d89fdeb4f029a18c",
+      "private_original_bytes": 2499,
+      "public_derivative_sha256": "cb151c046aaa72e9fbe31d634030c29e2425c7cc4157a372d2de62065577d90f",
+      "public_derivative_bytes": 2500,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/text-review/executed.json",
+      "private_original_sha256": "cb59a7d0d7c5f15c51ee97e9acfced665e2f78f062b1efc959f5332c47e9b2ba",
+      "private_original_bytes": 6295,
+      "public_derivative_sha256": "0df39212a13543e853aff7785902e54897791cb48e89d37737bb024c2c66b5ea",
+      "public_derivative_bytes": 6240,
+      "removed_fields": 1,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/text-review/prepared.json",
+      "private_original_sha256": "b1246417517a610e6eaa13f3c55d3836b1e165c99d6bf59621576c4e42a5d221",
+      "private_original_bytes": 4167,
+      "public_derivative_sha256": "0314cd006b4c20b4722632b12a9f5f102c493e799c8dda1076a072e09e09d1f3",
+      "public_derivative_bytes": 4168,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/text-review/revised-case.json",
+      "private_original_sha256": "b53a65ce856fee3703b59c011d06d9c81e6cb45872e8b3cbbe9a389dce8af311",
+      "private_original_bytes": 7255,
+      "public_derivative_sha256": "1c29cc5e8b526f8b5f741b2c687c1d55347436f69a6725ec638a8134cc593e70",
+      "public_derivative_bytes": 7256,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "round-12/workflow-summary.json",
+      "private_original_sha256": "517fab092e97a95ee3176cdfbed6947700b1dac3bb64b7ca746007bb93dadd97",
+      "private_original_bytes": 1686,
+      "public_derivative_sha256": "0bc8a5b0967821277b34de1d21dc1b48b222f5ff1ad813a0b0a63561401514e4",
+      "public_derivative_bytes": 1581,
+      "removed_fields": 2,
+      "replaced_values": 0,
+      "lineage_verification_scope": "Per-round source/original hash audit and safe derivation; see public per-round audit"
+    },
+    {
+      "path": "rounds-04-05-authenticity-audit.json",
+      "public_derivative_sha256": "e7daf06fb5c1f028bd6c276e6d4c5b27bbc76e0fdd4309e62b83b6de9adb3778",
+      "scope": "Read-only cross-record derivation; original and public input hashes retained in redaction manifest and audit",
+      "lineage_verification_scope": "Preserved producer prior-public-manifest lineage; private original not reread by finalizer",
+      "public_derivative_bytes": 3411
+    },
+    {
+      "path": "runtime-public-python-parity.json",
+      "root_derived": true,
+      "scope": "Latest root-owned public engineering/candidate/runtime Python parity snapshot; producer records not independently rerun by finalizer",
+      "root_recorded_source_hashes": {
+        "manifest_sha256": "4cf1bbcc94b4f3725d9967c5a955fd3b0fb711d90216597596085d833545bfa5"
+      },
+      "public_derivative_sha256": "1f477bb88604659b47938bf226cf660b1523c6a45a5ec8e477dcebe06aaabf5e",
+      "public_derivative_bytes": 23176
+    },
+    {
+      "path": "stepfun-json-mode-probe.json",
+      "private_original_sha256": "7576de89cda27d2656ebc6d1c6c42daaa44219851b549a775749647bf7ebed75",
+      "private_original_bytes": 1225,
+      "public_derivative_sha256": "80cbdc511f9740635916dc5cf7d6293bd10455a8649683a611bcb34974378451",
+      "public_derivative_bytes": 1730,
+      "root_derived": true,
+      "root_derivation_scope": "Original probe fields unchanged plus collector SHA/r13 stage metadata/domain_quality_measured=false; no private log published",
+      "actual_source_fields_equal_public": true
+    }
+  ],
+  "lineage_inventory_SHA256": {
+    "prior_public_manifest_SHA256": "62bab53252a0396a8a186dae8ae15675023a1e53571c474f02c27c1ca4c92ab7",
+    "round-09-private_lineage_inventory_SHA256": "5c9d80a316fd12ef5a352d478da51a52054901be81d0c5076c1b2212a7443b1b",
+    "round-10-private_lineage_inventory_SHA256": "92de4f00efa62c3728774b7c258e5597ec8a73a06d93fe4d5ef7b06460d26f63",
+    "round-11-private_lineage_inventory_SHA256": "5706d4e4ef194e21062ba83e63326844ac03baa79f5c5121079b96a49dbdaa59",
+    "round-12-private_lineage_inventory_SHA256": "f144465041c609ce933f30e6bcdbed01e74576b1796a0c24533069a5bc59d478",
+    "probe_derivation_inventory_SHA256": "12a299a1f4e6e9193e5b288189674de50b1cc03cfc39cc520a0a59e0f776de53"
+  },
+  "limits": [
+    "All listed public SHA values are calculated from actual bytes; manifest itself excluded to avoid self-binding.",
+    "Known original SHA values are retained from prior producer lineage or actual per-round source audits; missing original hashes are not invented.",
+    "Root engineering/parity records preserve latest producer provenance; test success and source equality do not prove professional quality.",
+    "Private raw model reports and nsys are retained privately; only selected safe records and actual export SHA receipts are public."
+  ],
+  "original_hash_not_available_or_not_applicable_paths": [
+    "README.md",
+    "candidate-32b.json",
+    "engineering-checks-v07.json",
+    "round-03/direct-call-binding.json",
+    "round-03/native-requests.json",
+    "round-03/nsight-summary.json",
+    "round-06/authenticity-audit.json",
+    "round-06/direct-call-binding.json",
+    "round-06/native-requests.json",
+    "round-07/authenticity-audit.json",
+    "round-07/direct-call-binding.json",
+    "round-08/authenticity-audit.json",
+    "round-08/direct-call-binding.json",
+    "round-09/authenticity-audit.json",
+    "round-09/derivation-manifest.json",
+    "round-09/native-binding.json",
+    "round-09/source-hash-scan.json",
+    "round-10/authenticity-audit.json",
+    "round-10/derivation-manifest.json",
+    "round-10/native-binding.json",
+    "round-10/source-hash-scan.json",
+    "round-11/authenticity-audit.json",
+    "round-11/derivation-manifest.json",
+    "round-11/native-binding.json",
+    "round-11/source-hash-scan.json",
+    "round-12/authenticity-audit.json",
+    "round-12/derivation-manifest.json",
+    "round-12/native-binding.json",
+    "round-12/quality-limitations-audit.json",
+    "round-12/source-hash-scan.json",
+    "rounds-04-05-authenticity-audit.json",
+    "runtime-public-python-parity.json"
+  ],
+  "latest_workflow_scope": {
+    "technical_workflow_completed": true,
+    "task_source_read_and_citation_present": true,
+    "quality_audit_passed": false,
+    "professional_quality_pass": false,
+    "expert_sample_received_or_validated": false,
+    "native_binding_pending": false,
+    "actual_native_rows_matched": 14,
+    "excluded_historical_rows": 34,
+    "max_HTTP_elapsed_seconds": 47.78022638207767,
+    "actual_original_exports_SHA_verified": 6,
+    "limits": "Same-object identity error retained in initial opinion; revised style support and3 unresolved reasons weak/unvalidated; not professional appraisal or accuracy rate"
+  }
+}

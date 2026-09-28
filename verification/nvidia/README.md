@@ -1,3 +1,26 @@
+# NVIDIA 与 Spark 实际运行证据
+
+当前 v0.7 主入口为 [逐轮工作流与证据索引](v07-workflows/README.md)：第 02–12 轮实际初判、NAT、批准文字审查、修订及失败记录。第 12 轮技术 completed、两版来源任务检查通过，但专业质量 false；历史紧凑协议轮次与 v07 round 编号属于不同实验序列，不能混写。
+
+- [当前工程与部署](v07-workflows/engineering-checks-v07.json)：实测 r15 应用 913 passed / 8 skipped / 1 warning，309.15 秒；专项 403 / 6 / 1，143.49 秒。原生含新增阶段 Schema 的 147 / 0 / 1、4.54 秒在 r14 测试，生产 native 不变、服务仍为 r11。以上均 0 次 GPU 模型请求，r14 三项失败留在历史工程记录。
+- [部署源码一致性](v07-workflows/runtime-public-python-parity.json)：86/86 核心、测试、集成 Python 文件与实际 r15 部署清单 SHA 匹配，不是整个 Git，也不代表陶瓷能力。
+- [真实第 12 轮](v07-workflows/round-12/authenticity-audit.json)：初稿、一次 StepFun 审查、本地修订、两版 NAT 与 6 份导出完成；两版各 1 body / 1 source_context cite，来源任务检查通过。[14/14 新增调用绑定](v07-workflows/round-12/native-binding.json)排除 34 历史行，最大 HTTP 47.780226 秒 < 90 秒，全部 EOS / 原 Schema 有效。
+- [第 12 轮专业质量局限](v07-workflows/round-12/quality-limitations-audit.json)：quality false，初稿同器来源身份误句保留，修订理由与风格支持仍弱；三项疑点均 unresolved，未经专家验证。第 09–11 轮引用、格式及修订失败保留在索引。
+- [Nsight 实际采集](v07-workflows/round-03/nsight-summary.json)：2025.3.2，1 区间 19.920507616 秒、144 聚合行 / 447,028 kernel 实例；不是加速或专业质量结论。
+- [32B 候选](v07-workflows/candidate-32b.json)：官方权重 / CUDA / BF16 / 合成协议通过，真实双图业务失败后停止，当前不驻留。
+- [CPU 解码重放](v07-workflows/decoder-cpu-replay.json)：无模型请求，私有 profiler 路径脱敏。
+- [JSON Mode 探针](v07-workflows/stepfun-json-mode-probe.json)：公开合成四字段，1 次 / stop / Schema 有效，不是业务验收。
+- [总公开派生与 SHA 清单](v07-workflows/redaction-manifest.json)：原件保留，公开证据移除凭证、私有地址 / 路径、原图 base64、SSH 身份与 raw nsys；不由程序补写意见或引用。
+
+NAT 检查資料版本 / 哈希 / 定位及读取身份，不验证来源支持或真伪；StepFun 只收批准文字，未看原图。vLLM 镜像未完整部署，NIM 受中国区官方分发限制，TRT / Dynamo / Retriever 未部署。专家样本在另一台电脑，未接收验证或校准真品率。
+
+## 历史记录
+
+下方保留此前 v0.6、紧凑协议、结构约束等原索引文字，作为当时状态记录；其中“最新”“当前”“待验证”指该段历史实验，不代表上方 v0.7 现状。旧失败未删除，不将旧 90 秒超时与第 10 / 11 轮非超时的失败混写。
+
+<details>
+<summary>展开原始历史索引</summary>
+
 # 已执行的集成证据
 
 最新第05轮仍没有AI报告：双图观察和适用方法已加载，下一主动作90秒超时。当前新增[原生恢复与晚到格式记录](observed05-native/README.md)、[296文件开发源与129项ARM CPU合同](compact03-source-binding/README.md)、[完整第05轮实际阶段](compact-workflow-05/README.md)。CPU合同、GPU格式和完整业务分别验收，不能相互替代。
@@ -73,3 +96,6 @@
 - [首批实见方法与固定短解释协议的CPU检查](observed-method-cpu-01/README.md)：198项工具合同、52项真实解析库检查；两组范围有重叠，不相加为独立样本数，不是GPU或领域质量。
 
 [发布前最后回归](release-engineering-01/README.md)：Python615／DOM33通过；39.18秒与1.547秒分别描述本次套件，开发阶段41.71秒记录继续保留。源码／方法／知识未改，说明文档与公开证据另有版本，最终冻结绑定在质量记录中。
+
+
+</details>

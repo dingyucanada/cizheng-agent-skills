@@ -1,0 +1,72 @@
+{
+  "scope": "Recorded teaching-fixture identity inconsistency and unvalidated reasoning limitations; not independent ceramic expert appraisal",
+  "quality_audit_passed": false,
+  "professional_expert_validation": false,
+  "source_task_read_and_citation_checks_passed": true,
+  "technical_workflow_completed": true,
+  "initial_same_fixture_identity_inconsistency": {
+    "known_fixture": "Met48607/18.61.4; actual two public image byte hashes verified",
+    "saved_model_reference_comparison": "馆方记载仅针对Met馆藏18.61.4，不适用本件",
+    "saved_citation_relevance": "馆方记载仅针对Met馆藏18.61.4，不适用本件",
+    "inconsistency_retained_not_rewritten": true
+  },
+  "revision": {
+    "drops_not_applicable_sentence": true,
+    "saved_reference_comparison": "馆方记录提及康熙早期，但无实物证据支持",
+    "critic_dispositions": [
+      {
+        "decision": "unresolved",
+        "issue_index": 0,
+        "reason": "需实物检测确认款识与胎体"
+      },
+      {
+        "decision": "unresolved",
+        "issue_index": 1,
+        "reason": "需实物检测确认胎体"
+      },
+      {
+        "decision": "unresolved",
+        "issue_index": 2,
+        "reason": "需实物检测确认釉面"
+      }
+    ],
+    "unresolved_issues": 3,
+    "claims": [
+      {
+        "candidate": "康熙早期",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "馆方记录提及康熙早期，但无实物证据支持",
+        "status": "insufficient",
+        "support": [
+          "obs_00efa3f976094e1489096b2b4aeacf5b"
+        ]
+      },
+      {
+        "candidate": "景德镇窑",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "无款识或胎体证据支持窑口",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "山水纹饰风格",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "装饰布局对称，符合清代风格",
+        "status": "insufficient",
+        "support": [
+          "obs_c5dda5a9c3cc4658bd05bc942a4d330e"
+        ]
+      }
+    ],
+    "reasons_and_style_support_still_unreviewed": true
+  },
+  "limits": [
+    "Same-object record identity error in initial opinion is observable against the known public fixture; no expert accuracy rate is inferred.",
+    "All3 issues retained as unresolved with model-authored reasons; sufficient domain reasoning and support are not established by software identity checks.",
+    "Host did not insert citations, opinions or dispositions to fabricate completion.",
+    "Independent expert samples remain on another computer, not received/validated; genuine-rate calibration and Skills A/B absent."
+  ]
+}

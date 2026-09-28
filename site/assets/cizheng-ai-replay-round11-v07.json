@@ -1,0 +1,107 @@
+{
+  "title": "瓷证真实AI运行证据回放 · 第11轮",
+  "as_of": "2026-09-29",
+  "video_sha256": "7c99d169fc06754c1ca15e86b1cd1438f75e6152b6c0f7fe8c38115d2fa561a9",
+  "video_bytes": 1657026,
+  "duration_seconds": 80,
+  "width": 1920,
+  "height": 1080,
+  "fps": 25,
+  "frames": 2000,
+  "codec": "H264/yuv420p",
+  "audio": false,
+  "burned_Chinese_text": true,
+  "full_decode": "passed, ffmpeg exit 0",
+  "visual_review": "all six rendered pages plus actual decoded frame inspected; no missing Chinese glyphs or text obstruction",
+  "permanent_label": "根据真实保存记录制作，非连续屏幕录制",
+  "scope": "真实初稿、批准文字反证与修订停止；不是成功修订或专业质量验收",
+  "teaching_video_changed": false,
+  "initial": {
+    "seconds": 134.76197695732117,
+    "model_calls": 6,
+    "tool_calls": 13,
+    "body_deliveries": 1,
+    "source_context_citations": 1,
+    "NAT": "references_verified",
+    "claim_truth_assessed": false
+  },
+  "StepFun": {
+    "seconds": 9.251642994931899,
+    "execute_attempts": 1,
+    "total_tokens": 2212,
+    "issues": 3,
+    "original_images_sent": false
+  },
+  "revision": {
+    "seconds": 172.32284951210022,
+    "model_calls": 7,
+    "tool_calls": 16,
+    "state": "failed",
+    "assessment": null,
+    "NAT": false,
+    "exports": 0,
+    "reason": "Original evidence-contract rejection, not HTTP timeout"
+  },
+  "export_hashes": [
+    {
+      "filename": "cizheng-report.json",
+      "bytes": 93971,
+      "server_sha256": "d7c8e6ca5273953d848c1d7b5cfb50fe4855622622a2146fe17123788cd7da7f",
+      "saved_sha256": "d7c8e6ca5273953d848c1d7b5cfb50fe4855622622a2146fe17123788cd7da7f"
+    },
+    {
+      "filename": "cizheng-report.md",
+      "bytes": 14001,
+      "server_sha256": "fedb128916ee9236d09dd0ecec05629cd81bdd20dddaaa5ae50b903bb3823a6b",
+      "saved_sha256": "fedb128916ee9236d09dd0ecec05629cd81bdd20dddaaa5ae50b903bb3823a6b"
+    },
+    {
+      "filename": "cizheng-report.html",
+      "bytes": 372294,
+      "server_sha256": "128f83ea6f00131189a3a85a330fd0df844da7a0d57936a30cf759226912495c",
+      "saved_sha256": "128f83ea6f00131189a3a85a330fd0df844da7a0d57936a30cf759226912495c"
+    }
+  ],
+  "public_evidence": [
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/workflow-summary.json",
+      "sha256": "4bb76cf0c88904105cd51e98839fae1508eba3641059a1523e3842b4e8de75ca"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/initial/final-run.json",
+      "sha256": "f5072661e9fe1bfcddaaa8abfa94ec554ce88560e3cfea3e02198c4248e2eb1e"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/initial/nat-audit.json",
+      "sha256": "0804c1431014a0cae32adce83328f874e2e2991ff3078a811c3635698ff12c72"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/text-review/executed.json",
+      "sha256": "7c40eb57bf9720b5fc011f691b7f1a2e9203fdd328a1f0a9fa826ec1599b6fd0"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/revision/final-run.json",
+      "sha256": "9993a5987b012a55dec6a1ec86093227cf44204fa4133be8447c1b8baeb973c8"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/initial/exports-downloaded.json",
+      "sha256": "74ed94ec268936e28af4cecc72ee65b9eb71b10cbbe0a3ff724c9fec5a9655bb"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/authenticity-audit.json",
+      "sha256": "a90208490720a661734b9fdfdfb7754df75b20c4433f9cebd613c673856659c2"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/native-binding.json",
+      "sha256": "18a63050c3c34f1542b1f3ece5f735e11245a2caa869fc982c78c0234d76785d"
+    },
+    {
+      "path": "verification/nvidia/v07-workflows/round-11/derivation-manifest.json",
+      "sha256": "9418ce5e12a0c628f84e806d88225b70301d83c4e9f1094c5edc5fd33515d065"
+    }
+  ],
+  "original_and_public_hash_relationship": "Public derivation-manifest preserves original hash and sanitized byte hash separately; exported source files are not published by this video receipt.",
+  "expert_validation": "not performed",
+  "ceramic_accuracy": "not measured",
+  "Skills_gain": "not measured"
+}

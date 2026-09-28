@@ -1,0 +1,2946 @@
+{
+  "assessment": null,
+  "case_id": "case_f632f240ecec4d2f878cc55c5398d1b9",
+  "case_revision": 5,
+  "compact_seen_read_indexes": [
+    1
+  ],
+  "context_media_ids": [
+    "media_7985d78938b84658842ab103e3ac1105",
+    "media_71d501b79edd4388a3a19d03ab578faa"
+  ],
+  "created_at": 1790604171.1927803,
+  "derivatives": [
+    {
+      "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+      "original_height": 1200,
+      "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    },
+    {
+      "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_7985d78938b84658842ab103e3ac1105",
+      "original_height": 1200,
+      "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    }
+  ],
+  "ended_at": 1790604245.8877397,
+  "episode_id": "episode_134cf84c87914e308459862a709075ba",
+  "error": "本地模型请求失败或响应格式不支持：HTTPStatusError",
+  "events": [
+    {
+      "actor": "coordinator",
+      "at": 1790604171.2336226,
+      "identity": {
+        "action_transport": {
+          "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+          "citation_exposure": "successful-main-canonical-body-exposure",
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+          },
+          "effective_by_task": {
+            "documentary_audit": false,
+            "visual_research": true
+          },
+          "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+          "inventory_limits": {
+            "knowledge_read_indexes": 20,
+            "observation_ids": 48,
+            "reference_ids": 10
+          },
+          "metadata_fields": [
+            "document_id",
+            "document_revision",
+            "document_sha256",
+            "chunk_id",
+            "chunk_sha256",
+            "locator"
+          ],
+          "protocol": "compact-visual-metadata-v1",
+          "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+          "scope": "visual_research-only",
+          "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+        },
+        "budgets": "original-run-and-episode-limits",
+        "compact_actions": true,
+        "documentary_preparation": [
+          "read_case"
+        ],
+        "first_image_batch_max": 4,
+        "guided_workflow": true,
+        "knowledge_prefetch_max_chunks": 2,
+        "knowledge_scope": "case-pinned-fixed-versions-only",
+        "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+        "natural_skill_discovery": false,
+        "observed_method_rule": {
+          "english_match": "case-insensitive-word",
+          "max_additional_methods": 1,
+          "method_whitelist": [
+            "bluewhite-attribution-test"
+          ],
+          "mode": "skills",
+          "research_task": "visual_research",
+          "source": "first-batch-current-run-vision-visible-only",
+          "triggers": [
+            "青花",
+            "blue-and-white"
+          ]
+        },
+        "parent_skill": "evidence-revise",
+        "preparation_actor": "coordinator",
+        "strategy": "coordinator-observed-method-v2",
+        "visual_skills": [
+          "ceramic-route",
+          "ceramic-research-record"
+        ]
+      },
+      "type": "harness_preparation"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.240909,
+      "outcome": "started",
+      "tool": "read_case",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {},
+      "at": 1790604171.2577264,
+      "tool": "read_case",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.2645624,
+      "result": {
+        "case": {
+          "analysis_scope": {
+            "archive_media_count": 2,
+            "notice": "意见仅覆盖本轮明确选用的图片；档案其余图片未被本轮视觉模型观察。",
+            "omitted_media_ids": [],
+            "selected_media_ids": [
+              "media_71d501b79edd4388a3a19d03ab578faa",
+              "media_7985d78938b84658842ab103e3ac1105"
+            ]
+          },
+          "catalogue": {
+            "condition_note": "",
+            "decoration": "",
+            "dimensions": "",
+            "inscription": "",
+            "inventory_number": "",
+            "material": "",
+            "object_name": "",
+            "object_type": "",
+            "provenance": "",
+            "requested_output": ""
+          },
+          "catalogue_sha256": "6dd086bb8b23a0b51702a009b89a273f24915d4d27c8e5b2383337cd2759a716",
+          "evidence_documents": [],
+          "evidence_documents_truncated": false,
+          "id": "case_f632f240ecec4d2f878cc55c5398d1b9",
+          "knowledge_links": [
+            {
+              "document_id": "ksrc_51b142960ebb1cac53087148",
+              "document_revision": 1,
+              "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+              "linked_case_revision": 5
+            }
+          ],
+          "knowledge_links_total": 1,
+          "knowledge_links_truncated": false,
+          "media": [
+            {
+              "id": "media_71d501b79edd4388a3a19d03ab578faa",
+              "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+              "source": "https://www.metmuseum.org/art/collection/search/48607；CC0，已知身份公开教学",
+              "view": "整体正面（公开图，视角声明）"
+            },
+            {
+              "id": "media_7985d78938b84658842ab103e3ac1105",
+              "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+              "source": "https://www.metmuseum.org/art/collection/search/48607；CC0，已知身份公开教学",
+              "view": "另一面整体（公开图，视角声明）"
+            }
+          ],
+          "projection_notice": "登记是操作人陈述，未核验；列表通过read_case_records分页读取，正文通过read_evidence_document。",
+          "question": "据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。",
+          "record_collections": {
+            "annotations": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "condition_checks": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "corrections": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "evidence_documents": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "knowledge_links": {
+              "tool": "read_case_records",
+              "total": 1
+            },
+            "provenance_events": {
+              "tool": "read_case_records",
+              "total": 0
+            }
+          },
+          "research_task": "visual_research",
+          "revision": 5,
+          "source_declaration": "新建公开教学HTTP联调；Met公开CC0双图，非盲测；无实物或原始拍摄记录。",
+          "target_attribution": "馆藏身份已知；不是本项目独立鉴定结果",
+          "title": "完整HTTP联调 · 公开教学 Met 山水纹花觚 18.61.4",
+          "truncated_fields": [],
+          "workflow": "museum"
+        },
+        "case_snapshot_sha256": "db5abed6cab79f25062fe17a56d53cf9f06ed7bfe1a8065108c547c888d133a3",
+        "mode": "skills",
+        "parent_run_id": null,
+        "preflight": {
+          "archive_image_count": 2,
+          "case_id": "case_f632f240ecec4d2f878cc55c5398d1b9",
+          "case_revision": 5,
+          "evidence_request": null,
+          "next_step": "ready_for_analysis",
+          "notice": "像素指标尚未用陶瓷照片校准；不据此判废图、AI生成、年代或真伪。上传视角仅为声明，未经验证。",
+          "projection_notice": "完整像素预检另存本轮run.preflight；此处省去档案图逐行指标。",
+          "review_required": true,
+          "review_status": "pending",
+          "semantic_view_verification": "not_performed",
+          "verified_views": [],
+          "version": "pixel-descriptive-v1"
+        },
+        "remaining_model_calls": 12,
+        "research_task": "visual_research"
+      },
+      "result_sha256": "e83f7455a9baf4afad356c9f241098668515081c2ac37323076a56ce3d0a8b71",
+      "tool": "read_case",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.2739727,
+      "outcome": "succeeded",
+      "result_sha256": "e83f7455a9baf4afad356c9f241098668515081c2ac37323076a56ce3d0a8b71",
+      "tool": "read_case",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.2828948,
+      "outcome": "started",
+      "tool": "discover_skills",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {},
+      "at": 1790604171.295611,
+      "tool": "discover_skills",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.3052218,
+      "result": [
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.",
+          "description": "Compare manufacturing-period, kiln and style hypotheses for visibly in-scope blue-and-white gu vases using real reference images and competing explanations. Not for other ceramic types, price estimates, or authenticity certification.",
+          "missing_tools": [],
+          "name": "bluewhite-attribution-test",
+          "sha256": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.",
+          "description": "Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.",
+          "missing_tools": [],
+          "name": "ceramic-research-record",
+          "sha256": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires the Cizheng v0.4 tool host and a working multimodal endpoint.",
+          "description": "Identify the visible ceramic category for a new object study and route museum, collection, or auction research and determine whether blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.",
+          "missing_tools": [],
+          "name": "ceramic-route",
+          "sha256": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.3 inspect_images, inspect_region and evidence-request tools.",
+          "description": "Compare explanations for actually observed ceramic lines, deposits, patches or possible repairs. Not for unrelated attribution questions or deciding age from a worn appearance.",
+          "missing_tools": [],
+          "name": "condition-hypothesis-test",
+          "sha256": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36"
+        },
+        {
+          "available": false,
+          "compatibility": "Cizheng documentary_audit bounded reading tools; no OCR or expert model is bundled.",
+          "description": "核查本案已许可文字凭据与固定版本知识材料的陈述关系。用于文字凭据核查任务，可无照片；不认证文书、历史经历、真伪或年代窑口风格归属。",
+          "missing_tools": [
+            "read_evidence_document",
+            "record_documentary_findings"
+          ],
+          "name": "documentary-evidence-audit",
+          "sha256": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.3 versioned cases, image tools and dependency-review tools.",
+          "description": "Revise a prior ceramic assessment after new photos, corrections, refreshed references or an approved text-critic result. Not for rereading an unchanged report.",
+          "missing_tools": [],
+          "name": "evidence-revise",
+          "sha256": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.",
+          "description": "Audit the documentary provenance of a ceramic research case, distinguishing holder statements, dated records, gaps, and object-identity links. Use when a museum accession, collection purchase, or auction consignment asks about source history. Not for proving title, legality, price, or authenticity from a story.",
+          "missing_tools": [],
+          "name": "provenance-evidence-audit",
+          "sha256": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+        }
+      ],
+      "result_sha256": "c39dc2f3951915a093de324cc92328d95b780f7093d33a18e4fb190b86c42b68",
+      "tool": "discover_skills",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.314097,
+      "outcome": "succeeded",
+      "result_sha256": "c39dc2f3951915a093de324cc92328d95b780f7093d33a18e4fb190b86c42b68",
+      "tool": "discover_skills",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.3228965,
+      "outcome": "started",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "name": "ceramic-route"
+      },
+      "at": 1790604171.33645,
+      "tool": "load_skill",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.3528397,
+      "result": {
+        "compatibility": "Requires the Cizheng v0.4 tool host and a working multimodal endpoint.",
+        "description": "Identify the visible ceramic category for a new object study and route museum, collection, or auction research and determine whether blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.",
+        "entry_sha256": "6a6eb9328beb74c6bbc4b599b5f47b0d6b96060e2447e102f5809b13437ae8c2",
+        "metadata": {
+          "expert-review": "pending",
+          "required-tools": "read_case,inspect_images,load_skill",
+          "version": "0.4.0"
+        },
+        "name": "ceramic-route",
+        "resources": [
+          "evals/evals.json",
+          "references/scope-and-capture.md",
+          "skill-card.md"
+        ],
+        "sha256": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+        "text": "---\nname: ceramic-route\ndescription: >-\n  Identify the visible ceramic category for a new object study and route museum, collection, or auction research and determine whether\n  blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.\ncompatibility: Requires the Cizheng v0.4 tool host and a working multimodal endpoint.\nmetadata:\n  version: 0.4.0\n  required-tools: \"read_case,inspect_images,load_skill\"\n  expert-review: \"pending\"\n---\n\n# 器类与专科路由\n\n通过 read_case 读取问题与媒体登记，调用 inspect_images 观察轮廓、口部、颈腹足的关系、装饰区域。器物名称不能从目录编号或用户猜测获得。\n\n青花花觚使用专科归属核验；一般陶瓷可做档案与有限研究，加载 ceramic-research-record，scope使用 ceramic_research。把“器类判断”和“制作年代判断”分开。看不到足够形制或装饰时保留观察限制；非花觚不继续套用康熙器的规则；明显非陶瓷才使用 out_of_scope。\n\n照片只覆盖某局部、来源或尺度不足时，按需 read_skill_resource 读取 [范围与采集条件](references/scope-and-capture.md)，决定缺失是否影响任务。不得因为存在范围内词语而跳过器类观察。\n\n输出到最终 basic_info 的内容包括可见形制、装饰、当前缺失的尺度和来源。只描述照片支持的信息。胎土配方、真实釉色、重量、工艺年代不能由普通照片直接测得。\n\n青花花觚加载 bluewhite-attribution-test，其他陶瓷加载 ceramic-research-record。来源经历核查按描述加载 provenance-evidence-audit。仅在观察到需解释的状况现象时加载 condition-hypothesis-test。有上一版意见时使用 evidence-revise。工具失败停止推断，不能用用户目标填补视觉结果。\n"
+      },
+      "result_sha256": "6d67ba35300e56ee7e00ffe83a4b8588fed2ab69c472ff2dc75c43486ba22b32",
+      "tool": "load_skill",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.362079,
+      "outcome": "succeeded",
+      "result_sha256": "6d67ba35300e56ee7e00ffe83a4b8588fed2ab69c472ff2dc75c43486ba22b32",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.371,
+      "outcome": "started",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "name": "ceramic-research-record"
+      },
+      "at": 1790604171.3857682,
+      "tool": "load_skill",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.402754,
+      "result": {
+        "compatibility": "Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.",
+        "description": "Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.",
+        "entry_sha256": "1720d4188f9d561792e9c35381b64a598984a70b9fa3f3aeba85faf6c05d4892",
+        "metadata": {
+          "expert-review": "pending",
+          "required-tools": "read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion",
+          "version": "0.4.0"
+        },
+        "name": "ceramic-research-record",
+        "resources": [
+          "evals/evals.json",
+          "references/record-contract.md",
+          "skill-card.md"
+        ],
+        "sha256": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed",
+        "text": "---\nname: ceramic-research-record\ndescription: >-\n  Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.\ncompatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.\nmetadata:\n  version: 0.4.0\n  required-tools: \"read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion\"\n  expert-review: \"pending\"\n---\n\n# 陶瓷档案与有限研究\n\n先 read_case 查看任务场景、器物登记、来源声明、人工观察和本轮明确选用照片。登记内容不能当作真值，workflow不是使用者身份认证。\n\n1. 实际 inspect_images 看本轮图像，先描述器形、装饰布局与可见部位。用 inspect_region 查看决定比较的细节，记录坐标、限制；不把放大产生的视觉感受当新事实。\n2. 普通陶瓷使用 ceramic_research；明显非陶瓷才用 out_of_scope。青花花觚进入 bluewhite-attribution-test，其他器类不套用花觚经验。制作时期、窑口、装饰风格分别保留支持、冲突和不足。\n3. search_knowledge 查询术语、状况记录或来源核查方法，read_knowledge 读取来源段落及版本。参照器物则 retrieve_references、read_reference，再实际看参照图。没有可靠、可比参照时，归属保持 insufficient；知识摘要不能替代图像参照或实物检查。\n4. 按需 read_skill_resource 阅读[记录与证据层次](references/record-contract.md)。人工区域观察只是操作人记录；模型必须重新观察，不能把人工注释ID填入support/conflict。\n5. 博物馆任务重点是登记来源、尺寸及状况和馆内复核；收藏任务重点是持有人主张与支持材料的区别；拍卖任务重点是图录用语与状况分开。三类均不提供未经实测的价格、真伪概率或专家身份背书。\n6. 若有来源链问题，按描述加载 provenance-evidence-audit；若有可见状况疑点加载 condition-hypothesis-test。有旧意见加载 evidence-revise。\n7. record_assessment 引用本轮模型观察和实际读到的知识段落。优先请求一项能区分解释的补证；在限制中明确未选图、缺少实物与未核来源。build_opinion结束，不输出证书。\n"
+      },
+      "result_sha256": "848ad1f37786ed62b28599821bf98dda3402a63ab10d239644be7439eb23a91e",
+      "tool": "load_skill",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.411687,
+      "outcome": "succeeded",
+      "result_sha256": "848ad1f37786ed62b28599821bf98dda3402a63ab10d239644be7439eb23a91e",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.4204106,
+      "outcome": "started",
+      "tool": "search_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "query": "据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。"
+      },
+      "at": 1790604171.4358969,
+      "tool": "search_knowledge",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.4508574,
+      "result": {
+        "filters": {
+          "document_id": [
+            "ksrc_51b142960ebb1cac53087148"
+          ]
+        },
+        "index_version": "dfcb4a68c8b9962e42094f08ace72013d68d61f93d9a178c183b85d7904d48d8",
+        "indexer_version": "cizheng-zh-bigram-v1",
+        "query": "据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。",
+        "rank_notice": "rank_score 是中文双字词与关键词的加权匹配排序分，不是可靠性、真伪或置信概率；来源与摘要均待专家复核。",
+        "results": [
+          {
+            "author": "瓷证项目原创摘要；原资料机构见来源卡",
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "index_version": "dfcb4a68c8b9962e42094f08ace72013d68d61f93d9a178c183b85d7904d48d8",
+            "institution": "The Metropolitan Museum of Art",
+            "limitations": [
+              "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+              "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+            ],
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "matched_terms": [
+              "公开",
+              "方记",
+              "记录",
+              "资料",
+              "馆方"
+            ],
+            "rank_components": {
+              "body_terms": 3,
+              "exact_phrase": false,
+              "locator_terms": 0,
+              "metadata_terms": 2,
+              "query_terms": 52
+            },
+            "rank_score": 0.230769,
+            "review_required": true,
+            "review_status": "pending",
+            "revision": 1,
+            "rights": "authorized_text",
+            "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+            "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+            "snapshot_sha256": "4f15da162e75fa6f21d31c9b0b2fd9feb4a0ddf44d68151409931bc43d4a9473",
+            "snippet_end": 130,
+            "snippet_start": 0,
+            "source_type": "catalogue_record_summary",
+            "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+            "title": "山水纹花觚的馆藏编目参照",
+            "truncated": false,
+            "year": "访问核实：2026-09-28"
+          }
+        ],
+        "run_snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+        "scope": "case-pinned-fixed-versions-only",
+        "selection_actor": "coordinator",
+        "snapshot_sha256": "4f15da162e75fa6f21d31c9b0b2fd9feb4a0ddf44d68151409931bc43d4a9473"
+      },
+      "result_sha256": "c4783bcf75dffde60346f75d9ca45f5fca05aaee62338a4e5664f7a0c1b5a191",
+      "tool": "search_knowledge",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.461209,
+      "outcome": "succeeded",
+      "result_sha256": "c4783bcf75dffde60346f75d9ca45f5fca05aaee62338a4e5664f7a0c1b5a191",
+      "tool": "search_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.4712012,
+      "outcome": "started",
+      "tool": "read_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "document_id": "ksrc_51b142960ebb1cac53087148"
+      },
+      "at": 1790604171.4859138,
+      "tool": "read_knowledge",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.4992492,
+      "result": {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "ordinal": 1,
+            "read_index": 1,
+            "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+            "snippet_end": 130,
+            "snippet_start": 0,
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+            "truncated": false
+          }
+        ],
+        "index_version": "dfcb4a68c8b9962e42094f08ace72013d68d61f93d9a178c183b85d7904d48d8",
+        "notice": "rank_score 是中文双字词与关键词的加权匹配排序分，不是可靠性、真伪或置信概率；来源与摘要均待专家复核。",
+        "snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1596918,
+          "document_id": "ksrc_51b142960ebb1cac53087148",
+          "document_revision": 1,
+          "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+          "expert_reviewed": false,
+          "id": "ksrc_51b142960ebb1cac53087148",
+          "imported_manually": true,
+          "institution": "The Metropolitan Museum of Art",
+          "limitations": [
+            "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+            "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+          ],
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+          "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "text_bytes": 320,
+          "text_sha256": "e2054eb895834aae86d08b8da00f18dc7dd3ba3fcaa246cd2cca89711caf2f7e",
+          "title": "山水纹花觚的馆藏编目参照",
+          "updated_at": 1790565889.1596918,
+          "year": "访问核实：2026-09-28"
+        },
+        "total_chunks": 1
+      },
+      "result_sha256": "5c76f07ef0f9712b33569ae8a3d36c52433a6a50b1b058e701b41e554ba10024",
+      "tool": "read_knowledge",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.508697,
+      "outcome": "succeeded",
+      "result_sha256": "5c76f07ef0f9712b33569ae8a3d36c52433a6a50b1b058e701b41e554ba10024",
+      "tool": "read_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604171.519465,
+      "outcome": "started",
+      "tool": "inspect_images",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "media_ids": [
+          "media_71d501b79edd4388a3a19d03ab578faa",
+          "media_7985d78938b84658842ab103e3ac1105"
+        ],
+        "question": "记录当前原照的器形、纹饰与可见部位，观察与推断分开。研究问题（数据）：据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。"
+      },
+      "at": 1790604171.535146,
+      "tool": "inspect_images",
+      "type": "tool_start"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+          "original_height": 1200,
+          "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        },
+        {
+          "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_7985d78938b84658842ab103e3ac1105",
+          "original_height": 1200,
+          "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        }
+      ],
+      "at": 1790604171.5893066,
+      "purpose": "inspect_images",
+      "type": "vision_input"
+    },
+    {
+      "at": 1790604190.8395371,
+      "elapsed": 19.2264292180771,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "3b06bebbb76a20c9422919403ecdc5ada0c6b18830d3b1f86f0dd29eaf04701d",
+      "outcome": "succeeded",
+      "output_hash": "fb1389e1dd7b0223340ff5e58bc9ee233f08f938995de2f11b247a774d3d99b3",
+      "purpose": "vision",
+      "successful_compact_read_indexes": [],
+      "successful_knowledge_body_sha256": [],
+      "successful_knowledge_receipt_sha256": [],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 1253,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 202,
+        "finish_reason": "stop",
+        "prompt_tokens": 2498,
+        "total_tokens": 2700
+      }
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.8588655,
+      "result": {
+        "derivatives": [
+          {
+            "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+            "crop_pixels": [
+              0,
+              0,
+              800,
+              1200
+            ],
+            "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+            "display_height": 1200,
+            "display_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "display_to_file_normalized": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "display_width": 800,
+            "downsampled": false,
+            "exif_orientation": 1,
+            "height": 1200,
+            "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+            "original_height": 1200,
+            "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+            "original_width": 800,
+            "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+            "width": 800
+          },
+          {
+            "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+            "crop_pixels": [
+              0,
+              0,
+              800,
+              1200
+            ],
+            "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+            "display_height": 1200,
+            "display_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "display_to_file_normalized": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "display_width": 800,
+            "downsampled": false,
+            "exif_orientation": 1,
+            "height": 1200,
+            "media_id": "media_7985d78938b84658842ab103e3ac1105",
+            "original_height": 1200,
+            "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+            "original_width": 800,
+            "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+            "width": 800
+          }
+        ],
+        "observations": [
+          {
+            "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+            "coordinate_space": "exif-corrected-original-normalized",
+            "id": "obs_1e03f0a62c094f558b6a9b41eddf3957",
+            "interpretation": "器形挺拔，纹饰繁复",
+            "limitation": "",
+            "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+            "region": [
+              0.22,
+              0.17,
+              0.77,
+              0.83
+            ],
+            "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+            "visible": "青花瓷瓶，喇叭口，绘山水纹饰"
+          },
+          {
+            "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+            "coordinate_space": "exif-corrected-original-normalized",
+            "id": "obs_84eaa1d051e04657a4f26dd734f7f1e9",
+            "interpretation": "纹饰主题不同",
+            "limitation": "",
+            "media_id": "media_7985d78938b84658842ab103e3ac1105",
+            "region": [
+              0.22,
+              0.17,
+              0.77,
+              0.83
+            ],
+            "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+            "visible": "青花瓷瓶，绘花篮纹饰"
+          }
+        ]
+      },
+      "result_sha256": "b0dd0496879dc91d670c9545399d5d2938a83826daa70c28d0f5e4dc1da93f6f",
+      "tool": "inspect_images",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.8698475,
+      "outcome": "succeeded",
+      "result_sha256": "b0dd0496879dc91d670c9545399d5d2938a83826daa70c28d0f5e4dc1da93f6f",
+      "tool": "inspect_images",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.879427,
+      "classification_verified": false,
+      "matched_observations": [
+        {
+          "matched_trigger": "青花",
+          "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+          "observation_id": "obs_1e03f0a62c094f558b6a9b41eddf3957"
+        },
+        {
+          "matched_trigger": "青花",
+          "media_id": "media_7985d78938b84658842ab103e3ac1105",
+          "observation_id": "obs_84eaa1d051e04657a4f26dd734f7f1e9"
+        }
+      ],
+      "natural_skill_discovery": false,
+      "rule": {
+        "english_match": "case-insensitive-word",
+        "max_additional_methods": 1,
+        "method_whitelist": [
+          "bluewhite-attribution-test"
+        ],
+        "mode": "skills",
+        "research_task": "visual_research",
+        "source": "first-batch-current-run-vision-visible-only",
+        "triggers": [
+          "青花",
+          "blue-and-white"
+        ]
+      },
+      "selected_method": "bluewhite-attribution-test",
+      "selection_source": "first-batch-current-run-vision-visible-only",
+      "type": "harness_observed_method"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.887982,
+      "outcome": "started",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "name": "bluewhite-attribution-test"
+      },
+      "at": 1790604190.903533,
+      "tool": "load_skill",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.92528,
+      "result": {
+        "compatibility": "Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.",
+        "description": "Compare manufacturing-period, kiln and style hypotheses for visibly in-scope blue-and-white gu vases using real reference images and competing explanations. Not for other ceramic types, price estimates, or authenticity certification.",
+        "entry_sha256": "77d4d44a235707454fe72f988a5e2118dfa861179a460b128888fcbe6856fc28",
+        "metadata": {
+          "expert-review": "pending",
+          "required-tools": "inspect_images,inspect_region,retrieve_references,read_reference,read_skill_resource,record_assessment",
+          "version": "0.3.0"
+        },
+        "name": "bluewhite-attribution-test",
+        "resources": [
+          "evals/evals.json",
+          "references/comparison-method.md",
+          "skill-card.md"
+        ],
+        "sha256": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+        "text": "---\nname: bluewhite-attribution-test\ndescription: >-\n  Compare manufacturing-period, kiln and style hypotheses for visibly in-scope\n  blue-and-white gu vases using real reference images and competing explanations.\n  Not for other ceramic types, price estimates, or authenticity certification.\ncompatibility: Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.\nmetadata:\n  version: 0.3.0\n  required-tools: \"inspect_images,inspect_region,retrieve_references,read_reference,read_skill_resource,record_assessment\"\n  expert-review: \"pending\"\n---\n\n# 青花花觚归属核验\n\n适用条件：器类观察支持青花花觚。本技能是研究程序，不携带已经专家验证的断代规则；没有可靠标本时主动保留不足。\n\n1. 将目标转换为可证伪主张：某时期实际制作，与仿该时期风格不同。保持 period、kiln、style 三种维度各自的候选与判断。\n2. 用 inspect_images 查看器形比例、分区纹饰、口沿、接胎与底足等当前可见部位；记录可见现象与解释，不以单一铁锈斑、裂纹、釉面黄旧或青色决定年代。\n3. retrieve_references 检索器类与候选；read_reference 查馆藏编号／图版、归属依据与许可；inspect_images 实看参照图，优先将器物及参照同批对比。需要决定资料是否可比或引用支持程度时，read_skill_resource 读取 [参照与竞争解释](references/comparison-method.md)。没有同类可比部位就明确不可比。\n4. 比较至少一个最强竞争解释，例如历史时期近似作品、后世仿古、现代仿古或图像处理差异。不要把“找不到反证”当作目标成立。\n5. 对每个维度写出支持、冲突和缺失。support/conflict 填本轮 observation_id；在 reasoning_summary 说明证据与结论之间的有限联系，不输出隐藏思维过程。reference_comparison 指明哪项相似、哪项不同及参照ID。\n6. request_evidence 只请求当前信息价值最高的一项，说明它如何区分竞争解释。普通照片无法解决的材料／烧成／年代问题应转为上手或专业检测需求，不反复索取同类照片。\n7. record_assessment 后 build_opinion。照片不足或空参照库使用 insufficient；不发明百分比。所谓 supported 只表示当前资料支持某归属，不能变成实物真品证书。\n\n失败处理：参照不匹配或来源仅为卖家自述时降低其证明力；模型无法识别时保留欠证，不编造款识与图案文字。\n\n细节看不清时用 inspect_region 查看原图局部，并引用返回的观察ID；放大或生成增强不能创造事实。制作时期、窑口和风格分别核验，某一维度有支持不自动放行另外两维度。\n"
+      },
+      "result_sha256": "9fb12b11157ab317c6622f6b559b0ebbd0d1266190dac88a18e6615d5b709892",
+      "tool": "load_skill",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.9366217,
+      "outcome": "succeeded",
+      "result_sha256": "9fb12b11157ab317c6622f6b559b0ebbd0d1266190dac88a18e6615d5b709892",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_71d501b79edd4388a3a19d03ab578faa"
+        },
+        {
+          "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_7985d78938b84658842ab103e3ac1105"
+        }
+      ],
+      "at": 1790604190.955342,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.9743526,
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 280,
+      "remaining_model_calls_including_this_request": 11,
+      "remaining_tool_calls": 12,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604190.9849627,
+      "inventory": {
+        "knowledge_read_indexes": [],
+        "observation_ids": [
+          "obs_1e03f0a62c094f558b6a9b41eddf3957",
+          "obs_84eaa1d051e04657a4f26dd734f7f1e9"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 0,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790604199.2248132,
+      "elapsed": 8.217783919069916,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "63bd15e45239c08fc58f2a321c64a332a177e60f69d5dad850e129f9407c4958",
+      "outcome": "succeeded",
+      "output_hash": "7e7aac10f3c5897cc72e3c638bf5b8d842af81f0cfaae67cc6a4caeae8a329e5",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 30613,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 24,
+        "finish_reason": "stop",
+        "prompt_tokens": 14716,
+        "total_tokens": 14740
+      }
+    },
+    {
+      "arguments": {
+        "query": "山水纹花觚，康熙早期，景德镇"
+      },
+      "at": 1790604199.2386959,
+      "tool": "retrieve_references",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790604199.2523654,
+      "result": [],
+      "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tool": "retrieve_references",
+      "type": "tool_result"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_71d501b79edd4388a3a19d03ab578faa"
+        },
+        {
+          "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_7985d78938b84658842ab103e3ac1105"
+        }
+      ],
+      "at": 1790604199.2665842,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604199.2830677,
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 271,
+      "remaining_model_calls_including_this_request": 10,
+      "remaining_tool_calls": 11,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604199.2913032,
+      "inventory": {
+        "knowledge_read_indexes": [
+          1
+        ],
+        "observation_ids": [
+          "obs_1e03f0a62c094f558b6a9b41eddf3957",
+          "obs_84eaa1d051e04657a4f26dd734f7f1e9"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 1,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790604216.796792,
+      "elapsed": 17.489283059025183,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "1b1967846ad0eb3c93b8011831f5468e53b115f7f937913c319098bf796853e2",
+      "outcome": "succeeded",
+      "output_hash": "b1c6a31f2f7feba65c518c30754bc4909752bbf4193125a549941a9bdc5ec300",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 30836,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 94,
+        "finish_reason": "stop",
+        "prompt_tokens": 14833,
+        "total_tokens": 14927
+      }
+    },
+    {
+      "arguments": {
+        "capture_instructions": "拍摄器物口沿内侧、底足胎釉及装饰细节，确认是否为原装或后加铜口、底款",
+        "distinguishes": "区分康熙原作与后世仿品的关键在胎釉、底款及装饰技法",
+        "reason": "无可靠参照图，无法验证制作时期与窑口",
+        "view": "器物整体及局部细节"
+      },
+      "at": 1790604216.8265965,
+      "tool": "request_evidence",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790604216.841563,
+      "result": {
+        "registered": true
+      },
+      "result_sha256": "6dfb2a0f27023653c6e23a9d944ad12bbb2796d5aec5029aaefb0ba6fbaa3bdb",
+      "tool": "request_evidence",
+      "type": "tool_result"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_71d501b79edd4388a3a19d03ab578faa"
+        },
+        {
+          "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_7985d78938b84658842ab103e3ac1105"
+        }
+      ],
+      "at": 1790604216.8504972,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604216.865793,
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 254,
+      "remaining_model_calls_including_this_request": 9,
+      "remaining_tool_calls": 10,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790604216.8727927,
+      "inventory": {
+        "knowledge_read_indexes": [
+          1
+        ],
+        "observation_ids": [
+          "obs_1e03f0a62c094f558b6a9b41eddf3957",
+          "obs_84eaa1d051e04657a4f26dd734f7f1e9"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 1,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790604245.863583,
+      "elapsed": 28.971326570026577,
+      "failure_type": "LocalModelFailure",
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "3f7c0af27d82522b087a8f661ee546db762e2af5aced17b83f2f9784d6b1acf0",
+      "outcome": "failed",
+      "output_hash": null,
+      "purpose": "action",
+      "successful_compact_read_indexes": [],
+      "successful_knowledge_body_sha256": [],
+      "successful_knowledge_receipt_sha256": [],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 31197,
+      "type": "model",
+      "usage": {}
+    }
+  ],
+  "evidence_request": {
+    "capture_instructions": "拍摄器物口沿内侧、底足胎釉及装饰细节，确认是否为原装或后加铜口、底款",
+    "distinguishes": "区分康熙原作与后世仿品的关键在胎釉、底款及装饰技法",
+    "reason": "无可靠参照图，无法验证制作时期与窑口",
+    "view": "器物整体及局部细节"
+  },
+  "id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+  "input_hash": "f76d7be907cb0bfbbc6c891a00aac12979fad5791d899bf7552a78eb5ae8f417",
+  "knowledge_queries": [
+    {
+      "filters": {
+        "document_id": [
+          "ksrc_51b142960ebb1cac53087148"
+        ]
+      },
+      "index_version": "dfcb4a68c8b9962e42094f08ace72013d68d61f93d9a178c183b85d7904d48d8",
+      "query": "据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。",
+      "result_chunk_ids": [
+        "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99"
+      ],
+      "run_snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+      "scope": "case-pinned-fixed-versions-only",
+      "selection_actor": "coordinator",
+      "snapshot_sha256": "4f15da162e75fa6f21d31c9b0b2fd9feb4a0ddf44d68151409931bc43d4a9473"
+    }
+  ],
+  "knowledge_snapshot": {
+    "index_version": "dfcb4a68c8b9962e42094f08ace72013d68d61f93d9a178c183b85d7904d48d8",
+    "indexer_version": "cizheng-zh-bigram-v1",
+    "schema_version": 1,
+    "snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+    "sources": [
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_01de38279a5b8e521e388442_r1_p0001_fca5abd0d8ee",
+            "chunk_sha256": "fca5abd0d8eea8dc2bf7f8e0553616d79b65d07cf60f494a7e24f116ed67af74",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_01de38279a5b8e521e388442",
+            "document_revision": 1,
+            "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "故宫将此杯记为明成化，口径8.3厘米；形体为微撇口、下收杯壁、平底卧足，足底边缘露胎，底心署青花成化六字款。页面描述装饰同时使用釉下青花和釉上多色，并提示后世持续仿烧。它可用于分层记录工艺与款识，年款本身不构成制作年代结论。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.1789107,
+          "document_id": "ksrc_01de38279a5b8e521e388442",
+          "document_revision": 1,
+          "document_sha256": "14dd7c226cfb8ada5f57edb385bcd3dd12487d79015ecec0522722ad0df24a9e",
+          "expert_reviewed": false,
+          "id": "ksrc_01de38279a5b8e521e388442",
+          "imported_manually": true,
+          "institution": "故宫博物院（北京）",
+          "limitations": [
+            "来源未在此页显示唯一登记号，不能用题名替代对象身份核对。",
+            "未进行实物或馆藏图像检验；不可从本文得到对上传鸡缸杯的真伪判断。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "成化款斗彩鸡缸杯 · 对象正文第1–4段",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 该国际站页脚声明版权所有；故宫中文版权条款须另行满足。没有下载原图，未声称机构授权本项目产品。",
+          "scope": "斗彩装饰分层、鸡缸杯轮廓、卧足和底款的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://intl.dpm.org.cn/Ceramicsis/852.html",
+          "text_bytes": 330,
+          "text_sha256": "670687fc1e7237b881546aa002f09cfebe503271b7ae022c36a4bf91b73ec6ea",
+          "title": "成化款斗彩鸡缸杯：卧足、底款与装饰层次的馆藏参照",
+          "updated_at": 1790565889.1789107,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_021d660523a7c98ea0246dfb_r1_p0001_e8279038cb11",
+            "chunk_sha256": "e8279038cb119061147d0e57154c681aace36fc072217abc7cec32b6fd9572a1",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_021d660523a7c98ea0246dfb",
+            "document_revision": 1,
+            "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Problems with Ceramics and Glass → Soluble salts · 手动录入第1段",
+            "ordinal": 1,
+            "text": "多孔陶瓷在含盐土壤、海水或盛盐用途下可能吸收可溶盐。CCI说明湿度变化中的溶解与再结晶可造成松动釉层剥落或裸胎表面脱落。白色沉积和剥落应先作为待核状况记录，不应直接写成出土证明。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1149633,
+          "document_id": "ksrc_021d660523a7c98ea0246dfb",
+          "document_revision": 1,
+          "document_sha256": "82260435168bb6da260366d6d4bcd65421b26a768698ed2a6b1c54600e89f40c",
+          "expert_reviewed": false,
+          "id": "ksrc_021d660523a7c98ea0246dfb",
+          "imported_manually": true,
+          "institution": "Canadian Conservation Institute",
+          "limitations": [
+            "照片不能确认沉积是盐，也不能确认埋藏或海水经历；本条不提供清洗处方。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Problems with Ceramics and Glass → Soluble salts",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：只索引项目原创摘要及出处；不将CCI全文作为商业授权语料。",
+          "scope": "多孔陶瓷的状况检查与环境历史待核",
+          "source_type": "method_summary",
+          "source_url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+          "text_bytes": 261,
+          "text_sha256": "a0352771af515682fd3bf1533e7adb65a5e0b6396dafebe697ffcc7bb4f6bcd7",
+          "title": "盐类引起的釉层剥落风险",
+          "updated_at": 1790565889.1149635,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_04eafc9065686f06cb7e0b73_r1_p0001_806c346a7d70",
+            "chunk_sha256": "806c346a7d709d7f71887ac0071d1caec2ab6dcc02b875cfe0e189fc45400f83",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_04eafc9065686f06cb7e0b73",
+            "document_revision": 1,
+            "locator": "建窯 黑釉兔毫盞 · 故瓷008624N000000000 · 基本资料/说明；款识 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫把故瓷008624记录为宋代建窑盏，高6.5、口径11.5厘米，深腹小圈足。说明记釉未到器底，足外露胎、足内浅凹并刻律字；黑釉流至近足处，口缘釉较薄，内底釉积较厚，并有青黄色线状纹理。参照重点是釉止位置、厚薄和刻字，不用兔毫称谓替代实际观察。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.262058,
+          "document_id": "ksrc_04eafc9065686f06cb7e0b73",
+          "document_revision": 1,
+          "document_sha256": "6c902aaf8eac76c1fa748fe58ebe4850dee8add87177a2b0268af6d3e232debf",
+          "expert_reviewed": false,
+          "id": "ksrc_04eafc9065686f06cb7e0b73",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "线状纹理、褐口边和律字均不能独立证明宋代建窑归属。",
+            "该对象3D专题与典藏页对口部措辞不同；本摘要只采用本条来源的部位记录，不强行统一口型。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "建窯 黑釉兔毫盞 · 故瓷008624N000000000 · 基本资料/说明；款识",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字CC BY 4.0，需标示：建窯 黑釉兔毫盞，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。没有导入低阶或中阶原图。",
+          "scope": "黑釉盏施釉范围、裸胎/圈足、釉流与足内刻字的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 349,
+          "text_sha256": "0a5cd39007ea970cf04ff801b2124950b66ad38fe249b50dc5efe8bc97064db0",
+          "title": "建窑黑釉兔毫盏：釉止线、垂釉及足内刻字的馆藏参照",
+          "updated_at": 1790565889.262058,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_124b99ccb873ee54dfdf6e82_r1_p0001_b2818f6724af",
+            "chunk_sha256": "b2818f6724af2f7009f9b58cdc66a266a6c247f721243f73527224292efe43ff",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_124b99ccb873ee54dfdf6e82",
+            "document_revision": 1,
+            "locator": "青花人物紋如意耳扁壺 · 故瓷012549N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫将故瓷012549记为明永乐如意耳扁壶，高29.7厘米；小圆口、细颈、扁圆腹，颈肩之间附双弓形耳。该典藏页以椭圆足和平底微凹描述底部；两面分别绘三人、二人的山水乐舞图。参照记录需区分正面、反面、侧面与底部，避免一张正视图概括全器。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2802715,
+          "document_id": "ksrc_124b99ccb873ee54dfdf6e82",
+          "document_revision": 1,
+          "document_sha256": "e1f6787df1a2ee6f85e7c969330dd024d2ade9207312d09924f59de1181b647d",
+          "expert_reviewed": false,
+          "id": "ksrc_124b99ccb873ee54dfdf6e82",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "同件3D专题称平底无足，而本典藏页称椭圆足；在取得足部视图和定义前，不擅自规范成圈足或无足。",
+            "人物题材与异域形制联系是来源解释，不能证明未知扁壶的外销或传播经历。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "青花人物紋如意耳扁壺 · 故瓷012549N000000000 · 基本资料/说明；使用说明",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字CC BY 4.0，需标示：青花人物紋如意耳扁壺，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。不推定关联3D模型开放。",
+          "scope": "扁壶双耳结构、底部用语和双面人物纹样的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 337,
+          "text_sha256": "ed7cf6ccfa55bcfa7a2c84cee1a44898e2e7100bd46a9b399918fd224ae87853",
+          "title": "青花人物如意耳扁壶：双耳、扁腹与两面纹饰的馆藏参照",
+          "updated_at": 1790565889.2802715,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_1259bc9c28d9979cf6d75ced_r1_p0001_8b141fb2d7b2",
+            "chunk_sha256": "8b141fb2d7b2bc357d9905e3e8064ad257e8df10c64a49f85403bfcee1820ccd",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_1259bc9c28d9979cf6d75ced",
+            "document_revision": 1,
+            "locator": "琺瑯彩黃地牡丹紋碗 · 故瓷014156N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫把故瓷014156记为清康熙珐琅彩碗，高4.2、口径11.5厘米；窄唇、浅弧壁、矮圈足，外壁黄色珐琅地上绘牡丹，内壁纯白，口足留白边。底款被记为蓝料宋体“康熙御製”四字双框款，可据此区分款色、字形和位置，而不把蓝色款一概叫釉下青花。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2251396,
+          "document_id": "ksrc_1259bc9c28d9979cf6d75ced",
+          "document_revision": 1,
+          "document_sha256": "b2dc3615cbcaeba92d5491d5f47e0757c63fc0bba11d5180ef49ed40d352b4f9",
+          "expert_reviewed": false,
+          "id": "ksrc_1259bc9c28d9979cf6d75ced",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "本文没有独立测量装饰层次；工艺与款料是该来源记录。",
+            "牡丹画法或宋体款均不单独证成年代，也不自动证明中西画法影响。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "琺瑯彩黃地牡丹紋碗 · 故瓷014156N000000000 · 基本资料/说明；使用说明",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字CC BY 4.0，需标示：琺瑯彩黃地牡丹紋碗，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。未把这项许可扩展到另站3D模型或刊物。",
+          "scope": "珐琅彩黄地、浅碗结构、留白边与蓝料款的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 334,
+          "text_sha256": "4588b60502a032cb809140f7fc0c49e1ad756dd3c1708c42d584ca537098cc55",
+          "title": "康熙珐琅彩黄地牡丹碗：蓝料宋体款与浅碗的馆藏参照",
+          "updated_at": 1790565889.2251396,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_1520cc223a658b96c4de6ca7_r1_p0001_f4de83722e8c",
+            "chunk_sha256": "f4de83722e8c8406afbde84d9e6f38a979b463a0c499f6ae324c293b81276050",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_1520cc223a658b96c4de6ca7",
+            "document_revision": 1,
+            "locator": "青花穿蓮龍紋天球瓶 · 故瓷011422N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫的故瓷011422记为明永乐青花天球瓶，高42.2厘米，直颈、球状腹，平底略凹而无足。原说明记腹绘穿莲三爪龙、底部露胎略橘红，肩腹之间有三处接痕，并记录青花浓色和斑点。可据此分列形体、成形痕、纹饰与呈色，接痕或斑点均不单独指向年代。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.270871,
+          "document_id": "ksrc_1520cc223a658b96c4de6ca7",
+          "document_revision": 1,
+          "document_sha256": "0adf09b77cda2e577d66e4c5ffbaa34de1a9cbd7f390f01ce5185bf103c6d25a",
+          "expert_reviewed": false,
+          "id": "ksrc_1520cc223a658b96c4de6ca7",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "不能从普通图像中的斑点确定青料矿物来源或把斑点作为真假判别条件。",
+            "页中关于创制年代的概括不能转成未知球腹瓶的断代规则。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "青花穿蓮龍紋天球瓶 · 故瓷011422N000000000 · 基本资料/说明；使用说明",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字CC BY 4.0，需标示：青花穿蓮龍紋天球瓶，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。本库只索引原创摘要。",
+          "scope": "大型青花瓶轮廓、无足平底、露胎与成形接痕的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 340,
+          "text_sha256": "d30665d3d72931eecedf4dd45756414f49b7fcc8cd08a8ab9479f5b4633ba437",
+          "title": "青花穿莲龙纹天球瓶：球腹、接痕和平底的馆藏参照",
+          "updated_at": 1790565889.270871,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_1a96a9d4f6ac6ca5a83e7190_r1_p0001_f388aed9ae3b",
+            "chunk_sha256": "f388aed9ae3bc9aa6018a922bedb8a14a5c375c94998eef43cfb39de2542a141",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_1a96a9d4f6ac6ca5a83e7190",
+            "document_revision": 1,
+            "locator": "釉里红三鱼纹高足碗 · 新00194689 · 简介第1–5段；撰稿人栏 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "故宫将新00194689记为明宣德高足碗，高8.8、口径9.9、足径4.4厘米，深弧腹下承外撇高足，内底有青花宣德款。该页特别说明凸起三鱼属于高温铜红釉局部使用，区别于通常以铜红彩绘图的釉里红；这一工艺说明仅对应本件。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.1692033,
+          "document_id": "ksrc_1a96a9d4f6ac6ca5a83e7190",
+          "document_revision": 1,
+          "document_sha256": "80d412040aa95acb9bde54567eb50f8042b3f1b07dcb3364e16f9fc286b34fe1",
+          "expert_reviewed": false,
+          "id": "ksrc_1a96a9d4f6ac6ca5a83e7190",
+          "imported_manually": true,
+          "institution": "故宫博物院（北京）",
+          "limitations": [
+            "普通照片不能验证铜料成分和烧成过程；不能把凸纹或橘皮纹直接用于未知器物断代。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "釉里红三鱼纹高足碗 · 新00194689 · 简介第1–5段；撰稿人栏",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页署徐巍；故宫版权声明对商业使用要求事先书面许可。本库只保存项目摘要及链接，不代表获得故宫全文或影像商业许可。",
+          "scope": "高足碗结构、内底款位置及局部铜红釉装饰的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 293,
+          "text_sha256": "122a6689bfee4fb9feafdc29d0f0179f21661b984c565bb32780f49b180a2b45",
+          "title": "釉里红三鱼高足碗：凸起鱼纹与高足结构的馆藏参照",
+          "updated_at": 1790565889.1692035,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_4077600a4cc569c7af29c9f1_r1_p0001_da8b93d42cf1",
+            "chunk_sha256": "da8b93d42cf1cd185b481c48de83387344494f1a35fd5b45ac1e37f83a17aaec",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_4077600a4cc569c7af29c9f1",
+            "document_revision": 1,
+            "locator": "汝窯 青瓷紙槌瓶「奉華」銘 · 故瓷17856 · 简介；另核典藏资料检索对象32 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫的故瓷17856纸槌瓶记为北宋器，高22.4厘米，长颈、筒状腹、平底无足，底周五处支痕。专题页描述口缘磨平并嵌铜扣，以及底刻乾隆诗和奉华铭；对奉华是否乾隆时期后刻保留不同看法。制造、损伤修整和题刻须分项记载，不能把后刻文字日期等同烧造日期。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2429469,
+          "document_id": "ksrc_4077600a4cc569c7af29c9f1",
+          "document_revision": 1,
+          "document_sha256": "3949daa1e2e8139e4372f29423f48ab2f5e4edec31254cb9841768a7a83d6d94",
+          "expert_reviewed": false,
+          "id": "ksrc_4077600a4cc569c7af29c9f1",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "后刻问题是该页列出的研究意见，本文不裁定铭文年代或皇室收藏经历。",
+            "铜扣与磨口不能给未知器物自动确认修复时间、原始器形或真伪。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "汝窯 青瓷紙槌瓶「奉華」銘 · 故瓷17856 · 简介；另核典藏资料检索对象32",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 3D专题页未读到针对其文字或模型的逐项CC许可；不将典藏库CC0图像规则套用。这里只存项目原创摘要、链接及观察边界，不下载原图或模型。",
+          "scope": "纸槌瓶轮廓、口部改动、底刻铭文与收藏史解释的分离",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 354,
+          "text_sha256": "c454abc21a79fc7b28344bd841d78d096ecd99c59417a8f27e1dd8fd4e710661",
+          "title": "奉华铭汝窑纸槌瓶：口部改动与后刻铭文意见的馆藏参照",
+          "updated_at": 1790565889.2429469,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_4691480425d5bc38b1e47f2e_r1_p0001_8e8300e53176",
+            "chunk_sha256": "8e8300e531764e8dffca7c0814f7118c716824d830230ec1d4719aaca6149806",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_4691480425d5bc38b1e47f2e",
+            "document_revision": 1,
+            "locator": "青花印花紋瓷碗 · 2003.001.0283 · 文物描述；编目者/编目日期 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台史博将2003.001.0283记为十九世纪至二十世纪初华南印花青花碗，口径12.9厘米、圈足。说明记录底部模制凸痕与内外缩釉，六组装饰中两组有重叠，并由此推测押印工序；该件内面满釉，被解释为装烧时位于最上方。可见痕迹与生产位置推测应分别保存。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2902787,
+          "document_id": "ksrc_4691480425d5bc38b1e47f2e",
+          "document_revision": 1,
+          "document_sha256": "b086ecd555ec2e73c93c2502199a7ff2875a73cf204964f1a02bd37a87a07013",
+          "expert_reviewed": false,
+          "id": "ksrc_4691480425d5bc38b1e47f2e",
+          "imported_manually": true,
+          "institution": "国立台湾历史博物馆",
+          "limitations": [
+            "这是对应单件藏品的编目解释；重复纹样不必然代表同一印章，满釉也不能自动确定装烧位置。",
+            "制造者字段为不详；不能由华南宽地域标签补造具体窑场或制造者。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "青花印花紋瓷碗 · 2003.001.0283 · 文物描述；编目者/编目日期",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 页面图片标PDM，不能据此认定文本也属公共领域；授权申请说明涉及图像影音及出版品使用。本库不下载图片或长段正文，只保存原创短摘要与链接。",
+          "scope": "印花青花、模制痕迹、重复装饰与推测语气的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 335,
+          "text_sha256": "8e448802b780e0380c791095b7ac4db1e4b206fcd97851c2f426e2b8235502e1",
+          "title": "华南印花青花碗：重复印纹、模痕与装烧解释的馆藏参照",
+          "updated_at": 1790565889.2902787,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1596918,
+          "document_id": "ksrc_51b142960ebb1cac53087148",
+          "document_revision": 1,
+          "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+          "expert_reviewed": false,
+          "id": "ksrc_51b142960ebb1cac53087148",
+          "imported_manually": true,
+          "institution": "The Metropolitan Museum of Art",
+          "limitations": [
+            "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+            "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+          ],
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+          "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "text_bytes": 320,
+          "text_sha256": "e2054eb895834aae86d08b8da00f18dc7dd3ba3fcaa246cd2cca89711caf2f7e",
+          "title": "山水纹花觚的馆藏编目参照",
+          "updated_at": 1790565889.1596918,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_7befd2101b694a67d06ebd18_r1_p0001_339233d2bfa1",
+            "chunk_sha256": "339233d2bfa178a125a306b386ae9de4201829a96e8312b3d2b8ad7d0800be33",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_7befd2101b694a67d06ebd18",
+            "document_revision": 1,
+            "locator": "孔雀绿釉青花莲池鱼纹盘 · 详细年代/尺寸/工艺/款识字段；简介第1–2段 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "上博将此盘记为明成化景德镇器，口径23.5厘米，口略收、浅弧壁、盘心微凸、圈足较宽，底有青花成化六字双圈款。简介说明青花之上覆孔雀绿釉，使蓝色装饰呈蓝黑调。该对象支持分别记录色料装饰、罩釉和最终可见色调，不能仅凭颜色诊断工艺。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2059278,
+          "document_id": "ksrc_7befd2101b694a67d06ebd18",
+          "document_revision": 1,
+          "document_sha256": "1201a86157c0e87225d47a215f722055bfedc6731fa7d5ed65dd544a3c26831b",
+          "expert_reviewed": false,
+          "id": "ksrc_7befd2101b694a67d06ebd18",
+          "imported_manually": true,
+          "institution": "上海博物馆",
+          "limitations": [
+            "孔雀绿罩釉的馆藏说明不能代替未知器物的材料检测。",
+            "不把来源对整朝青料、稀少程度或审美的概括转换成硬性鉴定规则。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "孔雀绿釉青花莲池鱼纹盘 · 详细年代/尺寸/工艺/款识字段；简介第1–2段",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页标上海博物馆版权所有；版权链接本次未成功读取，不能据此授予原文或图片复制权。本库只有原创摘要。",
+          "scope": "青花与孔雀绿釉组合、盘式、宽圈足及底款的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.shanghaimuseum.cn/mu/frontend/pg/m/article/id/CI00000243",
+          "text_bytes": 331,
+          "text_sha256": "a14620b26636e275d45759699f4a79f751932bb87a51d569f74f08d5cc564926",
+          "title": "孔雀绿釉青花莲池鱼纹盘：罩釉、圈足和款识的馆藏参照",
+          "updated_at": 1790565889.2059278,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_7f8d495e1aebed89cd35ac7d_r1_p0001_0b34aa7b27e4",
+            "chunk_sha256": "0b34aa7b27e4632535322c5077ee223bc2bbde13702edbb449223363babebca8",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+            "document_revision": 1,
+            "locator": "An A–Z of Ceramics · U is for underglaze · 手动录入第1段",
+            "ordinal": 1,
+            "text": "釉下装饰指位于釉层下面的装饰，釉层覆盖其上。V&A介绍钴蓝是可靠的釉下色料之一。这一定义可帮助记录装饰层次，但照片中的蓝色纹饰本身不能证明采用了钴料，也不能独立确定器物年代或窑口。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.0683181,
+          "document_id": "ksrc_7f8d495e1aebed89cd35ac7d",
+          "document_revision": 1,
+          "document_sha256": "d9316dc0280ec7a7dfe0c35cf84905766a4fb79b2f4fcb5413f0c741a618830b",
+          "expert_reviewed": false,
+          "id": "ksrc_7f8d495e1aebed89cd35ac7d",
+          "imported_manually": true,
+          "institution": "Victoria and Albert Museum",
+          "limitations": [
+            "不能凭普通照片确认色料成分、烧成工艺或年代；需保留实际观察与推测之别。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "An A–Z of Ceramics · U is for underglaze",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：V&A网站内容不是通用商业开源语料；非商业使用和商业许可条件见官方条款。摘要权利与原页图像权利分开。",
+          "scope": "陶瓷装饰层次的术语解释与编目提示",
+          "source_type": "method_summary",
+          "source_url": "https://www.vam.ac.uk/articles/a-z-of-ceramics",
+          "text_bytes": 264,
+          "text_sha256": "12fb9d1ceeff2ba2125fc409a1d38516a55d344cd500967d483bce572299ae31",
+          "title": "釉下装饰的限定定义",
+          "updated_at": 1790565889.0683181,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_8e16579e867208888691e9e0_r1_p0001_c40b90eda578",
+            "chunk_sha256": "c40b90eda578dbf68f279a53152edd08ba3650bf9815b00709317679b6c3b5a4",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_8e16579e867208888691e9e0",
+            "document_revision": 1,
+            "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "王竹平在2014年文章中比较两件汝窑笔洗与清宫图册、档案，结合尺寸、伤补位置和裂纹走向讨论对象联系及旧补历史性；其中再次修补的时间、地点、人员仍有未明项。此例提示状况史和收藏史可互相提供线索，修补痕的历史价值需结合文献研究，不能只凭外观决定保留或移除。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2992806,
+          "document_id": "ksrc_8e16579e867208888691e9e0",
+          "document_revision": 1,
+          "document_sha256": "b4c81cf72e32dd6221194104202cd7f5b7e640363a4d704a6e2eb77f38db44c4",
+          "expert_reviewed": false,
+          "id": "ksrc_8e16579e867208888691e9e0",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "读到的是作者的个案论证，未独立验证器物对应关系；不得把这种方法说成已建立的专家规则。",
+            "文章来源于2014年，不能视为现行通用材料选择规范；本条不建议胶种、清洗剂或修补操作。",
+            "未作PDF插图视觉检验；只依据已读文本，不能直接判读未知器物的旧补年代或来源链。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "王竹平《清宮陶瓷舊補痕的歷史性及其啟示》·《故宫文物月刊》371期，2014年2月 · 印刷页102–107及112–113；PDF第1–3、6页",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 该刊物PDF未读到针对正文/照片的开放许可；不套用另站典藏文字CC BY。未下载或复制全文/图片；只索引项目原创短摘要并注明原作者和刊物。",
+          "scope": "陶瓷状况史与收藏脉络的文献比对方法个案；不提供修复操作处方",
+          "source_type": "method_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 370,
+          "text_sha256": "499fa82e42b878c24fc8f32180426ee1c7c67aeadb6852079cf038c8b4d4318a",
+          "title": "清宫陶瓷旧补痕：实物、历史图册与档案的个案比对",
+          "updated_at": 1790565889.2992811,
+          "year": "原资料：2014年2月，371期；访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_90b705aac7c184a56c19c74f_r1_p0001_02243742ee98",
+            "chunk_sha256": "02243742ee98c00ace471f8d0517bc477a5291ea5fdaddfddedcaf52c5866f3d",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_90b705aac7c184a56c19c74f",
+            "document_revision": 1,
+            "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes · 手动录入第1段",
+            "ordinal": 1,
+            "text": "CCI将釉说明为陶瓷胎体上的玻璃层，并介绍某些铅釉表面可见细密开裂。状况记录应区分表层釉裂、贯穿胎体的裂缝和缺损；见到网状细裂仅支持描述该可见现象，不能单独证明历史年代或真伪。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.0936968,
+          "document_id": "ksrc_90b705aac7c184a56c19c74f",
+          "document_revision": 1,
+          "document_sha256": "801a9e9de0835f51d808d6f3a10da40a91b1441c26cf9f60e752bb12c1321863",
+          "expert_reviewed": false,
+          "id": "ksrc_90b705aac7c184a56c19c74f",
+          "imported_manually": true,
+          "institution": "Canadian Conservation Institute",
+          "limitations": [
+            "本页并未提供中国各窑开片断代规则；照片不足以确认裂纹深度或釉的化学成分。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "Caring for ceramic and glass objects · Understanding ceramic and glass objects → Ceramics → Ceramic finishes → Glazes",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：加拿大政府版权内容；非商业复制需准确并注明作者标题与URL，商业再分发通常需许可。未下载图片。",
+          "scope": "状况描述、胎釉分层的基础知识",
+          "source_type": "method_summary",
+          "source_url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html",
+          "text_bytes": 258,
+          "text_sha256": "1cdcb15e2dcd57fc03861a36eb4157a9ccfe6fc589ddb64595bbe1d6106c8b23",
+          "title": "胎体、釉层与细开裂需分别记录",
+          "updated_at": 1790565889.093697,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_9e903ad512cf7d8be37d54f2_r1_p0001_14c0f52a0887",
+            "chunk_sha256": "14c0f52a08878272b352908820059f0afd250c0b6d68b5683f48e89426aec660",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_9e903ad512cf7d8be37d54f2",
+            "document_revision": 1,
+            "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs · 手动录入第1段",
+            "ordinal": 1,
+            "text": "CCI介绍旧胶和补色可能变色，发黄脆化的胶应视为脆弱迹象。紫外检查有时能显示非原有胶、补色或填补，需由熟悉方法的保护人员实施。普通照片没显示修复，不能据此写成无修复。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.105072,
+          "document_id": "ksrc_9e903ad512cf7d8be37d54f2",
+          "document_revision": 1,
+          "document_sha256": "4725cba6ff056f5edc1f4c1e82b00f0186ed74329b1294905c448adfc8af765e",
+          "expert_reviewed": false,
+          "id": "ksrc_9e903ad512cf7d8be37d54f2",
+          "imported_manually": true,
+          "institution": "Canadian Conservation Institute",
+          "limitations": [
+            "不能凭变色自动确定修复年代；UV不是对所有修复的充分检测，更不是器物断代证明。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "Care of Ceramics and Glass – CCI Notes 5/1 · Cleaning and Repair → Recognizing Old Repairs",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：本次只保留原创短摘要与链接，不再分发CCI原文或图片；政府商业再分发许可条件需另行满足。",
+          "scope": "状况核对、修复史待核事项与检查方法记录",
+          "source_type": "method_summary",
+          "source_url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-ceramics-glass.html",
+          "text_bytes": 243,
+          "text_sha256": "bd1587b074a85a89dda6ad554d3685524c97d3aed151bc7cec9abf24fa200dd3",
+          "title": "旧修复迹象与观察方法",
+          "updated_at": 1790565889.105072,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_a00e8d1137608fb689d3616a_r1_p0001_939c42eb8475",
+            "chunk_sha256": "939c42eb8475331e5ee8c359aee9011e90834b9dabf186e138086709616949f8",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_a00e8d1137608fb689d3616a",
+            "document_revision": 1,
+            "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role · 手动录入第1段",
+            "ordinal": 1,
+            "text": "Getty CDWA要求来源史保存已知的日期、持有人、地点、转移方式和引用依据，并标明推测与断档。所有者、保管人、代理和拍卖行角色需要区分。系统应显示未知跨度和陈述来源，而不补造连续收藏史。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1416857,
+          "document_id": "ksrc_a00e8d1137608fb689d3616a",
+          "document_revision": 1,
+          "document_sha256": "bf236483859af7d4ed37f8b9d5ebef5a0f7923a00588ae4d172e85c7fc84f331",
+          "expert_reviewed": false,
+          "id": "ksrc_a00e8d1137608fb689d3616a",
+          "imported_manually": true,
+          "institution": "Getty Research Institute",
+          "limitations": [
+            "规范能帮助记录，不能验证文件真伪，也不能自动证明合法所有权或器物真实性。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "CDWA 23 Ownership/Collecting History · 23.1 Provenance Description → Discussion and Guidelines；23.5.1 Owner/Agent Role",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：未把Getty词汇数据ODC-By许可套用于CDWA出版正文；只保存原创摘要与链接。",
+          "scope": "对象档案与来源文献整理；适用于陶瓷等文化对象",
+          "source_type": "method_summary",
+          "source_url": "https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/",
+          "text_bytes": 265,
+          "text_sha256": "fe68ad482a605a845fc4abca3ba2e35eab96757ab3bb806f594c40bc8441aa22",
+          "title": "来源链中的事件、角色与缺口",
+          "updated_at": 1790565889.141686,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_ad6f5879178777be8df3b2b4_r1_p0001_1bcf92858f9a",
+            "chunk_sha256": "1bcf92858f9aa494479ee9cc1ca769ed5e7554b3a79a540e0767a0a0f318ecca",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+            "document_revision": 1,
+            "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview · 手动录入第1段",
+            "ordinal": 1,
+            "text": "Met藏品61.200.30的说明将纹饰联系到耕织图传统，内容包括稻作与蚕桑，并给出相关题识解释。页面将材料技术记为景德镇瓷、釉上多色彩绘。此记录支持纹饰与题识分开核对，不能把题材相同当作同年代证据。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1322753,
+          "document_id": "ksrc_ad6f5879178777be8df3b2b4",
+          "document_revision": 1,
+          "document_sha256": "24aaaf74e928fd8ac8d9d41d58d07e2a659b22a08760e001c9e8b93546320394",
+          "expert_reviewed": false,
+          "id": "ksrc_ad6f5879178777be8df3b2b4",
+          "imported_manually": true,
+          "institution": "The Metropolitan Museum of Art",
+          "limitations": [
+            "题材跨媒介传播；本页只说明该馆藏，不能为未知器物直接确定康熙归属。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "Vase with scenes and poems from Farming and Weaving · 顶部对象说明；Artwork Details → Overview",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：页面标Public Domain；Met OA公共领域图像和基本馆藏元数据为CC0。项目原创摘要与原始页面解释文字授权须区分。",
+          "scope": "图像学检索、题识核对、釉上彩器物的教学参照",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.metmuseum.org/art/collection/search/50839",
+          "text_bytes": 276,
+          "text_sha256": "df9f2e9de5cdd442d6624654c622ca610d6faf6cced4458d6c16ac6980854865",
+          "title": "耕织图纹饰与题识的馆藏参照",
+          "updated_at": 1790565889.1322753,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_b985f84d8de80de7d3edf675_r1_p0001_bf15c98d3d75",
+            "chunk_sha256": "bf15c98d3d759f90de6aba50e164f9dd63e99259f5e56d0a73ff4def58b04e91",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_b985f84d8de80de7d3edf675",
+            "document_revision": 1,
+            "locator": "An A–Z of Ceramics · A is for A-marked · 手动录入第1段",
+            "ordinal": 1,
+            "text": "V&A指出陶瓷常通过款识辨认，但一些知名厂标曾被仿用，其他标记的意义仍不确定。记录款识时应先转录可见文字或图形，再单独保存含义和归属意见；标记可读不等于器物归属已经成立。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.0824594,
+          "document_id": "ksrc_b985f84d8de80de7d3edf675",
+          "document_revision": 1,
+          "document_sha256": "5fe1b34ebcbdfc992613d1c844148e3d7a000d70c9287ea17e5bb5d1235265f1",
+          "expert_reviewed": false,
+          "id": "ksrc_b985f84d8de80de7d3edf675",
+          "imported_manually": true,
+          "institution": "Victoria and Albert Museum",
+          "limitations": [
+            "不能将欧洲厂标实例直接推广成某件中国年款的鉴定结论。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "An A–Z of Ceramics · A is for A-marked",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：保留原创摘要与官方链接；不导入V&A原图或复制原始文章正文。",
+          "scope": "款识记录与制造者归属的风险提示；本例主要涉及欧洲瓷厂标记",
+          "source_type": "method_summary",
+          "source_url": "https://www.vam.ac.uk/articles/a-z-of-ceramics",
+          "text_bytes": 249,
+          "text_sha256": "774c7d308fddd24b8e728e9bbc610311db96236e62338b0525e81754c157c066",
+          "title": "款识不能作为单独归属依据",
+          "updated_at": 1790565889.0824594,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_d9741b382d20353b49704731_r1_p0001_82748ad9a408",
+            "chunk_sha256": "82748ad9a40833ae7c041b1fb6c1246a741860b2b473cd8ebc8aa7db74639ce6",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_d9741b382d20353b49704731",
+            "document_revision": 1,
+            "locator": "Teapot · Artwork Details → Object Information → Overview · 手动录入第1段",
+            "ordinal": 1,
+            "text": "Met将藏品79.2.1202a, b记录为18世纪中国瓷质茶壶，具有透雕和釉下蓝色装饰，高13.3厘米、宽17.8厘米。此对象可作为器形、装饰层次和尺寸记录的教学参照；这些年代与材料标签只属于这件馆藏。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1233752,
+          "document_id": "ksrc_d9741b382d20353b49704731",
+          "document_revision": 1,
+          "document_sha256": "51a8e34172938a407629e33747ed6a9103e56138de2ed514826f59b87b692127",
+          "expert_reviewed": false,
+          "id": "ksrc_d9741b382d20353b49704731",
+          "imported_manually": true,
+          "institution": "The Metropolitan Museum of Art",
+          "limitations": [
+            "不能据外观相似把未知茶壶归为18世纪或真实；普通图像不能替代材料分析。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "Teapot · Artwork Details → Object Information → Overview",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：页面标Public Domain；Met OA公共领域图像和基本馆藏元数据为CC0。若另行导入图像须保留具体对象和权利记录；本摘要不包含图像。",
+          "scope": "编目教学、透雕茶壶器形比较的独立参照",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.metmuseum.org/art/collection/search/51185",
+          "text_bytes": 254,
+          "text_sha256": "a53a77f68311f8857672c9e8e91ad5ee6ad43db0c91ea2c5490f631550825393",
+          "title": "透雕青花茶壶的馆藏参照记录",
+          "updated_at": 1790565889.1233752,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_e4aaa122a24b640c7f104b3f_r1_p0001_74b402909ba1",
+            "chunk_sha256": "74b402909ba167ae70c0a2d354c8802ce324efc321383d5224518100da32784a",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_e4aaa122a24b640c7f104b3f",
+            "document_revision": 1,
+            "locator": "汝窯 青瓷蓮花式溫碗 · 故瓷016929N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫记录故瓷016929为北宋汝窑温碗，高10.4、口径16.2厘米；十曲花口、深腹、圆底和较高圈足，满釉支烧在底部留下五处支痕。说明将温碗与执壶配套保温用途联系起来。这件五处支痕的参照与故宫另一盘的三处支痕应分别记录，不能把支痕数量设成统一窑口规则。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2341375,
+          "document_id": "ksrc_e4aaa122a24b640c7f104b3f",
+          "document_revision": 1,
+          "document_sha256": "70d0dcc81c8e9f8c384e71d1fe0c069e49551c554ba33900b27e4b2a53c6abdc",
+          "expert_reviewed": false,
+          "id": "ksrc_e4aaa122a24b640c7f104b3f",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "温碗用途属来源解释，不能仅据花口就给未知器物判定用途。",
+            "器形也见于其他窑场与材质；相似轮廓不等于同窑同年代。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "汝窯 青瓷蓮花式溫碗 · 故瓷016929N000000000 · 基本资料/说明；使用说明",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字CC BY 4.0，需标示：汝窯 青瓷蓮花式溫碗，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。本库不导入原图、3D资产或图录全文。",
+          "scope": "花口温碗、器皿用途与满釉支烧底部记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 356,
+          "text_sha256": "1c1df62ab183d714a9405a2fe3174b0ee3e679d0cc4151b22e339def298aef2d",
+          "title": "汝窑莲花式温碗：花口、圈足与五处支烧痕的馆藏参照",
+          "updated_at": 1790565889.2341378,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_e5de4b7e19ee87fc99d5b867_r1_p0001_ee2d6e638299",
+            "chunk_sha256": "ee2d6e638299bfdcabc216f3fce1329faf56af5cdad63f9ae64d415bf296d5bb",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_e5de4b7e19ee87fc99d5b867",
+            "document_revision": 1,
+            "locator": "汝窑天青釉盘 · 对象正文第1–2段 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "故宫把此盘记录为宋代汝窑器，高3、口径17.1、足径9.1厘米。页面描述撇口、浅弧壁、坦底及外撇圈足；内外施天青釉，有细碎开片，外底因裹足支烧留三处小支钉痕。这些位置与数量属于此盘，适合核对底部观察清单。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.1879165,
+          "document_id": "ksrc_e5de4b7e19ee87fc99d5b867",
+          "document_revision": 1,
+          "document_sha256": "dd3edccbf43136bbc9bc05b0b72a9dfa5f08be189a40fe409c9b34bc10962704",
+          "expert_reviewed": false,
+          "id": "ksrc_e5de4b7e19ee87fc99d5b867",
+          "imported_manually": true,
+          "institution": "故宫博物院（北京）",
+          "limitations": [
+            "三处支痕不是所有汝瓷的必要或充分条件；开片和釉色也不能独立证明窑口。",
+            "此页没有明确登记号，跨来源比对需要另核对象身份。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "汝窑天青釉盘 · 对象正文第1–2段",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 国际站声明版权所有；未读到开放复制许可。本库只有原创短摘要，不导入图片或原页全文。",
+          "scope": "单色釉盘、圈足轮廓、底部支烧痕的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://intl.dpm.org.cn/Ceramicsis/692.html",
+          "text_bytes": 290,
+          "text_sha256": "361b5346c4b6744fb5b139024c0d47ceb46386b75f5e2e63ca2d242c9b6fcdac",
+          "title": "汝窑天青釉盘：外撇圈足与三处支烧痕的馆藏参照",
+          "updated_at": 1790565889.1879168,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_ee3b149974186323ea740d3c_r1_p0001_84b27fdf4826",
+            "chunk_sha256": "84b27fdf48260382c0c9078fcc1b7666ae76a9d7f7fb0ae9eea145bf5f9daed8",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_ee3b149974186323ea740d3c",
+            "document_revision": 1,
+            "locator": "祭蓝釉白龙纹盘 · 对象正文第1–3段 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "故宫将该盘编为元代，高1.1、口径16、足径14厘米。原页记其折沿浅壁、平底、外底无釉，蓝釉地上的白龙由白泥料塑贴而成，并将其归为高温钴蓝釉瓷器。蓝色地釉和白色贴塑需分别记述，不能因蓝白配色就把它记作青花。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.1967192,
+          "document_id": "ksrc_ee3b149974186323ea740d3c",
+          "document_revision": 1,
+          "document_sha256": "407e5f3b4a453303575eba01a255959105d477d47f4ae6060bac384f2cf73002",
+          "expert_reviewed": false,
+          "id": "ksrc_ee3b149974186323ea740d3c",
+          "imported_manually": true,
+          "institution": "故宫博物院（北京）",
+          "limitations": [
+            "照片中的色调不能直接确定钴的化学成分或烧成温度。",
+            "此页未给出登记号；本文不建立元代蓝釉器数量统计或稀少程度规则。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "祭蓝釉白龙纹盘 · 对象正文第1–3段",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 国际站声明版权所有；未读到原页开放许可。本库不保存原图、长段正文或品牌素材。",
+          "scope": "高温蓝釉、泥料贴塑与平底露胎的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://intl.dpm.org.cn/Ceramicsis/611.html",
+          "text_bytes": 295,
+          "text_sha256": "38dec619d9759d541b5bdc5d2a67845c453085916f9ca187ee921524205e9496",
+          "title": "蓝釉白龙纹盘：蓝釉与白泥贴塑的馆藏参照",
+          "updated_at": 1790565889.1967194,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_f886ff2d42a5239677ca49b9_r1_p0001_d1119449c248",
+            "chunk_sha256": "d1119449c2485f85ce13fa637978d2e0e3b9797c5b50a36aadd95988525e273a",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_f886ff2d42a5239677ca49b9",
+            "document_revision": 1,
+            "locator": "鬥彩雞缸杯 · 故瓷017673N000000000 · 基本资料/说明；款识；使用说明 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫的故瓷017673鸡缸杯高3.5、口径7.5厘米，以釉下青花和釉上彩绘鸡群花石，底有成化六字款。原说明通过与院内其他鸡缸杯比较，将这一组解释为明末清初仿作；基本年代字段仍为明至清。可读款文、宽年代标签和较具体的归属意见应同时保留，不能由成化款直接判成本朝。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.252854,
+          "document_id": "ksrc_f886ff2d42a5239677ca49b9",
+          "document_revision": 1,
+          "document_sha256": "8bf117193f6e24c7730ac26de5251fa0f58134ab1aba1747405a0c596624e6d9",
+          "expert_reviewed": false,
+          "id": "ksrc_f886ff2d42a5239677ca49b9",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "本文不独立认可或推翻该归属；馆方对笔绘的比较不是可机械执行的真伪算法。",
+            "不同馆藏的鸡缸杯不是同一对象，也不能充当未知杯的盲测答案。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "鬥彩雞缸杯 · 故瓷017673N000000000 · 基本资料/说明；款识；使用说明",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字CC BY 4.0，需标示：鬥彩雞缸杯，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。本摘要作者仍是项目，不是机构。",
+          "scope": "带旧年号款的仿古器、斗彩和对象归属意见的参照记录",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 372,
+          "text_sha256": "c5bb8b46fd1a1959ccd98d7949cca5fab0ed5d7e1ad5d74a0aebcf03237fcb64",
+          "title": "带成化款的晚期斗彩鸡缸杯：款文与归属意见分开的馆藏参照",
+          "updated_at": 1790565889.252854,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_fbd986d34d1c92422df7f01f_r1_p0001_008f26b52fd3",
+            "chunk_sha256": "008f26b52fd3a57d153dc132140f2ef65a264d163b0835c8ef77f449724fb725",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_fbd986d34d1c92422df7f01f",
+            "document_revision": 1,
+            "locator": "青花花卉紋碗 · 贈瓷000501N000000000 · 基本资料/说明；使用说明 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "台北故宫的赠瓷000501记为清代青花花卉碗，口径12.7厘米，深斜壁、矮圈足，口沿及底足分布弦纹，足底有双圈内单字石款。原说明明确内底纹饰不可辨识。参照时应保留不可辨项，不由题名或外壁纹样补写碗心内容。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料作者见来源核查补记",
+          "chunk_count": 1,
+          "created_at": 1790565889.2160382,
+          "document_id": "ksrc_fbd986d34d1c92422df7f01f",
+          "document_revision": 1,
+          "document_sha256": "82dc0c32e03cb69d84764c06cd05260cfb68bee7f445606842078c76dd3607f6",
+          "expert_reviewed": false,
+          "id": "ksrc_fbd986d34d1c92422df7f01f",
+          "imported_manually": true,
+          "institution": "国立故宫博物院（台北）",
+          "limitations": [
+            "清代的宽年代字段只属于这件记录，不能缩成具体年号或民窑产区结论。",
+            "单字款的意义未由该页确认；不应自动当作作者、商号或年款。",
+            "馆藏年代、窑口和工艺归属仅转述该来源对这件馆藏的记录；不是未知器物的鉴定规则或盲测真值。",
+            "此摘要未经来源机构或陶瓷专家审核，不代表专业效果已实证。"
+          ],
+          "locator": "青花花卉紋碗 · 贈瓷000501N000000000 · 基本资料/说明；使用说明",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页文字采用CC BY 4.0，需姓名标示：青花花卉紋碗，国立故宫博物院，台北，CC BY 4.0 @ www.npm.gov.tw。CC0仅指页面注明的低阶图像；本库未下载图像。",
+          "scope": "青花碗轮廓、弦纹布置、单字款与未识读项的记录方式",
+          "source_type": "catalogue_record_summary",
+          "source_url": "[private or query-bearing URL removed]",
+          "text_bytes": 286,
+          "text_sha256": "efc686a174674ff1d5461397edd74deeb0ce8ed5372a1e61978c61a4f0344186",
+          "title": "青花花卉纹碗：单字底款与不可辨纹饰的馆藏参照",
+          "updated_at": 1790565889.2160382,
+          "year": "访问核实：2026-09-28"
+        }
+      },
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_fdba06b2ae1c821991423a34_r1_p0001_ef3da7bef1e6",
+            "chunk_sha256": "ef3da7bef1e607cf2d911179b8eb999e110508ed913fe324ae8fdfc175b24a71",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_fdba06b2ae1c821991423a34",
+            "document_revision": 1,
+            "locator": "New York Conditions of Sale, Explanation of Cataloguing Practice · PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART · 手动录入第1段",
+            "ordinal": 1,
+            "text": "Christie's的中国陶瓷编目实践将款识描述与是否本朝的意见分开，并为probably或possibly of the period赋予不同限定含义。解读该机构拍品时应保留原始措辞，分别记录可见款识与年代归属，不把款文直接当作制作时间。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790565889.1503906,
+          "document_id": "ksrc_fdba06b2ae1c821991423a34",
+          "document_revision": 1,
+          "document_sha256": "29d6eab44abb6922c571fe648cb92c31a3b077ff6d2b9bcdb7dceaaf3126b6e2",
+          "expert_reviewed": false,
+          "id": "ksrc_fdba06b2ae1c821991423a34",
+          "imported_manually": true,
+          "institution": "Christie's",
+          "limitations": [
+            "是特定机构与条款版本的编目规范，不是通用真伪检测方法，也不表示本项目对某件器物认可该归属。",
+            "此摘要非来源机构或专家审核；不是上传器物的标签真值。"
+          ],
+          "locator": "New York Conditions of Sale, Explanation of Cataloguing Practice · PDF第21–22页，CHINESE CERAMICS AND WORKS OF ART",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创摘要，不转载原页面全文/图片；非机构审核。 原页权利：本次只保留原创短摘要和官方条款链接；未获拍卖行原始全文、图像或品牌复制许可。",
+          "scope": "该版本Christie's条款下的拍卖目录语言解释",
+          "source_type": "method_summary",
+          "source_url": "https://www.christies.com/-/media/conditions-of-sale/ConditionsOfSale-NewYork-19OCT23",
+          "text_bytes": 280,
+          "text_sha256": "bda74eabf92046ba803b2ad30527092446fcb0b6c6d508fd73cac3ad34db23c5",
+          "title": "拍卖编目中款识与本朝归属的语言",
+          "updated_at": 1790565889.1503909,
+          "year": "访问核实：2026-09-28"
+        }
+      }
+    ]
+  },
+  "loaded_skills": {
+    "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+    "ceramic-research-record": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed",
+    "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf"
+  },
+  "main_seen_knowledge_body_sha256": [
+    "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+  ],
+  "main_seen_knowledge_receipt_sha256": [
+    "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+  ],
+  "main_seen_media_ids": [
+    "media_71d501b79edd4388a3a19d03ab578faa",
+    "media_7985d78938b84658842ab103e3ac1105"
+  ],
+  "main_seen_text_read_ids": [],
+  "mode": "skills",
+  "model_calls": 4,
+  "next_step": "run_analysis",
+  "observations": [
+    {
+      "artifact_id": "media_61246c59b2474a1fa704337b43e0537f",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_1e03f0a62c094f558b6a9b41eddf3957",
+      "interpretation": "器形挺拔，纹饰繁复",
+      "limitation": "",
+      "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+      "region": [
+        0.22,
+        0.17,
+        0.77,
+        0.83
+      ],
+      "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+      "visible": "青花瓷瓶，喇叭口，绘山水纹饰"
+    },
+    {
+      "artifact_id": "media_ea80972aa1e143fab8759d4b9e16be48",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_84eaa1d051e04657a4f26dd734f7f1e9",
+      "interpretation": "纹饰主题不同",
+      "limitation": "",
+      "media_id": "media_7985d78938b84658842ab103e3ac1105",
+      "region": [
+        0.22,
+        0.17,
+        0.77,
+        0.83
+      ],
+      "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+      "visible": "青花瓷瓶，绘花篮纹饰"
+    }
+  ],
+  "parent_run_id": null,
+  "preflight": {
+    "case_id": "case_f632f240ecec4d2f878cc55c5398d1b9",
+    "case_revision": 5,
+    "declared_views": [
+      "整体正面（公开图，视角声明）",
+      "另一面整体（公开图，视角声明）"
+    ],
+    "errors": [],
+    "evidence_request": null,
+    "images": [
+      {
+        "declared_view": "整体正面（公开图，视角声明）",
+        "media_id": "media_71d501b79edd4388a3a19d03ab578faa",
+        "metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.7274,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 851.1126,
+          "height": 1200,
+          "luminance_mean_0_255": 158.8764,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "view_verified": false
+      },
+      {
+        "declared_view": "另一面整体（公开图，视角声明）",
+        "media_id": "media_7985d78938b84658842ab103e3ac1105",
+        "metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.5849,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 951.4579,
+          "height": 1200,
+          "luminance_mean_0_255": 159.3214,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "view_verified": false
+      }
+    ],
+    "next_step": "ready_for_analysis",
+    "notice": "像素指标尚未用陶瓷照片校准；不据此判废图、AI生成、年代或真伪。上传视角仅为声明，未经验证。",
+    "review_required": true,
+    "review_status": "pending",
+    "semantic_view_verification": "not_performed",
+    "verified_views": [],
+    "version": "pixel-descriptive-v1"
+  },
+  "read_knowledge": [
+    {
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "read_index": 1,
+      "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+      "snippet_end": 130,
+      "snippet_start": 0,
+      "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+    }
+  ],
+  "reference_snapshot": [],
+  "research_task": "visual_research",
+  "retrieval_performed": true,
+  "review_required": true,
+  "review_status": "pending",
+  "seconds": 74.68043541908264,
+  "snapshot": {
+    "activity": [
+      {
+        "action": "photo",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790604167.2267137,
+        "case_revision": 2,
+        "detail": "保存原始照片；视角与处理情况由上传者声明",
+        "id": "activity_8217f28b733f4e848997631e98fe688b"
+      },
+      {
+        "action": "photo",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790604169.6027362,
+        "case_revision": 3,
+        "detail": "保存原始照片；视角与处理情况由上传者声明",
+        "id": "activity_d03737e68df14b179a5cf15dc959aefa"
+      },
+      {
+        "action": "analysis_selection",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790604169.736894,
+        "case_revision": 4,
+        "detail": "明确本轮选用2张；档案共2张。未选照片不参与该轮推理。",
+        "id": "activity_332e1e45bae145d7a527e74ce09fe06c"
+      },
+      {
+        "action": "document_link",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790604170.9684303,
+        "case_revision": 5,
+        "detail": "明确关联资料第1版及哈希；后续资料库更新不会改写本案依据",
+        "id": "activity_bfd0860c449f436e965956a985a7c752"
+      }
+    ],
+    "analysis_media_ids": [
+      "media_71d501b79edd4388a3a19d03ab578faa",
+      "media_7985d78938b84658842ab103e3ac1105"
+    ],
+    "analysis_scope": {
+      "archive_media_count": 2,
+      "notice": "意见仅覆盖本轮明确选用的图片；档案其余图片未被本轮视觉模型观察。",
+      "omitted_media_ids": [],
+      "selected_media_ids": [
+        "media_71d501b79edd4388a3a19d03ab578faa",
+        "media_7985d78938b84658842ab103e3ac1105"
+      ]
+    },
+    "analysis_selection_explicit": true,
+    "annotations": [],
+    "catalogue": {
+      "condition_note": "",
+      "decoration": "",
+      "dimensions": "",
+      "inscription": "",
+      "inventory_number": "",
+      "material": "",
+      "object_name": "",
+      "object_type": "",
+      "provenance": "",
+      "requested_output": ""
+    },
+    "condition_checks": [],
+    "corrections": [],
+    "created_at": 1790604164.9987507,
+    "current_run_id": null,
+    "episode_id": "episode_134cf84c87914e308459862a709075ba",
+    "evidence_documents": [],
+    "id": "case_f632f240ecec4d2f878cc55c5398d1b9",
+    "knowledge_document_ids": [
+      "ksrc_51b142960ebb1cac53087148"
+    ],
+    "knowledge_link_history": [
+      {
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "linked_case_revision": 5
+      }
+    ],
+    "knowledge_links": [
+      {
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "linked_case_revision": 5
+      }
+    ],
+    "media": [
+      {
+        "added_revision": 2,
+        "capture_role": "overall",
+        "edit_declaration": "馆方公开JPEG下载字节未改；拍摄与处理历史未知",
+        "filename": "met-48607.jpg",
+        "height": 1200,
+        "id": "media_71d501b79edd4388a3a19d03ab578faa",
+        "mime": "image/jpeg",
+        "pixel_metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.7274,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 851.1126,
+          "height": 1200,
+          "luminance_mean_0_255": 158.8764,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "size": 107321,
+        "source": "https://www.metmuseum.org/art/collection/search/48607；CC0，已知身份公开教学",
+        "view": "整体正面（公开图，视角声明）",
+        "view_verified": false,
+        "width": 800
+      },
+      {
+        "added_revision": 3,
+        "capture_role": "overall",
+        "edit_declaration": "馆方公开JPEG下载字节未改；拍摄与处理历史未知",
+        "filename": "met-48607-view2.jpg",
+        "height": 1200,
+        "id": "media_7985d78938b84658842ab103e3ac1105",
+        "mime": "image/jpeg",
+        "pixel_metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.5849,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 951.4579,
+          "height": 1200,
+          "luminance_mean_0_255": 159.3214,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "size": 109880,
+        "source": "https://www.metmuseum.org/art/collection/search/48607；CC0，已知身份公开教学",
+        "view": "另一面整体（公开图，视角声明）",
+        "view_verified": false,
+        "width": 800
+      }
+    ],
+    "mode": "skills",
+    "preparation_review": {
+      "case_revision": 5,
+      "identity_verified": false,
+      "notice": "本地操作人登记；文件与引用可回查，但未核验记载真实性、器物同一性或真伪，不是认证。",
+      "recorded_state": "pending",
+      "review_kind": "research_preparation",
+      "review_required": true,
+      "review_revision": 0,
+      "stale": false,
+      "state": "pending"
+    },
+    "preparation_review_revision": 0,
+    "preparation_reviews": [],
+    "provenance_events": [],
+    "question": "据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。",
+    "reference_basis_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reference_refreshes": [],
+    "research_task": "visual_research",
+    "review": {
+      "assessment_run_id": null,
+      "case_revision": 5,
+      "identity_verified": false,
+      "status": "pending"
+    },
+    "review_required": true,
+    "review_revision": 4,
+    "reviews": [],
+    "revision": 5,
+    "schema_version": 4,
+    "source_declaration": "新建公开教学HTTP联调；Met公开CC0双图，非盲测；无实物或原始拍摄记录。",
+    "target_attribution": "馆藏身份已知；不是本项目独立鉴定结果",
+    "title": "完整HTTP联调 · 公开教学 Met 山水纹花觚 18.61.4",
+    "workflow": "museum"
+  },
+  "started_at": 1790604171.2072988,
+  "state": "failed",
+  "text_review_snapshot": null,
+  "tool_calls": 10,
+  "versions": {
+    "app": "0.7.0",
+    "harness": {
+      "action_transport": {
+        "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+        "citation_exposure": "successful-main-canonical-body-exposure",
+        "decoder_schema_sha256": {
+          "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+          "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+          "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+          "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+        },
+        "effective_by_task": {
+          "documentary_audit": false,
+          "visual_research": true
+        },
+        "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+        "inventory_limits": {
+          "knowledge_read_indexes": 20,
+          "observation_ids": 48,
+          "reference_ids": 10
+        },
+        "metadata_fields": [
+          "document_id",
+          "document_revision",
+          "document_sha256",
+          "chunk_id",
+          "chunk_sha256",
+          "locator"
+        ],
+        "protocol": "compact-visual-metadata-v1",
+        "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+        "scope": "visual_research-only",
+        "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+      },
+      "budgets": "original-run-and-episode-limits",
+      "compact_actions": true,
+      "documentary_preparation": [
+        "read_case"
+      ],
+      "first_image_batch_max": 4,
+      "guided_workflow": true,
+      "knowledge_prefetch_max_chunks": 2,
+      "knowledge_scope": "case-pinned-fixed-versions-only",
+      "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+      "natural_skill_discovery": false,
+      "observed_method_rule": {
+        "english_match": "case-insensitive-word",
+        "max_additional_methods": 1,
+        "method_whitelist": [
+          "bluewhite-attribution-test"
+        ],
+        "mode": "skills",
+        "research_task": "visual_research",
+        "source": "first-batch-current-run-vision-visible-only",
+        "triggers": [
+          "青花",
+          "blue-and-white"
+        ]
+      },
+      "parent_skill": "evidence-revise",
+      "preparation_actor": "coordinator",
+      "strategy": "coordinator-observed-method-v2",
+      "visual_skills": [
+        "ceramic-route",
+        "ceramic-research-record"
+      ]
+    },
+    "knowledge_snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+    "mode": "skills",
+    "model": {
+      "generation": {
+        "compact_actions": true,
+        "disable_thinking": false,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "structured_output_contract": {
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+          },
+          "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+          "host_only_constraints": {
+            "numeric": [
+              "minimum",
+              "maximum",
+              "exclusiveMinimum",
+              "exclusiveMaximum",
+              "multipleOf"
+            ],
+            "semantic": [
+              "cross-field",
+              "skill-workflow",
+              "fixed-evidence",
+              "permission"
+            ]
+          },
+          "purpose": "action",
+          "schema_name": "cizheng_actions",
+          "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+          "trigger": "first-system-exact-system_prompt(mode,research_task)"
+        },
+        "structured_outputs": true,
+        "temperature": 0.1
+      },
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "provider": "local-openai-compatible",
+      "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+    },
+    "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+    "prompt_hash": "d227c3369a6e0b2ea8ea7e431b402045ec751dd0a35919396e590d8617d1ab4d",
+    "research_task": "visual_research",
+    "skills": {
+      "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+      "ceramic-research-record": "386c6f71fb9112ff9834a077c96d61bc0d5fb6dc31e2da2c8aa65facb008c2ed",
+      "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+      "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+      "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+      "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+      "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+    },
+    "source_hash": "df66e796972a6c123f5afc429a5d044cda00ce87e084f57a593b59925d69cade",
+    "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+    "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+  }
+}

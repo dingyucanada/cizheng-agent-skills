@@ -1,0 +1,116 @@
+{
+  "approval_basis": "用户已授权本轮公开教学完整文字联调；输入为Met48607公开CC0双图及明确绑定的公开馆藏资料。仅批准本次本地预览原四字段文字包，SHA256 6988007ee878be4b4fc1d89a497dccd91a9955b0424aa1249d16be298d3df306；原图、图像访问地址和私有材料不发送。馆方记载不等于本项目独立鉴定，审查非专家认证。",
+  "assessment_run_id": "run_8a2c70f23aea43c5945e4d4e303df009",
+  "case_id": "case_b6ebe99ca23a42b6bf50647f21177092",
+  "case_revision": 5,
+  "created_at": 1790600589.620258,
+  "episode_id": "episode_60aba9ad3e5c4abe928f55e336929c66",
+  "error": null,
+  "execute_request_id": "complete-public-stepfun-once-424237124c624193b94f1c0ed277216e",
+  "id": "textreview_a06bba60da7f411b96595e37c3632e29",
+  "model": {
+    "endpoint": "https://api.stepfun.com/step_plan/v1",
+    "model": "step-3.7-flash",
+    "provider": "stepfun-text-only"
+  },
+  "packet_hash": "6988007ee878be4b4fc1d89a497dccd91a9955b0424aa1249d16be298d3df306",
+  "payload": {
+    "claims": [
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "无参照图支持制作时期",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "无参照图支持窑口",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "无参照图支持装饰风格",
+        "status": "insufficient",
+        "support": []
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs_75fbff69624c46ffbcd83ec0cb70b4d5",
+        "interpretation": "山水纹饰，瓶口有装饰",
+        "limitation": "",
+        "media_id": "media_4183d29467194a2ba6f41480cd7da452",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘山水纹饰"
+      },
+      {
+        "id": "obs_efee51773b584aef9cf9e86e61b24bb0",
+        "interpretation": "花篮纹饰，瓶口有装饰",
+        "limitation": "",
+        "media_id": "media_ac7a40b294914d3c9cd76f9573f9483e",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘花篮纹饰"
+      }
+    ],
+    "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+    "references": []
+  },
+  "permission": "public",
+  "prompt_hash": "ea36e97cdbd19e601df2b11a2831df727658f25b484403fb7c78f794263407da",
+  "result": {
+    "issues": [
+      {
+        "claim_dimension": "period",
+        "concern": "依据不足，无对应引用支持制作时期判定",
+        "reference_ids": []
+      },
+      {
+        "claim_dimension": "kiln",
+        "concern": "依据不足，无对应引用支持窑口归属判定",
+        "reference_ids": []
+      },
+      {
+        "claim_dimension": "style",
+        "concern": "依据不足，无对应引用支持装饰风格判定",
+        "reference_ids": []
+      }
+    ],
+    "suggested_evidence": "补充提供该青花瓷瓶的底款细节图、胎釉显微特写图、同类标准器对比图，以支撑制作时期、窑口归属及装饰风格的判定依据",
+    "limitations": [
+      "未查看原图"
+    ]
+  },
+  "started_at": 1790600589.7464194,
+  "state": "succeeded",
+  "usage": {
+    "cached_tokens": 64,
+    "prompt_tokens": 514,
+    "completion_tokens": 502,
+    "total_tokens": 1016,
+    "prompt_tokens_details": {
+      "cached_tokens": 64
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "elapsed": 9.464774569962174,
+  "ended_at": 1790600599.2258346
+}

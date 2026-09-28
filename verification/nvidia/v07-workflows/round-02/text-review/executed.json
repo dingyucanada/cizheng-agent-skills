@@ -1,0 +1,115 @@
+{
+  "approval_basis": "用户已授权本轮公开教学完整文字联调；输入为Met48607公开CC0双图及明确绑定的公开馆藏资料。仅批准本次本地预览原四字段文字包，SHA256 267a07f23895f1b5984edc1ba1fa2b7ba5b0df60611f4c3a770856a1ccd27d61；原图、图像访问地址和私有材料不发送。馆方记载不等于本项目独立鉴定，审查非专家认证。",
+  "assessment_run_id": "run_7e8d1b92903744509408c4dce372272d",
+  "case_id": "case_23e8e15b14a74cfc95ad2863afde6ae3",
+  "case_revision": 5,
+  "created_at": 1790598785.7368398,
+  "episode_id": "episode_d7739a11235a4636be8851bd7fb34fd9",
+  "error": null,
+  "execute_request_id": "complete-public-stepfun-once-85eaa113a9044d839012c5b8319a2d98",
+  "id": "textreview_5a7251dadf4a407daa37d9a6215e3ca2",
+  "model": {
+    "endpoint": "https://api.stepfun.com/step_plan/v1",
+    "model": "step-3.7-flash",
+    "provider": "stepfun-text-only"
+  },
+  "packet_hash": "267a07f23895f1b5984edc1ba1fa2b7ba5b0df60611f4c3a770856a1ccd27d61",
+  "payload": {
+    "claims": [
+      {
+        "candidate": "康熙早期",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "馆藏参照显示康熙早期风格，但无实物对比。",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "景德镇窑",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "器形与纹饰符合景德镇窑特征，但无底部款识确认。",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "山水花篮纹饰风格",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "纹饰布局与装饰风格符合清代早期青花花觚特征，但无参照对比。",
+        "status": "insufficient",
+        "support": []
+      }
+    ],
+    "observations": [
+      {
+        "id": "obs_602cdf3a31a8405cbfbcd428405a1376",
+        "interpretation": "山水纹饰，瓶口有装饰",
+        "limitation": "",
+        "media_id": "media_c92ae15813b14350ad889daedbc098e2",
+        "region": [
+          0.22,
+          0.17,
+          0.77,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘山水纹饰"
+      },
+      {
+        "id": "obs_c1b2ef55635e4304a545b1516b3d290c",
+        "interpretation": "花篮纹饰，瓶口有装饰",
+        "limitation": "",
+        "media_id": "media_fd92968914fb450d880e97b87c3a13d4",
+        "region": [
+          0.22,
+          0.17,
+          0.77,
+          0.83
+        ],
+        "visible": "青花瓷瓶，瓶身绘花篮纹饰"
+      }
+    ],
+    "question": "检查这些主张的引用支持及遗漏冲突，提出一项补证。",
+    "references": []
+  },
+  "permission": "public",
+  "prompt_hash": "ea36e97cdbd19e601df2b11a2831df727658f25b484403fb7c78f794263407da",
+  "result": {
+    "issues": [
+      {
+        "claim_dimension": "period",
+        "concern": "无馆藏参照或同类康熙早期青花瓷器的对比数据，断代依据不足",
+        "reference_ids": []
+      },
+      {
+        "claim_dimension": "kiln",
+        "concern": "无底部款识、胎釉特征检测等窑口确认依据，窑口判定依据不足",
+        "reference_ids": []
+      },
+      {
+        "claim_dimension": "style",
+        "concern": "无同类清代早期青花花觚的纹饰参照样本，风格匹配性无对比支撑",
+        "reference_ids": []
+      }
+    ],
+    "suggested_evidence": "补充景德镇窑康熙早期青花花觚的标准馆藏对比资料，以及该器物的底款、胎釉成分检测报告作为佐证",
+    "limitations": [
+      "未查看原图"
+    ]
+  },
+  "started_at": 1790598785.8590326,
+  "state": "succeeded",
+  "usage": {
+    "prompt_tokens": 548,
+    "completion_tokens": 985,
+    "total_tokens": 1533,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "elapsed": 6.09461591206491,
+  "ended_at": 1790598791.963565
+}

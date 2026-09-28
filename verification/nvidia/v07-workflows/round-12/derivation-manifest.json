@@ -1,0 +1,189 @@
+{
+  "scope": "Actual public Met fixture round12 selected records, not ceramic accuracy; model words/opinions and missing references remain unchanged",
+  "files": [
+    {
+      "path": "round-12/workflow-summary.json",
+      "private_original_sha256": "517fab092e97a95ee3176cdfbed6947700b1dac3bb64b7ca746007bb93dadd97",
+      "private_original_bytes": 1686,
+      "public_derivative_sha256": "0bc8a5b0967821277b34de1d21dc1b48b222f5ff1ad813a0b0a63561401514e4",
+      "public_derivative_bytes": 1581,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/public-status.json",
+      "private_original_sha256": "4f2715540838b4b4ba95d1300d465c97b7947c05b70de05a38e8531bec79291a",
+      "private_original_bytes": 8458,
+      "public_derivative_sha256": "a67080b849af0aae0d7a0ab97ee7d2ea55163a1e23315008182c99d6486186da",
+      "public_derivative_bytes": 8359,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/public-image-identities.json",
+      "private_original_sha256": "aac23e671f5efa35bae82220a0daec34d779288aace70f725f1eb77dec285cb5",
+      "private_original_bytes": 615,
+      "public_derivative_sha256": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+      "public_derivative_bytes": 408,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/public-source-manifest.json",
+      "private_original_sha256": "243f74c6ca1d7141b22ad385ccf2a309d23f5f466cb99bad93d22e04d554bc58",
+      "private_original_bytes": 1167,
+      "public_derivative_sha256": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+      "public_derivative_bytes": 956,
+      "removed_fields": 2,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/knowledge/source-1.json",
+      "private_original_sha256": "7db868ae31c7a90f45e3cd31c1ed7bdf462ea8be4af8141540b491d43d2c6bd5",
+      "private_original_bytes": 2475,
+      "public_derivative_sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "public_derivative_bytes": 2476,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/knowledge/binding-1.json",
+      "private_original_sha256": "322539be802ee7d99e04b53e82bbfdfc9320b960be9f94117dbe5ec9467fefb0",
+      "private_original_bytes": 6507,
+      "public_derivative_sha256": "1b9aca281fbcce920b44b2a3e52fc01b8adbd0690e6564a91c46bcc097d2deaf",
+      "public_derivative_bytes": 6508,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/initial/final-run.json",
+      "private_original_sha256": "c345bb7e65749690e89a10422f0a52f35924a834fc5c1cc6b884743e901dcbaf",
+      "private_original_bytes": 169545,
+      "public_derivative_sha256": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c",
+      "public_derivative_bytes": 169171,
+      "removed_fields": 1,
+      "replaced_values": 11
+    },
+    {
+      "path": "round-12/initial/nat-audit.json",
+      "private_original_sha256": "91921f77f8ceaa27ed174dac9cb25117d47d04cf6afb0a227e663171903dbe87",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "880847eb32864edb1780e001576dbb641fba87bcad18f30129862ae2f8547dc7",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/initial/exports-downloaded.json",
+      "private_original_sha256": "43151f6257d74bf915a08d0a000e4e7a0371244470ba368ced0db77de04a7867",
+      "private_original_bytes": 1289,
+      "public_derivative_sha256": "9971c706c457e55d3a014c8bc8d8263b4b6e1bdb9b1b031fb24ae03621aaae09",
+      "public_derivative_bytes": 1197,
+      "removed_fields": 0,
+      "replaced_values": 3
+    },
+    {
+      "path": "round-12/text-review/exact-approved-payload.json",
+      "private_original_sha256": "b7a76532770bd0cdab8df75175ebb13ec2a2b06ea9eeb6947ad7df66a437e33e",
+      "private_original_bytes": 2120,
+      "public_derivative_sha256": "7da8d4b29347d75b6f6f6a4a5c5e1a570df16b97b7a4d9ee3b29ac61786a535a",
+      "public_derivative_bytes": 2121,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/text-review/exact-preview.json",
+      "private_original_sha256": "74c54c052c322421a932356e42b5ba9932367a63419d11a5d89fdeb4f029a18c",
+      "private_original_bytes": 2499,
+      "public_derivative_sha256": "cb151c046aaa72e9fbe31d634030c29e2425c7cc4157a372d2de62065577d90f",
+      "public_derivative_bytes": 2500,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/text-review/prepared.json",
+      "private_original_sha256": "b1246417517a610e6eaa13f3c55d3836b1e165c99d6bf59621576c4e42a5d221",
+      "private_original_bytes": 4167,
+      "public_derivative_sha256": "0314cd006b4c20b4722632b12a9f5f102c493e799c8dda1076a072e09e09d1f3",
+      "public_derivative_bytes": 4168,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/text-review/executed.json",
+      "private_original_sha256": "cb59a7d0d7c5f15c51ee97e9acfced665e2f78f062b1efc959f5332c47e9b2ba",
+      "private_original_bytes": 6295,
+      "public_derivative_sha256": "0df39212a13543e853aff7785902e54897791cb48e89d37737bb024c2c66b5ea",
+      "public_derivative_bytes": 6240,
+      "removed_fields": 1,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/text-review/revised-case.json",
+      "private_original_sha256": "b53a65ce856fee3703b59c011d06d9c81e6cb45872e8b3cbbe9a389dce8af311",
+      "private_original_bytes": 7255,
+      "public_derivative_sha256": "1c29cc5e8b526f8b5f741b2c687c1d55347436f69a6725ec638a8134cc593e70",
+      "public_derivative_bytes": 7256,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/revision/final-run.json",
+      "private_original_sha256": "5e4760d2fe7b52c7a3d42046c1a53099b2e6537bec307c79e4cf3af328fa13a7",
+      "private_original_bytes": 192327,
+      "public_derivative_sha256": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e",
+      "public_derivative_bytes": 191831,
+      "removed_fields": 3,
+      "replaced_values": 11
+    },
+    {
+      "path": "round-12/revision/nat-audit.json",
+      "private_original_sha256": "97cc152e513acb7f33c040b2e79cf4fd8b6236c25dacbee1ed4fcc4ee7affeb8",
+      "private_original_bytes": 4987,
+      "public_derivative_sha256": "78187de399d0d462a38d799a0ffe8dc4eb0188b313fbe69d7f54494ba7eb0840",
+      "public_derivative_bytes": 4988,
+      "removed_fields": 0,
+      "replaced_values": 0
+    },
+    {
+      "path": "round-12/revision/exports-downloaded.json",
+      "private_original_sha256": "921e7dfeb955dc1b27156a9773b3520292d4ebe5230022c4ffd8cc5dc38143a8",
+      "private_original_bytes": 1293,
+      "public_derivative_sha256": "19291868d3e61d970b28cf4b2bec7285ba8364f21f57ef57a93fc59e65da11df",
+      "public_derivative_bytes": 1201,
+      "removed_fields": 0,
+      "replaced_values": 3
+    },
+    {
+      "path": "round-12/native-requests.json",
+      "private_original_sha256": "5e624d2ae896d746a36a0b425252dbbe60ab31cbb0049d822790b354dd5f9730",
+      "private_original_bytes": 83855,
+      "public_derivative_sha256": "0cbb6c347bcdc8815792a7bd62ba8a7eea3f6a45569c91880e0f28c9c419ac6a",
+      "public_derivative_bytes": 31183,
+      "removed_fields": 0,
+      "replaced_values": 0,
+      "scope": "Root-derived safe native collector; raw remote log retained private; native rows independently match sanitized original collector",
+      "raw_remote_log_sha256": "d3b2dbbc51f8007934de75273937ca7fd5ccfb2341f3bfc1b9d6e922a30c3271",
+      "excluded_historical_rows": 34,
+      "actual_selected_native_rows": 14,
+      "historical_rows_exactly_match_prior_round09_10_11": true,
+      "sanitizer_counts_scope": "Full48-row original collector before excluding34 historical rows"
+    },
+    {
+      "path": "round-12/native-binding.json",
+      "public_derivative_sha256": "af428eff81be9dab3b78a337cf6935e1658f433f205d3aba03e7fff6064200c7",
+      "public_derivative_bytes": 10240,
+      "scope": "Root-derived14-call binding independently rechecked against original collector and saved initial+revision model events; no new inference",
+      "input_native_public_sha256": "0cbb6c347bcdc8815792a7bd62ba8a7eea3f6a45569c91880e0f28c9c419ac6a",
+      "input_application_run_public_sha256": {
+        "initial": "588a5322c538e393cab67a81b7a93aa95bb360eabd72a1a4dcaa50ca161bb54c",
+        "revision": "0745ab2c9f282d9d0e7d31c4a21191af7c8807ac840b140a14e4808e85a2a55e"
+      }
+    }
+  ],
+  "errors": [],
+  "credential_values_or_private_value_hashes_emitted": false,
+  "raw_native_or_nsys_or_original_images_published": false,
+  "global_redaction_manifest_modified": false,
+  "model_answers_or_citations_completed_by_program": false
+}

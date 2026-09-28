@@ -1,0 +1,67 @@
+{
+  "assessment_run_id": "run_7e8d1b92903744509408c4dce372272d",
+  "case_id": "case_23e8e15b14a74cfc95ad2863afde6ae3",
+  "case_revision": 5,
+  "id": "nvaudit_1e8e2f61907c4a9781d7e808b1444a9c",
+  "notice": "只核对已读知识引用的版本、哈希和定位，不验证结论或真伪。",
+  "result": {
+    "assessment_run_id": "run_7e8d1b92903744509408c4dce372272d",
+    "case_id": "case_23e8e15b14a74cfc95ad2863afde6ae3",
+    "case_revision": 5,
+    "checks": [],
+    "events": [
+      {
+        "event_sha256": "91170443448d88f42ac4a4d6e19bcbbd79eaf3c182b821e5fd1e5b5f108e53a8",
+        "input_sha256": "b6e587304162171828550896e8ed1d42f2e666004e0d963303db929f2913a9d6",
+        "previous_event_sha256": null,
+        "sequence": 1,
+        "tool": "read_case"
+      },
+      {
+        "event_sha256": "27af0e03a466a1e5d224a034c8ca3e14ed3c6b3cb99cecaf5872525aafe5ef1a",
+        "input_sha256": "f9a84b9af030bc35157db44918430490a616ede523e531840d13f9a635b04f0d",
+        "previous_event_sha256": "91170443448d88f42ac4a4d6e19bcbbd79eaf3c182b821e5fd1e5b5f108e53a8",
+        "sequence": 2,
+        "tool": "read_saved_assessment_run"
+      },
+      {
+        "event_sha256": "eb46a4b24f7146dc9034f3c03e24c520ef8f6ae413d26e7f64e69ae648f1ed31",
+        "input_sha256": "1b7e6ee674d3678a986ced3ff88cd5be976f672e82866544bda144ad335bbb5b",
+        "previous_event_sha256": "27af0e03a466a1e5d224a034c8ca3e14ed3c6b3cb99cecaf5872525aafe5ef1a",
+        "sequence": 3,
+        "tool": "verify_read_citations"
+      }
+    ],
+    "expert_reviewed": false,
+    "inference_performed": false,
+    "limitations": [
+      "Current-case searches use explicit version bindings; saved-report audits use only the original run snapshot and read receipts.",
+      "This audit checks knowledge citations, not visual reference_ids or document authenticity.",
+      "Reference integrity does not establish authenticity, ownership, date, or claim support.",
+      "Ranking scores are text matches, not credibility or confidence."
+    ],
+    "manifest_sha256": "f29510676d2e00ebf4b41f8a62a45c008a330ba813e4d020d2da2650cbcbcb59",
+    "mode": "deterministic_reference_integrity",
+    "nvidia_verified_skill": false,
+    "read_evidence": [],
+    "result_sha256": "df823712de081d4c476a14edb27ba92abd4683fcf7379a4b67d6e4d44584b8dd",
+    "review_required": true,
+    "run_id": "nat_d0c7d0ba041a4c0cbc7fb23af9e76b2f",
+    "schema_version": 1,
+    "snapshot_sha256": "6046537b968d2cf7b4bd5626c4ceb4bc15854cf26523f9733a17e2b6bb57bc02",
+    "source_case_revision": 5,
+    "source_mode": "saved_assessment_run_snapshot",
+    "status": "no_read_evidence",
+    "usage": {
+      "elapsed_seconds": 0.0084,
+      "max_model_calls": 0,
+      "max_seconds": 300.0,
+      "max_tool_calls": 20,
+      "model_calls": 0,
+      "tool_calls": 3
+    },
+    "verify_request_sha256": "e99c6e45db5876c32d2d3bc9ca883da4c1e4f0f7f1b8ff9cd0b8488f20476ba7"
+  },
+  "source_case_revision": 5,
+  "state": "succeeded"
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "Read-only cross-record audit of actual round08 source-r10 8B public-fixture attempt; not model A/B, ceramic accuracy, speedup or expert evaluation",
+  "input_public_SHA256": {
+    "workflow-summary.json": "7e40168c578e7c00c00d54e7d81999429ff72b6a1f67ef538c607da902e10225",
+    "failure.json": "035b0650e94d96c3773233b3f2df3ed7572018226a7f2934343245843d909857",
+    "failure-run-record.json": "ca65b2917743fc53db038c202fb26158f91837a098ddc07d5567baff64e04e5b",
+    "failure-case-record.json": "e48d2375d5864c42ec7f472d3f41dced0e98dd7766a9ad5af3b4cfae87b8abfd",
+    "public-image-identities.json": "75eb3464e60e0e1d417a210cc67181097b511a6a0f69c02d27399fd4fd9e7742",
+    "public-source-manifest.json": "4b16d78a264b6a953ca0ba16f991017133e87b12f8529d82f970f72cabc5606b",
+    "public-status.json": "0d3f889a1819d8c096d86130f640fdde57515e5bb618bd9dd32915705be3c525",
+    "initial/final-run.json": "ca65b2917743fc53db038c202fb26158f91837a098ddc07d5567baff64e04e5b",
+    "knowledge/source-1.json": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+    "knowledge/binding-1.json": "5587a5677110ce1da4c3520c9a02e8757ded829d41ee7fb7569e3565dbab9eda",
+    "native-requests.json": "e144b547007ccd6e07ec60dcc9bbb44383357ff47b8c52de1663b8f9a7dec220",
+    "direct-call-binding.json": "8e77dbf5e3acc367fc7aa7a9bfd0f3ef22a6098965b655eaa723003339769f67"
+  },
+  "model_identity": "Qwen/Qwen3-VL-8B-Instruct",
+  "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "case_id": "case_42579d88ee144e7686f676b5b25651a5",
+  "run_id": "run_95d7e0a1707d48459fd0d52d1561ece0",
+  "state": "failed",
+  "final_run_equals_failure_run_record": true,
+  "model_calls": 1,
+  "tool_calls": 7,
+  "business_active_seconds": 15.775721788406372,
+  "actual_model_response": {
+    "purpose": "vision",
+    "image_count": 2,
+    "elapsed_seconds": 14.989654805045575,
+    "completion_tokens": 152,
+    "prompt_tokens": 2496,
+    "total_tokens": 2648,
+    "finish_reason": "stop",
+    "transport_outcome": "succeeded",
+    "input_hash": "89f6ddbefe9ee05424b4abadfc5212485e29cbdfc1018a33804bb61bf0a24f37",
+    "output_hash": "842937b1c657c7d257a07618bac2f85504404b8078e56b1431743e8b2adeccdc",
+    "response_success_is_not_host_contract_success": true
+  },
+  "host_validation": {
+    "error_type": "ValidationError",
+    "tool": "inspect_images",
+    "detail": "[{\"type\":\"missing\",\"loc\":[\"region\"],\"msg\":\"Field required\"}]",
+    "coordinate_contract": "original-image-normalized [x0,y0,x1,y1]",
+    "coordinates_or_answers_not_repaired_by_audit": true
+  },
+  "assessment_exists": false,
+  "NAT_executed": false,
+  "StepFun_execute_attempts": 0,
+  "revision_or_report_export_performed": false,
+  "HTTP_timeout_failure": false,
+  "complete_business_flow_finished": false,
+  "professional_quality_pass": false,
+  "action_phase_reached": false,
+  "phase_hint_quality_evaluated": false,
+  "expert_sample_received_or_validated": false,
+  "native_log_independently_bound": true,
+  "limits": [
+    "Native call response SHA, usage and image count match saved application record; this does not turn host-contract failure into success.",
+    "Model elapsed belongs to one call, not total-loop latency, throughput or a fair model comparison.",
+    "Loading, CUDA warmup and synthetic protocol success do not imply business-contract or ceramic quality success."
+  ]
+}

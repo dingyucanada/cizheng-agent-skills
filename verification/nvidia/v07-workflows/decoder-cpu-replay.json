@@ -1,0 +1,37 @@
+{
+  "scope": "Deterministic public synthetic full action-schema tokenizer replay, zero model calls, imports/vocabulary warm; patterns retained in host postvalidation for proposed bounded parser",
+  "rows": [
+    {
+      "mode": "original",
+      "seconds": 15.004240337992087,
+      "tokens_processed": 14,
+      "total_probe_tokens": 25,
+      "error": "ValueError",
+      "cpu_profile": "[private location or secret removed]"
+    },
+    {
+      "mode": "bounded_postvalidation",
+      "seconds": 0.10219410003628582,
+      "tokens_processed": 25,
+      "total_probe_tokens": 25,
+      "error": null,
+      "cpu_profile": "[private location or secret removed]"
+    },
+    {
+      "mode": "bounded_postvalidation",
+      "seconds": 0.0884913639165461,
+      "tokens_processed": 25,
+      "total_probe_tokens": 25,
+      "error": null,
+      "cpu_profile": "[private location or secret removed]"
+    },
+    {
+      "mode": "original",
+      "seconds": 15.002649745089002,
+      "tokens_processed": 14,
+      "total_probe_tokens": 25,
+      "error": "ValueError",
+      "cpu_profile": "[private location or secret removed]"
+    }
+  ]
+}

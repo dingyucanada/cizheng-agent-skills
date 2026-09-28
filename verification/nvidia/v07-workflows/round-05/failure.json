@@ -1,0 +1,12 @@
+{
+  "stage": "initial_poll",
+  "error_type": "IntegrationFailure",
+  "detail": "Actual research did not deliver a completed assessment",
+  "details": {
+    "run_id": "run_f5773c9dc56f4b7bb94ef6524ebe4403",
+    "state": "failed",
+    "error": "本地模型请求失败或响应格式不支持：HTTPStatusError"
+  },
+  "dependent_stages_stopped": true,
+  "no_automatic_mutation_retry": true
+}

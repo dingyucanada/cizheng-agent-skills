@@ -1,0 +1,525 @@
+{
+  "scope": "published application, integration and test Python bytes compared against actual staged runtime manifest; docs and build metadata separately versioned",
+  "stage": "source-v07-runtime-r15-20260929",
+  "manifest_sha256": "4cf1bbcc94b4f3725d9967c5a955fd3b0fb711d90216597596085d833545bfa5",
+  "checked": 86,
+  "matched": 86,
+  "checks": [
+    {
+      "path": "cizheng/__init__.py",
+      "stage_sha256": "90562bbe6f3a2410dcf23b4eab896bd613d9fef494fc12e745e62d868c152d21",
+      "public_sha256": "90562bbe6f3a2410dcf23b4eab896bd613d9fef494fc12e745e62d868c152d21",
+      "matched": true
+    },
+    {
+      "path": "cizheng/__main__.py",
+      "stage_sha256": "0680486fe72b0596c9422653f5898327ab9209f58ab363e0524290d3b7df3a8c",
+      "public_sha256": "0680486fe72b0596c9422653f5898327ab9209f58ab363e0524290d3b7df3a8c",
+      "matched": true
+    },
+    {
+      "path": "cizheng/agent.py",
+      "stage_sha256": "5948d0f402d7f0b2aa0e2fbc289a7d7316e69579d28f9b855537b38d0d40eeae",
+      "public_sha256": "5948d0f402d7f0b2aa0e2fbc289a7d7316e69579d28f9b855537b38d0d40eeae",
+      "matched": true
+    },
+    {
+      "path": "cizheng/api.py",
+      "stage_sha256": "c9e67060f3c0708fc0d2e14c5a2ef51c204c479ac427b374c2b473f587c9c127",
+      "public_sha256": "c9e67060f3c0708fc0d2e14c5a2ef51c204c479ac427b374c2b473f587c9c127",
+      "matched": true
+    },
+    {
+      "path": "cizheng/business_records.py",
+      "stage_sha256": "d5708f5738af217d57ec67c6d7466754ad4cf6cd19f9b9e8a6f604d03a43e50d",
+      "public_sha256": "d5708f5738af217d57ec67c6d7466754ad4cf6cd19f9b9e8a6f604d03a43e50d",
+      "matched": true
+    },
+    {
+      "path": "cizheng/critic_eval.py",
+      "stage_sha256": "56891595293a97b0a1fb2586b203f15d8e979ad2224cbe5d3490ffdd47ea1fea",
+      "public_sha256": "56891595293a97b0a1fb2586b203f15d8e979ad2224cbe5d3490ffdd47ea1fea",
+      "matched": true
+    },
+    {
+      "path": "cizheng/demo.py",
+      "stage_sha256": "4f3c660a83300a881980ed1764d24043d063a0e76350d731356b82521a1388ce",
+      "public_sha256": "4f3c660a83300a881980ed1764d24043d063a0e76350d731356b82521a1388ce",
+      "matched": true
+    },
+    {
+      "path": "cizheng/handoff.py",
+      "stage_sha256": "860b71c6c3712be2f7aeec7e87525bb826cb86582887b8833ed42c8202de2faa",
+      "public_sha256": "860b71c6c3712be2f7aeec7e87525bb826cb86582887b8833ed42c8202de2faa",
+      "matched": true
+    },
+    {
+      "path": "cizheng/import_case.py",
+      "stage_sha256": "6d3475c3fdcafb4d7c4d5f7f2b929a4a8e2e3b244fc5d9cc77e4c2a092b0d722",
+      "public_sha256": "6d3475c3fdcafb4d7c4d5f7f2b929a4a8e2e3b244fc5d9cc77e4c2a092b0d722",
+      "matched": true
+    },
+    {
+      "path": "cizheng/knowledge.py",
+      "stage_sha256": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+      "public_sha256": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+      "matched": true
+    },
+    {
+      "path": "cizheng/knowledge_api.py",
+      "stage_sha256": "c1bad3fcac4e8ca54ce1270a7a463090bea8bc70795f5477341f18c4358f4882",
+      "public_sha256": "c1bad3fcac4e8ca54ce1270a7a463090bea8bc70795f5477341f18c4358f4882",
+      "matched": true
+    },
+    {
+      "path": "cizheng/knowledge_seed.py",
+      "stage_sha256": "b6fe80f7af9ce5c758adba199691f6a146641d5b937c61b02411f05eac7229ea",
+      "public_sha256": "b6fe80f7af9ce5c758adba199691f6a146641d5b937c61b02411f05eac7229ea",
+      "matched": true
+    },
+    {
+      "path": "cizheng/laya_shadow.py",
+      "stage_sha256": "75cc44cb2b67ca73820ae582a1a9b6d3c5ed0137c44d24c6dc737da5f2d1a8dc",
+      "public_sha256": "75cc44cb2b67ca73820ae582a1a9b6d3c5ed0137c44d24c6dc737da5f2d1a8dc",
+      "matched": true
+    },
+    {
+      "path": "cizheng/model_probe.py",
+      "stage_sha256": "8ed85a01c6691272259ee5d4c9767e4750ff2e97048af51a5be11e9ff1b9b5db",
+      "public_sha256": "8ed85a01c6691272259ee5d4c9767e4750ff2e97048af51a5be11e9ff1b9b5db",
+      "matched": true
+    },
+    {
+      "path": "cizheng/nvidia_runtime.py",
+      "stage_sha256": "2eda66d237852797d9eb885e232edb862aca3b8138384f7969ca8e6d01ba84cb",
+      "public_sha256": "2eda66d237852797d9eb885e232edb862aca3b8138384f7969ca8e6d01ba84cb",
+      "matched": true
+    },
+    {
+      "path": "cizheng/paired_eval.py",
+      "stage_sha256": "b8338b360a971197f0aeb465a4c35233a5da8ea9bc4cb60562ada85ca3974070",
+      "public_sha256": "b8338b360a971197f0aeb465a4c35233a5da8ea9bc4cb60562ada85ca3974070",
+      "matched": true
+    },
+    {
+      "path": "cizheng/photo_report.py",
+      "stage_sha256": "afc7a0cd52b92d3572373c22da094fa10ef854b0c843d3b21e7a4f3e8fea90ec",
+      "public_sha256": "afc7a0cd52b92d3572373c22da094fa10ef854b0c843d3b21e7a4f3e8fea90ec",
+      "matched": true
+    },
+    {
+      "path": "cizheng/preflight.py",
+      "stage_sha256": "b333cb2c1d2a2aa9e76dfe06141e7c976b101fe735f4f27d26da971e6bd399de",
+      "public_sha256": "b333cb2c1d2a2aa9e76dfe06141e7c976b101fe735f4f27d26da971e6bd399de",
+      "matched": true
+    },
+    {
+      "path": "cizheng/pro_workflow.py",
+      "stage_sha256": "5db0cd542d275c72f90021fe4a4d9a939336bf4c9176e8c6328838f7b07f0beb",
+      "public_sha256": "5db0cd542d275c72f90021fe4a4d9a939336bf4c9176e8c6328838f7b07f0beb",
+      "matched": true
+    },
+    {
+      "path": "cizheng/reporting.py",
+      "stage_sha256": "878226afe339d575db3b00bd1f3cc169c388746305ccb0581c8c444c57ad5302",
+      "public_sha256": "878226afe339d575db3b00bd1f3cc169c388746305ccb0581c8c444c57ad5302",
+      "matched": true
+    },
+    {
+      "path": "cizheng/review_client.py",
+      "stage_sha256": "54de5f11a0263332a5d58ffc996bf10ff4bcd76cb1ab166db1585f6201fd679e",
+      "public_sha256": "54de5f11a0263332a5d58ffc996bf10ff4bcd76cb1ab166db1585f6201fd679e",
+      "matched": true
+    },
+    {
+      "path": "cizheng/schemas.py",
+      "stage_sha256": "8cfeb7d506ba384f49e4fa00b36da4d692f09aaa8fa551c20a74ed6c1e9f47f0",
+      "public_sha256": "8cfeb7d506ba384f49e4fa00b36da4d692f09aaa8fa551c20a74ed6c1e9f47f0",
+      "matched": true
+    },
+    {
+      "path": "cizheng/skill_runtime.py",
+      "stage_sha256": "1b70a77bc492d5d36d34f5ae4b14eb3d28490464d42d5b6952dfef506d3ee1f0",
+      "public_sha256": "1b70a77bc492d5d36d34f5ae4b14eb3d28490464d42d5b6952dfef506d3ee1f0",
+      "matched": true
+    },
+    {
+      "path": "cizheng/store.py",
+      "stage_sha256": "f299f67b39366c9fcfe99b9de423f34f2f7ea3a211a53fd36fb0c2598eb8393c",
+      "public_sha256": "f299f67b39366c9fcfe99b9de423f34f2f7ea3a211a53fd36fb0c2598eb8393c",
+      "matched": true
+    },
+    {
+      "path": "cizheng/trigger_eval.py",
+      "stage_sha256": "c6b945517f53946eadbd54847468393bf25a2b5b029c659c7eee17e922548c84",
+      "public_sha256": "c6b945517f53946eadbd54847468393bf25a2b5b029c659c7eee17e922548c84",
+      "matched": true
+    },
+    {
+      "path": "cizheng/visual_tools.py",
+      "stage_sha256": "89a9e2b71db4191aeb524f96807ee4285c7a4d39a635cdebf99d7a356a98afb0",
+      "public_sha256": "89a9e2b71db4191aeb524f96807ee4285c7a4d39a635cdebf99d7a356a98afb0",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_nat/src/cizheng_nat/__init__.py",
+      "stage_sha256": "dca7d77302264516ac3d2cb1417925beaffd1c8ac727e37c6208177cdc997174",
+      "public_sha256": "dca7d77302264516ac3d2cb1417925beaffd1c8ac727e37c6208177cdc997174",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_nat/src/cizheng_nat/evaluators.py",
+      "stage_sha256": "b775f85b99e32c1c4d29419a16e927513cbef957de4d0755110e1fec5b40aeb2",
+      "public_sha256": "b775f85b99e32c1c4d29419a16e927513cbef957de4d0755110e1fec5b40aeb2",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_nat/src/cizheng_nat/evidence.py",
+      "stage_sha256": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+      "public_sha256": "61fddc7f4141817e638a6f1a94a5e5bdb4b6eb38616ecd9bf0da78e5769751f6",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_nat/src/cizheng_nat/register.py",
+      "stage_sha256": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba",
+      "public_sha256": "903488785864a0fc92fca4e8bf51f4487e10ecd9cb68293740b9d2a8d85957ba",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_retriever/__init__.py",
+      "stage_sha256": "9ec03e036a6d165e589f13e41e7d4412a6439f3e573cd7a877260c398fafe6e7",
+      "public_sha256": "9ec03e036a6d165e589f13e41e7d4412a6439f3e573cd7a877260c398fafe6e7",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_retriever/client.py",
+      "stage_sha256": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+      "public_sha256": "8753c2bf8b83800e2300f7faa95e3b75276c1d80757c3d6d723bee2e3ecfa142",
+      "matched": true
+    },
+    {
+      "path": "integrations/nvidia_retriever/tests/test_client.py",
+      "stage_sha256": "bcaf2a6a93e17987940403cfe83df566082c4e37b30d3db054b33479df367ef3",
+      "public_sha256": "bcaf2a6a93e17987940403cfe83df566082c4e37b30d3db054b33479df367ef3",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/__init__.py",
+      "stage_sha256": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+      "public_sha256": "b43fede8e6ca3a8cc94d8006a5bf0f1999c5fc65cd549d5c184b6c8d85aa7449",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/adapter.py",
+      "stage_sha256": "2fb264767b870d4bd2d3555df94958111fb7329506caf97c8bc494723ee56e63",
+      "public_sha256": "2fb264767b870d4bd2d3555df94958111fb7329506caf97c8bc494723ee56e63",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/cuda_metrics.py",
+      "stage_sha256": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+      "public_sha256": "603b6fa7d9af22637d287ffcf815e3e56ac365ba3af709697e9d4672f824bec0",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/download_model.py",
+      "stage_sha256": "dd65131dcc5f14a67ba80dfcbaf3bd014b7968af209d9b4500a609e96ed6be74",
+      "public_sha256": "dd65131dcc5f14a67ba80dfcbaf3bd014b7968af209d9b4500a609e96ed6be74",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/prepare_python_headers.py",
+      "stage_sha256": "5d1c5f1fcb4dc0b0e98c39850c613282ab55988195466f5dd63f4c6268b740d4",
+      "public_sha256": "5d1c5f1fcb4dc0b0e98c39850c613282ab55988195466f5dd63f4c6268b740d4",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/structured_generation.py",
+      "stage_sha256": "d14f636f5c9e97420766f0eeb57a5b457dce80027b3050b1a6a4f37c24663e56",
+      "public_sha256": "d14f636f5c9e97420766f0eeb57a5b457dce80027b3050b1a6a4f37c24663e56",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/tests/test_cuda_metrics.py",
+      "stage_sha256": "6ccacae226896be5b64b102a73a5d7bc0821161bf9dca9863a67094bc37789ac",
+      "public_sha256": "6ccacae226896be5b64b102a73a5d7bc0821161bf9dca9863a67094bc37789ac",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/tests/test_guided_phase_schemas.py",
+      "stage_sha256": "81a50f0e66ecdd60079abf5bf4f4e944fa44cb612502672e7adc49fa965fb6b1",
+      "public_sha256": "81a50f0e66ecdd60079abf5bf4f4e944fa44cb612502672e7adc49fa965fb6b1",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/tests/test_readiness.py",
+      "stage_sha256": "414f541d2802a2140956896d560c6cdc817f219ac39bb660515741289a042a18",
+      "public_sha256": "414f541d2802a2140956896d560c6cdc817f219ac39bb660515741289a042a18",
+      "matched": true
+    },
+    {
+      "path": "integrations/spark_transformers/tests/test_structured_generation.py",
+      "stage_sha256": "d14f9cf06677b97b9a719dbb61652dc14cd139aa104701d167f8261242cc1b06",
+      "public_sha256": "d14f9cf06677b97b9a719dbb61652dc14cd139aa104701d167f8261242cc1b06",
+      "matched": true
+    },
+    {
+      "path": "tests/test_action_output_contract.py",
+      "stage_sha256": "64658b4568b97cf24f28b33983182720910b19f572490335910220f06aa12c40",
+      "public_sha256": "64658b4568b97cf24f28b33983182720910b19f572490335910220f06aa12c40",
+      "matched": true
+    },
+    {
+      "path": "tests/test_business_records.py",
+      "stage_sha256": "33e34bf101915758687912c991b0b6904c222e78abbb29f2055e198de08c4a9c",
+      "public_sha256": "33e34bf101915758687912c991b0b6904c222e78abbb29f2055e198de08c4a9c",
+      "matched": true
+    },
+    {
+      "path": "tests/test_closed_loop.py",
+      "stage_sha256": "1c7514c5a057168bcf7baede42c72588af1a6e49ddcf5d077b7dc4ddde09863e",
+      "public_sha256": "1c7514c5a057168bcf7baede42c72588af1a6e49ddcf5d077b7dc4ddde09863e",
+      "matched": true
+    },
+    {
+      "path": "tests/test_compact_actions.py",
+      "stage_sha256": "b104653aa2970f6d603f7f31eabe0524b1dcfd10bf6c38d050f4af0484d2e37f",
+      "public_sha256": "b104653aa2970f6d603f7f31eabe0524b1dcfd10bf6c38d050f4af0484d2e37f",
+      "matched": true
+    },
+    {
+      "path": "tests/test_condition_evidence.py",
+      "stage_sha256": "24bcb7650788803a375e0944fab929590529a7c914c103fa1584c731f4759c97",
+      "public_sha256": "24bcb7650788803a375e0944fab929590529a7c914c103fa1584c731f4759c97",
+      "matched": true
+    },
+    {
+      "path": "tests/test_critic_revision.py",
+      "stage_sha256": "90f32c8e1721557f8c02877ace60d1226ebfab054acd8e7782f99c6a5aef50d3",
+      "public_sha256": "90f32c8e1721557f8c02877ace60d1226ebfab054acd8e7782f99c6a5aef50d3",
+      "matched": true
+    },
+    {
+      "path": "tests/test_demo.py",
+      "stage_sha256": "caa2b42df09735d3869f09996c8e459a926a840f60d827550715c8a70f3d1556",
+      "public_sha256": "caa2b42df09735d3869f09996c8e459a926a840f60d827550715c8a70f3d1556",
+      "matched": true
+    },
+    {
+      "path": "tests/test_demo_migration.py",
+      "stage_sha256": "247bdce454a6d7c6838e75b37bf474f11909d0193b42aa2d64819a50627557dd",
+      "public_sha256": "247bdce454a6d7c6838e75b37bf474f11909d0193b42aa2d64819a50627557dd",
+      "matched": true
+    },
+    {
+      "path": "tests/test_documentary_audit.py",
+      "stage_sha256": "f6e025d613d5b22b1ab107780e16f247752aa441a4c00de4a43e0fb3a977d2ec",
+      "public_sha256": "f6e025d613d5b22b1ab107780e16f247752aa441a4c00de4a43e0fb3a977d2ec",
+      "matched": true
+    },
+    {
+      "path": "tests/test_documentary_readiness.py",
+      "stage_sha256": "0e5c44217fcfd364e971692aba819791fff03bb1d10ecd98f6dbedefa9af2481",
+      "public_sha256": "0e5c44217fcfd364e971692aba819791fff03bb1d10ecd98f6dbedefa9af2481",
+      "matched": true
+    },
+    {
+      "path": "tests/test_guided_demo.py",
+      "stage_sha256": "d8588d7bd6c13c6474007091c29eef193d9230fb2431d1c35e4eefc2441cb0e3",
+      "public_sha256": "d8588d7bd6c13c6474007091c29eef193d9230fb2431d1c35e4eefc2441cb0e3",
+      "matched": true
+    },
+    {
+      "path": "tests/test_guided_phase_context.py",
+      "stage_sha256": "1a9794c22399b87e46666f557eea4db73af73f82628d80ad72bd84a37e377a03",
+      "public_sha256": "1a9794c22399b87e46666f557eea4db73af73f82628d80ad72bd84a37e377a03",
+      "matched": true
+    },
+    {
+      "path": "tests/test_guided_phase_transport.py",
+      "stage_sha256": "eecedbeae35a09fcd869aab48fc99787e7eceb349d1062ebac468ccdf61f6e89",
+      "public_sha256": "eecedbeae35a09fcd869aab48fc99787e7eceb349d1062ebac468ccdf61f6e89",
+      "matched": true
+    },
+    {
+      "path": "tests/test_guided_workflow.py",
+      "stage_sha256": "028767a97154f42a9fabab354854fa32eb063d1842e914b20c927d32532b1bf0",
+      "public_sha256": "028767a97154f42a9fabab354854fa32eb063d1842e914b20c927d32532b1bf0",
+      "matched": true
+    },
+    {
+      "path": "tests/test_handoff.py",
+      "stage_sha256": "335dae351145f8b77038c1f451407499c17b29905ae033957b415a952c634304",
+      "public_sha256": "335dae351145f8b77038c1f451407499c17b29905ae033957b415a952c634304",
+      "matched": true
+    },
+    {
+      "path": "tests/test_knowledge.py",
+      "stage_sha256": "c60b38aab0a8b9ada17c0386655dad43d8a0c25fc5ce6c7b5b367a65767561b3",
+      "public_sha256": "c60b38aab0a8b9ada17c0386655dad43d8a0c25fc5ce6c7b5b367a65767561b3",
+      "matched": true
+    },
+    {
+      "path": "tests/test_knowledge_body_delivery.py",
+      "stage_sha256": "53f8cd2c7e40019448b1b911dbd6d567ecfd9ec5fea119c0c2d9443347e820cf",
+      "public_sha256": "53f8cd2c7e40019448b1b911dbd6d567ecfd9ec5fea119c0c2d9443347e820cf",
+      "matched": true
+    },
+    {
+      "path": "tests/test_laya_shadow.py",
+      "stage_sha256": "62f97365d35dedf70fd68176e063b7f496ee6eb84bb12d78bc07c29de6166479",
+      "public_sha256": "62f97365d35dedf70fd68176e063b7f496ee6eb84bb12d78bc07c29de6166479",
+      "matched": true
+    },
+    {
+      "path": "tests/test_local_schema_repair.py",
+      "stage_sha256": "e137eb290c2ca913b1fc69038cac8c40cd4bb75f4c93345eb66b1adeb4224ac1",
+      "public_sha256": "e137eb290c2ca913b1fc69038cac8c40cd4bb75f4c93345eb66b1adeb4224ac1",
+      "matched": true
+    },
+    {
+      "path": "tests/test_message_compaction.py",
+      "stage_sha256": "dd056a928112e6e8a8a11c6d01837ebfafa62a7710fdce6e52cbcd061ec02347",
+      "public_sha256": "dd056a928112e6e8a8a11c6d01837ebfafa62a7710fdce6e52cbcd061ec02347",
+      "matched": true
+    },
+    {
+      "path": "tests/test_nvidia_nat.py",
+      "stage_sha256": "d13dc4e58e7e85cefb80fad03c9c24b4b83b8fb45d0c258e5b5b1c2e94ff42af",
+      "public_sha256": "d13dc4e58e7e85cefb80fad03c9c24b4b83b8fb45d0c258e5b5b1c2e94ff42af",
+      "matched": true
+    },
+    {
+      "path": "tests/test_nvidia_profiler.py",
+      "stage_sha256": "2af4017478999546bfd4e67b51d748b5d0f2b50e18f8c3d604f6e5ba547f0c4a",
+      "public_sha256": "2af4017478999546bfd4e67b51d748b5d0f2b50e18f8c3d604f6e5ba547f0c4a",
+      "matched": true
+    },
+    {
+      "path": "tests/test_nvidia_runtime.py",
+      "stage_sha256": "e185be7ae8d8e6c49d589c4c6cb7b2fa56b916e4f3356b68c982dff9e8811fa4",
+      "public_sha256": "e185be7ae8d8e6c49d589c4c6cb7b2fa56b916e4f3356b68c982dff9e8811fa4",
+      "matched": true
+    },
+    {
+      "path": "tests/test_nvidia_skill_scan.py",
+      "stage_sha256": "02ea0f2e7889cd6daa8fe5506d21303a63578373fcbcf2f799757cff5e96f586",
+      "public_sha256": "02ea0f2e7889cd6daa8fe5506d21303a63578373fcbcf2f799757cff5e96f586",
+      "matched": true
+    },
+    {
+      "path": "tests/test_original_integrity.py",
+      "stage_sha256": "bae2194efca78fe4a0cba22e93ab1ab8ffb95c5280d5d0ea1b4a2011579bef5c",
+      "public_sha256": "bae2194efca78fe4a0cba22e93ab1ab8ffb95c5280d5d0ea1b4a2011579bef5c",
+      "matched": true
+    },
+    {
+      "path": "tests/test_paired_eval.py",
+      "stage_sha256": "ac384b95cd3b834ef7c6e0a2031fbeadadd779e6a9cbd74f36140b187dc831fe",
+      "public_sha256": "ac384b95cd3b834ef7c6e0a2031fbeadadd779e6a9cbd74f36140b187dc831fe",
+      "matched": true
+    },
+    {
+      "path": "tests/test_photo_report.py",
+      "stage_sha256": "24aed9b3c1fd4ce13c7bfe5fadbfcdec4c13cca3efe11fed1c4f33f919ceefc8",
+      "public_sha256": "24aed9b3c1fd4ce13c7bfe5fadbfcdec4c13cca3efe11fed1c4f33f919ceefc8",
+      "matched": true
+    },
+    {
+      "path": "tests/test_plan_repair.py",
+      "stage_sha256": "85d6bafee373eff91f88e867952acba3f6b6a707e5ab70d6f282b1be646adf2e",
+      "public_sha256": "85d6bafee373eff91f88e867952acba3f6b6a707e5ab70d6f282b1be646adf2e",
+      "matched": true
+    },
+    {
+      "path": "tests/test_pro_knowledge_api.py",
+      "stage_sha256": "2f7c034006e4265ca2fab0b370cf188a9bc95ef29860dd042c14c4a6cde30997",
+      "public_sha256": "2f7c034006e4265ca2fab0b370cf188a9bc95ef29860dd042c14c4a6cde30997",
+      "matched": true
+    },
+    {
+      "path": "tests/test_pro_workflow.py",
+      "stage_sha256": "a2aa296341fee4b55e997d8acc36e4c48f85a14cdcf242e57fb2c204af861d41",
+      "public_sha256": "a2aa296341fee4b55e997d8acc36e4c48f85a14cdcf242e57fb2c204af861d41",
+      "matched": true
+    },
+    {
+      "path": "tests/test_probe_eval.py",
+      "stage_sha256": "d99cb09528031f5b972e422b4997e6b8966e83e6ccd3b2f102352cadba2758cd",
+      "public_sha256": "d99cb09528031f5b972e422b4997e6b8966e83e6ccd3b2f102352cadba2758cd",
+      "matched": true
+    },
+    {
+      "path": "tests/test_review_integrity.py",
+      "stage_sha256": "6c7ced59774e5f4711baf8701858d500267152f76ed504386dc5c98264971633",
+      "public_sha256": "6c7ced59774e5f4711baf8701858d500267152f76ed504386dc5c98264971633",
+      "matched": true
+    },
+    {
+      "path": "tests/test_review_knowledge_protocol.py",
+      "stage_sha256": "eb2ab50aacc5f1aae10a7cdb88697306c9ed2cfa6546ba7d7a5e98af443cf3bb",
+      "public_sha256": "eb2ab50aacc5f1aae10a7cdb88697306c9ed2cfa6546ba7d7a5e98af443cf3bb",
+      "matched": true
+    },
+    {
+      "path": "tests/test_runtime_v3.py",
+      "stage_sha256": "a07138633578baeb35569bdfb1ff39b042a712f747c65f97c7d762309ab6293e",
+      "public_sha256": "a07138633578baeb35569bdfb1ff39b042a712f747c65f97c7d762309ab6293e",
+      "matched": true
+    },
+    {
+      "path": "tests/test_skill_race.py",
+      "stage_sha256": "0bddb4853264d7150bcbf4aea5657a6dcd5bbc534f823b0ee20d0802438dcbad",
+      "public_sha256": "0bddb4853264d7150bcbf4aea5657a6dcd5bbc534f823b0ee20d0802438dcbad",
+      "matched": true
+    },
+    {
+      "path": "tests/test_source_attribution_gate.py",
+      "stage_sha256": "6bffde445b70760746477b421efb79c4515b444b283382c18d4ce739bf97a892",
+      "public_sha256": "6bffde445b70760746477b421efb79c4515b444b283382c18d4ce739bf97a892",
+      "matched": true
+    },
+    {
+      "path": "tests/test_stepfun_endpoint.py",
+      "stage_sha256": "602217315636d14dae755c27f71299757f217f30a7f3b386f3b625db5cbfc938",
+      "public_sha256": "602217315636d14dae755c27f71299757f217f30a7f3b386f3b625db5cbfc938",
+      "matched": true
+    },
+    {
+      "path": "tests/test_stepfun_json_transport.py",
+      "stage_sha256": "10344ae7cd240a90d135c31eff4c07e4318e04069ad0f67e88c8694cab6b47ca",
+      "public_sha256": "10344ae7cd240a90d135c31eff4c07e4318e04069ad0f67e88c8694cab6b47ca",
+      "matched": true
+    },
+    {
+      "path": "tests/test_structured_vision_transport.py",
+      "stage_sha256": "290b044e1d850143be06aa5eb0535802f0bb79a1103ee495b117ae8921336f52",
+      "public_sha256": "290b044e1d850143be06aa5eb0535802f0bb79a1103ee495b117ae8921336f52",
+      "matched": true
+    },
+    {
+      "path": "tests/test_upgrade.py",
+      "stage_sha256": "c402af3b47af2d2e2d0d6a2f881ee04c73d4ddad9b7f7b26c3a9e0efd5203487",
+      "public_sha256": "c402af3b47af2d2e2d0d6a2f881ee04c73d4ddad9b7f7b26c3a9e0efd5203487",
+      "matched": true
+    },
+    {
+      "path": "tests/test_vision_output_contract.py",
+      "stage_sha256": "5a7f58a734f7aabb65e0238bba1bf822ac7344a73fb9881543b7e4f007c8dd84",
+      "public_sha256": "5a7f58a734f7aabb65e0238bba1bf822ac7344a73fb9881543b7e4f007c8dd84",
+      "matched": true
+    },
+    {
+      "path": "tests/test_visual_prompt_contract.py",
+      "stage_sha256": "998a5fa0c92e1d911375564adc8bea28a4c55265be2a91873d6303f325578c25",
+      "public_sha256": "998a5fa0c92e1d911375564adc8bea28a4c55265be2a91873d6303f325578c25",
+      "matched": true
+    },
+    {
+      "path": "tests/test_workplan_readiness.py",
+      "stage_sha256": "d774d294db6bf4d74ce0bc2f39f2476bc5b679c189f186c28bcc22905224e276",
+      "public_sha256": "d774d294db6bf4d74ce0bc2f39f2476bc5b679c189f186c28bcc22905224e276",
+      "matched": true
+    }
+  ]
+}

@@ -139,7 +139,10 @@ class Runtime:
         return {"model": self.name,
                 "weights_revision": ("files-sha256:" + self.manifest["files_manifest_sha256"]
                                      if self.manifest else "unverified"),
-                "gpu": self.gpu_evidence}
+                "gpu": self.gpu_evidence,
+                "decoder_policy": os.getenv('CIZHENG_SPARK_DECODER_POLICY', 'strict-token-v1'),
+                "generation_deadline_seconds": 80,
+                "nvtx_ranges": ['cizheng.model-generate', 'cizheng.structured-decoder']}
 
 
 runtime = Runtime()
@@ -240,36 +243,90 @@ def infer(request):
         return _infer(request)
 
 
+def generation_termination(model, tokenizer, ids, max_tokens, deadline_reached):
+    """Classify only explicit token/deadline evidence; never decoded prose."""
+    if len(ids) >= max_tokens:
+        return "token_limit", "length"
+    configured = getattr(getattr(model, "generation_config", None), "eos_token_id", None)
+    if configured is None:
+        configured = getattr(tokenizer, "eos_token_id", None)
+    eos_ids = [configured] if type(configured) is int else configured
+    if (not isinstance(eos_ids, (list, tuple)) or not eos_ids or
+            any(type(token) is not int or token < 0 for token in eos_ids)):
+        return "unknown", "stop"
+    if not len(ids):
+        return "unknown", "stop"
+    final = ids[-1]
+    if hasattr(final, "item"):
+        final = final.item()
+    if type(final) is not int:
+        return "unknown", "stop"
+    if final in eos_ids:
+        return "eos", "stop"
+    if deadline_reached:
+        return "deadline", "length"
+    return "unknown", "stop"
+
+
 def _infer(request):
     started = time.perf_counter()
+    deadline = started + 80
     # Schema validation and tokenizer preprocessing happen before CUDA input
     # allocation and the existing measured model.generate interval.
     prefix, structured = build_structured_generation(
         runtime.processor.tokenizer if request.response_format is not None else None,
-        request.response_format)
+        request.response_format,
+        policy=os.getenv('CIZHENG_SPARK_DECODER_POLICY', 'strict-token-v1'))
     messages, images = convert(request.messages)
     inputs = runtime.processor.apply_chat_template(
         messages, tokenize=True, add_generation_prompt=True,
         return_dict=True, return_tensors="pt")
     inputs.pop("token_type_ids", None)
     inputs = inputs.to("cuda")
+    preprocessing_seconds = time.perf_counter() - started
     prompt_tokens = int(inputs["input_ids"].shape[-1])
     if prompt_tokens + request.max_tokens > MAX_CONTEXT:
         raise ValueError("Request exceeds the initial 32K context budget")
-    options = {"max_new_tokens": request.max_tokens, "do_sample": request.temperature > 0}
+    options = {"max_new_tokens": request.max_tokens, "do_sample": request.temperature > 0,
+               "max_time": max(1, deadline - time.perf_counter())}
+    decoding = {'calls': 0, 'seconds': 0.0, 'max_callback_seconds': 0.0}
     if request.temperature > 0:
         options["temperature"] = request.temperature
     if prefix is not None:
-        options["prefix_allowed_tokens_fn"] = prefix
+        def measured_prefix(batch_id, input_ids):
+            if time.perf_counter() >= deadline:
+                raise TimeoutError('Native generation deadline reached')
+            begin = time.perf_counter()
+            runtime.torch.cuda.nvtx.range_push('cizheng.structured-decoder')
+            try:
+                return prefix(batch_id, input_ids)
+            finally:
+                runtime.torch.cuda.nvtx.range_pop()
+                elapsed = time.perf_counter() - begin
+                decoding['calls'] += 1
+                decoding['seconds'] += elapsed
+                decoding['max_callback_seconds'] = max(decoding['max_callback_seconds'], elapsed)
+        options["prefix_allowed_tokens_fn"] = measured_prefix
     runtime.torch.manual_seed(0)
-    with runtime.torch.inference_mode(), CudaGenerationMeasurement(runtime.torch) as measured:
-        output = runtime.model.generate(**inputs, **options)
+    runtime.torch.cuda.nvtx.range_push('cizheng.model-generate')
+    try:
+        with runtime.torch.inference_mode(), CudaGenerationMeasurement(runtime.torch) as measured:
+            output = runtime.model.generate(**inputs, **options)
+            generation_ended = time.perf_counter()
+    finally:
+        runtime.torch.cuda.nvtx.range_pop()
     ids = output[0, prompt_tokens:]
+    termination, finish_reason = generation_termination(
+        runtime.model, runtime.processor.tokenizer, ids, request.max_tokens,
+        generation_ended >= deadline)
     text = runtime.processor.decode(ids, skip_special_tokens=True,
                                     clean_up_tokenization_spaces=False)
     completion_tokens = len(ids)
     runtime.torch.cuda.synchronize()
     seconds = time.perf_counter() - started
+    usage = {"prompt_tokens": prompt_tokens, "completion_tokens": completion_tokens,
+             "total_tokens": prompt_tokens + completion_tokens}
+    response_sha256 = hashlib.sha256(text.encode("utf-8")).hexdigest()
     structure_valid = (request.response_format is None or output_matches_schema(
         text, request.response_format["json_schema"]["schema"]))
     if request.response_format is not None:
@@ -278,16 +335,20 @@ def _infer(request):
             "completion_tokens": completion_tokens, "image_count": len(images), "images": images,
             "temperature": request.temperature, "max_tokens": request.max_tokens,
             "seconds": seconds, "cuda": measured.metrics, "structured": structured,
-            "response_sha256": hashlib.sha256(text.encode()).hexdigest()})
-    if not structure_valid:
-        raise StructuredGenerationError("Generated output failed the requested structure")
+            "preprocessing_seconds": preprocessing_seconds, "decoder_cpu": decoding,
+            "termination": termination,
+            "response_sha256": response_sha256})
+    if not structure_valid and finish_reason != "length":
+        raise StructuredGenerationError(schema_sha256=structured["schema_sha256"],
+                                        response_sha256=response_sha256, usage=usage)
     result = {"id": "chatcmpl-" + uuid.uuid4().hex, "object": "chat.completion",
             "created": int(time.time()), "model": runtime.name,
             "choices": [{"index": 0, "message": {"role": "assistant", "content": text},
-                         "finish_reason": "length" if completion_tokens >= request.max_tokens else "stop"}],
-            "cizheng_runtime": {"wall_seconds": seconds, "cuda": measured.metrics},
-            "usage": {"prompt_tokens": prompt_tokens, "completion_tokens": completion_tokens,
-                      "total_tokens": prompt_tokens + completion_tokens}}
+                         "finish_reason": finish_reason}],
+            "cizheng_runtime": {"wall_seconds": seconds, "cuda": measured.metrics,
+                                "preprocessing_seconds": preprocessing_seconds, "decoder_cpu": decoding,
+                                "termination": termination},
+            "usage": usage}
     if request.response_format is not None:
         result["cizheng_runtime"]["structured"] = structured
     return result
@@ -323,6 +384,8 @@ async def complete(request: Completion):
             raise HTTPException(422, "Malformed or unsupported structured schema") from error
         except StructuredDependencyError as error:
             raise HTTPException(503, "Requested structured decoder is unavailable") from error
+        except StructuredGenerationError as error:
+            raise HTTPException(422, error.safe_detail()) from error
         except ValueError as error:
             raise HTTPException(400, str(error)) from error
         except Exception as error:

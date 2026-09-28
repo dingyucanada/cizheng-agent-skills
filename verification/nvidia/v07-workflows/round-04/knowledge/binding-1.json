@@ -1,0 +1,181 @@
+{
+  "activity": [
+    {
+      "action": "photo",
+      "actor": "本地操作人（身份未认证）",
+      "at": 1790602694.0336883,
+      "case_revision": 2,
+      "detail": "保存原始照片；视角与处理情况由上传者声明",
+      "id": "activity_74eec4ed55bc4e40af0c5b02097620bc"
+    },
+    {
+      "action": "photo",
+      "actor": "本地操作人（身份未认证）",
+      "at": 1790602702.105155,
+      "case_revision": 3,
+      "detail": "保存原始照片；视角与处理情况由上传者声明",
+      "id": "activity_f7637d900d5448e8be5bccd403be8623"
+    },
+    {
+      "action": "analysis_selection",
+      "actor": "本地操作人（身份未认证）",
+      "at": 1790602702.2251816,
+      "case_revision": 4,
+      "detail": "明确本轮选用2张；档案共2张。未选照片不参与该轮推理。",
+      "id": "activity_a7b65954aafd496d92549721ff629e9c"
+    },
+    {
+      "id": "activity_dfe06c80431b48efbf6f9654a2caad00",
+      "action": "document_link",
+      "detail": "明确关联资料第1版及哈希；后续资料库更新不会改写本案依据",
+      "case_revision": 5,
+      "at": 1790602702.850039,
+      "actor": "本地操作人（身份未认证）"
+    }
+  ],
+  "analysis_media_ids": [
+    "media_82f466ccca534b429b652bd9c8e74ef5",
+    "media_2606ead2e2794a8fb9719352f52100eb"
+  ],
+  "analysis_selection_explicit": true,
+  "annotations": [],
+  "catalogue": {
+    "condition_note": "",
+    "decoration": "",
+    "dimensions": "",
+    "inscription": "",
+    "inventory_number": "",
+    "material": "",
+    "object_name": "",
+    "object_type": "",
+    "provenance": "",
+    "requested_output": ""
+  },
+  "condition_checks": [],
+  "corrections": [],
+  "created_at": 1790602692.2796648,
+  "current_run_id": null,
+  "episode_id": "episode_4259649309414f81bcc8de6b5265f183",
+  "evidence_documents": [],
+  "id": "case_b087256e85e5479ca0ceddfe77edc737",
+  "knowledge_document_ids": [
+    "ksrc_51b142960ebb1cac53087148"
+  ],
+  "knowledge_links": [
+    {
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "linked_case_revision": 5
+    }
+  ],
+  "media": [
+    {
+      "added_revision": 2,
+      "capture_role": "overall",
+      "edit_declaration": "馆方公开JPEG下载字节未改；拍摄与处理历史未知",
+      "filename": "met-48607.jpg",
+      "height": 1200,
+      "id": "media_82f466ccca534b429b652bd9c8e74ef5",
+      "mime": "image/jpeg",
+      "pixel_metrics": {
+        "bright_pixel_ratio_gte_250": 0.0,
+        "calibrated": false,
+        "contrast_stddev_0_255": 33.7274,
+        "dark_pixel_ratio_lte_5": 0.0,
+        "edge_response_variance": 851.1126,
+        "height": 1200,
+        "luminance_mean_0_255": 158.8764,
+        "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+        "orientation": "stored_pixels_no_exif_rotation",
+        "original_color_mode": "RGB",
+        "quality_verdict": "not_assessed",
+        "sample_height": 512,
+        "sample_width": 341,
+        "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+        "version": "pixel-descriptive-v1",
+        "width": 800
+      },
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "size": 107321,
+      "source": "https://www.metmuseum.org/art/collection/search/48607；CC0，已知身份公开教学",
+      "view": "整体正面（公开图，视角声明）",
+      "view_verified": false,
+      "width": 800
+    },
+    {
+      "added_revision": 3,
+      "capture_role": "overall",
+      "edit_declaration": "馆方公开JPEG下载字节未改；拍摄与处理历史未知",
+      "filename": "met-48607-view2.jpg",
+      "height": 1200,
+      "id": "media_2606ead2e2794a8fb9719352f52100eb",
+      "mime": "image/jpeg",
+      "pixel_metrics": {
+        "bright_pixel_ratio_gte_250": 0.0,
+        "calibrated": false,
+        "contrast_stddev_0_255": 33.5849,
+        "dark_pixel_ratio_lte_5": 0.0,
+        "edge_response_variance": 951.4579,
+        "height": 1200,
+        "luminance_mean_0_255": 159.3214,
+        "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+        "orientation": "stored_pixels_no_exif_rotation",
+        "original_color_mode": "RGB",
+        "quality_verdict": "not_assessed",
+        "sample_height": 512,
+        "sample_width": 341,
+        "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+        "version": "pixel-descriptive-v1",
+        "width": 800
+      },
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "size": 109880,
+      "source": "https://www.metmuseum.org/art/collection/search/48607；CC0，已知身份公开教学",
+      "view": "另一面整体（公开图，视角声明）",
+      "view_verified": false,
+      "width": 800
+    }
+  ],
+  "mode": null,
+  "preparation_review": {
+    "state": "pending",
+    "recorded_state": "pending",
+    "stale": false,
+    "case_revision": 5,
+    "review_revision": 0,
+    "identity_verified": false,
+    "review_required": true,
+    "review_kind": "research_preparation",
+    "notice": "本地操作人登记；文件与引用可回查，但未核验记载真实性、器物同一性或真伪，不是认证。"
+  },
+  "preparation_review_revision": 0,
+  "preparation_reviews": [],
+  "provenance_events": [],
+  "question": "据两张公开照片记录器形、纹饰与可见部位；检索并读取本案固定版本资料，区分馆方记载与照片推断，说明制作时期仍不能独立核验的原因。",
+  "reference_refreshes": [],
+  "research_task": "visual_research",
+  "review": {
+    "status": "pending",
+    "case_revision": 5,
+    "assessment_run_id": null,
+    "identity_verified": false
+  },
+  "review_required": true,
+  "review_revision": 4,
+  "reviews": [],
+  "revision": 5,
+  "schema_version": 4,
+  "source_declaration": "新建公开教学HTTP联调；Met公开CC0双图，非盲测；无实物或原始拍摄记录。",
+  "target_attribution": "馆藏身份已知；不是本项目独立鉴定结果",
+  "title": "完整HTTP联调 · 公开教学 Met 山水纹花觚 18.61.4",
+  "workflow": "museum",
+  "knowledge_link_history": [
+    {
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "linked_case_revision": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "cizheng-media-qa.v1",
+  "as_of": "2026-09-29",
+  "ppt_sha256": "18b29ef314945f101c3446a5da472b38b5a9801b83ce3d0e2dfe71f83c21c426",
+  "slide_count": 10,
+  "authoring": "@oai/artifact-tool; editable native shapes, text, connectors and model table",
+  "package_integrity": "pass; 0 findings",
+  "geometry_checks": "pass; 0 findings, 0 warnings",
+  "exact_final_ppt_first_party_import": "pass, 10 slides",
+  "actual_office_renderer": "LibreOfficeDev 26.8 AARCH64, headless Impress PDF export",
+  "font_environment": "Local fontconfig included installed macOS Hiragino Sans GB and Songti SC; fonts embedded in final PDF",
+  "actual_office_visual_review": "All 10 PDF-rendered pages viewed; no missing Chinese glyphs, clipping or text overlap",
+  "preview_kind": "Images rendered from actual final PPTX via Impress PDF; not HTML reconstruction",
+  "pdf_sha256": "449c46541550d6075bf932ebe410c602a0faacc9876a6ff04d07548de4ec53ae",
+  "microsoft_powerpoint_native_ui_checked": false,
+  "screen_lock": "No GUI operation or screen-lock bypass used",
+  "domain_limit": "Technical checks and citation identity checks do not establish ceramic claim truth, accuracy or expert approval",
+  "video_checks": "All 3 videos fully decoded successfully; actual round11/12 frame review completed; metadata and copied SHA match",
+  "video1_scope": "163s silent Chrome screenshots teaching case, not continuous screen recording or actual full AI run",
+  "video2_scope": "80s actual round12 saved-record reconstruction, not continuous screen recording; technical complete, quality false",
+  "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive"
+}
