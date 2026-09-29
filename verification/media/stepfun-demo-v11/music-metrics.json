@@ -1,0 +1,54 @@
+{
+  "title": "瓷证·藏影疏弦",
+  "provenance": "Original deterministic procedural score and synthesis; instrument impressions only; no external samples or tune quotations.",
+  "seed": 20260929,
+  "duration_seconds": 203.36,
+  "sample_rate_hz": 48000,
+  "channels": 2,
+  "encoding": "24-bit signed little-endian PCM WAV",
+  "pitch_collection": "D major pentatonic (D, E, F#, A, B)",
+  "pulse_bpm": "Approximately 44, with gradual drift and uneven breath-length timing",
+  "fade_in_seconds": 3.0,
+  "fade_out_seconds": 4.0,
+  "sample_peak_dbfs": -17.063,
+  "rms_dbfs_per_channel": [
+    -31.11,
+    -30.952
+  ],
+  "dc_offset_per_channel": [
+    1.247e-07,
+    1.255e-07
+  ],
+  "clipped_samples": 0,
+  "first_sample": [
+    0.0,
+    0.0
+  ],
+  "last_sample": [
+    0.0,
+    0.0
+  ],
+  "event_count": 142,
+  "loudness": {
+    "integrated_lufs": -29.0,
+    "true_peak_dbtp": -17.06,
+    "loudness_range_lu": 4.9,
+    "gating_threshold_lufs": -39.14,
+    "method": "FFmpeg EBU R128 / loudnorm measurement only"
+  },
+  "spectrum": {
+    "centroid_hz": 246.48,
+    "rolloff_95_percent_hz": 372.07,
+    "energy_above_3000_hz_percent": 0.0,
+    "energy_bands_percent": {
+      "0-100_hz": 10.0368,
+      "100-250_hz": 47.6298,
+      "250-1000_hz": 42.2371,
+      "1000-2000_hz": 0.096,
+      "2000-4000_hz": 0.0004,
+      "4000-24000_hz": 0.0
+    },
+    "method": "1-second-spaced 16384-point Hann FFT of mono sum"
+  },
+  "wav_sha256": "410c9de7d75aadc17f7182b1be70c3cd332db65c8a4d83c5a095dc777b4de5d0"
+}

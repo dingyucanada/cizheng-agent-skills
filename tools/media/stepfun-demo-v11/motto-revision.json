@@ -1,0 +1,77 @@
+{
+  "motto": "从材料出发，让判断有据。",
+  "scenes": [
+    {
+      "scene": "01-opening.png",
+      "sha256": "073b120bd1a13f42f196063d4feccafe2ea140bd85b6ed7db709675d4c79f505"
+    },
+    {
+      "scene": "02-scenarios.png",
+      "sha256": "68b8644fa1af4c326aa2193c46a021818be2756e42f37b5f0a66b27fdc7ed522"
+    },
+    {
+      "scene": "03-workbench.png",
+      "sha256": "c965075b5de99fcc4b48bfc5a2fc5aa5006ca45f0b9be5203902aa8faf2f4838"
+    },
+    {
+      "scene": "04-observe.png",
+      "sha256": "2f82738e0e2e9616cb5b78537c975901141d678b4a2a86fc2bcc4e8528343680"
+    },
+    {
+      "scene": "05-read.png",
+      "sha256": "8598b4ada1200407e3e135744a0607a5aadcc9c45435487cf2e827ab3e7d059d"
+    },
+    {
+      "scene": "06-catalogue.png",
+      "sha256": "36ecc555cae8b1f941be21615991f5d9a29bd3daac3aa0b78a15776f97c3fb7e"
+    },
+    {
+      "scene": "07-skills.png",
+      "sha256": "695f6c9c4d2ba255881203460ecf0ae7c40c8fd832cdbe9371c2dc30d337ad89"
+    },
+    {
+      "scene": "08-skills-action.png",
+      "sha256": "aadd933006c11da189b88dc28c41640df329f7d89d1ca2726be7bf520bea5a01"
+    },
+    {
+      "scene": "09-contradiction.png",
+      "sha256": "38d2bfbd69356c796dd33b9d437be336fdff042e156de9b6f169df2293cb94e2"
+    },
+    {
+      "scene": "10-supplement.png",
+      "sha256": "e37f8c6592022fe0127249ac736448b0613e87f0d9e7bda785ca88dc48c4aef0"
+    },
+    {
+      "scene": "11-revision.png",
+      "sha256": "559f6043f97cca0dde3fc0998db78b0b51a9cf366e334130b42d40e43bc0cdf7"
+    },
+    {
+      "scene": "12-human.png",
+      "sha256": "f43497cf2090ba69128e9197326e7d81396c41357f3c59db8a9ce6f244ec8aae"
+    },
+    {
+      "scene": "13-export.png",
+      "sha256": "469f939e14c12ab373b94bba761b93106ed62494a6d84cdcb4997bd3dab0002b"
+    },
+    {
+      "scene": "14-spark.png",
+      "sha256": "ddcadebaef934547cb575dafa27c8bda53a6f133f790aa7486c1dc29c27d25a8"
+    },
+    {
+      "scene": "15-local-capability.png",
+      "sha256": "979cea4fb550c8c1f498c5b74c0b7e96be30c2d3903df1648398fe258fe1ac8b"
+    },
+    {
+      "scene": "16-actual-record.png",
+      "sha256": "8d4a40afa569812ddd2c8c98038561ecaf57e1bd547ee472c89ed10b77c58edd"
+    },
+    {
+      "scene": "17-next.png",
+      "sha256": "e741b67596f30076f60738804c64d9b684d6923aea40ad934056ef588fef89d7"
+    },
+    {
+      "scene": "18-closing.png",
+      "sha256": "ed01a874d8160cc9f5746406520e45f900d07b79488757ab284a4cb4f33af4e1"
+    }
+  ]
+}

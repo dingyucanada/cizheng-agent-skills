@@ -1,0 +1,1 @@
+{"model":"stepaudio-2.5-tts","voice":"ruyananshi","input":"瓷证，让原图、出处和判断理由，都可以继续核查。完整图文报告、源码和演示，入口在主页。","instruction":"温和、从容、专业的普通话结尾。第一句完整舒缓地说完，再自然停顿，随后介绍主页入口。最后一句自然收束，不抢拍，不加速，不用广告腔。","response_format":"mp3","sample_rate":24000,"speed":0.9,"text_normalization":"enhanced","stream_format":"sse","timestamp":true}

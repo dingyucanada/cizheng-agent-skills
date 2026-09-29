@@ -1,0 +1,1 @@
+{"model":"stepaudio-2.5-tts","voice":"ruyananshi","input":"技能不负责替研究者盖章。它提醒模型：比较特征，寻找反例，把依据和未解决的问题，写回这件器物的案卷。","instruction":"自然、亲切、专业的普通话项目讲解，像研究员向同行介绍工作台。中等语速，按完整句子连贯表达。语气沉稳有叙述感，避免逐词断开、夸张播音腔和长时间停顿。疑问句自然上扬。","response_format":"mp3","sample_rate":24000,"speed":1.0,"text_normalization":"enhanced","stream_format":"sse","timestamp":true}

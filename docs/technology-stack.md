@@ -75,8 +75,8 @@ NIM 与 TensorRT-LLM 复用同一组固定纯文本 Qwen 4B 权重：14 文件�
 | StepFun TTS 模型 | **`stepaudio-2.5-tts`**；实际 Plan 模型列表确认并完成语音调用 |
 | 官方系统音色 | **`ruyananshi`（儒雅男士）**；不是克隆真人声线 |
 | 合成与素材范围 | 18 个场景的公开中文讲稿；请求均 HTTP 200；SSE 返回 MP3 与逐词时间戳；无原图或私有案卷输入 |
-| 语速与视频制作 | 请求 `speed=1.0`，后期不做语音加速；固定场景画面，仅 200ms 淡入淡出；固定视频地址不变 |
+| 语速与视频制作 | 主体请求 `speed=1.0`，展望0.95、结尾0.90，后期不做语音加速；固定画面、200ms场景过渡、1.6s结尾淡出；原创五声音阶轻配乐在人声下自动压低；固定视频地址不变 |
 
-[18段实际配音及成片验收](../verification/media/stepfun-demo-v10/index.json) · [公开输入与离线复现](../tools/media/stepfun-demo-v10/README.md)。最终视频已完整解码，45条字幕对应实际成片帧已查看，18场景画面区域采样稳定；ASR用于内容核对，不作为自然度评分。
+[18段实际配音及成片验收](../verification/media/stepfun-demo-v11/index.json) · [公开输入与离线复现](../tools/media/stepfun-demo-v11/README.md)。最终视频已完整解码，45条字幕对应实际成片帧已查看，18场景画面区域采样稳定；ASR用于内容核对，不作为自然度评分。
 
 项目自研代码 [MIT](../LICENSE)，Qwen 与 NVIDIA 权重 / 容器遵守各自许可，公开馆藏图与记录依 Met Open Access / CC0；原机构不背书本项目。[第三方素材及权利](../THIRD_PARTY.md) · [视频固定地址](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4)

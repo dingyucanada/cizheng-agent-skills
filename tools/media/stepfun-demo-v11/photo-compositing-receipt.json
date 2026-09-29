@@ -1,0 +1,22 @@
+{
+  "object_id": "Met 18.61.4",
+  "source_object_url": "https://www.metmuseum.org/art/collection/search/48607",
+  "scope": "CC0 public collection reference object, not an unknown object authentication",
+  "photos": [
+    {
+      "path": "met-48607.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc"
+    },
+    {
+      "path": "met-48607-view2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+    }
+  ],
+  "modified_scenes": [
+    "02-scenarios",
+    "05-read",
+    "06-catalogue",
+    "18-closing"
+  ],
+  "operation": "User-approved scenario headings without periods, plain-language catalogue and closing titles; aspect-ratio-preserving photo compositing; no object retouching or generation"
+}

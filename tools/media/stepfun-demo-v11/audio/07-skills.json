@@ -1,0 +1,206 @@
+{
+  "scene": "skills",
+  "number": 7,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "2e5a53ae6fee8f0bb3803560234a42c9f7a1ada561df4b945b5a1ff00ac66ed4",
+  "response_sse_sha256": "fc4bf957e3e7d77e2a8a326f94b0bf7d6a2267a8a98da272c537a4c938d087f1",
+  "audio": "07-skills.mp3",
+  "audio_sha256": "4453bd536548a5d8fc5e2fbbc3cc3188f9e2753963e3a5b0d439f614ad74a2db",
+  "audio_bytes": 140456,
+  "duration_seconds": 8.688,
+  "elapsed_seconds": 4.165964749999999,
+  "input": "七个研究技能，把方法拆成可执行的步骤。青花归属、状况假设、来源审查，各有材料要求。",
+  "subtitles": [
+    {
+      "text": "七个研究技能，把方法拆成可执行的步骤。青花归属、状况假设、来源审查，各有材料要求。",
+      "request_id": "0f45397e4974405c17f0c60f24e37383.01a0eb4efc917824bcf4b6525876c20d",
+      "items": [
+        {
+          "text": "七",
+          "start_time": 80,
+          "end_time": 320
+        },
+        {
+          "text": "个",
+          "start_time": 320,
+          "end_time": 400
+        },
+        {
+          "text": "研",
+          "start_time": 400,
+          "end_time": 560
+        },
+        {
+          "text": "究",
+          "start_time": 560,
+          "end_time": 720
+        },
+        {
+          "text": "技",
+          "start_time": 720,
+          "end_time": 800
+        },
+        {
+          "text": "能，",
+          "start_time": 800,
+          "end_time": 1040
+        },
+        {
+          "text": "把",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "方",
+          "start_time": 1600,
+          "end_time": 1760
+        },
+        {
+          "text": "法",
+          "start_time": 1760,
+          "end_time": 1920
+        },
+        {
+          "text": "拆",
+          "start_time": 1920,
+          "end_time": 2080
+        },
+        {
+          "text": "成",
+          "start_time": 2080,
+          "end_time": 2240
+        },
+        {
+          "text": "可",
+          "start_time": 2240,
+          "end_time": 2400
+        },
+        {
+          "text": "执",
+          "start_time": 2400,
+          "end_time": 2560
+        },
+        {
+          "text": "行",
+          "start_time": 2560,
+          "end_time": 2720
+        },
+        {
+          "text": "的",
+          "start_time": 2720,
+          "end_time": 2720
+        },
+        {
+          "text": "步",
+          "start_time": 2720,
+          "end_time": 2880
+        },
+        {
+          "text": "骤。",
+          "start_time": 2880,
+          "end_time": 3120
+        },
+        {
+          "text": "青",
+          "start_time": 3760,
+          "end_time": 4000
+        },
+        {
+          "text": "花",
+          "start_time": 4000,
+          "end_time": 4160
+        },
+        {
+          "text": "归",
+          "start_time": 4160,
+          "end_time": 4400
+        },
+        {
+          "text": "属、",
+          "start_time": 4400,
+          "end_time": 4640
+        },
+        {
+          "text": "状",
+          "start_time": 4960,
+          "end_time": 5120
+        },
+        {
+          "text": "况",
+          "start_time": 5120,
+          "end_time": 5280
+        },
+        {
+          "text": "假",
+          "start_time": 5280,
+          "end_time": 5440
+        },
+        {
+          "text": "设、",
+          "start_time": 5440,
+          "end_time": 5760
+        },
+        {
+          "text": "来",
+          "start_time": 6080,
+          "end_time": 6240
+        },
+        {
+          "text": "源",
+          "start_time": 6240,
+          "end_time": 6400
+        },
+        {
+          "text": "审",
+          "start_time": 6400,
+          "end_time": 6560
+        },
+        {
+          "text": "查，",
+          "start_time": 6560,
+          "end_time": 6880
+        },
+        {
+          "text": "各",
+          "start_time": 7520,
+          "end_time": 7680
+        },
+        {
+          "text": "有",
+          "start_time": 7680,
+          "end_time": 7840
+        },
+        {
+          "text": "材",
+          "start_time": 7840,
+          "end_time": 8000
+        },
+        {
+          "text": "料",
+          "start_time": 8000,
+          "end_time": 8160
+        },
+        {
+          "text": "要",
+          "start_time": 8160,
+          "end_time": 8240
+        },
+        {
+          "text": "求。",
+          "start_time": 8240,
+          "end_time": 8560
+        }
+      ],
+      "timestamp": 1790654221262
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

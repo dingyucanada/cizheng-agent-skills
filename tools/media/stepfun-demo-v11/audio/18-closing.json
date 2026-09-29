@@ -1,0 +1,206 @@
+{
+  "scene": "closing",
+  "number": 18,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "ff5041da7bf35d0fedad92e581c03e69f63cb9e7389940af97924b5f8210b9be",
+  "response_sse_sha256": "cef2756084a53599c8f46f396fffd71007789192924075d5ca6156af89424b63",
+  "audio": "18-closing.mp3",
+  "audio_sha256": "72698a49669c87a561cdef0fcb530092dd826295fbe2a4a634e501a59139474b",
+  "audio_bytes": 164268,
+  "duration_seconds": 10.176,
+  "elapsed_seconds": 3.880928167141974,
+  "input": "瓷证，让原图、出处和判断理由，都可以继续核查。完整图文报告、源码和演示，入口在主页。",
+  "subtitles": [
+    {
+      "text": "瓷证，让原图、出处和判断理由，都可以继续核查。完整图文报告、源码和演示，入口在主页。",
+      "request_id": "95fbdcb6168c159265240cff6ec44d7d.01a0ebc7d4cc7a1da6a3f5331b05d843",
+      "items": [
+        {
+          "text": "瓷",
+          "start_time": 160,
+          "end_time": 320
+        },
+        {
+          "text": "证，",
+          "start_time": 320,
+          "end_time": 640
+        },
+        {
+          "text": "让",
+          "start_time": 1040,
+          "end_time": 1280
+        },
+        {
+          "text": "原",
+          "start_time": 1280,
+          "end_time": 1520
+        },
+        {
+          "text": "图、",
+          "start_time": 1520,
+          "end_time": 1680
+        },
+        {
+          "text": "出",
+          "start_time": 1680,
+          "end_time": 1920
+        },
+        {
+          "text": "处",
+          "start_time": 1920,
+          "end_time": 2080
+        },
+        {
+          "text": "和",
+          "start_time": 2080,
+          "end_time": 2160
+        },
+        {
+          "text": "判",
+          "start_time": 2160,
+          "end_time": 2320
+        },
+        {
+          "text": "断",
+          "start_time": 2320,
+          "end_time": 2480
+        },
+        {
+          "text": "理",
+          "start_time": 2480,
+          "end_time": 2640
+        },
+        {
+          "text": "由，",
+          "start_time": 2640,
+          "end_time": 2880
+        },
+        {
+          "text": "都",
+          "start_time": 3120,
+          "end_time": 3280
+        },
+        {
+          "text": "可",
+          "start_time": 3280,
+          "end_time": 3440
+        },
+        {
+          "text": "以",
+          "start_time": 3440,
+          "end_time": 3520
+        },
+        {
+          "text": "继",
+          "start_time": 3520,
+          "end_time": 3600
+        },
+        {
+          "text": "续",
+          "start_time": 3600,
+          "end_time": 3760
+        },
+        {
+          "text": "核",
+          "start_time": 3760,
+          "end_time": 3920
+        },
+        {
+          "text": "查。",
+          "start_time": 3920,
+          "end_time": 4240
+        },
+        {
+          "text": "完",
+          "start_time": 5600,
+          "end_time": 5760
+        },
+        {
+          "text": "整",
+          "start_time": 5760,
+          "end_time": 5920
+        },
+        {
+          "text": "图",
+          "start_time": 5920,
+          "end_time": 6080
+        },
+        {
+          "text": "文",
+          "start_time": 6080,
+          "end_time": 6160
+        },
+        {
+          "text": "报",
+          "start_time": 6160,
+          "end_time": 6320
+        },
+        {
+          "text": "告、",
+          "start_time": 6320,
+          "end_time": 6720
+        },
+        {
+          "text": "源",
+          "start_time": 6880,
+          "end_time": 7040
+        },
+        {
+          "text": "码",
+          "start_time": 7040,
+          "end_time": 7200
+        },
+        {
+          "text": "和",
+          "start_time": 7200,
+          "end_time": 7360
+        },
+        {
+          "text": "演",
+          "start_time": 7360,
+          "end_time": 7520
+        },
+        {
+          "text": "示，",
+          "start_time": 7520,
+          "end_time": 7840
+        },
+        {
+          "text": "入",
+          "start_time": 8000,
+          "end_time": 8160
+        },
+        {
+          "text": "口",
+          "start_time": 8160,
+          "end_time": 8320
+        },
+        {
+          "text": "在",
+          "start_time": 8320,
+          "end_time": 8480
+        },
+        {
+          "text": "主",
+          "start_time": 8480,
+          "end_time": 8640
+        },
+        {
+          "text": "页。",
+          "start_time": 8640,
+          "end_time": 8880
+        }
+      ],
+      "timestamp": 1790662140541
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

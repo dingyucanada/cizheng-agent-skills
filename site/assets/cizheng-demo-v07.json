@@ -1,8 +1,8 @@
 {
   "schema": "cizheng-cinematic-edit.v1",
-  "version": "v5-stepfun-stable",
-  "seconds": 193.12,
-  "frames": 4828,
+  "version": "v6-stepfun-photo-chinese-score",
+  "seconds": 203.36,
+  "frames": 5084,
   "resolution": [
     1920,
     1080
@@ -14,12 +14,22 @@
     "model": "stepaudio-2.5-tts",
     "voice": "ruyananshi",
     "synthetic": true,
-    "speed": 1.0,
+    "default_speed": 1.0,
+    "scene_overrides": {
+      "next": {
+        "speed": 0.95,
+        "instruction": "专业、亲切的普通话讲解。接近演示结尾，语气沉稳，句与句之间从容停顿，不加速，不赶时间，保持连贯自然。"
+      },
+      "closing": {
+        "speed": 0.9,
+        "instruction": "温和、从容、专业的普通话结尾。第一句完整舒缓地说完，再自然停顿，随后介绍主页入口。最后一句自然收束，不抢拍，不加速，不用广告腔。"
+      }
+    },
     "instruction": "自然、亲切、专业的普通话项目讲解，像研究员向同行介绍工作台。中等语速，按完整句子连贯表达。语气沉稳有叙述感，避免逐词断开、夸张播音腔和长时间停顿。疑问句自然上扬。",
     "unit": "complete scene paragraphs"
   },
   "voice_tempo_adjustment": 1.0,
-  "music": "Original procedural ambient score, no third-party music",
+  "music": "瓷证·藏影疏弦; original D-gong pentatonic score; no third-party music",
   "scenes": [
     {
       "id": "opening",
@@ -30,7 +40,9 @@
       "seconds": 9.44,
       "voice_start": 0.2,
       "voice_seconds": 9.024,
-      "image_sha256": "80edd8944db51101bdb8c3b6f43a60621c41a72bf04332d08fd6c3120f061b09"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.216,
+      "image_sha256": "073b120bd1a13f42f196063d4feccafe2ea140bd85b6ed7db709675d4c79f505"
     },
     {
       "id": "scenarios",
@@ -40,8 +52,10 @@
       "frames": 237,
       "seconds": 9.48,
       "voice_start": 9.639999999999999,
-      "voice_seconds": 8.496,
-      "image_sha256": "b64101085d621365c2b0eed3aee202cd01f4601f2788cc0423fb0ef589bf0b2f"
+      "voice_seconds": 8.688,
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.592,
+      "image_sha256": "68b8644fa1af4c326aa2193c46a021818be2756e42f37b5f0a66b27fdc7ed522"
     },
     {
       "id": "workbench",
@@ -52,7 +66,9 @@
       "seconds": 10.48,
       "voice_start": 19.12,
       "voice_seconds": 10.056,
-      "image_sha256": "7fec18204bc64c81b415d05243ec0a8e232fbb01bd6d9c0f0e1e1a3b5bbf9639"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.224,
+      "image_sha256": "c965075b5de99fcc4b48bfc5a2fc5aa5006ca45f0b9be5203902aa8faf2f4838"
     },
     {
       "id": "observe",
@@ -63,7 +79,9 @@
       "seconds": 11.56,
       "voice_start": 29.599999999999998,
       "voice_seconds": 11.136,
-      "image_sha256": "c5401144437b37ffe98dbf673a69ae3c7d147412261822d6da11a90274f4a142"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.224,
+      "image_sha256": "2f82738e0e2e9616cb5b78537c975901141d678b4a2a86fc2bcc4e8528343680"
     },
     {
       "id": "read",
@@ -74,150 +92,178 @@
       "seconds": 11.56,
       "voice_start": 41.160000000000004,
       "voice_seconds": 11.016,
-      "image_sha256": "6fab3986a1e0e6de4ce2f5b350f1aed0fb6b66efdddfb8103dc8b5a591dcc865"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.344,
+      "image_sha256": "8598b4ada1200407e3e135744a0607a5aadcc9c45435487cf2e827ab3e7d059d"
     },
     {
       "id": "catalogue",
       "number": 6,
       "start": 52.52,
-      "end": 62.480000000000004,
-      "frames": 249,
-      "seconds": 9.96,
+      "end": 64.08,
+      "frames": 289,
+      "seconds": 11.56,
       "voice_start": 52.720000000000006,
-      "voice_seconds": 9.168,
-      "image_sha256": "76b0bb365ec0bba400d31a8a22f96e31e2a2f4a001ad5f7e56953ce71fcdcef3"
+      "voice_seconds": 11.136,
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.224,
+      "image_sha256": "36ecc555cae8b1f941be21615991f5d9a29bd3daac3aa0b78a15776f97c3fb7e"
     },
     {
       "id": "skills",
       "number": 7,
-      "start": 62.48,
-      "end": 71.8,
+      "start": 64.08,
+      "end": 73.4,
       "frames": 233,
       "seconds": 9.32,
-      "voice_start": 62.68,
+      "voice_start": 64.28,
       "voice_seconds": 8.688,
-      "image_sha256": "51b052c60400f47fc51777eed52107fdef454763025c6c4b88eb97806733bf01"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.432,
+      "image_sha256": "695f6c9c4d2ba255881203460ecf0ae7c40c8fd832cdbe9371c2dc30d337ad89"
     },
     {
       "id": "skills-action",
       "number": 8,
-      "start": 71.8,
-      "end": 82.03999999999999,
+      "start": 73.4,
+      "end": 83.64,
       "frames": 256,
       "seconds": 10.24,
-      "voice_start": 72.0,
+      "voice_start": 73.60000000000001,
       "voice_seconds": 9.288,
-      "image_sha256": "178511e3c3c5a46f04c76b34b33c42257c6126a9a35e7364fa7d08ad9c4a1334"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.752,
+      "image_sha256": "aadd933006c11da189b88dc28c41640df329f7d89d1ca2726be7bf520bea5a01"
     },
     {
       "id": "contradiction",
       "number": 9,
-      "start": 82.04,
-      "end": 96.16000000000001,
+      "start": 83.64,
+      "end": 97.76,
       "frames": 353,
       "seconds": 14.12,
-      "voice_start": 82.24000000000001,
+      "voice_start": 83.84,
       "voice_seconds": 13.368,
-      "image_sha256": "6e59e3634521cb4d79336d9583d91779b030677c96cd8cb51a24bb0f6aba148e"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.552,
+      "image_sha256": "38d2bfbd69356c796dd33b9d437be336fdff042e156de9b6f169df2293cb94e2"
     },
     {
       "id": "supplement",
       "number": 10,
-      "start": 96.16,
-      "end": 108.88,
+      "start": 97.76,
+      "end": 110.48,
       "frames": 318,
       "seconds": 12.72,
-      "voice_start": 96.36,
+      "voice_start": 97.96000000000001,
       "voice_seconds": 12.288,
-      "image_sha256": "fb90294c43c75e61e4d1c17623eb1b5958839b4766d48bbe5e11c67d4b0f7c70"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.232,
+      "image_sha256": "e37f8c6592022fe0127249ac736448b0613e87f0d9e7bda785ca88dc48c4aef0"
     },
     {
       "id": "revision",
       "number": 11,
-      "start": 108.88,
-      "end": 117.96,
+      "start": 110.48,
+      "end": 119.56,
       "frames": 227,
       "seconds": 9.08,
-      "voice_start": 109.08,
+      "voice_start": 110.68,
       "voice_seconds": 8.304,
-      "image_sha256": "60272058246ba757cf1f600505d0d4d272db164f2e0b4648329946d277e15a8a"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.576,
+      "image_sha256": "559f6043f97cca0dde3fc0998db78b0b51a9cf366e334130b42d40e43bc0cdf7"
     },
     {
       "id": "human",
       "number": 12,
-      "start": 117.96,
-      "end": 129.12,
+      "start": 119.56,
+      "end": 130.72,
       "frames": 279,
       "seconds": 11.16,
-      "voice_start": 118.16,
+      "voice_start": 119.76,
       "voice_seconds": 10.728,
-      "image_sha256": "22f37fb89df9a7a1fdf00eecccdf538c04e4a4a5354c3c3eb837858cd0ec74ca"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.232,
+      "image_sha256": "f43497cf2090ba69128e9197326e7d81396c41357f3c59db8a9ce6f244ec8aae"
     },
     {
       "id": "export",
       "number": 13,
-      "start": 129.12,
-      "end": 139.56,
+      "start": 130.72,
+      "end": 141.16,
       "frames": 261,
       "seconds": 10.44,
-      "voice_start": 129.32,
+      "voice_start": 130.92,
       "voice_seconds": 9.408,
-      "image_sha256": "d22bc632eb783bc0f6a9d1ca40aa632b791b65902f34f14fb876b01a9a077dab"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.832,
+      "image_sha256": "469f939e14c12ab373b94bba761b93106ed62494a6d84cdcb4997bd3dab0002b"
     },
     {
       "id": "spark",
       "number": 14,
-      "start": 139.56,
-      "end": 150.12,
+      "start": 141.16,
+      "end": 151.72,
       "frames": 264,
       "seconds": 10.56,
-      "voice_start": 139.76,
+      "voice_start": 141.35999999999999,
       "voice_seconds": 9.936,
-      "image_sha256": "e632dad8152c8b21c1471b379a8e136ceafb13da6f656975a171a3c610e02e58"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.424,
+      "image_sha256": "ddcadebaef934547cb575dafa27c8bda53a6f133f790aa7486c1dc29c27d25a8"
     },
     {
       "id": "local-capability",
       "number": 15,
-      "start": 150.12,
-      "end": 164.48000000000002,
+      "start": 151.72,
+      "end": 166.07999999999998,
       "frames": 359,
       "seconds": 14.36,
-      "voice_start": 150.32,
+      "voice_start": 151.92,
       "voice_seconds": 13.368,
-      "image_sha256": "387d6657ff9928ead381ed2b9600ef1f40bcd225dac59581b0c1db37a3601cb7"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.792,
+      "image_sha256": "979cea4fb550c8c1f498c5b74c0b7e96be30c2d3903df1648398fe258fe1ac8b"
     },
     {
       "id": "actual-record",
       "number": 16,
-      "start": 164.48,
-      "end": 173.95999999999998,
+      "start": 166.08,
+      "end": 175.56,
       "frames": 237,
       "seconds": 9.48,
-      "voice_start": 164.67999999999998,
+      "voice_start": 166.28,
       "voice_seconds": 8.808,
-      "image_sha256": "1c96b761860a480787a078357882a1ba9a62feeb557e19a0e6b42d2a80700b85"
+      "voice_speed": 1.0,
+      "post_voice_hold_seconds": 0.472,
+      "image_sha256": "8d4a40afa569812ddd2c8c98038561ecaf57e1bd547ee472c89ed10b77c58edd"
     },
     {
       "id": "next",
       "number": 17,
-      "start": 173.96,
-      "end": 184.12,
-      "frames": 254,
-      "seconds": 10.16,
-      "voice_start": 174.16,
-      "voice_seconds": 9.168,
-      "image_sha256": "3ae679dc1e349dfe37d02e7b6065f35100f138349c41af428e761c59f504c7c2"
+      "start": 175.56,
+      "end": 188.32,
+      "frames": 319,
+      "seconds": 12.76,
+      "voice_start": 176.06,
+      "voice_seconds": 11.16,
+      "voice_speed": 0.95,
+      "post_voice_hold_seconds": 1.1,
+      "image_sha256": "e741b67596f30076f60738804c64d9b684d6923aea40ad934056ef588fef89d7"
     },
     {
       "id": "closing",
       "number": 18,
-      "start": 184.12,
-      "end": 193.12,
-      "frames": 225,
-      "seconds": 9.0,
-      "voice_start": 184.32,
-      "voice_seconds": 8.568,
-      "image_sha256": "68750848a02159763f00a3a47a9fbbc03d46d51d0ffcae2aafebe38a4d39e4ae"
+      "start": 188.32,
+      "end": 203.35999999999999,
+      "frames": 376,
+      "seconds": 15.04,
+      "voice_start": 188.97,
+      "voice_seconds": 10.176,
+      "voice_speed": 0.9,
+      "post_voice_hold_seconds": 4.214,
+      "image_sha256": "ed01a874d8160cc9f5746406520e45f900d07b79488757ab284a4cb4f33af4e1"
     }
   ],
   "subtitle_cues": [
@@ -239,17 +285,17 @@
     },
     {
       "scene": 2,
-      "text": "入藏前的研究、状况记录、来源复核，问题各不相同。",
-      "start": 9.72,
+      "text": "器物研究、状况记录、来源核查，各有侧重。",
+      "start": 9.8,
       "end": 14.28,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "02-scenarios.mp3"
     },
     {
       "scene": 2,
-      "text": "共同需要的，是一份能追到原材料的研究记录。",
-      "start": 14.76,
-      "end": 17.96,
+      "text": "都需要一份能追到原材料的研究记录。",
+      "start": 15.24,
+      "end": 18.04,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "02-scenarios.mp3"
     },
@@ -311,281 +357,281 @@
     },
     {
       "scene": 6,
-      "text": "这组照片来自公开馆藏，参照对象可以明确核对。",
-      "start": 53.04,
+      "text": "这组照片来自博物馆，参照对象可以明确核对。",
+      "start": 52.96,
       "end": 57.04,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "06-catalogue.mp3"
     },
     {
       "scene": 6,
-      "text": "对未知器物，不能把另一个馆藏的标签，直接当成真值。",
-      "start": 58.0,
-      "end": 61.76,
+      "text": "博物馆标注的年代和窑口可以作参照，其他器物仍需结合自身特征判断。",
+      "start": 57.6,
+      "end": 63.68,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "06-catalogue.mp3"
     },
     {
       "scene": 7,
       "text": "七个研究技能，把方法拆成可执行的步骤。",
-      "start": 62.76,
-      "end": 65.8,
+      "start": 64.36,
+      "end": 67.4,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "07-skills.mp3"
     },
     {
       "scene": 7,
       "text": "青花归属、状况假设、来源审查，各有材料要求。",
-      "start": 66.44,
-      "end": 71.24,
+      "start": 68.04,
+      "end": 72.84,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "07-skills.mp3"
     },
     {
       "scene": 8,
       "text": "技能不负责替研究者盖章。",
-      "start": 72.16,
-      "end": 73.84,
+      "start": 73.76,
+      "end": 75.44,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "08-skills-action.mp3"
     },
     {
       "scene": 8,
       "text": "它提醒模型：比较特征，寻找反例，",
-      "start": 74.32,
-      "end": 77.28,
+      "start": 75.92,
+      "end": 78.88,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "08-skills-action.mp3"
     },
     {
       "scene": 8,
       "text": "把依据和未解决的问题，写回这件器物的案卷。",
-      "start": 77.68,
-      "end": 81.12,
+      "start": 79.28,
+      "end": 82.72,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "08-skills-action.mp3"
     },
     {
       "scene": 9,
       "text": "六维复核，把记录冲突和未评项，一起放到面前。",
-      "start": 82.48,
-      "end": 86.24,
+      "start": 84.08,
+      "end": 87.84,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "09-contradiction.mp3"
     },
     {
       "scene": 9,
       "text": "这个指数用于安排复核顺序，不代表真伪概率，也不是模型的置信度。",
-      "start": 87.12,
-      "end": 91.76,
+      "start": 88.72,
+      "end": 93.36,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "09-contradiction.mp3"
     },
     {
       "scene": 9,
       "text": "冲突要说明理由，缺项要指出下一份证据。",
-      "start": 92.08,
-      "end": 95.44,
+      "start": 93.68,
+      "end": 97.04,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "09-contradiction.mp3"
     },
     {
       "scene": 10,
       "text": "有缺口，就把补充材料的建议说具体。",
-      "start": 96.52,
-      "end": 99.56,
+      "start": 98.12,
+      "end": 101.16,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "10-supplement.mp3"
     },
     {
       "scene": 10,
       "text": "补拍清楚的局部、底足和款识，或补充有许可的专业记录，",
-      "start": 100.04,
-      "end": 104.68,
+      "start": 101.64,
+      "end": 106.28,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "10-supplement.mp3"
     },
     {
       "scene": 10,
       "text": "让下一轮研究围绕问题展开，而不是重新猜一遍。",
-      "start": 105.0,
-      "end": 108.52,
+      "start": 106.6,
+      "end": 110.12,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "10-supplement.mp3"
     },
     {
       "scene": 11,
       "text": "材料补充后，原照片和旧意见仍然保留。",
-      "start": 109.24,
-      "end": 112.52,
+      "start": 110.84,
+      "end": 114.12,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "11-revision.mp3"
     },
     {
       "scene": 11,
       "text": "版本比较，让你看到改变的理由，",
-      "start": 113.08,
-      "end": 115.48,
+      "start": 114.68,
+      "end": 117.08,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "11-revision.mp3"
     },
     {
       "scene": 11,
       "text": "也看到仍未解决的疑点。",
-      "start": 115.64,
-      "end": 117.24,
+      "start": 117.24,
+      "end": 118.84,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "11-revision.mp3"
     },
     {
       "scene": 12,
       "text": "人工复核，面对的是具体材料和具体版本。",
-      "start": 118.4,
-      "end": 122.0,
+      "start": 120.0,
+      "end": 123.6,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "12-human.mp3"
     },
     {
       "scene": 12,
       "text": "可以同意，也可以指出不足；",
-      "start": 122.64,
-      "end": 124.8,
+      "start": 124.24,
+      "end": 126.4,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "12-human.mp3"
     },
     {
       "scene": 12,
       "text": "系统保存复核意见，不冒充专家签署。",
-      "start": 125.68,
-      "end": 128.64,
+      "start": 127.28,
+      "end": 130.24,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "12-human.mp3"
     },
     {
       "scene": 13,
       "text": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。",
-      "start": 129.8,
-      "end": 134.6,
+      "start": 131.4,
+      "end": 136.2,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "13-export.mp3"
     },
     {
       "scene": 13,
       "text": "下一位研究者，可以回到材料，接着核查你的判断。",
-      "start": 135.16,
-      "end": 138.36,
+      "start": 136.76,
+      "end": 139.96,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "13-export.mp3"
     },
     {
       "scene": 14,
       "text": "英伟达的 Spark，是本地研究的算力底座。",
-      "start": 140.08,
-      "end": 142.96,
+      "start": 141.68,
+      "end": 144.56,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "14-spark.mp3"
     },
     {
       "scene": 14,
       "text": "原始照片进入本地视觉模型；",
-      "start": 143.52,
-      "end": 145.68,
+      "start": 145.12,
+      "end": 147.28,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "14-spark.mp3"
     },
     {
       "scene": 14,
       "text": "只有预览后批准的文字，才交给外部反证服务。",
-      "start": 146.16,
-      "end": 149.44,
+      "start": 147.76,
+      "end": 151.04,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "14-spark.mp3"
     },
     {
       "scene": 15,
       "text": "标准接口、文字推理、资料检索，在本地各有分工。",
-      "start": 150.56,
-      "end": 154.64,
+      "start": 152.16,
+      "end": 156.24,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "15-local-capability.mp3"
     },
     {
       "scene": 15,
       "text": "三项独立服务已经验证；正式整案，仍沿用原来的工作路径。",
-      "start": 155.28,
-      "end": 159.76,
+      "start": 156.88,
+      "end": 161.36,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "15-local-capability.mp3"
     },
     {
       "scene": 15,
       "text": "先核查新增能力，再决定怎样接入研究流程。",
-      "start": 160.16,
-      "end": 163.6,
+      "start": 161.76,
+      "end": 165.2,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "15-local-capability.mp3"
     },
     {
       "scene": 16,
       "text": "每版观察、审查意见和修订理由，均保留在案卷里。",
-      "start": 164.76,
-      "end": 168.92,
+      "start": 166.36,
+      "end": 170.52,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "16-actual-record.mp3"
     },
     {
       "scene": 16,
       "text": "读回原图和原文，让下一位研究者继续核查。",
-      "start": 170.04,
-      "end": 173.4,
+      "start": 171.64,
+      "end": 175.0,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "16-actual-record.mp3"
     },
     {
       "scene": 17,
       "text": "未来，我们将引入有许可的专家材料，",
-      "start": 174.32,
-      "end": 177.2,
+      "start": 176.22,
+      "end": 178.94,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "17-next.mp3"
     },
     {
       "scene": 17,
       "text": "用独立样本，检验方法与结论。",
-      "start": 177.52,
-      "end": 179.6,
+      "start": 179.42,
+      "end": 182.22,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "17-next.mp3"
     },
     {
       "scene": 17,
       "text": "把研究流程做扎实，也把能力边界说清楚。",
-      "start": 180.16,
-      "end": 183.2,
+      "start": 183.1,
+      "end": 186.54,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "17-next.mp3"
     },
     {
       "scene": 18,
-      "text": "瓷证，让下一位研究者，接得住你的判断。",
-      "start": 184.64,
-      "end": 188.16,
+      "text": "瓷证，让原图、出处和判断理由，都可以继续核查。",
+      "start": 189.13,
+      "end": 193.21,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "18-closing.mp3"
     },
     {
       "scene": 18,
-      "text": "完整图文报告、源码与演示，入口在主页。",
-      "start": 189.04,
-      "end": 192.64,
+      "text": "完整图文报告、源码和演示，入口在主页。",
+      "start": 194.57,
+      "end": 197.85,
       "alignment": "StepFun actual word timestamps; paragraph synthesized together",
       "voice_file": "18-closing.mp3"
     }
   ],
   "permanent_truth_scope": "Real public catalogue photos, actual teaching-interface screenshots and saved-record reconstruction; not continuous AI recording or expert validation",
   "nvidia_boundary": "Official ARM64 NVIDIA NIM text interface actually verified with a single public text HTTP200/stop request and same-container limited CUDA trace; TRT-LLM text and official open NVIDIA embedding+cuVS independently verified. Original8Bvisual/SQLite workflow remains unchanged; no professional-quality or speed-gain claim.",
-  "video_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
-  "video_bytes": 8935648,
+  "video_sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c",
+  "video_bytes": 9737091,
   "source_references": [
     "verification/nvidia/v07-workflows/round-12/",
     "verification/nvidia/tensorrt-llm-v08/",
@@ -598,11 +644,27 @@
     "demo": "https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4",
     "article": "https://zhuanlan.zhihu.com/p/2088103686509744413"
   },
-  "production_replacement_status": "Reviewed production artifact; publication and anonymous byte verification recorded separately",
+  "production_replacement_status": "Prepared reviewed build; publication verified separately",
   "post_generation_time_stretch": false,
-  "camera_motion": "none; static1920x1080scene images,200msfade only",
-  "subtitle_timing": "45 cues aligned to actual StepFun word timestamps; risk-index and supplementary-material phrasing clarified after ASR review",
-  "voice_receipt_sha256": "2bfd0524a9da02b02c927b41421641b23b86b7493b571968ab33ba10c6e13190",
-  "music_source_sha256": "ba06ffbad20c88eca94a33759c09883cd4a3d364b4fc335462078032ea1d9b9d",
-  "detailed_qa": "verification/media/stepfun-demo-v10/index.json"
+  "camera_motion": "none; static1920x1080scene images; 200ms boundary fades, 1.6s final fade",
+  "subtitle_timing": "45 cues aligned to actual StepFun word timestamps; ending regenerated with slower requested speed and added holds",
+  "voice_receipt_sha256": "736fca50334c84a3961d9ab5c5583ad2cef4c780f651c423c7ceef08845a8c21",
+  "music_source_sha256": "410c9de7d75aadc17f7182b1be70c3cd332db65c8a4d83c5a095dc777b4de5d0",
+  "detailed_qa": "verification/media/stepfun-demo-v11/index.json",
+  "music_description": "Original quiet pentatonic score; synthesized plucked-string and flute-like timbres, not sampled instrument performance",
+  "music_mix": {
+    "pre_duck_gain": 0.5,
+    "sidechain_threshold": 0.03,
+    "ratio": 4,
+    "release_ms": 700
+  },
+  "wording_revision": "User-approved 器物研究 without heading periods; corner motto 从材料出发，让判断有据。; catalogue title 先核对具体器物; closing title 判断理由可核查; narration explains reference records and object-specific judgment.",
+  "audio_peak_guard": {
+    "oversampling_hz": 192000,
+    "limiter_threshold_dbfs": -3.0,
+    "automatic_makeup_gain": false,
+    "latency_compensated": true,
+    "output_hz": 48000,
+    "post_encode_peak_measurement_required": true
+  }
 }

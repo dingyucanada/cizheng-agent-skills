@@ -68,7 +68,7 @@ DGX Spark 将多模态研究、模型服务、方法执行与案卷存储放在�
 | 七个领域 Agent Skills | 按任务读取方法、参考资源与检查要求 | 渐进加载、固定整包版本；宿主约束工具与预算 |
 | NVIDIA NeMo Agent Toolkit 1.9.0 | 资料版本、段落、哈希与成功读取回执核查 | 主流程引用身份检查；独立离线环境 |
 | StepFun / step-3.7-flash | 真实批准文字反证审查，提出断代、窑口及风格支持问题 | 可选文字协作；本地模型回查并修订 |
-| StepFun / stepaudio-2.5-tts | 18个公开讲稿段落的中文演示旁白，按实际词时间戳对齐字幕 | Demo制作；官方儒雅男士音色、原速、固定画面，[回执与复现](verification/media/stepfun-demo-v10/index.json) |
+| StepFun / stepaudio-2.5-tts | 18个公开讲稿段落的中文演示旁白，按实际词时间戳对齐字幕 | Demo制作；官方儒雅男士音色、从容结尾、原创中国风轻配乐与固定画面，[回执与复现](verification/media/stepfun-demo-v11/index.json) |
 | TensorRT-LLM 1.3.0rc13 | 固定官方 ARM64 / Qwen3-4B-Instruct-2507 文字推理与 CUDA 轨迹 | 已部署独立文字端点；PyTorch backend，未生成序列化 TRT engine |
 | NVIDIA Embedding + cuVS 26.8.1 | `llama-nemotron-embed-1b-v2` / 2048 维 CUDA 索引，实际中文查询 | 已部署独立检索；主案卷保留 SQLite 固定正文路径；非完整 Retriever SDK 管线 |
 | NVIDIA NIM · Spark 分发 2.1.8 | 官方 Spark ARM64 Model-Free NIM / Qwen3-4B BF16，原厂 SDK 服务入口 | 已部署独立标准文字接口；nim_sdk 0.12.7 / SGLang 0.5.16；实际请求与 CUDA 绑定 [回执](docs/nim-v09-update.md) |

@@ -1,0 +1,715 @@
+{
+  "schema": "cizheng.independent-media-repair-review.v1",
+  "review_date_local": "2026-09-29",
+  "reviewer": "Independent read-only subagent",
+  "scope": "User-requested media fixes and final wording revisions; local files only.",
+  "candidate": {
+    "path": "/private/tmp/cizheng-v11-build/final-movie/cizheng-demo-v07.mp4",
+    "sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c",
+    "bytes": 9737091,
+    "seconds": 203.36,
+    "frames": 5084
+  },
+  "verdict": "objective_checks_passed_subjective_listening_unknown",
+  "objective_checks": [
+    {
+      "id": "narration_wording",
+      "status": "pass_objective_records",
+      "finding": "Current scene 2 TTS input and SRT use 器物研究. All 18 current TTS requests, response timestamp text, and SRT contain no 入藏; audio request/file SHA and PCM placement match. Pronunciation by listening is unknown."
+    },
+    {
+      "id": "scene2_titles",
+      "status": "pass",
+      "finding": "Actual 11-second frame shows 器物研究 and 状况记录　来源复核, both without periods."
+    },
+    {
+      "id": "53_second_real_object_photos",
+      "status": "pass",
+      "finding": "Actual 53-second frame shows both local Met 18.61.4 photo views and the source label. Both photo regions in source scene 6 are pixel-exact matches to aspect-ratio-preserving 318×477 resizes of the two JPG assets."
+    },
+    {
+      "id": "ending_timing",
+      "status": "pass",
+      "finding": "Scene 17 requested speed 0.95, scene 18 requested speed 0.90; actual PCM durations and placement match. Last voice PCM ends at 199.146 seconds; narration PCM then contains exactly zero samples for 4.214 seconds. This includes 2.614 seconds before the final 1.6-second picture fade."
+    },
+    {
+      "id": "ending_picture_fade",
+      "status": "pass",
+      "finding": "Scene 18 clip filter specifies a 1.6-second fade; actual movie frames at 201.760, 202.560, 203.320 seconds show full picture, roughly half brightness, and near black."
+    },
+    {
+      "id": "latest_scene6_scene18_wording",
+      "status": "pass",
+      "finding": "Actual scene 6 title is 馆藏资料 / 先核对具体器物; actual scene 18 title is 原图出处可追溯 / 判断理由可核查. Current cue 13 and cue 45 match final requested narration and actual subtitle frames."
+    },
+    {
+      "id": "motto_all18",
+      "status": "pass",
+      "finding": "All 18 source PNG corner labels visually reviewed in a contact sheet and read 从材料出发，让判断有据。; all 18 PNG SHA match the movie JSON and verified clip identity, and all clip file SHA match the clip manifest."
+    },
+    {
+      "id": "45_cue_timing_consistency",
+      "status": "pass",
+      "finding": "All 45 SRT cues match movie JSON text and timing; all 45 cue times independently match provider word timestamps plus actual scene voice offsets. Aggregate voice receipt SHA matches metadata; all 18 scene receipt rows match their individual receipts."
+    },
+    {
+      "id": "music_provenance_and_level",
+      "status": "pass_objective_records",
+      "finding": "Final procedural synthesized score SHA matches metrics and movie JSON, duration 203.36 seconds. Generator uses synthesized string/flute impressions and no external audio samples. All 142 scored notes are in D-gong pentatonic pitch classes. Independently measured music source -29.0 LUFS and -17.06 dBTP. This is not a real guqin/xiao performance; subjective sound is unknown."
+    },
+    {
+      "id": "final_aac_peak",
+      "status": "pass",
+      "finding": "Independent encoded movie input measurement: -16.34 LUFS, -1.09 dBTP true peak, 3.6 LU loudness range."
+    }
+  ],
+  "blocking_findings": [],
+  "uncertain_findings": [
+    {
+      "id": "actual_listening",
+      "status": "unknown",
+      "finding": "This reviewer did not actually listen. Pronunciation, perceived narration naturalness, whether the ending feels calm, and whether the music feels soft and Chinese in style are not certified. Audio model assessments and ASR were not used as human listening."
+    }
+  ],
+  "observed_nonblocking_text_difference": {
+    "picture_detail": "完整图文报告、源码和公开演示，入口在主页。",
+    "narration_and_srt": "完整图文报告、源码和演示，入口在主页。",
+    "interpretation": "Both use 和; picture retains the public-demo scope. Parent confirmed this intentional difference is allowed and is not a subtitle/audio inconsistency."
+  },
+  "methods": {
+    "frame_extraction": "FFmpeg from the exact final SHA; actual extracted images viewed via view_image.",
+    "timing": "Provider timestamp records cross-checked with JSON/SRT, and PCM durations/placement compared sample-for-sample.",
+    "integrity": "SHA-256 of movie, 18 PNGs, 18 clips, 18 MP3s, 18 requests, aggregate receipt, two JPG photo assets and music.",
+    "audio_measurement": "FFmpeg loudnorm input measurements; no audio files modified.",
+    "actual_listening_performed": false,
+    "human_listening_performed": false,
+    "audio_model_opinion_used_as_human_listening": false
+  },
+  "measurements": {
+    "candidate_sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c",
+    "candidate_sha_matches_expected": true,
+    "candidate_sha_matches_meta": true,
+    "candidate_bytes": 9737091,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "25/1",
+          "duration": "203.360000",
+          "nb_frames": "5084"
+        },
+        {
+          "codec_type": "audio",
+          "avg_frame_rate": "0/0",
+          "duration": "203.360000",
+          "nb_frames": "9532"
+        }
+      ],
+      "format": {
+        "duration": "203.360000",
+        "size": "9737091"
+      }
+    },
+    "metadata_seconds": 203.36,
+    "metadata_frames": 5084,
+    "narration_duration_seconds": 203.36,
+    "narration_sha256": "9449b299f43a2bd0271373188729f97b2c63788840cc2ffc6ea6599271c58d2f",
+    "voice_receipt_actual_sha256": "736fca50334c84a3961d9ab5c5583ad2cef4c780f651c423c7ceef08845a8c21",
+    "voice_receipt_metadata_sha256": "736fca50334c84a3961d9ab5c5583ad2cef4c780f651c423c7ceef08845a8c21",
+    "voice_receipt_sha_matches_meta": true,
+    "subtitle_count": 45,
+    "metadata_subtitle_count": 45,
+    "srt_json_mismatch_cues": [],
+    "provider_timestamp_mismatch_cues": [],
+    "forbidden_rucang_in_current_srt": false,
+    "voice_scenes": [
+      {
+        "scene": 1,
+        "input": "一件青花器物，值得研究的，不只是它像哪个年代。更重要的是：这个判断，依据什么，又缺什么？",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 9.024,
+        "metadata_duration": 9.024,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.216,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 2,
+        "input": "器物研究、状况记录、来源核查，各有侧重。都需要一份能追到原材料的研究记录。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 8.688,
+        "metadata_duration": 8.688,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.592,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 3,
+        "input": "瓷证，把原图、资料和研究意见，放在同一张工作台。从照片开始，每一步都留下可继续工作的记录。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 10.056,
+        "metadata_duration": 10.056,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.224,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 4,
+        "input": "先观察，再解释。山水、花篮、口沿和装饰带，都应当指回具体照片与区域，避免只留下模糊印象。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 11.136,
+        "metadata_duration": 11.136,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.224,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 5,
+        "input": "找到一条相似资料，只是研究的开始。还要读到原段落，留下来源、版本和定位，说明它能支持什么，也说明它不能支持什么。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 11.016,
+        "metadata_duration": 11.016,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.344,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 6,
+        "input": "这组照片来自博物馆，参照对象可以明确核对。博物馆标注的年代和窑口可以作参照，其他器物仍需结合自身特征判断。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 11.136,
+        "metadata_duration": 11.136,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.224,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 7,
+        "input": "七个研究技能，把方法拆成可执行的步骤。青花归属、状况假设、来源审查，各有材料要求。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 8.688,
+        "metadata_duration": 8.688,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.432,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 8,
+        "input": "技能不负责替研究者盖章。它提醒模型：比较特征，寻找反例，把依据和未解决的问题，写回这件器物的案卷。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 9.288,
+        "metadata_duration": 9.288,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.752,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 9,
+        "input": "六维复核，把记录冲突和未评项，一起放到面前。这个指数用于安排复核顺序，不代表真伪概率，也不是模型的置信度。冲突要说明理由，缺项要指出下一份证据。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 13.368,
+        "metadata_duration": 13.368,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.552,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 10,
+        "input": "有缺口，就把补充材料的建议说具体。补拍清楚的局部、底足和款识，或补充有许可的专业记录，让下一轮研究围绕问题展开，而不是重新猜一遍。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 12.288,
+        "metadata_duration": 12.288,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.232,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 11,
+        "input": "材料补充后，原照片和旧意见仍然保留。版本比较，让你看到改变的理由，也看到仍未解决的疑点。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 8.304,
+        "metadata_duration": 8.304,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.576,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 12,
+        "input": "人工复核，面对的是具体材料和具体版本。可以同意，也可以指出不足；系统保存复核意见，不冒充专家签署。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 10.728,
+        "metadata_duration": 10.728,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.232,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 13,
+        "input": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。下一位研究者，可以回到材料，接着核查你的判断。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 9.408,
+        "metadata_duration": 9.408,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.832,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 14,
+        "input": "英伟达的 Spark，是本地研究的算力底座。原始照片进入本地视觉模型；只有预览后批准的文字，才交给外部反证服务。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 9.936,
+        "metadata_duration": 9.936,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.424,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 15,
+        "input": "标准接口、文字推理、资料检索，在本地各有分工。三项独立服务已经验证；正式整案，仍沿用原来的工作路径。先核查新增能力，再决定怎样接入研究流程。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 13.368,
+        "metadata_duration": 13.368,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.792,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 16,
+        "input": "每版观察、审查意见和修订理由，均保留在案卷里。读回原图和原文，让下一位研究者继续核查。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 1.0,
+        "metadata_speed": 1.0,
+        "pcm_duration": 8.808,
+        "metadata_duration": 8.808,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 0.472,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 17,
+        "input": "未来，我们将引入有许可的专家材料，用独立样本，检验方法与结论。把研究流程做扎实，也把能力边界说清楚。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 0.95,
+        "metadata_speed": 0.95,
+        "pcm_duration": 11.16,
+        "metadata_duration": 11.16,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 1.1,
+        "post_voice_padding_max_abs_sample": 0
+      },
+      {
+        "scene": 18,
+        "input": "瓷证，让原图、出处和判断理由，都可以继续核查。完整图文报告、源码和演示，入口在主页。",
+        "aggregate_equals_individual": true,
+        "audio_sha_match": true,
+        "request_sha_match": true,
+        "script_input_match": true,
+        "timestamps_text_match": true,
+        "has_forbidden_rucang": false,
+        "request_speed": 0.9,
+        "metadata_speed": 0.9,
+        "pcm_duration": 10.176,
+        "metadata_duration": 10.176,
+        "pcm_exactly_placed_in_narration": true,
+        "post_voice_padding_seconds": 4.214,
+        "post_voice_padding_max_abs_sample": 0
+      }
+    ],
+    "source_pngs": [
+      {
+        "scene": 1,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/01-opening.png",
+        "sha256": "073b120bd1a13f42f196063d4feccafe2ea140bd85b6ed7db709675d4c79f505",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 2,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/02-scenarios.png",
+        "sha256": "68b8644fa1af4c326aa2193c46a021818be2756e42f37b5f0a66b27fdc7ed522",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 3,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/03-workbench.png",
+        "sha256": "c965075b5de99fcc4b48bfc5a2fc5aa5006ca45f0b9be5203902aa8faf2f4838",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 4,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/04-observe.png",
+        "sha256": "2f82738e0e2e9616cb5b78537c975901141d678b4a2a86fc2bcc4e8528343680",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 5,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/05-read.png",
+        "sha256": "8598b4ada1200407e3e135744a0607a5aadcc9c45435487cf2e827ab3e7d059d",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 6,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/06-catalogue.png",
+        "sha256": "36ecc555cae8b1f941be21615991f5d9a29bd3daac3aa0b78a15776f97c3fb7e",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 7,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/07-skills.png",
+        "sha256": "695f6c9c4d2ba255881203460ecf0ae7c40c8fd832cdbe9371c2dc30d337ad89",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 8,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/08-skills-action.png",
+        "sha256": "aadd933006c11da189b88dc28c41640df329f7d89d1ca2726be7bf520bea5a01",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 9,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/09-contradiction.png",
+        "sha256": "38d2bfbd69356c796dd33b9d437be336fdff042e156de9b6f169df2293cb94e2",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 10,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/10-supplement.png",
+        "sha256": "e37f8c6592022fe0127249ac736448b0613e87f0d9e7bda785ca88dc48c4aef0",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 11,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/11-revision.png",
+        "sha256": "559f6043f97cca0dde3fc0998db78b0b51a9cf366e334130b42d40e43bc0cdf7",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 12,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/12-human.png",
+        "sha256": "f43497cf2090ba69128e9197326e7d81396c41357f3c59db8a9ce6f244ec8aae",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 13,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/13-export.png",
+        "sha256": "469f939e14c12ab373b94bba761b93106ed62494a6d84cdcb4997bd3dab0002b",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 14,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/14-spark.png",
+        "sha256": "ddcadebaef934547cb575dafa27c8bda53a6f133f790aa7486c1dc29c27d25a8",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 15,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/15-local-capability.png",
+        "sha256": "979cea4fb550c8c1f498c5b74c0b7e96be30c2d3903df1648398fe258fe1ac8b",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 16,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/16-actual-record.png",
+        "sha256": "8d4a40afa569812ddd2c8c98038561ecaf57e1bd547ee472c89ed10b77c58edd",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 17,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/17-next.png",
+        "sha256": "e741b67596f30076f60738804c64d9b684d6923aea40ad934056ef588fef89d7",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      },
+      {
+        "scene": 18,
+        "source": "/private/tmp/cizheng-public-v07-20260928/tools/media/stepfun-demo-v11/scenes/18-closing.png",
+        "sha256": "ed01a874d8160cc9f5746406520e45f900d07b79488757ab284a4cb4f33af4e1",
+        "metadata_sha_match": true,
+        "clip_source_sha_match": true,
+        "clip_file_sha_match": true
+      }
+    ],
+    "photos": [
+      {
+        "source": "/private/tmp/cizheng-public-v07-20260928/site/assets/met-48607.jpg",
+        "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "scaled_size": [
+          318,
+          477
+        ],
+        "source_png_photo_pixels_exact_match": true
+      },
+      {
+        "source": "/private/tmp/cizheng-public-v07-20260928/site/assets/met-48607-view2.jpg",
+        "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "scaled_size": [
+          318,
+          477
+        ],
+        "source_png_photo_pixels_exact_match": true
+      }
+    ],
+    "actual_frames": [
+      {
+        "time_seconds": 11,
+        "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-00-11.000s.png",
+        "sha256": "1862ec877d074609aff08a07d7bf70986cc8a05c0d7393ab08d2d91e467f2301",
+        "mean_rgb": 187.8935077481996,
+        "max_rgb": 255.0
+      },
+      {
+        "time_seconds": 53,
+        "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-01-53.000s.png",
+        "sha256": "5dddc603888457905f97bd4869acdf5e632d9ae9be3d905148c5c8894c9e905f",
+        "mean_rgb": 198.23407150205762,
+        "max_rgb": 255.0
+      },
+      {
+        "time_seconds": 199.34599999999998,
+        "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-02-199.346s.png",
+        "sha256": "74a66092ef84840feca5b24172d5e0ab8d246889e85770fbf9bdacafc13fef9b",
+        "mean_rgb": 64.89999115869341,
+        "max_rgb": 255.0
+      },
+      {
+        "time_seconds": 201.76000000000002,
+        "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-03-201.760s.png",
+        "sha256": "13f2df8818649494a48c086bcf455aab73d21bcedf8d09fc5176e6b6bad28ce7",
+        "mean_rgb": 64.80307709619342,
+        "max_rgb": 255.0
+      },
+      {
+        "time_seconds": 202.56,
+        "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-04-202.560s.png",
+        "sha256": "2e2c76e02f300340271f3f2ee3ad59f3fe0bedb4020d58dded983a2da1844223",
+        "mean_rgb": 32.64740708590535,
+        "max_rgb": 137.0
+      },
+      {
+        "time_seconds": 203.32000000000002,
+        "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-05-203.320s.png",
+        "sha256": "79ad40b0cff42e13c549ea26969fdacdd39ccdac692a96013ec3982cb17d6392",
+        "mean_rgb": 1.327542438271605,
+        "max_rgb": 8.0
+      }
+    ],
+    "closing_scene": {
+      "id": "closing",
+      "number": 18,
+      "start": 188.32,
+      "end": 203.35999999999999,
+      "frames": 376,
+      "seconds": 15.04,
+      "voice_start": 188.97,
+      "voice_seconds": 10.176,
+      "voice_speed": 0.9,
+      "post_voice_hold_seconds": 4.214,
+      "image_sha256": "ed01a874d8160cc9f5746406520e45f900d07b79488757ab284a4cb4f33af4e1"
+    },
+    "final_fade_filter": "fade=t=in:st=0:d=0.2,fade=t=out:st=13.44:d=1.6,format=yuv420p",
+    "final_mix_measurement": {
+      "integrated_lufs": -16.34,
+      "true_peak_dbtp": -1.09,
+      "loudness_range_lu": 3.6,
+      "method": "Independent FFmpeg loudnorm input measurement, no output file change"
+    },
+    "music": {
+      "sha256": "410c9de7d75aadc17f7182b1be70c3cd332db65c8a4d83c5a095dc777b4de5d0",
+      "duration_seconds": 203.36,
+      "sha_matches_metric": true,
+      "sha_matches_movie_metadata": true,
+      "measured_integrated_lufs": -29.0,
+      "measured_true_peak_dbtp": -17.06,
+      "metric_integrated_lufs": -29.0,
+      "metric_true_peak_dbtp": -17.06,
+      "score_event_count": 142,
+      "all_notes_in_D_major_pentatonic": true,
+      "final_movie_post_voice_tail_has_nonzero_audio": true,
+      "final_movie_post_voice_tail_rms_dbfs": -37.76353727176669,
+      "final_movie_post_voice_tail_correlation_to_music_source": 0.9184545650418576,
+      "subjective_listening": "unknown"
+    },
+    "movie_sha_stable_after_checks": true
+  },
+  "additional_actual_caption_frames": [
+    {
+      "cue": 13,
+      "time_seconds": 60.64,
+      "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-cue-13-60.640s.png",
+      "sha256": "151144945f4a14232a97e9ba632aec5bd36947e311f9be0843122c7fe6a1f6ab"
+    },
+    {
+      "cue": 45,
+      "time_seconds": 196.21,
+      "path": "/private/tmp/cizheng-v11-build/independent-review-frames/final-candidate-cue-45-196.210s.png",
+      "sha256": "83f2f4f4f7281f55afb482d16e42d28b8241923bd1f2bb98a6045eac8c4d6e92"
+    }
+  ],
+  "visual_observations": {
+    "scene2_title": [
+      "器物研究",
+      "状况记录　来源复核"
+    ],
+    "scene6_title": [
+      "馆藏资料",
+      "先核对具体器物"
+    ],
+    "scene18_title": [
+      "原图出处可追溯",
+      "判断理由可核查"
+    ],
+    "motto": "从材料出发，让判断有据。"
+  },
+  "superseded_candidate_results_do_not_apply": true
+}

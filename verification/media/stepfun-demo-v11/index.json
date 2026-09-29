@@ -1,0 +1,583 @@
+{
+  "schema": "cizheng.stepfun-photo-chinese-demo.v1",
+  "as_of": "2026-09-29",
+  "submitted_urls_unchanged": {
+    "homepage": "https://dingyucanada.github.io/cizheng-agent-skills/",
+    "demo": "https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4",
+    "article": "https://zhuanlan.zhihu.com/p/2088103686509744413"
+  },
+  "movie": {
+    "path": "site/assets/cizheng-demo-v07.mp4",
+    "bytes": 9737091,
+    "sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c"
+  },
+  "duration_seconds": 203.36,
+  "frames": 5084,
+  "final_scene_count": 18,
+  "final_scene_requests_all_http200": true,
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "default_speed": 1.0,
+  "scene_overrides": {
+    "next": {
+      "speed": 0.95,
+      "instruction": "专业、亲切的普通话讲解。接近演示结尾，语气沉稳，句与句之间从容停顿，不加速，不赶时间，保持连贯自然。"
+    },
+    "closing": {
+      "speed": 0.9,
+      "instruction": "温和、从容、专业的普通话结尾。第一句完整舒缓地说完，再自然停顿，随后介绍主页入口。最后一句自然收束，不抢拍，不加速，不用广告腔。"
+    }
+  },
+  "synthesis_unit": "complete scene paragraphs",
+  "post_generation_time_stretch": false,
+  "subtitle_cues": 45,
+  "raw_speech_seconds": 186.576,
+  "public_script_characters": 910,
+  "camera_motion": "fixed images;200ms boundary fades;1.6s final fade",
+  "photo_sources": "Met 18.61.4, two CC0 public collection photographs; same object, no generative editing",
+  "music": {
+    "title": "瓷证·藏影疏弦",
+    "kind": "original synthesized D-gong pentatonic score; no third-party recording",
+    "wav_sha256": "410c9de7d75aadc17f7182b1be70c3cd332db65c8a4d83c5a095dc777b4de5d0",
+    "duration_seconds": 203.36,
+    "meter": "music-metrics.json"
+  },
+  "accepted_wording": {
+    "scenario": "器物研究 / 状况记录　来源复核",
+    "source": "馆藏资料 / 先核对具体器物",
+    "closing": "原图出处可追溯 / 判断理由可核查",
+    "corner_motto": "从材料出发，让判断有据。"
+  },
+  "baseline": {
+    "commit": "a772bae886f5b565813ac53b615ba7a151250a0d",
+    "movie_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
+    "prior_evidence": "verification/media/stepfun-demo-v10/index.json"
+  },
+  "audio_sent_scope": "Public authored narration / public final-movie audio only; no object images or private expert samples sent to TTS/ASR",
+  "cached_voice_origin": "Fourteen unchanged successful scene MP3s reused with request and audio SHA checks; scenes2,6,17,18 resynthesized for this media revision",
+  "manual_listening_performed": false,
+  "naturalness_score_claimed": false,
+  "professional_accuracy_evaluated": false,
+  "artifacts": [
+    {
+      "path": "site/assets/cizheng-demo-v07.mp4",
+      "bytes": 9737091,
+      "sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c"
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.srt",
+      "bytes": 4288,
+      "sha256": "e582c0a8e3b85a12ddb00b00c1618cc7e9ea25d5e45381549ebcb8f9496aff67"
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.json",
+      "bytes": 22870,
+      "sha256": "0a6e3f35e0807246cfc945d62ed0ead5efea42a7490189c9102ab1beab7542d6"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/README.md",
+      "bytes": 1205,
+      "sha256": "d86b8f08f5bb5273128d6b12715fba79b336e816e66322afc75e2fc862f96849"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/closing-hold.jpg",
+      "bytes": 179444,
+      "sha256": "e48e3f8a75c8c2c96cf41aa7069f23c31a637fc9bc3afb2d912c357c48cd85e3"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/contact-1.jpg",
+      "bytes": 230739,
+      "sha256": "6d35d093fc4a5323c53a9abed72eed5ddc8f43278b64c9afe437b685390fc5e4"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/contact-2.jpg",
+      "bytes": 222418,
+      "sha256": "1351ab27f0646b1b844030ed8035bb74c221b900e3446859c07a22643d20ae3b"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/contact-3.jpg",
+      "bytes": 245195,
+      "sha256": "f924cef57f7f492fe20539f51fc04632916b7df348687d053784233a566e5343"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/contact-4.jpg",
+      "bytes": 198525,
+      "sha256": "14e891b8b3c2ced6cb40ae28b11f5879fb4d8ac3708e665e7de61ce7f29254bf"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/contact-5.jpg",
+      "bytes": 205659,
+      "sha256": "d1cd546e871c3b70dae7d649459c92ce2736ed0695cfc3f2d44107273c55028f"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/final-asr.json",
+      "bytes": 3722,
+      "sha256": "6a17890d9d704407d1ee9450daa33ffe2dbb929ba4e601516ff4c89537ad7cc0"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/independent-repair-review.json",
+      "bytes": 30499,
+      "sha256": "1a6745b544c320db3a4d6ddf797b85ab92f465fd3e63866494d31b7089f563c2"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/independent-repair-review.md",
+      "bytes": 3801,
+      "sha256": "ad6f77c9794e10ffb88d847c1dedf5dc52809b2b4125b8679c2c231b7be203bc"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/metadata.json",
+      "bytes": 3487,
+      "sha256": "f31ddc323e5a3d23c1fbb4e7111363644ff31c9813a8b9d2532f0c42c6736c62"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/music-metrics.json",
+      "bytes": 1501,
+      "sha256": "0d5cce1adda5d09a1334fcc8f2ab49b1c77c2fe9ad2125749b827ebe39d82e71"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/music-score.json",
+      "bytes": 18730,
+      "sha256": "8b06b4ddefed33d86625d12392cadee7abc40e141a23919ccd968828a1dea800"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/photo-53s.jpg",
+      "bytes": 191064,
+      "sha256": "d722d162f870c29d23e3c2494a03f215215bc255c4bdb0dc6f9537fe97216c66"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/scenario-11s.jpg",
+      "bytes": 190832,
+      "sha256": "06e4c3cccffb709c3ab35f0a8e7c2f7b60fb27ff11afb30d46c57ca5eb627fba"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/verification.json",
+      "bytes": 6549,
+      "sha256": "e8a9e7e65144f859245b3de5379c9d1f816828f699531ed02a602f03e867575c"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v11/voice-receipt.json",
+      "bytes": 122832,
+      "sha256": "736fca50334c84a3961d9ab5c5583ad2cef4c780f651c423c7ceef08845a8c21"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/README.md",
+      "bytes": 4489,
+      "sha256": "cd1b5b6ddfb24508456fabf7a96994e86e23d0a32c40ca737076993f082de960"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/add_catalogue_photos.py",
+      "bytes": 4963,
+      "sha256": "7b99263690c2ffd52fc5acc5a18f06787802e0b5f142713d1ecac3903e7e9b47"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/01-opening-request.json",
+      "bytes": 580,
+      "sha256": "5592647f4f502c73e92dd648f5325e4cad5f646f44b3c8e450710aa79accbf00"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/01-opening.json",
+      "bytes": 5140,
+      "sha256": "b38dd22d8acdd269dd543e293e144bd6d2dc30190cd60eaf8f1b54a7763ccb14"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/01-opening.mp3",
+      "bytes": 145838,
+      "sha256": "8ddb4a3e7ec642035351b59983ba55c0f2550eab3a710b72cdeff44fc1012f73"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/02-scenarios-request.json",
+      "bytes": 559,
+      "sha256": "9f83326899a399539798438064438c639779216585cbc30342a8f6922951a7ac"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/02-scenarios.json",
+      "bytes": 4406,
+      "sha256": "836c04ed62797ea95384df2d43b41a6052b2edabdd2f472332935b60509b93fc"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/02-scenarios.mp3",
+      "bytes": 140456,
+      "sha256": "3a069fb9689d63c994161b9206a6fdf06da5379b59152425af2acf7ae60345ac"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/03-workbench-request.json",
+      "bytes": 583,
+      "sha256": "51d31a0248942f13f5f8ab0105c26961aee2783fab2dff07819b96587c275046"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/03-workbench.json",
+      "bytes": 5176,
+      "sha256": "72805fb2f70455e954abc2bb8c06b7e12105e93f9df8caf3e30e3e2289d2f140"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/03-workbench.mp3",
+      "bytes": 162344,
+      "sha256": "10b3359676c84bb617da554fe4e27ed089a56960889fcef6d82133709b607b2b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/04-observe-request.json",
+      "bytes": 580,
+      "sha256": "8f26b7d7c81ae043badce380c42ce60ab7e7c3ccb4ce1447248aa117cad34e75"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/04-observe.json",
+      "bytes": 4971,
+      "sha256": "371565daf071aff1e7148a7f7c8d45188f4985eef4d7fda9668daf3ae5bb95cd"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/04-observe.mp3",
+      "bytes": 179630,
+      "sha256": "c2af289a36fd5b315589defb2987d1039f0101201ed3285940da010785f9a8e0"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/05-read-request.json",
+      "bytes": 616,
+      "sha256": "43a7ecf4f063b8ccd0fb36b953213ee8a44bcac7c06306504172e8da0eca05ff"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/05-read.json",
+      "bytes": 6269,
+      "sha256": "8303b93f14fb99a5fcd15f46fafcdc049a79a8fb6c696b4a88de8ea0555dc42e"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/05-read.mp3",
+      "bytes": 177706,
+      "sha256": "888fd9d690cdb0688a62b6dca5b48d9c8954f6ce39bd09f51ddcc74dc2349415"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/06-catalogue-request.json",
+      "bytes": 607,
+      "sha256": "e52a0c5d13a1b15855b8e091d9586fff166dddacaa27f147f35f592f0c1c945e"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/06-catalogue.json",
+      "bytes": 6262,
+      "sha256": "8cfd1141fd571290ed37fee8db9c7716ff3f028b20151155f181f84bc2e7f477"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/06-catalogue.mp3",
+      "bytes": 179628,
+      "sha256": "113a888614ecfd5ed172eab59fa1cc3ead35d617c6e8c4aa8208ced9e654462b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/07-skills-request.json",
+      "bytes": 571,
+      "sha256": "2e5a53ae6fee8f0bb3803560234a42c9f7a1ada561df4b945b5a1ff00ac66ed4"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/07-skills.json",
+      "bytes": 4731,
+      "sha256": "9b799406f09cc9b2863a613f38f64da715a1d9025a14d9a142aeaff48b4e758a"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/07-skills.mp3",
+      "bytes": 140456,
+      "sha256": "4453bd536548a5d8fc5e2fbbc3cc3188f9e2753963e3a5b0d439f614ad74a2db"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/08-skills-action-request.json",
+      "bytes": 595,
+      "sha256": "48ac39cb90edb151e4181117300a3f45f732328e5c79fa9c8d016b8e272bfea1"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/08-skills-action.json",
+      "bytes": 5618,
+      "sha256": "8b6a565cfed01924323eea864c86bb1ea7180d9dde650cabeb1743fb5a0d39cd"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/08-skills-action.mp3",
+      "bytes": 150058,
+      "sha256": "ae5296d083f75377e345299c2c57e05fa60813afdb420cc248c4589e1afc673d"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/09-contradiction-request.json",
+      "bytes": 664,
+      "sha256": "8f70e1835e45767d4305c1ea966cabc733df3004fa12b63b97a0ca9f1a44e5f2"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/09-contradiction.json",
+      "bytes": 7963,
+      "sha256": "79b0f8195235abdcceb4c9eb5943cce6389b6ccb74c520ba2268c385603cddc3"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/09-contradiction.mp3",
+      "bytes": 215340,
+      "sha256": "42ddf40e00cab0172993fc388cbb491b9453edc50d4785f0b98dacd4de730fcf"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/10-supplement-request.json",
+      "bytes": 643,
+      "sha256": "b5a6b73cc9f05f5f0689fdc376f7fec54ddc50c54b07b73c416f6e0f5c39e756"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/10-supplement.json",
+      "bytes": 7287,
+      "sha256": "a3af6485bb620ce7d2a45352097c9e14774b243dad1a6aab90b44b4a0c83c395"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/10-supplement.mp3",
+      "bytes": 198062,
+      "sha256": "81586691be1f0e222852903792d0d46a8bfbad01ff85704344ee195446689159"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/11-revision-request.json",
+      "bytes": 580,
+      "sha256": "7d37e6801d0bda4aabef8810080c40b7a2cf3709c3826d33a8b3ab5adb774c4d"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/11-revision.json",
+      "bytes": 5160,
+      "sha256": "6b6f7fdc2c2b891ae27fa08b69b64ac79ab8c6529c54c96ebaceeff9d65982a8"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/11-revision.mp3",
+      "bytes": 134316,
+      "sha256": "09d7f2f7935628248c95503aee10d27d203f1d1697e51708025a3199e8a7a9fc"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/12-human-request.json",
+      "bytes": 595,
+      "sha256": "4c4f51e281fe2e459269a7e3b239ee45d0201f4b559d2e9d9e8af365381a1c40"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/12-human.json",
+      "bytes": 5613,
+      "sha256": "0c3adb782ec47979f195577b7b5925015977f6ed239741463afa127b91764904"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/12-human.mp3",
+      "bytes": 173100,
+      "sha256": "b2ecbd7d45b70d2d5bb1e60efb14c6f0f1dc45cdc70dca951818972e19f04551"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/13-export-request.json",
+      "bytes": 598,
+      "sha256": "8e6fd505788442f6c67bb7c67d09f2eb59c4f5558c872bc986fa6ff0f700a4ec"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/13-export.json",
+      "bytes": 5618,
+      "sha256": "4ce2c69a6087f361da2bc8c1bece06d4446b7d64f7948b4f5743a36b2ccb6b27"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/13-export.mp3",
+      "bytes": 151980,
+      "sha256": "81515ecc2bde55ec6a6ed43e5c20387cf6efc2eb503c3c86d7d1c4ea8c00729b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/14-spark-request.json",
+      "bytes": 604,
+      "sha256": "5bfc4a91bd15cd3e1c03cf093c0f69c6f802d4c91caeef03d7d670f3f8f909bd"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/14-spark.json",
+      "bytes": 5932,
+      "sha256": "33c16a3b991143261d06eeae5264948ee92a7b93f2681361722f9b973c9bf61e"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/14-spark.mp3",
+      "bytes": 160428,
+      "sha256": "32cc6be5dcf4692d485594cf020f5633414db8ef70984eefb393ccb14e16efd9"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/15-local-capability-request.json",
+      "bytes": 658,
+      "sha256": "9f203e5d43aea95df5be4c7b775c83ab1d3c0bdb8a474394282b0702ed10ed0f"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/15-local-capability.json",
+      "bytes": 7654,
+      "sha256": "3b91b8d7a42275e6d7de929ba2d40cee773466b1eb4548f8cd64f4519dae2790"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/15-local-capability.mp3",
+      "bytes": 215340,
+      "sha256": "688cb4bebfaa75a6cc6554c8d53f27fca707ee20e023941d257333f6082e5fd7"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/16-actual-record-request.json",
+      "bytes": 577,
+      "sha256": "480b3ad1976e7870e599f2ab3f62499daa5e2f5a068a02a2101987992ef96752"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/16-actual-record.json",
+      "bytes": 5061,
+      "sha256": "45cf0dd936872a77c811997134e8c5c22d84410343ed8c5a44d7e9c65aef4fe6"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/16-actual-record.mp3",
+      "bytes": 142380,
+      "sha256": "5d70d37370b5d0d666ca06988aa5a982d0cb35960b20c819135d48af3c20e1e7"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/17-next-request.json",
+      "bytes": 506,
+      "sha256": "354940851b93aec2a1a217b164ab902e5c7cf5f5277bc6417e45d138ba76bec0"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/17-next.json",
+      "bytes": 5719,
+      "sha256": "55e32df9681ceba46030a096508aad56e5905561520fd0468b0dd8ec0476df0a"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/17-next.mp3",
+      "bytes": 180014,
+      "sha256": "aed3046dccc047a3c18e3ecd41af5ac3129f36139c1ce32fa6fb85272ac3f038"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/18-closing-request.json",
+      "bytes": 523,
+      "sha256": "ff5041da7bf35d0fedad92e581c03e69f63cb9e7389940af97924b5f8210b9be"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/18-closing.json",
+      "bytes": 4752,
+      "sha256": "2763164f19cf77b1b091dda6b5c5f26a57d7dd5f2e51896d6d37652fbebb5bd8"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/18-closing.mp3",
+      "bytes": 164268,
+      "sha256": "72698a49669c87a561cdef0fcb530092dd826295fbe2a4a634e501a59139474b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/audio/voice-receipt.json",
+      "bytes": 122832,
+      "sha256": "736fca50334c84a3961d9ab5c5583ad2cef4c780f651c423c7ceef08845a8c21"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/build_movie.py",
+      "bytes": 9782,
+      "sha256": "5914779737255e6e8c9ea02392ebb836c3b8fb5ceee836360f6f6d85b50c494e"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/generate_music.py",
+      "bytes": 18536,
+      "sha256": "b84dd5963a507b88f2c1e22d809fb8cb3b620c516f95a2b42581538ad6f8e734"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/motto-revision.json",
+      "bytes": 2419,
+      "sha256": "a8a8ac3b6504d9bdad6d93ee422b35335b82efd23048152c243038267903c262"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/photo-compositing-receipt.json",
+      "bytes": 772,
+      "sha256": "704ebb17e6ad028c3eaa0269eac02ff8ab65a7f7e9f5003e01c917579348d99e"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/reference-edit.json",
+      "bytes": 20379,
+      "sha256": "53017493248940caebcff4bd27bb47328004d34375b4d8298ea3584be134928b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scene-plan.json",
+      "bytes": 10836,
+      "sha256": "b6a44e70a90a12e6448e41d224b3893cf60d828baa85eb3d1bfee09d761e617b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/01-opening.png",
+      "bytes": 395895,
+      "sha256": "073b120bd1a13f42f196063d4feccafe2ea140bd85b6ed7db709675d4c79f505"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/02-scenarios.png",
+      "bytes": 531757,
+      "sha256": "68b8644fa1af4c326aa2193c46a021818be2756e42f37b5f0a66b27fdc7ed522"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/03-workbench.png",
+      "bytes": 339681,
+      "sha256": "c965075b5de99fcc4b48bfc5a2fc5aa5006ca45f0b9be5203902aa8faf2f4838"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/04-observe.png",
+      "bytes": 499257,
+      "sha256": "2f82738e0e2e9616cb5b78537c975901141d678b4a2a86fc2bcc4e8528343680"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/05-read.png",
+      "bytes": 452902,
+      "sha256": "8598b4ada1200407e3e135744a0607a5aadcc9c45435487cf2e827ab3e7d059d"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/06-catalogue.png",
+      "bytes": 394697,
+      "sha256": "36ecc555cae8b1f941be21615991f5d9a29bd3daac3aa0b78a15776f97c3fb7e"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/07-skills.png",
+      "bytes": 225103,
+      "sha256": "695f6c9c4d2ba255881203460ecf0ae7c40c8fd832cdbe9371c2dc30d337ad89"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/08-skills-action.png",
+      "bytes": 132971,
+      "sha256": "aadd933006c11da189b88dc28c41640df329f7d89d1ca2726be7bf520bea5a01"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/09-contradiction.png",
+      "bytes": 288494,
+      "sha256": "38d2bfbd69356c796dd33b9d437be336fdff042e156de9b6f169df2293cb94e2"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/10-supplement.png",
+      "bytes": 513485,
+      "sha256": "e37f8c6592022fe0127249ac736448b0613e87f0d9e7bda785ca88dc48c4aef0"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/11-revision.png",
+      "bytes": 298358,
+      "sha256": "559f6043f97cca0dde3fc0998db78b0b51a9cf366e334130b42d40e43bc0cdf7"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/12-human.png",
+      "bytes": 140630,
+      "sha256": "f43497cf2090ba69128e9197326e7d81396c41357f3c59db8a9ce6f244ec8aae"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/13-export.png",
+      "bytes": 223803,
+      "sha256": "469f939e14c12ab373b94bba761b93106ed62494a6d84cdcb4997bd3dab0002b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/14-spark.png",
+      "bytes": 134909,
+      "sha256": "ddcadebaef934547cb575dafa27c8bda53a6f133f790aa7486c1dc29c27d25a8"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/15-local-capability.png",
+      "bytes": 156381,
+      "sha256": "979cea4fb550c8c1f498c5b74c0b7e96be30c2d3903df1648398fe258fe1ac8b"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/16-actual-record.png",
+      "bytes": 109359,
+      "sha256": "8d4a40afa569812ddd2c8c98038561ecaf57e1bd547ee472c89ed10b77c58edd"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/17-next.png",
+      "bytes": 130671,
+      "sha256": "e741b67596f30076f60738804c64d9b684d6923aea40ad934056ef588fef89d7"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/scenes/18-closing.png",
+      "bytes": 423304,
+      "sha256": "ed01a874d8160cc9f5746406520e45f900d07b79488757ab284a4cb4f33af4e1"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/synthesize.py",
+      "bytes": 5801,
+      "sha256": "b394dfa237c62bd5038691091f938d0f292f1dd39fc294a2f26566e58121a63d"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/update_motto.py",
+      "bytes": 1100,
+      "sha256": "53afe1ebdba422c61d94b24b0d56ea3fbbc3342ab04c3111f315b99fd9ea32ed"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v11/verify_movie.py",
+      "bytes": 3539,
+      "sha256": "5499a24e17efd4bca45ed87338dce26f525ca799c4bd45926dfa71b736b52021"
+    }
+  ]
+}

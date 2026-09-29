@@ -15,15 +15,15 @@
   "microsoft_powerpoint_native_ui_checked": false,
   "screen_lock": "No GUI operation or screen-lock bypass used",
   "domain_limit": "Technical checks and citation identity checks do not establish ceramic claim truth, accuracy or expert approval",
-  "video_checks": "Current193.12s StepFun voiced main movie fully AV decoded,45 actual subtitle frames visually inspected,18 picture regions sampled fixed; actual final ASR and keyless offline re-encode bound to this movie. Unchanged original round11/12 replays retain their own earlier checks.",
-  "video1_scope": "StepFun synthetic Chinese narration, complete paragraphs at speed1.0, original ambient score, fixed still images with200ms fades; actual teaching screenshots and saved-record reconstruction, not continuous inference or expert authentication",
+  "video_checks": "Current 203.36s movie fully AV decoded;45 actual subtitle frames visually inspected;18 picture regions sampled fixed;actual final ASR bound to the current movie. Prior round11/12 replay checks remain independent.",
+  "video1_scope": "StepFun synthetic Chinese narration; complete scene paragraphs, default speed1.0, next0.95 and closing0.90; no post-generation time stretch; original quiet D-gong pentatonic score; static stills with200ms boundaries and1.6s final fade. Public photos, teaching screens and saved-record reconstruction.",
   "video2_scope": "80s actual round12 saved-record reconstruction, not continuous screen recording; technical complete, quality false",
   "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive",
   "ppt_detailed_qa": "docs/pitch-v09-qa.json",
   "demo_detailed_qa": [
-    "verification/media/stepfun-demo-v10/index.json",
-    "verification/media/stepfun-demo-v10/verification.json",
-    "verification/media/stepfun-demo-v10/final-asr.json"
+    "verification/media/stepfun-demo-v11/index.json",
+    "verification/media/stepfun-demo-v11/verification.json",
+    "verification/media/stepfun-demo-v11/final-asr.json"
   ],
-  "main_video_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e"
+  "main_video_sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c"
 }

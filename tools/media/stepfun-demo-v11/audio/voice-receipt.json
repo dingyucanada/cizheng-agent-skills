@@ -1,0 +1,4549 @@
+{
+  "schema": "cizheng.demo-stepfun-voice.v2",
+  "endpoint": "https://api.stepfun.com/step_plan/v1/audio/speech",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "instruction": "自然、亲切、专业的普通话项目讲解，像研究员向同行介绍工作台。中等语速，按完整句子连贯表达。语气沉稳有叙述感，避免逐词断开、夸张播音腔和长时间停顿。疑问句自然上扬。",
+  "default_speed": 1.0,
+  "scene_overrides": {
+    "next": {
+      "speed": 0.95,
+      "instruction": "专业、亲切的普通话讲解。接近演示结尾，语气沉稳，句与句之间从容停顿，不加速，不赶时间，保持连贯自然。"
+    },
+    "closing": {
+      "speed": 0.9,
+      "instruction": "温和、从容、专业的普通话结尾。第一句完整舒缓地说完，再自然停顿，随后介绍主页入口。最后一句自然收束，不抢拍，不加速，不用广告腔。"
+    }
+  },
+  "post_generation_time_stretch": false,
+  "synthesis_unit": "one complete paragraph per scene, not separate sentences",
+  "approved_input_scope": "Authored public demo narration only; no object images, private attachments or expert answers",
+  "request_count": 18,
+  "request_count_scope": "Successful source scene receipts, including previously cached scenes; not the number of new calls in this edit",
+  "scenes": [
+    {
+      "status": 200,
+      "content_type": "text/event-stream",
+      "types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "duration_seconds": 9.024,
+      "subtitles": [
+        {
+          "text": "一件青花器物，值得研究的，不只是它像哪个年代。更重要的是：这个判断，依据什么，又缺什么？",
+          "request_id": "0f171f9d95f637cceff9fcb80b0f187f.01a0eb4dbb4f73b58950753bedc05c00",
+          "items": [
+            {
+              "text": "一",
+              "start_time": 240,
+              "end_time": 400
+            },
+            {
+              "text": "件",
+              "start_time": 400,
+              "end_time": 560
+            },
+            {
+              "text": "青",
+              "start_time": 560,
+              "end_time": 880
+            },
+            {
+              "text": "花",
+              "start_time": 880,
+              "end_time": 1040
+            },
+            {
+              "text": "器",
+              "start_time": 1040,
+              "end_time": 1280
+            },
+            {
+              "text": "物，",
+              "start_time": 1280,
+              "end_time": 1520
+            },
+            {
+              "text": "值",
+              "start_time": 1840,
+              "end_time": 2080
+            },
+            {
+              "text": "得",
+              "start_time": 2080,
+              "end_time": 2160
+            },
+            {
+              "text": "研",
+              "start_time": 2160,
+              "end_time": 2320
+            },
+            {
+              "text": "究",
+              "start_time": 2320,
+              "end_time": 2480
+            },
+            {
+              "text": "的，",
+              "start_time": 2480,
+              "end_time": 2560
+            },
+            {
+              "text": "不",
+              "start_time": 2560,
+              "end_time": 2640
+            },
+            {
+              "text": "只",
+              "start_time": 2640,
+              "end_time": 2800
+            },
+            {
+              "text": "是",
+              "start_time": 2800,
+              "end_time": 2880
+            },
+            {
+              "text": "它",
+              "start_time": 2880,
+              "end_time": 3040
+            },
+            {
+              "text": "像",
+              "start_time": 3040,
+              "end_time": 3200
+            },
+            {
+              "text": "哪",
+              "start_time": 3200,
+              "end_time": 3360
+            },
+            {
+              "text": "个",
+              "start_time": 3360,
+              "end_time": 3520
+            },
+            {
+              "text": "年",
+              "start_time": 3520,
+              "end_time": 3680
+            },
+            {
+              "text": "代。",
+              "start_time": 3680,
+              "end_time": 4000
+            },
+            {
+              "text": "更",
+              "start_time": 4720,
+              "end_time": 4960
+            },
+            {
+              "text": "重",
+              "start_time": 4960,
+              "end_time": 5120
+            },
+            {
+              "text": "要",
+              "start_time": 5120,
+              "end_time": 5280
+            },
+            {
+              "text": "的",
+              "start_time": 5280,
+              "end_time": 5360
+            },
+            {
+              "text": "是：",
+              "start_time": 5360,
+              "end_time": 5760
+            },
+            {
+              "text": "这",
+              "start_time": 6080,
+              "end_time": 6320
+            },
+            {
+              "text": "个",
+              "start_time": 6320,
+              "end_time": 6400
+            },
+            {
+              "text": "判",
+              "start_time": 6400,
+              "end_time": 6640
+            },
+            {
+              "text": "断，",
+              "start_time": 6640,
+              "end_time": 6960
+            },
+            {
+              "text": "依",
+              "start_time": 7200,
+              "end_time": 7360
+            },
+            {
+              "text": "据",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "什",
+              "start_time": 7520,
+              "end_time": 7680
+            },
+            {
+              "text": "么，",
+              "start_time": 7680,
+              "end_time": 7840
+            },
+            {
+              "text": "又",
+              "start_time": 8240,
+              "end_time": 8400
+            },
+            {
+              "text": "缺",
+              "start_time": 8400,
+              "end_time": 8640
+            },
+            {
+              "text": "什",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "么？",
+              "start_time": 8800,
+              "end_time": 8880
+            }
+          ],
+          "timestamp": 1790654139173
+        }
+      ],
+      "raw_sse_sha256": "495d2f71e362847454dda4fd74d6904d04552e0af96faaa96b9a30af4c8f4e28",
+      "request_sha256": "5592647f4f502c73e92dd648f5325e4cad5f646f44b3c8e450710aa79accbf00",
+      "audio_sha256": "8ddb4a3e7ec642035351b59983ba55c0f2550eab3a710b72cdeff44fc1012f73",
+      "elapsed_seconds": 4.488824292,
+      "retry_count": 0,
+      "scene": "opening",
+      "number": 1,
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "audio": "01-opening.mp3",
+      "audio_bytes": 145838,
+      "response_sse_sha256": "495d2f71e362847454dda4fd74d6904d04552e0af96faaa96b9a30af4c8f4e28",
+      "input": "一件青花器物，值得研究的，不只是它像哪个年代。更重要的是：这个判断，依据什么，又缺什么？",
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ]
+    },
+    {
+      "scene": "scenarios",
+      "number": 2,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "9f83326899a399539798438064438c639779216585cbc30342a8f6922951a7ac",
+      "response_sse_sha256": "f662b8f1f90c2e2f4c85c56dfaf996e732c98e01999aab46929fa050dba4d0af",
+      "audio": "02-scenarios.mp3",
+      "audio_sha256": "3a069fb9689d63c994161b9206a6fdf06da5379b59152425af2acf7ae60345ac",
+      "audio_bytes": 140456,
+      "duration_seconds": 8.688,
+      "elapsed_seconds": 4.167650541756302,
+      "input": "器物研究、状况记录、来源核查，各有侧重。都需要一份能追到原材料的研究记录。",
+      "subtitles": [
+        {
+          "text": "器物研究、状况记录、来源核查，各有侧重。都需要一份能追到原材料的研究记录。",
+          "request_id": "3a96a5059608b0d1a7c9418b9d0ee9bc.01a0ebb68af17af3b73e3a74515ee02c",
+          "items": [
+            {
+              "text": "器",
+              "start_time": 160,
+              "end_time": 320
+            },
+            {
+              "text": "物",
+              "start_time": 320,
+              "end_time": 480
+            },
+            {
+              "text": "研",
+              "start_time": 480,
+              "end_time": 720
+            },
+            {
+              "text": "究、",
+              "start_time": 720,
+              "end_time": 1040
+            },
+            {
+              "text": "状",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "况",
+              "start_time": 1600,
+              "end_time": 1760
+            },
+            {
+              "text": "记",
+              "start_time": 1760,
+              "end_time": 1920
+            },
+            {
+              "text": "录、",
+              "start_time": 1920,
+              "end_time": 2160
+            },
+            {
+              "text": "来",
+              "start_time": 2560,
+              "end_time": 2720
+            },
+            {
+              "text": "源",
+              "start_time": 2720,
+              "end_time": 2960
+            },
+            {
+              "text": "核",
+              "start_time": 2960,
+              "end_time": 3120
+            },
+            {
+              "text": "查，",
+              "start_time": 3120,
+              "end_time": 3520
+            },
+            {
+              "text": "各",
+              "start_time": 3920,
+              "end_time": 4080
+            },
+            {
+              "text": "有",
+              "start_time": 4080,
+              "end_time": 4160
+            },
+            {
+              "text": "侧",
+              "start_time": 4240,
+              "end_time": 4400
+            },
+            {
+              "text": "重。",
+              "start_time": 4400,
+              "end_time": 4640
+            },
+            {
+              "text": "都",
+              "start_time": 5600,
+              "end_time": 5760
+            },
+            {
+              "text": "需",
+              "start_time": 5760,
+              "end_time": 5920
+            },
+            {
+              "text": "要",
+              "start_time": 5920,
+              "end_time": 6000
+            },
+            {
+              "text": "一",
+              "start_time": 6000,
+              "end_time": 6160
+            },
+            {
+              "text": "份",
+              "start_time": 6160,
+              "end_time": 6640
+            },
+            {
+              "text": "能",
+              "start_time": 6640,
+              "end_time": 6880
+            },
+            {
+              "text": "追",
+              "start_time": 6880,
+              "end_time": 6960
+            },
+            {
+              "text": "到",
+              "start_time": 6960,
+              "end_time": 7120
+            },
+            {
+              "text": "原",
+              "start_time": 7120,
+              "end_time": 7280
+            },
+            {
+              "text": "材",
+              "start_time": 7280,
+              "end_time": 7440
+            },
+            {
+              "text": "料",
+              "start_time": 7440,
+              "end_time": 7680
+            },
+            {
+              "text": "的",
+              "start_time": 7680,
+              "end_time": 7760
+            },
+            {
+              "text": "研",
+              "start_time": 7760,
+              "end_time": 7920
+            },
+            {
+              "text": "究",
+              "start_time": 7920,
+              "end_time": 8000
+            },
+            {
+              "text": "记",
+              "start_time": 8000,
+              "end_time": 8240
+            },
+            {
+              "text": "录。",
+              "start_time": 8240,
+              "end_time": 8400
+            }
+          ],
+          "timestamp": 1790661007852
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "workbench",
+      "number": 3,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "51d31a0248942f13f5f8ab0105c26961aee2783fab2dff07819b96587c275046",
+      "response_sse_sha256": "0fdc99340f384762dd9a046a8f9dbf2f2ba9e883fadd9f0909fe31dafd1cac56",
+      "audio": "03-workbench.mp3",
+      "audio_sha256": "10b3359676c84bb617da554fe4e27ed089a56960889fcef6d82133709b607b2b",
+      "audio_bytes": 162344,
+      "duration_seconds": 10.056,
+      "elapsed_seconds": 4.939800334,
+      "input": "瓷证，把原图、资料和研究意见，放在同一张工作台。从照片开始，每一步都留下可继续工作的记录。",
+      "subtitles": [
+        {
+          "text": "瓷证，把原图、资料和研究意见，放在同一张工作台。从照片开始，每一步都留下可继续工作的记录。",
+          "request_id": "897cb7e4312ae065842cf01b27522161.01a0eb4ed71474ae820d554008ea78f6",
+          "items": [
+            {
+              "text": "瓷",
+              "start_time": 160,
+              "end_time": 400
+            },
+            {
+              "text": "证，",
+              "start_time": 400,
+              "end_time": 640
+            },
+            {
+              "text": "把",
+              "start_time": 1120,
+              "end_time": 1280
+            },
+            {
+              "text": "原",
+              "start_time": 1280,
+              "end_time": 1520
+            },
+            {
+              "text": "图、",
+              "start_time": 1520,
+              "end_time": 1920
+            },
+            {
+              "text": "资",
+              "start_time": 2000,
+              "end_time": 2240
+            },
+            {
+              "text": "料",
+              "start_time": 2240,
+              "end_time": 2560
+            },
+            {
+              "text": "和",
+              "start_time": 2720,
+              "end_time": 2800
+            },
+            {
+              "text": "研",
+              "start_time": 2800,
+              "end_time": 3040
+            },
+            {
+              "text": "究",
+              "start_time": 3040,
+              "end_time": 3120
+            },
+            {
+              "text": "意",
+              "start_time": 3120,
+              "end_time": 3280
+            },
+            {
+              "text": "见，",
+              "start_time": 3280,
+              "end_time": 3520
+            },
+            {
+              "text": "放",
+              "start_time": 3840,
+              "end_time": 4000
+            },
+            {
+              "text": "在",
+              "start_time": 4000,
+              "end_time": 4080
+            },
+            {
+              "text": "同",
+              "start_time": 4080,
+              "end_time": 4320
+            },
+            {
+              "text": "一",
+              "start_time": 4320,
+              "end_time": 4400
+            },
+            {
+              "text": "张",
+              "start_time": 4400,
+              "end_time": 4560
+            },
+            {
+              "text": "工",
+              "start_time": 4560,
+              "end_time": 4720
+            },
+            {
+              "text": "作",
+              "start_time": 4720,
+              "end_time": 4800
+            },
+            {
+              "text": "台。",
+              "start_time": 4800,
+              "end_time": 5120
+            },
+            {
+              "text": "从",
+              "start_time": 6080,
+              "end_time": 6240
+            },
+            {
+              "text": "照",
+              "start_time": 6240,
+              "end_time": 6400
+            },
+            {
+              "text": "片",
+              "start_time": 6400,
+              "end_time": 6560
+            },
+            {
+              "text": "开",
+              "start_time": 6560,
+              "end_time": 6720
+            },
+            {
+              "text": "始，",
+              "start_time": 6720,
+              "end_time": 7040
+            },
+            {
+              "text": "每",
+              "start_time": 7440,
+              "end_time": 7680
+            },
+            {
+              "text": "一",
+              "start_time": 7680,
+              "end_time": 7760
+            },
+            {
+              "text": "步",
+              "start_time": 7760,
+              "end_time": 8080
+            },
+            {
+              "text": "都",
+              "start_time": 8240,
+              "end_time": 8320
+            },
+            {
+              "text": "留",
+              "start_time": 8320,
+              "end_time": 8480
+            },
+            {
+              "text": "下",
+              "start_time": 8480,
+              "end_time": 8640
+            },
+            {
+              "text": "可",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "继",
+              "start_time": 8800,
+              "end_time": 8960
+            },
+            {
+              "text": "续",
+              "start_time": 8960,
+              "end_time": 9120
+            },
+            {
+              "text": "工",
+              "start_time": 9120,
+              "end_time": 9280
+            },
+            {
+              "text": "作",
+              "start_time": 9280,
+              "end_time": 9440
+            },
+            {
+              "text": "的",
+              "start_time": 9440,
+              "end_time": 9520
+            },
+            {
+              "text": "记",
+              "start_time": 9520,
+              "end_time": 9760
+            },
+            {
+              "text": "录。",
+              "start_time": 9760,
+              "end_time": 9920
+            }
+          ],
+          "timestamp": 1790654212331
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "observe",
+      "number": 4,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "8f26b7d7c81ae043badce380c42ce60ab7e7c3ccb4ce1447248aa117cad34e75",
+      "response_sse_sha256": "2caff1bad44dbea5a137b39242cc556d1ad7aaa36015a7da4069d9d8766ab82f",
+      "audio": "04-observe.mp3",
+      "audio_sha256": "c2af289a36fd5b315589defb2987d1039f0101201ed3285940da010785f9a8e0",
+      "audio_bytes": 179630,
+      "duration_seconds": 11.136,
+      "elapsed_seconds": 4.396420333,
+      "input": "先观察，再解释。山水、花篮、口沿和装饰带，都应当指回具体照片与区域，避免只留下模糊印象。",
+      "subtitles": [
+        {
+          "text": "先观察，再解释。山水、花篮、口沿和装饰带，都应当指回具体照片与区域，避免只留下模糊印象。",
+          "request_id": "e1b938f76a212fddc476ad6b36429101.01a0eb4eea207ccca257ed52d183e71f",
+          "items": [
+            {
+              "text": "先",
+              "start_time": 320,
+              "end_time": 480
+            },
+            {
+              "text": "观",
+              "start_time": 480,
+              "end_time": 720
+            },
+            {
+              "text": "察，",
+              "start_time": 720,
+              "end_time": 1280
+            },
+            {
+              "text": "再",
+              "start_time": 1360,
+              "end_time": 1520
+            },
+            {
+              "text": "解",
+              "start_time": 1520,
+              "end_time": 1760
+            },
+            {
+              "text": "释。",
+              "start_time": 1760,
+              "end_time": 2000
+            },
+            {
+              "text": "山",
+              "start_time": 2960,
+              "end_time": 3200
+            },
+            {
+              "text": "水、",
+              "start_time": 3200,
+              "end_time": 3600
+            },
+            {
+              "text": "花",
+              "start_time": 3760,
+              "end_time": 4080
+            },
+            {
+              "text": "篮、",
+              "start_time": 4080,
+              "end_time": 4400
+            },
+            {
+              "text": "口",
+              "start_time": 4640,
+              "end_time": 4880
+            },
+            {
+              "text": "沿",
+              "start_time": 4880,
+              "end_time": 5200
+            },
+            {
+              "text": "和",
+              "start_time": 5280,
+              "end_time": 5440
+            },
+            {
+              "text": "装",
+              "start_time": 5440,
+              "end_time": 5600
+            },
+            {
+              "text": "饰",
+              "start_time": 5600,
+              "end_time": 5760
+            },
+            {
+              "text": "带，",
+              "start_time": 5760,
+              "end_time": 6000
+            },
+            {
+              "text": "都",
+              "start_time": 6800,
+              "end_time": 6960
+            },
+            {
+              "text": "应",
+              "start_time": 6960,
+              "end_time": 7040
+            },
+            {
+              "text": "当",
+              "start_time": 7040,
+              "end_time": 7200
+            },
+            {
+              "text": "指",
+              "start_time": 7200,
+              "end_time": 7440
+            },
+            {
+              "text": "回",
+              "start_time": 7440,
+              "end_time": 7680
+            },
+            {
+              "text": "具",
+              "start_time": 7680,
+              "end_time": 7760
+            },
+            {
+              "text": "体",
+              "start_time": 7760,
+              "end_time": 7920
+            },
+            {
+              "text": "照",
+              "start_time": 7920,
+              "end_time": 8080
+            },
+            {
+              "text": "片",
+              "start_time": 8080,
+              "end_time": 8320
+            },
+            {
+              "text": "与",
+              "start_time": 8320,
+              "end_time": 8480
+            },
+            {
+              "text": "区",
+              "start_time": 8480,
+              "end_time": 8800
+            },
+            {
+              "text": "域，",
+              "start_time": 8800,
+              "end_time": 8960
+            },
+            {
+              "text": "避",
+              "start_time": 9280,
+              "end_time": 9440
+            },
+            {
+              "text": "免",
+              "start_time": 9440,
+              "end_time": 9600
+            },
+            {
+              "text": "只",
+              "start_time": 9600,
+              "end_time": 9680
+            },
+            {
+              "text": "留",
+              "start_time": 9680,
+              "end_time": 9840
+            },
+            {
+              "text": "下",
+              "start_time": 9840,
+              "end_time": 10000
+            },
+            {
+              "text": "模",
+              "start_time": 10000,
+              "end_time": 10160
+            },
+            {
+              "text": "糊",
+              "start_time": 10160,
+              "end_time": 10320
+            },
+            {
+              "text": "印",
+              "start_time": 10320,
+              "end_time": 10480
+            },
+            {
+              "text": "象。",
+              "start_time": 10480,
+              "end_time": 10720
+            }
+          ],
+          "timestamp": 1790654216792
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "read",
+      "number": 5,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "43a7ecf4f063b8ccd0fb36b953213ee8a44bcac7c06306504172e8da0eca05ff",
+      "response_sse_sha256": "0d6d1ce49715ba439a87953a41b46e6009f61c6304cb2b7ddb1ec6497a2b469c",
+      "audio": "05-read.mp3",
+      "audio_sha256": "888fd9d690cdb0688a62b6dca5b48d9c8954f6ce39bd09f51ddcc74dc2349415",
+      "audio_bytes": 177706,
+      "duration_seconds": 11.016,
+      "elapsed_seconds": 4.681354125,
+      "input": "找到一条相似资料，只是研究的开始。还要读到原段落，留下来源、版本和定位，说明它能支持什么，也说明它不能支持什么。",
+      "subtitles": [
+        {
+          "text": "找到一条相似资料，只是研究的开始。还要读到原段落，留下来源、版本和定位，说明它能支持什么，也说明它不能支持什么。",
+          "request_id": "8d54084748547ea317665e9bba7d580f.01a0eb4eea467d8b941e32405203f12f",
+          "items": [
+            {
+              "text": "找",
+              "start_time": 560,
+              "end_time": 640
+            },
+            {
+              "text": "到",
+              "start_time": 640,
+              "end_time": 800
+            },
+            {
+              "text": "一",
+              "start_time": 800,
+              "end_time": 880
+            },
+            {
+              "text": "条",
+              "start_time": 880,
+              "end_time": 1040
+            },
+            {
+              "text": "相",
+              "start_time": 1040,
+              "end_time": 1200
+            },
+            {
+              "text": "似",
+              "start_time": 1200,
+              "end_time": 1440
+            },
+            {
+              "text": "资",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "料，",
+              "start_time": 1600,
+              "end_time": 2000
+            },
+            {
+              "text": "只",
+              "start_time": 2160,
+              "end_time": 2240
+            },
+            {
+              "text": "是",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "研",
+              "start_time": 2400,
+              "end_time": 2560
+            },
+            {
+              "text": "究",
+              "start_time": 2560,
+              "end_time": 2720
+            },
+            {
+              "text": "的",
+              "start_time": 2720,
+              "end_time": 2800
+            },
+            {
+              "text": "开",
+              "start_time": 2800,
+              "end_time": 3040
+            },
+            {
+              "text": "始。",
+              "start_time": 3040,
+              "end_time": 3200
+            },
+            {
+              "text": "还",
+              "start_time": 3600,
+              "end_time": 3760
+            },
+            {
+              "text": "要",
+              "start_time": 3760,
+              "end_time": 3920
+            },
+            {
+              "text": "读",
+              "start_time": 3920,
+              "end_time": 4000
+            },
+            {
+              "text": "到",
+              "start_time": 4000,
+              "end_time": 4160
+            },
+            {
+              "text": "原",
+              "start_time": 4160,
+              "end_time": 4320
+            },
+            {
+              "text": "段",
+              "start_time": 4320,
+              "end_time": 4560
+            },
+            {
+              "text": "落，",
+              "start_time": 4560,
+              "end_time": 4800
+            },
+            {
+              "text": "留",
+              "start_time": 5040,
+              "end_time": 5200
+            },
+            {
+              "text": "下",
+              "start_time": 5200,
+              "end_time": 5280
+            },
+            {
+              "text": "来",
+              "start_time": 5360,
+              "end_time": 5520
+            },
+            {
+              "text": "源、",
+              "start_time": 5520,
+              "end_time": 5920
+            },
+            {
+              "text": "版",
+              "start_time": 6000,
+              "end_time": 6240
+            },
+            {
+              "text": "本",
+              "start_time": 6240,
+              "end_time": 6400
+            },
+            {
+              "text": "和",
+              "start_time": 6400,
+              "end_time": 6560
+            },
+            {
+              "text": "定",
+              "start_time": 6560,
+              "end_time": 6720
+            },
+            {
+              "text": "位，",
+              "start_time": 6720,
+              "end_time": 6960
+            },
+            {
+              "text": "说",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "明",
+              "start_time": 7520,
+              "end_time": 7680
+            },
+            {
+              "text": "它",
+              "start_time": 7680,
+              "end_time": 7760
+            },
+            {
+              "text": "能",
+              "start_time": 7760,
+              "end_time": 7920
+            },
+            {
+              "text": "支",
+              "start_time": 7920,
+              "end_time": 8080
+            },
+            {
+              "text": "持",
+              "start_time": 8080,
+              "end_time": 8240
+            },
+            {
+              "text": "什",
+              "start_time": 8240,
+              "end_time": 8400
+            },
+            {
+              "text": "么，",
+              "start_time": 8400,
+              "end_time": 8640
+            },
+            {
+              "text": "也",
+              "start_time": 8880,
+              "end_time": 8960
+            },
+            {
+              "text": "说",
+              "start_time": 8960,
+              "end_time": 9200
+            },
+            {
+              "text": "明",
+              "start_time": 9200,
+              "end_time": 9360
+            },
+            {
+              "text": "它",
+              "start_time": 9360,
+              "end_time": 9520
+            },
+            {
+              "text": "不",
+              "start_time": 9520,
+              "end_time": 9760
+            },
+            {
+              "text": "能",
+              "start_time": 9760,
+              "end_time": 9920
+            },
+            {
+              "text": "支",
+              "start_time": 9920,
+              "end_time": 10080
+            },
+            {
+              "text": "持",
+              "start_time": 10080,
+              "end_time": 10240
+            },
+            {
+              "text": "什",
+              "start_time": 10240,
+              "end_time": 10400
+            },
+            {
+              "text": "么。",
+              "start_time": 10400,
+              "end_time": 10560
+            }
+          ],
+          "timestamp": 1790654217069
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "catalogue",
+      "number": 6,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "e52a0c5d13a1b15855b8e091d9586fff166dddacaa27f147f35f592f0c1c945e",
+      "response_sse_sha256": "7533f4386ada4a7e4227da0687076b9331d2a3e35816b2ff0d506812fb05f899",
+      "audio": "06-catalogue.mp3",
+      "audio_sha256": "113a888614ecfd5ed172eab59fa1cc3ead35d617c6e8c4aa8208ced9e654462b",
+      "audio_bytes": 179628,
+      "duration_seconds": 11.136,
+      "elapsed_seconds": 4.587382624857128,
+      "input": "这组照片来自博物馆，参照对象可以明确核对。博物馆标注的年代和窑口可以作参照，其他器物仍需结合自身特征判断。",
+      "subtitles": [
+        {
+          "text": "这组照片来自博物馆，参照对象可以明确核对。博物馆标注的年代和窑口可以作参照，其他器物仍需结合自身特征判断。",
+          "request_id": "35010d4537c3acbc0dd42f2eaa098bd1.01a0ebc40cf87e8ca42b4abc96f2f88a",
+          "items": [
+            {
+              "text": "这",
+              "start_time": 240,
+              "end_time": 400
+            },
+            {
+              "text": "组",
+              "start_time": 400,
+              "end_time": 560
+            },
+            {
+              "text": "照",
+              "start_time": 560,
+              "end_time": 720
+            },
+            {
+              "text": "片",
+              "start_time": 720,
+              "end_time": 1120
+            },
+            {
+              "text": "来",
+              "start_time": 1120,
+              "end_time": 1280
+            },
+            {
+              "text": "自",
+              "start_time": 1280,
+              "end_time": 1440
+            },
+            {
+              "text": "博",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "物",
+              "start_time": 1600,
+              "end_time": 1680
+            },
+            {
+              "text": "馆，",
+              "start_time": 1680,
+              "end_time": 2000
+            },
+            {
+              "text": "参",
+              "start_time": 2560,
+              "end_time": 2720
+            },
+            {
+              "text": "照",
+              "start_time": 2720,
+              "end_time": 2880
+            },
+            {
+              "text": "对",
+              "start_time": 2880,
+              "end_time": 3040
+            },
+            {
+              "text": "象",
+              "start_time": 3040,
+              "end_time": 3360
+            },
+            {
+              "text": "可",
+              "start_time": 3360,
+              "end_time": 3440
+            },
+            {
+              "text": "以",
+              "start_time": 3440,
+              "end_time": 3600
+            },
+            {
+              "text": "明",
+              "start_time": 3600,
+              "end_time": 3760
+            },
+            {
+              "text": "确",
+              "start_time": 3760,
+              "end_time": 3920
+            },
+            {
+              "text": "核",
+              "start_time": 3920,
+              "end_time": 4080
+            },
+            {
+              "text": "对。",
+              "start_time": 4080,
+              "end_time": 4320
+            },
+            {
+              "text": "博",
+              "start_time": 4880,
+              "end_time": 5040
+            },
+            {
+              "text": "物",
+              "start_time": 5040,
+              "end_time": 5200
+            },
+            {
+              "text": "馆",
+              "start_time": 5200,
+              "end_time": 5360
+            },
+            {
+              "text": "标",
+              "start_time": 5360,
+              "end_time": 5600
+            },
+            {
+              "text": "注",
+              "start_time": 5600,
+              "end_time": 5680
+            },
+            {
+              "text": "的",
+              "start_time": 5680,
+              "end_time": 5760
+            },
+            {
+              "text": "年",
+              "start_time": 5760,
+              "end_time": 6080
+            },
+            {
+              "text": "代",
+              "start_time": 6080,
+              "end_time": 6240
+            },
+            {
+              "text": "和",
+              "start_time": 6240,
+              "end_time": 6320
+            },
+            {
+              "text": "窑",
+              "start_time": 6320,
+              "end_time": 6560
+            },
+            {
+              "text": "口",
+              "start_time": 6560,
+              "end_time": 6800
+            },
+            {
+              "text": "可",
+              "start_time": 6800,
+              "end_time": 7040
+            },
+            {
+              "text": "以",
+              "start_time": 7040,
+              "end_time": 7120
+            },
+            {
+              "text": "作",
+              "start_time": 7120,
+              "end_time": 7280
+            },
+            {
+              "text": "参",
+              "start_time": 7280,
+              "end_time": 7520
+            },
+            {
+              "text": "照，",
+              "start_time": 7520,
+              "end_time": 7760
+            },
+            {
+              "text": "其",
+              "start_time": 8240,
+              "end_time": 8480
+            },
+            {
+              "text": "他",
+              "start_time": 8480,
+              "end_time": 8640
+            },
+            {
+              "text": "器",
+              "start_time": 8640,
+              "end_time": 8880
+            },
+            {
+              "text": "物",
+              "start_time": 8880,
+              "end_time": 9120
+            },
+            {
+              "text": "仍",
+              "start_time": 9200,
+              "end_time": 9360
+            },
+            {
+              "text": "需",
+              "start_time": 9360,
+              "end_time": 9520
+            },
+            {
+              "text": "结",
+              "start_time": 9520,
+              "end_time": 9680
+            },
+            {
+              "text": "合",
+              "start_time": 9680,
+              "end_time": 9920
+            },
+            {
+              "text": "自",
+              "start_time": 9920,
+              "end_time": 10080
+            },
+            {
+              "text": "身",
+              "start_time": 10080,
+              "end_time": 10240
+            },
+            {
+              "text": "特",
+              "start_time": 10240,
+              "end_time": 10400
+            },
+            {
+              "text": "征",
+              "start_time": 10400,
+              "end_time": 10560
+            },
+            {
+              "text": "判",
+              "start_time": 10560,
+              "end_time": 10720
+            },
+            {
+              "text": "断。",
+              "start_time": 10720,
+              "end_time": 10960
+            }
+          ],
+          "timestamp": 1790661893489
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "skills",
+      "number": 7,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "2e5a53ae6fee8f0bb3803560234a42c9f7a1ada561df4b945b5a1ff00ac66ed4",
+      "response_sse_sha256": "fc4bf957e3e7d77e2a8a326f94b0bf7d6a2267a8a98da272c537a4c938d087f1",
+      "audio": "07-skills.mp3",
+      "audio_sha256": "4453bd536548a5d8fc5e2fbbc3cc3188f9e2753963e3a5b0d439f614ad74a2db",
+      "audio_bytes": 140456,
+      "duration_seconds": 8.688,
+      "elapsed_seconds": 4.165964749999999,
+      "input": "七个研究技能，把方法拆成可执行的步骤。青花归属、状况假设、来源审查，各有材料要求。",
+      "subtitles": [
+        {
+          "text": "七个研究技能，把方法拆成可执行的步骤。青花归属、状况假设、来源审查，各有材料要求。",
+          "request_id": "0f45397e4974405c17f0c60f24e37383.01a0eb4efc917824bcf4b6525876c20d",
+          "items": [
+            {
+              "text": "七",
+              "start_time": 80,
+              "end_time": 320
+            },
+            {
+              "text": "个",
+              "start_time": 320,
+              "end_time": 400
+            },
+            {
+              "text": "研",
+              "start_time": 400,
+              "end_time": 560
+            },
+            {
+              "text": "究",
+              "start_time": 560,
+              "end_time": 720
+            },
+            {
+              "text": "技",
+              "start_time": 720,
+              "end_time": 800
+            },
+            {
+              "text": "能，",
+              "start_time": 800,
+              "end_time": 1040
+            },
+            {
+              "text": "把",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "方",
+              "start_time": 1600,
+              "end_time": 1760
+            },
+            {
+              "text": "法",
+              "start_time": 1760,
+              "end_time": 1920
+            },
+            {
+              "text": "拆",
+              "start_time": 1920,
+              "end_time": 2080
+            },
+            {
+              "text": "成",
+              "start_time": 2080,
+              "end_time": 2240
+            },
+            {
+              "text": "可",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "执",
+              "start_time": 2400,
+              "end_time": 2560
+            },
+            {
+              "text": "行",
+              "start_time": 2560,
+              "end_time": 2720
+            },
+            {
+              "text": "的",
+              "start_time": 2720,
+              "end_time": 2720
+            },
+            {
+              "text": "步",
+              "start_time": 2720,
+              "end_time": 2880
+            },
+            {
+              "text": "骤。",
+              "start_time": 2880,
+              "end_time": 3120
+            },
+            {
+              "text": "青",
+              "start_time": 3760,
+              "end_time": 4000
+            },
+            {
+              "text": "花",
+              "start_time": 4000,
+              "end_time": 4160
+            },
+            {
+              "text": "归",
+              "start_time": 4160,
+              "end_time": 4400
+            },
+            {
+              "text": "属、",
+              "start_time": 4400,
+              "end_time": 4640
+            },
+            {
+              "text": "状",
+              "start_time": 4960,
+              "end_time": 5120
+            },
+            {
+              "text": "况",
+              "start_time": 5120,
+              "end_time": 5280
+            },
+            {
+              "text": "假",
+              "start_time": 5280,
+              "end_time": 5440
+            },
+            {
+              "text": "设、",
+              "start_time": 5440,
+              "end_time": 5760
+            },
+            {
+              "text": "来",
+              "start_time": 6080,
+              "end_time": 6240
+            },
+            {
+              "text": "源",
+              "start_time": 6240,
+              "end_time": 6400
+            },
+            {
+              "text": "审",
+              "start_time": 6400,
+              "end_time": 6560
+            },
+            {
+              "text": "查，",
+              "start_time": 6560,
+              "end_time": 6880
+            },
+            {
+              "text": "各",
+              "start_time": 7520,
+              "end_time": 7680
+            },
+            {
+              "text": "有",
+              "start_time": 7680,
+              "end_time": 7840
+            },
+            {
+              "text": "材",
+              "start_time": 7840,
+              "end_time": 8000
+            },
+            {
+              "text": "料",
+              "start_time": 8000,
+              "end_time": 8160
+            },
+            {
+              "text": "要",
+              "start_time": 8160,
+              "end_time": 8240
+            },
+            {
+              "text": "求。",
+              "start_time": 8240,
+              "end_time": 8560
+            }
+          ],
+          "timestamp": 1790654221262
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "skills-action",
+      "number": 8,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "48ac39cb90edb151e4181117300a3f45f732328e5c79fa9c8d016b8e272bfea1",
+      "response_sse_sha256": "5609aa93f47613a2414451a4dbf62258749a352afb4b4ef4427835249ec42090",
+      "audio": "08-skills-action.mp3",
+      "audio_sha256": "ae5296d083f75377e345299c2c57e05fa60813afdb420cc248c4589e1afc673d",
+      "audio_bytes": 150058,
+      "duration_seconds": 9.288,
+      "elapsed_seconds": 4.588894417000001,
+      "input": "技能不负责替研究者盖章。它提醒模型：比较特征，寻找反例，把依据和未解决的问题，写回这件器物的案卷。",
+      "subtitles": [
+        {
+          "text": "技能不负责替研究者盖章。它提醒模型：比较特征，寻找反例，把依据和未解决的问题，写回这件器物的案卷。",
+          "request_id": "f6d13764b5fc9f05a63a1c67f67c0931.01a0eb4f0c9e740fb6bc6adaff3cb38d",
+          "items": [
+            {
+              "text": "技",
+              "start_time": 160,
+              "end_time": 320
+            },
+            {
+              "text": "能",
+              "start_time": 320,
+              "end_time": 480
+            },
+            {
+              "text": "不",
+              "start_time": 480,
+              "end_time": 560
+            },
+            {
+              "text": "负",
+              "start_time": 640,
+              "end_time": 720
+            },
+            {
+              "text": "责",
+              "start_time": 720,
+              "end_time": 880
+            },
+            {
+              "text": "替",
+              "start_time": 880,
+              "end_time": 1040
+            },
+            {
+              "text": "研",
+              "start_time": 1040,
+              "end_time": 1120
+            },
+            {
+              "text": "究",
+              "start_time": 1120,
+              "end_time": 1280
+            },
+            {
+              "text": "者",
+              "start_time": 1280,
+              "end_time": 1360
+            },
+            {
+              "text": "盖",
+              "start_time": 1360,
+              "end_time": 1520
+            },
+            {
+              "text": "章。",
+              "start_time": 1520,
+              "end_time": 1840
+            },
+            {
+              "text": "它",
+              "start_time": 2320,
+              "end_time": 2480
+            },
+            {
+              "text": "提",
+              "start_time": 2480,
+              "end_time": 2640
+            },
+            {
+              "text": "醒",
+              "start_time": 2640,
+              "end_time": 2720
+            },
+            {
+              "text": "模",
+              "start_time": 2720,
+              "end_time": 2960
+            },
+            {
+              "text": "型：",
+              "start_time": 2960,
+              "end_time": 3280
+            },
+            {
+              "text": "比",
+              "start_time": 3440,
+              "end_time": 3520
+            },
+            {
+              "text": "较",
+              "start_time": 3520,
+              "end_time": 3680
+            },
+            {
+              "text": "特",
+              "start_time": 3680,
+              "end_time": 3920
+            },
+            {
+              "text": "征，",
+              "start_time": 3920,
+              "end_time": 4160
+            },
+            {
+              "text": "寻",
+              "start_time": 4400,
+              "end_time": 4640
+            },
+            {
+              "text": "找",
+              "start_time": 4640,
+              "end_time": 4800
+            },
+            {
+              "text": "反",
+              "start_time": 4800,
+              "end_time": 5120
+            },
+            {
+              "text": "例，",
+              "start_time": 5120,
+              "end_time": 5280
+            },
+            {
+              "text": "把",
+              "start_time": 5680,
+              "end_time": 5840
+            },
+            {
+              "text": "依",
+              "start_time": 5840,
+              "end_time": 6080
+            },
+            {
+              "text": "据",
+              "start_time": 6080,
+              "end_time": 6240
+            },
+            {
+              "text": "和",
+              "start_time": 6240,
+              "end_time": 6320
+            },
+            {
+              "text": "未",
+              "start_time": 6320,
+              "end_time": 6560
+            },
+            {
+              "text": "解",
+              "start_time": 6560,
+              "end_time": 6720
+            },
+            {
+              "text": "决",
+              "start_time": 6720,
+              "end_time": 6800
+            },
+            {
+              "text": "的",
+              "start_time": 6800,
+              "end_time": 6880
+            },
+            {
+              "text": "问",
+              "start_time": 6880,
+              "end_time": 7040
+            },
+            {
+              "text": "题，",
+              "start_time": 7040,
+              "end_time": 7440
+            },
+            {
+              "text": "写",
+              "start_time": 7520,
+              "end_time": 7760
+            },
+            {
+              "text": "回",
+              "start_time": 7760,
+              "end_time": 7920
+            },
+            {
+              "text": "这",
+              "start_time": 7920,
+              "end_time": 8080
+            },
+            {
+              "text": "件",
+              "start_time": 8080,
+              "end_time": 8240
+            },
+            {
+              "text": "器",
+              "start_time": 8240,
+              "end_time": 8400
+            },
+            {
+              "text": "物",
+              "start_time": 8400,
+              "end_time": 8560
+            },
+            {
+              "text": "的",
+              "start_time": 8560,
+              "end_time": 8640
+            },
+            {
+              "text": "案",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "卷。",
+              "start_time": 8800,
+              "end_time": 9120
+            }
+          ],
+          "timestamp": 1790654225780
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "contradiction",
+      "number": 9,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "8f70e1835e45767d4305c1ea966cabc733df3004fa12b63b97a0ca9f1a44e5f2",
+      "response_sse_sha256": "7f192a86e915a27729af695e99fe6190ab62cd40b3af8f1cdf9d6b4ad6d1a685",
+      "audio": "09-contradiction.mp3",
+      "audio_sha256": "42ddf40e00cab0172993fc388cbb491b9453edc50d4785f0b98dacd4de730fcf",
+      "audio_bytes": 215340,
+      "duration_seconds": 13.368,
+      "elapsed_seconds": 5.191366875078529,
+      "input": "六维复核，把记录冲突和未评项，一起放到面前。这个指数用于安排复核顺序，不代表真伪概率，也不是模型的置信度。冲突要说明理由，缺项要指出下一份证据。",
+      "subtitles": [
+        {
+          "text": "六维复核，把记录冲突和未评项，一起放到面前。这个指数用于安排复核顺序，不代表真伪概率，也不是模型的置信度。冲突要说明理由，缺项要指出下一份证据。",
+          "request_id": "9f1188be3151ee0c79d5263a3cc0cf2d.01a0eb5669cf70449c3dcfd4c132c78b",
+          "items": [
+            {
+              "text": "六",
+              "start_time": 240,
+              "end_time": 400
+            },
+            {
+              "text": "维",
+              "start_time": 400,
+              "end_time": 480
+            },
+            {
+              "text": "复",
+              "start_time": 480,
+              "end_time": 640
+            },
+            {
+              "text": "核，",
+              "start_time": 640,
+              "end_time": 1200
+            },
+            {
+              "text": "把",
+              "start_time": 1520,
+              "end_time": 1600
+            },
+            {
+              "text": "记",
+              "start_time": 1600,
+              "end_time": 1760
+            },
+            {
+              "text": "录",
+              "start_time": 1760,
+              "end_time": 1840
+            },
+            {
+              "text": "冲",
+              "start_time": 1840,
+              "end_time": 2080
+            },
+            {
+              "text": "突",
+              "start_time": 2080,
+              "end_time": 2160
+            },
+            {
+              "text": "和",
+              "start_time": 2160,
+              "end_time": 2320
+            },
+            {
+              "text": "未",
+              "start_time": 2320,
+              "end_time": 2400
+            },
+            {
+              "text": "评",
+              "start_time": 2400,
+              "end_time": 2640
+            },
+            {
+              "text": "项，",
+              "start_time": 2640,
+              "end_time": 3040
+            },
+            {
+              "text": "一",
+              "start_time": 3040,
+              "end_time": 3200
+            },
+            {
+              "text": "起",
+              "start_time": 3200,
+              "end_time": 3280
+            },
+            {
+              "text": "放",
+              "start_time": 3280,
+              "end_time": 3440
+            },
+            {
+              "text": "到",
+              "start_time": 3440,
+              "end_time": 3520
+            },
+            {
+              "text": "面",
+              "start_time": 3520,
+              "end_time": 3680
+            },
+            {
+              "text": "前。",
+              "start_time": 3680,
+              "end_time": 4000
+            },
+            {
+              "text": "这",
+              "start_time": 4880,
+              "end_time": 5040
+            },
+            {
+              "text": "个",
+              "start_time": 5040,
+              "end_time": 5120
+            },
+            {
+              "text": "指",
+              "start_time": 5120,
+              "end_time": 5280
+            },
+            {
+              "text": "数",
+              "start_time": 5280,
+              "end_time": 5440
+            },
+            {
+              "text": "用",
+              "start_time": 5440,
+              "end_time": 5600
+            },
+            {
+              "text": "于",
+              "start_time": 5600,
+              "end_time": 5600
+            },
+            {
+              "text": "安",
+              "start_time": 5600,
+              "end_time": 5760
+            },
+            {
+              "text": "排",
+              "start_time": 5760,
+              "end_time": 5920
+            },
+            {
+              "text": "复",
+              "start_time": 5920,
+              "end_time": 6080
+            },
+            {
+              "text": "核",
+              "start_time": 6080,
+              "end_time": 6160
+            },
+            {
+              "text": "顺",
+              "start_time": 6160,
+              "end_time": 6400
+            },
+            {
+              "text": "序，",
+              "start_time": 6400,
+              "end_time": 6640
+            },
+            {
+              "text": "不",
+              "start_time": 7040,
+              "end_time": 7120
+            },
+            {
+              "text": "代",
+              "start_time": 7120,
+              "end_time": 7280
+            },
+            {
+              "text": "表",
+              "start_time": 7280,
+              "end_time": 7360
+            },
+            {
+              "text": "真",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "伪",
+              "start_time": 7520,
+              "end_time": 7600
+            },
+            {
+              "text": "概",
+              "start_time": 7600,
+              "end_time": 7840
+            },
+            {
+              "text": "率，",
+              "start_time": 7840,
+              "end_time": 8000
+            },
+            {
+              "text": "也",
+              "start_time": 8320,
+              "end_time": 8480
+            },
+            {
+              "text": "不",
+              "start_time": 8480,
+              "end_time": 8560
+            },
+            {
+              "text": "是",
+              "start_time": 8560,
+              "end_time": 8640
+            },
+            {
+              "text": "模",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "型",
+              "start_time": 8800,
+              "end_time": 8960
+            },
+            {
+              "text": "的",
+              "start_time": 8960,
+              "end_time": 8960
+            },
+            {
+              "text": "置",
+              "start_time": 8960,
+              "end_time": 9120
+            },
+            {
+              "text": "信",
+              "start_time": 9120,
+              "end_time": 9280
+            },
+            {
+              "text": "度。",
+              "start_time": 9280,
+              "end_time": 9520
+            },
+            {
+              "text": "冲",
+              "start_time": 9840,
+              "end_time": 10080
+            },
+            {
+              "text": "突",
+              "start_time": 10080,
+              "end_time": 10160
+            },
+            {
+              "text": "要",
+              "start_time": 10160,
+              "end_time": 10240
+            },
+            {
+              "text": "说",
+              "start_time": 10240,
+              "end_time": 10400
+            },
+            {
+              "text": "明",
+              "start_time": 10400,
+              "end_time": 10560
+            },
+            {
+              "text": "理",
+              "start_time": 10560,
+              "end_time": 10640
+            },
+            {
+              "text": "由，",
+              "start_time": 10640,
+              "end_time": 11040
+            },
+            {
+              "text": "缺",
+              "start_time": 11440,
+              "end_time": 11680
+            },
+            {
+              "text": "项",
+              "start_time": 11680,
+              "end_time": 12080
+            },
+            {
+              "text": "要",
+              "start_time": 12080,
+              "end_time": 12240
+            },
+            {
+              "text": "指",
+              "start_time": 12240,
+              "end_time": 12320
+            },
+            {
+              "text": "出",
+              "start_time": 12320,
+              "end_time": 12480
+            },
+            {
+              "text": "下",
+              "start_time": 12480,
+              "end_time": 12640
+            },
+            {
+              "text": "一",
+              "start_time": 12640,
+              "end_time": 12720
+            },
+            {
+              "text": "份",
+              "start_time": 12720,
+              "end_time": 12880
+            },
+            {
+              "text": "证",
+              "start_time": 12880,
+              "end_time": 13040
+            },
+            {
+              "text": "据。",
+              "start_time": 13040,
+              "end_time": 13200
+            }
+          ],
+          "timestamp": 1790654709009
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "supplement",
+      "number": 10,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "b5a6b73cc9f05f5f0689fdc376f7fec54ddc50c54b07b73c416f6e0f5c39e756",
+      "response_sse_sha256": "dbc448a45e1a9b3b1b412d3e4593ef07f345125c96daf424f4035ae008eb6068",
+      "audio": "10-supplement.mp3",
+      "audio_sha256": "81586691be1f0e222852903792d0d46a8bfbad01ff85704344ee195446689159",
+      "audio_bytes": 198062,
+      "duration_seconds": 12.288,
+      "elapsed_seconds": 5.0508074588142335,
+      "input": "有缺口，就把补充材料的建议说具体。补拍清楚的局部、底足和款识，或补充有许可的专业记录，让下一轮研究围绕问题展开，而不是重新猜一遍。",
+      "subtitles": [
+        {
+          "text": "有缺口，就把补充材料的建议说具体。补拍清楚的局部、底足和款识，或补充有许可的专业记录，让下一轮研究围绕问题展开，而不是重新猜一遍。",
+          "request_id": "c3949e2b87ce82c1f92a1819a88d64bf.01a0eb5669bb7257a03c56eb4df8e9a5",
+          "items": [
+            {
+              "text": "有",
+              "start_time": 160,
+              "end_time": 320
+            },
+            {
+              "text": "缺",
+              "start_time": 320,
+              "end_time": 480
+            },
+            {
+              "text": "口，",
+              "start_time": 560,
+              "end_time": 880
+            },
+            {
+              "text": "就",
+              "start_time": 1200,
+              "end_time": 1360
+            },
+            {
+              "text": "把",
+              "start_time": 1360,
+              "end_time": 1440
+            },
+            {
+              "text": "补",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "充",
+              "start_time": 1600,
+              "end_time": 1760
+            },
+            {
+              "text": "材",
+              "start_time": 1760,
+              "end_time": 2000
+            },
+            {
+              "text": "料",
+              "start_time": 2000,
+              "end_time": 2080
+            },
+            {
+              "text": "的",
+              "start_time": 2080,
+              "end_time": 2240
+            },
+            {
+              "text": "建",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "议",
+              "start_time": 2400,
+              "end_time": 2560
+            },
+            {
+              "text": "说",
+              "start_time": 2640,
+              "end_time": 2880
+            },
+            {
+              "text": "具",
+              "start_time": 2880,
+              "end_time": 3040
+            },
+            {
+              "text": "体。",
+              "start_time": 3040,
+              "end_time": 3200
+            },
+            {
+              "text": "补",
+              "start_time": 3680,
+              "end_time": 3840
+            },
+            {
+              "text": "拍",
+              "start_time": 3840,
+              "end_time": 4080
+            },
+            {
+              "text": "清",
+              "start_time": 4080,
+              "end_time": 4240
+            },
+            {
+              "text": "楚",
+              "start_time": 4240,
+              "end_time": 4400
+            },
+            {
+              "text": "的",
+              "start_time": 4400,
+              "end_time": 4480
+            },
+            {
+              "text": "局",
+              "start_time": 4480,
+              "end_time": 4640
+            },
+            {
+              "text": "部、",
+              "start_time": 4640,
+              "end_time": 5040
+            },
+            {
+              "text": "底",
+              "start_time": 5120,
+              "end_time": 5280
+            },
+            {
+              "text": "足",
+              "start_time": 5280,
+              "end_time": 5600
+            },
+            {
+              "text": "和",
+              "start_time": 5600,
+              "end_time": 5760
+            },
+            {
+              "text": "款",
+              "start_time": 5760,
+              "end_time": 6000
+            },
+            {
+              "text": "识，",
+              "start_time": 6000,
+              "end_time": 6320
+            },
+            {
+              "text": "或",
+              "start_time": 6560,
+              "end_time": 6720
+            },
+            {
+              "text": "补",
+              "start_time": 6720,
+              "end_time": 6880
+            },
+            {
+              "text": "充",
+              "start_time": 6880,
+              "end_time": 7120
+            },
+            {
+              "text": "有",
+              "start_time": 7120,
+              "end_time": 7200
+            },
+            {
+              "text": "许",
+              "start_time": 7200,
+              "end_time": 7440
+            },
+            {
+              "text": "可",
+              "start_time": 7440,
+              "end_time": 7600
+            },
+            {
+              "text": "的",
+              "start_time": 7600,
+              "end_time": 7680
+            },
+            {
+              "text": "专",
+              "start_time": 7680,
+              "end_time": 7840
+            },
+            {
+              "text": "业",
+              "start_time": 7840,
+              "end_time": 8000
+            },
+            {
+              "text": "记",
+              "start_time": 8000,
+              "end_time": 8160
+            },
+            {
+              "text": "录，",
+              "start_time": 8160,
+              "end_time": 8320
+            },
+            {
+              "text": "让",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "下",
+              "start_time": 8800,
+              "end_time": 9040
+            },
+            {
+              "text": "一",
+              "start_time": 9040,
+              "end_time": 9040
+            },
+            {
+              "text": "轮",
+              "start_time": 9040,
+              "end_time": 9280
+            },
+            {
+              "text": "研",
+              "start_time": 9280,
+              "end_time": 9440
+            },
+            {
+              "text": "究",
+              "start_time": 9440,
+              "end_time": 9600
+            },
+            {
+              "text": "围",
+              "start_time": 9600,
+              "end_time": 9760
+            },
+            {
+              "text": "绕",
+              "start_time": 9760,
+              "end_time": 9920
+            },
+            {
+              "text": "问",
+              "start_time": 9920,
+              "end_time": 10080
+            },
+            {
+              "text": "题",
+              "start_time": 10080,
+              "end_time": 10240
+            },
+            {
+              "text": "展",
+              "start_time": 10240,
+              "end_time": 10400
+            },
+            {
+              "text": "开，",
+              "start_time": 10400,
+              "end_time": 10720
+            },
+            {
+              "text": "而",
+              "start_time": 10960,
+              "end_time": 11120
+            },
+            {
+              "text": "不",
+              "start_time": 11120,
+              "end_time": 11200
+            },
+            {
+              "text": "是",
+              "start_time": 11200,
+              "end_time": 11360
+            },
+            {
+              "text": "重",
+              "start_time": 11360,
+              "end_time": 11520
+            },
+            {
+              "text": "新",
+              "start_time": 11520,
+              "end_time": 11680
+            },
+            {
+              "text": "猜",
+              "start_time": 11680,
+              "end_time": 11840
+            },
+            {
+              "text": "一",
+              "start_time": 11840,
+              "end_time": 12000
+            },
+            {
+              "text": "遍。",
+              "start_time": 12000,
+              "end_time": 12160
+            }
+          ],
+          "timestamp": 1790654708758
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "revision",
+      "number": 11,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "7d37e6801d0bda4aabef8810080c40b7a2cf3709c3826d33a8b3ab5adb774c4d",
+      "response_sse_sha256": "9ed654ff7223fffc80189bd5624b7de8ef1f978565c1eb0866d104f98209db7c",
+      "audio": "11-revision.mp3",
+      "audio_sha256": "09d7f2f7935628248c95503aee10d27d203f1d1697e51708025a3199e8a7a9fc",
+      "audio_bytes": 134316,
+      "duration_seconds": 8.304,
+      "elapsed_seconds": 4.290337333,
+      "input": "材料补充后，原照片和旧意见仍然保留。版本比较，让你看到改变的理由，也看到仍未解决的疑点。",
+      "subtitles": [
+        {
+          "text": "材料补充后，原照片和旧意见仍然保留。版本比较，让你看到改变的理由，也看到仍未解决的疑点。",
+          "request_id": "96f329f6211a38787cbee3b5d4ff7837.01a0eb4f21067a91acc334949f5872bc",
+          "items": [
+            {
+              "text": "材",
+              "start_time": 160,
+              "end_time": 400
+            },
+            {
+              "text": "料",
+              "start_time": 400,
+              "end_time": 480
+            },
+            {
+              "text": "补",
+              "start_time": 480,
+              "end_time": 640
+            },
+            {
+              "text": "充",
+              "start_time": 640,
+              "end_time": 800
+            },
+            {
+              "text": "后，",
+              "start_time": 800,
+              "end_time": 1200
+            },
+            {
+              "text": "原",
+              "start_time": 1440,
+              "end_time": 1680
+            },
+            {
+              "text": "照",
+              "start_time": 1680,
+              "end_time": 1840
+            },
+            {
+              "text": "片",
+              "start_time": 1840,
+              "end_time": 2000
+            },
+            {
+              "text": "和",
+              "start_time": 2000,
+              "end_time": 2080
+            },
+            {
+              "text": "旧",
+              "start_time": 2080,
+              "end_time": 2240
+            },
+            {
+              "text": "意",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "见",
+              "start_time": 2400,
+              "end_time": 2720
+            },
+            {
+              "text": "仍",
+              "start_time": 2720,
+              "end_time": 2880
+            },
+            {
+              "text": "然",
+              "start_time": 2880,
+              "end_time": 3040
+            },
+            {
+              "text": "保",
+              "start_time": 3040,
+              "end_time": 3120
+            },
+            {
+              "text": "留。",
+              "start_time": 3120,
+              "end_time": 3440
+            },
+            {
+              "text": "版",
+              "start_time": 4000,
+              "end_time": 4160
+            },
+            {
+              "text": "本",
+              "start_time": 4160,
+              "end_time": 4320
+            },
+            {
+              "text": "比",
+              "start_time": 4320,
+              "end_time": 4400
+            },
+            {
+              "text": "较，",
+              "start_time": 4400,
+              "end_time": 4720
+            },
+            {
+              "text": "让",
+              "start_time": 5040,
+              "end_time": 5280
+            },
+            {
+              "text": "你",
+              "start_time": 5280,
+              "end_time": 5280
+            },
+            {
+              "text": "看",
+              "start_time": 5280,
+              "end_time": 5440
+            },
+            {
+              "text": "到",
+              "start_time": 5440,
+              "end_time": 5520
+            },
+            {
+              "text": "改",
+              "start_time": 5520,
+              "end_time": 5680
+            },
+            {
+              "text": "变",
+              "start_time": 5680,
+              "end_time": 5840
+            },
+            {
+              "text": "的",
+              "start_time": 5840,
+              "end_time": 5920
+            },
+            {
+              "text": "理",
+              "start_time": 5920,
+              "end_time": 6080
+            },
+            {
+              "text": "由，",
+              "start_time": 6080,
+              "end_time": 6400
+            },
+            {
+              "text": "也",
+              "start_time": 6560,
+              "end_time": 6720
+            },
+            {
+              "text": "看",
+              "start_time": 6720,
+              "end_time": 6880
+            },
+            {
+              "text": "到",
+              "start_time": 6880,
+              "end_time": 7040
+            },
+            {
+              "text": "仍",
+              "start_time": 7120,
+              "end_time": 7280
+            },
+            {
+              "text": "未",
+              "start_time": 7280,
+              "end_time": 7360
+            },
+            {
+              "text": "解",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "决",
+              "start_time": 7520,
+              "end_time": 7680
+            },
+            {
+              "text": "的",
+              "start_time": 7680,
+              "end_time": 7680
+            },
+            {
+              "text": "疑",
+              "start_time": 7680,
+              "end_time": 7920
+            },
+            {
+              "text": "点。",
+              "start_time": 7920,
+              "end_time": 8160
+            }
+          ],
+          "timestamp": 1790654230706
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "human",
+      "number": 12,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "4c4f51e281fe2e459269a7e3b239ee45d0201f4b559d2e9d9e8af365381a1c40",
+      "response_sse_sha256": "90ebf138223dc59b1e29f6b761b95966229359f46dbdb23d3061ca7e1de1f27e",
+      "audio": "12-human.mp3",
+      "audio_sha256": "b2ecbd7d45b70d2d5bb1e60efb14c6f0f1dc45cdc70dca951818972e19f04551",
+      "audio_bytes": 173100,
+      "duration_seconds": 10.728,
+      "elapsed_seconds": 4.382337166999999,
+      "input": "人工复核，面对的是具体材料和具体版本。可以同意，也可以指出不足；系统保存复核意见，不冒充专家签署。",
+      "subtitles": [
+        {
+          "text": "人工复核，面对的是具体材料和具体版本。可以同意，也可以指出不足；系统保存复核意见，不冒充专家签署。",
+          "request_id": "79dcf56e1319196fceef02eaa7618d80.01a0eb4f31c977c08a00009dc50f9d50",
+          "items": [
+            {
+              "text": "人",
+              "start_time": 240,
+              "end_time": 480
+            },
+            {
+              "text": "工",
+              "start_time": 480,
+              "end_time": 640
+            },
+            {
+              "text": "复",
+              "start_time": 640,
+              "end_time": 880
+            },
+            {
+              "text": "核，",
+              "start_time": 880,
+              "end_time": 1360
+            },
+            {
+              "text": "面",
+              "start_time": 1680,
+              "end_time": 1840
+            },
+            {
+              "text": "对",
+              "start_time": 1840,
+              "end_time": 1920
+            },
+            {
+              "text": "的",
+              "start_time": 1920,
+              "end_time": 2000
+            },
+            {
+              "text": "是",
+              "start_time": 2000,
+              "end_time": 2160
+            },
+            {
+              "text": "具",
+              "start_time": 2160,
+              "end_time": 2320
+            },
+            {
+              "text": "体",
+              "start_time": 2320,
+              "end_time": 2480
+            },
+            {
+              "text": "材",
+              "start_time": 2480,
+              "end_time": 2720
+            },
+            {
+              "text": "料",
+              "start_time": 2720,
+              "end_time": 2880
+            },
+            {
+              "text": "和",
+              "start_time": 2880,
+              "end_time": 3040
+            },
+            {
+              "text": "具",
+              "start_time": 3040,
+              "end_time": 3200
+            },
+            {
+              "text": "体",
+              "start_time": 3200,
+              "end_time": 3360
+            },
+            {
+              "text": "版",
+              "start_time": 3360,
+              "end_time": 3600
+            },
+            {
+              "text": "本。",
+              "start_time": 3600,
+              "end_time": 3840
+            },
+            {
+              "text": "可",
+              "start_time": 4480,
+              "end_time": 4640
+            },
+            {
+              "text": "以",
+              "start_time": 4640,
+              "end_time": 4800
+            },
+            {
+              "text": "同",
+              "start_time": 4800,
+              "end_time": 5040
+            },
+            {
+              "text": "意，",
+              "start_time": 5040,
+              "end_time": 5280
+            },
+            {
+              "text": "也",
+              "start_time": 5520,
+              "end_time": 5600
+            },
+            {
+              "text": "可",
+              "start_time": 5600,
+              "end_time": 5760
+            },
+            {
+              "text": "以",
+              "start_time": 5760,
+              "end_time": 5840
+            },
+            {
+              "text": "指",
+              "start_time": 5840,
+              "end_time": 6000
+            },
+            {
+              "text": "出",
+              "start_time": 6000,
+              "end_time": 6160
+            },
+            {
+              "text": "不",
+              "start_time": 6160,
+              "end_time": 6320
+            },
+            {
+              "text": "足；",
+              "start_time": 6320,
+              "end_time": 6640
+            },
+            {
+              "text": "系",
+              "start_time": 7520,
+              "end_time": 7680
+            },
+            {
+              "text": "统",
+              "start_time": 7680,
+              "end_time": 7920
+            },
+            {
+              "text": "保",
+              "start_time": 7920,
+              "end_time": 8080
+            },
+            {
+              "text": "存",
+              "start_time": 8080,
+              "end_time": 8240
+            },
+            {
+              "text": "复",
+              "start_time": 8240,
+              "end_time": 8400
+            },
+            {
+              "text": "核",
+              "start_time": 8400,
+              "end_time": 8560
+            },
+            {
+              "text": "意",
+              "start_time": 8560,
+              "end_time": 8720
+            },
+            {
+              "text": "见，",
+              "start_time": 8720,
+              "end_time": 9120
+            },
+            {
+              "text": "不",
+              "start_time": 9200,
+              "end_time": 9360
+            },
+            {
+              "text": "冒",
+              "start_time": 9360,
+              "end_time": 9520
+            },
+            {
+              "text": "充",
+              "start_time": 9520,
+              "end_time": 9760
+            },
+            {
+              "text": "专",
+              "start_time": 9760,
+              "end_time": 9920
+            },
+            {
+              "text": "家",
+              "start_time": 9920,
+              "end_time": 10000
+            },
+            {
+              "text": "签",
+              "start_time": 10080,
+              "end_time": 10320
+            },
+            {
+              "text": "署。",
+              "start_time": 10320,
+              "end_time": 10480
+            }
+          ],
+          "timestamp": 1790654235073
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "export",
+      "number": 13,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "8e6fd505788442f6c67bb7c67d09f2eb59c4f5558c872bc986fa6ff0f700a4ec",
+      "response_sse_sha256": "b883cfc277bcd4c53e2ee4bbf0b53f51e58bcce9a8bcf5a2b0166d31be8d213d",
+      "audio": "13-export.mp3",
+      "audio_sha256": "81515ecc2bde55ec6a6ed43e5c20387cf6efc2eb503c3c86d7d1c4ea8c00729b",
+      "audio_bytes": 151980,
+      "duration_seconds": 9.408,
+      "elapsed_seconds": 4.459038749999998,
+      "input": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。下一位研究者，可以回到材料，接着核查你的判断。",
+      "subtitles": [
+        {
+          "text": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。下一位研究者，可以回到材料，接着核查你的判断。",
+          "request_id": "db678838cdedfae724f3a9a4c2ecc815.01a0eb4f31ed769f9f3ac28382fa54f5",
+          "items": [
+            {
+              "text": "导",
+              "start_time": 480,
+              "end_time": 640
+            },
+            {
+              "text": "出",
+              "start_time": 640,
+              "end_time": 800
+            },
+            {
+              "text": "报",
+              "start_time": 800,
+              "end_time": 960
+            },
+            {
+              "text": "告",
+              "start_time": 960,
+              "end_time": 1120
+            },
+            {
+              "text": "和",
+              "start_time": 1120,
+              "end_time": 1200
+            },
+            {
+              "text": "离",
+              "start_time": 1200,
+              "end_time": 1360
+            },
+            {
+              "text": "线",
+              "start_time": 1360,
+              "end_time": 1520
+            },
+            {
+              "text": "材",
+              "start_time": 1520,
+              "end_time": 1680
+            },
+            {
+              "text": "料，",
+              "start_time": 1680,
+              "end_time": 2080
+            },
+            {
+              "text": "把",
+              "start_time": 2240,
+              "end_time": 2320
+            },
+            {
+              "text": "原",
+              "start_time": 2320,
+              "end_time": 2560
+            },
+            {
+              "text": "图、",
+              "start_time": 2560,
+              "end_time": 2960
+            },
+            {
+              "text": "依",
+              "start_time": 3040,
+              "end_time": 3200
+            },
+            {
+              "text": "据、",
+              "start_time": 3200,
+              "end_time": 3520
+            },
+            {
+              "text": "疑",
+              "start_time": 3600,
+              "end_time": 3760
+            },
+            {
+              "text": "点",
+              "start_time": 3760,
+              "end_time": 4080
+            },
+            {
+              "text": "与",
+              "start_time": 4080,
+              "end_time": 4240
+            },
+            {
+              "text": "版",
+              "start_time": 4240,
+              "end_time": 4480
+            },
+            {
+              "text": "本",
+              "start_time": 4480,
+              "end_time": 4640
+            },
+            {
+              "text": "一",
+              "start_time": 4640,
+              "end_time": 4720
+            },
+            {
+              "text": "起",
+              "start_time": 4720,
+              "end_time": 4880
+            },
+            {
+              "text": "交",
+              "start_time": 4880,
+              "end_time": 5040
+            },
+            {
+              "text": "接。",
+              "start_time": 5040,
+              "end_time": 5280
+            },
+            {
+              "text": "下",
+              "start_time": 5840,
+              "end_time": 6080
+            },
+            {
+              "text": "一",
+              "start_time": 6080,
+              "end_time": 6080
+            },
+            {
+              "text": "位",
+              "start_time": 6080,
+              "end_time": 6240
+            },
+            {
+              "text": "研",
+              "start_time": 6240,
+              "end_time": 6400
+            },
+            {
+              "text": "究",
+              "start_time": 6400,
+              "end_time": 6480
+            },
+            {
+              "text": "者，",
+              "start_time": 6480,
+              "end_time": 6720
+            },
+            {
+              "text": "可",
+              "start_time": 6720,
+              "end_time": 6880
+            },
+            {
+              "text": "以",
+              "start_time": 6880,
+              "end_time": 6960
+            },
+            {
+              "text": "回",
+              "start_time": 6960,
+              "end_time": 7120
+            },
+            {
+              "text": "到",
+              "start_time": 7120,
+              "end_time": 7200
+            },
+            {
+              "text": "材",
+              "start_time": 7200,
+              "end_time": 7360
+            },
+            {
+              "text": "料，",
+              "start_time": 7360,
+              "end_time": 7680
+            },
+            {
+              "text": "接",
+              "start_time": 7840,
+              "end_time": 8000
+            },
+            {
+              "text": "着",
+              "start_time": 8000,
+              "end_time": 8080
+            },
+            {
+              "text": "核",
+              "start_time": 8080,
+              "end_time": 8320
+            },
+            {
+              "text": "查",
+              "start_time": 8320,
+              "end_time": 8480
+            },
+            {
+              "text": "你",
+              "start_time": 8480,
+              "end_time": 8560
+            },
+            {
+              "text": "的",
+              "start_time": 8560,
+              "end_time": 8640
+            },
+            {
+              "text": "判",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "断。",
+              "start_time": 8800,
+              "end_time": 9040
+            }
+          ],
+          "timestamp": 1790654235217
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "spark",
+      "number": 14,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "5bfc4a91bd15cd3e1c03cf093c0f69c6f802d4c91caeef03d7d670f3f8f909bd",
+      "response_sse_sha256": "8deadd29d1e624d8a295b0873524cafe6730f0f7e20fbce73ef16523b75fda0f",
+      "audio": "14-spark.mp3",
+      "audio_sha256": "32cc6be5dcf4692d485594cf020f5633414db8ef70984eefb393ccb14e16efd9",
+      "audio_bytes": 160428,
+      "duration_seconds": 9.936,
+      "elapsed_seconds": 4.522703625000002,
+      "input": "英伟达的 Spark，是本地研究的算力底座。原始照片进入本地视觉模型；只有预览后批准的文字，才交给外部反证服务。",
+      "subtitles": [
+        {
+          "text": "英伟达的 Spark，是本地研究的算力底座。原始照片进入本地视觉模型；只有预览后批准的文字，才交给外部反证服务。",
+          "request_id": "d65fca655bc594256a8f23cd6a70bbb4.01a0eb4f42d77bb19a7bbfd3d5ff57ce",
+          "items": [
+            {
+              "text": "英",
+              "start_time": 320,
+              "end_time": 480
+            },
+            {
+              "text": "伟",
+              "start_time": 480,
+              "end_time": 560
+            },
+            {
+              "text": "达",
+              "start_time": 560,
+              "end_time": 720
+            },
+            {
+              "text": "的 ",
+              "start_time": 720,
+              "end_time": 800
+            },
+            {
+              "text": "Spark，",
+              "start_time": 800,
+              "end_time": 1440
+            },
+            {
+              "text": "是",
+              "start_time": 1520,
+              "end_time": 1680
+            },
+            {
+              "text": "本",
+              "start_time": 1680,
+              "end_time": 1840
+            },
+            {
+              "text": "地",
+              "start_time": 1840,
+              "end_time": 2000
+            },
+            {
+              "text": "研",
+              "start_time": 2000,
+              "end_time": 2160
+            },
+            {
+              "text": "究",
+              "start_time": 2160,
+              "end_time": 2320
+            },
+            {
+              "text": "的",
+              "start_time": 2320,
+              "end_time": 2400
+            },
+            {
+              "text": "算",
+              "start_time": 2400,
+              "end_time": 2640
+            },
+            {
+              "text": "力",
+              "start_time": 2640,
+              "end_time": 2720
+            },
+            {
+              "text": "底",
+              "start_time": 2720,
+              "end_time": 2880
+            },
+            {
+              "text": "座。",
+              "start_time": 2880,
+              "end_time": 3200
+            },
+            {
+              "text": "原",
+              "start_time": 3760,
+              "end_time": 4000
+            },
+            {
+              "text": "始",
+              "start_time": 4000,
+              "end_time": 4160
+            },
+            {
+              "text": "照",
+              "start_time": 4160,
+              "end_time": 4320
+            },
+            {
+              "text": "片",
+              "start_time": 4320,
+              "end_time": 4640
+            },
+            {
+              "text": "进",
+              "start_time": 4640,
+              "end_time": 4800
+            },
+            {
+              "text": "入",
+              "start_time": 4800,
+              "end_time": 4880
+            },
+            {
+              "text": "本",
+              "start_time": 4880,
+              "end_time": 5040
+            },
+            {
+              "text": "地",
+              "start_time": 5040,
+              "end_time": 5120
+            },
+            {
+              "text": "视",
+              "start_time": 5120,
+              "end_time": 5280
+            },
+            {
+              "text": "觉",
+              "start_time": 5280,
+              "end_time": 5440
+            },
+            {
+              "text": "模",
+              "start_time": 5440,
+              "end_time": 5600
+            },
+            {
+              "text": "型；",
+              "start_time": 5600,
+              "end_time": 5920
+            },
+            {
+              "text": "只",
+              "start_time": 6400,
+              "end_time": 6560
+            },
+            {
+              "text": "有",
+              "start_time": 6560,
+              "end_time": 6720
+            },
+            {
+              "text": "预",
+              "start_time": 6720,
+              "end_time": 6800
+            },
+            {
+              "text": "览",
+              "start_time": 6800,
+              "end_time": 6960
+            },
+            {
+              "text": "后",
+              "start_time": 6960,
+              "end_time": 7200
+            },
+            {
+              "text": "批",
+              "start_time": 7200,
+              "end_time": 7360
+            },
+            {
+              "text": "准",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "的",
+              "start_time": 7520,
+              "end_time": 7600
+            },
+            {
+              "text": "文",
+              "start_time": 7600,
+              "end_time": 7760
+            },
+            {
+              "text": "字，",
+              "start_time": 7760,
+              "end_time": 8000
+            },
+            {
+              "text": "才",
+              "start_time": 8240,
+              "end_time": 8400
+            },
+            {
+              "text": "交",
+              "start_time": 8400,
+              "end_time": 8560
+            },
+            {
+              "text": "给",
+              "start_time": 8560,
+              "end_time": 8640
+            },
+            {
+              "text": "外",
+              "start_time": 8640,
+              "end_time": 8800
+            },
+            {
+              "text": "部",
+              "start_time": 8800,
+              "end_time": 8960
+            },
+            {
+              "text": "反",
+              "start_time": 8960,
+              "end_time": 9120
+            },
+            {
+              "text": "证",
+              "start_time": 9120,
+              "end_time": 9280
+            },
+            {
+              "text": "服",
+              "start_time": 9280,
+              "end_time": 9520
+            },
+            {
+              "text": "务。",
+              "start_time": 9520,
+              "end_time": 9680
+            }
+          ],
+          "timestamp": 1790654239603
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "local-capability",
+      "number": 15,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "9f203e5d43aea95df5be4c7b775c83ab1d3c0bdb8a474394282b0702ed10ed0f",
+      "response_sse_sha256": "f464e50c000e9835b8bcd9ee6766c99630e01718b3c26e707a372b421ae9e52d",
+      "audio": "15-local-capability.mp3",
+      "audio_sha256": "688cb4bebfaa75a6cc6554c8d53f27fca707ee20e023941d257333f6082e5fd7",
+      "audio_bytes": 215340,
+      "duration_seconds": 13.368,
+      "elapsed_seconds": 4.803024665999999,
+      "input": "标准接口、文字推理、资料检索，在本地各有分工。三项独立服务已经验证；正式整案，仍沿用原来的工作路径。先核查新增能力，再决定怎样接入研究流程。",
+      "subtitles": [
+        {
+          "text": "标准接口、文字推理、资料检索，在本地各有分工。三项独立服务已经验证；正式整案，仍沿用原来的工作路径。先核查新增能力，再决定怎样接入研究流程。",
+          "request_id": "745d08192915b8c78047af01459372d3.01a0eb4f435074b7844a983e8ba5d64c",
+          "items": [
+            {
+              "text": "标",
+              "start_time": 240,
+              "end_time": 480
+            },
+            {
+              "text": "准",
+              "start_time": 480,
+              "end_time": 560
+            },
+            {
+              "text": "接",
+              "start_time": 560,
+              "end_time": 800
+            },
+            {
+              "text": "口、",
+              "start_time": 800,
+              "end_time": 1120
+            },
+            {
+              "text": "文",
+              "start_time": 1280,
+              "end_time": 1440
+            },
+            {
+              "text": "字",
+              "start_time": 1440,
+              "end_time": 1520
+            },
+            {
+              "text": "推",
+              "start_time": 1520,
+              "end_time": 1760
+            },
+            {
+              "text": "理、",
+              "start_time": 1760,
+              "end_time": 2000
+            },
+            {
+              "text": "资",
+              "start_time": 2160,
+              "end_time": 2240
+            },
+            {
+              "text": "料",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "检",
+              "start_time": 2400,
+              "end_time": 2640
+            },
+            {
+              "text": "索，",
+              "start_time": 2640,
+              "end_time": 2960
+            },
+            {
+              "text": "在",
+              "start_time": 3200,
+              "end_time": 3360
+            },
+            {
+              "text": "本",
+              "start_time": 3360,
+              "end_time": 3520
+            },
+            {
+              "text": "地",
+              "start_time": 3520,
+              "end_time": 3680
+            },
+            {
+              "text": "各",
+              "start_time": 3680,
+              "end_time": 3840
+            },
+            {
+              "text": "有",
+              "start_time": 3840,
+              "end_time": 4000
+            },
+            {
+              "text": "分",
+              "start_time": 4000,
+              "end_time": 4160
+            },
+            {
+              "text": "工。",
+              "start_time": 4160,
+              "end_time": 4320
+            },
+            {
+              "text": "三",
+              "start_time": 4960,
+              "end_time": 5200
+            },
+            {
+              "text": "项",
+              "start_time": 5200,
+              "end_time": 5360
+            },
+            {
+              "text": "独",
+              "start_time": 5360,
+              "end_time": 5520
+            },
+            {
+              "text": "立",
+              "start_time": 5520,
+              "end_time": 5600
+            },
+            {
+              "text": "服",
+              "start_time": 5600,
+              "end_time": 5840
+            },
+            {
+              "text": "务",
+              "start_time": 5840,
+              "end_time": 5920
+            },
+            {
+              "text": "已",
+              "start_time": 5920,
+              "end_time": 6080
+            },
+            {
+              "text": "经",
+              "start_time": 6080,
+              "end_time": 6240
+            },
+            {
+              "text": "验",
+              "start_time": 6240,
+              "end_time": 6400
+            },
+            {
+              "text": "证；",
+              "start_time": 6400,
+              "end_time": 6560
+            },
+            {
+              "text": "正",
+              "start_time": 6960,
+              "end_time": 7120
+            },
+            {
+              "text": "式",
+              "start_time": 7120,
+              "end_time": 7200
+            },
+            {
+              "text": "整",
+              "start_time": 7200,
+              "end_time": 7360
+            },
+            {
+              "text": "案，",
+              "start_time": 7360,
+              "end_time": 7680
+            },
+            {
+              "text": "仍",
+              "start_time": 7840,
+              "end_time": 8080
+            },
+            {
+              "text": "沿",
+              "start_time": 8080,
+              "end_time": 8160
+            },
+            {
+              "text": "用",
+              "start_time": 8160,
+              "end_time": 8400
+            },
+            {
+              "text": "原",
+              "start_time": 8400,
+              "end_time": 8560
+            },
+            {
+              "text": "来",
+              "start_time": 8560,
+              "end_time": 8720
+            },
+            {
+              "text": "的",
+              "start_time": 8720,
+              "end_time": 8800
+            },
+            {
+              "text": "工",
+              "start_time": 8800,
+              "end_time": 8960
+            },
+            {
+              "text": "作",
+              "start_time": 8960,
+              "end_time": 9040
+            },
+            {
+              "text": "路",
+              "start_time": 9040,
+              "end_time": 9200
+            },
+            {
+              "text": "径。",
+              "start_time": 9200,
+              "end_time": 9440
+            },
+            {
+              "text": "先",
+              "start_time": 9840,
+              "end_time": 10080
+            },
+            {
+              "text": "核",
+              "start_time": 10080,
+              "end_time": 10240
+            },
+            {
+              "text": "查",
+              "start_time": 10240,
+              "end_time": 10400
+            },
+            {
+              "text": "新",
+              "start_time": 10400,
+              "end_time": 10640
+            },
+            {
+              "text": "增",
+              "start_time": 10640,
+              "end_time": 10720
+            },
+            {
+              "text": "能",
+              "start_time": 10720,
+              "end_time": 10960
+            },
+            {
+              "text": "力，",
+              "start_time": 10960,
+              "end_time": 11120
+            },
+            {
+              "text": "再",
+              "start_time": 11280,
+              "end_time": 11520
+            },
+            {
+              "text": "决",
+              "start_time": 11520,
+              "end_time": 11680
+            },
+            {
+              "text": "定",
+              "start_time": 11680,
+              "end_time": 11920
+            },
+            {
+              "text": "怎",
+              "start_time": 12000,
+              "end_time": 12160
+            },
+            {
+              "text": "样",
+              "start_time": 12160,
+              "end_time": 12320
+            },
+            {
+              "text": "接",
+              "start_time": 12320,
+              "end_time": 12480
+            },
+            {
+              "text": "入",
+              "start_time": 12480,
+              "end_time": 12640
+            },
+            {
+              "text": "研",
+              "start_time": 12640,
+              "end_time": 12720
+            },
+            {
+              "text": "究",
+              "start_time": 12720,
+              "end_time": 12880
+            },
+            {
+              "text": "流",
+              "start_time": 12880,
+              "end_time": 13040
+            },
+            {
+              "text": "程。",
+              "start_time": 13040,
+              "end_time": 13280
+            }
+          ],
+          "timestamp": 1790654239998
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "actual-record",
+      "number": 16,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "480b3ad1976e7870e599f2ab3f62499daa5e2f5a068a02a2101987992ef96752",
+      "response_sse_sha256": "a7bc6fdcafdcc4b1babd8d5ce05803cf6e44727e9312b47475f80746e84300d6",
+      "audio": "16-actual-record.mp3",
+      "audio_sha256": "5d70d37370b5d0d666ca06988aa5a982d0cb35960b20c819135d48af3c20e1e7",
+      "audio_bytes": 142380,
+      "duration_seconds": 8.808,
+      "elapsed_seconds": 4.466142708,
+      "input": "每版观察、审查意见和修订理由，均保留在案卷里。读回原图和原文，让下一位研究者继续核查。",
+      "subtitles": [
+        {
+          "text": "每版观察、审查意见和修订理由，均保留在案卷里。读回原图和原文，让下一位研究者继续核查。",
+          "request_id": "90c8426ff4fbfaee0cfa22290ea67502.01a0eb4f547f7eb9b6fb064afd5d8715",
+          "items": [
+            {
+              "text": "每",
+              "start_time": 80,
+              "end_time": 240
+            },
+            {
+              "text": "版",
+              "start_time": 240,
+              "end_time": 400
+            },
+            {
+              "text": "观",
+              "start_time": 400,
+              "end_time": 560
+            },
+            {
+              "text": "察、",
+              "start_time": 560,
+              "end_time": 960
+            },
+            {
+              "text": "审",
+              "start_time": 1040,
+              "end_time": 1280
+            },
+            {
+              "text": "查",
+              "start_time": 1280,
+              "end_time": 1440
+            },
+            {
+              "text": "意",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "见",
+              "start_time": 1600,
+              "end_time": 1920
+            },
+            {
+              "text": "和",
+              "start_time": 1920,
+              "end_time": 2080
+            },
+            {
+              "text": "修",
+              "start_time": 2080,
+              "end_time": 2240
+            },
+            {
+              "text": "订",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "理",
+              "start_time": 2400,
+              "end_time": 2560
+            },
+            {
+              "text": "由，",
+              "start_time": 2560,
+              "end_time": 2880
+            },
+            {
+              "text": "均",
+              "start_time": 3120,
+              "end_time": 3280
+            },
+            {
+              "text": "保",
+              "start_time": 3280,
+              "end_time": 3440
+            },
+            {
+              "text": "留",
+              "start_time": 3440,
+              "end_time": 3600
+            },
+            {
+              "text": "在",
+              "start_time": 3600,
+              "end_time": 3680
+            },
+            {
+              "text": "案",
+              "start_time": 3680,
+              "end_time": 3840
+            },
+            {
+              "text": "卷",
+              "start_time": 3840,
+              "end_time": 4080
+            },
+            {
+              "text": "里。",
+              "start_time": 4080,
+              "end_time": 4240
+            },
+            {
+              "text": "读",
+              "start_time": 5360,
+              "end_time": 5520
+            },
+            {
+              "text": "回",
+              "start_time": 5520,
+              "end_time": 5680
+            },
+            {
+              "text": "原",
+              "start_time": 5680,
+              "end_time": 5840
+            },
+            {
+              "text": "图",
+              "start_time": 5840,
+              "end_time": 6000
+            },
+            {
+              "text": "和",
+              "start_time": 6000,
+              "end_time": 6080
+            },
+            {
+              "text": "原",
+              "start_time": 6080,
+              "end_time": 6320
+            },
+            {
+              "text": "文，",
+              "start_time": 6320,
+              "end_time": 6560
+            },
+            {
+              "text": "让",
+              "start_time": 6800,
+              "end_time": 6960
+            },
+            {
+              "text": "下",
+              "start_time": 6960,
+              "end_time": 7200
+            },
+            {
+              "text": "一",
+              "start_time": 7200,
+              "end_time": 7280
+            },
+            {
+              "text": "位",
+              "start_time": 7280,
+              "end_time": 7360
+            },
+            {
+              "text": "研",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "究",
+              "start_time": 7520,
+              "end_time": 7680
+            },
+            {
+              "text": "者",
+              "start_time": 7680,
+              "end_time": 7920
+            },
+            {
+              "text": "继",
+              "start_time": 8000,
+              "end_time": 8160
+            },
+            {
+              "text": "续",
+              "start_time": 8160,
+              "end_time": 8240
+            },
+            {
+              "text": "核",
+              "start_time": 8240,
+              "end_time": 8400
+            },
+            {
+              "text": "查。",
+              "start_time": 8400,
+              "end_time": 8720
+            }
+          ],
+          "timestamp": 1790654244077
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "next",
+      "number": 17,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "354940851b93aec2a1a217b164ab902e5c7cf5f5277bc6417e45d138ba76bec0",
+      "response_sse_sha256": "040c1f9aa54290b33e495f477836e5b60183a5c8d8e910d9d4ef0c623c3cf0dd",
+      "audio": "17-next.mp3",
+      "audio_sha256": "aed3046dccc047a3c18e3ecd41af5ac3129f36139c1ce32fa6fb85272ac3f038",
+      "audio_bytes": 180014,
+      "duration_seconds": 11.16,
+      "elapsed_seconds": 3.495441250037402,
+      "input": "未来，我们将引入有许可的专家材料，用独立样本，检验方法与结论。把研究流程做扎实，也把能力边界说清楚。",
+      "subtitles": [
+        {
+          "text": "未来，我们将引入有许可的专家材料，用独立样本，检验方法与结论。把研究流程做扎实，也把能力边界说清楚。",
+          "request_id": "75f15256f9cd901802ae3cba3042f861.01a0ebae866c71f18566eb238fd88882",
+          "items": [
+            {
+              "text": "未",
+              "start_time": 160,
+              "end_time": 320
+            },
+            {
+              "text": "来，",
+              "start_time": 320,
+              "end_time": 720
+            },
+            {
+              "text": "我",
+              "start_time": 800,
+              "end_time": 880
+            },
+            {
+              "text": "们",
+              "start_time": 880,
+              "end_time": 1040
+            },
+            {
+              "text": "将",
+              "start_time": 1040,
+              "end_time": 1200
+            },
+            {
+              "text": "引",
+              "start_time": 1200,
+              "end_time": 1280
+            },
+            {
+              "text": "入",
+              "start_time": 1280,
+              "end_time": 1440
+            },
+            {
+              "text": "有",
+              "start_time": 1440,
+              "end_time": 1600
+            },
+            {
+              "text": "许",
+              "start_time": 1600,
+              "end_time": 1840
+            },
+            {
+              "text": "可",
+              "start_time": 1840,
+              "end_time": 2000
+            },
+            {
+              "text": "的",
+              "start_time": 2000,
+              "end_time": 2080
+            },
+            {
+              "text": "专",
+              "start_time": 2080,
+              "end_time": 2240
+            },
+            {
+              "text": "家",
+              "start_time": 2240,
+              "end_time": 2400
+            },
+            {
+              "text": "材",
+              "start_time": 2400,
+              "end_time": 2640
+            },
+            {
+              "text": "料，",
+              "start_time": 2640,
+              "end_time": 2880
+            },
+            {
+              "text": "用",
+              "start_time": 3360,
+              "end_time": 3520
+            },
+            {
+              "text": "独",
+              "start_time": 3520,
+              "end_time": 3760
+            },
+            {
+              "text": "立",
+              "start_time": 3760,
+              "end_time": 3920
+            },
+            {
+              "text": "样",
+              "start_time": 3920,
+              "end_time": 4160
+            },
+            {
+              "text": "本，",
+              "start_time": 4160,
+              "end_time": 4400
+            },
+            {
+              "text": "检",
+              "start_time": 4640,
+              "end_time": 4800
+            },
+            {
+              "text": "验",
+              "start_time": 4800,
+              "end_time": 4960
+            },
+            {
+              "text": "方",
+              "start_time": 4960,
+              "end_time": 5200
+            },
+            {
+              "text": "法",
+              "start_time": 5200,
+              "end_time": 5520
+            },
+            {
+              "text": "与",
+              "start_time": 5520,
+              "end_time": 5680
+            },
+            {
+              "text": "结",
+              "start_time": 5680,
+              "end_time": 5920
+            },
+            {
+              "text": "论。",
+              "start_time": 5920,
+              "end_time": 6160
+            },
+            {
+              "text": "把",
+              "start_time": 7040,
+              "end_time": 7200
+            },
+            {
+              "text": "研",
+              "start_time": 7200,
+              "end_time": 7360
+            },
+            {
+              "text": "究",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "流",
+              "start_time": 7520,
+              "end_time": 7600
+            },
+            {
+              "text": "程",
+              "start_time": 7600,
+              "end_time": 7840
+            },
+            {
+              "text": "做",
+              "start_time": 7840,
+              "end_time": 7920
+            },
+            {
+              "text": "扎",
+              "start_time": 7920,
+              "end_time": 8160
+            },
+            {
+              "text": "实，",
+              "start_time": 8160,
+              "end_time": 8400
+            },
+            {
+              "text": "也",
+              "start_time": 8720,
+              "end_time": 8880
+            },
+            {
+              "text": "把",
+              "start_time": 8880,
+              "end_time": 8960
+            },
+            {
+              "text": "能",
+              "start_time": 8960,
+              "end_time": 9200
+            },
+            {
+              "text": "力",
+              "start_time": 9200,
+              "end_time": 9360
+            },
+            {
+              "text": "边",
+              "start_time": 9360,
+              "end_time": 9600
+            },
+            {
+              "text": "界",
+              "start_time": 9600,
+              "end_time": 9760
+            },
+            {
+              "text": "说",
+              "start_time": 9840,
+              "end_time": 10080
+            },
+            {
+              "text": "清",
+              "start_time": 10080,
+              "end_time": 10320
+            },
+            {
+              "text": "楚。",
+              "start_time": 10320,
+              "end_time": 10480
+            }
+          ],
+          "timestamp": 1790660481834
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    },
+    {
+      "scene": "closing",
+      "number": 18,
+      "status": 200,
+      "content_type": "text/event-stream",
+      "model": "stepaudio-2.5-tts",
+      "voice": "ruyananshi",
+      "request_sha256": "ff5041da7bf35d0fedad92e581c03e69f63cb9e7389940af97924b5f8210b9be",
+      "response_sse_sha256": "cef2756084a53599c8f46f396fffd71007789192924075d5ca6156af89424b63",
+      "audio": "18-closing.mp3",
+      "audio_sha256": "72698a49669c87a561cdef0fcb530092dd826295fbe2a4a634e501a59139474b",
+      "audio_bytes": 164268,
+      "duration_seconds": 10.176,
+      "elapsed_seconds": 3.880928167141974,
+      "input": "瓷证，让原图、出处和判断理由，都可以继续核查。完整图文报告、源码和演示，入口在主页。",
+      "subtitles": [
+        {
+          "text": "瓷证，让原图、出处和判断理由，都可以继续核查。完整图文报告、源码和演示，入口在主页。",
+          "request_id": "95fbdcb6168c159265240cff6ec44d7d.01a0ebc7d4cc7a1da6a3f5331b05d843",
+          "items": [
+            {
+              "text": "瓷",
+              "start_time": 160,
+              "end_time": 320
+            },
+            {
+              "text": "证，",
+              "start_time": 320,
+              "end_time": 640
+            },
+            {
+              "text": "让",
+              "start_time": 1040,
+              "end_time": 1280
+            },
+            {
+              "text": "原",
+              "start_time": 1280,
+              "end_time": 1520
+            },
+            {
+              "text": "图、",
+              "start_time": 1520,
+              "end_time": 1680
+            },
+            {
+              "text": "出",
+              "start_time": 1680,
+              "end_time": 1920
+            },
+            {
+              "text": "处",
+              "start_time": 1920,
+              "end_time": 2080
+            },
+            {
+              "text": "和",
+              "start_time": 2080,
+              "end_time": 2160
+            },
+            {
+              "text": "判",
+              "start_time": 2160,
+              "end_time": 2320
+            },
+            {
+              "text": "断",
+              "start_time": 2320,
+              "end_time": 2480
+            },
+            {
+              "text": "理",
+              "start_time": 2480,
+              "end_time": 2640
+            },
+            {
+              "text": "由，",
+              "start_time": 2640,
+              "end_time": 2880
+            },
+            {
+              "text": "都",
+              "start_time": 3120,
+              "end_time": 3280
+            },
+            {
+              "text": "可",
+              "start_time": 3280,
+              "end_time": 3440
+            },
+            {
+              "text": "以",
+              "start_time": 3440,
+              "end_time": 3520
+            },
+            {
+              "text": "继",
+              "start_time": 3520,
+              "end_time": 3600
+            },
+            {
+              "text": "续",
+              "start_time": 3600,
+              "end_time": 3760
+            },
+            {
+              "text": "核",
+              "start_time": 3760,
+              "end_time": 3920
+            },
+            {
+              "text": "查。",
+              "start_time": 3920,
+              "end_time": 4240
+            },
+            {
+              "text": "完",
+              "start_time": 5600,
+              "end_time": 5760
+            },
+            {
+              "text": "整",
+              "start_time": 5760,
+              "end_time": 5920
+            },
+            {
+              "text": "图",
+              "start_time": 5920,
+              "end_time": 6080
+            },
+            {
+              "text": "文",
+              "start_time": 6080,
+              "end_time": 6160
+            },
+            {
+              "text": "报",
+              "start_time": 6160,
+              "end_time": 6320
+            },
+            {
+              "text": "告、",
+              "start_time": 6320,
+              "end_time": 6720
+            },
+            {
+              "text": "源",
+              "start_time": 6880,
+              "end_time": 7040
+            },
+            {
+              "text": "码",
+              "start_time": 7040,
+              "end_time": 7200
+            },
+            {
+              "text": "和",
+              "start_time": 7200,
+              "end_time": 7360
+            },
+            {
+              "text": "演",
+              "start_time": 7360,
+              "end_time": 7520
+            },
+            {
+              "text": "示，",
+              "start_time": 7520,
+              "end_time": 7840
+            },
+            {
+              "text": "入",
+              "start_time": 8000,
+              "end_time": 8160
+            },
+            {
+              "text": "口",
+              "start_time": 8160,
+              "end_time": 8320
+            },
+            {
+              "text": "在",
+              "start_time": 8320,
+              "end_time": 8480
+            },
+            {
+              "text": "主",
+              "start_time": 8480,
+              "end_time": 8640
+            },
+            {
+              "text": "页。",
+              "start_time": 8640,
+              "end_time": 8880
+            }
+          ],
+          "timestamp": 1790662140541
+        }
+      ],
+      "event_types": [
+        "response.subtitle",
+        "speech.audio.delta",
+        "speech.audio.done"
+      ],
+      "retry_count": 0
+    }
+  ]
+}

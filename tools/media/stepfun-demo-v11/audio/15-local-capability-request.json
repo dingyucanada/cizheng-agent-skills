@@ -1,0 +1,1 @@
+{"model":"stepaudio-2.5-tts","voice":"ruyananshi","input":"标准接口、文字推理、资料检索，在本地各有分工。三项独立服务已经验证；正式整案，仍沿用原来的工作路径。先核查新增能力，再决定怎样接入研究流程。","instruction":"自然、亲切、专业的普通话项目讲解，像研究员向同行介绍工作台。中等语速，按完整句子连贯表达。语气沉稳有叙述感，避免逐词断开、夸张播音腔和长时间停顿。疑问句自然上扬。","response_format":"mp3","sample_rate":24000,"speed":1.0,"text_normalization":"enhanced","stream_format":"sse","timestamp":true}

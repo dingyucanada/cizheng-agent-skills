@@ -1,0 +1,1 @@
+{"model":"stepaudio-2.5-tts","voice":"ruyananshi","input":"人工复核，面对的是具体材料和具体版本。可以同意，也可以指出不足；系统保存复核意见，不冒充专家签署。","instruction":"自然、亲切、专业的普通话项目讲解，像研究员向同行介绍工作台。中等语速，按完整句子连贯表达。语气沉稳有叙述感，避免逐词断开、夸张播音腔和长时间停顿。疑问句自然上扬。","response_format":"mp3","sample_rate":24000,"speed":1.0,"text_normalization":"enhanced","stream_format":"sse","timestamp":true}

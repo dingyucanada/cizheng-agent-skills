@@ -10,7 +10,7 @@
 | 智能体与模型技术25% | 七个领域Skills逐步发现、按需加载和固定包身份；本地视觉与工具预算；资料实际读取及引用身份约束；StepFun批准文字审查与本地修订 | [领域Skills](../skills/)、[第12轮保存记录](../verification/nvidia/v07-workflows/round-12/workflow-summary.json)、[NAT集成](nvidia-integration.md) | 对观察、引用支持和理由进行独立专家评审；同预算有/无Skills对照 |
 | 项目完整性20% | FastAPI / SQLite专业工作台与完整公开体验；原件、幂等、阶段任务、修订、导出；材料更改后旧判断不能回流为新证据 | [当前软件核验](../verification/software/v09/README.md)：本机1120项Python、37项DOM；Spark54项专项及实际HTTP照片回取；[CI](../.github/workflows/ci.yml) | 机构多用户权限与可信签署属于后续生产化，当前为单人受控试用 |
 | 平台适配15% | GB10真实CUDA/BF16视觉；NAT引用身份核查；Nsight限定视觉区间；原厂NIM、官方TensorRT-LLM文字及开放Embedding+cuVS GPU检索三个独立服务 | [当前五服务核对](../verification/software/v09/current-node-readonly.json)、[NIM实际部署](nim-v09-update.md)、[TRT-LLM](../verification/nvidia/tensorrt-llm-v08/README.md)、[Retriever核验](../verification/nvidia/retriever-v07/index.json) | 三项新增服务各有真实验收，尚未替换8B视觉/SQLite主流程；未声称完整Retriever SDK、整案提速或NVIDIA Verified |
-| 演示效果10% | 193.12秒中文旁白、原创音乐与字幕的场景演示；真实保存记录另有回放；12页可编辑中文PPT、19页完整图文PDF | [固定Demo网址](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4)、[PPT预览](../site/assets/cizheng-pitch-v07-preview.html)、[媒体清单](../site/assets/media-manifest-v07.json) | 场景演示由实际界面与保存记录制作，非连续模型录屏；B站等正式渠道以实际发布回执为准 |
+| 演示效果10% | 203.36秒中文旁白、原创中国风轻配乐与字幕的场景演示；真实保存记录另有回放；12页可编辑中文PPT、19页完整图文PDF | [固定Demo网址](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4)、[PPT预览](../site/assets/cizheng-pitch-v07-preview.html)、[媒体清单](../site/assets/media-manifest-v07.json) | 场景演示由实际界面与保存记录制作，非连续模型录屏；B站等正式渠道以实际发布回执为准 |
 | 征文5% | 十个主题章节记录真实开发、部署取舍、失败与修复；用户已手动发布固定知乎地址 | [当前文章](development-story.md)、[固定知乎征文](https://zhuanlan.zhihu.com/p/2088103686509744413) | 仓库新稿与知乎同步由用户手动完成；十章不宣称已开发十天 |
 
 ## NVIDIA 与 StepFun 为什么各有具体职责

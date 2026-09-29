@@ -1,0 +1,244 @@
+{
+  "schema": "cizheng.stable-demo-qa.v1",
+  "movie_sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c",
+  "duration_seconds": 203.36,
+  "frames": 5084,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "full_AV_decode": "passed, no ffmpeg error",
+  "subtitle_cues": 45,
+  "actual_caption_frames": 45,
+  "camera": "Fixed images; no zoompan, translation, auto-scaling or camera-motion filter. 200ms scene boundary fades; 1.6-second final fade.",
+  "actual_geometric_stability": [
+    {
+      "scene": "opening",
+      "sample_times": [
+        0.8,
+        1.8,
+        2.8
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.02440843621399177,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "scenarios",
+      "sample_times": [
+        10.24,
+        11.24,
+        12.239999999999998
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.011290348508230453,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "workbench",
+      "sample_times": [
+        19.720000000000002,
+        20.720000000000002,
+        21.720000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.007122878086419753,
+      "max_rgb_difference": 7,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "observe",
+      "sample_times": [
+        30.2,
+        31.2,
+        32.199999999999996
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.02209764017489712,
+      "max_rgb_difference": 8,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "read",
+      "sample_times": [
+        41.76,
+        42.76,
+        43.76
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.03125080375514403,
+      "max_rgb_difference": 9,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "catalogue",
+      "sample_times": [
+        53.32,
+        54.32,
+        55.32
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.018638278034979423,
+      "max_rgb_difference": 8,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "skills",
+      "sample_times": [
+        64.88,
+        65.88,
+        66.88
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.013280446244855967,
+      "max_rgb_difference": 21,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "skills-action",
+      "sample_times": [
+        74.2,
+        75.2,
+        76.2
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.022148276748971192,
+      "max_rgb_difference": 12,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "contradiction",
+      "sample_times": [
+        84.44,
+        85.44,
+        86.44
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.02230983153292181,
+      "max_rgb_difference": 20,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "supplement",
+      "sample_times": [
+        98.56,
+        99.56,
+        100.56
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.02303642618312757,
+      "max_rgb_difference": 8,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "revision",
+      "sample_times": [
+        111.28,
+        112.28,
+        113.28
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.015620177469135802,
+      "max_rgb_difference": 23,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "human",
+      "sample_times": [
+        120.36,
+        121.36,
+        122.36
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.013338316615226338,
+      "max_rgb_difference": 10,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "export",
+      "sample_times": [
+        131.52,
+        132.52,
+        133.52
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.009723829732510288,
+      "max_rgb_difference": 9,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "spark",
+      "sample_times": [
+        141.96,
+        142.96,
+        143.96
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.011413323045267489,
+      "max_rgb_difference": 10,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "local-capability",
+      "sample_times": [
+        152.52,
+        153.52,
+        154.52
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.025020897633744855,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "actual-record",
+      "sample_times": [
+        166.88000000000002,
+        167.88000000000002,
+        168.88000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.009916730967078189,
+      "max_rgb_difference": 8,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "next",
+      "sample_times": [
+        176.36,
+        177.36,
+        178.36
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.013639724794238682,
+      "max_rgb_difference": 12,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "closing",
+      "sample_times": [
+        189.12,
+        190.12,
+        191.12
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.030386766975308642,
+      "max_rgb_difference": 13,
+      "no_camera_movement": true
+    }
+  ],
+  "all_18_picture_regions_stable": true,
+  "loudness": {
+    "input_i": "-16.34",
+    "input_tp": "-1.09",
+    "input_lra": "3.60",
+    "input_thresh": "-27.37",
+    "output_i": "-16.01",
+    "output_tp": "-1.50",
+    "output_lra": "3.60",
+    "output_thresh": "-26.99",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "manual_listening_performed": false,
+  "naturalness_score_claimed": false,
+  "truth_scope": "Real public catalogue photos, actual teaching-interface screenshots and saved-record reconstruction; not continuous AI recording or expert validation",
+  "caption_visual_review": {
+    "reviewer": "root agent",
+    "actual_final_movie_sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c",
+    "contact_sheets_viewed": 5,
+    "caption_frames_viewed": 45,
+    "finding": "All five actual final-movie caption contact sheets viewed; no missing Chinese glyphs, subtitle clipping or layout overlap observed. Actual 11s, 53s and closing-hold frames also viewed."
+  },
+  "actual_final_audio_content_check": {
+    "result": "final-asr.json",
+    "model": "stepaudio-2.5-asr",
+    "movie_sha256": "270f1ce7184afeaa64e7d6cf0672e5ddd0ce574210d74218a301ea3481e63f9c",
+    "scope": "Final public movie audio; no hints or hotwords; content recognition only, not a human listening or naturalness score."
+  }
+}

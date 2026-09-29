@@ -1,0 +1,1 @@
+{"model":"stepaudio-2.5-tts","voice":"ruyananshi","input":"未来，我们将引入有许可的专家材料，用独立样本，检验方法与结论。把研究流程做扎实，也把能力边界说清楚。","instruction":"专业、亲切的普通话讲解。接近演示结尾，语气沉稳，句与句之间从容停顿，不加速，不赶时间，保持连贯自然。","response_format":"mp3","sample_rate":24000,"speed":0.95,"text_normalization":"enhanced","stream_format":"sse","timestamp":true}

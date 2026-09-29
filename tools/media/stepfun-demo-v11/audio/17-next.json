@@ -1,0 +1,251 @@
+{
+  "scene": "next",
+  "number": 17,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "354940851b93aec2a1a217b164ab902e5c7cf5f5277bc6417e45d138ba76bec0",
+  "response_sse_sha256": "040c1f9aa54290b33e495f477836e5b60183a5c8d8e910d9d4ef0c623c3cf0dd",
+  "audio": "17-next.mp3",
+  "audio_sha256": "aed3046dccc047a3c18e3ecd41af5ac3129f36139c1ce32fa6fb85272ac3f038",
+  "audio_bytes": 180014,
+  "duration_seconds": 11.16,
+  "elapsed_seconds": 3.495441250037402,
+  "input": "未来，我们将引入有许可的专家材料，用独立样本，检验方法与结论。把研究流程做扎实，也把能力边界说清楚。",
+  "subtitles": [
+    {
+      "text": "未来，我们将引入有许可的专家材料，用独立样本，检验方法与结论。把研究流程做扎实，也把能力边界说清楚。",
+      "request_id": "75f15256f9cd901802ae3cba3042f861.01a0ebae866c71f18566eb238fd88882",
+      "items": [
+        {
+          "text": "未",
+          "start_time": 160,
+          "end_time": 320
+        },
+        {
+          "text": "来，",
+          "start_time": 320,
+          "end_time": 720
+        },
+        {
+          "text": "我",
+          "start_time": 800,
+          "end_time": 880
+        },
+        {
+          "text": "们",
+          "start_time": 880,
+          "end_time": 1040
+        },
+        {
+          "text": "将",
+          "start_time": 1040,
+          "end_time": 1200
+        },
+        {
+          "text": "引",
+          "start_time": 1200,
+          "end_time": 1280
+        },
+        {
+          "text": "入",
+          "start_time": 1280,
+          "end_time": 1440
+        },
+        {
+          "text": "有",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "许",
+          "start_time": 1600,
+          "end_time": 1840
+        },
+        {
+          "text": "可",
+          "start_time": 1840,
+          "end_time": 2000
+        },
+        {
+          "text": "的",
+          "start_time": 2000,
+          "end_time": 2080
+        },
+        {
+          "text": "专",
+          "start_time": 2080,
+          "end_time": 2240
+        },
+        {
+          "text": "家",
+          "start_time": 2240,
+          "end_time": 2400
+        },
+        {
+          "text": "材",
+          "start_time": 2400,
+          "end_time": 2640
+        },
+        {
+          "text": "料，",
+          "start_time": 2640,
+          "end_time": 2880
+        },
+        {
+          "text": "用",
+          "start_time": 3360,
+          "end_time": 3520
+        },
+        {
+          "text": "独",
+          "start_time": 3520,
+          "end_time": 3760
+        },
+        {
+          "text": "立",
+          "start_time": 3760,
+          "end_time": 3920
+        },
+        {
+          "text": "样",
+          "start_time": 3920,
+          "end_time": 4160
+        },
+        {
+          "text": "本，",
+          "start_time": 4160,
+          "end_time": 4400
+        },
+        {
+          "text": "检",
+          "start_time": 4640,
+          "end_time": 4800
+        },
+        {
+          "text": "验",
+          "start_time": 4800,
+          "end_time": 4960
+        },
+        {
+          "text": "方",
+          "start_time": 4960,
+          "end_time": 5200
+        },
+        {
+          "text": "法",
+          "start_time": 5200,
+          "end_time": 5520
+        },
+        {
+          "text": "与",
+          "start_time": 5520,
+          "end_time": 5680
+        },
+        {
+          "text": "结",
+          "start_time": 5680,
+          "end_time": 5920
+        },
+        {
+          "text": "论。",
+          "start_time": 5920,
+          "end_time": 6160
+        },
+        {
+          "text": "把",
+          "start_time": 7040,
+          "end_time": 7200
+        },
+        {
+          "text": "研",
+          "start_time": 7200,
+          "end_time": 7360
+        },
+        {
+          "text": "究",
+          "start_time": 7360,
+          "end_time": 7520
+        },
+        {
+          "text": "流",
+          "start_time": 7520,
+          "end_time": 7600
+        },
+        {
+          "text": "程",
+          "start_time": 7600,
+          "end_time": 7840
+        },
+        {
+          "text": "做",
+          "start_time": 7840,
+          "end_time": 7920
+        },
+        {
+          "text": "扎",
+          "start_time": 7920,
+          "end_time": 8160
+        },
+        {
+          "text": "实，",
+          "start_time": 8160,
+          "end_time": 8400
+        },
+        {
+          "text": "也",
+          "start_time": 8720,
+          "end_time": 8880
+        },
+        {
+          "text": "把",
+          "start_time": 8880,
+          "end_time": 8960
+        },
+        {
+          "text": "能",
+          "start_time": 8960,
+          "end_time": 9200
+        },
+        {
+          "text": "力",
+          "start_time": 9200,
+          "end_time": 9360
+        },
+        {
+          "text": "边",
+          "start_time": 9360,
+          "end_time": 9600
+        },
+        {
+          "text": "界",
+          "start_time": 9600,
+          "end_time": 9760
+        },
+        {
+          "text": "说",
+          "start_time": 9840,
+          "end_time": 10080
+        },
+        {
+          "text": "清",
+          "start_time": 10080,
+          "end_time": 10320
+        },
+        {
+          "text": "楚。",
+          "start_time": 10320,
+          "end_time": 10480
+        }
+      ],
+      "timestamp": 1790660481834
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

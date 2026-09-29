@@ -1,0 +1,276 @@
+{
+  "scene": "catalogue",
+  "number": 6,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "e52a0c5d13a1b15855b8e091d9586fff166dddacaa27f147f35f592f0c1c945e",
+  "response_sse_sha256": "7533f4386ada4a7e4227da0687076b9331d2a3e35816b2ff0d506812fb05f899",
+  "audio": "06-catalogue.mp3",
+  "audio_sha256": "113a888614ecfd5ed172eab59fa1cc3ead35d617c6e8c4aa8208ced9e654462b",
+  "audio_bytes": 179628,
+  "duration_seconds": 11.136,
+  "elapsed_seconds": 4.587382624857128,
+  "input": "这组照片来自博物馆，参照对象可以明确核对。博物馆标注的年代和窑口可以作参照，其他器物仍需结合自身特征判断。",
+  "subtitles": [
+    {
+      "text": "这组照片来自博物馆，参照对象可以明确核对。博物馆标注的年代和窑口可以作参照，其他器物仍需结合自身特征判断。",
+      "request_id": "35010d4537c3acbc0dd42f2eaa098bd1.01a0ebc40cf87e8ca42b4abc96f2f88a",
+      "items": [
+        {
+          "text": "这",
+          "start_time": 240,
+          "end_time": 400
+        },
+        {
+          "text": "组",
+          "start_time": 400,
+          "end_time": 560
+        },
+        {
+          "text": "照",
+          "start_time": 560,
+          "end_time": 720
+        },
+        {
+          "text": "片",
+          "start_time": 720,
+          "end_time": 1120
+        },
+        {
+          "text": "来",
+          "start_time": 1120,
+          "end_time": 1280
+        },
+        {
+          "text": "自",
+          "start_time": 1280,
+          "end_time": 1440
+        },
+        {
+          "text": "博",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "物",
+          "start_time": 1600,
+          "end_time": 1680
+        },
+        {
+          "text": "馆，",
+          "start_time": 1680,
+          "end_time": 2000
+        },
+        {
+          "text": "参",
+          "start_time": 2560,
+          "end_time": 2720
+        },
+        {
+          "text": "照",
+          "start_time": 2720,
+          "end_time": 2880
+        },
+        {
+          "text": "对",
+          "start_time": 2880,
+          "end_time": 3040
+        },
+        {
+          "text": "象",
+          "start_time": 3040,
+          "end_time": 3360
+        },
+        {
+          "text": "可",
+          "start_time": 3360,
+          "end_time": 3440
+        },
+        {
+          "text": "以",
+          "start_time": 3440,
+          "end_time": 3600
+        },
+        {
+          "text": "明",
+          "start_time": 3600,
+          "end_time": 3760
+        },
+        {
+          "text": "确",
+          "start_time": 3760,
+          "end_time": 3920
+        },
+        {
+          "text": "核",
+          "start_time": 3920,
+          "end_time": 4080
+        },
+        {
+          "text": "对。",
+          "start_time": 4080,
+          "end_time": 4320
+        },
+        {
+          "text": "博",
+          "start_time": 4880,
+          "end_time": 5040
+        },
+        {
+          "text": "物",
+          "start_time": 5040,
+          "end_time": 5200
+        },
+        {
+          "text": "馆",
+          "start_time": 5200,
+          "end_time": 5360
+        },
+        {
+          "text": "标",
+          "start_time": 5360,
+          "end_time": 5600
+        },
+        {
+          "text": "注",
+          "start_time": 5600,
+          "end_time": 5680
+        },
+        {
+          "text": "的",
+          "start_time": 5680,
+          "end_time": 5760
+        },
+        {
+          "text": "年",
+          "start_time": 5760,
+          "end_time": 6080
+        },
+        {
+          "text": "代",
+          "start_time": 6080,
+          "end_time": 6240
+        },
+        {
+          "text": "和",
+          "start_time": 6240,
+          "end_time": 6320
+        },
+        {
+          "text": "窑",
+          "start_time": 6320,
+          "end_time": 6560
+        },
+        {
+          "text": "口",
+          "start_time": 6560,
+          "end_time": 6800
+        },
+        {
+          "text": "可",
+          "start_time": 6800,
+          "end_time": 7040
+        },
+        {
+          "text": "以",
+          "start_time": 7040,
+          "end_time": 7120
+        },
+        {
+          "text": "作",
+          "start_time": 7120,
+          "end_time": 7280
+        },
+        {
+          "text": "参",
+          "start_time": 7280,
+          "end_time": 7520
+        },
+        {
+          "text": "照，",
+          "start_time": 7520,
+          "end_time": 7760
+        },
+        {
+          "text": "其",
+          "start_time": 8240,
+          "end_time": 8480
+        },
+        {
+          "text": "他",
+          "start_time": 8480,
+          "end_time": 8640
+        },
+        {
+          "text": "器",
+          "start_time": 8640,
+          "end_time": 8880
+        },
+        {
+          "text": "物",
+          "start_time": 8880,
+          "end_time": 9120
+        },
+        {
+          "text": "仍",
+          "start_time": 9200,
+          "end_time": 9360
+        },
+        {
+          "text": "需",
+          "start_time": 9360,
+          "end_time": 9520
+        },
+        {
+          "text": "结",
+          "start_time": 9520,
+          "end_time": 9680
+        },
+        {
+          "text": "合",
+          "start_time": 9680,
+          "end_time": 9920
+        },
+        {
+          "text": "自",
+          "start_time": 9920,
+          "end_time": 10080
+        },
+        {
+          "text": "身",
+          "start_time": 10080,
+          "end_time": 10240
+        },
+        {
+          "text": "特",
+          "start_time": 10240,
+          "end_time": 10400
+        },
+        {
+          "text": "征",
+          "start_time": 10400,
+          "end_time": 10560
+        },
+        {
+          "text": "判",
+          "start_time": 10560,
+          "end_time": 10720
+        },
+        {
+          "text": "断。",
+          "start_time": 10720,
+          "end_time": 10960
+        }
+      ],
+      "timestamp": 1790661893489
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

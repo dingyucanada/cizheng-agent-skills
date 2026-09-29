@@ -1,0 +1,191 @@
+{
+  "scene": "scenarios",
+  "number": 2,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "9f83326899a399539798438064438c639779216585cbc30342a8f6922951a7ac",
+  "response_sse_sha256": "f662b8f1f90c2e2f4c85c56dfaf996e732c98e01999aab46929fa050dba4d0af",
+  "audio": "02-scenarios.mp3",
+  "audio_sha256": "3a069fb9689d63c994161b9206a6fdf06da5379b59152425af2acf7ae60345ac",
+  "audio_bytes": 140456,
+  "duration_seconds": 8.688,
+  "elapsed_seconds": 4.167650541756302,
+  "input": "器物研究、状况记录、来源核查，各有侧重。都需要一份能追到原材料的研究记录。",
+  "subtitles": [
+    {
+      "text": "器物研究、状况记录、来源核查，各有侧重。都需要一份能追到原材料的研究记录。",
+      "request_id": "3a96a5059608b0d1a7c9418b9d0ee9bc.01a0ebb68af17af3b73e3a74515ee02c",
+      "items": [
+        {
+          "text": "器",
+          "start_time": 160,
+          "end_time": 320
+        },
+        {
+          "text": "物",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "研",
+          "start_time": 480,
+          "end_time": 720
+        },
+        {
+          "text": "究、",
+          "start_time": 720,
+          "end_time": 1040
+        },
+        {
+          "text": "状",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "况",
+          "start_time": 1600,
+          "end_time": 1760
+        },
+        {
+          "text": "记",
+          "start_time": 1760,
+          "end_time": 1920
+        },
+        {
+          "text": "录、",
+          "start_time": 1920,
+          "end_time": 2160
+        },
+        {
+          "text": "来",
+          "start_time": 2560,
+          "end_time": 2720
+        },
+        {
+          "text": "源",
+          "start_time": 2720,
+          "end_time": 2960
+        },
+        {
+          "text": "核",
+          "start_time": 2960,
+          "end_time": 3120
+        },
+        {
+          "text": "查，",
+          "start_time": 3120,
+          "end_time": 3520
+        },
+        {
+          "text": "各",
+          "start_time": 3920,
+          "end_time": 4080
+        },
+        {
+          "text": "有",
+          "start_time": 4080,
+          "end_time": 4160
+        },
+        {
+          "text": "侧",
+          "start_time": 4240,
+          "end_time": 4400
+        },
+        {
+          "text": "重。",
+          "start_time": 4400,
+          "end_time": 4640
+        },
+        {
+          "text": "都",
+          "start_time": 5600,
+          "end_time": 5760
+        },
+        {
+          "text": "需",
+          "start_time": 5760,
+          "end_time": 5920
+        },
+        {
+          "text": "要",
+          "start_time": 5920,
+          "end_time": 6000
+        },
+        {
+          "text": "一",
+          "start_time": 6000,
+          "end_time": 6160
+        },
+        {
+          "text": "份",
+          "start_time": 6160,
+          "end_time": 6640
+        },
+        {
+          "text": "能",
+          "start_time": 6640,
+          "end_time": 6880
+        },
+        {
+          "text": "追",
+          "start_time": 6880,
+          "end_time": 6960
+        },
+        {
+          "text": "到",
+          "start_time": 6960,
+          "end_time": 7120
+        },
+        {
+          "text": "原",
+          "start_time": 7120,
+          "end_time": 7280
+        },
+        {
+          "text": "材",
+          "start_time": 7280,
+          "end_time": 7440
+        },
+        {
+          "text": "料",
+          "start_time": 7440,
+          "end_time": 7680
+        },
+        {
+          "text": "的",
+          "start_time": 7680,
+          "end_time": 7760
+        },
+        {
+          "text": "研",
+          "start_time": 7760,
+          "end_time": 7920
+        },
+        {
+          "text": "究",
+          "start_time": 7920,
+          "end_time": 8000
+        },
+        {
+          "text": "记",
+          "start_time": 8000,
+          "end_time": 8240
+        },
+        {
+          "text": "录。",
+          "start_time": 8240,
+          "end_time": 8400
+        }
+      ],
+      "timestamp": 1790661007852
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}
