@@ -1,20 +1,20 @@
 # 模型服务与优化选择
 
-当前已经归档的服务为 Spark 上单 Qwen3-VL-8B-Instruct 原生 Transformers / PyTorch / CUDA / BF16，r15 后端配合未变化的 r11 原生适配器。已有视觉、主动作受约束生成与原 Schema 校验记录；改引擎或更大参数量尚未证明业务质量更好。
+当前已经归档的服务为 Spark 上单 Qwen3-VL-8B-Instruct 原生 Transformers / PyTorch / CUDA / BF16，新版风险/采集后端配合未变化的 r11 原生视觉适配器。已有视觉、主动作受约束生成与原 Schema 校验记录；改引擎或更大参数量尚未证明业务质量更好。
 
 | 路线 | 本项目状态 | 接下来需要单独验证 |
 |---|---|---|
 | Transformers 8B | 第 12 轮技术流程完成，14 次原生请求与应用逐 SHA / usage / 图片元数据绑定，两版来源任务检查通过 | 当前意见依据和修订理由的专业质量；尚无专家验证 |
 | Transformers 32B BF16 | 官方 25 文件 / 66.73 GB 核验、CUDA 热身与三项合成协议成功；真实双图流程失败后停止 | 新视觉合同下的独立实际流程，固定条件的专业比较 |
 | 官方 NVIDIA vLLM 25.11 ARM64 | 镜像拉取随专属会话退出而停止，镜像尚未完整存在，未部署 | 镜像 digest、平台、真实模型及图片 / 完整 Schema / 内存 / 耗时 |
-| NIM | 中国区官方分发限制阻止下载，未部署 | 官方允许的分发与对应模型 / 硬件配置 |
+| NIM 2.1.8 Spark ARM64 | 官方中国伙伴公开 Model-Free NIM / Qwen3-4B BF16 在8007实际运行；原厂SDK入口、1次公开文字请求和8步CUDA绑定 | 独立文字端点；未切换视觉主线，业务质量与整案延迟需在固定样本中另测 |
 | TensorRT-LLM rc13 | 官方ARM64 / Qwen3-4B BF16独立8006已运行；1公开文字请求与前8迭代CUDA绑定 | PyTorch backend，未生成序列化TRT engine；未替视觉，需要同视觉模型/预算的业务、质量与速度对照 |
 | NVIDIA开放embedding + cuVS Retriever | 固定官方1B v2、独立8003、25段/2048维、原client9 HTTP/5中文查询身份/数值核验 | 非Embedding NIM/完整SDK；生产仍SQLite，专家相关性/Recall@k/错引/收益未测 |
 | Dynamo | 未部署 | 当前无机构并发负载或分布式收益证据 |
 
 32B 权重与失败保留，当前不驻留。替换旧 profile 子进程时专属 tmux 会话同时意外退出；节点未重启，已查 kernel journal 未发现 OOM 匹配，原因不能确证。不能写成确诊 OOM、主动完成镜像拉取或部署成功。[候选原始边界](../verification/nvidia/v07-workflows/candidate-32b.json)。
 
-本次独立服务的固定镜像/权重/代码/运行身份、实际请求、失败和资源范围见 [部署说明](spark-deployment-update-v08.md)。NIM还需官方授权ARM64分发，开放组件成功不能等同NIM部署。
+本次独立服务的固定镜像/权重/代码/运行身份、实际请求、失败和资源范围见 [部署说明](spark-deployment-update-v08.md)。NIM现已通过另一条官方伙伴公开Spark分发路线完成独立部署，见 [NIM回执](nim-v09-update.md)；其原厂身份和GPU核验单列，开放组件仍不冒称NIM。
 
 ## 用实际测量选择优化
 

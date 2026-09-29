@@ -1,6 +1,6 @@
 # Spark 部署与验证
 
-瓷证已在指定 DGX Spark / GB10 ARM64 节点实际执行 PyTorch / CUDA / BF16 视觉生成。当前已部署就绪的是 r15 后端配合未变化的 r11 Qwen3-VL-8B 原生适配器，保留同一数据目录和预算；就绪记录只说明对应检查时服务可用。[实际部署与工程检查](../verification/nvidia/v07-workflows/engineering-checks-v07.json)。
+瓷证已在指定 DGX Spark / GB10 ARM64 节点实际执行 PyTorch / CUDA / BF16 视觉生成。当前已部署的是 0.7.0 风险筛查／设备桥接后端（reviewed-v09），配合未变化的 r11 Qwen3-VL-8B 原生适配器，保留同一数据目录和预算。新版54项 Spark 专项测试及五项服务只读核验见 [当前节点记录](../verification/software/v09/README.md)；下表 r15 回归为历史记录，不代表本轮源码的完整回归。
 
 | 验证层 | 已执行结果 | 不代表什么 |
 |---|---|---|

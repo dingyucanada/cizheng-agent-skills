@@ -28,6 +28,8 @@ from .business_records import create_business_router
 from .handoff import case_documents, make_handoff, check_case_files
 from .photo_report import photo_report
 from .nvidia_runtime import NvidiaAudit
+from .risk_triage import create_risk_router
+from .device_capture import create_device_router
 
 
 def export_bundle(store, case, run):
@@ -100,6 +102,8 @@ def create_app(data_dir=None, model=None, review_client=None):
     app.state.nvidia_audit = nvidia_audit
     app.include_router(create_knowledge_router(knowledge))
     app.include_router(create_business_router(store, knowledge))
+    app.include_router(create_risk_router(store))
+    app.include_router(create_device_router(store))
     app.add_middleware(TrustedHostMiddleware, allowed_hosts=['localhost', '127.0.0.1', '[::1]', 'testserver'])
 
     @app.middleware('http')

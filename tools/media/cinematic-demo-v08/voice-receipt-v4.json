@@ -1,0 +1,374 @@
+{
+  "synthetic": true,
+  "provider": "Installed macOS system speech, no provider API/key",
+  "voice": {
+    "provider": "installed macOS system speech",
+    "voice": "Tingting",
+    "rate": 185,
+    "synthetic": true
+  },
+  "scenes": [
+    {
+      "id": "opening",
+      "cues": [
+        {
+          "text": "一件青花器物，值得研究的，不只是它像哪个年代。",
+          "audio": "voice-v4/01-01.aiff",
+          "audio_seconds": 4.775964,
+          "audio_sha256": "d3bbc274595451260c59437ece0d548fea9214ca8e5104005ec5491a27645bd9"
+        },
+        {
+          "text": "更重要的是：这个判断，依据什么，又缺什么？",
+          "audio": "voice-v4/01-02.aiff",
+          "audio_seconds": 4.21415,
+          "audio_sha256": "474f4762ae70b37ce9dfee6ea5318ed954b8319a5b6822d33a9c3002b1541a34"
+        }
+      ]
+    },
+    {
+      "id": "scenarios",
+      "cues": [
+        {
+          "text": "入藏前的研究、状况记录、来源复核，问题各不相同。",
+          "audio": "voice-v4/02-01.aiff",
+          "audio_seconds": 5.486712,
+          "audio_sha256": "50e3bacaefb12fdb4c0ff4a2f52a3d3077eeccaabba5feb9a7b18139f3e32389"
+        },
+        {
+          "text": "共同需要的，是一份能追到原材料的研究记录。",
+          "audio": "voice-v4/02-02.aiff",
+          "audio_seconds": 4.214422,
+          "audio_sha256": "067f58ff0560104ca85b5b895b4f4ae35cd9b17274d661b594ac64a6a6982f7d"
+        }
+      ]
+    },
+    {
+      "id": "workbench",
+      "cues": [
+        {
+          "text": "瓷证，把原图、资料和研究意见，放在同一张工作台。",
+          "audio": "voice-v4/03-01.aiff",
+          "audio_seconds": 5.743356,
+          "audio_sha256": "853bfff53e3c6a538b928a7e8c9dbb06be616cbf9bea4a5e1ca9185667e76d42"
+        },
+        {
+          "text": "从照片开始，每一步都留下可继续工作的记录。",
+          "audio": "voice-v4/03-02.aiff",
+          "audio_seconds": 4.396599,
+          "audio_sha256": "e5a5dc0fcf048720cbfd6c22a7028e13a538837ad3f52040230adb59ad050363"
+        }
+      ]
+    },
+    {
+      "id": "observe",
+      "cues": [
+        {
+          "text": "先观察，再解释。山水、花篮、口沿和装饰带，",
+          "audio": "voice-v4/04-01.aiff",
+          "audio_seconds": 5.193424,
+          "audio_sha256": "dbefb2a67d18ffa35513bfdbafa805fd69d274891d34f9c851a9326afede456a"
+        },
+        {
+          "text": "都应当指回具体照片与区域，避免只留下模糊印象。",
+          "audio": "voice-v4/04-02.aiff",
+          "audio_seconds": 4.939773,
+          "audio_sha256": "d6e8e82a63e95222dadc0fc4c6eeb298857dc9e6e3807a9af96c703f8ba50205"
+        }
+      ]
+    },
+    {
+      "id": "read",
+      "cues": [
+        {
+          "text": "找到一条相似资料，只是研究的开始。",
+          "audio": "voice-v4/05-01.aiff",
+          "audio_seconds": 3.644853,
+          "audio_sha256": "9d0888ec394a11ab278c54bee84df9af9b2c66e43212b0436f2e0c1b272256d8"
+        },
+        {
+          "text": "还要读到原段落，留下来源、版本和定位，",
+          "audio": "voice-v4/05-02.aiff",
+          "audio_seconds": 4.141542,
+          "audio_sha256": "0c323d91126e8e03a2141b8ef8d06a973bea048a5fab5b529e01725a95acba3b"
+        },
+        {
+          "text": "说明它能支持什么，也说明它不能支持什么。",
+          "audio": "voice-v4/05-03.aiff",
+          "audio_seconds": 3.926304,
+          "audio_sha256": "b3af355b4e6a1595f9a1cec088ecdef2e4f43e8c7e09d6ee48b7a0291e84dfd1"
+        }
+      ]
+    },
+    {
+      "id": "catalogue",
+      "cues": [
+        {
+          "text": "这组照片来自公开馆藏，参照对象可以明确核对。",
+          "audio": "voice-v4/06-01.aiff",
+          "audio_seconds": 4.88712,
+          "audio_sha256": "ed88466bdafdf87575a50dd354f6914bb18d58a74864491a2017d35102e6c17e"
+        },
+        {
+          "text": "对未知器物，不能把另一个馆藏的标签，直接当成真值。",
+          "audio": "voice-v4/06-02.aiff",
+          "audio_seconds": 5.206893,
+          "audio_sha256": "76ee88ba5e6ecfe5e59d121e2421b0b52f729b7f4623280dd50db3fef9a001fa"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "cues": [
+        {
+          "text": "七个研究技能，把方法拆成可执行的步骤。",
+          "audio": "voice-v4/07-01.aiff",
+          "audio_seconds": 4.034558,
+          "audio_sha256": "9a781d08a41f906d162730f985bbf4819233222ec2af8cb088982b3e530ca01c"
+        },
+        {
+          "text": "青花归属、状况假设、来源审查，各有材料要求。",
+          "audio": "voice-v4/07-02.aiff",
+          "audio_seconds": 5.253605,
+          "audio_sha256": "8f787b2252a47cbdf52cac857a11be2a4940e9514b039fcb505f4e3d25be3235"
+        }
+      ]
+    },
+    {
+      "id": "skills-action",
+      "cues": [
+        {
+          "text": "技能不负责替研究者盖章。",
+          "audio": "voice-v4/08-01.aiff",
+          "audio_seconds": 2.490431,
+          "audio_sha256": "b3d2600b22e0c57d646be0ff880216d3b5e996ea49ca15723703bebeec5ddabf"
+        },
+        {
+          "text": "它提醒模型：比较特征，寻找反例，",
+          "audio": "voice-v4/08-02.aiff",
+          "audio_seconds": 3.672517,
+          "audio_sha256": "c62a4d3ab97eed00ff136ff572c10f24aaabb114c56715d73896b20ff72ad558"
+        },
+        {
+          "text": "把依据和未解决的问题，写回这件器物的案卷。",
+          "audio": "voice-v4/08-03.aiff",
+          "audio_seconds": 4.273878,
+          "audio_sha256": "fcb191a7a8fcf693c9d024eef678dd709e479ee2c43576aee89f694e8325eac9"
+        }
+      ]
+    },
+    {
+      "id": "contradiction",
+      "cues": [
+        {
+          "text": "六维复核，把记录冲突和未评项，一起放到面前。",
+          "audio": "voice-v4/09-01.aiff",
+          "audio_seconds": 5.11424,
+          "audio_sha256": "dd28b07916a59e16e78f146b7078e28cf51e3ff1125dab58046375bb608f9110"
+        },
+        {
+          "text": "这个指数提示先核查什么，不是真品率，也不是模型的置信度。",
+          "audio": "voice-v4/09-02.aiff",
+          "audio_seconds": 5.525669,
+          "audio_sha256": "f4fe4873110b74a579b5c9f203a342a85c4259a1fbad208642468b0d912149ce"
+        },
+        {
+          "text": "冲突要说明理由，缺项要指出下一份证据。",
+          "audio": "voice-v4/09-03.aiff",
+          "audio_seconds": 4.07229,
+          "audio_sha256": "6d9374256e2361dc43207814e7a5977329c6daa33285a7af4090aa9d02a72773"
+        }
+      ]
+    },
+    {
+      "id": "supplement",
+      "cues": [
+        {
+          "text": "有缺口，就把补证建议说具体。",
+          "audio": "voice-v4/10-01.aiff",
+          "audio_seconds": 2.999819,
+          "audio_sha256": "a0b75866dbcb04e121e73f8ef758a49556a4563fc42d74a2041c4406817eb09b"
+        },
+        {
+          "text": "更清楚的局部、胎底和款识，或有许可的专业记录，",
+          "audio": "voice-v4/10-02.aiff",
+          "audio_seconds": 4.736599,
+          "audio_sha256": "a9e521fc186ae4064301a86a822326c2f2ded13e42ffc29d1a64e781292db49b"
+        },
+        {
+          "text": "让下一轮研究围绕问题展开，而不是重新猜一遍。",
+          "audio": "voice-v4/10-03.aiff",
+          "audio_seconds": 4.788753,
+          "audio_sha256": "9c4db3db6ddcebe1ba590e746c7603ee1e97d6f1096309e97d9779d14b98c2e8"
+        }
+      ]
+    },
+    {
+      "id": "revision",
+      "cues": [
+        {
+          "text": "材料补充后，原照片和旧意见仍然保留。",
+          "audio": "voice-v4/11-01.aiff",
+          "audio_seconds": 4.001859,
+          "audio_sha256": "ef16bf4bc1618624d50db988fc4f517dbb2f5479e9dfec733892b02fb691f865"
+        },
+        {
+          "text": "版本比较，让你看到改变的理由，",
+          "audio": "voice-v4/11-02.aiff",
+          "audio_seconds": 2.96195,
+          "audio_sha256": "ad93d2cfab2621195ca393ea8fc80a641e9344ac6745c8efe22fbe35cedda15a"
+        },
+        {
+          "text": "也看到仍未解决的疑点。",
+          "audio": "voice-v4/11-03.aiff",
+          "audio_seconds": 2.012971,
+          "audio_sha256": "5b4129f8650163fc519e809e4ee3c374423c856aae30ce646a04b486a4b7121c"
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "cues": [
+        {
+          "text": "人工复核，面对的是具体材料和具体版本。",
+          "audio": "voice-v4/12-01.aiff",
+          "audio_seconds": 3.97551,
+          "audio_sha256": "14ffe8441f13b88e898cc22ec7e4b4b28ae0614719f9023e0325a088ae875fc2"
+        },
+        {
+          "text": "可以同意，也可以指出不足；",
+          "audio": "voice-v4/12-02.aiff",
+          "audio_seconds": 2.593107,
+          "audio_sha256": "a37d92fb164520661b47edc36fedd7ca43cc33fb67649c4af764f865b19a4f02"
+        },
+        {
+          "text": "系统保存复核意见，不冒充专家签署。",
+          "audio": "voice-v4/12-03.aiff",
+          "audio_seconds": 3.881497,
+          "audio_sha256": "cf27d0958944eb82d1d6b4fbc0a8f4e7075fda4adcb47c77643c214e70b81110"
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "cues": [
+        {
+          "text": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。",
+          "audio": "voice-v4/13-01.aiff",
+          "audio_seconds": 6.065941,
+          "audio_sha256": "2e3239bcb258414eb56ef731abf7f47133f41ad664cc41200ed12f70f4ddaf85"
+        },
+        {
+          "text": "下一位研究者，可以回到材料，接着核查你的判断。",
+          "audio": "voice-v4/13-02.aiff",
+          "audio_seconds": 4.833515,
+          "audio_sha256": "0e48eb7101a966c408da0e7a19b8d662e4eb0215c26ae033456f4271682b81be"
+        }
+      ]
+    },
+    {
+      "id": "spark",
+      "cues": [
+        {
+          "text": "英伟达的 Spark，是本地研究的算力底座。",
+          "audio": "voice-v4/14-01.aiff",
+          "audio_seconds": 3.649841,
+          "audio_sha256": "dd3c616a846920db47cf89443939e1fc464933da6c5c1ac34629f63d1a9f50c1"
+        },
+        {
+          "text": "原始照片进入本地视觉模型；",
+          "audio": "voice-v4/14-02.aiff",
+          "audio_seconds": 2.731247,
+          "audio_sha256": "1f9e0e8e9a1c40d651a1cc19d7847746be7cf28cc56d288dc8bd19f1ee1d456e"
+        },
+        {
+          "text": "只有预览后批准的文字，才交给外部反证服务。",
+          "audio": "voice-v4/14-03.aiff",
+          "audio_seconds": 4.248571,
+          "audio_sha256": "df0d104fe456cf09009380a2fc41c18d2a645619faa3425a028a94f615e38928"
+        }
+      ]
+    },
+    {
+      "id": "local-capability",
+      "cues": [
+        {
+          "text": "标准接口、文字推理、资料检索，在本地各有分工。",
+          "audio": "voice-v4/15-01.aiff",
+          "audio_seconds": 5.156236,
+          "audio_sha256": "fb497a40180696709f23a372b64119507dd67a12d6ca81392541cf8ddecd0e92"
+        },
+        {
+          "text": "三项独立服务已经验证；正式整案，仍沿用原来的工作路径。",
+          "audio": "voice-v4/15-02.aiff",
+          "audio_seconds": 5.691655,
+          "audio_sha256": "acd09dd5e7d64bd11ebe9cdc0a862e198ea4ac8f3a77b51e5ffaae23ba2e8ac0"
+        },
+        {
+          "text": "先核查新增能力，再决定怎样接入研究流程。",
+          "audio": "voice-v4/15-03.aiff",
+          "audio_seconds": 4.357506,
+          "audio_sha256": "a7cc86c997e52399328bb9f6d057a0a90a0d4821da13f463bd13f6c57a6f0899"
+        }
+      ]
+    },
+    {
+      "id": "actual-record",
+      "cues": [
+        {
+          "text": "每版观察、审查意见和修订理由，均保留在案卷里。",
+          "audio": "voice-v4/16-01.aiff",
+          "audio_seconds": 5.031791,
+          "audio_sha256": "ae8603be3a15d5de19dfd519cc3853d44288d2a9c6b9f41a736f31ad9d2a2b02"
+        },
+        {
+          "text": "读回原图和原文，让下一位研究者继续核查。",
+          "audio": "voice-v4/16-02.aiff",
+          "audio_seconds": 4.405533,
+          "audio_sha256": "9ee0d259a97734545a40d81e7d1b1c5e5035febf738e9fa5beed97c8f5764896"
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "cues": [
+        {
+          "text": "下一步，是引入有许可的专家材料，",
+          "audio": "voice-v4/17-01.aiff",
+          "audio_seconds": 3.254558,
+          "audio_sha256": "fe9ca73304dfd1688414460b42676afaac7e0e5dc5245c8a86af0fa74f66e9b2"
+        },
+        {
+          "text": "用独立样本，检验方法与结论。",
+          "audio": "voice-v4/17-02.aiff",
+          "audio_seconds": 2.976372,
+          "audio_sha256": "24a55fcdea3d6eeee9ec0b5047e5c0033904076a9f7d11ba19a7068302f42306"
+        },
+        {
+          "text": "把研究流程做扎实，也把能力边界说清楚。",
+          "audio": "voice-v4/17-03.aiff",
+          "audio_seconds": 4.111338,
+          "audio_sha256": "33fb28aed91f113445c2d65173f5f6c0d95cbb07bb9eb929a3b6946eef6faa56"
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "cues": [
+        {
+          "text": "瓷证，让下一位研究者，接得住你的判断。",
+          "audio": "voice-v4/18-01.aiff",
+          "audio_seconds": 3.95542,
+          "audio_sha256": "6e3fe5dc5ff307c74cf4c7249b3a9125042a45d7d488fbd3037431c06f4d6c43"
+        },
+        {
+          "text": "完整图文报告、源码与演示，入口在主页。",
+          "audio": "voice-v4/18-02.aiff",
+          "audio_seconds": 4.149161,
+          "audio_sha256": "59c0ce0c15aa4fd3a7c60032b2469a7ac2846094ba72f09c6d070df121982527"
+        }
+      ]
+    }
+  ],
+  "model_call_to_Spark": false,
+  "previous_audio_versions_preserved": true
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "Saved verified public NIM records; no new service request by media producer",
+  "sources": [
+    {
+      "public_path": "docs/nim-v09-update.md",
+      "sha256": "7f9a207147b3b92cde3ea70d576aeb9ee000397543c9ee2d026e422aff4dadff",
+      "bytes": 9756
+    },
+    {
+      "public_path": "evidence/nim-v09/index.json",
+      "sha256": "98c59330ed26876365ff1a0b165b3e9dab888ab4e97ab0e6a74b12de2fd37bad",
+      "bytes": 2660
+    },
+    {
+      "public_path": "evidence/nim-v09/public-text-once/receipt.json",
+      "sha256": "0ffb03920128f266fee571133135bb4d513ab4b9b4dd5ab593ed36054f563403",
+      "bytes": 702
+    },
+    {
+      "public_path": "evidence/nim-v09/gpu-trace-summary.json",
+      "sha256": "d008e7be12aa076c863cea519d3ca3642955f8a6a2f6e09f7d0ddfe69e4106d1",
+      "bytes": 1379
+    },
+    {
+      "public_path": "evidence/nim-v09/final-coexistence.json",
+      "sha256": "845db476e1c0d92751d595ca317ad3c8306e5d6dad69561d709cbb2ec9d480de",
+      "bytes": 2133
+    }
+  ],
+  "professional_quality_not_proved": true
+}

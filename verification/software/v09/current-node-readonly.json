@@ -1,0 +1,120 @@
+{
+  "schema": "cizheng.v09-current-node-readonly.v1",
+  "checked_at": "2026-09-29T00:41:18.150999+00:00",
+  "services": [
+    {
+      "name": "视觉模型",
+      "port": 8005,
+      "route": "/health",
+      "http_status": 200,
+      "response_bytes": 733,
+      "response_sha256": "c2a5abf74a3af96b2944231aaf2a612d12dfcf0426671ea16f5041d7495dff75",
+      "seconds": 0.017048
+    },
+    {
+      "name": "案卷服务",
+      "port": 8780,
+      "route": "/api/status",
+      "http_status": 200,
+      "response_bytes": 9835,
+      "response_sha256": "9ca525a7f9c460a7c678e46547f8af55aeb04f5b49ca522aa0fac0497a9cde15",
+      "seconds": 0.051044,
+      "configuration": {
+        "app_version": "0.7.0",
+        "model_configured": true,
+        "visual_model": "Qwen/Qwen3-VL-8B-Instruct",
+        "text_review_configured": true,
+        "text_review_model": "step-3.7-flash",
+        "guided_workflow": true
+      }
+    },
+    {
+      "name": "TensorRT-LLM文字",
+      "port": 8006,
+      "route": "/health",
+      "http_status": 200,
+      "response_bytes": 0,
+      "response_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "seconds": 0.001048
+    },
+    {
+      "name": "NVIDIA开放检索",
+      "port": 8003,
+      "route": "/v1/health/ready",
+      "http_status": 200,
+      "response_bytes": 3670,
+      "response_sha256": "e615d0695d1eeacc09c6a8017ecb61a9e6b2b0addb50e3e3dc9140874f042c04",
+      "seconds": 0.001372
+    },
+    {
+      "name": "NIM标准文字接口",
+      "port": 8007,
+      "route": "/v1/health/ready",
+      "http_status": 200,
+      "response_bytes": 63,
+      "response_sha256": "3dcff614d304fd5deca4757067238f825fdb6caf74d61d8ef7d60d40bf1b2f3c",
+      "seconds": 0.102618
+    }
+  ],
+  "model_interfaces": [
+    {
+      "name": "NIM",
+      "port": 8007,
+      "http_status": 200,
+      "model_ids": [
+        "Qwen3-4B-Instruct-2507"
+      ]
+    },
+    {
+      "name": "TensorRT-LLM",
+      "port": 8006,
+      "http_status": 200,
+      "model_ids": [
+        "Qwen3-4B-Instruct-2507"
+      ]
+    }
+  ],
+  "backend_stage": "source-v07-runtime-v09-reviewed-20260929",
+  "source_files": [
+    {
+      "path": "cizheng/api.py",
+      "sha256": "883637301ae6452a2ea23d01206a15646ac4868c973a353cd2f316f0bf24d26f",
+      "bytes": 23876
+    },
+    {
+      "path": "cizheng/device_capture.py",
+      "sha256": "b1e790ae9b7a05034c360463d6fa37def22d66c8df2bd1b79a6edc38bcaa479c",
+      "bytes": 11030
+    },
+    {
+      "path": "cizheng/risk_triage.py",
+      "sha256": "02a390970297588761375ac8494814402c8f226d931d018d0fb3c08113114db5",
+      "bytes": 23655
+    },
+    {
+      "path": "static/app.js",
+      "sha256": "23e087df6b680f7ec1ae334db596affb5bc3a394affc290650b0d9d6356ca64e",
+      "bytes": 97789
+    },
+    {
+      "path": "static/index.html",
+      "sha256": "9e0d3031d42244a2d573e888977ae8e765e05c0a71f2d4b955d645d236563ba3",
+      "bytes": 35371
+    },
+    {
+      "path": "static/style.css",
+      "sha256": "2e27e1a2669031f5240c0e5a956a953d3393c1e5f7d772462e10ffd2a55f329a",
+      "bytes": 34545
+    },
+    {
+      "path": "tests/test_risk_device_capture.py",
+      "sha256": "032adcce39846bc6bd92ed4395ef5ab5cd2b704af1f78709b449c4198e2f7fdc",
+      "bytes": 26308
+    }
+  ],
+  "all_health_http_200": true,
+  "model_requests_performed": 0,
+  "external_review_requests_performed": 0,
+  "scope": "Read-only health/configuration and source identity check; no new generation or private case data disclosed",
+  "public_derivation": "Whitelist extracted from actual node receipt; raw status/session data are not distributed. Original status response SHA is retained, not a SHA of the reduced configuration."
+}

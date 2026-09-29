@@ -1,0 +1,68 @@
+{
+  "schema": "cizheng-software-regression-v09.v1",
+  "scope": "Actual CPU software/format/permission regression, not artifact appraisal accuracy or GPU performance",
+  "local_backend_suite": {
+    "passed": 1120,
+    "skipped": 2,
+    "warnings": 1,
+    "seconds": 60.31,
+    "command": "pytest -q -p no:cacheprovider tests integrations/spark_transformers/tests integrations/nvidia_retriever/tests",
+    "optional_skips": "NAT requires its isolated runtime"
+  },
+  "browser_dom_suite": {
+    "passed": 37,
+    "seconds": 1.36,
+    "scope": "Public teaching and six-dimension deterministic triage"
+  },
+  "spark_focused_suite": {
+    "passed": 54,
+    "warnings": 1,
+    "seconds": 20.47,
+    "scope": "Device capture, risk checks, version invalidation and original-byte contracts"
+  },
+  "independent_http_scenarios": 14,
+  "model_requests_performed": 0,
+  "fixed_regressions": [
+    "manual risk check cannot revive stale material",
+    "superseded source dispute excluded",
+    "original attachment corruption prevents consistent status",
+    "edit and revert cannot revive model/check evidence"
+  ],
+  "tested_source_files": [
+    {
+      "path": "cizheng/api.py",
+      "sha256": "883637301ae6452a2ea23d01206a15646ac4868c973a353cd2f316f0bf24d26f",
+      "bytes": 23876
+    },
+    {
+      "path": "cizheng/device_capture.py",
+      "sha256": "b1e790ae9b7a05034c360463d6fa37def22d66c8df2bd1b79a6edc38bcaa479c",
+      "bytes": 11030
+    },
+    {
+      "path": "cizheng/risk_triage.py",
+      "sha256": "02a390970297588761375ac8494814402c8f226d931d018d0fb3c08113114db5",
+      "bytes": 23655
+    },
+    {
+      "path": "static/app.js",
+      "sha256": "23e087df6b680f7ec1ae334db596affb5bc3a394affc290650b0d9d6356ca64e",
+      "bytes": 97789
+    },
+    {
+      "path": "static/index.html",
+      "sha256": "9e0d3031d42244a2d573e888977ae8e765e05c0a71f2d4b955d645d236563ba3",
+      "bytes": 35371
+    },
+    {
+      "path": "static/style.css",
+      "sha256": "2e27e1a2669031f5240c0e5a956a953d3393c1e5f7d772462e10ffd2a55f329a",
+      "bytes": 34545
+    },
+    {
+      "path": "tests/test_risk_device_capture.py",
+      "sha256": "032adcce39846bc6bd92ed4395ef5ab5cd2b704af1f78709b449c4198e2f7fdc",
+      "bytes": 26308
+    }
+  ]
+}

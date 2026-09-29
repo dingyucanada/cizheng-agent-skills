@@ -1,0 +1,705 @@
+{
+  "schema": "cizheng-movie-qa.v1",
+  "version": "v4",
+  "video_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536",
+  "video_bytes": 25322365,
+  "seconds": 193.12,
+  "full_decode_exit_code": 0,
+  "decoded_video_frames": 4828,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio_codec": "aac",
+  "audio_sample_rate": "48000",
+  "audio_channels": 1,
+  "cue_count": 45,
+  "cue_checks": [
+    {
+      "number": 1,
+      "duration": 4.149667,
+      "characters": 23,
+      "characters_per_second": 5.543
+    },
+    {
+      "number": 2,
+      "duration": 3.655562,
+      "characters": 21,
+      "characters_per_second": 5.745
+    },
+    {
+      "number": 3,
+      "duration": 4.765187,
+      "characters": 24,
+      "characters_per_second": 5.037
+    },
+    {
+      "number": 4,
+      "duration": 3.658458,
+      "characters": 21,
+      "characters_per_second": 5.74
+    },
+    {
+      "number": 5,
+      "duration": 4.983271,
+      "characters": 24,
+      "characters_per_second": 4.816
+    },
+    {
+      "number": 6,
+      "duration": 3.824583,
+      "characters": 21,
+      "characters_per_second": 5.491
+    },
+    {
+      "number": 7,
+      "duration": 4.516146,
+      "characters": 21,
+      "characters_per_second": 4.65
+    },
+    {
+      "number": 8,
+      "duration": 4.289271,
+      "characters": 23,
+      "characters_per_second": 5.362
+    },
+    {
+      "number": 9,
+      "duration": 3.1645,
+      "characters": 17,
+      "characters_per_second": 5.372
+    },
+    {
+      "number": 10,
+      "duration": 3.6065,
+      "characters": 19,
+      "characters_per_second": 5.268
+    },
+    {
+      "number": 11,
+      "duration": 3.400562,
+      "characters": 20,
+      "characters_per_second": 5.881
+    },
+    {
+      "number": 12,
+      "duration": 4.245854,
+      "characters": 22,
+      "characters_per_second": 5.182
+    },
+    {
+      "number": 13,
+      "duration": 4.523917,
+      "characters": 25,
+      "characters_per_second": 5.526
+    },
+    {
+      "number": 14,
+      "duration": 3.499917,
+      "characters": 19,
+      "characters_per_second": 5.429
+    },
+    {
+      "number": 15,
+      "duration": 4.566396,
+      "characters": 22,
+      "characters_per_second": 4.818
+    },
+    {
+      "number": 16,
+      "duration": 2.15875,
+      "characters": 12,
+      "characters_per_second": 5.559
+    },
+    {
+      "number": 17,
+      "duration": 3.196208,
+      "characters": 16,
+      "characters_per_second": 5.006
+    },
+    {
+      "number": 18,
+      "duration": 3.706,
+      "characters": 21,
+      "characters_per_second": 5.666
+    },
+    {
+      "number": 19,
+      "duration": 4.440562,
+      "characters": 22,
+      "characters_per_second": 4.954
+    },
+    {
+      "number": 20,
+      "duration": 4.805229,
+      "characters": 28,
+      "characters_per_second": 5.827
+    },
+    {
+      "number": 21,
+      "duration": 3.53475,
+      "characters": 19,
+      "characters_per_second": 5.375
+    },
+    {
+      "number": 22,
+      "duration": 2.607083,
+      "characters": 14,
+      "characters_per_second": 5.37
+    },
+    {
+      "number": 23,
+      "duration": 4.124771,
+      "characters": 23,
+      "characters_per_second": 5.576
+    },
+    {
+      "number": 24,
+      "duration": 4.167458,
+      "characters": 22,
+      "characters_per_second": 5.279
+    },
+    {
+      "number": 25,
+      "duration": 3.477688,
+      "characters": 18,
+      "characters_per_second": 5.176
+    },
+    {
+      "number": 26,
+      "duration": 2.565542,
+      "characters": 15,
+      "characters_per_second": 5.847
+    },
+    {
+      "number": 27,
+      "duration": 1.744812,
+      "characters": 11,
+      "characters_per_second": 6.304
+    },
+    {
+      "number": 28,
+      "duration": 3.4445,
+      "characters": 19,
+      "characters_per_second": 5.516
+    },
+    {
+      "number": 29,
+      "duration": 2.247458,
+      "characters": 13,
+      "characters_per_second": 5.784
+    },
+    {
+      "number": 30,
+      "duration": 3.372563,
+      "characters": 17,
+      "characters_per_second": 5.041
+    },
+    {
+      "number": 31,
+      "duration": 5.267542,
+      "characters": 27,
+      "characters_per_second": 5.126
+    },
+    {
+      "number": 32,
+      "duration": 4.195167,
+      "characters": 23,
+      "characters_per_second": 5.482
+    },
+    {
+      "number": 33,
+      "duration": 3.166125,
+      "characters": 22,
+      "characters_per_second": 6.949
+    },
+    {
+      "number": 34,
+      "duration": 2.368896,
+      "characters": 13,
+      "characters_per_second": 5.488
+    },
+    {
+      "number": 35,
+      "duration": 3.681229,
+      "characters": 21,
+      "characters_per_second": 5.705
+    },
+    {
+      "number": 36,
+      "duration": 4.476104,
+      "characters": 23,
+      "characters_per_second": 5.138
+    },
+    {
+      "number": 37,
+      "duration": 4.9435,
+      "characters": 27,
+      "characters_per_second": 5.462
+    },
+    {
+      "number": 38,
+      "duration": 3.780146,
+      "characters": 20,
+      "characters_per_second": 5.291
+    },
+    {
+      "number": 39,
+      "duration": 4.377604,
+      "characters": 23,
+      "characters_per_second": 5.254
+    },
+    {
+      "number": 40,
+      "duration": 3.830708,
+      "characters": 20,
+      "characters_per_second": 5.221
+    },
+    {
+      "number": 41,
+      "duration": 2.826229,
+      "characters": 16,
+      "characters_per_second": 5.661
+    },
+    {
+      "number": 42,
+      "duration": 2.584146,
+      "characters": 14,
+      "characters_per_second": 5.418
+    },
+    {
+      "number": 43,
+      "duration": 3.577979,
+      "characters": 19,
+      "characters_per_second": 5.31
+    },
+    {
+      "number": 44,
+      "duration": 3.43125,
+      "characters": 19,
+      "characters_per_second": 5.537
+    },
+    {
+      "number": 45,
+      "duration": 3.613792,
+      "characters": 19,
+      "characters_per_second": 5.258
+    }
+  ],
+  "caption_frame_samples": [
+    {
+      "scene": 1,
+      "id": "opening",
+      "group": "early",
+      "frame_index": 66,
+      "time": 2.64,
+      "expected_subtitle": "一件青花器物，值得研究的，不只是它像哪个年代。",
+      "image": "decoded-frames/01.png"
+    },
+    {
+      "scene": 1,
+      "id": "opening",
+      "group": "late",
+      "frame_index": 166,
+      "time": 6.64,
+      "expected_subtitle": "更重要的是：这个判断，依据什么，又缺什么？",
+      "image": "decoded-frames/02.png"
+    },
+    {
+      "scene": 2,
+      "id": "scenarios",
+      "group": "early",
+      "frame_index": 305,
+      "time": 12.2,
+      "expected_subtitle": "入藏前的研究、状况记录、来源复核，问题各不相同。",
+      "image": "decoded-frames/03.png"
+    },
+    {
+      "scene": 2,
+      "id": "scenarios",
+      "group": "late",
+      "frame_index": 413,
+      "time": 16.52,
+      "expected_subtitle": "共同需要的，是一份能追到原材料的研究记录。",
+      "image": "decoded-frames/04.png"
+    },
+    {
+      "scene": 3,
+      "id": "workbench",
+      "group": "early",
+      "frame_index": 554,
+      "time": 22.16,
+      "expected_subtitle": "瓷证，把原图、资料和研究意见，放在同一张工作台。",
+      "image": "decoded-frames/05.png"
+    },
+    {
+      "scene": 3,
+      "id": "workbench",
+      "group": "late",
+      "frame_index": 666,
+      "time": 26.64,
+      "expected_subtitle": "从照片开始，每一步都留下可继续工作的记录。",
+      "image": "decoded-frames/06.png"
+    },
+    {
+      "scene": 4,
+      "id": "observe",
+      "group": "early",
+      "frame_index": 804,
+      "time": 32.16,
+      "expected_subtitle": "先观察，再解释。山水、花篮、口沿和装饰带，",
+      "image": "decoded-frames/07.png"
+    },
+    {
+      "scene": 4,
+      "id": "observe",
+      "group": "late",
+      "frame_index": 917,
+      "time": 36.68,
+      "expected_subtitle": "都应当指回具体照片与区域，避免只留下模糊印象。",
+      "image": "decoded-frames/08.png"
+    },
+    {
+      "scene": 5,
+      "id": "read",
+      "group": "early",
+      "frame_index": 1043,
+      "time": 41.72,
+      "expected_subtitle": "找到一条相似资料，只是研究的开始。",
+      "image": "decoded-frames/09.png"
+    },
+    {
+      "scene": 5,
+      "id": "read",
+      "group": "middle",
+      "frame_index": 1130,
+      "time": 45.2,
+      "expected_subtitle": "还要读到原段落，留下来源、版本和定位，",
+      "image": "decoded-frames/10.png"
+    },
+    {
+      "scene": 5,
+      "id": "read",
+      "group": "late",
+      "frame_index": 1220,
+      "time": 48.8,
+      "expected_subtitle": "说明它能支持什么，也说明它不能支持什么。",
+      "image": "decoded-frames/11.png"
+    },
+    {
+      "scene": 6,
+      "id": "catalogue",
+      "group": "early",
+      "frame_index": 1349,
+      "time": 53.96,
+      "expected_subtitle": "这组照片来自公开馆藏，参照对象可以明确核对。",
+      "image": "decoded-frames/12.png"
+    },
+    {
+      "scene": 6,
+      "id": "catalogue",
+      "group": "late",
+      "frame_index": 1461,
+      "time": 58.44,
+      "expected_subtitle": "对未知器物，不能把另一个馆藏的标签，直接当成真值。",
+      "image": "decoded-frames/13.png"
+    },
+    {
+      "scene": 7,
+      "id": "skills",
+      "group": "early",
+      "frame_index": 1594,
+      "time": 63.76,
+      "expected_subtitle": "七个研究技能，把方法拆成可执行的步骤。",
+      "image": "decoded-frames/14.png"
+    },
+    {
+      "scene": 7,
+      "id": "skills",
+      "group": "late",
+      "frame_index": 1698,
+      "time": 67.92,
+      "expected_subtitle": "青花归属、状况假设、来源审查，各有材料要求。",
+      "image": "decoded-frames/15.png"
+    },
+    {
+      "scene": 8,
+      "id": "skills-action",
+      "group": "early",
+      "frame_index": 1814,
+      "time": 72.56,
+      "expected_subtitle": "技能不负责替研究者盖章。",
+      "image": "decoded-frames/16.png"
+    },
+    {
+      "scene": 8,
+      "id": "skills-action",
+      "group": "middle",
+      "frame_index": 1884,
+      "time": 75.36,
+      "expected_subtitle": "它提醒模型：比较特征，寻找反例，",
+      "image": "decoded-frames/17.png"
+    },
+    {
+      "scene": 8,
+      "id": "skills-action",
+      "group": "late",
+      "frame_index": 1973,
+      "time": 78.92,
+      "expected_subtitle": "把依据和未解决的问题，写回这件器物的案卷。",
+      "image": "decoded-frames/18.png"
+    },
+    {
+      "scene": 9,
+      "id": "contradiction",
+      "group": "early",
+      "frame_index": 2108,
+      "time": 84.32,
+      "expected_subtitle": "六维复核，把记录冲突和未评项，一起放到面前。",
+      "image": "decoded-frames/19.png"
+    },
+    {
+      "scene": 9,
+      "id": "contradiction",
+      "group": "middle",
+      "frame_index": 2226,
+      "time": 89.04,
+      "expected_subtitle": "这个指数提示先核查什么，不是真品率，也不是模型的置信度。",
+      "image": "decoded-frames/20.png"
+    },
+    {
+      "scene": 9,
+      "id": "contradiction",
+      "group": "late",
+      "frame_index": 2333,
+      "time": 93.32,
+      "expected_subtitle": "冲突要说明理由，缺项要指出下一份证据。",
+      "image": "decoded-frames/21.png"
+    },
+    {
+      "scene": 10,
+      "id": "supplement",
+      "group": "early",
+      "frame_index": 2443,
+      "time": 97.72,
+      "expected_subtitle": "有缺口，就把补证建议说具体。",
+      "image": "decoded-frames/22.png"
+    },
+    {
+      "scene": 10,
+      "id": "supplement",
+      "group": "middle",
+      "frame_index": 2530,
+      "time": 101.2,
+      "expected_subtitle": "更清楚的局部、胎底和款识，或有许可的专业记录，",
+      "image": "decoded-frames/23.png"
+    },
+    {
+      "scene": 10,
+      "id": "supplement",
+      "group": "late",
+      "frame_index": 2636,
+      "time": 105.44,
+      "expected_subtitle": "让下一轮研究围绕问题展开，而不是重新猜一遍。",
+      "image": "decoded-frames/24.png"
+    },
+    {
+      "scene": 11,
+      "id": "revision",
+      "group": "early",
+      "frame_index": 2764,
+      "time": 110.56,
+      "expected_subtitle": "材料补充后，原照片和旧意见仍然保留。",
+      "image": "decoded-frames/25.png"
+    },
+    {
+      "scene": 11,
+      "id": "revision",
+      "group": "middle",
+      "frame_index": 2842,
+      "time": 113.68,
+      "expected_subtitle": "版本比较，让你看到改变的理由，",
+      "image": "decoded-frames/26.png"
+    },
+    {
+      "scene": 11,
+      "id": "revision",
+      "group": "late",
+      "frame_index": 2898,
+      "time": 115.92,
+      "expected_subtitle": "也看到仍未解决的疑点。",
+      "image": "decoded-frames/27.png"
+    },
+    {
+      "scene": 12,
+      "id": "human",
+      "group": "early",
+      "frame_index": 2997,
+      "time": 119.88,
+      "expected_subtitle": "人工复核，面对的是具体材料和具体版本。",
+      "image": "decoded-frames/28.png"
+    },
+    {
+      "scene": 12,
+      "id": "human",
+      "group": "middle",
+      "frame_index": 3070,
+      "time": 122.8,
+      "expected_subtitle": "可以同意，也可以指出不足；",
+      "image": "decoded-frames/29.png"
+    },
+    {
+      "scene": 12,
+      "id": "human",
+      "group": "late",
+      "frame_index": 3143,
+      "time": 125.72,
+      "expected_subtitle": "系统保存复核意见，不冒充专家签署。",
+      "image": "decoded-frames/30.png"
+    },
+    {
+      "scene": 13,
+      "id": "export",
+      "group": "early",
+      "frame_index": 3284,
+      "time": 131.36,
+      "expected_subtitle": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。",
+      "image": "decoded-frames/31.png"
+    },
+    {
+      "scene": 13,
+      "id": "export",
+      "group": "late",
+      "frame_index": 3405,
+      "time": 136.2,
+      "expected_subtitle": "下一位研究者，可以回到材料，接着核查你的判断。",
+      "image": "decoded-frames/32.png"
+    },
+    {
+      "scene": 14,
+      "id": "spark",
+      "group": "early",
+      "frame_index": 3530,
+      "time": 141.2,
+      "expected_subtitle": "英伟达的 Spark，是本地研究的算力底座。",
+      "image": "decoded-frames/33.png"
+    },
+    {
+      "scene": 14,
+      "id": "spark",
+      "group": "middle",
+      "frame_index": 3602,
+      "time": 144.08,
+      "expected_subtitle": "原始照片进入本地视觉模型；",
+      "image": "decoded-frames/34.png"
+    },
+    {
+      "scene": 14,
+      "id": "spark",
+      "group": "late",
+      "frame_index": 3680,
+      "time": 147.2,
+      "expected_subtitle": "只有预览后批准的文字，才交给外部反证服务。",
+      "image": "decoded-frames/35.png"
+    },
+    {
+      "scene": 15,
+      "id": "local-capability",
+      "group": "early",
+      "frame_index": 3814,
+      "time": 152.56,
+      "expected_subtitle": "标准接口、文字推理、资料检索，在本地各有分工。",
+      "image": "decoded-frames/36.png"
+    },
+    {
+      "scene": 15,
+      "id": "local-capability",
+      "group": "middle",
+      "frame_index": 3935,
+      "time": 157.4,
+      "expected_subtitle": "三项独立服务已经验证；正式整案，仍沿用原来的工作路径。",
+      "image": "decoded-frames/37.png"
+    },
+    {
+      "scene": 15,
+      "id": "local-capability",
+      "group": "late",
+      "frame_index": 4046,
+      "time": 161.84,
+      "expected_subtitle": "先核查新增能力，再决定怎样接入研究流程。",
+      "image": "decoded-frames/38.png"
+    },
+    {
+      "scene": 16,
+      "id": "actual-record",
+      "group": "early",
+      "frame_index": 4181,
+      "time": 167.24,
+      "expected_subtitle": "每版观察、审查意见和修订理由，均保留在案卷里。",
+      "image": "decoded-frames/39.png"
+    },
+    {
+      "scene": 16,
+      "id": "actual-record",
+      "group": "late",
+      "frame_index": 4286,
+      "time": 171.44,
+      "expected_subtitle": "读回原图和原文，让下一位研究者继续核查。",
+      "image": "decoded-frames/40.png"
+    },
+    {
+      "scene": 17,
+      "id": "next",
+      "group": "early",
+      "frame_index": 4403,
+      "time": 176.12,
+      "expected_subtitle": "下一步，是引入有许可的专家材料，",
+      "image": "decoded-frames/41.png"
+    },
+    {
+      "scene": 17,
+      "id": "next",
+      "group": "middle",
+      "frame_index": 4473,
+      "time": 178.92,
+      "expected_subtitle": "用独立样本，检验方法与结论。",
+      "image": "decoded-frames/42.png"
+    },
+    {
+      "scene": 17,
+      "id": "next",
+      "group": "late",
+      "frame_index": 4552,
+      "time": 182.08,
+      "expected_subtitle": "把研究流程做扎实，也把能力边界说清楚。",
+      "image": "decoded-frames/43.png"
+    },
+    {
+      "scene": 18,
+      "id": "closing",
+      "group": "early",
+      "frame_index": 4673,
+      "time": 186.92,
+      "expected_subtitle": "瓷证，让下一位研究者，接得住你的判断。",
+      "image": "decoded-frames/44.png"
+    },
+    {
+      "scene": 18,
+      "id": "closing",
+      "group": "late",
+      "frame_index": 4764,
+      "time": 190.56,
+      "expected_subtitle": "完整图文报告、源码与演示，入口在主页。",
+      "image": "decoded-frames/45.png"
+    }
+  ],
+  "all_subtitles_derive_from_real_audio_sample_boundaries": true,
+  "visual_review_status": "All5 contact sheets inspected after final caption refinement:45actual MP4-decoded frames cover every narration/subtitle cue and all18scenes. Scene15 full-resolution frame inspected. No major headline/subtitle clipping or isolated one-word subtitle line observed.",
+  "audio_human_listening_status": "not claimed; full media decode and loudness analysis performed",
+  "audio_loudness": {
+    "integrated_lufs": -16.0,
+    "true_peak_dbfs": -1.3,
+    "loudness_range_lu": 2.9
+  },
+  "review_scope_note": "Full video/audio decode completed. Human visual sample review covers every subtitle cue/scene; continuous real-time human audio audition is not claimed."
+}

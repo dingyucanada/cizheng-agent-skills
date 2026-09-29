@@ -1,0 +1,9 @@
+{
+  "stage": "v4 scene15 design only, NIM POST/CUDA evidence pending",
+  "unchanged_scene_count": 17,
+  "changed_scenes": [
+    "15-local-capability.png"
+  ],
+  "v3_complete_sha256": "bbbba2631908e196c64d3edba5998f1ef1ee9e69fab72c7936233e7383c34aa0",
+  "v4_full_movie_not_generated": true
+}

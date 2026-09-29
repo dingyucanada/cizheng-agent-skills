@@ -1,15 +1,15 @@
 {
   "schema": "cizheng-report-deployment.v1",
   "deployment_audit": {
-    "state": "partial",
-    "checked_at": "2026-09-28T20:54:06.201468+00:00",
-    "summary": "本次 TensorRT-LLM 独立文字服务与 NVIDIA 开放 embedding + cuVS GPU 检索已完成真实部署及接口/身份验收，原 8B 视觉与案卷服务继续正常。两项尚未切换原案卷主流程，专业质量与提速未验。NIM 仍受官方分发与授权限制，未部署。",
+    "state": "ready",
+    "checked_at": "2026-09-29T00:41:18.150999+00:00",
+    "summary": "Qwen3-VL-8B 与案卷服务运行；NIM 标准文字、TensorRT-LLM 文字及 NVIDIA Embedding + cuVS 检索三个独立服务已完成真实验收，当前五项服务健康核对通过。",
     "components": [
       {
         "name": "既有 Spark 视觉与案卷服务",
         "state": "ready",
-        "detail": "四服务同次只读核对均 HTTP 200；原 Qwen3-VL-8B、后端 0.7.0，NAT 与批准文字审查配置保持。无新增模型请求。",
-        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/v08-deployment/coexistence-final.json"
+        "detail": "五项服务同次只读核对均 HTTP 200；Qwen3-VL-8B 原生视觉、当前 0.7.0 后端，以及三个独立模型／检索服务均运行。新后端风险筛查、设备桥接和材料版本保护已部署；未新增模型请求。",
+        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/software/v09/current-node-readonly.json"
       },
       {
         "name": "TensorRT-LLM · 独立文字服务",
@@ -24,12 +24,13 @@
         "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/retriever-v07/index.json"
       },
       {
-        "name": "NIM · 官方分发待授权",
-        "state": "not_deployed",
-        "detail": "官方 NGC 返回中国区 CND 分发限制，官方伙伴下载/部署入口要求登录授权。未取得可用 ARM64 镜像；需要组委会或授权门户提供官方分发，不能把开放服务称为 NIM。",
-        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/v08-deployment/nim-distribution-check.json"
+        "name": "NVIDIA NIM · 标准文字模型接口",
+        "state": "ready",
+        "detail": "官方 Spark ARM64 Model-Free NIM，保留原厂 SDK 与服务入口；Qwen3-4B BF16，独立8007。唯一公开陶瓷文字请求 HTTP200 / stop；前8步 CUDA 与同进程、请求 SHA 绑定。主视觉与整案路径保持，模型原答与部署回执可回查。",
+        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/docs/nim-v09-update.md"
       }
-    ]
+    ],
+    "editor_updated_at": "2026-09-29T00:32:10.787375+00:00"
   },
   "fixed_case": {
     "round": 12,
@@ -42,8 +43,22 @@
   "pdf": {
     "state": "ready",
     "href": "assets/cizheng-report-v08.pdf",
-    "sha256": "f6809dbcfdbcb53f43d87160b90da38056f72cf09f502e7b04a3c707fcdb59be",
-    "bytes": 3716544,
-    "pages": 16
+    "sha256": "6a81d8f59d0da09f9bbcfb2c7edf524f3f1d5672712669eb06b78968aba26592",
+    "bytes": 1806324,
+    "pages": 19
+  },
+  "checked_at": "2026-09-29T00:41:18.150999+00:00",
+  "summary": "Qwen3-VL-8B 与案卷服务运行；NIM 标准文字、TensorRT-LLM 文字及 NVIDIA Embedding + cuVS 检索三个独立服务已完成真实验收，当前五项服务健康核对通过。",
+  "current_node_receipt": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/software/v09/current-node-readonly.json",
+  "new_backend": {
+    "state": "ready",
+    "app_version": "0.7.0",
+    "features": [
+      "六维矛盾筛查",
+      "受控设备采集桥接",
+      "材料版本过期与回退保护"
+    ],
+    "spark_focused_tests": 54,
+    "scope": "Actual deployed software; protocol tests are not professional accuracy"
   }
 }

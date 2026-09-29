@@ -1,0 +1,324 @@
+{
+  "method": "Actual AAC decoded at48kHz; per-cue highest-energy0.5s window cross-correlated against original narration PCM with ±120ms search, downsampled4kHz for analysis",
+  "cue_count": 45,
+  "all_pass": true,
+  "maximum_absolute_offset_seconds": 0.0,
+  "minimum_correlation": 0.999243,
+  "receipts": [
+    {
+      "scene": 1,
+      "cue_start": 0.6,
+      "text": "一件青花器物，值得研究的，不只是它像哪个年代。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999961
+    },
+    {
+      "scene": 1,
+      "cue_start": 4.849666666666667,
+      "text": "更重要的是：这个判断，依据什么，又缺什么？",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999912
+    },
+    {
+      "scene": 2,
+      "cue_start": 9.84,
+      "text": "入藏前的研究、状况记录、来源复核，问题各不相同。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999959
+    },
+    {
+      "scene": 2,
+      "cue_start": 14.7051875,
+      "text": "共同需要的，是一份能追到原材料的研究记录。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999911
+    },
+    {
+      "scene": 3,
+      "cue_start": 19.68,
+      "text": "瓷证，把原图、资料和研究意见，放在同一张工作台。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999897
+    },
+    {
+      "scene": 3,
+      "cue_start": 24.763270833333333,
+      "text": "从照片开始，每一步都留下可继续工作的记录。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.9995
+    },
+    {
+      "scene": 4,
+      "cue_start": 29.92,
+      "text": "先观察，再解释。山水、花篮、口沿和装饰带，",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999984
+    },
+    {
+      "scene": 4,
+      "cue_start": 34.536145833333336,
+      "text": "都应当指回具体照片与区域，避免只留下模糊印象。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999997
+    },
+    {
+      "scene": 5,
+      "cue_start": 40.16,
+      "text": "找到一条相似资料，只是研究的开始。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999896
+    },
+    {
+      "scene": 5,
+      "cue_start": 43.4245,
+      "text": "还要读到原段落，留下来源、版本和定位，",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999638
+    },
+    {
+      "scene": 5,
+      "cue_start": 47.131,
+      "text": "说明它能支持什么，也说明它不能支持什么。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999985
+    },
+    {
+      "scene": 6,
+      "cue_start": 51.84,
+      "text": "这组照片来自公开馆藏，参照对象可以明确核对。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999918
+    },
+    {
+      "scene": 6,
+      "cue_start": 56.185854166666665,
+      "text": "对未知器物，不能把另一个馆藏的标签，直接当成真值。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999937
+    },
+    {
+      "scene": 7,
+      "cue_start": 62.04,
+      "text": "七个研究技能，把方法拆成可执行的步骤。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.99997
+    },
+    {
+      "scene": 7,
+      "cue_start": 65.63991666666666,
+      "text": "青花归属、状况假设、来源审查，各有材料要求。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999396
+    },
+    {
+      "scene": 8,
+      "cue_start": 71.52,
+      "text": "技能不负责替研究者盖章。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999926
+    },
+    {
+      "scene": 8,
+      "cue_start": 73.77875,
+      "text": "它提醒模型：比较特征，寻找反例，",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999654
+    },
+    {
+      "scene": 8,
+      "cue_start": 77.07495833333333,
+      "text": "把依据和未解决的问题，写回这件器物的案卷。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999611
+    },
+    {
+      "scene": 9,
+      "cue_start": 82.12,
+      "text": "六维复核，把记录冲突和未评项，一起放到面前。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999369
+    },
+    {
+      "scene": 9,
+      "cue_start": 86.6605625,
+      "text": "这个指数提示先核查什么，不是真品率，也不是模型的置信度。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999896
+    },
+    {
+      "scene": 9,
+      "cue_start": 91.56579166666667,
+      "text": "冲突要说明理由，缺项要指出下一份证据。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999986
+    },
+    {
+      "scene": 10,
+      "cue_start": 96.44,
+      "text": "有缺口，就把补证建议说具体。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999976
+    },
+    {
+      "scene": 10,
+      "cue_start": 99.14708333333333,
+      "text": "更清楚的局部、胎底和款识，或有许可的专业记录，",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999892
+    },
+    {
+      "scene": 10,
+      "cue_start": 103.37185416666667,
+      "text": "让下一轮研究围绕问题展开，而不是重新猜一遍。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999953
+    },
+    {
+      "scene": 11,
+      "cue_start": 108.84,
+      "text": "材料补充后，原照片和旧意见仍然保留。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999881
+    },
+    {
+      "scene": 11,
+      "cue_start": 112.4176875,
+      "text": "版本比较，让你看到改变的理由，",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999993
+    },
+    {
+      "scene": 11,
+      "cue_start": 115.08322916666667,
+      "text": "也看到仍未解决的疑点。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999243
+    },
+    {
+      "scene": 12,
+      "cue_start": 118.16,
+      "text": "人工复核，面对的是具体材料和具体版本。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999949
+    },
+    {
+      "scene": 12,
+      "cue_start": 121.7045,
+      "text": "可以同意，也可以指出不足；",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999965
+    },
+    {
+      "scene": 12,
+      "cue_start": 124.05195833333333,
+      "text": "系统保存复核意见，不冒充专家签署。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999979
+    },
+    {
+      "scene": 13,
+      "cue_start": 128.76,
+      "text": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999329
+    },
+    {
+      "scene": 13,
+      "cue_start": 134.12754166666667,
+      "text": "下一位研究者，可以回到材料，接着核查你的判断。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999916
+    },
+    {
+      "scene": 14,
+      "cue_start": 139.64,
+      "text": "英伟达的 Spark，是本地研究的算力底座。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999946
+    },
+    {
+      "scene": 14,
+      "cue_start": 142.906125,
+      "text": "原始照片进入本地视觉模型；",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999989
+    },
+    {
+      "scene": 14,
+      "cue_start": 145.37502083333334,
+      "text": "只有预览后批准的文字，才交给外部反证服务。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999564
+    },
+    {
+      "scene": 15,
+      "cue_start": 150.36,
+      "text": "标准接口、文字推理、资料检索，在本地各有分工。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999617
+    },
+    {
+      "scene": 15,
+      "cue_start": 154.93610416666667,
+      "text": "三项独立服务已经验证；正式整案，仍沿用原来的工作路径。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999995
+    },
+    {
+      "scene": 15,
+      "cue_start": 159.97960416666666,
+      "text": "先核查新增能力，再决定怎样接入研究流程。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999975
+    },
+    {
+      "scene": 16,
+      "cue_start": 165.08,
+      "text": "每版观察、审查意见和修订理由，均保留在案卷里。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999988
+    },
+    {
+      "scene": 16,
+      "cue_start": 169.55760416666666,
+      "text": "读回原图和原文，让下一位研究者继续核查。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999977
+    },
+    {
+      "scene": 17,
+      "cue_start": 174.72,
+      "text": "下一步，是引入有许可的专家材料，",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999955
+    },
+    {
+      "scene": 17,
+      "cue_start": 177.64622916666667,
+      "text": "用独立样本，检验方法与结论。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999993
+    },
+    {
+      "scene": 17,
+      "cue_start": 180.330375,
+      "text": "把研究流程做扎实，也把能力边界说清楚。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999958
+    },
+    {
+      "scene": 18,
+      "cue_start": 185.24,
+      "text": "瓷证，让下一位研究者，接得住你的判断。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.99991
+    },
+    {
+      "scene": 18,
+      "cue_start": 188.77125,
+      "text": "完整图文报告、源码与演示，入口在主页。",
+      "decoded_aac_to_original_narration_alignment_seconds": 0.0,
+      "normalized_correlation": 0.999984
+    }
+  ]
+}

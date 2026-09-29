@@ -1,0 +1,504 @@
+{
+  "schema": "cizheng-pitch-final-qa-v1",
+  "version": "0.9",
+  "language": "zh-CN",
+  "pptx": {
+    "path": "site/assets/cizheng-pitch-v07.pptx",
+    "sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1",
+    "bytes": 794195,
+    "slide_count": 12,
+    "notes_count": 12,
+    "integrity": {
+      "status": "pass",
+      "findings": 0,
+      "warnings": 0
+    },
+    "layout": {
+      "status": "pass",
+      "findings": 0,
+      "warnings": 0
+    },
+    "font_selection": {
+      "status": "pass",
+      "families": [
+        "Hiragino Sans GB",
+        "Songti SC"
+      ]
+    },
+    "final_file_import": {
+      "status": "pass",
+      "sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1",
+      "slide_count": 12
+    },
+    "native_structure": [
+      {
+        "slide": 1,
+        "editable_shapes": 4,
+        "editable_connectors": 0,
+        "native_tables": 0,
+        "pictures": 1
+      },
+      {
+        "slide": 2,
+        "editable_shapes": 11,
+        "editable_connectors": 0,
+        "native_tables": 0,
+        "pictures": 1
+      },
+      {
+        "slide": 3,
+        "editable_shapes": 9,
+        "editable_connectors": 0,
+        "native_tables": 0,
+        "pictures": 1
+      },
+      {
+        "slide": 4,
+        "editable_shapes": 13,
+        "editable_connectors": 4,
+        "native_tables": 0,
+        "pictures": 0
+      },
+      {
+        "slide": 5,
+        "editable_shapes": 27,
+        "editable_connectors": 2,
+        "native_tables": 0,
+        "pictures": 0
+      },
+      {
+        "slide": 6,
+        "editable_shapes": 15,
+        "editable_connectors": 6,
+        "native_tables": 0,
+        "pictures": 0
+      },
+      {
+        "slide": 7,
+        "editable_shapes": 5,
+        "editable_connectors": 0,
+        "native_tables": 1,
+        "pictures": 0
+      },
+      {
+        "slide": 8,
+        "editable_shapes": 7,
+        "editable_connectors": 0,
+        "native_tables": 1,
+        "pictures": 1
+      },
+      {
+        "slide": 9,
+        "editable_shapes": 10,
+        "editable_connectors": 2,
+        "native_tables": 0,
+        "pictures": 1
+      },
+      {
+        "slide": 10,
+        "editable_shapes": 5,
+        "editable_connectors": 0,
+        "native_tables": 1,
+        "pictures": 0
+      },
+      {
+        "slide": 11,
+        "editable_shapes": 12,
+        "editable_connectors": 2,
+        "native_tables": 0,
+        "pictures": 0
+      },
+      {
+        "slide": 12,
+        "editable_shapes": 6,
+        "editable_connectors": 0,
+        "native_tables": 0,
+        "pictures": 1
+      }
+    ],
+    "native_table_slides": [
+      7,
+      8,
+      10
+    ],
+    "six_dimension_weights": [
+      20,
+      15,
+      15,
+      20,
+      15,
+      15
+    ],
+    "weight_total": 100,
+    "native_diagram_slide_6": {
+      "editable_connector_count": 6,
+      "flattened_picture_count": 0
+    },
+    "stable_closing_links": [
+      "https://dingyucanada.github.io/cizheng-agent-skills/report.html",
+      "https://dingyucanada.github.io/cizheng-agent-skills/demo.html",
+      "https://github.com/dingyucanada/cizheng-agent-skills"
+    ]
+  },
+  "pdf": {
+    "path": "site/assets/cizheng-pitch-v07.pdf",
+    "sha256": "9adc1ac3aaf95e89dac3b7c77c016edeac3d10251e82561382fd041f142a1c99",
+    "bytes": 1360945,
+    "page_count": 12,
+    "producer": "LibreOfficeDev 26.8.0.0.alpha0 (AARCH64)",
+    "creator": "Impress",
+    "page_size_points": [
+      960.009448818898,
+      540.0
+    ],
+    "fonts_embedded": true,
+    "embedded_font_subset_count": 27,
+    "font_names": [
+      "HiraginoSansGB-W3",
+      "HiraginoSansGB-W6",
+      "STSongti-SC-Bold"
+    ],
+    "all_page_titles_extractable": true,
+    "encrypted": false,
+    "conversion": "The exact finalized PPTX was converted by LibreOffice Impress; no recreated slide content."
+  },
+  "actual_pdf_pages": [
+    {
+      "page": 1,
+      "title": "瓷证",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-01.png",
+      "sha256": "f1d22b6cc7a04f8abf8dd55f73f2bcbbedbe086132ff1b3a5be1c96111a2c2dc",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 2,
+      "title": "专业复核先要找回证据",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-02.png",
+      "sha256": "cd3c3823c9ed69cb9963595be6ded9a4f73a2bb25961f567aa5958b64a94e891",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 3,
+      "title": "一份案卷承接整段研究工作",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-03.png",
+      "sha256": "b44382e8f466a25196a1d629166337bbcc01c78c09bfe1b681c62f64e369fd69",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 4,
+      "title": "真实案卷的审查与修订闭环",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-04.png",
+      "sha256": "a8602e4e513862080745fd235e44df80d7601da585f8cfefd628876b7ce1ac25",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 5,
+      "title": "Agent Skills 把方法写成执行步骤",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-05.png",
+      "sha256": "4ac6b5ea1e0c9d1bb4a1a1cd382df13bfbb32c9e3d94fcb09307a88f5f88285e",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 6,
+      "title": "中文系统架构：本地证据与受控协作",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-06.png",
+      "sha256": "5464d553d8af292cdafb758b44d9f91dc3d097d76898b131009b2aef5cc7e279",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 7,
+      "title": "Spark 的价值：原件、方法与推理共存",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-07.png",
+      "sha256": "fea38426cf737eb3cd61af29bd55e0f3cbe3ee32044fa068df3eeff436a78752",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 8,
+      "title": "六维矛盾筛查：先安排复核工作",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-08.png",
+      "sha256": "d19e8ff4e0c5d6b28adacb4d6d65a2ab9d004a0a7bf0860f31fecdd8826b95c0",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 9,
+      "title": "证据缺口决定下一项拍摄",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-09.png",
+      "sha256": "0d91458f2fbd586c5e276f46d30382060fbd1d497fec946f6ec63c89ff53fe71",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 10,
+      "title": "专业试用的交付与采用方式",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-10.png",
+      "sha256": "de9b24dcbcdaff3ac2b578763e1ce281fa07ea6ece57b26c62a3ecb9e6b756b3",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 11,
+      "title": "专家反馈驱动方法与模型改进",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-11.png",
+      "sha256": "1987e433b260cca51173afd0f6718eefa3113a20b84de170036ee07d20f4f445",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    },
+    {
+      "page": 12,
+      "title": "瓷证",
+      "preview_path": "site/assets/cizheng-pitch-v09/slide-12.png",
+      "sha256": "01c7ed0caa45634d02b134b83ff4d81a82de9b0cd779a471bb204f16f6dd125c",
+      "width": 1920,
+      "height": 1080,
+      "actual_pdf_page_render": true,
+      "visual_review": "completed",
+      "visual_findings": []
+    }
+  ],
+  "preview": {
+    "path": "site/assets/cizheng-pitch-v07-preview.html",
+    "sha256": "699325be54ee998ec4248c3500c504e3971bdd49046e0a19648444c1a749d29b",
+    "browser": "Google Chrome, headless",
+    "checks": [
+      {
+        "viewport": {
+          "width": 1440,
+          "height": 1000
+        },
+        "imageCount": 12,
+        "imageSizes": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          }
+        ],
+        "slideSections": 12,
+        "noteSections": 12,
+        "directoryAnchors": 12,
+        "scrollWidth": 1440,
+        "viewportWidth": 1440,
+        "downloads": [
+          "cizheng-pitch-v07.pptx",
+          "cizheng-pitch-v07.pdf"
+        ],
+        "pageErrors": [],
+        "pass": true
+      },
+      {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "imageCount": 12,
+        "imageSizes": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "loaded": true
+          }
+        ],
+        "slideSections": 12,
+        "noteSections": 12,
+        "directoryAnchors": 12,
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "downloads": [
+          "cizheng-pitch-v07.pptx",
+          "cizheng-pitch-v07.pdf"
+        ],
+        "pageErrors": [],
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "safety": {
+    "private_path_or_credential_hits_in_pptx_xml": [],
+    "private_path_or_credential_hits_in_overlay_text": [],
+    "old_private_backups_retained": [
+      {
+        "filename": "cizheng-pitch-v07.pptx",
+        "sha256": "18b29ef314945f101c3446a5da472b38b5a9801b83ce3d0e2dfe71f83c21c426",
+        "matches_unmodified_source": true
+      },
+      {
+        "filename": "cizheng-pitch-v07.pdf",
+        "sha256": "449c46541550d6075bf932ebe410c602a0faacc9876a6ff04d07548de4ec53ae",
+        "matches_unmodified_source": true
+      },
+      {
+        "filename": "cizheng-pitch-v07-preview.html",
+        "sha256": "a457292da9a6618b5f3029298465119c7459655b29f86bb212698c61f1ebb1c1",
+        "matches_unmodified_source": true
+      }
+    ],
+    "source_pitch_entries_unchanged": true,
+    "shared_media_manifest_modified": false,
+    "published": false
+  },
+  "review": {
+    "all_12_office_pdf_pages_viewed": true,
+    "all_12_artifact_tool_final_file_pages_rendered": true,
+    "corrections": [
+      "Shortened loading-stage text to avoid wrapping.",
+      "Placed editable connectors above local boundary fill.",
+      "Clarified unknown weights and separate coverage.",
+      "Set hyperlink theme color for legibility in actual Office PDF."
+    ],
+    "native_microsoft_powerpoint_execution": false,
+    "claim_boundary": "Structural and visual artifact validation only; no expert authentication accuracy, speedup, Skills causal effect, material testing or physical device validation is asserted."
+  },
+  "status": "pass"
+}

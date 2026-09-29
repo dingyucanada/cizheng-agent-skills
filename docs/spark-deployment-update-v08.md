@@ -1,5 +1,7 @@
 # 2026-09-29 · Spark 实际模块部署
 
+**历史阶段记录说明（2026-09-29更新）**：本文保留 v08 当时的部署经过和 NIM 分发检查。随后 NIM 已从官方中国伙伴公开 Spark ARM64 Model-Free NIM 2.1.8 路线真实部署到8007，原厂SDK入口、唯一公开请求、GPU绑定和五服务共存见 [v09后续实际验收](nim-v09-update.md)。下文的“NIM未部署”仅描述 v08 检查当时，不是当前状态；原始JSON字节不改。
+
 原 Qwen3-VL-8B / 8005 与案卷后端 / 8780 保持运行。本次在同一台 GB10 增加独立 TensorRT-LLM 文字服务 / 8006 和 NVIDIA 开放 embedding + cuVS 检索 / 8003，完成真实请求及身份验收。**NIM 仍未部署**，官方分发需要授权。
 
 ![DGX Spark实际运行拓扑](../site/report-assets/spark-deployment-map.svg)

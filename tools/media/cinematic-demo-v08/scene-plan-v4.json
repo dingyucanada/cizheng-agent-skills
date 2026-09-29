@@ -1,0 +1,303 @@
+{
+  "schema": "cizheng-cinematic-demo.v1",
+  "target_seconds": [
+    150,
+    200
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "voice": {
+    "provider": "installed macOS system speech",
+    "voice": "Tingting",
+    "rate": 185,
+    "synthetic": true
+  },
+  "scenes": [
+    {
+      "id": "opening",
+      "kind": "hero",
+      "eyebrow": "一件器物，一条证据链",
+      "title": [
+        "看见青花，",
+        "然后呢？"
+      ],
+      "detail": "把一眼的印象，变成可以继续核查的案卷。",
+      "photo": "met-48607.jpg",
+      "cues": [
+        "一件青花器物，值得研究的，不只是它像哪个年代。",
+        "更重要的是：这个判断，依据什么，又缺什么？"
+      ]
+    },
+    {
+      "id": "scenarios",
+      "kind": "gallery",
+      "eyebrow": "面向器物研究",
+      "title": [
+        "入藏研究。",
+        "状况记录。来源复核。"
+      ],
+      "detail": "先整理材料，再讨论归属。",
+      "cues": [
+        "入藏前的研究、状况记录、来源复核，问题各不相同。",
+        "共同需要的，是一份能追到原材料的研究记录。"
+      ]
+    },
+    {
+      "id": "workbench",
+      "kind": "screen",
+      "screen": "demo-observation-desktop.png",
+      "eyebrow": "瓷证 · 研究工作台",
+      "title": [
+        "原图、资料、意见，",
+        "回到同一张桌。"
+      ],
+      "detail": "案卷持续保存，材料变化保留历史。",
+      "cues": [
+        "瓷证，把原图、资料和研究意见，放在同一张工作台。",
+        "从照片开始，每一步都留下可继续工作的记录。"
+      ]
+    },
+    {
+      "id": "observe",
+      "kind": "duo",
+      "eyebrow": "01 / 观察",
+      "title": [
+        "先说看到了什么。"
+      ],
+      "detail": "正面与另一面交叉看；观察与归属解释分开。",
+      "cues": [
+        "先观察，再解释。山水、花篮、口沿和装饰带，",
+        "都应当指回具体照片与区域，避免只留下模糊印象。"
+      ]
+    },
+    {
+      "id": "read",
+      "kind": "screen",
+      "screen": "demo-evidence-desktop.png",
+      "eyebrow": "02 / 查据",
+      "title": [
+        "找到资料，",
+        "还要读到原段落。"
+      ],
+      "detail": "来源、版本、段落定位与内容身份一起保存。",
+      "cues": [
+        "找到一条相似资料，只是研究的开始。",
+        "还要读到原段落，留下来源、版本和定位，",
+        "说明它能支持什么，也说明它不能支持什么。"
+      ]
+    },
+    {
+      "id": "catalogue",
+      "kind": "source",
+      "eyebrow": "资料适用范围",
+      "title": [
+        "馆藏编目，",
+        "不是任意器物的答案。"
+      ],
+      "detail": "这组公开照片对应 Met 18.61.4；参照对象必须说清。",
+      "cues": [
+        "这组照片来自公开馆藏，参照对象可以明确核对。",
+        "对未知器物，不能把另一个馆藏的标签，直接当成真值。"
+      ]
+    },
+    {
+      "id": "skills",
+      "kind": "screen",
+      "screen": "demo-skills-desktop.png",
+      "eyebrow": "03 / Skills",
+      "title": [
+        "把研究方法，",
+        "放进可执行步骤。"
+      ],
+      "detail": "七个自研方法包：适用范围、工具、材料与责任。",
+      "cues": [
+        "七个研究技能，把方法拆成可执行的步骤。",
+        "青花归属、状况假设、来源审查，各有材料要求。"
+      ]
+    },
+    {
+      "id": "skills-action",
+      "kind": "method",
+      "eyebrow": "方法如何落地",
+      "title": [
+        "归属要比对。",
+        "假设要反证。记录要留痕。"
+      ],
+      "detail": "研究意见由模型或研究者写出；证据边界由工具核查。",
+      "cues": [
+        "技能不负责替研究者盖章。",
+        "它提醒模型：比较特征，寻找反例，",
+        "把依据和未解决的问题，写回这件器物的案卷。"
+      ]
+    },
+    {
+      "id": "contradiction",
+      "kind": "risk",
+      "eyebrow": "04 / 矛盾",
+      "title": [
+        "六维复核，",
+        "先找证据缺口。"
+      ],
+      "detail": "冲突理由与未评项，一起显示。",
+      "cues": [
+        "六维复核，把记录冲突和未评项，一起放到面前。",
+        "这个指数提示先核查什么，不是真品率，也不是模型的置信度。",
+        "冲突要说明理由，缺项要指出下一份证据。"
+      ],
+      "screen": "desktop-risk.png"
+    },
+    {
+      "id": "supplement",
+      "kind": "duo",
+      "eyebrow": "05 / 补证",
+      "title": [
+        "缺什么，",
+        "就把下一步说具体。"
+      ],
+      "detail": "更清楚的局部、胎底与款识，或有许可的专业资料。",
+      "cues": [
+        "有缺口，就把补证建议说具体。",
+        "更清楚的局部、胎底和款识，或有许可的专业记录，",
+        "让下一轮研究围绕问题展开，而不是重新猜一遍。"
+      ]
+    },
+    {
+      "id": "revision",
+      "kind": "screen",
+      "screen": "demo-revision-desktop.png",
+      "eyebrow": "版本比较",
+      "title": [
+        "改了什么，",
+        "为什么改，仍缺什么。"
+      ],
+      "detail": "新材料追加；前后版本并存。",
+      "cues": [
+        "材料补充后，原照片和旧意见仍然保留。",
+        "版本比较，让你看到改变的理由，",
+        "也看到仍未解决的疑点。"
+      ]
+    },
+    {
+      "id": "human",
+      "kind": "review",
+      "eyebrow": "06 / 人工复核",
+      "title": [
+        "把决定，",
+        "留给负责的人。"
+      ],
+      "detail": "复核意见绑定具体案卷与版本；材料变动提示过期。",
+      "cues": [
+        "人工复核，面对的是具体材料和具体版本。",
+        "可以同意，也可以指出不足；",
+        "系统保存复核意见，不冒充专家签署。"
+      ]
+    },
+    {
+      "id": "export",
+      "kind": "screen",
+      "screen": "demo-export-desktop.png",
+      "eyebrow": "07 / 导出交接",
+      "title": [
+        "研究结束一轮，",
+        "案卷继续有用。"
+      ],
+      "detail": "版本报告与离线材料，可下载、可重读、可交接。",
+      "cues": [
+        "导出报告和离线材料，把原图、依据、疑点与版本一起交接。",
+        "下一位研究者，可以回到材料，接着核查你的判断。"
+      ]
+    },
+    {
+      "id": "spark",
+      "kind": "architecture",
+      "eyebrow": "为什么是 DGX Spark",
+      "title": [
+        "原始照片，",
+        "留在本地研究。"
+      ],
+      "detail": "本地原图与视觉主模型 → 批准文字反证 → 人工复核。",
+      "cues": [
+        "英伟达的 Spark，是本地研究的算力底座。",
+        "原始照片进入本地视觉模型；",
+        "只有预览后批准的文字，才交给外部反证服务。"
+      ]
+    },
+    {
+      "id": "local-capability",
+      "kind": "deployment-nim",
+      "eyebrow": "本地能力继续生长",
+      "title": [
+        "本地能力，",
+        "按研究职责分工。"
+      ],
+      "detail": "标准接口 / 独立文字推理 / 独立GPU资料检索",
+      "cues": [
+        "标准接口、文字推理、资料检索，在本地各有分工。",
+        "三项独立服务已经验证；正式整案，仍沿用原来的工作路径。",
+        "先核查新增能力，再决定怎样接入研究流程。"
+      ],
+      "release_stage": "verified"
+    },
+    {
+      "id": "actual-record",
+      "kind": "record",
+      "eyebrow": "真实保存记录",
+      "title": [
+        "有初稿，有审查。",
+        "理由可回查。"
+      ],
+      "detail": "每版观察、审查意见和修订理由，均保留在案卷里。",
+      "cues": [
+        "每版观察、审查意见和修订理由，均保留在案卷里。",
+        "读回原图和原文，让下一位研究者继续核查。"
+      ]
+    },
+    {
+      "id": "next",
+      "kind": "ending",
+      "eyebrow": "下一步",
+      "title": [
+        "让专家方法，",
+        "接受真实样本检验。"
+      ],
+      "detail": "有许可的专家资料 / 独立盲测 / 同预算方法对照。",
+      "cues": [
+        "下一步，是引入有许可的专家材料，",
+        "用独立样本，检验方法与结论。",
+        "把研究流程做扎实，也把能力边界说清楚。"
+      ]
+    },
+    {
+      "id": "closing",
+      "kind": "hero",
+      "eyebrow": "瓷证 · 陶瓷证据研究工作台",
+      "title": [
+        "让下一位研究者，",
+        "接得住你的判断。"
+      ],
+      "detail": "完整图文报告、源码与公开演示，入口在主页。",
+      "photo": "met-48607-view2.jpg",
+      "cues": [
+        "瓷证，让下一位研究者，接得住你的判断。",
+        "完整图文报告、源码与演示，入口在主页。"
+      ]
+    }
+  ],
+  "submitted_urls": {
+    "homepage": "https://dingyucanada.github.io/cizheng-agent-skills/",
+    "demo": "https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4",
+    "article": "https://zhuanlan.zhihu.com/p/2088103686509744413"
+  },
+  "nvidia_release_note": "独立NIM标准文字接口、TensorRT-LLM文字服务与官方开放NVIDIA Embedding+cuVS GPU检索均有真实独立验收；正式整案仍沿用原8B视觉与SQLite路径，未宣称专业准确率或整案提速。",
+  "nvidia_boundary": "Official ARM64 NVIDIA NIM text interface actually verified with a single public text HTTP200/stop request and same-container limited CUDA trace; TRT-LLM text and official open NVIDIA embedding+cuVS independently verified. Original8Bvisual/SQLite workflow remains unchanged; no professional-quality or speed-gain claim.",
+  "source_references": [
+    "verification/nvidia/v07-workflows/round-12/",
+    "verification/nvidia/tensorrt-llm-v08/",
+    "verification/nvidia/retriever-v07/",
+    "evidence/nim-v09/",
+    "docs/nim-v09-update.md"
+  ]
+}

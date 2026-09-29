@@ -1,0 +1,87 @@
+{
+  "credentials_included": false,
+  "files": [
+    {
+      "bytes": 745,
+      "name": "container-before.json",
+      "sha256": "dbce6568b97532a1a491e1be358a14fbd7b31f7ab9038d98bca02775560b73ad"
+    },
+    {
+      "bytes": 745,
+      "name": "container-after.json",
+      "sha256": "0bdebde96df521002b18ea081952ec3d620f06f2a2eb172bdc2b6fb918c87efc"
+    },
+    {
+      "bytes": 461,
+      "name": "profile-arm.json",
+      "sha256": "c8a9c34bc893890cb39c6847549134eebc89c5115b7bfbe6bab942be42e04d93"
+    },
+    {
+      "bytes": 77,
+      "name": "profile-front-route-failure.json",
+      "sha256": "5e783e607a191c33613a0aedcd590da4c4c908c318840f2e7730a055f0c18eaa"
+    },
+    {
+      "bytes": 1379,
+      "name": "gpu-trace-summary.json",
+      "sha256": "d008e7be12aa076c863cea519d3ca3642955f8a6a2f6e09f7d0ddfe69e4106d1"
+    },
+    {
+      "bytes": 2133,
+      "name": "final-coexistence.json",
+      "sha256": "845db476e1c0d92751d595ca317ad3c8306e5d6dad69561d709cbb2ec9d480de"
+    },
+    {
+      "bytes": 183,
+      "name": "models-after.raw.json",
+      "sha256": "f1dd5cd860a44291994040a08e8fd0faddf6a4aceba55f559e0d0e476f9a791c"
+    },
+    {
+      "bytes": 977,
+      "name": "request-sequence-claimed.json",
+      "sha256": "855091c421fbf3dcf593408ceb126aeda68a846eb3ea5786b0defa727029a8a0"
+    },
+    {
+      "bytes": 1295,
+      "name": "failed-attempts-summary.json",
+      "sha256": "cae00a30b1dfad28005f2cce5451effef23e00a69e75c76c85ed552692628031"
+    },
+    {
+      "bytes": 269,
+      "name": "software-identity.json",
+      "sha256": "58501d33c378446b2fb806a5cf45ec042a22e1d426f322918922b30d6626bd9b"
+    },
+    {
+      "bytes": 1318,
+      "name": "preflight.json",
+      "sha256": "33fd4654908789465946b9006a711e1f4f8791160491d2382696adfc78553cd2"
+    },
+    {
+      "bytes": 1139,
+      "name": "public-text-once/claimed.json",
+      "sha256": "3ffe0bad507158a9dd8e7998a28116dc69ba6dc397d688bcfc3e5a1e1d822e3e"
+    },
+    {
+      "bytes": 791,
+      "name": "public-text-once/response.raw.json",
+      "sha256": "bd585278c320223e76ead0c04d3533b02f79ba8c6f55df6d33c5bd4414e325dc"
+    },
+    {
+      "bytes": 702,
+      "name": "public-text-once/receipt.json",
+      "sha256": "0ffb03920128f266fee571133135bb4d513ab4b9b4dd5ab593ed36054f563403"
+    },
+    {
+      "bytes": 808,
+      "name": "source-manifest.json",
+      "sha256": "e7318938f2cbdf21fed45ceceea0d4d4deb731779dc48297f3c488dcf523002c"
+    },
+    {
+      "bytes": 3023,
+      "name": "public-model-manifest.json",
+      "sha256": "a41c5affd0d9dcc418f5d7aed2071c146347d3c4f676ee46a02b3a8ee0cba694"
+    }
+  ],
+  "raw_trace_included": false,
+  "vendor_closed_source_included": false
+}

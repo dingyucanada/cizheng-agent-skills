@@ -1,0 +1,14 @@
+{
+  "baseline": "Complete v1 narrated movie",
+  "revision": "v2",
+  "changes": [
+    "Shortened workbench/evidence/export headlines to foreground business actions",
+    "Measured narrow-column headline width and fit to428px",
+    "Zoomed real evidence, Skills, revision and export screenshot crops so key content is readable",
+    "Reduced camera zoom24perthousand to18perthousand to keep text steadier",
+    "Added consistent brand line and clear export-handoff cue"
+  ],
+  "same_fixed_urls": true,
+  "same_source_bytes": true,
+  "no_fake_clicks_or_inference_progress": true
+}

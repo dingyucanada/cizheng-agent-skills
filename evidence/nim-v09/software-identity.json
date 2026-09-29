@@ -1,0 +1,1 @@
+{"entrypoint_sha256": "bc8c7cca428dc1eb843752b518df7e8b5ecad747e315a764f9fb5512137f2e26", "packages": {"flashinfer-python": "0.6.14", "nim-stack": "0.1.0", "nim_sdk": "0.12.7", "nimlib": "0.18.1", "sglang": "0.5.16", "torch": "2.11.0+cu130", "transformers": "5.12.1"}}

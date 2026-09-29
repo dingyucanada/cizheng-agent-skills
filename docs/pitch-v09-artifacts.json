@@ -1,0 +1,179 @@
+{
+  "schema": "cizheng-pitch-artifacts-v1",
+  "version": "0.9",
+  "language": "zh-CN",
+  "slide_count": 12,
+  "rendering": {
+    "pdf_producer": "LibreOfficeDev 26.8.0.0.alpha0",
+    "source": "same finalized editable PPTX",
+    "preview_source": "actual exported PDF pages",
+    "width": 1920,
+    "height": 1080,
+    "reviewed_page_count": 12
+  },
+  "editable": {
+    "native_diagrams": true,
+    "native_table_slides": [
+      7,
+      8,
+      10
+    ],
+    "notes": 12
+  },
+  "checks": {
+    "package_integrity": "pass",
+    "layout_geometry": "pass",
+    "declared_font_selection": "pass",
+    "final_pptx_import": "pass",
+    "six_dimension_weights_total": 100,
+    "native_powerpoint_execution": false,
+    "professional_accuracy_claimed": false
+  },
+  "input_sources": [
+    {
+      "path": "site/assets/met-48607.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/48607",
+      "slide": 1
+    },
+    {
+      "path": "site/assets/met-51185.jpg",
+      "sha256": "01401537e5591a07f4c5a6b3f24ae8c37def39d5e0dae71275c0edce6154839b",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/51185",
+      "slide": 2
+    },
+    {
+      "path": "site/assets/met-48607-view2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/48607",
+      "slide": 9
+    },
+    {
+      "path": "site/assets/met-50839.jpg",
+      "sha256": "1cc100a71af987f0bcbb05633fafb719d212bc0e9112e8ba0c80756a11e65c8a",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/50839",
+      "slide": 12
+    },
+    {
+      "path": "site/assets/workbench-v06.jpg",
+      "sha256": "3600a41a3426fff6ecd14d649ee8ee9bcee954c19abdffa064d209dafc4487da",
+      "kind": "real_project_workbench_screenshot",
+      "source": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/site/assets/workbench-v06.jpg",
+      "slide": 3
+    },
+    {
+      "path": "site/assets/risk-workbench-v09.png",
+      "sha256": "43e24595f2aa21f568852c1ceb256d8eb53c1b81800039207dbfb17831dad9bc",
+      "kind": "real_project_workbench_screenshot",
+      "source": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/site/assets/risk-workbench-v09.png",
+      "slide": 8
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/pitch-v09-build.md",
+      "bytes": 2951,
+      "sha256": "5c82da5670adb007813b2fe69ace9c0b7bcdc528ca785fab1a0676fbcd31ceba"
+    },
+    {
+      "path": "docs/pitch-v09-notes.md",
+      "bytes": 11195,
+      "sha256": "8ebd7ba60e1cd6599e7909bb31db03b10c9f152799630d7df2f6808c1ba14051"
+    },
+    {
+      "path": "docs/pitch-v09-qa.json",
+      "bytes": 13710,
+      "sha256": "697e1cfe113277c0231a73e81a0476a9d631be19813745d2951b47c876f078c5"
+    },
+    {
+      "path": "scripts/build-pitch-v09.mjs",
+      "bytes": 30842,
+      "sha256": "fe8511a564d5e8962d511899089050102860792c58896a674035a6ba735154af"
+    },
+    {
+      "path": "scripts/export-pitch-v09.mjs",
+      "bytes": 13715,
+      "sha256": "d5ebc73e01ea26a90f3ff6907f8ebed53cc42430f1f9158e88f9847afb0bb9db"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07-preview.html",
+      "bytes": 28313,
+      "sha256": "699325be54ee998ec4248c3500c504e3971bdd49046e0a19648444c1a749d29b"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07.pdf",
+      "bytes": 1360945,
+      "sha256": "9adc1ac3aaf95e89dac3b7c77c016edeac3d10251e82561382fd041f142a1c99"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07.pptx",
+      "bytes": 794195,
+      "sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-01.png",
+      "bytes": 648040,
+      "sha256": "f1d22b6cc7a04f8abf8dd55f73f2bcbbedbe086132ff1b3a5be1c96111a2c2dc"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-02.png",
+      "bytes": 404174,
+      "sha256": "cd3c3823c9ed69cb9963595be6ded9a4f73a2bb25961f567aa5958b64a94e891"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-03.png",
+      "bytes": 470868,
+      "sha256": "b44382e8f466a25196a1d629166337bbcc01c78c09bfe1b681c62f64e369fd69"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-04.png",
+      "bytes": 223289,
+      "sha256": "a8602e4e513862080745fd235e44df80d7601da585f8cfefd628876b7ce1ac25"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-05.png",
+      "bytes": 311794,
+      "sha256": "4ac6b5ea1e0c9d1bb4a1a1cd382df13bfbb32c9e3d94fcb09307a88f5f88285e"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-06.png",
+      "bytes": 276235,
+      "sha256": "5464d553d8af292cdafb758b44d9f91dc3d097d76898b131009b2aef5cc7e279"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-07.png",
+      "bytes": 280535,
+      "sha256": "fea38426cf737eb3cd61af29bd55e0f3cbe3ee32044fa068df3eeff436a78752"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-08.png",
+      "bytes": 365464,
+      "sha256": "d19e8ff4e0c5d6b28adacb4d6d65a2ab9d004a0a7bf0860f31fecdd8826b95c0"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-09.png",
+      "bytes": 406247,
+      "sha256": "0d91458f2fbd586c5e276f46d30382060fbd1d497fec946f6ec63c89ff53fe71"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-10.png",
+      "bytes": 231636,
+      "sha256": "de9b24dcbcdaff3ac2b578763e1ce281fa07ea6ece57b26c62a3ecb9e6b756b3"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-11.png",
+      "bytes": 236391,
+      "sha256": "1987e433b260cca51173afd0f6718eefa3113a20b84de170036ee07d20f4f445"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-12.png",
+      "bytes": 806480,
+      "sha256": "01c7ed0caa45634d02b134b83ff4d81a82de9b0cd779a471bb204f16f6dd125c"
+    }
+  ],
+  "manifest_scope": "All overlay files except this self-referential manifest. Original source images are embedded in PPTX; not copied again into this overlay."
+}

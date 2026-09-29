@@ -2,7 +2,7 @@
 
 瓷证把原图观察、固定版本资料、方法执行与意见修订放入同一案卷。公开教学页在浏览器编辑预置材料，不调用模型；专业工作台连接指定本机或 DGX Spark，按许可和预算处理实际材料。
 
-![瓷证架构与原图、批准文字的流向](../site/assets/architecture.svg)
+![瓷证架构与原图、批准文字的流向](../site/report-assets/product-architecture-v09.svg)
 
 | 组件 | 实际职责与数据 | 已运行的范围 |
 |---|---|---|
@@ -31,11 +31,11 @@ Nsight Systems 2025.3.2 已采集第 03 轮首次双图视觉请求。`cizheng.m
 
 新增独立 TensorRT-LLM 文字服务与 NVIDIA 开放 embedding + cuVS 检索已在 Spark 真实运行，原主流程不变：
 
-![本次 Spark 运行拓扑与独立服务](../site/report-assets/spark-deployment-map.svg)
+![当前专业研究与独立模型服务](../site/report-assets/product-architecture-v09.svg)
 
 8006 为固定官方 ARM64 rc13 / Qwen3-4B BF16，1次公开文字请求及对应前8迭代CUDA核验；8003为固定官方1B v2/2048维/25段 GPU 索引，原客户端9 HTTP/5中文query与来源身份核验。前者 PyTorch backend、无序列化 TRT engine；后者非NIM、SDK流水线未使用；都未代替原8B视觉或SQLite资料读取与引用许可。[本次源码、运行身份及回执](spark-deployment-update-v08.md)。
 
-NIM官方中国区分发和伙伴授权仍受限，未部署；vLLM镜像未完整存在，Dynamo未部署。[服务与优化选择](model-serving-options.md)。
+NIM已独立部署8007，保留原厂SDK入口并完成公开文字/GPU绑定，见 [实际回执](nim-v09-update.md)；vLLM镜像未完整存在，Dynamo未部署。[服务与优化选择](model-serving-options.md)。
 
 ## 工程证据与未完成验证
 

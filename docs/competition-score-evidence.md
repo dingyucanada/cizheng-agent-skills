@@ -1,86 +1,41 @@
-# 瓷证 · 评分要求与技术证据
+# 瓷证 · 参赛要求与当前实现对照
 
-更新说明（2026-09-29）：下方旧第05轮、待部署与框架计划保留为当时记录。当前第12轮技术流程完成但专业质量未通过；本次另完成TensorRT-LLM独立文字/CUDA与NVIDIA开放embedding+cuVS独立检索部署，NIM仍需官方授权。最新证据见[当前状态](../STATUS.md)和[本次部署](spark-deployment-update-v08.md)，不能把下方旧“最新”误读为当前结果。此对照只供工程与提交核查，不显示在产品主页。
+更新于2026年9月29日。本页用于工程与提交核查；产品主页以业务场景、报告和体验为主，不展示比赛评分表。官方权重来自参赛者提供的本届培训截图：实用性与创新25%、智能体与模型技术25%、完整性20%、平台适配15%、演示10%、征文5%。这些是材料组织依据，不是获奖或得分预测。
 
+## 当前成果与六项评分要求
 
-最新完整第05轮已实际失败：4次模型、10次工具、服务端136.052秒。两张原图产生实际观察，协调器按本轮观察加载青花方法；下一主动作90秒超时，没有AI报告、该报告的NAT核查、StepFun反证或修订导出。固定文字格式合成探针也90秒超时，155.686秒晚到结构合格记录只按独占窗口关联。当前ARM开发源码129项流程CPU合同通过，不能替代以上业务失败。最新版本和证据见[当前状态](../STATUS.md)、[第05轮](../verification/nvidia/compact-workflow-05/README.md)。
-
-本页依据参赛者提供的官方培训截图：实用性与创新25%、智能体与模型技术25%、完整性20%、平台适配15%、演示10%、征文5%。它是作品与证据的对照，不是预测评委得分。正式提交还需核对组委会表单与截止时刻。
-
-## 本期架构与验收边界
-
-下图表示应用已经实现的编排接口和完整任务路径，各环节的验收证据见下表。2B已有真实GPU图像生成与自由文字描述，但公开两照片的复杂Agent流程仍失败；8B已通过真实GPU热身及原始三项探针，旧c005公开实图run02仍失败。开发版本c006的run03已产生具体观察，但报告字段连续不合规，尚无完整Agent成功结论。结构约束在真实GPU上通过格式验证后，full-workflow01因12次调用预算耗尽仍未形成报告。受控准备后的full-workflow02成功读资料和看图，但第一条主动作超过90秒等待，仍没有报告。短动作full-workflow03各次请求在等待时限内返回，但文献/参照编号语义错误仍使报告失败。StepFun已通过单独的公开文字探针，尚未完成主Agent接收反证并重新观察图片的闭环。
-
-```mermaid
-flowchart TD
-    A[器物原照与工作问题] --> B[案卷登记 / 视角标记 / 固定输入版本]
-    B --> C[Spark 本地视觉 Agent]
-    D[7 个领域 Skills<br/>逐步发现与按需加载] --> C
-    E[本地固定版本资料<br/>检索 / 实际阅读 / 段落回执] --> C
-    C --> F[多图细节 / 区域观察 / 分项理由 / 反证]
-    F --> G[研判报告<br/>采集指数 / 待校准概率 / 下一项补证]
-    G --> H[专家回查与复核 / JSON 与离线 HTML]
-    G --> I[NVIDIA NAT<br/>所选报告的知识引用身份核查]
-    I --> H
-    F --> J[经批准的公开或脱敏文字包]
-    J --> K[StepFun 文字反证审查]
-    K --> C
-```
-
-可选的[受控材料准备](controlled-workflow.md)由程序调用原工具，加载有限方法、读取本案固定版本最多两段资料并查看首批真实照片；与模型选择分别记录，预算不增加。这是一项编排变更，不能拿跨策略的运行声称自然Skills触发或因果增益。
-
-NAT 的核查结果可附在报告中，但不会改写视觉意见，也不能把引用哈希一致解释为结论正确。模型需要重新观察新一轮原照后才能响应文字反证。文书核查另有本地任务，未读取的 PDF 正文不会被声称读过。
-
-## 按权重落实成果
-
-| 官方评分项 | 本作品的可检查实现 | 证据与复现入口 | 尚需补强的真实证据 |
+| 官方维度 | 当前可定位成果 | 实际证据 | 后续专业验证 |
 |---|---|---|---|
-| 实用性、落地与创新 25% | 博物馆编目、收藏来源整理、拍品研究三种流程；多图细节与分项理由的受控报告结构；补证形成新版本；独立离线案卷交接 | `static/` 专业工作台；公开三案完整体验；[报告口径](authenticity-and-scoring.md) | 真实从业者与专家验收；不能拿已知馆藏教学案声称独立鉴定 |
-| 智能体与模型技术 25% | Skills逐步加载、受控原图与局部查看接口、竞争解释、固定引用、单轮与案卷预算；本地视觉与文字审查职责分开；有界视觉协议与保留可信方法正文的上下文压缩；NAT注册组件及评测 | `cizheng/agent.py`、`skills/`、`integrations/nvidia_nat/`、`evals/PROTOCOL.md` | 完整实图Agent验收；同一视觉模型、同一独立样本集的有/无Skills对照；专家解释质量评估 |
-| 项目完整性 20% | 实际前后端、预置三案、操作草稿保护、原图与资料导出、私有部署、回归工具 | README启动入口、工程CI、当前开发源码615项Python软件合同通过（2项可选NAT检查在独立环境通过）与33项公开体验测试通过，静态站点校验通过 | 机构多用户权限、可信专家签署、生产运维仍未实现，不宣传为机构生产认证系统 |
-| 平台适配 15% | Spark GB10真实CUDA与BF16运行；2B与8B生成热身、CUDA事件与进程allocator峰值；NVIDIA NAT正式插件在本机和Spark的运行；SkillSpector实际扫描；StepFun公开文字探针 | [NVIDIA集成](nvidia-integration.md)、[Spark验收](spark-validation.md)、[公开运行记录](../verification/nvidia/README.md) | 2B与8B旧c005复杂Agent均未完成，8B run03因字段合同失败，结构约束后的full-workflow01又因调用预算耗尽；冷/热负载与优化对照未完成。CUDA运行不等于领域质量或平台加速已证实 |
-| 演示效果 10% | 无需上传即可走完三类教学案，实际编辑、定位、补证、复核及导出；专业后端可导入同案 | GitHub Pages `demo.html`；本地工作台；[演示脚本](demo-and-submission.md) | 实际操作录制视频、B站作品URL；公开教学页面不执行模型 |
-| 赛事征文 5% | 记录原方案错误、技术取舍、部署失败与修复、方法适用边界 | [开发文章草稿](development-article-draft.md) | 公开发布文章URL未完成 |
+| 实用性、行业价值与创新25% | 博物馆编目、收藏来源、拍品研究三类流程；照片区域、来源、分项理由和版本交接；六维矛盾筛查决定下一项补证 | [完整报告](../site/report.html)、[三案免上传体验](../site/demo.html)、[风险筛查](risk-triage.md)、[设备采集](device-capture.md) | 专家样本评估与真实业务试用；不把教学案写成独立鉴定 |
+| 智能体与模型技术25% | 七个领域Skills逐步发现、按需加载和固定包身份；本地视觉与工具预算；资料实际读取及引用身份约束；StepFun批准文字审查与本地修订 | [领域Skills](../skills/)、[第12轮保存记录](../verification/nvidia/v07-workflows/round-12/workflow-summary.json)、[NAT集成](nvidia-integration.md) | 对观察、引用支持和理由进行独立专家评审；同预算有/无Skills对照 |
+| 项目完整性20% | FastAPI / SQLite专业工作台与完整公开体验；原件、幂等、阶段任务、修订、导出；材料更改后旧判断不能回流为新证据 | [当前软件核验](../verification/software/v09/README.md)：本机1120项Python、37项DOM；Spark54项专项及实际HTTP照片回取；[CI](../.github/workflows/ci.yml) | 机构多用户权限与可信签署属于后续生产化，当前为单人受控试用 |
+| 平台适配15% | GB10真实CUDA/BF16视觉；NAT引用身份核查；Nsight限定视觉区间；原厂NIM、官方TensorRT-LLM文字及开放Embedding+cuVS GPU检索三个独立服务 | [当前五服务核对](../verification/software/v09/current-node-readonly.json)、[NIM实际部署](nim-v09-update.md)、[TRT-LLM](../verification/nvidia/tensorrt-llm-v08/README.md)、[Retriever核验](../verification/nvidia/retriever-v07/index.json) | 三项新增服务各有真实验收，尚未替换8B视觉/SQLite主流程；未声称完整Retriever SDK、整案提速或NVIDIA Verified |
+| 演示效果10% | 193.12秒中文旁白、原创音乐与字幕的场景演示；真实保存记录另有回放；12页可编辑中文PPT、19页完整图文PDF | [固定Demo网址](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4)、[PPT预览](../site/assets/cizheng-pitch-v07-preview.html)、[媒体清单](../site/assets/media-manifest-v07.json) | 场景演示由实际界面与保存记录制作，非连续模型录屏；B站等正式渠道以实际发布回执为准 |
+| 征文5% | 十个主题章节记录真实开发、部署取舍、失败与修复；用户已手动发布固定知乎地址 | [当前文章](development-story.md)、[固定知乎征文](https://zhuanlan.zhihu.com/p/2088103686509744413) | 仓库新稿与知乎同步由用户手动完成；十章不宣称已开发十天 |
 
-表中的测试数量只描述对应工程合同；不等于陶瓷鉴定准确率。NAT与SkillSpector提供接口及技能治理证据，智能体与模型项仍需完整任务和独立效果评估；采用SDK的数量不构成获奖或得分承诺。节点与模型的最新事实以 `STATUS.md` 和对应实测记录为准。
+## NVIDIA 与 StepFun 为什么各有具体职责
 
-## NVIDIA 技术的选择原则
+- NVIDIA Skills文档和目录用于开发方法、技能发现、扫描、评测与治理；自研领域SKILL.md不冒称NVIDIA认证。领域方法决定该看什么、该读什么与缺少什么，宿主承担权限、工具执行与预算。
+- CUDA视觉使用当前Qwen3-VL-8B原生服务。32B候选保留真实失败与权重，不因参数更多就宣称专业更强。
+- NeMo Agent Toolkit核对固定资料、读取回执、段落与哈希；引用身份正确不能替代推断支持与专家判断。
+- NIM保留官方Spark ARM64 Model-Free NIM原厂SDK及入口，独立8007提供标准文字接口；一次公开陶瓷文字请求正常结束并绑定同进程前八步CUDA。
+- TensorRT-LLM官方ARM64 rc13独立8006运行4B文字模型；一次公开请求和限定PyTorch CUDA轨迹已保存。它采用PyTorch backend，不冒称已经生成序列化TensorRT engine。
+- 官方开放Embedding 1B v2与cuVS独立8003，25段/2048维索引已运行；原客户端9次向量HTTP、5个中文查询，50条身份与10个正文SHA核对。它不是Embedding NIM，也不是完整Retriever SDK管线。
+- StepFun step-3.7-flash对获批文字执行真实反证审查，本地模型回查并修订；原图不外发。外部角色的意见也需要检查，不自动成为专家真值。
+- Nsight Systems只采集归档第03轮双图视觉区间；独立NIM与TensorRT-LLM文字请求分别采用SGLang/PyTorch Profiler核对前八步。各自绑定请求，不混称整案性能结果。
 
-NVIDIA Skills 文档提供技能发现、扫描、评测及发布治理；`nvidia/skills` 是产品技能目录。编写兼容的 `SKILL.md` 不等于通过 NVIDIA Verified，也不意味着必须把应用全部迁移到某个专属运行时。[NVIDIA Skills 官方说明](https://docs.nvidia.com/skills)、[官方目录](https://github.com/nvidia/skills)
+原图位于后端部署所在本机；部署在Spark时保存在指定Spark项目。公开GitHub Pages教学体验不调用私有模型、不包含用户原图、节点凭证或API密钥。
 
-本期选择 NeMo Agent Toolkit 的正式插件、工作流与评测接口，承接可独立复现的引用身份核查。已有视觉 Agent 保留其图片、权限、预算和固定版本约束。NAT为跨框架的工作流、观察及评测提供接入点；是否带来性能或质量提升，仍要实际比较。[NeMo Agent Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit)
+## 当前专业研究与数字的边界
 
-SkillSpector 扫描用于查找技能包的问题，工程测试与实时有/无 Skills 评测各自承担不同验证。扫描没有发现问题，不能证明方法有效或领域判断正确；正式验证还有任务集和真实 agent 的对照运行。[官方评测流程](https://docs.nvidia.com/skills/evaluating-agent-skills)
+第12轮已经完成初稿、批准文字审查、本地修订、两版引用身份核查及六份导出。原模型意见、观察和失败记录按原件保留；专业准确性评估列为下一阶段专家工作。报告正文分别显示观察、资料、候选和判断理由，不能用模型自信代替材料。
 
-TensorRT-LLM、NIM、Dynamo、NeMo Retriever、RAG Blueprint 可作为后续候选。本期没有把它们全部列为已集成：单节点低并发应用应先找到真实瓶颈，再选择推理引擎、索引、重排或服务编排。需要模型下载、许可、ARM64兼容及性能验证的技术，在完成验证前保持候选状态。没有完成的 SDK 不计入已使用技术栈。
+六维筛查是可解释的工作优先级：总权重100，每项只计一次；冲突指数为冲突权重之和，复核优先为冲突权重加一半未知权重，已评覆盖为已评权重。全部未知时冲突指数为未评；它们不是真品率。Laya的score适合后续文字任务路由校准，Jev适合浏览器资料访问，不被强行写成瓷器真伪概率模型。
 
-后续候选的接入顺序由以下条件决定；这是本项目的取舍，不是官方对评分的承诺：
+设备桥接已实现真实受控HTTP采集与原字节回取。眼镜厂商SDK、桌面采集箱、XRF/热释光等模块仍为适配或硬件研究方向。NVIDIA FLARE机构联合训练与NeMo RL后训练按授权数据、专家审核、离线训练、保留集、发布/回滚规划，未宣称已经联邦训练或在线强化学习。
 
-| 候选 | 解决什么问题 | 接入前的实际门槛 |
-|---|---|---|
-| 主视觉流程的NAT观测 | CPU引用核查已有真实profiler；后续把实际视觉HTTP调用放入同一观测 | 先完成真实报告链路，再映射实际HTTP模型的tokens与阶段；现有NAT评测运行指标不等于主视觉Agent已被profiler完整观测 |
-| NeMo Retriever / RAG Blueprint | 专家批准文献扩充后，提取、多模态检索和重排 | 先有带许可的文献与专家检索问题集，再比较召回、错引和耗时；25条短摘要不能证明需要GPU索引 |
-| TensorRT-LLM / NIM | 已测到生成延迟成为完整任务瓶颈时，比较推理服务 | 固定模型、精度、图像与预算，实际核对GB10/ARM64和模型支持，再测延迟、内存及关键细节保留；不能从安装成功推定加速 |
-| Dynamo | 机构多人并发、服务扩展与调度 | 先定义实际并发目标与负载；本期单节点单并发不宣称分布式调度收益 |
+## 固定提交地址与原始记录
 
-官方功能入口：[RAG Blueprint](https://github.com/NVIDIA-AI-Blueprints/rag)、[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)、[Dynamo](https://github.com/ai-dynamo/dynamo)。这些框架尚未在本项目部署或计入已用技术。
+已提交主页、Demo与知乎三个地址保持不变。更新内容不代表代替用户修改知乎或补出B站回执。个人参赛，中文网页与报告不使用NVIDIA雇员身份。
 
-| 已采用的技术 | 在瓷证承担的工作 | 实际验收边界 |
-|---|---|---|
-| DGX Spark / GB10 / CUDA 13 / BF16 | 原图在节点内进行视觉模型生成；PyTorch 2.14.0+cu130运行；项目目录内修复ARM64运行依赖 | GB10真实矩阵检查、2B与8B加载和生成热身；8B三项原始协议探针通过。保留首次缺少Python头文件及完整Agent失败，不据此声称鉴定准确率 |
-| CUDA事件与PyTorch allocator | 记录2B与8B合成单图生成的当前流事件间隔及本进程显存分配峰值 | 有真实响应与日志对照；模型和输出长度不同，不能计算速度增益。峰值包含模型和缓存，不是全节点统一内存占用，也不是纯kernel时间 |
-| NeMo Agent Toolkit | 注册受控证据组件，运行工作流，审计报告原版本的引用身份 | 本机真实CLI及三案软件合同评测；Spark真实CLI与隔离应用ASGI HTTP合同。0次模型调用，不为真伪或主张正确性评分 |
-| NVIDIA NAT profiler 1.9.0 | 实际记录CPU检索与引用核查的嵌套时间轨迹，生成ATIF、CSV、Gantt和指标 | 三个软件样例，42事件、9 SPAN与9 FUNCTION，0模型与联网；不是主Qwen流程、GPU性能或领域效果 |
-| NVIDIA SkillSpector | 扫描进入Agent的技能范围，保留完整包诊断与排除项 | 7个运行技能静态扫描完成；完整包诊断仍保留评估脚本发现，不称NVIDIA Verified |
-| NVIDIA官方Agent Skills方法 | 开发阶段使用正式产品方法，领域运行采用渐进加载与固定方法身份 | 开发阶段实际研读并应用4个NAT官方技能；不是用户视觉Agent执行了4个NVIDIA技能。瓷证领域技能仍需独立专家任务的有/无技能对照 |
-
-PyTorch使用的Triton编译器已经在节点生成CUDA kernel缓存。这不是NVIDIA Triton Inference Server；本期没有部署该推理服务器。选择后续框架时，以补齐当前功能或测出收益为准：先完成多照片报告和反证修订，再用同模型、同图片、同预算验证推理优化或检索质量，避免安装新框架挤占完整性与演示验收。
-
-8B旧c005实图验收的两个结构合格观察均只有模板句“直接可见现象”，有效语义观察为0；区域图GPU生成约139.255秒，超过90秒客户端等待，并非token截断。c006开发版将视觉输出限制为800 tokens和48 / 24 / 32字符短字段，动作仍为2500 tokens，保留可信方法正文及模型12次、工具20次、总300秒、单次等待90秒预算。第03轮视觉224 completion tokens、20.947秒，产生两条具体描述（内容尚未由专家评定）；随后主动作遗漏必填字段、使用非法判断维度，连续校验失败。结构约束已在真实GB10 GPU上执行：固定LM Format Enforcer 0.11.3通过token前缀限制生成合成红图JSON，7 completion tokens、2.348秒；这只验证格式与传输。随后公开两图full-workflow01仍失败：12次实际模型、16次工具、207.586秒，全部响应stop，9次动作结构校验通过，但模型反复读取资料和查看图片耗尽预算，没有报告、NAT核查或StepFun审查。五条入库观察未测专业准确性。旧失败保留，完整业务尚待验证。
-
-## 当前最容易被评委质疑的地方
-
-第一，照片与来源材料不能单独建立真实年代，尤其面对高仿和修复。第二，25条来源短摘要没有覆盖古陶瓷全部窑口和断代知识，模型必须保持领域与证据边界。第三，硬件上跑通、引用身份核查通过与真正的专家效果是三份不同证据。参赛演示应主动用一个缺证或冲突案例展示保留判断与补证流程，而不是只播放成功案例。
-
-
-第04轮保留失败：源清单270文件，Spark两图任务6次模型、10次工具、141.783秒，六次响应全部stop且直接匹配节点原始SHA和usage。3条实际观察未由专家审定；模型先用标点写竞争解释，修正时正确引用本轮已读文献，但遗漏必须加载的方法，原证据合同拒绝发布，没有报告、NAT或StepFun。证据见 [逐调用记录](../verification/nvidia/compact-workflow-04/phase-trace.json)。
+较早第05轮、r15回归及部署候选记录保存在Git历史和各自原始verification目录；不把旧状态表当作当前实现。最新入口：[STATUS](../STATUS.md)、[提交清单](demo-and-submission.md)、[软件回执](../verification/software/v09/README.md)、[NIM更新](nim-v09-update.md)。官方开发参考：[NVIDIA Skills](https://docs.nvidia.com/skills)、[官方技能目录](https://github.com/nvidia/skills)、[NeMo Agent Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit)。

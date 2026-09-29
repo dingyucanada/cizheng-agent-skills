@@ -6,28 +6,28 @@
   "professional_quality_passed": false,
   "expert_validation": "not performed; expert samples not imported",
   "current_local_model": "Single Spark8B PyTorch CUDA BF16; 32B candidate actual pilot failed region validation and is not adopted",
-  "nvidia_services": "Official vLLM ARM64 image pull incomplete; NIM, TRT-LLM and Retriever not deployed",
+  "nvidia_services": "Actual independent NVIDIA Model-Free NIM 8007, official TensorRT-LLM text 8006, and official open NVIDIA embedding + cuVS 8003 are deployed and individually verified. Original 8B visual / SQLite main workflow remains. Official vLLM image is still incomplete; no full Retriever SDK or end-to-end speedup claim.",
   "development_period": "2026-09-25 through 2026-09-29; ten article chapters, not ten elapsed days",
   "artifacts": [
     {
       "path": "site/assets/cizheng-pitch-v07.pptx",
-      "bytes": 896709,
-      "sha256": "18b29ef314945f101c3446a5da472b38b5a9801b83ce3d0e2dfe71f83c21c426"
+      "bytes": 794195,
+      "sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1"
     },
     {
       "path": "site/assets/cizheng-pitch-v07.pdf",
-      "bytes": 1317957,
-      "sha256": "449c46541550d6075bf932ebe410c602a0faacc9876a6ff04d07548de4ec53ae"
+      "bytes": 1360945,
+      "sha256": "9adc1ac3aaf95e89dac3b7c77c016edeac3d10251e82561382fd041f142a1c99"
     },
     {
       "path": "site/assets/cizheng-pitch-v07-preview.html",
-      "bytes": 3511115,
-      "sha256": "a457292da9a6618b5f3029298465119c7459655b29f86bb212698c61f1ebb1c1"
+      "bytes": 28313,
+      "sha256": "699325be54ee998ec4248c3500c504e3971bdd49046e0a19648444c1a749d29b"
     },
     {
       "path": "site/assets/cizheng-demo-v07.mp4",
-      "bytes": 2933997,
-      "sha256": "40ff32dc5e3232a21fcd086c94488b9c8fe414147d55bdfc2a829d6a8fffa9c8"
+      "bytes": 25322365,
+      "sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536"
     },
     {
       "path": "site/assets/cizheng-ai-replay-v07.mp4",
@@ -66,35 +66,61 @@
     },
     {
       "path": "site/assets/cizheng-media-qa-v07.json",
-      "bytes": 1673,
-      "sha256": "a59e9047c6785a3f05447ec0b359a0d5050ff7401ca19f8587817685514d2af7"
+      "bytes": 1991,
+      "sha256": "f150aeb5b69863cad5b06f7e65d0af47a5fb11104f965440bd0144bbbf3da616"
     },
     {
       "path": "docs/development-story.md",
-      "bytes": 20609,
-      "sha256": "60472c41586e776dd0383b5f5c3996faa4a7617490182d4655f25f737d609e34"
+      "bytes": 23026,
+      "sha256": "6a53cec05495accad0cb201d8a737508baf55628010a309bf88426007e41cb0c"
     },
     {
       "path": "docs/demo-script.md",
-      "bytes": 3533,
-      "sha256": "d1580a4d056551e606a61612bc2ef120e4c0b76f6dc0b517e5d41b7d2da6e29f"
+      "bytes": 9069,
+      "sha256": "23b29dd84c057b30a8cdd42b346e4366af218c5e615000a1a64b5f452f4a7e06"
     },
     {
       "path": "site/story.html",
-      "bytes": 27692,
-      "sha256": "36a6911f664ac3ac052045dd2087b914d91cb3637f42f871e7e92aecb4482474"
+      "bytes": 30214,
+      "sha256": "e214649f71d491153dd8dd96fa52e90957e36c0e51a78b59119761ad809bad6d"
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.json",
+      "bytes": 13669,
+      "sha256": "99628c19761776b0e4e700bd5cc5e12e3215fd85b3a87b24ce5a99634e267841"
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.srt",
+      "bytes": 4250,
+      "sha256": "a02ecc9834cb544cdc45a5dab5e3a04c1a0a1e40e9321c70c1731cf99bfd431c"
+    },
+    {
+      "path": "site/assets/cizheng-demo-cinematic-v07-poster.jpg",
+      "bytes": 150292,
+      "sha256": "c83a57134cfd9e7ff6cb5b747f908cf5c0a83806036aed5f6bd7264a208e33b5"
+    },
+    {
+      "path": "docs/pitch-v09-qa.json",
+      "bytes": 13710,
+      "sha256": "697e1cfe113277c0231a73e81a0476a9d631be19813745d2951b47c876f078c5"
+    },
+    {
+      "path": "docs/pitch-v09-artifacts.json",
+      "bytes": 6182,
+      "sha256": "4dedbb9aaf3ac50725362a0858244fecdeb4d98b3237b0d7d1640c78ea7fb151"
     }
   ],
   "video_metadata": [
     {
       "path": "site/assets/cizheng-demo-v07.mp4",
-      "seconds": 163,
-      "frames": 4075,
+      "seconds": 193.12,
+      "frames": 4828,
       "fps": 25,
       "width": 1920,
       "height": 1080,
-      "audio": false,
-      "scope": "Actual teaching-interface screenshots and burned Chinese subtitles; not continuous screen recording or full AI process"
+      "audio": true,
+      "scope": "Real public catalogue photos, actual teaching-interface screenshots and saved-record reconstruction; not continuous AI recording or expert validation",
+      "synthetic_narration": true
     },
     {
       "path": "site/assets/cizheng-ai-replay-v07.mp4",
@@ -122,25 +148,28 @@
   "qa": {
     "schema": "cizheng-media-qa.v1",
     "as_of": "2026-09-29",
-    "ppt_sha256": "18b29ef314945f101c3446a5da472b38b5a9801b83ce3d0e2dfe71f83c21c426",
-    "slide_count": 10,
+    "ppt_sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1",
+    "slide_count": 12,
     "authoring": "@oai/artifact-tool; editable native shapes, text, connectors and model table",
     "package_integrity": "pass; 0 findings",
     "geometry_checks": "pass; 0 findings, 0 warnings",
-    "exact_final_ppt_first_party_import": "pass, 10 slides",
+    "exact_final_ppt_first_party_import": "pass, 12 slides",
     "actual_office_renderer": "LibreOfficeDev 26.8 AARCH64, headless Impress PDF export",
     "font_environment": "Local fontconfig included installed macOS Hiragino Sans GB and Songti SC; fonts embedded in final PDF",
-    "actual_office_visual_review": "All 10 PDF-rendered pages viewed; no missing Chinese glyphs, clipping or text overlap",
+    "actual_office_visual_review": "All 12 exact finalized PPTX pages rendered by Impress to PDF and actually viewed; no missing Chinese glyphs, clipping or overlap",
     "preview_kind": "Images rendered from actual final PPTX via Impress PDF; not HTML reconstruction",
-    "pdf_sha256": "449c46541550d6075bf932ebe410c602a0faacc9876a6ff04d07548de4ec53ae",
+    "pdf_sha256": "9adc1ac3aaf95e89dac3b7c77c016edeac3d10251e82561382fd041f142a1c99",
     "microsoft_powerpoint_native_ui_checked": false,
     "screen_lock": "No GUI operation or screen-lock bypass used",
     "domain_limit": "Technical checks and citation identity checks do not establish ceramic claim truth, accuracy or expert approval",
-    "video_checks": "All 3 videos fully decoded successfully; actual round11/12 frame review completed; metadata and copied SHA match",
-    "video1_scope": "163s silent Chrome screenshots teaching case, not continuous screen recording or actual full AI run",
+    "video_checks": "Final 193.12s voiced main video and original round11/12 saved-record videos fully decoded; main45 narration cues / 4828 frames checked",
+    "video1_scope": "193.12s Chinese synthetic narration, original ambient score, actual teaching-interface screenshots and saved-record reconstruction; not continuous screen recording or expert authentication",
     "video2_scope": "80s actual round12 saved-record reconstruction, not continuous screen recording; technical complete, quality false",
-    "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive"
+    "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive",
+    "ppt_detailed_qa": "docs/pitch-v09-qa.json",
+    "demo_detailed_qa": [],
+    "main_video_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536"
   },
-  "source_notes": "All 10 PPT slides contain source references in speaker notes; public evidence paths are repository-relative; no private host paths in this manifest",
-  "originals_preserved": "Original teaching video unchanged; original r8/r9 presentation revisions and round11 replay retained"
+  "source_notes": "All12 PPT slides contain source references in speaker notes; 12page PDF is the exact finalized PPTX Office export. Presentation v09 is a development iteration; application version remains0.7.0.",
+  "originals_preserved": "Original teaching video and earlier presentation files are privately retained byte-for-byte; original round11/12 saved records and independent replay files unchanged."
 }

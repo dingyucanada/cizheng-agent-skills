@@ -1,6 +1,6 @@
 # 模型选择与实际结果
 
-当前已归档可用服务是 DGX Spark 单 Qwen3-VL-8B-Instruct 原生视觉与动作服务，配合 r15 后端。主 Agent 与视觉观察使用同一模型，StepFun 只审查批准文字。选择依据是已发生的请求、接口合同、资源占用和业务结果，参数规模不能代替专家样本表现。
+当前已归档可用服务是 DGX Spark 单 Qwen3-VL-8B-Instruct 原生视觉与动作服务，配合已升级部署的 0.7.0 风险筛查／设备采集后端（reviewed-v09）；r15 是此前工程版本。主 Agent 与视觉观察使用同一模型，StepFun 只审查批准文字。选择依据是已发生的请求、接口合同、资源占用和业务结果，参数规模不能代替专家样本表现。
 
 | 模型或服务 | 实际证据 | 结论范围 |
 |---|---|---|
@@ -21,6 +21,6 @@
 
 ## 服务候选
 
-官方 30B-A3B-FP8 仅为后续候选，尚未下载或部署；其当前官方说明要求 vLLM / SGLang 路线，不能按 Transformers 普通权重直接加载。详细证据和边界由 [更大模型候选](larger-model-candidates.md)单独记录。NVIDIA vLLM镜像未完整存在，NIM官方中国区分发与伙伴授权仍受限，Dynamo未部署。本次已部署独立 TensorRT-LLM rc13 / Qwen3-4B **文字**服务，以及官方1B v2 embedding + cuVS检索服务；两者不是更大的视觉模型，也未替代当前8B/SQLite主流程。接口与数值验收不证明专业优劣。[本次部署](spark-deployment-update-v08.md) · [优化路线](model-serving-options.md)。
+官方 30B-A3B-FP8 仅为后续候选，尚未下载或部署；其当前官方说明要求 vLLM / SGLang 路线，不能按 Transformers 普通权重直接加载。详细证据和边界由 [更大模型候选](larger-model-candidates.md)单独记录。NVIDIA vLLM镜像未完整存在，NIM现已另经官方伙伴公开Spark包完成独立文字接口/GPU验收，Dynamo未部署。本次已部署独立 TensorRT-LLM rc13 / Qwen3-4B **文字**服务，以及官方1B v2 embedding + cuVS检索服务；两者不是更大的视觉模型，也未替代当前8B/SQLite主流程。接口与数值验收不证明专业优劣。[本次部署](spark-deployment-update-v08.md) · [优化路线](model-serving-options.md)。
 
 历史模型、旧紧凑协议和超时记录见 [NVIDIA 运行证据](../verification/nvidia/README.md)。旧轮次编号与 `v07-workflows/round-*` 属于不同实验序列，不可混写。

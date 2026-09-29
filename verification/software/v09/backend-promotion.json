@@ -1,0 +1,52 @@
+{
+  "schema": "cizheng.backend-promotion.v1",
+  "checked_at": 1790641513.799205,
+  "stage": "source-v07-runtime-v09-reviewed-20260929",
+  "old_stage": "source-v07-runtime-r15-20260929",
+  "old_launcher_sha256": "0fa213436dcdae9ce68b5f84fd540f25f6db85b801c8b1b696e66a1c57f071cb",
+  "new_launcher_sha256": "6d5249c885a462c1fe53219812dc88fc041f184f323113fde63c5d07dfc50c48",
+  "only_application_8780_restarted": true,
+  "model_services_restarted": false,
+  "gpu_requests": 0,
+  "private_configuration_preserved": true,
+  "application_status_ready": true,
+  "application_version": null,
+  "endpoints": {
+    "/": {
+      "status": 200,
+      "bytes": 35371,
+      "sha256": "9e0d3031d42244a2d573e888977ae8e765e05c0a71f2d4b955d645d236563ba3"
+    },
+    "/static/app.js": {
+      "status": 200,
+      "bytes": 97789,
+      "sha256": "23e087df6b680f7ec1ae334db596affb5bc3a394affc290650b0d9d6356ca64e"
+    },
+    "/static/style.css": {
+      "status": 200,
+      "bytes": 34545,
+      "sha256": "2e27e1a2669031f5240c0e5a956a953d3393c1e5f7d772462e10ffd2a55f329a"
+    },
+    "/api/cases": {
+      "status": 200,
+      "bytes": 148850,
+      "sha256": "8e70dd172651760d4b7588e713afc06cf9d2a6b006c65e8d01a098d1dc549b68"
+    }
+  },
+  "files": {
+    "cizheng/api.py": "883637301ae6452a2ea23d01206a15646ac4868c973a353cd2f316f0bf24d26f",
+    "cizheng/device_capture.py": "b1e790ae9b7a05034c360463d6fa37def22d66c8df2bd1b79a6edc38bcaa479c",
+    "cizheng/risk_triage.py": "02a390970297588761375ac8494814402c8f226d931d018d0fb3c08113114db5",
+    "docs/device-capture.md": "bc2bc0e616841c4ee8ab7b03131e83934c5dec765001ac3c2c584d15290f9696",
+    "docs/risk-triage.md": "3b88e6df732516ea6bb3b9b350bef15f7e4fd1f9b76937b3362beed5988476fa",
+    "integrations/laya_router/README.md": "10aabf7a3ce02607d239e38b6b6f4e219b0f2ad86d5a465b6ef4061c5f26288e",
+    "integrations/laya_router/adapter.py": "3f31ee96cfbcd02ace06caec80840da714e15c93aa694e4ab3f9bfbb7ad068cb",
+    "scripts/device-capture-client.py": "0a73b92fa8aab4424d7763854873e64fd10e5784037619fced00650876c612c1",
+    "scripts/device-http-selftest.py": "a9a639c9fecb63e52e7e96f8cbcafea3dd6f185ac0a977f8a04f6699dd532e3e",
+    "static/app.js": "23e087df6b680f7ec1ae334db596affb5bc3a394affc290650b0d9d6356ca64e",
+    "static/index.html": "9e0d3031d42244a2d573e888977ae8e765e05c0a71f2d4b955d645d236563ba3",
+    "static/style.css": "2e27e1a2669031f5240c0e5a956a953d3393c1e5f7d772462e10ffd2a55f329a",
+    "tests/test_risk_device_capture.py": "032adcce39846bc6bd92ed4395ef5ab5cd2b704af1f78709b449c4198e2f7fdc"
+  },
+  "rollback_launcher": "start_backend_v07_12_r15.sh"
+}

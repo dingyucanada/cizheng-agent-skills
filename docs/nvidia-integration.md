@@ -21,7 +21,7 @@ NAT 只核对引用身份，不推断来源支持、实物归属或真伪。第 
 
 Nsight 的一个 NVTX 区间 19.920507616 秒、144 行 kernel 聚合、447,028 个实例，证明限定区间的 GPU 活动已采集，不是整案时长、利用率或提速结果。CPU 解码重放亦是无模型请求的工程诊断，私有 profiler 路径已经脱敏。[重放记录](../verification/nvidia/v07-workflows/decoder-cpu-replay.json)。
 
-32B 官方权重、CUDA 热身与合成协议通过，但真实双图区域合同失败，已停止，未证明专业效果更好。官方 vLLM 镜像仍未完整部署，Dynamo 未部署。NIM 受官方中国区分发与伙伴授权限制，未部署。
+32B 官方权重、CUDA 热身与合成协议通过，但真实双图区域合同失败，已停止，未证明专业效果更好。官方 vLLM 镜像仍未完整部署，Dynamo 未部署。NIM 后续已通过官方中国伙伴公开 Spark ARM64 2.1.8 路线独立部署并验收，见 [NIM实际回执](nim-v09-update.md)。
 
 本次实际新增 [TensorRT-LLM 8006](../verification/nvidia/tensorrt-llm-v08/README.md) 和 [NVIDIA 开放 embedding + cuVS 8003](../integrations/nvidia_retriever/README-open-service.md)。前者官方 ARM64 rc13 / 4B BF16 完成1次公开陶瓷文字请求和对应前八迭代 CUDA 验收；后者完成25段/2048维索引、原客户端9次HTTP/5中文查询、50条返回身份与10个正文SHA核对。两项是已运行的独立服务，原8B/SQLite未替换；不称 NIM、完整 Retriever SDK 管线或专业相关性通过。[完整部署说明](spark-deployment-update-v08.md) 与 [模型候选](larger-model-candidates.md)。
 

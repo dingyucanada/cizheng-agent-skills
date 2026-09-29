@@ -1,0 +1,71 @@
+{
+  "images": [
+    {
+      "filename": "met-48607.jpg",
+      "source_public_path": "site/assets/met-48607.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "bytes": 107321
+    },
+    {
+      "filename": "met-48607-view2.jpg",
+      "source_public_path": "site/assets/met-48607-view2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "bytes": 109880
+    },
+    {
+      "filename": "met-51185.jpg",
+      "source_public_path": "site/assets/met-51185.jpg",
+      "sha256": "01401537e5591a07f4c5a6b3f24ae8c37def39d5e0dae71275c0edce6154839b",
+      "bytes": 103955
+    },
+    {
+      "filename": "met-50839.jpg",
+      "source_public_path": "site/assets/met-50839.jpg",
+      "sha256": "1cc100a71af987f0bcbb05633fafb719d212bc0e9112e8ba0c80756a11e65c8a",
+      "bytes": 104606
+    },
+    {
+      "filename": "workbench-v06.jpg",
+      "source_public_path": "site/assets/workbench-v06.jpg",
+      "sha256": "3600a41a3426fff6ecd14d649ee8ee9bcee954c19abdffa064d209dafc4487da",
+      "bytes": 83416
+    },
+    {
+      "filename": "demo-observation-desktop.png",
+      "source_role": "Actual Chrome teaching-interface screenshot, no model called",
+      "sha256": "21704b0dc0e8ce4abc2a7267ac087073613e0fcb19930a824d8ffc18e8ebce6a",
+      "bytes": 511640
+    },
+    {
+      "filename": "demo-evidence-desktop.png",
+      "source_role": "Actual Chrome teaching-interface screenshot, no model called",
+      "sha256": "66d0ffdb76c86ea68f2f41923e56c4e589dc2f0f01a7d8b8c0664cc67d2f4faf",
+      "bytes": 592083
+    },
+    {
+      "filename": "demo-skills-desktop.png",
+      "source_role": "Actual Chrome teaching-interface screenshot, no model called",
+      "sha256": "291b06ce5db4e93d185384aab07e9cab647cd24b00f399f48eb172b2932abdb1",
+      "bytes": 520375
+    },
+    {
+      "filename": "demo-revision-desktop.png",
+      "source_role": "Actual Chrome teaching-interface screenshot, no model called",
+      "sha256": "d3ef783486416cbd146ee3e2b91034183ae6d6938135c18ed46bfd552a3214dd",
+      "bytes": 495006
+    },
+    {
+      "filename": "demo-export-desktop.png",
+      "source_role": "Actual Chrome teaching-interface screenshot, no model called",
+      "sha256": "4a178e12fe5627094e5dc8abdfee68d8d2e4f0f2d559016cd2ed5bb4cdfa93c6",
+      "bytes": 508052
+    },
+    {
+      "filename": "desktop-risk.png",
+      "source_role": "Actual headless screenshot of implemented local-rule screening; synthetic protocol scenario, no model or real instrument measurement",
+      "sha256": "43e24595f2aa21f568852c1ceb256d8eb53c1b81800039207dbfb17831dad9bc",
+      "bytes": 281932
+    }
+  ],
+  "original_teaching_video_sha256": "40ff32dc5e3232a21fcd086c94488b9c8fe414147d55bdfc2a829d6a8fffa9c8"
+}

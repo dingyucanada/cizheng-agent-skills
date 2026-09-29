@@ -1,0 +1,48 @@
+{
+  "schema": "cizheng-film-release-review.v1",
+  "status": "Completev4releasecandidateafteractualNIM public POST and bounded CUDA verification; parent owns merge/publication",
+  "duration_seconds": 193.12,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "full_decode_exit_code": 0,
+  "all_audio_cues_aligned": true,
+  "maximum_audio_alignment_error_seconds": 0.0,
+  "synthetic_voice": true,
+  "old_published_teaching_video_sha256": "40ff32dc5e3232a21fcd086c94488b9c8fe414147d55bdfc2a829d6a8fffa9c8",
+  "old_published_video_preserved_private": true,
+  "first_complete_version": {
+    "seconds": 193.28,
+    "sha256": "5f3c197d28297fa5cb106d3b180ffe4a2750aaf00558063ed7b3794996fad661"
+  },
+  "second_complete_version": {
+    "seconds": 193.28,
+    "sha256": "6920b43c35d091e7876b024f1996a7c5d276b918232f0adbd8be20af6756d91d"
+  },
+  "third_complete_snapshot": {
+    "seconds": 190.76,
+    "sha256": "bbbba2631908e196c64d3edba5998f1ef1ee9e69fab72c7936233e7383c34aa0"
+  },
+  "current_complete_version": {
+    "version": "v4",
+    "seconds": 193.12,
+    "sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536"
+  },
+  "same_three_submitted_urls": true,
+  "publication_not_performed": true,
+  "gpu_or_remote_model_requests_by_media_producer": 0,
+  "ffmpeg_version": "ffmpeg version 8.0 Copyright (c) 2000-2025 the FFmpeg developers",
+  "public_metadata_raw_path_removed": true,
+  "visual_qa": "All5 contact sheets inspected after final caption refinement:45actual MP4-decoded frames cover every narration/subtitle cue and all18scenes. Scene15 full-resolution frame inspected. No major headline/subtitle clipping or isolated one-word subtitle line observed.",
+  "human_full_audio_audition": "not claimed; full decode, loudness and cue alignment checked",
+  "nvidia_module": "Official ARM64 NVIDIA NIM text interface actually verified with a single public text HTTP200/stop request and same-container limited CUDA trace; TRT-LLM text and official open NVIDIA embedding+cuVS independently verified. Original8Bvisual/SQLite workflow remains unchanged; no professional-quality or speed-gain claim.",
+  "narration_cues": 45,
+  "actual_caption_frames_viewed": 45,
+  "nim_interface_gpu_verified": true,
+  "nim_professional_quality_verified": false,
+  "nim_cuda_trace_scope": "Limited first8 execution steps, not whole-request GPU utilization or speed comparison",
+  "main_visual_sqlite_workflow_switched": false,
+  "v3_snapshot_and_v4_design_preserved_private": true,
+  "caption_refinement": "Narration and text unchanged; v4 long-caption line breaks refined to avoid isolated tail words."
+}

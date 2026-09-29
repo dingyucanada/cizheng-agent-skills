@@ -1,0 +1,27 @@
+/* Renamed OFL report subsets. Sources and copyright: FONT-SOURCES.json. */
+@font-face {
+  font-family: "Cizheng Report Serif";
+  src: url("./cizheng-report-serif-medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cizheng Report Sans";
+  src: url("./cizheng-report-sans-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+:root {
+  --serif: "Cizheng Report Serif", "Songti SC", "Noto Serif CJK SC", "STSong", Georgia, serif;
+  --sans: "Cizheng Report Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+body { font-family: var(--sans); }
+.reading-note p strong,
+.roi > span,
+.issue-card .quote,
+.index-cards span { font-family: var(--sans); }
+@media print {
+  .chapter h2 { font-family: var(--serif); }
+}

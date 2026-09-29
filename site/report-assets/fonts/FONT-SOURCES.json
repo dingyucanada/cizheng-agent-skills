@@ -1,0 +1,115 @@
+{
+  "format": "cizheng-report-font-subset-v1",
+  "license": "SIL Open Font License 1.1",
+  "modifications": [
+    "report/UI Unicode subset",
+    "WOFF2 compression",
+    "renamed families and PostScript identities"
+  ],
+  "original_outlines_and_metrics_preserved": true,
+  "text_normalization_or_replacement": false,
+  "generator": {
+    "python": "3.12.14",
+    "fonttools": "4.66.0",
+    "Brotli": "1.2.0"
+  },
+  "input_sources": [
+    {
+      "path": "report.html",
+      "sha256": "750b8dc42b0751e9337412c60e16d881d854a79fba8f977596c65cd890e64d55",
+      "bytes": 69508
+    },
+    {
+      "path": "report-assets/museum-capture-concept-v09.svg",
+      "sha256": "44c227a09dd97732a26eb8ef82f4090f9c0e6c4c3dc4d944520996952533281a",
+      "bytes": 5187
+    },
+    {
+      "path": "report-assets/product-architecture-v09.svg",
+      "sha256": "7c748619c627af85e0e97f1cd037cacf37ccf863fb68c1601ce18675ff54e3e7",
+      "bytes": 5397
+    },
+    {
+      "path": "report-assets/research-revision-v09.svg",
+      "sha256": "144cdebf5d01f6e796763368d13dc3f00e3ba879b249574ea6be91452a1baed0",
+      "bytes": 4168
+    },
+    {
+      "path": "report-assets/risk-triage-v09.svg",
+      "sha256": "c1b8695b03eaa85b9b37c3e4924e44dd29925900c1180a274d763d9c69a4b404",
+      "bytes": 4742
+    },
+    {
+      "path": "report-assets/round12-flow.svg",
+      "sha256": "cc8b76a19fd6b1278730135ce4032394e743cdc46603efcdc745eec290e5e281",
+      "bytes": 3595
+    },
+    {
+      "path": "report-assets/spark-deployment-map.svg",
+      "sha256": "37ef33dd18af6f3254af23db5d59d0208638669d2d221667305b664d9a89d57b",
+      "bytes": 4949
+    },
+    {
+      "path": "report-assets/system-map.svg",
+      "sha256": "a8e76245c9ed00bf6aa6ff37bb638712830c679cf23e4cea5037fa14d053a634",
+      "bytes": 4882
+    },
+    {
+      "path": "report-assets/deployment-status.json",
+      "sha256": "db46098c26470c9fc48cf3d9fff4e45190c1e42d970b6c32934a3603bb237a4f",
+      "bytes": 3607
+    }
+  ],
+  "common_ui": "首页返回上一页下一页关于帮助设置搜索登录退出注册确认取消保存关闭打开删除编辑新增添加移除上传下载查看详情展开收起全部选择清空复制导出打印加载中请稍候成功失败错误提示警告完成重试刷新提交时间日期年月日时分秒零一二三四五六七八九十百千万编号名称用户记录来源结果文件页总共状态当前在线离线等待运行已停止已开始连接断开未知语言中文英文→←↗↓↑·—–“”‘’（）【】《》，。；：？！、",
+  "unicode_count": 894,
+  "fonts": [
+    {
+      "repository": "adobe-fonts/source-han-serif",
+      "commit": "7889f11bf31170b5d092a083b357c8c8130f89e0",
+      "upstream_family": "Source Han Serif SC",
+      "upstream_style": "Medium",
+      "upstream_version": "2.003",
+      "filename": "SourceHanSerifSC-Medium.otf",
+      "sha256": "1d4dc4b757c07034e2412d6edf48f54f94ec7172d4deb3b90a3e4fc9dcb94f5d",
+      "license_filename": "OFL-SourceHanSerif.txt",
+      "license_sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903",
+      "derived_family": "Cizheng Report Serif",
+      "derived_style": "Medium",
+      "derived_postscript_name": "CizhengReportSerif-Medium",
+      "output": "cizheng-report-serif-medium.woff2",
+      "download_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/OTF/SimplifiedChinese/SourceHanSerifSC-Medium.otf",
+      "license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/7889f11bf31170b5d092a083b357c8c8130f89e0/LICENSE.txt",
+      "embedded_original_copyright": [
+        "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "bytes": 402448,
+      "output_sha256": "0eece5ecd1621c14e550977290e1c6639843aacc9ad1e9c16bfc0a2fff9da250",
+      "unicode_count": 894,
+      "glyph_count": 1911
+    },
+    {
+      "repository": "adobe-fonts/source-han-sans",
+      "commit": "a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2",
+      "upstream_family": "Source Han Sans SC",
+      "upstream_style": "Regular",
+      "upstream_version": "2.005",
+      "filename": "SourceHanSansSC-Regular.otf",
+      "sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+      "license_filename": "OFL-SourceHanSans.txt",
+      "license_sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+      "derived_family": "Cizheng Report Sans",
+      "derived_style": "Regular",
+      "derived_postscript_name": "CizhengReportSans-Regular",
+      "output": "cizheng-report-sans-regular.woff2",
+      "download_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+      "license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2/LICENSE.txt",
+      "embedded_original_copyright": [
+        "© 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "bytes": 289136,
+      "output_sha256": "dfca26b94634e2b9f48be0ac29e7ca969c77ccd332dcb142493705ee8f9d4e17",
+      "unicode_count": 894,
+      "glyph_count": 1945
+    }
+  ]
+}

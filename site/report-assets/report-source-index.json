@@ -101,7 +101,7 @@
   "professional_quality_passed": false,
   "expert_validation_performed": false,
   "image_ROIs": "CSS overlays from actual normalized regions; original JPEG bytes unchanged; semantic accuracy not expert validated",
-  "new_deployment_status": "Actual independent TRT text and NVIDIA open embedding/cuVS services accepted; NIM not deployed; original production path unchanged. New receipts separately bound, no expert quality or end-to-end acceleration claim.",
+  "new_deployment_status": "Actual original-SDK NIM8007, TRT text8006 and NVIDIA open embedding/cuVS8003 independently accepted; original visual/SQLite main path retained. New capture/risk backend actually promoted. No expert accuracy or end-to-end acceleration claim.",
   "report_page_calls_model": false,
   "teaching_calls_model": false,
   "deployment_files": [
@@ -109,64 +109,317 @@
       "path": "verification/nvidia/v08-deployment/coexistence-final.json",
       "actual_public_sha256": "bcc4add1543bbc6ce95c9c1a7b3b857c46fc72c2c1df089f379d35b9f2a5a6b0",
       "bytes": 2681,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/v08-deployment/nim-distribution-check.json",
       "actual_public_sha256": "a818222607289a2ed9e9695a0136024c0a4c767de55dfe265fbc9f458064daf4",
       "bytes": 2581,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/tensorrt-llm-v08/public-text-once/receipt.json",
       "actual_public_sha256": "d71109c51acb1713ba9f5fabe9efab94aa485b07b263a6f90419d1455781dd9e",
       "bytes": 1121,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/tensorrt-llm-v08/gpu-proof-summary-final.json",
       "actual_public_sha256": "fc9f5e2d00e279acf69c6a89d027eb704f61c618fdb61a463c404c5713e1ea30",
       "bytes": 1295,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/tensorrt-llm-v08/runtime-files-final.json",
       "actual_public_sha256": "34a12f46510487ff855c4db23902c465cb67b5b3a1f9a1f9a3faaab8c68b6cb6",
       "bytes": 1446,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/retriever-v07/startup-receipt.json",
       "actual_public_sha256": "7a6871f88c1d61db47108701c3c29a0d02ae63ef5cf3c2981863cf71b3059e37",
       "bytes": 4105,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/retriever-v07/real-client-acceptance.json",
       "actual_public_sha256": "713aeb8bf4d4819a2f171857558698c4fdd995b8662d5526e561b7a3058d6485",
       "bytes": 82429,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
-      "public_normalization": true
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
     },
     {
       "path": "verification/nvidia/retriever-v07/deployment-runtime-manifest.json",
       "actual_public_sha256": "85350e818f706ae4fb98079927942272eb39cee0d7417415931d40f814971809",
       "bytes": 36423,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "verification/nvidia/retriever-v07/public-code-byte-bindings.json",
       "actual_public_sha256": "cab349a857a5080e7e65b9129fdd18144e59be31a93eafdffb6304bd94f25aa1",
       "bytes": 1842,
-      "scope": "new independently bound deployment receipt; not part of historic round12",
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/container-after.json",
+      "actual_public_sha256": "0bdebde96df521002b18ea081952ec3d620f06f2a2eb172bdc2b6fb918c87efc",
+      "bytes": 745,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/container-before.json",
+      "actual_public_sha256": "dbce6568b97532a1a491e1be358a14fbd7b31f7ab9038d98bca02775560b73ad",
+      "bytes": 745,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/failed-attempts-summary.json",
+      "actual_public_sha256": "cae00a30b1dfad28005f2cce5451effef23e00a69e75c76c85ed552692628031",
+      "bytes": 1295,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/final-coexistence.json",
+      "actual_public_sha256": "845db476e1c0d92751d595ca317ad3c8306e5d6dad69561d709cbb2ec9d480de",
+      "bytes": 2133,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/gpu-trace-summary.json",
+      "actual_public_sha256": "d008e7be12aa076c863cea519d3ca3642955f8a6a2f6e09f7d0ddfe69e4106d1",
+      "bytes": 1379,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/index.json",
+      "actual_public_sha256": "98c59330ed26876365ff1a0b165b3e9dab888ab4e97ab0e6a74b12de2fd37bad",
+      "bytes": 2660,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/models-after.raw.json",
+      "actual_public_sha256": "f1dd5cd860a44291994040a08e8fd0faddf6a4aceba55f559e0d0e476f9a791c",
+      "bytes": 183,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/preflight.json",
+      "actual_public_sha256": "33fd4654908789465946b9006a711e1f4f8791160491d2382696adfc78553cd2",
+      "bytes": 1318,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/profile-arm.json",
+      "actual_public_sha256": "c8a9c34bc893890cb39c6847549134eebc89c5115b7bfbe6bab942be42e04d93",
+      "bytes": 461,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/profile-front-route-failure.json",
+      "actual_public_sha256": "5e783e607a191c33613a0aedcd590da4c4c908c318840f2e7730a055f0c18eaa",
+      "bytes": 77,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/public-model-manifest.json",
+      "actual_public_sha256": "a41c5affd0d9dcc418f5d7aed2071c146347d3c4f676ee46a02b3a8ee0cba694",
+      "bytes": 3023,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/public-text-once/claimed.json",
+      "actual_public_sha256": "3ffe0bad507158a9dd8e7998a28116dc69ba6dc397d688bcfc3e5a1e1d822e3e",
+      "bytes": 1139,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/public-text-once/receipt.json",
+      "actual_public_sha256": "0ffb03920128f266fee571133135bb4d513ab4b9b4dd5ab593ed36054f563403",
+      "bytes": 702,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/public-text-once/response.raw.json",
+      "actual_public_sha256": "bd585278c320223e76ead0c04d3533b02f79ba8c6f55df6d33c5bd4414e325dc",
+      "bytes": 791,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/request-sequence-claimed.json",
+      "actual_public_sha256": "855091c421fbf3dcf593408ceb126aeda68a846eb3ea5786b0defa727029a8a0",
+      "bytes": 977,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/software-identity.json",
+      "actual_public_sha256": "58501d33c378446b2fb806a5cf45ec042a22e1d426f322918922b30d6626bd9b",
+      "bytes": 269,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "evidence/nim-v09/source-manifest.json",
+      "actual_public_sha256": "e7318938f2cbdf21fed45ceceea0d4d4deb731779dc48297f3c488dcf523002c",
+      "bytes": 808,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/software/v09/current-node-readonly.json",
+      "actual_public_sha256": "27bda6490c32be45fca9d20fbbaeb97bc5f683950063f93806d9d586e1fbea9b",
+      "bytes": 3683,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/software/v09/reviewed-backend-stage.json",
+      "actual_public_sha256": "5cca1915af93e9412ac59c25cd2aa8d7457d1e6a08ca5a4c6fefecdc2fa914a9",
+      "bytes": 3762,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/software/v09/backend-promotion.json",
+      "actual_public_sha256": "0b1ba69badbdeeedd845ea82b295444befd107ab272fe73dc2655cf4f09bd814",
+      "bytes": 2592,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/software/v09/regression-summary.json",
+      "actual_public_sha256": "0199679b4c8cdbb3e298c64db4af9ebddaf4250cc71c9cf3b84f7214e620106b",
+      "bytes": 2228,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.mp4",
+      "actual_public_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536",
+      "bytes": 25322365,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.srt",
+      "actual_public_sha256": "a02ecc9834cb544cdc45a5dab5e3a04c1a0a1e40e9321c70c1731cf99bfd431c",
+      "bytes": 4250,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-demo-v07.json",
+      "actual_public_sha256": "99628c19761776b0e4e700bd5cc5e12e3215fd85b3a87b24ce5a99634e267841",
+      "bytes": 13669,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/media/cinematic-demo-v08/nim-source-bindings.json",
+      "actual_public_sha256": "d648bdc4678021c43b43b741fc7b223331ecc2a3cf06ea482514ab7d229a0b3e",
+      "bytes": 1037,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-report-v08.pdf",
+      "actual_public_sha256": "6a81d8f59d0da09f9bbcfb2c7edf524f3f1d5672712669eb06b78968aba26592",
+      "bytes": 1806324,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07.pptx",
+      "actual_public_sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1",
+      "bytes": 794195,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07.pdf",
+      "actual_public_sha256": "9adc1ac3aaf95e89dac3b7c77c016edeac3d10251e82561382fd041f142a1c99",
+      "bytes": 1360945,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v07-preview.html",
+      "actual_public_sha256": "699325be54ee998ec4248c3500c504e3971bdd49046e0a19648444c1a749d29b",
+      "bytes": 28313,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "docs/pitch-v09-qa.json",
+      "actual_public_sha256": "697e1cfe113277c0231a73e81a0476a9d631be19813745d2951b47c876f078c5",
+      "bytes": 13710,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "docs/pitch-v09-artifacts.json",
+      "actual_public_sha256": "4dedbb9aaf3ac50725362a0858244fecdeb4d98b3237b0d7d1640c78ea7fb151",
+      "bytes": 6182,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/media-manifest-v07.json",
+      "actual_public_sha256": "792449d4b3b63e25447f45a8958939531e7d5a6c6a58904f650363467a392be6",
+      "bytes": 7861,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/assets/cizheng-media-qa-v07.json",
+      "actual_public_sha256": "f150aeb5b69863cad5b06f7e65d0af47a5fb11104f965440bd0144bbbf3da616",
+      "bytes": 1991,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/report-assets/fonts/FONT-SOURCES.json",
+      "actual_public_sha256": "4d2a866b5da24a5fe51564bb08fc832cb28c3ef5fd9875c240fa50dd42b165f8",
+      "bytes": 5252,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/report-assets/fonts/cizheng-report-serif-medium.woff2",
+      "actual_public_sha256": "0eece5ecd1621c14e550977290e1c6639843aacc9ad1e9c16bfc0a2fff9da250",
+      "bytes": 402448,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "site/report-assets/fonts/cizheng-report-sans-regular.woff2",
+      "actual_public_sha256": "dfca26b94634e2b9f48be0ac29e7ca969c77ccd332dcb142493705ee8f9d4e17",
+      "bytes": 289136,
+      "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     }
-  ]
+  ],
+  "current_node_checked_at": "2026-09-29T00:41:18.150999+00:00"
 }

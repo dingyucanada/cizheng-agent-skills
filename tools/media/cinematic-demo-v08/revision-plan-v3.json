@@ -1,0 +1,17 @@
+{
+  "baseline": "Complete v2 review film,193.28seconds",
+  "reviewer_feedback": "Parent actually reviewed all four actual-decoded-frame contact sheets. New risk panel and traceable-reasons framing requested.",
+  "revision": "v3",
+  "changes": [
+    "Replace critic-only plate with implemented six-dimensional rule-screening interface crops and unknown/conflict next-evidence context",
+    "Explicitly distinguish priority index from authenticity or model probability; preserve protocol-demo/no-measurement provenance",
+    "Replace actual-record headline and narration with saved observation/review/revision-reason value",
+    "Retain expert licensed-data plan as future work",
+    "NIM module not frozen; no success claim added before actual evidence"
+  ],
+  "source_bytes_preserved": true,
+  "same_submitted_urls": true,
+  "original_published_video_kept_private": true,
+  "GPU_model_calls": 0,
+  "remote_TTS_calls": 0
+}

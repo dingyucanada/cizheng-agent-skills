@@ -35,7 +35,7 @@ jobs:
         run: |
           python -c "import jsonschema; from lmformatenforcer import JsonSchemaParser; from importlib.metadata import version; assert version('lm-format-enforcer') == '0.11.3'; assert version('interegular') == '0.3.3'"
       - name: Check backend contracts
-        run: python -m pytest -q -p no:cacheprovider tests integrations/spark_transformers/tests
+        run: python -m pytest -q -p no:cacheprovider tests integrations/spark_transformers/tests integrations/nvidia_retriever/tests
       - name: Set up Node
         uses: actions/setup-node@v7
         with:
@@ -83,6 +83,8 @@ jobs:
           python-version: "3.12"
       - name: Check pinned downloads and one-request CUDA evidence boundaries
         run: |
+          python -B -S deploy/nim-spark-v09/tests/test_nim_contract.py
+          bash -n deploy/nim-spark-v09/start_candidate.sh
           python -B -S deploy/tensorrt-llm-spark/tests/test_download_model.py
           python -B -S deploy/tensorrt-llm-spark/tests/test_accept_text_once.py
           python -B -S deploy/tensorrt-llm-spark/tests/test_gpu_trace.py
