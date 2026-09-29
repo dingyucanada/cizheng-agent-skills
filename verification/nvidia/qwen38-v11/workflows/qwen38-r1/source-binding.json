@@ -1,0 +1,11 @@
+{
+  "scope": "Authored binding, not original model output",
+  "workflow": "qwen38-r1",
+  "run_id": "run_3ee283431af842fb91662bf258e8897b",
+  "frozen_source_snapshot_sha256": "adbd59550262bbff940d1232a8c6ea0496e88f6065ed8a3465009a52df3a20f8",
+  "frozen_source_manifest": "../../../qwen36-v10/workflows/main8b-r5/source-snapshot-manifest.json",
+  "original_run_model_revision_field": "unverified",
+  "actual_checkpoint_binding_pending": "v14 readiness and container receipts",
+  "expert_validation": false,
+  "private_or_expert_images_published": false
+}

@@ -1,0 +1,21 @@
+{
+  "request_index": 1,
+  "messages_sha256": "c1169fd3d933a2d533f7e712667ea0b5c361df6486c70f9bd33da327a55f5e13",
+  "message_bytes": 355004,
+  "timeout_seconds": 90,
+  "response_sha256": "ae4b9f6a1d4556d9dc69416f2ee48f743253b5a9afbd626e67c3ae0b7c1d0759",
+  "response_text": "{\n  \"observations\": [\n    {\n      \"media_id\": \"media_2451e91499804f9588295a29194b1e14\",\n      \"region\": [\n        0,\n        0,\n        1,\n        1\n      ],\n      \"visible\": \"青花筒瓶，口沿外撇，腹部开光绘山水松石，颈部绘缠枝花卉。\",\n      \"interpretation\": \"典型清代官窑风格\",\n      \"limitation\": \"仅见单面，无法确认底款\"\n    },\n    {\n      \"media_id\": \"media_b07bc79000b445b696b4959de4d253f4\",\n      \"region\": [\n        0,\n        0,\n        1,\n        1\n      ],\n      \"visible\": \"瓶身另一面，腹部开光绘博古纹，含瓶、书卷等器物，颈部纹饰相同。\",\n      \"interpretation\": \"博古纹饰寓意吉祥\",\n      \"limitation\": \"未见底足，无法断代\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1090,
+    "total_tokens": 1374,
+    "completion_tokens": 284,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 26.814
+}

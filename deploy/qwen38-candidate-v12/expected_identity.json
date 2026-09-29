@@ -1,0 +1,105 @@
+{
+  "model": "nvidia/Qwen3.8-27B-NVFP4",
+  "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+  "file_count": 19,
+  "total_file_bytes": 21945291730,
+  "source": "https://huggingface.co/api/models/nvidia/Qwen3.8-27B-NVFP4/revision/482ca0f3832238542f8f5295dde86b5f22711d80?blobs=true",
+  "source_metadata_sha256": "861402f78b2a47d1f34d97c282fc4c8a57708d6c4f25384cc79f603b3d90ddf8",
+  "files": [
+    {
+      "name": ".gitattributes",
+      "bytes": 1570,
+      "git_blob_sha1": "52373fe24473b1aa44333d318f578ae6bf04b49b"
+    },
+    {
+      "name": ".quant_summary.txt",
+      "bytes": 318035,
+      "git_blob_sha1": "2a2ef113b929b7e7d844581d2c12bd22d30e859f"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 11544,
+      "git_blob_sha1": "f938136e3adacfd92be087f6e113b5d6d97f678f"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9578,
+      "git_blob_sha1": "c4e22c51dba23612958db6dd69e75601b9b83036"
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 8952,
+      "git_blob_sha1": "c0c686f9c38d70d179fb7b5f5aa7530bc913dda3"
+    },
+    {
+      "name": "config.json",
+      "bytes": 87506,
+      "git_blob_sha1": "da0edbc058d6042ec194d2b2b32d387cd03aed89"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 214,
+      "git_blob_sha1": "a7aa1d4c0c810fe5ff734273172c674ef3200f54"
+    },
+    {
+      "name": "hf_quant_config.json",
+      "bytes": 53760,
+      "git_blob_sha1": "530c747d59149c638e581054ab39d0a961363d11"
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 3353259,
+      "git_blob_sha1": "a494e019ca1502219fd0128658b979e5f05ae8e8"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "bytes": 9965652544,
+      "lfs_sha256": "7d0fd155118901373eb0fd13ed3aae68f95be747bc205be72ebc41739c25ee80"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "bytes": 9985757064,
+      "lfs_sha256": "98a7e9486baa860c792c9463a770cb9d017696bdd17606300a5b9334149f4c27"
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "bytes": 1970287672,
+      "lfs_sha256": "0506ad35dc21469708e7813bd76c592cef08bd0317b4a1fe899745ebe2435271"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 214866,
+      "git_blob_sha1": "146d8eb292e9ffbfe4865b665069784720e57662"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+    },
+    {
+      "name": "processor_config.json",
+      "bytes": 1191,
+      "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12809320,
+      "lfs_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 1121,
+      "git_blob_sha1": "77053000a771610a7c97f7b1f06fdb03aa357128"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "git_blob_sha1": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "git_blob_sha1": "0aa0ce0658d60ac4a5d609f4eadb0e8e43514176"
+    }
+  ]
+}

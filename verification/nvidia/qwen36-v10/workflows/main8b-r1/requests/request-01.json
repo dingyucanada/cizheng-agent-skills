@@ -1,0 +1,9 @@
+{
+  "request_index": 1,
+  "messages_sha256": "683a33b3be3453145f6f7107eee92e6a7cce2c7eb7274b4dd955180579a096ff",
+  "message_bytes": 355004,
+  "timeout_seconds": 90,
+  "succeeded": false,
+  "error_type": "LocalModelFailure",
+  "seconds": 0.083
+}

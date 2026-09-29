@@ -1,0 +1,21 @@
+{
+  "request_index": 4,
+  "messages_sha256": "636a0844944ffb9b5a825e45de499e1eadc56d676e1d06d784b4718e9999064a",
+  "message_bytes": 399894,
+  "timeout_seconds": 90,
+  "response_sha256": "9e0be25f1793a53a3bf590e63ddf46d927d766c9cf4fc4b82fa7336fc054bf7f",
+  "response_text": "{\"actions\": [{\"tool\": \"retrieve_references\", \"arguments\": {\"query\": \"清代康熙青花山水纹花觚\"}}]}",
+  "usage": {
+    "prompt_tokens": 13606,
+    "total_tokens": 13634,
+    "completion_tokens": 28,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 4.816
+}

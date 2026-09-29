@@ -1,0 +1,171 @@
+{
+  "schema_version": "claim-support-review-v1",
+  "run_input_sha256": "4992f1772c45517273818498990fc2463bfc756283cea0179dcf3b46ca144993",
+  "packet_sha256": "2bd0329d37a9f816a67db345a5c598735a5074ba55710a0e67ab0f84c890793d",
+  "reviewer": "Codex：实际查看两张公开原图及保存输出；共享开发上下文",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "independent_of_model": false,
+  "observations": [
+    {
+      "observation_id": "obs_21ca4a9b301746388db7b83799afed3b",
+      "image_access": "original_pixels",
+      "reviewed_media_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "visible_verdict": "partial",
+      "region_verdict": "not_assessable",
+      "reviewer_region": null,
+      "basis": "原图可直接看到外撇口沿、收束的长身、下部展开的轮廓和中央山水树木装饰；照片不能单独确认器用为笔筒或总共六面。短句把这些未经确认的类别当确定事实，故仅部分可支持。"
+    },
+    {
+      "observation_id": "obs_a9b185b3c46a4d0e9a49bcb9d9062d69",
+      "image_access": "original_pixels",
+      "reviewed_media_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "visible_verdict": "partial",
+      "region_verdict": "not_assessable",
+      "reviewer_region": null,
+      "basis": "原图可见中央带提梁的篮形结构及花叶纹饰；并未可靠确认模型所说的博古题材或总面数，器用为笔筒也无照片依据。保留分区和蓝白装饰的部分支持；不是专家纹饰分类。"
+    }
+  ],
+  "observation_links": [
+    {
+      "link_id": "link-134ccc6565ee119775ca",
+      "relation": "partial",
+      "claim_excerpt": "无底足款识与胎釉细节，无法断代",
+      "visible_excerpt": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+      "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+    },
+    {
+      "link_id": "link-ba498d4f2b7520a419e5",
+      "relation": "partial",
+      "claim_excerpt": "无底足款识与胎釉细节，无法断代",
+      "visible_excerpt": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+      "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+    },
+    {
+      "link_id": "link-8684e98114bb10254088",
+      "relation": "partial",
+      "claim_excerpt": "未见胎骨与底足特征，无法确认窑口",
+      "visible_excerpt": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+      "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+    },
+    {
+      "link_id": "link-30e9628bbacff2ec2e1c",
+      "relation": "partial",
+      "claim_excerpt": "未见胎骨与底足特征，无法确认窑口",
+      "visible_excerpt": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+      "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+    },
+    {
+      "link_id": "link-298346ac5785610b51cc",
+      "relation": "partial",
+      "claim_excerpt": "无参照图对比，风格归属证据不足",
+      "visible_excerpt": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+      "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+    },
+    {
+      "link_id": "link-11bcc4e64cd86431e0f7",
+      "relation": "partial",
+      "claim_excerpt": "无参照图对比，风格归属证据不足",
+      "visible_excerpt": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+      "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+    }
+  ],
+  "citations": [],
+  "reasoning": [
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "无底足款识与胎釉细节，无法断代",
+      "basis": "承认未见底面并保留未能判断，边界较谨慎；但可见事实仍混入未经确认的器用和总面数。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "inference_bridge",
+      "verdict": "adequate",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "无底足款识与胎釉细节，无法断代",
+      "basis": "最终理由仅说明缺少归属证据，没有从一般纹饰推出具体制作时期或窑口。这只支持有限的不确定结论。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "无底足款识与胎釉细节，无法断代",
+      "basis": "列出后世仿清及现代仿古，却没有说明如何区分同一可见表现，且未交付任务要求的独立来源背景。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "missing_evidence",
+      "verdict": "inadequate",
+      "report_field": "evidence_request.distinguishes",
+      "report_excerpt": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+      "basis": "虽提出拍摄底足，但补证distinguishes称真品款识和胎骨可确证年代；款识不能单独确证年代，未见胎釉也不能预设真仿。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "未见胎骨与底足特征，无法确认窑口",
+      "basis": "承认未见底面并保留未能判断，边界较谨慎；但可见事实仍混入未经确认的器用和总面数。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "inference_bridge",
+      "verdict": "adequate",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "未见胎骨与底足特征，无法确认窑口",
+      "basis": "最终理由仅说明缺少归属证据，没有从一般纹饰推出具体制作时期或窑口。这只支持有限的不确定结论。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "未见胎骨与底足特征，无法确认窑口",
+      "basis": "列出后世仿清及现代仿古，却没有说明如何区分同一可见表现，且未交付任务要求的独立来源背景。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "missing_evidence",
+      "verdict": "inadequate",
+      "report_field": "evidence_request.distinguishes",
+      "report_excerpt": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+      "basis": "虽提出拍摄底足，但补证distinguishes称真品款识和胎骨可确证年代；款识不能单独确证年代，未见胎釉也不能预设真仿。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "无参照图对比，风格归属证据不足",
+      "basis": "承认未见底面并保留未能判断，边界较谨慎；但可见事实仍混入未经确认的器用和总面数。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "inference_bridge",
+      "verdict": "adequate",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "无参照图对比，风格归属证据不足",
+      "basis": "最终理由仅说明缺少归属证据，没有从一般纹饰推出具体制作时期或窑口。这只支持有限的不确定结论。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "无参照图对比，风格归属证据不足",
+      "basis": "列出后世仿清及现代仿古，却没有说明如何区分同一可见表现，且未交付任务要求的独立来源背景。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "missing_evidence",
+      "verdict": "inadequate",
+      "report_field": "evidence_request.distinguishes",
+      "report_excerpt": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+      "basis": "虽提出拍摄底足，但补证distinguishes称真品款识和胎骨可确证年代；款识不能单独确证年代，未见胎釉也不能预设真仿。"
+    }
+  ]
+}

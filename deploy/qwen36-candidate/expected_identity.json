@@ -1,0 +1,95 @@
+{
+  "model": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+  "revision": "1355db6a052410cfd62085d94b58866fd0f2c3c5",
+  "file_count": 17,
+  "total_file_bytes": 23462477857,
+  "source": "https://huggingface.co/api/models/nvidia/Qwen3.6-35B-A3B-NVFP4/revision/1355db6a052410cfd62085d94b58866fd0f2c3c5?blobs=true",
+  "source_metadata_sha256": "2deb1690bc965070c97503d2b629340145dd9cf1dd8b03f2a36ca1a10f1929f5",
+  "files": [
+    {
+      "name": ".gitattributes",
+      "bytes": 1635,
+      "git_blob_sha1": "aa7aacd0134a92c3c1943fdecc75cd8b7420cce6"
+    },
+    {
+      "name": ".quant_summary.txt",
+      "bytes": 4752286,
+      "git_blob_sha1": "b97d531c8e2bd7cbd1c42cbcb49f029090010251"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9936,
+      "git_blob_sha1": "0ecb54c1554791cedb4615b7ced45826b9817d19"
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7764,
+      "git_blob_sha1": "a8755d827c0a7b614c246c4060dfd58ab352a8ff"
+    },
+    {
+      "name": "config.json",
+      "bytes": 58110,
+      "git_blob_sha1": "ec1f82c006fd5db6d0b5fa1a59e16fbda9a5c1dd"
+    },
+    {
+      "name": "configuration.json",
+      "bytes": 58,
+      "git_blob_sha1": "d24dba949ee1fe70cc810e4c4709a0bddf4e06ba"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 202,
+      "git_blob_sha1": "023756cfadf88e5bf69eefeee3e172f38c448d64"
+    },
+    {
+      "name": "hf_quant_config.json",
+      "bytes": 35085,
+      "git_blob_sha1": "8deefe44cc69cfab994141ea6b9493b03c864061"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "bytes": 10006877608,
+      "lfs_sha256": "07141c2db92e47bc08777132cd1a0323faf300eab3a7d7c111bc2bf075fda050"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "bytes": 10003595752,
+      "lfs_sha256": "6dea9c759a0f941cf9e1cc1501216b0e107966a66c90425050e212efbd053f02"
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "bytes": 3413864960,
+      "lfs_sha256": "9758875fc55e49561165f4a44342b654c123c3e25c6811b34abb83553fb1a164"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 13726227,
+      "lfs_sha256": "d67403a4e9793c0ba8a136baf14b3b76ec7b32c822267978084895e07ebd8a3e"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12807982,
+      "lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 16718,
+      "git_blob_sha1": "28d96ff303d1d20350185caf4bf037045916ed35"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "git_blob_sha1": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "git_blob_sha1": "0aa0ce0658d60ac4a5d609f4eadb0e8e43514176"
+    }
+  ]
+}

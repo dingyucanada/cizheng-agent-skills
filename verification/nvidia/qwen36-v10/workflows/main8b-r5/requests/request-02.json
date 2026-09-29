@@ -1,0 +1,16 @@
+{
+  "request_index": 2,
+  "messages_sha256": "17f07757b2692f521c2eaab378326b02188db7b96adce4dd14cde0a43ea55cfe",
+  "message_bytes": 395678,
+  "timeout_seconds": 90,
+  "response_sha256": "a360134d670906ced04a5423f08e7668535fea47925cee63f3df994ee5badbb4",
+  "response_text": "{\"actions\":[{\"tool\":\"retrieve_references\",\"arguments\":{\"query\":\"blue-and-white gu vase with landscape and floral decoration\"}}]}",
+  "usage": {
+    "prompt_tokens": 14200,
+    "completion_tokens": 25,
+    "total_tokens": 14225,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 8.049
+}

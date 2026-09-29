@@ -1,0 +1,80 @@
+{
+  "container_started_stopped_or_execed": false,
+  "containers": [
+    {
+      "Config": {
+        "Cmd": [
+          "trtllm-serve",
+          "serve",
+          "/model",
+          "--backend",
+          "pytorch",
+          "--host",
+          "127.0.0.1",
+          "--port",
+          "8006",
+          "--served_model_name",
+          "Qwen3-4B-Instruct-2507",
+          "--max_batch_size",
+          "1",
+          "--max_seq_len",
+          "4096",
+          "--max_num_tokens",
+          "2048",
+          "--extra_llm_api_options",
+          "/config/serve.yaml",
+          "--no-telemetry"
+        ],
+        "Entrypoint": [
+          "/opt/nvidia/nvidia_entrypoint.sh"
+        ],
+        "Image": "nvcr.io/nvidia/tensorrt-llm/release@sha256:4f30c464ead64fb9727a24064b25057dacc07bef848022421108e544c91f0965"
+      },
+      "HostConfig": {
+        "Memory": 25769803776,
+        "MemorySwap": 25769803776,
+        "NetworkMode": "host",
+        "PortBindings": {},
+        "RestartPolicy": {
+          "MaximumRetryCount": 0,
+          "Name": "no"
+        }
+      },
+      "Id": "14d1bf9ee812bcd32e2cf84caeec61e078b80b27b9af01930e9f0d7adf773c01",
+      "Image": "sha256:a384d33e67176ec805f669780530245b461826636e58f748925edc1cbf6b5a14",
+      "Mounts": [
+        {
+          "Destination": "/evidence",
+          "RW": true,
+          "Type": "bind"
+        },
+        {
+          "Destination": "/model",
+          "RW": false,
+          "Type": "bind"
+        },
+        {
+          "Destination": "/config/serve.yaml",
+          "RW": false,
+          "Type": "bind"
+        }
+      ],
+      "Name": "/cizheng-trt-qwen4b",
+      "State": {
+        "Dead": false,
+        "Error": "",
+        "ExitCode": 0,
+        "FinishedAt": "0001-01-01T00:00:00Z",
+        "OOMKilled": false,
+        "Paused": false,
+        "Pid": 1048526,
+        "Restarting": false,
+        "Running": true,
+        "StartedAt": "2026-09-28T20:31:23.390557032Z",
+        "Status": "running"
+      }
+    }
+  ],
+  "metadata_receipt_sha256": "798509c3fa6ee592440bbf7858eb5d8ba17d9f80486f06f5c8dcb5f944f86aa1",
+  "source": "actual read-only running TRT metadata captured 2026-09-29; stopped variants in tests are synthetic"
+}

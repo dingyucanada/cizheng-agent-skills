@@ -35,7 +35,7 @@
       }
       if(typeof audit.checked_at==='string'&&audit.checked_at){
         const note=document.querySelector('[data-deployment-updated]');
-        if(note){const link=document.createElement('a');link.href='report-assets/deployment-status.json';link.textContent='查看当前状态数据';const parsed=new Date(audit.checked_at);const display=Number.isNaN(parsed.getTime())?audit.checked_at:parsed.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+'（北京时间）';note.replaceChildren(document.createTextNode('核验更新时间：'+display+'。'),link)}
+        if(note){const link=document.createElement('a');link.href='report-assets/deployment-status.json';link.textContent='查看核验范围和状态记录';const parsed=new Date(audit.checked_at);const display=Number.isNaN(parsed.getTime())?audit.checked_at:parsed.toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})+'（北京时间）';note.replaceChildren(document.createTextNode('首批五服务核验时间：'+display+'。本轮后端更新另见回执。'),link)}
       }
     }
     const pdf=data.pdf,url=pdf&&localURL(pdf.href);

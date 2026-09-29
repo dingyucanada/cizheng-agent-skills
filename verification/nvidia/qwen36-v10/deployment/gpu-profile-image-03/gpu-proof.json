@@ -1,0 +1,39 @@
+{
+  "automatic_retries": 0,
+  "candidate_process_bound": true,
+  "cuda_execution_verified": true,
+  "cuda_kernel_event_count": 9477,
+  "cuda_runtime_event_count": 16941,
+  "distinct_kernel_names": 88,
+  "elapsed_seconds": 11.970917709055357,
+  "end_to_end_acceleration_proven": false,
+  "expert_validation": false,
+  "finish_reason": "stop",
+  "full_request_covered": false,
+  "http_status": 200,
+  "inference_requests_sent": 1,
+  "launch_profile_sha256": "2e4f0d0b02e4769be5b92487cbba4a9bb4d2f346e18602de31e8fa108ece571e",
+  "model": "Qwen3.6-35B-A3B-NVFP4",
+  "original_nim_entrypoint_preserved": true,
+  "profile_step_limit": 8,
+  "request_finished_at_unix_ns": 1790669972542193044,
+  "request_sha256": "ece99e5072068ff3a37b66cbef2717776e7bb5afa1807576168c642cb6ec9fb9",
+  "request_started_at_unix_ns": 1790669960571275911,
+  "request_time_window_bound": true,
+  "response_sha256": "706035a0dbf30fa613ae983656c91a953fe6a5a3372d65ac0427da01344e1a1a",
+  "semantic_quality_proven": false,
+  "trace_bytes": 15273908,
+  "trace_mtime_unix_ns": 1790669968721352812,
+  "trace_sha256": "b5c063944db2ae2849b132a5cf66541609b867202028d0e62350cb5612ec13bc",
+  "usage": {
+    "completion_tokens": 154,
+    "prompt_tokens": 537,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "total_tokens": 691
+  },
+  "weights_revision": "1355db6a052410cfd62085d94b58866fd0f2c3c5"
+}

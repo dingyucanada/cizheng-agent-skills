@@ -1,0 +1,21 @@
+{
+  "request_index": 6,
+  "messages_sha256": "a22bfac9434f1ec60bd26f807477c1b6ad51dfbb6b9dcf747e59008e53f18131",
+  "message_bytes": 398523,
+  "timeout_seconds": 90,
+  "response_sha256": "63aae41951ef55e59035503a431e0a63a5c5b5a0460deadb0892e1026caff07a",
+  "response_text": "{\"actions\": [{\"tool\": \"request_evidence\", \"arguments\": {\"view\": \"底足与内部\", \"reason\": \"需观察底足胎质、修足方式及款识以区分康熙真品与后世仿品\", \"distinguishes\": \"真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符\", \"capture_instructions\": \"拍摄底足正视图、侧视图及器物内部照片，光线需均匀以显示胎釉细节\"}}]\n}",
+  "usage": {
+    "prompt_tokens": 13102,
+    "total_tokens": 13212,
+    "completion_tokens": 110,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 6.283
+}

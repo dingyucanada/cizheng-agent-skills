@@ -1,0 +1,25 @@
+{
+  "schema_version": "ai-review-manifest-v1",
+  "author": "Codex AI",
+  "expert_validation_established": false,
+  "original_file_sha256": {
+    "final-run.json": "a63ad0480100b8c73e109868426f7b688a736b4a360f48048706d11e64e6cba1",
+    "summary.json": "1a9f0039c488df92543a98d29bb00003b3a44f58677d2cd823f4124182396cb7",
+    "requests/request-01.json": "07efaf58efae0caded138307688e43b3312ff5fa25ab161cd1504aa347217599",
+    "requests/request-02.json": "44cc4f2d04058d7b8e280ef979493a9a850c34dab245b19aa9c8b83c4a60dab4",
+    "requests/request-03.json": "7ad9db80ad18abe289b3243a211106d520c8e23818e8e9fea9a3383867a4c29d",
+    "requests/request-04.json": "8153af1b3b5427892f7447cddfdb18a01cb25fc70d63bef436d6690b6b40de6e",
+    "requests/request-05.json": "2f93822a79911c837c11d1e4717490b2c43dd8f5bfdcf42aa6921f1d8c7f9668"
+  },
+  "derivative_file_sha256": {
+    "analysis.json": "5fe7ca30ddadcac3cef6a45246d510ad683531ef9ab4bfb0bca01e8dcf633caf",
+    "analysis.md": "a5bf1853ea202d4accd4c3f75a272f6a648a1af836ee63504aa797db14148c68",
+    "review-labels.json": "84c48439d12a895b76eda1b665f43e57a5f9dd23b032eeca5e3a3d69a2606de1",
+    "reviewed-audit.json": "e9198ca864bf6aa4ae027bc8c5507c20754bd7ec086a56c39d4da8287f5cb38c"
+  },
+  "image_sha256": [
+    "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+    "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+  ],
+  "notice": "独立文件布局的AI衍生阅评；不是独立盲评，不修改模型原件。"
+}

@@ -1,0 +1,16 @@
+{
+  "request_index": 1,
+  "messages_sha256": "d623bc1aaa6a93eb642d4c826652ec55bb02c3dd493280b57389f509a5cc164c",
+  "message_bytes": 355004,
+  "timeout_seconds": 90,
+  "response_sha256": "f5cfe28c2b8a576a6a2743fd398d23ff06f6de950fdf0d84e0dff7597fe1e385",
+  "response_text": "{\"observations\": [{\"media_id\": \"media_6d73caadd650402c937ab3da48c65208\", \"region\": [0.22, 0.17, 0.78, 0.83], \"visible\": \"青花瓷瓶，瓶身绘山水人物纹饰\", \"interpretation\": \"器形挺拔，纹饰繁复\", \"limitation\": \"\"}, {\"media_id\": \"media_4c4437260fa34711830d021ab4e02187\", \"region\": [0.22, 0.17, 0.78, 0.83], \"visible\": \"青花瓷瓶，瓶身绘花篮纹饰\", \"interpretation\": \"装饰风格典雅\", \"limitation\": \"\"}]}",
+  "usage": {
+    "prompt_tokens": 2498,
+    "completion_tokens": 202,
+    "total_tokens": 2700,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 21.087
+}

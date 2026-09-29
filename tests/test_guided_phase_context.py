@@ -286,9 +286,16 @@ def test_real_delivered_body_changes_text_state_without_claiming_a_reference_ima
     assert run == saved and run['assessment'] is None
     text = context['instruction']
     assert '授权文字片段：1' in text and '参照图片：0' in text
-    assert '两个独立状态' in text and '不等于文字来源不存在' in text
-    assert '已读资料的作用或不适用边界与照片推断' in text
-    assert '不证明馆方身份、适用性或可比性' in text
+    if agent.PROMPT_PROFILE.name == 'r4':
+        state_label = '文字来源与参照图片独立'
+        assert '文字来源与参照图片独立，缺参照图不等于无文字' in text
+        assert '用完整短句分列来源所记事项与适用边界' in text
+        assert '不证明身份、适用性或可比性' in text
+    else:
+        state_label = '文字来源与参照图片是两个独立状态'
+        assert state_label + '；缺参照图或未采用文字，不等于文字来源不存在' in text
+        assert '题目要求馆方记载与照片推断时，由你分列说明' in text
+        assert '不证明馆方身份、适用性或可比性' in text
     receipt = run['read_knowledge'][0]
     serialized = dump(context)
     for field in ('document_id', 'document_sha256', 'chunk_id', 'chunk_sha256', 'locator', 'text'):
@@ -297,7 +304,7 @@ def test_real_delivered_body_changes_text_state_without_claiming_a_reference_ima
     engine._guided_budget_context(run_id, messages)
     notice = messages[1]['content']
     assert '授权文字片段：1' in notice and '参照图片：0' in notice
-    assert notice.count('文字来源与参照图片是两个独立状态') == 1
+    assert notice.count(state_label) == 1
     assert guided.notice_budget(messages)['delivery_phase'] == context['phase']
     assert receipt['text'] not in notice
 

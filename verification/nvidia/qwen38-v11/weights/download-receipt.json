@@ -1,0 +1,107 @@
+{
+  "model": "nvidia/Qwen3.8-27B-NVFP4",
+  "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+  "all_files_verified": true,
+  "file_count": 19,
+  "total_file_bytes": 21945291730,
+  "files": [
+    {
+      "name": ".gitattributes",
+      "bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "name": ".quant_summary.txt",
+      "bytes": 318035,
+      "sha256": "0f8818b69fa46381899bdc72833805409e6ca9771f9c34e5f3dcf4674da9a3a1"
+    },
+    {
+      "name": "LICENSE",
+      "bytes": 11544,
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9578,
+      "sha256": "2dc5368ce2dda4393818fc3c6e587d588ec7b7f599b1f3a326d97dc271e3866d"
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 8952,
+      "sha256": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041"
+    },
+    {
+      "name": "config.json",
+      "bytes": 87506,
+      "sha256": "71fa01bb64de20971045cd82a82c0ebb25a54e1b0a3f09ef23cf5479e9c54df8"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 214,
+      "sha256": "8a3a817a9d330f6f9e62f048fe62a48594946c4a5c4cb314a8011316d5094986"
+    },
+    {
+      "name": "hf_quant_config.json",
+      "bytes": 53760,
+      "sha256": "5f4aaa9e462ddb26a9790ab459eee69d100b9ade7541f0c86038e925c013f80b"
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 3353259,
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "bytes": 9965652544,
+      "sha256": "7d0fd155118901373eb0fd13ed3aae68f95be747bc205be72ebc41739c25ee80"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "bytes": 9985757064,
+      "sha256": "98a7e9486baa860c792c9463a770cb9d017696bdd17606300a5b9334149f4c27"
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "bytes": 1970287672,
+      "sha256": "0506ad35dc21469708e7813bd76c592cef08bd0317b4a1fe899745ebe2435271"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 214866,
+      "sha256": "7aa103a2582b7d26631988de33dea19e8a308ee9c239e8e14feb374af30905e2"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+    },
+    {
+      "name": "processor_config.json",
+      "bytes": 1191,
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12809320,
+      "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 1121,
+      "sha256": "e5d078b00e6c1223b32444db8c1001dc71d86ceef8ee706b5bf084c3a43a1f9c"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+    }
+  ],
+  "download_seconds": 1890.122,
+  "downloaded_bytes_this_run": 21921697280,
+  "chunks_completed": 328
+}

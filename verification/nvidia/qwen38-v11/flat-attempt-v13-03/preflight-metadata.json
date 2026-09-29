@@ -1,0 +1,239 @@
+{
+  "scope": "Metadata derivative of actual v13 CPU/GPU pre-admission rejection; no candidate container started",
+  "original_receipt_sha256": "24dbf319501f49784d461feb3c674459819637d96b48306800e7c95531d6b88b",
+  "redaction": "home path prefix / embedded source fields if any",
+  "receipt_metadata": {
+    "elapsed_seconds": 0.001,
+    "error": "at least 60 GiB MemAvailable required after coordinator-owned 4B rotation",
+    "error_type": "ValueError",
+    "gpu_model_requested": false,
+    "guard_only": false,
+    "launch_profile_sha256": "70877257acccf1a287b21b80f170404460d760a1f52009a9c08c8fa189b58e04",
+    "memory_bytes": {
+      "MemAvailable": 62872829952,
+      "MemTotal": 128520015872,
+      "SwapFree": 0,
+      "SwapTotal": 0
+    },
+    "model_view_layout": {
+      "all_regular_no_symlinks": true,
+      "file_count": 19,
+      "files": [
+        {
+          "bytes": 1570,
+          "name": ".gitattributes",
+          "st_dev": 66306,
+          "st_ino": 47973758,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 318035,
+          "name": ".quant_summary.txt",
+          "st_dev": 66306,
+          "st_ino": 47973759,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 11544,
+          "name": "LICENSE",
+          "st_dev": 66306,
+          "st_ino": 47973760,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 9578,
+          "name": "README.md",
+          "st_dev": 66306,
+          "st_ino": 47973761,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 8952,
+          "name": "chat_template.jinja",
+          "st_dev": 66306,
+          "st_ino": 47973762,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 87506,
+          "name": "config.json",
+          "st_dev": 66306,
+          "st_ino": 47973764,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 214,
+          "name": "generation_config.json",
+          "st_dev": 66306,
+          "st_ino": 47973768,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 53760,
+          "name": "hf_quant_config.json",
+          "st_dev": 66306,
+          "st_ino": 47973769,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 3353259,
+          "name": "merges.txt",
+          "st_dev": 66306,
+          "st_ino": 47973770,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 9965652544,
+          "name": "model-00001-of-00003.safetensors",
+          "st_dev": 66306,
+          "st_ino": 47974121,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 9985757064,
+          "name": "model-00002-of-00003.safetensors",
+          "st_dev": 66306,
+          "st_ino": 47974122,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 1970287672,
+          "name": "model-00003-of-00003.safetensors",
+          "st_dev": 66306,
+          "st_ino": 47974123,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 214866,
+          "name": "model.safetensors.index.json",
+          "st_dev": 66306,
+          "st_ino": 47973771,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 390,
+          "name": "preprocessor_config.json",
+          "st_dev": 66306,
+          "st_ino": 47973773,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 1191,
+          "name": "processor_config.json",
+          "st_dev": 66306,
+          "st_ino": 47973775,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 12809320,
+          "name": "tokenizer.json",
+          "st_dev": 66306,
+          "st_ino": 47973776,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 1121,
+          "name": "tokenizer_config.json",
+          "st_dev": 66306,
+          "st_ino": 47973783,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 385,
+          "name": "video_preprocessor_config.json",
+          "st_dev": 66306,
+          "st_ino": 47973784,
+          "st_nlink": 2
+        },
+        {
+          "bytes": 6722759,
+          "name": "vocab.json",
+          "st_dev": 66306,
+          "st_ino": 47973785,
+          "st_nlink": 2
+        }
+      ],
+      "hardlinks_allowed": true,
+      "model_directory": "<spark-home>/cizheng-model-checkpoints/qwen38-rev482ca0f",
+      "no_extra_entries": true,
+      "permissions_modified_by_guard": false
+    },
+    "path_isolation": {
+      "model_directory": "<spark-home>/cizheng-model-checkpoints/qwen38-rev482ca0f",
+      "model_disjoint_from_every_protected_path": true,
+      "protected_paths": {
+        "candidate cache directory": "<spark-home>/cizheng-next-model27-20260929/gpu-attempt-v13-03/cache",
+        "candidate profiles directory": "<spark-home>/cizheng-next-model27-20260929/gpu-attempt-v13-03/profiles",
+        "download receipt": "<spark-home>/cizheng-next-model27-20260929/download-receipt.json",
+        "evidence directory": "<spark-home>/cizheng-next-model27-20260929/gpu-attempt-v13-03",
+        "original CPU compatibility directory": "<spark-home>/cizheng-next-model27-20260929/config-probe-00",
+        "original CPU container directory": "<spark-home>/cizheng-next-model27-20260929/config-probe-00",
+        "original CPU host directory": "<spark-home>/cizheng-next-model27-20260929/config-probe-00",
+        "source directory": "<spark-home>/cizheng-next-model27-20260929/candidate-source-v13-03-final"
+      },
+      "protected_paths_may_nest_with_each_other": true
+    },
+    "preflight": "failed",
+    "production_modified": false,
+    "requested_context_length": 24576,
+    "requested_max_total_tokens": 24576,
+    "resource_policy": {
+      "automatic_service_stop_or_restore": false,
+      "baseline_endpoints": [
+        "http://127.0.0.1:8005/health",
+        "http://127.0.0.1:8780/api/status",
+        "http://127.0.0.1:8006/health",
+        "http://127.0.0.1:8003/v1/health/ready"
+      ],
+      "caller_flags_allowed": false,
+      "candidate_container": "cizheng-nim-qwen38-v13-attempt-03",
+      "candidate_port": 8009,
+      "cli_profile_sha256": "70877257acccf1a287b21b80f170404460d760a1f52009a9c08c8fa189b58e04",
+      "container_memory_limit_bytes": 42949672960,
+      "container_memory_swap_bytes": 42949672960,
+      "gpu_execution_or_peak_proven": false,
+      "legacy_profile_resource_metadata_is_superseded": false,
+      "max_active_weight_loading_shards": 1,
+      "minimum_available_bytes": 64424509440,
+      "minimum_system_buffer_bytes": 36507222016,
+      "model": "nvidia/Qwen3.8-27B-NVFP4",
+      "model_directory_policy": "exactly_19_fixed_official_regular_files_no_extra_entries_or_symlinks",
+      "model_hardlinks_allowed": true,
+      "model_loader_extra_config": {
+        "enable_multithread_load": false
+      },
+      "model_must_be_disjoint_from_evidence_cache_source_cpu_and_receipts": true,
+      "original_cpu_receipts_are_not_rewritten_for_new_host_model_path": true,
+      "previous_gpu_failure": "v12 attempt02 serial weight loading at 0/3 was stopped by the unchanged 34 GiB guard after 54.559145 seconds and 108 samples; minimum available 35960176640 bytes. Recursive NIM JSON cache warnings were also present, but are not the sole exit cause. Coordinator later observed was_running=false; original receipts preserved.",
+      "previous_resource_policy_sha256": "a18e4234fbbf7ec2dc60fe4a106a22649a044eb8f94c437ee6c9c93a423eb6f9",
+      "retired_nim": {
+        "actual_name_source": "tests/fixtures/retired-nim-actual-20260929.json",
+        "actual_name_source_sha256": "382f0687de404259ca0a8ca895e501da1fe012f4e16fb4f7455061e656ce66c9",
+        "actual_stopped_metadata_raw_sha256": "2ea2756d1cabcdbc6b2e66587ad3ff1e0aa86395149eeb8b53d89f23b1acb0ad",
+        "container_id": "1c963f41f4c1e844de77113eaa26f1b61c9e994a25bdd982c442a447e5d4acc5",
+        "host_port": 8007,
+        "identity_source": "evidence/nim-v09/container-before.json",
+        "identity_source_sha256": "dbce6568b97532a1a491e1be358a14fbd7b31f7ab9038d98bca02775560b73ad",
+        "image": "tgcr-gz.turing-agi.com/public/nvidia/sglang-model-free-nim-spark@sha256:7d4aa1ac40b20583068c4ece1d274042c0a99e863fb25bd0450c2be1951841b9",
+        "image_id": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+        "model_name": "Qwen3-4B-Instruct-2507",
+        "model_path": "/models/qwen3-4b",
+        "name": "cizheng-nim-qwen4b-v09-attempt-04",
+        "original_rotation_receipt_sha256": "5264e942fa77f5e4e09b84d2490baa704aae406c0d7b344ea1cb79bcfe2ed38e"
+      },
+      "retriever_existing_guard_bytes": 34359738368,
+      "retriever_guard_extra_buffer_bytes": 2147483648,
+      "retriever_watchdog_seconds": 2,
+      "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+      "runtime_overhead_estimate_bytes": 5368709120,
+      "runtime_overhead_includes_bf16_kv": true,
+      "runtime_overhead_is_measured": false,
+      "strategy": "replace_owned_4b_text_experiment_preserve_four_business_services",
+      "version": 4,
+      "weight_loader_disable_mmap": false,
+      "weight_loader_drop_cache_after_load": false,
+      "weight_loader_prefetch_checkpoints": false
+    },
+    "resource_policy_sha256": "374b3430140bb1bab28e9ac25b677d876fb237c5b30f0e0b18a447f8fe9b216f"
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "schema_version": "claim-support-audit-v1",
+  "packet": {
+    "schema_version": "claim-support-audit-v1",
+    "run_id": "run_e8ff8118c88e405895c659b5a3d8c847",
+    "case_id": "case_ad69628718c54c92887a8af8ecc67efa",
+    "run_state": "waiting_evidence",
+    "run_input_sha256": "84537ce65ba863a7f22167cad4791bf1e3ae50f5f597ebfec072b36e780595fa",
+    "assessment_sha256": "71dab0ccf0c150a365a4e16495fc6bbd5fe82a66176f162676cd4bb810dff2b6",
+    "assessment_present": true,
+    "images": [
+      {
+        "media_id": "media_6d73caadd650402c937ab3da48c65208",
+        "declared_original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "width": 800,
+        "height": 1200,
+        "view_declaration": "公开拍摄视角1",
+        "capture_role_declaration": "overall",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      },
+      {
+        "media_id": "media_4c4437260fa34711830d021ab4e02187",
+        "declared_original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "width": 800,
+        "height": 1200,
+        "view_declaration": "公开拍摄视角2",
+        "capture_role_declaration": "overall",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs_00fdf1e65bed447f92ecd413e136340a",
+        "media_id": "media_6d73caadd650402c937ab3da48c65208",
+        "declared_original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "region_valid": true,
+        "model_visible_description": "青花瓷瓶，瓶身绘山水人物纹饰",
+        "model_interpretation": "器形挺拔，纹饰繁复",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      },
+      {
+        "observation_id": "obs_99c57f4b9fea4c2bad4de0166c613e77",
+        "media_id": "media_4c4437260fa34711830d021ab4e02187",
+        "declared_original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.22,
+          0.17,
+          0.78,
+          0.83
+        ],
+        "region_valid": true,
+        "model_visible_description": "青花瓷瓶，瓶身绘花篮纹饰",
+        "model_interpretation": "装饰风格典雅",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "claim-0-period",
+        "report_index": 0,
+        "dimension": "period",
+        "candidate": "清代",
+        "status": "insufficient",
+        "support": [
+          "obs_00fdf1e65bed447f92ecd413e136340a"
+        ],
+        "conflict": [],
+        "reasoning_summary": "纹饰风格与Met馆藏18.61.4相似，但无底部款识支持",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "report_index": 1,
+        "dimension": "kiln",
+        "candidate": "景德镇窑",
+        "status": "insufficient",
+        "support": [
+          "obs_00fdf1e65bed447f92ecd413e136340a"
+        ],
+        "conflict": [],
+        "reasoning_summary": "器形与纹饰符合景德镇青花特征，但无款识佐证",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "report_index": 2,
+        "dimension": "style",
+        "candidate": "山水纹风格",
+        "status": "insufficient",
+        "support": [
+          "obs_00fdf1e65bed447f92ecd413e136340a"
+        ],
+        "conflict": [],
+        "reasoning_summary": "装饰布局与Met馆藏18.61.4一致，但无款识支持",
+        "support_semantics": "unreviewed"
+      }
+    ],
+    "observation_links": [
+      {
+        "link_id": "link-b5b1be8e2cc034a741ef",
+        "claim_id": "claim-0-period",
+        "observation_id": "obs_00fdf1e65bed447f92ecd413e136340a",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-969d11d2e9c1c35292cf",
+        "claim_id": "claim-1-kiln",
+        "observation_id": "obs_00fdf1e65bed447f92ecd413e136340a",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-262d507bc39e96f49c3b",
+        "claim_id": "claim-2-style",
+        "observation_id": "obs_00fdf1e65bed447f92ecd413e136340a",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      }
+    ],
+    "citations": [
+      {
+        "citation_id": "citation-0",
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+        "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+        "use": "source_context",
+        "relevance": "馆方记载Met馆藏18.61.4为清代康熙早期景德镇釉下钴蓝瓷",
+        "matches_saved_current_run_receipt": true,
+        "matches_saved_case_version_pin": true,
+        "authorized_saved_source": true,
+        "recorded_identity_delivery": true,
+        "delivered_excerpts": [
+          {
+            "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+            "snippet_start": 0,
+            "snippet_end": 130
+          }
+        ],
+        "eligible_for_text_review": true,
+        "semantic_support": "unreviewed"
+      }
+    ],
+    "report_fields": {
+      "basic_info": "青花瓷瓶，器形挺拔，饰山水人物与花篮纹，未见底部款识",
+      "reference_comparison": "馆方记载Met馆藏18.61.4为清代康熙早期景德镇釉下钴蓝瓷，但本件无款识，不可直接套用",
+      "revision_explanation": "依据图像观察与馆方记载，但因无款识，归属不足",
+      "alternatives.0": "民窑仿品",
+      "alternatives.1": "现代仿品",
+      "limitations.0": "未见底部款识",
+      "limitations.1": "无可靠参照图",
+      "claims.0.candidate": "清代",
+      "claims.0.reasoning_summary": "纹饰风格与Met馆藏18.61.4相似，但无底部款识支持",
+      "claims.1.candidate": "景德镇窑",
+      "claims.1.reasoning_summary": "器形与纹饰符合景德镇青花特征，但无款识佐证",
+      "claims.2.candidate": "山水纹风格",
+      "claims.2.reasoning_summary": "装饰布局与Met馆藏18.61.4一致，但无款识支持",
+      "knowledge_citations.0.relevance": "馆方记载Met馆藏18.61.4为清代康熙早期景德镇釉下钴蓝瓷",
+      "evidence_request.capture_instructions": "拍摄器物底部款识与胎体状态",
+      "evidence_request.distinguishes": "底部款识可区分清代官窑与民窑",
+      "evidence_request.reason": "当前未见底部，无法判断窑口与时期",
+      "evidence_request.view": "底部"
+    },
+    "findings": [],
+    "model_inference_performed": false,
+    "expert_validation_established": false,
+    "notice": "保存记录与哈希仅供回查；图像描述、引用支持和判断理由须另行阅评。登记标签不是图像事实。",
+    "packet_sha256": "744d4e1005124f34d71e1aebc86b401dc948dcfcaee6a84b37785fa31707e24c"
+  },
+  "metrics": {
+    "observation_visible_correctness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 2,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 2,
+      "fully_positive_count": 1,
+      "fully_positive_fraction": 0.5,
+      "label_coverage": 1.0,
+      "verdict_counts": {
+        "partial": 1,
+        "correct": 1
+      }
+    },
+    "observation_region_appropriateness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 2,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 2,
+      "fully_positive_count": 2,
+      "fully_positive_fraction": 1.0,
+      "label_coverage": 1.0,
+      "verdict_counts": {
+        "appropriate": 2
+      }
+    },
+    "declared_observation_link_appropriateness": {
+      "unit": "unique_declared_claim_observation_roles",
+      "total_items": 3,
+      "labels_received": 3,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 3,
+      "fully_positive_count": 1,
+      "fully_positive_fraction": 0.3333333333333333,
+      "label_coverage": 1.0,
+      "verdict_counts": {
+        "does_not_support": 2,
+        "appropriate": 1
+      }
+    },
+    "reasoning": {
+      "observed_basis": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "partial": 3
+        }
+      },
+      "inference_bridge": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "inadequate": 3
+        }
+      },
+      "alternative_explanations": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "inadequate": 3
+        }
+      },
+      "missing_evidence": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "partial": 2,
+          "inadequate": 1
+        }
+      }
+    },
+    "citation_relations_by_target_kind": {
+      "source_statement": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 1,
+        "labels_received": 1,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 1,
+        "fully_positive_count": 1,
+        "fully_positive_fraction": 1.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "supports": 1
+        }
+      },
+      "object_inference": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "does_not_support": 3
+        }
+      },
+      "method": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      }
+    },
+    "citation_mapping_coverage": {
+      "mapped_citations": 1,
+      "declared_citation_denominator": 1,
+      "unmapped_citations": 0
+    }
+  },
+  "region_overlaps": [
+    {
+      "observation_id": "obs_00fdf1e65bed447f92ecd413e136340a",
+      "iou": 0.9258677556148895,
+      "meaning": "overlap_with_supplied_reviewer_box_only"
+    },
+    {
+      "observation_id": "obs_99c57f4b9fea4c2bad4de0166c613e77",
+      "iou": 0.9356773283160867,
+      "meaning": "overlap_with_supplied_reviewer_box_only"
+    }
+  ],
+  "review_labels": {
+    "schema_version": "claim-support-review-v1",
+    "run_input_sha256": "84537ce65ba863a7f22167cad4791bf1e3ae50f5f597ebfec072b36e780595fa",
+    "packet_sha256": "744d4e1005124f34d71e1aebc86b401dc948dcfcaee6a84b37785fa31707e24c",
+    "reviewer": "Codex AI：共享开发上下文；非盲评、非专家；实际查看两张哈希匹配原图",
+    "reviewer_role": "automated_multimodal_reviewer",
+    "independent_of_model": false,
+    "observations": [
+      {
+        "observation_id": "obs_00fdf1e65bed447f92ecd413e136340a",
+        "image_access": "original_pixels",
+        "reviewed_media_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "visible_verdict": "partial",
+        "region_verdict": "appropriate",
+        "reviewer_region": [
+          0.225,
+          0.175,
+          0.765,
+          0.853
+        ],
+        "basis": "原图可见白底蓝色装饰、外撇口沿和收束的长器身；中心画面有山石、树木与水景。未辨认出可确认的人物细节，故“山水人物”中的人物不能计为已核清事实。模型框覆盖主要瓶身纹饰，但不能据此声称看过底部或款识；阅评框为AI手工估计，重叠值不代表专业正确性。"
+      },
+      {
+        "observation_id": "obs_99c57f4b9fea4c2bad4de0166c613e77",
+        "image_access": "original_pixels",
+        "reviewed_media_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "visible_verdict": "correct",
+        "region_verdict": "appropriate",
+        "reviewer_region": [
+          0.225,
+          0.173,
+          0.77,
+          0.854
+        ],
+        "basis": "原图可见白底蓝色装饰及中心带提梁状构件、花叶的篮状纹样，“花篮”作为可见题材描述有依据。这里未认证器用、总面数、烧造年代或窑口；解释字段“典雅”是审美判断，不能充当断代依据。模型框覆盖所述纹饰，未显示器底。"
+      }
+    ],
+    "observation_links": [
+      {
+        "link_id": "link-b5b1be8e2cc034a741ef",
+        "relation": "does_not_support",
+        "claim_excerpt": "清代",
+        "visible_excerpt": "青花瓷瓶，瓶身绘山水人物纹饰",
+        "basis": "这是时期候选与模型所声明观察之间的AI关系核查。蓝白山水装饰的观察未提供可区分时期的比较依据；原图核查中人物也未清楚确认。insufficient状态保留了不确定性，但不使该观察成为清代归属支持。"
+      },
+      {
+        "link_id": "link-969d11d2e9c1c35292cf",
+        "relation": "does_not_support",
+        "claim_excerpt": "景德镇窑",
+        "visible_excerpt": "青花瓷瓶，瓶身绘山水人物纹饰",
+        "basis": "观察只有宽泛器形与装饰题材，没有在报告中建立可区分窑口的特征、方法或已核参照。相似装饰及来源对象的窑口标签不能代替本件窑口推理。"
+      },
+      {
+        "link_id": "link-262d507bc39e96f49c3b",
+        "relation": "supports",
+        "claim_excerpt": "山水纹风格",
+        "visible_excerpt": "山水",
+        "basis": "仅核查“山水”这一可见题材：第一原图的山石、树木与水景可支持描述性候选。此关系不支持“与Met布局一致”，不支持人物细节、年代或窑口；第二张花篮观察仍未被模型关联到任何claim。"
+      }
+    ],
+    "citations": [
+      {
+        "citation_id": "citation-0",
+        "target_field": "reference_comparison",
+        "target_kind": "source_statement",
+        "relation": "supports",
+        "target_excerpt": "馆方记载Met馆藏18.61.4为清代康熙早期景德镇釉下钴蓝瓷",
+        "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+        "source_excerpt": "页面记录为清代康熙早期的景德镇釉下钴蓝瓷",
+        "basis": "在本次保存、授权且实际送达的130字摘要正文条件下，这一来源转述有文本依据。未独立核验官方网页、馆藏原账或本件身份；只支持“记录写了什么”，不支持本件归属。"
+      },
+      {
+        "citation_id": "citation-0",
+        "target_field": "claims.0.reasoning_summary",
+        "target_kind": "object_inference",
+        "relation": "does_not_support",
+        "target_excerpt": "纹饰风格与Met馆藏18.61.4相似",
+        "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+        "source_excerpt": "页面记录为清代康熙早期的景德镇釉下钴蓝瓷",
+        "basis": "这是AI明确选择的引用/目标关系检查；原模型仅有本轮全局source_context，未声明该引用支持每条主张。摘要没有本件与已看参照的特征比较，也没有通用纹饰断代规则，不能支持以相似性推出本件时期。"
+      },
+      {
+        "citation_id": "citation-0",
+        "target_field": "claims.1.reasoning_summary",
+        "target_kind": "object_inference",
+        "relation": "does_not_support",
+        "target_excerpt": "器形与纹饰符合景德镇青花特征",
+        "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+        "source_excerpt": "页面记录为清代康熙早期的景德镇釉下钴蓝瓷",
+        "basis": "这是AI明确选择的引用/目标关系检查；原模型仅有本轮全局source_context，未声明该引用支持每条主张。摘要只记录来源对象的窑口，没有解释本件哪些可见特征能区分该窑口，不能把对象标签扩为归属方法。"
+      },
+      {
+        "citation_id": "citation-0",
+        "target_field": "claims.2.reasoning_summary",
+        "target_kind": "object_inference",
+        "relation": "does_not_support",
+        "target_excerpt": "装饰布局与Met馆藏18.61.4一致",
+        "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+        "source_excerpt": "页面记录为清代康熙早期的景德镇釉下钴蓝瓷",
+        "basis": "这是AI明确选择的引用/目标关系检查；原模型仅有本轮全局source_context，未声明该引用支持每条主张。摘要没有分区布局细节，模型又未声明任何已看图参照，不能支持这一具体布局比较。"
+      }
+    ],
+    "reasoning": [
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "observed_basis",
+        "verdict": "partial",
+        "report_field": "claims.0.reasoning_summary",
+        "report_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无底部款识支持",
+        "basis": "提到纹饰及未见底部款识，但没有列出有区分能力的具体观察。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "inference_bridge",
+        "verdict": "inadequate",
+        "report_field": "claims.0.reasoning_summary",
+        "report_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无底部款识支持",
+        "basis": "未看任何声明参照，却称与Met相似；没有说明相似性为何支持清代。source_context不是归属证据。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "alternative_explanations",
+        "verdict": "inadequate",
+        "report_field": "alternatives.0",
+        "report_excerpt": "民窑仿品",
+        "basis": "只列“民窑仿品”“现代仿品”，未给区分依据，也没有逐项说明它们怎样影响时期候选。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "missing_evidence",
+        "verdict": "partial",
+        "report_field": "claims.0.reasoning_summary",
+        "report_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无底部款识支持",
+        "basis": "拍底部可补充未见信息，但把欠证主要收缩成无款识；补证请求又称底款可区分官民，现有材料没有建立这一判别充分性。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "observed_basis",
+        "verdict": "partial",
+        "report_field": "claims.1.reasoning_summary",
+        "report_excerpt": "器形与纹饰符合景德镇青花特征，但无款识佐证",
+        "basis": "提到器形与纹饰，但只给“符合景德镇特征”的结论，没有可回查的具体特征和窑口比较。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "inference_bridge",
+        "verdict": "inadequate",
+        "report_field": "claims.1.reasoning_summary",
+        "report_excerpt": "器形与纹饰符合景德镇青花特征，但无款识佐证",
+        "basis": "未从观察说明到景德镇窑的推断桥梁，也没有区别来源对象的登记窑口与本件候选。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "alternative_explanations",
+        "verdict": "inadequate",
+        "report_field": "alternatives.0",
+        "report_excerpt": "民窑仿品",
+        "basis": "两个仿品标签没有可见判别依据，未处理窑口候选的替代解释。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "missing_evidence",
+        "verdict": "partial",
+        "report_field": "claims.1.reasoning_summary",
+        "report_excerpt": "器形与纹饰符合景德镇青花特征，但无款识佐证",
+        "basis": "底部照片是可执行补证，但款识不是报告已论证的唯一窑口判据；未说明还需什么已核材料才能改变候选。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "observed_basis",
+        "verdict": "partial",
+        "report_field": "claims.2.reasoning_summary",
+        "report_excerpt": "装饰布局与Met馆藏18.61.4一致，但无款识支持",
+        "basis": "第一观察有山水题材，第二观察有花篮题材，但这里只关联第一观察；“布局一致”没有列出分区、几何和纹饰细节。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "inference_bridge",
+        "verdict": "inadequate",
+        "report_field": "claims.2.reasoning_summary",
+        "report_excerpt": "装饰布局与Met馆藏18.61.4一致，但无款识支持",
+        "basis": "已可见的描述性装饰题材不以款识为前提；不能用“无款识”代替风格观察，也不能用未看图的Met比较建立一致性。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "alternative_explanations",
+        "verdict": "inadequate",
+        "report_field": "alternatives.0",
+        "report_excerpt": "民窑仿品",
+        "basis": "列仿品标签不解释可见装饰风格的范围、题材差异或布局比较，不构成相关替代解释分析。 阅评为非专家AI标签，不是归属正确率。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "missing_evidence",
+        "verdict": "inadequate",
+        "report_field": "claims.2.reasoning_summary",
+        "report_excerpt": "装饰布局与Met馆藏18.61.4一致，但无款识支持",
+        "basis": "风格理由以款识不足作为主要阻碍，补底款不直接核清山水/人物细节、花篮及布局；应说明待核的是哪些装饰区域与比较细节。 阅评为非专家AI标签，不是归属正确率。"
+      }
+    ]
+  },
+  "semantic_status": "supplied_labels_only",
+  "reviewer_identity_authenticated": false,
+  "expert_validation_established": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "denominator_policy": "未评项目保留在total_items；图像无法判断等not_assessable保留计数、排除条件分母。partial计入分母且不计为完全支持。引用按人工明确的目标类型分别计数，未映射引用另报覆盖。",
+  "limitations": [
+    "只核对提交的保存记录和阅评标签，未认证宿主记录或阅评者身份。",
+    "不会从来源、款识、器物名称或专家标签生成图像事实。",
+    "文字支持分数以已送达段落和所选目标为条件；不等于本器物归属已证实。",
+    "图像访问由阅评者声明；工具未读取图像或核验实际阅评行为。"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "request_index": 2,
+  "messages_sha256": "3969fcb5cffc44dce9a1950e465f988af435f977caa76e7584e59ff1ca9c5909",
+  "message_bytes": 398985,
+  "timeout_seconds": 90,
+  "response_sha256": "7812acbabfea85719590c1ca58b712571b943c6366e8a4be623aaa139c433114",
+  "response_text": "{\"actions\": [{\"tool\": \"retrieve_references\", \"arguments\": {\"query\": \"青花六方花觚 康熙 山水 博古 缠枝莲\"}}]}",
+  "usage": {
+    "prompt_tokens": 13525,
+    "total_tokens": 13563,
+    "completion_tokens": 38,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 6.658
+}

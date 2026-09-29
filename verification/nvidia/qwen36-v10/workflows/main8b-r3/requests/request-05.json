@@ -1,0 +1,16 @@
+{
+  "request_index": 5,
+  "messages_sha256": "578922e8285b52e86cb5725b6105f01287e0e8baabac5b235a836ef42508f4b6",
+  "message_bytes": 400024,
+  "timeout_seconds": 90,
+  "response_sha256": "4dd95bf61b29f68d74954b89ab60b4fa05133775aa3f171a812708d73af3360e",
+  "response_text": "{\"actions\":[{\"tool\":\"load_skill\",\"arguments\":{\"name\":\"bluewhite-attribution-test\"}}]}",
+  "usage": {
+    "prompt_tokens": 15575,
+    "completion_tokens": 20,
+    "total_tokens": 15595,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 8.082
+}

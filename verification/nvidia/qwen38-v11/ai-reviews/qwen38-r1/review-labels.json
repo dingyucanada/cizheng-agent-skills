@@ -1,0 +1,178 @@
+{
+  "schema_version": "claim-support-review-v1",
+  "run_input_sha256": "81ac24e7fd0408484441129bc3dd6a5b7e1a16f9d5476f83a291071974f1ea3a",
+  "packet_sha256": "df280b345063c221a16668dbf8eca7616334a941b553ac4e4ccd1a86bd61dffc",
+  "reviewer": "Codex AI：共享开发上下文；非盲评、非专家；独立阅读本轮原件，实际查看两张哈希匹配原图",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "independent_of_model": false,
+  "observations": [
+    {
+      "observation_id": "obs_476fe888baec482b9c1f3a41ec469850",
+      "image_access": "original_pixels",
+      "reviewed_media_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "visible_verdict": "partial",
+      "region_verdict": "partial",
+      "reviewer_region": [
+        0.225,
+        0.175,
+        0.765,
+        0.853
+      ],
+      "basis": "原图可见白底蓝色装饰、外撇口沿、收束的长器身、中心开光的山石树木与水景，以及上部花卉装饰。具体器用“筒瓶”、树种“松”和严格纹样分类未由此次AI像素检查确证，故只部分接受可见描述。interpretation中的“典型清代官窑风格”是额外归属推断，未提供可区分时期或官民的依据；该问题与visible判定分开记录。全图框包含大量背景，覆盖器物但没有定位具体观察；阅评框为AI手工近似，IoU只描述重叠。单张只见一侧，底面及款识未显示，不能说本轮只看过一张。"
+    },
+    {
+      "observation_id": "obs_92220786f68347988d7e3575158ec467",
+      "image_access": "original_pixels",
+      "reviewed_media_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "visible_verdict": "incorrect",
+      "region_verdict": "partial",
+      "reviewer_region": [
+        0.225,
+        0.173,
+        0.77,
+        0.854
+      ],
+      "basis": "中心可见带提梁、花叶和底座的篮状花卉构图；没有清楚辨认出模型所称“瓶、书卷等器物”。另一视角及上部装饰相近有依据，但主要对象细节错误，故判为incorrect；不据此认证博古纹类别的领域定义。interpretation“寓意吉祥”未列可核的图像或文献桥梁。全图框覆盖器物也包含背景，未定位被误读的中心纹饰。可见底部外缘，未见底面/胎土/底款；“未见底足”需明确所缺视角，不能把尚未拍到的细节当存在。"
+    }
+  ],
+  "observation_links": [
+    {
+      "link_id": "link-b6e293ad965e39585222",
+      "relation": "partial",
+      "claim_excerpt": "仅见两面纹饰，无底足款识",
+      "visible_excerpt": "口沿外撇，腹部开光绘山水松石",
+      "basis": "第一图只显示侧面装饰，部分支持尚缺底面视角这一谨慎边界；“两面”还需第二观察与本轮交付记录。该观察没有解释为什么应专门比较康熙与后世仿，不能支持官窑归属或把无款识变成唯一时期判据。candidate是未能判断，本标签不把它改成时代结论。"
+    },
+    {
+      "link_id": "link-6077117ccd2170d79972",
+      "relation": "does_not_support",
+      "claim_excerpt": "无胎釉实物与可靠参照，不能确认景德镇窑口",
+      "visible_excerpt": "含瓶、书卷等器物",
+      "basis": "被引用的可见文字描述装饰对象且与实际中心花篮图像不符，没有可区分窑口的胎釉或比较信息。没有实物和参照可作为本轮全局限制，但不是这条纹饰观察证明的事实。仍保留未能判断状态，不评价未知窑口是否正确。"
+    },
+    {
+      "link_id": "link-f52fd6936e640d76d2df",
+      "relation": "partial",
+      "claim_excerpt": "青花开光山水博古",
+      "visible_excerpt": "腹部开光绘山水松石",
+      "basis": "第一图可部分支持蓝白装饰、开光和山水这一描述性部分；不能由它支持另一图的“博古”细节或完整候选。这里只审核模型确实声明的观察关系，不建立新的引用或归属。"
+    },
+    {
+      "link_id": "link-0f32a70ea1e644344872",
+      "relation": "does_not_support",
+      "claim_excerpt": "青花开光山水博古",
+      "visible_excerpt": "腹部开光绘博古纹，含瓶、书卷等器物",
+      "basis": "模型观察与候选在文字上重复“博古”，但像素检查没有核清其瓶、书卷细节，中心更直接可见篮状花卉构图；重复同一误读不构成支持。这个标签只评本次支持链，不认证纹样领域分类或时代。"
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": "citation-0",
+      "target_field": "reference_comparison",
+      "target_kind": "source_statement",
+      "relation": "supports",
+      "target_excerpt": "Met18.61.4仅作来源上下文。",
+      "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "source_excerpt": "这些标签不得自动赋给其它外观相似器物。",
+      "basis": "在已送达的项目原创馆藏记录摘要条件下，来源仅作背景、不能迁移归属的边界有正文支持。原报告没有在此转述具体年代/材质等馆方背景，不能把这个肯定标签解释为它已完成实质来源转述。未独立核验官方网页或本件身份。原模型只声明全局source_context；未把该引用自动挂到三条claim，本轮也不虚构逐条citation_target。"
+    }
+  ],
+  "reasoning": [
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "仅见两面纹饰，无底足款识，不能定康熙或后世仿。",
+      "basis": "两张侧面照片及没有底面款识是可回查限制，理由没有列出与时期有关的可区分特征。外缘可见，应把未见底足明确为未见底面/胎土/款识，而非整器底部均不可见。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "inference_bridge",
+      "verdict": "partial",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "仅见两面纹饰，无底足款识，不能定康熙或后世仿。",
+      "basis": "最终没有断言时期，谨慎状态有用；但未说明观察如何形成康熙/后世仿的候选范围，以及哪些补证结果会改变范围。来源记录中的时代不能作为这个范围已获图像支持的证明。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "alternatives.0",
+      "report_excerpt": "康熙本朝官窑青花",
+      "basis": "列出康熙本朝官窑与后世仿古两项，没有可核的选择理由或排他性依据；未说明为什么这两项足够覆盖本轮时期不确定性。AI不替它增加时代候选或断代结论。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "missing_evidence",
+      "verdict": "partial",
+      "report_field": "evidence_request.distinguishes",
+      "report_excerpt": "底足胎釉、款识及修足可区分康熙官窑与后世仿品。",
+      "basis": "补拍底面、微距与比例尺是可执行步骤，但本轮材料没有建立这些特征足以区分指定两类的判别规则。“可区分”应保留为待核的判别假设；本标签不声称款识单独可以或不可以确定某年代。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "无胎釉实物与可靠参照，不能确认景德镇窑口。",
+      "basis": "没有实物检查、参照返回为空是运行限制；理由明确不能确认，而非用装饰直接断窑。其support却关联第二图的误读，缺少与窑口有关的观察对应性。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "inference_bridge",
+      "verdict": "partial",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "无胎釉实物与可靠参照，不能确认景德镇窑口。",
+      "basis": "拒绝确认窑口的边界合理，但未解释为什么围绕景德镇提出问题、什么特征和参照能改变判断。不能从同轮来源对象标签代替本件的桥梁。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "alternatives.0",
+      "report_excerpt": "康熙本朝官窑青花",
+      "basis": "共享替代项谈本朝官窑与仿古，没有对窑口候选、可比较材料或区分证据进行分析。不给未知窑口正确率。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "missing_evidence",
+      "verdict": "partial",
+      "report_field": "evidence_request.distinguishes",
+      "report_excerpt": "底足胎釉、款识及修足可区分康熙官窑与后世仿品。",
+      "basis": "底面可提供更多材料，但该补证目标是康熙官窑与仿品，未具体说明怎样核查或区分景德镇窑口；实物与可靠参照的缺口仍未被单张底部照片必然补齐。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "可见开光山水博古纹，但无已看图参照，风格归属欠证。",
+      "basis": "蓝白、开光、山水部分可见；博古/瓶书卷来自第二观察的未经核清细节。两观察已被关联，但数量覆盖不能消除主要纹饰误读。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "inference_bridge",
+      "verdict": "inadequate",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "可见开光山水博古纹，但无已看图参照，风格归属欠证。",
+      "basis": "将style降为insufficient修复了参照合同，仍直接把误读的博古当可见事实。描述题材与进一步风格归属需要分开；无已看参照不能使错误题材成立，也不妨碍谨慎描述已经可见的山水和篮状花卉。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "alternatives.1",
+      "report_excerpt": "后世仿古青花",
+      "basis": "仅列年代/官窑/仿古标签，没有考虑中心纹饰本身的替代识读，也没有比较图像细节或风格范围。 此项为非专家AI标签，不是专业正确率。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "missing_evidence",
+      "verdict": "partial",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "无已看图参照，风格归属欠证。",
+      "basis": "明确缺少已看图参照有用；现有补证只请求底足款识，不能直接核清第二图中心的篮状构件与“瓶、书卷”识读，需要说明待核的装饰区域和比较目标。 此项为非专家AI标签，不是专业正确率。"
+    }
+  ]
+}

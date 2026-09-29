@@ -1,0 +1,35 @@
+{
+  "at_unix_ns": 1790673773150173286,
+  "fixed_old4b_ready": true,
+  "container_id": "1c963f41f4c1e844de77113eaa26f1b61c9e994a25bdd982c442a447e5d4acc5",
+  "image_id": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+  "started_at": "2026-09-29T09:17:04.410316059Z",
+  "model_ids": [
+    "Qwen3-4B-Instruct-2507"
+  ],
+  "services": [
+    {
+      "port": 8005,
+      "http_status": 200
+    },
+    {
+      "port": 8780,
+      "http_status": 200
+    },
+    {
+      "port": 8006,
+      "http_status": 200
+    },
+    {
+      "port": 8007,
+      "http_status": 200
+    },
+    {
+      "port": 8003,
+      "http_status": 200
+    }
+  ],
+  "new27_attempt01_ready": false,
+  "existing_cases_and_native_main_identity_preserved": true,
+  "scope": "current readiness after failed new27 load; historical 4B GPU trace has a different earlier process/start time"
+}

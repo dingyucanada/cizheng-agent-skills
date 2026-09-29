@@ -1,0 +1,16 @@
+{
+  "request_index": 2,
+  "messages_sha256": "283043f2789b1b629c91ff9f5b546ab268dd7823e41c84e0873ad0b058de0bc9",
+  "message_bytes": 397383,
+  "timeout_seconds": 90,
+  "response_sha256": "5f777fd819ee52727b60c834a3a405547e1b3e304937f82506200dafc4c27948",
+  "response_text": "{\"actions\":[{\"tool\":\"retrieve_references\",\"arguments\":{\"query\":\"bluewhite_gu\"}}]}",
+  "usage": {
+    "prompt_tokens": 14757,
+    "completion_tokens": 19,
+    "total_tokens": 14776,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 7.565
+}

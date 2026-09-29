@@ -1,0 +1,78 @@
+{
+  "schema_version": "ai-review-public-metadata-derivative-v1",
+  "author": "Codex AI",
+  "expert_validation": false,
+  "blind_review": false,
+  "independent_of_model": false,
+  "metadata_derivative": true,
+  "original_bytes": false,
+  "original_manifest_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+  "public_run_directory": "verification/nvidia/qwen38-v11/workflows/qwen38-r1",
+  "original_public_run_files_sha256": {
+    "claim-support-audit.json": "f91bec3b5891b8a2c1dee374b1a0f165b017beecff819a04df4d1c07d1f706fa",
+    "final-run.json": "da89fa8c6f534f1a2ed5f01f844a130e4ca4268b2a83d40eb73e51c19146f5e4",
+    "requests/request-01.json": "fe3c58ad42239c0f7f5b9b0948cffb1490e00270f829a989ace60404824af9c0",
+    "requests/request-02.json": "38b261fc4d68d99140c89c76135d0f03c8f32a5b6e72e419e0a256671ae90ae3",
+    "requests/request-03.json": "18c7afd56f040a949be8577e547d46c30e320c174e5fba94c4cb72b2c2516b35",
+    "requests/request-04.json": "4e5631170fd49e48c8736006817f0a6d97e477377e9aa1d4d94e2155484280a1",
+    "requests/request-05.json": "5193707c358b1ca03a396931424f8e2dc33971b8a0c956576271161a3cb2771f",
+    "requests/request-06.json": "6a9966d17fcab3a18ea0be9e130a0d39a96cb953f8655527b11bcefaa770ae42",
+    "review-template.json": "40675cb0d3ddecf7bda0ca9d180d345db0bb3a14bc9b7416b1f9dedf16fe3fac",
+    "summary.json": "2c25b22ab57db29584746e67b9a54c5a25fe250652adec8c7776ad5b3c32e6d8"
+  },
+  "files": [
+    {
+      "path": "review-labels.json",
+      "sha256": "9445f2d3adbd5fd1e4c536468702884e9e44993416267b0e6dd8c735fc2eed23",
+      "bytes": 11697,
+      "private_sidecar_sha256": "9445f2d3adbd5fd1e4c536468702884e9e44993416267b0e6dd8c735fc2eed23",
+      "original_sidecar_bytes": true,
+      "metadata_derivative": false
+    },
+    {
+      "path": "reviewed-audit.json",
+      "sha256": "1a804a0f9ade5f2daabb1bbfbf10fb258c0e703b9a66fdf857088eb3e34bc79d",
+      "bytes": 26362,
+      "private_sidecar_sha256": "1a804a0f9ade5f2daabb1bbfbf10fb258c0e703b9a66fdf857088eb3e34bc79d",
+      "original_sidecar_bytes": true,
+      "metadata_derivative": false
+    },
+    {
+      "path": "analysis.json",
+      "sha256": "18bb2dd080e4086aec1d3b8c8eb93b9478fea2c9c5da8192fc53cd10cc6546e3",
+      "bytes": 14067,
+      "private_sidecar_sha256": "6eb5b6e66b93cb503a5c4b8554eb24d06d7c583cbdcf111f1f17fb5d3e24cda7",
+      "original_sidecar_bytes": false,
+      "metadata_derivative": true
+    },
+    {
+      "path": "analysis.md",
+      "sha256": "c86f728b77b63f62059c035524fec918f50dc5799b46a1e9b3701992946957d4",
+      "bytes": 3263,
+      "private_sidecar_sha256": "b7591e294f931223bb79b2d675a4ff8c836b52869d5ce06bf0759aac36e195c6",
+      "original_sidecar_bytes": false,
+      "metadata_derivative": true
+    }
+  ],
+  "original_images_sha256": {
+    "site/assets/met-48607.jpg": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+    "site/assets/met-48607-view2.jpg": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+  },
+  "metadata_removed": [
+    "本机绝对路径",
+    "私有数据库文件名及SHA摘要",
+    "源私有目录地址"
+  ],
+  "metadata_changes_only": [
+    "analysis.json仅将图像元数据file改为公开仓库相对路径",
+    "analysis.md仅去除AI核查末段的母本数据库元数据说明",
+    "manifest重新生成公开派生关系并保留原manifest SHA，不导出私有数据库摘要"
+  ],
+  "model_text_changed": false,
+  "review_labels_changed": false,
+  "reviewed_packet_changed": false,
+  "sidecar_freeze_time_note": "原侧车关于one-shot文件未变的记录对应侧车生成时点。其后仅当前evals/source_repair_probe/README.md追加评测依赖说明；source-r6-probe-01旧冻结快照未改，不用新文档伪称实际运行快照。",
+  "scope": "本机已取得的公开Met图像真实运行之AI侧车；非盲评、非专家，不含数据库、不含像素base64、不评未知真伪/归属正确率。",
+  "new_model_requests": 0,
+  "new_spark_reads_or_exports": 0
+}

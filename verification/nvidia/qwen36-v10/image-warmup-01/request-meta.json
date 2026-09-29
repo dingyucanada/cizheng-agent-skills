@@ -1,0 +1,18 @@
+{
+  "payload_sha256": "e140c3392022074a8b31f7e34c1eba2d099c5b4486f9b92af2899336711cd4a9",
+  "bytes": 290297,
+  "model": "Qwen3.6-35B-A3B-NVFP4",
+  "images": [
+    {
+      "input_id": "photo-1.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "bytes": 107321
+    },
+    {
+      "input_id": "photo-2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "bytes": 109880
+    }
+  ],
+  "scope": "public image first-use warmup; not expert validation"
+}

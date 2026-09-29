@@ -2,9 +2,11 @@
 
 **陶瓷证据研究 Agent：从实物照片，到可以交接的专业案卷。**
 
-面向博物馆编目、收藏档案与拍卖图录准备。瓷证把原图、区域观察、资料段落、研究方法和逐项理由放到同一份案卷里，找到矛盾，说明需要补充的材料，保留每一次判断如何改变。AI 负责观察与证据整理，专家负责专业复核。
+面向博物馆编目、收藏档案与拍卖图录准备。瓷证把原图、区域观察、资料段落、研究方法和逐项理由放到同一份案卷里，找到矛盾，说明需要补充的材料，保留每一次判断如何改变。AI 负责观察与证据整理，案卷供专业人员继续复核。
 
-[阅读完整图文报告书](https://dingyucanada.github.io/cizheng-agent-skills/report.html) · [下载完整 PDF](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-report-v08.pdf) · [免上传完整体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html) · [快速筛查体验](https://dingyucanada.github.io/cizheng-agent-skills/triage.html)
+本作品以独立个人项目报名。主视觉、资料检索、独立推理与案卷后端均有实际 Spark 运行记录；本轮新增可下载的逐条理由核查包，以及35B、27B双图候选工作流。
+
+[阅读完整图文报告书](https://dingyucanada.github.io/cizheng-agent-skills/report.html) · [下载图文报告 PDF](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-report-v08.pdf) · [免上传完整体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html) · [快速筛查体验](https://dingyucanada.github.io/cizheng-agent-skills/triage.html)
 
 [![瓷证完整报告书封面：实物照片、专业研究工作流与Spark本地计算](site/report-assets/report-cover.jpg)](https://dingyucanada.github.io/cizheng-agent-skills/report.html)
 
@@ -15,10 +17,20 @@
 | 文档 | 本页内容 | 完整说明 |
 |---|---|---|
 | **项目说明文档** | [作品特点、技术实现、架构与优化](#项目说明文档) | [项目说明](docs/project-overview.md)：业务场景、研究步骤、创新机制、实现与验证 |
-| **部署说明** | [免模型本机启动与 Spark 连接](#部署说明) | [部署指南](docs/deployment-guide.md)：五项实际服务、依赖、启动脚本、模型优化、Skills 与检查顺序 |
+| **部署说明** | [免模型本机启动与 Spark 连接](#部署说明) | [部署指南](docs/deployment-guide.md)：本机试用、Spark 业务与历史独立验收、依赖、启动脚本和检查顺序 |
 | **技术栈说明** | [实际组件及架构图](#技术栈说明与系统架构) | [技术栈清单](docs/technology-stack.md)：NVIDIA SDK / 版本 / 模型、StepFun 与各自接入范围 |
 
 完整开源交付包含前后端、七个 `SKILL.md` 方法包、部署脚本、教学素材、测试、图文报告及视频。[中文路演 PPT](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pptx) · [路演 PDF](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pdf) · [使用说明](docs/user-guide.md)
+
+## 逐条核查观察、理由与引用
+
+在专业工作台的视觉报告中，点击支持或冲突观察可回到原图区域；“待核查线索”保留候选和模型原理由。每轮全局资料引用单独展示，打开固定段落核对它究竟支持馆方记载、方法，还是本件推断，不自动附挂到所有主张。
+
+“逐条理由核查 / 下载核查包”取得当前选定轮次的完整 JSON：本案图像身份、逐图描述、主张和观察关系、实际送达的许可正文，以及绑定本轮与审核包哈希的空白阅评模板。正文导出先核对冻结快照、案件固定版本、段落归属和准确送达记录；未阅评项目的语义分数保持空值，不自动生成置信度或真品率。
+
+[图文演示：从观察点回原图与理由](https://dingyucanada.github.io/cizheng-agent-skills/report.html#reasoning-audit) · [免上传教学案的图片与资料定位](https://dingyucanada.github.io/cizheng-agent-skills/demo.html?case=met-48607) · [核查协议与接口](evals/CLAIM-SUPPORT-AUDIT.md) · [8B与35B真实工作流原件](verification/nvidia/qwen36-v10/workflows/) · [27B首轮工作流原件](verification/nvidia/qwen38-v11/workflows/qwen38-r1/) · [27B AI阅评（共享开发上下文、非专家）](verification/nvidia/qwen38-v11/ai-reviews/qwen38-r1/analysis.md) · [冻结输入源码包](verification/nvidia/qwen36-v10/source-snapshots/index.json)
+
+教学案便于亲手操作，真实模型结果在原件中另行呈现。8B 主视觉服务保持运行，新增r6保存了逐图观察、候选原理由和来源上下文引用，供逐条审阅依据、反例与补证；一次流程完成不代表鉴定认证或准确率。官方 Spark ARM64 Model-Free NIM 的35B与27B独立视觉候选均已完成真实双图与完整案卷工作流，原观察、理由及来源引用可回查；候选没有替换8B主视觉。[模型选择、运行耗时和版本记录](docs/spark-models-and-reasoning-v10.md)
 
 ## 一件器物，三种专业工作的交接
 
@@ -38,7 +50,7 @@
 
 技术实现采用 Python / FastAPI 案卷后端、浏览器工作台、SQLite 固定资料版本和本地 OpenAI 兼容视觉接口。七个领域 Agent Skills 把编目、青花比较、状况、来源、文字凭据和补证修订变成具体工具步骤。宿主先提供技能描述，按任务加载正文和参考资源，记录整包哈希、工具权限及预算。Skill 文件承载研究方法，程序执行原图查看、正文读取和记录校验，模型负责观察及有限判断。
 
-架构以 DGX Spark 本地视觉和资料处理为中心。主视觉服务使用 Qwen3-VL-8B BF16，NeMo Agent Toolkit 核对引用的资料版本、段落、哈希与成功读取回执；获批公开或脱敏文字可进入 StepFun 反证审查，再交回本地模型重新看图和修订。另有真实部署的 NIM 标准文字接口、TensorRT-LLM 文字服务及 NVIDIA Embedding＋cuVS 检索服务，它们在独立范围验收后再评估业务接入。
+架构以 DGX Spark 本地视觉和资料处理为中心。主视觉服务使用 Qwen3-VL-8B BF16，NeMo Agent Toolkit 核对引用的资料版本、段落、哈希与成功读取回执；获批公开或脱敏文字可进入 StepFun 反证审查，再交回本地模型重新看图和修订。TensorRT-LLM 文字与 NVIDIA Embedding＋cuVS 检索已部署为独立旁路；NIM 文字 / 视觉候选按内存预算受控轮换，完成实验的原件保留，验收后再评估业务接入。
 
 优化围绕可解释结果和任务完成展开：规则筛查先比较六维记载，及时给出复核优先指数；协调器预读有限的本案材料，减少反复检索；结构约束解码与短动作协议控制输出形式，宿主继续检查证据、权限和版本。每轮设置调用与时间预算，超时、截断和未知信息保留为明确状态。新增照片或修订资料会使旧依据失效，避免历史意见被误当成当前结果。以上机制已有工程和实际运行记录，整案性能收益与专业效果以独立任务评测继续验证。
 
@@ -58,9 +70,11 @@
 
 ## 技术栈说明与系统架构
 
-![瓷证中文架构：多端采集进入本地Spark案卷；视觉、Skills、固定RAG资料、NAT和专业复核形成证据报告；StepFun只接收批准文字](site/report-assets/product-architecture-v09.svg)
+![瓷证当前中文架构：常驻8B主视觉、案卷、Skills与SQLite固定资料形成理由引用核查和补证；TRT文字与GPU检索为已部署旁路，NIM候选按内存预算轮换，StepFun只接收获准文字](site/report-assets/product-roles-v11.svg)
 
-DGX Spark 将多模态研究、模型服务、方法执行与案卷存储放在机构内计算节点。GB10 / CUDA 与共享内存支持视觉和独立文字、向量检索服务共存；模型、资料和运行身份可以固定。原图在指定本机保存和处理；外部 StepFun 只接收获批公开或脱敏文字。
+[当前角色图原件](site/report-assets/product-roles-v11.svg) · [保留的v09历史架构图](site/report-assets/product-architecture-v09.svg)
+
+DGX Spark 将多模态研究、模型服务、方法执行与案卷存储放在机构内计算节点。GB10 / CUDA 与共享内存承载常驻业务及受控候选试验；多模型运行遵守内存准入和原有保护合同，当前在线状态与历史验收分别记录。原图在指定本机保存和处理；外部 StepFun 只接收获批公开或脱敏文字。
 
 | 组件 | 在瓷证中承担的工作 | 接入范围 |
 |---|---|---|
@@ -71,7 +85,9 @@ DGX Spark 将多模态研究、模型服务、方法执行与案卷存储放在�
 | StepFun / stepaudio-2.5-tts | 18个公开讲稿段落的中文演示旁白，按实际词时间戳对齐字幕 | Demo制作；官方儒雅男士音色、从容结尾、原创中国风轻配乐与固定画面，[回执与复现](verification/media/stepfun-demo-v11/index.json) |
 | TensorRT-LLM 1.3.0rc13 | 固定官方 ARM64 / Qwen3-4B-Instruct-2507 文字推理与 CUDA 轨迹 | 已部署独立文字端点；PyTorch backend，未生成序列化 TRT engine |
 | NVIDIA Embedding + cuVS 26.8.1 | `llama-nemotron-embed-1b-v2` / 2048 维 CUDA 索引，实际中文查询 | 已部署独立检索；主案卷保留 SQLite 固定正文路径；非完整 Retriever SDK 管线 |
-| NVIDIA NIM · Spark 分发 2.1.8 | 官方 Spark ARM64 Model-Free NIM / Qwen3-4B BF16，原厂 SDK 服务入口 | 已部署独立标准文字接口；nim_sdk 0.12.7 / SGLang 0.5.16；实际请求与 CUDA 绑定 [回执](docs/nim-v09-update.md) |
+| NVIDIA NIM · Spark 分发 2.1.8 | 官方 Spark ARM64 Model-Free NIM / Qwen3-4B BF16，原厂 SDK 服务入口 | 已完成独立文字接口验收，现按内存预算轮换；nim_sdk 0.12.7 / SGLang 0.5.16；实际请求与 CUDA 绑定 [回执](docs/nim-v09-update.md) |
+| NVIDIA NIM · Qwen3.6-35B-A3B-NVFP4 | 官方 Spark ARM64 Model-Free NIM 加载固定 NVIDIA 官方 NVFP4 权重，实际双图、完整案卷工作流及绑定CUDA片段 | 已完成8008独立视觉候选部署与实跑，原件保留；候选按内存轮换，8B主流程保持；[本轮记录](docs/spark-models-and-reasoning-v10.md) |
+| NVIDIA NIM · Qwen3.8-27B-NVFP4 | 官方 Spark ARM64 Model-Free NIM独立视觉候选；实际双图与完整案卷工作流 | 已完成8009独立视觉候选首轮；保存2条观察、3项欠证意见及来源上下文，纹饰错误保留；[原件](verification/nvidia/qwen38-v11/workflows/qwen38-r1/) |
 | Nsight Systems 2025.3.2 / PyTorch Profiler | Nsight 采集限定双图视觉区间；独立 TensorRT-LLM 与 NIM 文字请求使用 PyTorch / SGLang Profiler 核对前八步 CUDA | 各自绑定原请求；不将单次采样称为整案提速 |
 
 新推理与检索服务按独立范围验收，未经业务验证的候选不自动替换主流程。真实 AI 案卷保留双图观察、初稿、批准文字审查、本地修订、两版引用核查和六份导出，原始记录可回查；独立专家样本评价和同预算方法对照列入后续计划。
@@ -100,13 +116,17 @@ DGX Spark 将多模态研究、模型服务、方法执行与案卷存储放在�
 
 ![博物馆桌面采集箱设计概念：受控光线、多视角、色卡与比例尺；未制造](site/report-assets/museum-capture-concept-v09.svg)
 
-后续路线聚焦专家样本评价、跨时间可比较采集和机构协作：经许可的专家反馈经过审核，形成离线训练材料；探索 NVIDIA FLARE 联合训练与 NeMo RL 后训练，再以独立保留集验证和版本发布。当前未建立联合训练网络、自动在线强化学习或专业实验室检测。
+后续路线聚焦专家样本评价、跨时间可比较采集和机构协作：经许可的专家订正先经过审核、按器物分组，再研究离线文字微调与独立保留集；可重复后探索NVIDIA FLARE联合训练，奖励模型与NeMo RL后训练另行验证。采集箱先研究同条件多视角、色卡与尺度的重复性，保留原图和校验帧。当前交付研究方案，尚未建立联合训练网络、自动在线强化学习或专业实验室检测。
+
+[机构联合训练、专家纠错与桌面采集箱研究路线](docs/research-roadmap-20260929.md)列出授权、器物分组、独立保留集、重复采集及候选发布条件；采集箱仍为概念与原型验证计划。
 
 Laya 保留 [离线文字影子适配入口](integrations/laya_router/README.md)，用于后续任务路由评估，默认禁用；Jev 属于浏览器操作 Agent，可研究获准公开目录采集。两者不用于制造文物真品概率。
 
 [设备接口与客户端](docs/device-capture.md) · [专家验证接入](docs/expert-validation-intake.md) · [部署与原始凭证](docs/spark-deployment-update-v08.md)
 
 ## 部署说明
+
+### 本地专业工作台
 
 要求 Python 3.11+。以下命令建立环境、导入教学材料并启动服务。`requirements-tested.txt` 固定实际测试依赖，`requirements.txt` 保留兼容范围。
 
@@ -122,7 +142,9 @@ python -m uvicorn cizheng.api:create_app --factory --host 127.0.0.1 --port 8780
 
 浏览器打开 `http://127.0.0.1:8780`。教学材料可重复导入，不覆盖后续人工修改，不请求模型。真实 AI 研究需另行配置视觉服务，见 [Spark 部署与验收](docs/spark-validation.md)、[模型选择](docs/model-selection.md) 与 [NVIDIA 集成复现](docs/nvidia-integration.md)。
 
-当前 Spark 已核验五项回环服务：**视觉 8005、案卷后端 8780、TensorRT-LLM 文字 8006、Embedding＋cuVS 检索 8003、NIM 文字 8007**。后端应用版本为 **0.7.0**。`deploy/local.env.example` 的视觉示例是 8001；接入当前节点时须同时覆盖 `CIZHENG_MODEL_URL=http://127.0.0.1:8005/v1` 和 `CIZHENG_SPARK_PORT=8005`。示例文件不会自动被应用读取，环境变量须在启动进程前导出。
+当前常驻业务为 **视觉 8005、案卷后端 8780、TensorRT-LLM 文字 8006、Embedding＋cuVS 检索 8003**；独立 NIM 按内存预算轮换。首次27B加载保护停止后，4B文字8007恢复；[已公开的历史健康快照](verification/nvidia/qwen38-v11/old4b-restoration-01/ready-receipt.json)记录2026-09-29 09:22:53 UTC五项服务均HTTP 200。该时间对应这份历史回执，候选在线与轮换记录另行核对。后端应用版本为 **0.7.0**。`deploy/local.env.example` 的视觉示例是 8001；接入当前节点时须同时覆盖 `CIZHENG_MODEL_URL=http://127.0.0.1:8005/v1` 和 `CIZHENG_SPARK_PORT=8005`。示例文件不会自动被应用读取，环境变量须在启动进程前导出。
+
+本轮理由核查接口与报告界面已实际部署到后端，20 个既有案件保持；已公开的92文件理由核查运行包包含冻结正文承诺和提示配置保护，实际已保存run的核查API通过。**35B 已完成 8008 独立 NIM 候选试验**，双图、完整工作流与GPU核查原件另存；候选端点按内存预算轮换，主视觉仍使用 8005。27B保留19文件权重SHA及CPU检查、v11/v12的34GiB保护停止和v13准入拒绝记录；这些早期尝试没有被后续结果覆盖。后续首轮工作流已保存6次调用、两条观察、三项欠证意见与来源上下文。完整工作流与GPU执行片段、在线恢复属于不同检查范围。32B 为尚未部署的纯文字候选。[固定候选配置与收据](deploy/qwen36-candidate/README.md) · [27B隔离试验与保护范围](deploy/qwen38-candidate-v11/README.md)
 
 [部署指南](docs/deployment-guide.md)分开说明本机无模型试用、Spark 主流程、独立候选服务、NAT / Skills 设计及模型优化。密钥通过私人进程环境提供；StepFun Plan 使用 `https://api.stepfun.com/step_plan/v1`。所有模型接口保持回环绑定，通过私人 SSH 转发访问，GitHub Pages 仅提供公开教学体验。
 
@@ -139,7 +161,7 @@ python -m uvicorn cizheng.api:create_app --factory --host 127.0.0.1 --port 8780
 
 ## 验证与复现
 
-新版筛查与采集接口已实际部署到 Spark：54 项节点定向合同测试、真实公开原图 HTTP 上传 / 回取逐字节一致。本机完整工程回归1120项通过、2项隔离 NAT 可选跳过，浏览器37项通过；这些测试检查软件行为，不是器物准确率。当前五项服务健康、应用版本与 StepFun 文字配置见 [新版部署记录](verification/software/v09/README.md)。
+上一轮筛查与采集接口已实际部署到 Spark：54 项节点定向合同测试、真实公开原图 HTTP 上传 / 回取逐字节一致。本机完整工程回归1120项通过、2项隔离 NAT 可选跳过，浏览器37项通过；这些测试检查软件行为，不是器物准确率。上一轮五项服务验收、应用版本与 StepFun 文字配置见 [v09部署记录](verification/software/v09/README.md)，本轮核查包、候选与内存轮换见[独立技术记录](docs/spark-models-and-reasoning-v10.md)。
 
 
 ```bash
@@ -153,6 +175,8 @@ npm run test:web
 历史 Spark ARM64 r15 工程回归为 **913 passed / 8 skipped / 1 warning，309.15 秒**；专项为 403 passed / 6 skipped / 1 warning，143.49 秒。原生生产服务仍为 r11；包含 8 项新增阶段 Schema 的原生测试在 r14 实测 147 passed / 1 warning，4.54 秒，生产代码与 r15 相同。这些工程检查均为 0 次 GPU 模型请求；公开核心、集成与测试 Python 文件另与实际 r15 部署清单逐 SHA 核对 86/86，范围不包含整个 Git 仓库。见 [工程记录](verification/nvidia/v07-workflows/engineering-checks-v07.json) 和 [源码一致性](verification/nvidia/v07-workflows/runtime-public-python-parity.json)。
 
 工程检查覆盖原件保留、跨案权限、资料版本、读取回执、预算、修订和导出。纯色图、脚本模型和模拟网络只用于软件合同，不衡量陶瓷鉴定能力。后续将纳入独立专家材料，并开展相应概率校准研究；接入字段与盲评流程见 [专家验证接入](docs/expert-validation-intake.md)。专业比较应固定模型、资料与预算，保留失败；少量个案不能推出行业准确率。
+
+本轮专家 Google Drive 图片目录尚未连通，没有取得该批照片或专家标签。公开 Met 双图用于真实流程与错因核查，不替代专家材料；AI 阅评单独标明角色及共享开发上下文。[实际运行、错误与阅评范围](docs/spark-models-and-reasoning-v10.md)
 
 [评测协议](evals/PROTOCOL.md) · [评测口径](BENCHMARK.md) · [专家材料接入](docs/expert-intake.md) · [报告与数字口径](docs/authenticity-and-scoring.md) · [受控工作流](docs/controlled-workflow.md)
 

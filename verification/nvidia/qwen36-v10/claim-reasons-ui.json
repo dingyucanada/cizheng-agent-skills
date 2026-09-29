@@ -1,0 +1,10 @@
+{
+  "asset": "site/report-assets/claim-reasons-live-v10.png",
+  "sha256": "d0e41d4c7a472e0436d90c90641238c80a6ed279d8480547f658ecef0e4adc6f",
+  "bytes": 329858,
+  "capture": "Actual readonly local frontend displaying the saved real Spark main8b-r2 run; two public Met input images",
+  "run_id": "run_9202197a39ee48d195ef54ac7cf746aa",
+  "model_output_rewritten": false,
+  "expert_validation": false,
+  "source_files_private": false
+}

@@ -1,0 +1,122 @@
+{
+  "scope": "Public metadata derivative of actual private CPU receipt; not an original receipt and not GPU validation",
+  "original_receipt_sha256": "76ee905472f67f8a6096af77452a44a5902b32e555ff02b30a8da6502f55cb89",
+  "omitted_source_text_fields": [
+    "integrated_memory_source.source",
+    "memory_formula.source",
+    "multimodal_config_forwarding.source"
+  ],
+  "receipt_metadata": {
+    "architectures": [
+      "Qwen3_5MoeForConditionalGeneration",
+      "Qwen3_5ForConditionalGeneration"
+    ],
+    "cpu_preflight": "passed",
+    "cuda_graph_disabled": true,
+    "gpu_initialized": false,
+    "gpu_model_requested": false,
+    "image_grid_thw": [
+      [
+        1,
+        32,
+        32
+      ],
+      [
+        1,
+        32,
+        32
+      ]
+    ],
+    "image_processor_class": "Qwen2VLImageProcessor",
+    "image_tokens_per_probe": [
+      256,
+      256
+    ],
+    "integrated_memory_source": {
+      "path": "/sgl-workspace/sglang/python/sglang/srt/utils/common.py",
+      "sha256": "306aff23e13cab35b93045032f5e089d6c791a675942566b77787f62d7b98fb1"
+    },
+    "kv_cache_argument": "auto",
+    "kv_cache_expected_dtype": "bfloat16",
+    "launch_profile_sha256": "1c8ea9059772c186e081f141501c191e6f40a0b0b54113bd50b445c6bd68c9df",
+    "memory_formula": {
+      "path": "/sgl-workspace/sglang/python/sglang/srt/mem_cache/kv_cache_configurator.py",
+      "sha256": "0a52dbdce05f7c649ed32ba6bdb7d9f02c293afa2428e50571e51a7b728408db"
+    },
+    "memory_formula_verified": true,
+    "mixed_quantization": {
+      "kv_cache_quant_algo": null,
+      "minimum_capability": 80,
+      "normalized": {
+        "quant_algo": "MIXED_PRECISION",
+        "quant_method": "modelopt_mixed"
+      },
+      "quantized_layers": 401
+    },
+    "multimodal_config_forwarding": {
+      "path": "/sgl-workspace/sglang/python/sglang/srt/multimodal/processors/base_processor.py",
+      "sha256": "809e6343122562237a329b2f14e82939dc0140a1df348a8ae5ca7fd05636c044"
+    },
+    "observed_gpu_kv_dtype": null,
+    "original_cpu_compatibility_sha256": "622dd9d519dc00a89aaa0e8130f9af30f12b2dda90f27d372dbb3471853de88c",
+    "original_nim_entrypoint_sha256": "bc8c7cca428dc1eb843752b518df7e8b5ecad747e315a764f9fb5512137f2e26",
+    "packages": {
+      "flashinfer-python": "0.6.14",
+      "sglang": "0.5.16",
+      "torch": "2.11.0+cu130",
+      "transformers": "5.12.1"
+    },
+    "parsed_arguments": [
+      "--dtype",
+      "bfloat16",
+      "--tp-size",
+      "1",
+      "--context-length",
+      "24576",
+      "--max-total-tokens",
+      "24576",
+      "--max-running-requests",
+      "1",
+      "--chunked-prefill-size",
+      "512",
+      "--mem-fraction-static",
+      "0.58",
+      "--kv-cache-dtype",
+      "auto",
+      "--fp4-gemm-backend",
+      "marlin",
+      "--attention-backend",
+      "flashinfer",
+      "--mm-attention-backend",
+      "sdpa",
+      "--linear-attn-backend",
+      "triton",
+      "--mamba-backend",
+      "triton",
+      "--mamba-radix-cache-strategy",
+      "no_buffer",
+      "--page-size",
+      "1",
+      "--max-mamba-cache-size",
+      "1",
+      "--disable-radix-cache",
+      "--disable-overlap-schedule",
+      "--disable-cuda-graph",
+      "--mm-feature-transport",
+      "cpu",
+      "--limit-mm-data-per-request",
+      "{\"image\":2,\"video\":0,\"audio\":0}",
+      "--mm-process-config",
+      "{\"image\":{\"size\":{\"shortest_edge\":4096,\"longest_edge\":262144}}}"
+    ],
+    "processor_class": "Qwen3VLProcessor",
+    "processor_size": {
+      "longest_edge": 262144,
+      "shortest_edge": 4096
+    },
+    "production_modified": false,
+    "requested_context_length": 24576,
+    "requested_max_total_tokens": 24576,
+    "speculative_algorithm": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source_sha256": "4dfbba8f5a472ac76d76d06bfdc68378b6fbe44934ada198c2fbbae9c26a86c2",
+  "source_files": 92,
+  "startup_sha256": "cca249f000a697e580fd58c895c01afa5fdd1bd41bdae6e513772aebd467f7f8",
+  "native_model_endpoint_preserved": true,
+  "existing_cases_preserved": true,
+  "ready": true,
+  "rollback_performed": false,
+  "citation_audit_actual_saved_run": true,
+  "old_backend_model_identity_unchanged": true,
+  "stored_cases": 20,
+  "semantic_scores_not_automatically_assigned": true
+}

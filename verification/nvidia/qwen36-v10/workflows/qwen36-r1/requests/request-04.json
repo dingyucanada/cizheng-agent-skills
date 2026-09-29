@@ -1,0 +1,21 @@
+{
+  "request_index": 4,
+  "messages_sha256": "3085d22e079a303a3a3d19b7db8908afcf7b31e43129a4d5f908bca48565bbe2",
+  "message_bytes": 397120,
+  "timeout_seconds": 90,
+  "response_sha256": "ee5cc0f548505b1ed9b42e7416bff8e55fa2edccaf8278554d0ad6315f99f998",
+  "response_text": "{\"actions\": [{\"tool\": \"load_skill\", \"arguments\": {\"name\": \"condition-hypothesis-test\"}}]}",
+  "usage": {
+    "prompt_tokens": 13011,
+    "total_tokens": 13037,
+    "completion_tokens": 26,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 4.445
+}

@@ -1,0 +1,347 @@
+{
+  "snapshot": "claim-workflow-r1",
+  "base_git_head": "199dac857ca4c4eb3dd7d6cbb2a36861e689516f",
+  "files": [
+    {
+      "path": "cizheng/__init__.py",
+      "sha256": "90562bbe6f3a2410dcf23b4eab896bd613d9fef494fc12e745e62d868c152d21",
+      "bytes": 76
+    },
+    {
+      "path": "cizheng/__main__.py",
+      "sha256": "0680486fe72b0596c9422653f5898327ab9209f58ab363e0524290d3b7df3a8c",
+      "bytes": 182
+    },
+    {
+      "path": "cizheng/agent.py",
+      "sha256": "14d94d2e4a148619f44ddad2b3f73cfe2bb3be89281c6f96ab7611b868592a22",
+      "bytes": 127815
+    },
+    {
+      "path": "cizheng/api.py",
+      "sha256": "ebd38fd08fb26ace8522c22fb8119a75a450404ce5da523aec705ce503b9e3a6",
+      "bytes": 24897
+    },
+    {
+      "path": "cizheng/business_records.py",
+      "sha256": "d5708f5738af217d57ec67c6d7466754ad4cf6cd19f9b9e8a6f604d03a43e50d",
+      "bytes": 20465
+    },
+    {
+      "path": "cizheng/claim_support_audit.py",
+      "sha256": "9c1b54f92e034f99909a20f0e72f53e9add54ef35828d93eb88386f7fae31074",
+      "bytes": 26886
+    },
+    {
+      "path": "cizheng/critic_eval.py",
+      "sha256": "56891595293a97b0a1fb2586b203f15d8e979ad2224cbe5d3490ffdd47ea1fea",
+      "bytes": 7205
+    },
+    {
+      "path": "cizheng/demo.py",
+      "sha256": "4f3c660a83300a881980ed1764d24043d063a0e76350d731356b82521a1388ce",
+      "bytes": 15360
+    },
+    {
+      "path": "cizheng/device_capture.py",
+      "sha256": "b1e790ae9b7a05034c360463d6fa37def22d66c8df2bd1b79a6edc38bcaa479c",
+      "bytes": 11030
+    },
+    {
+      "path": "cizheng/handoff.py",
+      "sha256": "860b71c6c3712be2f7aeec7e87525bb826cb86582887b8833ed42c8202de2faa",
+      "bytes": 7548
+    },
+    {
+      "path": "cizheng/import_case.py",
+      "sha256": "6d3475c3fdcafb4d7c4d5f7f2b929a4a8e2e3b244fc5d9cc77e4c2a092b0d722",
+      "bytes": 2520
+    },
+    {
+      "path": "cizheng/knowledge.py",
+      "sha256": "ea226ebae90896e0a24a8daf257e36e8b428a877d9f02c2891fd99a63e21f563",
+      "bytes": 30743
+    },
+    {
+      "path": "cizheng/knowledge_api.py",
+      "sha256": "c1bad3fcac4e8ca54ce1270a7a463090bea8bc70795f5477341f18c4358f4882",
+      "bytes": 2161
+    },
+    {
+      "path": "cizheng/knowledge_seed.py",
+      "sha256": "b6fe80f7af9ce5c758adba199691f6a146641d5b937c61b02411f05eac7229ea",
+      "bytes": 738
+    },
+    {
+      "path": "cizheng/laya_shadow.py",
+      "sha256": "75cc44cb2b67ca73820ae582a1a9b6d3c5ed0137c44d24c6dc737da5f2d1a8dc",
+      "bytes": 5562
+    },
+    {
+      "path": "cizheng/model_probe.py",
+      "sha256": "8ed85a01c6691272259ee5d4c9767e4750ff2e97048af51a5be11e9ff1b9b5db",
+      "bytes": 3115
+    },
+    {
+      "path": "cizheng/nvidia_runtime.py",
+      "sha256": "2eda66d237852797d9eb885e232edb862aca3b8138384f7969ca8e6d01ba84cb",
+      "bytes": 7966
+    },
+    {
+      "path": "cizheng/paired_eval.py",
+      "sha256": "b8338b360a971197f0aeb465a4c35233a5da8ea9bc4cb60562ada85ca3974070",
+      "bytes": 11478
+    },
+    {
+      "path": "cizheng/photo_report.py",
+      "sha256": "afc7a0cd52b92d3572373c22da094fa10ef854b0c843d3b21e7a4f3e8fea90ec",
+      "bytes": 5319
+    },
+    {
+      "path": "cizheng/preflight.py",
+      "sha256": "b333cb2c1d2a2aa9e76dfe06141e7c976b101fe735f4f27d26da971e6bd399de",
+      "bytes": 7081
+    },
+    {
+      "path": "cizheng/pro_workflow.py",
+      "sha256": "5db0cd542d275c72f90021fe4a4d9a939336bf4c9176e8c6328838f7b07f0beb",
+      "bytes": 14374
+    },
+    {
+      "path": "cizheng/reporting.py",
+      "sha256": "878226afe339d575db3b00bd1f3cc169c388746305ccb0581c8c444c57ad5302",
+      "bytes": 19602
+    },
+    {
+      "path": "cizheng/review_client.py",
+      "sha256": "54de5f11a0263332a5d58ffc996bf10ff4bcd76cb1ab166db1585f6201fd679e",
+      "bytes": 22227
+    },
+    {
+      "path": "cizheng/risk_triage.py",
+      "sha256": "02a390970297588761375ac8494814402c8f226d931d018d0fb3c08113114db5",
+      "bytes": 23655
+    },
+    {
+      "path": "cizheng/schemas.py",
+      "sha256": "8cfeb7d506ba384f49e4fa00b36da4d692f09aaa8fa551c20a74ed6c1e9f47f0",
+      "bytes": 15154
+    },
+    {
+      "path": "cizheng/skill_runtime.py",
+      "sha256": "1b70a77bc492d5d36d34f5ae4b14eb3d28490464d42d5b6952dfef506d3ee1f0",
+      "bytes": 4881
+    },
+    {
+      "path": "cizheng/store.py",
+      "sha256": "f299f67b39366c9fcfe99b9de423f34f2f7ea3a211a53fd36fb0c2598eb8393c",
+      "bytes": 32896
+    },
+    {
+      "path": "cizheng/trigger_eval.py",
+      "sha256": "c6b945517f53946eadbd54847468393bf25a2b5b029c659c7eee17e922548c84",
+      "bytes": 4474
+    },
+    {
+      "path": "cizheng/visual_tools.py",
+      "sha256": "89a9e2b71db4191aeb524f96807ee4285c7a4d39a635cdebf99d7a356a98afb0",
+      "bytes": 2665
+    },
+    {
+      "path": "evals/run_spark_claim_workflow.py",
+      "sha256": "a131d5ae8476c2cc425b450a9e08ea28f339da6803402b47202b4d95d731bd0d",
+      "bytes": 5946
+    },
+    {
+      "path": "inputs/photo-1.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "bytes": 107321
+    },
+    {
+      "path": "inputs/photo-2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "bytes": 109880
+    },
+    {
+      "path": "inputs/source-record.json",
+      "sha256": "f1d5ca43319f3721e780b0a4212405f31dd8c36f443ba2c46e5f99b9af42c3ab",
+      "bytes": 2476
+    },
+    {
+      "path": "knowledge/chinese-source-expansion.json",
+      "sha256": "1dcaf5d66a541d4bb348701f7efa6d0cd095688462c01d0a1447d0a1169563a9",
+      "bytes": 25996
+    },
+    {
+      "path": "knowledge/seeds.json",
+      "sha256": "613257e15b09f8a5d86edb7515ae98ee45ffb518364a67e7787364fbdae9ee6b",
+      "bytes": 39642
+    },
+    {
+      "path": "knowledge/source-provenance.json",
+      "sha256": "e5333d4174cee5cec1b067b402741476a029aacaa70bd6d3ae1cda54c9c65a89",
+      "bytes": 19323
+    },
+    {
+      "path": "skills/bluewhite-attribution-test/SKILL.md",
+      "sha256": "77d4d44a235707454fe72f988a5e2118dfa861179a460b128888fcbe6856fc28",
+      "bytes": 2767
+    },
+    {
+      "path": "skills/bluewhite-attribution-test/evals/evals.json",
+      "sha256": "fc17fad0c2c3c316967fe4563761ef2950175a01976155a08c2b41c7f9850a87",
+      "bytes": 1772
+    },
+    {
+      "path": "skills/bluewhite-attribution-test/references/comparison-method.md",
+      "sha256": "878041c3db065e914a0bf8193d17671bf32fcc2c9c45c9303675701b50619069",
+      "bytes": 1741
+    },
+    {
+      "path": "skills/bluewhite-attribution-test/skill-card.md",
+      "sha256": "09ae0a057d9db8dc5f30a645f6bdd3f8e2719878fee8042cf01245373e128110",
+      "bytes": 1311
+    },
+    {
+      "path": "skills/ceramic-research-record/SKILL.md",
+      "sha256": "867ac070d22b79482a5401f85570317b06513f85dc43e16d2e3c9d4dd8c0e71f",
+      "bytes": 2871
+    },
+    {
+      "path": "skills/ceramic-research-record/evals/evals.json",
+      "sha256": "3064453f3c400d5761aa6c5126f966cf0b32207632a6aaee7263ca7da6fcd007",
+      "bytes": 638
+    },
+    {
+      "path": "skills/ceramic-research-record/references/record-contract.md",
+      "sha256": "fae924547a6e4d67b9dc908f09b12af172bc5c9cf7af86d7d0795e9f2e917683",
+      "bytes": 1493
+    },
+    {
+      "path": "skills/ceramic-research-record/skill-card.md",
+      "sha256": "070c8d30fd405c6ab7f2ea62598bd3970dc927e683c711563fd307e2eddd4ff5",
+      "bytes": 884
+    },
+    {
+      "path": "skills/ceramic-route/SKILL.md",
+      "sha256": "6a6eb9328beb74c6bbc4b599b5f47b0d6b96060e2447e102f5809b13437ae8c2",
+      "bytes": 1851
+    },
+    {
+      "path": "skills/ceramic-route/evals/evals.json",
+      "sha256": "cc772a9348853535d789d10d2d86f6421db84b8c3c48e46c7a38c0a03933a88c",
+      "bytes": 3171
+    },
+    {
+      "path": "skills/ceramic-route/references/scope-and-capture.md",
+      "sha256": "28469b80d2ee9bef4d49be664dfbd6e0a1762e36d80c6d9615c938f96d7971a8",
+      "bytes": 996
+    },
+    {
+      "path": "skills/ceramic-route/skill-card.md",
+      "sha256": "9b44a3824d7155d096f7ba03b31d0a5c65103dbf84b8b4119c33158019281025",
+      "bytes": 1298
+    },
+    {
+      "path": "skills/condition-hypothesis-test/SKILL.md",
+      "sha256": "08f92a7c0a7eba528a438276e2caef9282fe88595d05f81c8b5256fb922fcabe",
+      "bytes": 1572
+    },
+    {
+      "path": "skills/condition-hypothesis-test/evals/evals.json",
+      "sha256": "0aee77c0739db06e5cfc5819071d810e11a88cb8f5b081d9d8dd13cd6392ad89",
+      "bytes": 1774
+    },
+    {
+      "path": "skills/condition-hypothesis-test/references/condition-evidence.md",
+      "sha256": "6a9db76d9aecf75f5f8750b617adb15285421d6c532215c9493ed8852e44b8c5",
+      "bytes": 841
+    },
+    {
+      "path": "skills/condition-hypothesis-test/skill-card.md",
+      "sha256": "2577bcb77ec951d66b98a0e7f51c74e180d7b415029ebb1c3f1c07cbeeecba53",
+      "bytes": 1310
+    },
+    {
+      "path": "skills/documentary-evidence-audit/SKILL.md",
+      "sha256": "7a71dae5e3f6e3eca52959ab00a25507128eb1958e79e8c97d42593b64f9c857",
+      "bytes": 3141
+    },
+    {
+      "path": "skills/documentary-evidence-audit/evals/evals.json",
+      "sha256": "88ee2376dc9846146b7cee31d48e1d9713d2395eef8b99662e511041892342a0",
+      "bytes": 1332
+    },
+    {
+      "path": "skills/documentary-evidence-audit/evals/run_contract_checks.py",
+      "sha256": "bffa1e4c2e06fdf601f22c14fe61a03d31186f354cc15e3fdeb5c5a57e95ef8e",
+      "bytes": 1810
+    },
+    {
+      "path": "skills/documentary-evidence-audit/references/documentary-contract.md",
+      "sha256": "c6b857b3e8c6b7c0b015f81ffcd705276404aebbace91f51090f5bf51c233f2b",
+      "bytes": 2955
+    },
+    {
+      "path": "skills/documentary-evidence-audit/skill-card.md",
+      "sha256": "3f9e8700fdf1f51bc9dfb95b893c96732b3901fa130e5c9df04cf48148a03bcb",
+      "bytes": 1593
+    },
+    {
+      "path": "skills/evidence-revise/SKILL.md",
+      "sha256": "4c69644c701d1702a2463c4d2845931a1a4c3d4df81182d4d1b1dacc66c94e96",
+      "bytes": 2125
+    },
+    {
+      "path": "skills/evidence-revise/evals/evals.json",
+      "sha256": "916787a76f6cf2f5df52dc083f538c8402700c6fc5f8b35499f3a1eb94cba783",
+      "bytes": 1702
+    },
+    {
+      "path": "skills/evidence-revise/references/revision-contract.md",
+      "sha256": "3fa1b9287f32c54544c89861760feaf175f55bae7917ba137a62977a4ac53fa5",
+      "bytes": 1204
+    },
+    {
+      "path": "skills/evidence-revise/skill-card.md",
+      "sha256": "f1bf19abec55f63e29c1c1197b5f101df737b5885835dc57a9eecf8b3fff69c6",
+      "bytes": 1300
+    },
+    {
+      "path": "skills/provenance-evidence-audit/SKILL.md",
+      "sha256": "e3fbd65c7ada45f7d0096dadef454ec2827dcc69f7c46c1e5edf37afe52a155d",
+      "bytes": 2060
+    },
+    {
+      "path": "skills/provenance-evidence-audit/evals/evals.json",
+      "sha256": "8190cd35e601c37cbdaa096a0f464bdf46751e50579a0e117a523f41658c0431",
+      "bytes": 641
+    },
+    {
+      "path": "skills/provenance-evidence-audit/references/provenance-contract.md",
+      "sha256": "9edd09a5b4b16f1f6584acfd2b1b517dbbbd1d38c718cdc52b4b3003d5f41d67",
+      "bytes": 820
+    },
+    {
+      "path": "skills/provenance-evidence-audit/skill-card.md",
+      "sha256": "8ddbb036d9070ddd3d29fa897a23e024913a9969cdc29b4bc2bebeea0b083ccd",
+      "bytes": 885
+    },
+    {
+      "path": "static/app.js",
+      "sha256": "f8ec2f9399eac44bc1528c08224a8d57360bb47eff6fdf6ca1f2771031ff5ddc",
+      "bytes": 100037
+    },
+    {
+      "path": "static/index.html",
+      "sha256": "9e0d3031d42244a2d573e888977ae8e765e05c0a71f2d4b955d645d236563ba3",
+      "bytes": 35371
+    },
+    {
+      "path": "static/style.css",
+      "sha256": "2e27e1a2669031f5240c0e5a956a953d3393c1e5f7d772462e10ffd2a55f329a",
+      "bytes": 34545
+    }
+  ],
+  "snapshot_sha256": "bc8b690d9c5e8f4a5cec7d59780ac031ce6017c7843ab2d4aecb80d311b53bd3"
+}

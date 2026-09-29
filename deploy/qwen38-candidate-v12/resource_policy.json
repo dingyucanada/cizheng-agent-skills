@@ -1,0 +1,53 @@
+{
+  "version": 3,
+  "strategy": "replace_owned_4b_text_experiment_preserve_four_business_services",
+  "model": "nvidia/Qwen3.8-27B-NVFP4",
+  "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+  "candidate_container": "cizheng-nim-qwen38-v12-attempt-02",
+  "candidate_port": 8009,
+  "minimum_available_bytes": 64424509440,
+  "minimum_system_buffer_bytes": 36507222016,
+  "retriever_existing_guard_bytes": 34359738368,
+  "retriever_guard_extra_buffer_bytes": 2147483648,
+  "retriever_watchdog_seconds": 2,
+  "runtime_overhead_estimate_bytes": 5368709120,
+  "runtime_overhead_includes_bf16_kv": true,
+  "runtime_overhead_is_measured": false,
+  "container_memory_limit_bytes": 42949672960,
+  "container_memory_swap_bytes": 42949672960,
+  "cli_profile_sha256": "70877257acccf1a287b21b80f170404460d760a1f52009a9c08c8fa189b58e04",
+  "legacy_profile_resource_metadata_is_superseded": false,
+  "baseline_endpoints": [
+    "http://127.0.0.1:8005/health",
+    "http://127.0.0.1:8780/api/status",
+    "http://127.0.0.1:8006/health",
+    "http://127.0.0.1:8003/v1/health/ready"
+  ],
+  "retired_nim": {
+    "name": "cizheng-nim-qwen4b-v09-attempt-04",
+    "container_id": "1c963f41f4c1e844de77113eaa26f1b61c9e994a25bdd982c442a447e5d4acc5",
+    "image": "tgcr-gz.turing-agi.com/public/nvidia/sglang-model-free-nim-spark@sha256:7d4aa1ac40b20583068c4ece1d274042c0a99e863fb25bd0450c2be1951841b9",
+    "image_id": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+    "model_name": "Qwen3-4B-Instruct-2507",
+    "model_path": "/models/qwen3-4b",
+    "host_port": 8007,
+    "identity_source": "evidence/nim-v09/container-before.json",
+    "identity_source_sha256": "dbce6568b97532a1a491e1be358a14fbd7b31f7ab9038d98bca02775560b73ad",
+    "actual_name_source": "tests/fixtures/retired-nim-actual-20260929.json",
+    "actual_name_source_sha256": "382f0687de404259ca0a8ca895e501da1fe012f4e16fb4f7455061e656ce66c9",
+    "actual_stopped_metadata_raw_sha256": "2ea2756d1cabcdbc6b2e66587ad3ff1e0aa86395149eeb8b53d89f23b1acb0ad",
+    "original_rotation_receipt_sha256": "5264e942fa77f5e4e09b84d2490baa704aae406c0d7b344ea1cb79bcfe2ed38e"
+  },
+  "automatic_service_stop_or_restore": false,
+  "caller_flags_allowed": false,
+  "gpu_execution_or_peak_proven": false,
+  "previous_resource_policy_sha256": "22e6647836b72e60394aa4b38ccfd7cd993010920f37dc32ab1727585698aeb5",
+  "previous_gpu_failure": "v11 attempt-01 34 GiB sampled guard stopped during multithread shard loading; preserved",
+  "model_loader_extra_config": {
+    "enable_multithread_load": false
+  },
+  "max_active_weight_loading_shards": 1,
+  "weight_loader_disable_mmap": false,
+  "weight_loader_prefetch_checkpoints": false,
+  "weight_loader_drop_cache_after_load": false
+}

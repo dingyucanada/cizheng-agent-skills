@@ -1,0 +1,21 @@
+{
+  "request_index": 1,
+  "messages_sha256": "7aa435a128db0a38e61168fbd76ec7adafd1352c0287cec6e6c37d0cdb2913ab",
+  "message_bytes": 355791,
+  "timeout_seconds": 90,
+  "response_sha256": "c6e113b7d29142bd3dfa68fb1a3e4f7c6db714e12100f5f7e80c59a2b57aea9b",
+  "response_text": "{\n  \"observations\": [\n    {\n      \"media_id\": \"media_b860d44153f745719e6f49f1a2fc1436\",\n      \"region\": [0.0, 0.0, 1.0, 1.0],\n      \"visible\": \"蓝白釉下彩，喇叭口直颈，器身分上下装饰带与中部开光。开光内绘山水树石，开光间饰卷草纹。\",\n      \"interpretation\": \"开光山水纹饰，布局规整。\",\n      \"limitation\": \"仅展示单面，其余面不可见。\"\n    },\n    {\n      \"media_id\": \"media_b9ee0b2475264c9082a878308ccd8ce4\",\n      \"region\": [0.0, 0.0, 1.0, 1.0],\n      \"visible\": \"蓝白釉下彩，器身中部开光内绘博古图，可见瓶、花等器物。开光间饰卷草纹。\",\n      \"interpretation\": \"开光博古纹饰，与山水纹相间。\",\n      \"limitation\": \"仅展示单面，其余面不可见。\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1263,
+    "total_tokens": 1573,
+    "completion_tokens": 310,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 9.486
+}

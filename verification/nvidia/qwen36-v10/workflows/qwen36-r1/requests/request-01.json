@@ -1,0 +1,21 @@
+{
+  "request_index": 1,
+  "messages_sha256": "91592f713dbf46de3b74bf80e28ee152e4b17a74d83f9888419ea96df6439e0d",
+  "message_bytes": 355004,
+  "timeout_seconds": 90,
+  "response_sha256": "a576c2b34b273ff94c00d8d94873c71d6a27648bd9543d3ce45b5f7fdb8c054b",
+  "response_text": "{\n  \"observations\": [\n    {\n      \"media_id\": \"media_36a03fbd718c462f9f3b4fc032db225f\",\n      \"region\": [0.0, 0.0, 1.0, 1.0],\n      \"visible\": \"青花六方笔筒，开光绘山水，边饰缠枝莲\",\n      \"interpretation\": \"器形规整，纹饰层次分明\",\n      \"limitation\": \"未见底足款识\"\n    },\n    {\n      \"media_id\": \"media_c7290edf12be4e008664da7c603f61ef\",\n      \"region\": [0.0, 0.0, 1.0, 1.0],\n      \"visible\": \"青花六方笔筒，开光绘博古图，边饰缠枝莲\",\n      \"interpretation\": \"博古纹寓意吉祥，风格典型\",\n      \"limitation\": \"未见底足款识\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1080,
+    "total_tokens": 1338,
+    "completion_tokens": 258,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 6.924
+}

@@ -1,0 +1,14 @@
+{
+  "at_unix_ns": 1790673424568673554,
+  "container_id": "1c963f41f4c1e844de77113eaa26f1b61c9e994a25bdd982c442a447e5d4acc5",
+  "old_name": "cizheng-nim-qwen4b-v09-attempt-04",
+  "previous_candidate_started": true,
+  "previous_candidate_ready": false,
+  "rejected_new27_stopped": true,
+  "four_business_services_before_http_200": true,
+  "memory_before_bytes": {
+    "MemAvailable": 69116166144
+  },
+  "model_id": "Qwen3-4B-Instruct-2507",
+  "old_image_cache_logs_preserved": true
+}

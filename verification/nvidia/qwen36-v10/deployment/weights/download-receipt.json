@@ -1,0 +1,97 @@
+{
+  "model": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+  "revision": "1355db6a052410cfd62085d94b58866fd0f2c3c5",
+  "all_files_verified": true,
+  "file_count": 17,
+  "total_file_bytes": 23462477857,
+  "files": [
+    {
+      "name": ".gitattributes",
+      "bytes": 1635,
+      "sha256": "d1a8f4a1d2e3787c5956393d9306365ebefe1912cb76828870682b1ab16f5c27"
+    },
+    {
+      "name": ".quant_summary.txt",
+      "bytes": 4752286,
+      "sha256": "bf884bde9da240fb35a435a6fb5bc3bc8d3222e5728c00199ce8f5bc8fcb2548"
+    },
+    {
+      "name": "README.md",
+      "bytes": 9936,
+      "sha256": "1ee59fc444f6935222966d9336d1b37c7a1f3bb237ad4a09793ecaa9b462e2ad"
+    },
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7764,
+      "sha256": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259"
+    },
+    {
+      "name": "config.json",
+      "bytes": 58110,
+      "sha256": "58aefa1c9eff7989f431d748f2ddec39446cb1fd2a69acc46e285c6a37b0cecc"
+    },
+    {
+      "name": "configuration.json",
+      "bytes": 58,
+      "sha256": "c1b09db419119513247e9b8b912c4b9897106c9b20c6cada7e107d993c5435eb"
+    },
+    {
+      "name": "generation_config.json",
+      "bytes": 202,
+      "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e"
+    },
+    {
+      "name": "hf_quant_config.json",
+      "bytes": 35085,
+      "sha256": "75fe7cc8d5836b58734e05ee67423a4ce91d602aaad45c8173a1b7597cd57663"
+    },
+    {
+      "name": "model-00001-of-00003.safetensors",
+      "bytes": 10006877608,
+      "sha256": "07141c2db92e47bc08777132cd1a0323faf300eab3a7d7c111bc2bf075fda050"
+    },
+    {
+      "name": "model-00002-of-00003.safetensors",
+      "bytes": 10003595752,
+      "sha256": "6dea9c759a0f941cf9e1cc1501216b0e107966a66c90425050e212efbd053f02"
+    },
+    {
+      "name": "model-00003-of-00003.safetensors",
+      "bytes": 3413864960,
+      "sha256": "9758875fc55e49561165f4a44342b654c123c3e25c6811b34abb83553fb1a164"
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 13726227,
+      "sha256": "d67403a4e9793c0ba8a136baf14b3b76ec7b32c822267978084895e07ebd8a3e"
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 16718,
+      "sha256": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13"
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003"
+    }
+  ],
+  "download_seconds": 2004.429,
+  "downloaded_bytes_this_run": 23424338320,
+  "chunks_completed": 351
+}

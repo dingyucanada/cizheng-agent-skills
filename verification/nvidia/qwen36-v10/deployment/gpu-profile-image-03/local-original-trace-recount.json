@@ -1,0 +1,10 @@
+{
+  "raw_trace_sha256": "b5c063944db2ae2849b132a5cf66541609b867202028d0e62350cb5612ec13bc",
+  "raw_trace_bytes": 15273908,
+  "cuda_kernel_event_count": 9477,
+  "cuda_runtime_event_count": 16941,
+  "distinct_kernel_names": 88,
+  "local_original_trace_recount_matches": true,
+  "request_binding_receipt_sha256": "32ff14a583620a9dc160700097c9c479accce3dd3488fcd8b86e8bb3a1ea74ad",
+  "scope": "Original trace downloaded to private local folder and recounted; professional accuracy and speedup not evaluated"
+}

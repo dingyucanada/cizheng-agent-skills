@@ -1,0 +1,64 @@
+{
+  "checked_at_unix_ns": 1790671865254689541,
+  "rotation_started_at_unix_ns": 1790671861242314450,
+  "candidate_name": "cizheng-nim-qwen36-v10-attempt-01",
+  "container_id": "49e964e50c0db7e82617399c3442f5f8b8dd65eb54d8533abddea4895843e9f2",
+  "image_id": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+  "candidate_running": false,
+  "stopped_only_new_owned_candidate": true,
+  "prior_five_services_before": [
+    {
+      "port": 8005,
+      "status": 200
+    },
+    {
+      "port": 8780,
+      "status": 200
+    },
+    {
+      "port": 8006,
+      "status": 200
+    },
+    {
+      "port": 8007,
+      "status": 200
+    },
+    {
+      "port": 8003,
+      "status": null,
+      "error": "URLError",
+      "recovery_required": true
+    }
+  ],
+  "prior_five_services_after": [
+    {
+      "port": 8005,
+      "status": 200
+    },
+    {
+      "port": 8780,
+      "status": 200
+    },
+    {
+      "port": 8006,
+      "status": 200
+    },
+    {
+      "port": 8007,
+      "status": 200
+    },
+    {
+      "port": 8003,
+      "status": null,
+      "error": "URLError",
+      "recovery_required": true
+    }
+  ],
+  "memory_bytes_after_stop": {
+    "MemTotal": 128520015872,
+    "MemAvailable": 58859122688
+  },
+  "previous_workflows_preserved": true,
+  "container_and_cache_preserved": true,
+  "reason": "35B trial complete; release only owned candidate memory to restore existing Retriever and then admit 27B; primary model unchanged"
+}

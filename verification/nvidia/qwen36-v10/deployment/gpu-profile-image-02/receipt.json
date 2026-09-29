@@ -1,0 +1,24 @@
+{
+  "automatic_retries": 0,
+  "elapsed_seconds": 16.466938597965054,
+  "expert_validation": false,
+  "finish_reason": "length",
+  "http_status": 200,
+  "inference_requests_sent": 1,
+  "model": "Qwen3.6-35B-A3B-NVFP4",
+  "request_finished_at_unix_ns": 1790669847343321973,
+  "request_sha256": "ea5b6d05a920743df231f3d629112adf963c47b0c5e7343bbc72fcd839191d70",
+  "request_started_at_unix_ns": 1790669830876382927,
+  "response_sha256": "52981f0a72e365773353e939228dcc83d2851138227ab03e92e343dd8f5b15be",
+  "semantic_quality_proven": false,
+  "usage": {
+    "completion_tokens": 256,
+    "prompt_tokens": 537,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "total_tokens": 793
+  }
+}

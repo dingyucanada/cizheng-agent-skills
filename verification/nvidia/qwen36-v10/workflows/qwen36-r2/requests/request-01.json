@@ -1,0 +1,21 @@
+{
+  "request_index": 1,
+  "messages_sha256": "a76994a9f553eb3f9c3a43fd16e075a96399baf2fe72ac39ec9b79089cfd2d03",
+  "message_bytes": 355755,
+  "timeout_seconds": 90,
+  "response_sha256": "26fdb80a8b32cda8fe7dde541077ee2ca170dd150109a58778707b9e9594fc83",
+  "response_text": "{\n  \"observations\": [\n    {\n      \"media_id\": \"media_bfa9f902fc0548efa14fbf020cc2a9cb\",\n      \"region\": [0.0, 0.0, 1.0, 1.0],\n      \"visible\": \"器身呈上宽下窄的喇叭状，口沿外撇。腹部开光内绘有山石与树木纹饰，开光外饰以缠枝花卉纹。\",\n      \"interpretation\": \"开光内为山水人物场景，开光外为花卉纹饰。\",\n      \"limitation\": \"仅展示正面，侧面与背面纹饰不可见。\"\n    },\n    {\n      \"media_id\": \"media_ed2c61f0c07044539a5d40af6d7fa549\",\n      \"region\": [0.0, 0.0, 1.0, 1.0],\n      \"visible\": \"器身呈上宽下窄的喇叭状，口沿外撇。腹部开光内绘有博古纹饰，开光外饰以缠枝花卉纹。\",\n      \"interpretation\": \"开光内为博古纹饰，开光外为花卉纹饰。\",\n      \"limitation\": \"仅展示正面，侧面与背面纹饰不可见。\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1246,
+    "total_tokens": 1572,
+    "completion_tokens": 326,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 8.804
+}

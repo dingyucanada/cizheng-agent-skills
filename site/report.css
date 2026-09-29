@@ -80,3 +80,18 @@
 
 /* Inline diagrams share licensed report fonts; styles and IDs are scoped per diagram. */
 .diagram-graphic > svg{display:block;width:100%;height:auto;max-width:100%}
+
+/* Keep short continuations with the next chapter in the printed report. */
+@media print{
+ #actual-case,#learning,#resources{break-before:auto;padding-top:5mm}
+ #resources{padding-top:3mm}
+ #resources .chapter-lead{line-height:1.8;margin-bottom:3mm}
+ #resources .resource-cards{gap:3mm}
+ #resources .resource-cards article{padding:2mm 4mm;line-height:1.6}
+ #resources .resource-cards h3{margin:1mm 0 1.5mm}
+ #resources .resource-cards p{margin-bottom:2mm}
+ #resources .resource-cards .kicker{margin-bottom:0}
+ #resources .metadata{margin-top:1mm;padding:1mm 0}
+ #resources .metadata .prose p{line-height:1.6}
+ #resources .metadata .prose p+p{margin-top:2mm}
+}

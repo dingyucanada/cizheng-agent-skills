@@ -4,7 +4,7 @@ description: >-
   Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.
 compatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.
 metadata:
-  version: 0.4.0
+  version: 0.4.1
   required-tools: "read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion"
   expert-review: "pending"
 ---
@@ -19,4 +19,4 @@ metadata:
 4. 按需 read_skill_resource 阅读[记录与证据层次](references/record-contract.md)。人工区域观察只是操作人记录；模型必须重新观察，不能把人工注释ID填入support/conflict。
 5. 博物馆任务重点是登记来源、尺寸及状况和馆内复核；收藏任务重点是持有人主张与支持材料的区别；拍卖任务重点是图录用语与状况分开。三类均不提供未经实测的价格、真伪概率或专家身份背书。
 6. 若有来源链问题，按描述加载 provenance-evidence-audit；若有可见状况疑点加载 condition-hypothesis-test。有旧意见加载 evidence-revise。
-7. record_assessment 引用本轮模型观察和实际读到的知识段落。优先请求一项能区分解释的补证；在限制中明确未选图、缺少实物与未核来源。build_opinion结束，不输出证书。
+7. record_assessment 逐项连接本轮模型观察、判断理由和实际读到的知识段落。理由应说明现象对候选的支持限度，并提出能区分解释的补证。没有可区分的时期或窑口依据时写“未能判断”，具体馆方归属另列为有引用的来源记载；不先填具体归属再用 insufficient 回避依据问题。蓝白颜色、对称布局和山水纹饰不是清代的专有特征；底部未拍到不等于没有款识。在限制中明确未选图、缺少实物与未核来源。build_opinion结束，不输出证书。

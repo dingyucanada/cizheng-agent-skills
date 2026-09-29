@@ -1,0 +1,84 @@
+{
+  "schema_version": "cizheng-next-model-public-workflow-v1",
+  "scope": "公开Met双图，真实Spark独立案卷；不含专家样本或私有密钥",
+  "failed_runs_preserved": true,
+  "expert_validation": false,
+  "ceramic_accuracy": "not_measured",
+  "files": [
+    {
+      "path": "main8b-r1/final-run.json",
+      "bytes": 63128,
+      "sha256": "9667597672b9bf8c9aeed3bcfec2e6d6f2f588ba07024ee55541f3d22e150f99"
+    },
+    {
+      "path": "main8b-r1/summary.json",
+      "bytes": 3617,
+      "sha256": "224d100f14a783cf831c50c11d7d254aa778af1596364accc54dd83e64baaf28"
+    },
+    {
+      "path": "main8b-r1/requests/request-01.json",
+      "bytes": 244,
+      "sha256": "90d28b4d78eb0229c1d7feedd56faaad46f45b7b8287ef6e41f87040d8484324"
+    },
+    {
+      "path": "main8b-r1/source-snapshot-manifest.json",
+      "bytes": 11633,
+      "sha256": "78ccee8088c1d3e6e7e2207cc4f8ba30a54f617282eb39d34005311b064cfb21"
+    },
+    {
+      "path": "main8b-r2/final-run.json",
+      "bytes": 94956,
+      "sha256": "a96f26726093e715b2cf2cd19c8ebe67673922ef5a680651add46143f088594a"
+    },
+    {
+      "path": "main8b-r2/summary.json",
+      "bytes": 3565,
+      "sha256": "d0df433c1a1f2d8fa01e8eb3c39d7826cafc00e3bcd18367365870f3b5e13be5"
+    },
+    {
+      "path": "main8b-r2/requests/request-01.json",
+      "bytes": 954,
+      "sha256": "996d4743cd60324d58770c020f0645fb571d44c056836c9244905ce225cff15b"
+    },
+    {
+      "path": "main8b-r2/requests/request-03.json",
+      "bytes": 736,
+      "sha256": "dc29ea111f787d638cc18bc27f9ec484acee50a75ae71153ae78761edaacaeb4"
+    },
+    {
+      "path": "main8b-r2/requests/request-02.json",
+      "bytes": 541,
+      "sha256": "97bad017cae93116785ee5c690f38204342bf413ed6252525599d6b7cc64a421"
+    },
+    {
+      "path": "main8b-r2/requests/request-05.json",
+      "bytes": 509,
+      "sha256": "9a642fcd7399647fdc02738ca9b1a9064237049f98ea3de0b57a7b5b1f7649a4"
+    },
+    {
+      "path": "main8b-r2/requests/request-04.json",
+      "bytes": 2077,
+      "sha256": "5dc9a806d49c597b48718df640ef55ee03914eab20043449e5d8a5cde1faa119"
+    },
+    {
+      "path": "main8b-r2/source-snapshot-manifest.json",
+      "bytes": 11633,
+      "sha256": "833aa9d17200db6cf8aa367e9509a3c56fc952197c6792d0392a6f66d2642eb4"
+    },
+    {
+      "path": "main8b-r2/ai-review/labels.json",
+      "bytes": 11054,
+      "sha256": "adb0d00ada10a4a407d57012b6a9f6e9e04452853c48a4c430c2ca25e541c3a8"
+    },
+    {
+      "path": "main8b-r2/ai-review/audit.json",
+      "bytes": 24980,
+      "sha256": "a81ebcf5fe60be4335d7432625017b805dd29a64c9e20c8e8ec55f068b39c61b"
+    },
+    {
+      "path": "main8b-r2/ai-review/README.md",
+      "bytes": 294,
+      "sha256": "88f78ca8d44c3dc3e1b5522bb66c1f92a3fd28c9cd5c972d70d2473a50d68bab"
+    }
+  ]
+}

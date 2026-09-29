@@ -1,0 +1,6 @@
+{
+  "automatic_retries": 0,
+  "error_type": "HTTPError",
+  "existing_services_modified": false,
+  "failure_reason": "HTTP Error 404: Not Found"
+}

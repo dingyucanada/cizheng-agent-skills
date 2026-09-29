@@ -27,6 +27,7 @@ from .pro_workflow import workplan, preparation_bundle, preparation_markdown, pr
 from .business_records import create_business_router
 from .handoff import case_documents, make_handoff, check_case_files
 from .photo_report import photo_report
+from .claim_support_audit import audit_claim_support, review_template
 from .nvidia_runtime import NvidiaAudit
 from .risk_triage import create_risk_router
 from .device_capture import create_device_router
@@ -312,6 +313,21 @@ def create_app(data_dir=None, model=None, review_client=None):
     @app.get('/api/runs/{identifier}')
     def get_run(identifier: str):
         return store.read('run', identifier)
+
+    @app.get('/api/runs/{identifier}/claim-support')
+    def claim_support(identifier: str, download: bool = False):
+        # Read one frozen run only. No labels, model, pixels, live-library read,
+        # source search, or mutation is part of this endpoint.
+        saved = store.read('run', identifier)
+        if saved.get('research_task', 'visual_research') != 'visual_research':
+            raise Problem(422, '本轮为文字凭据核查，不生成图像与归属理由核查包。')
+        try:
+            result = audit_claim_support(saved)
+        except (ValueError, TypeError, KeyError):
+            raise Problem(409, '保存意见的核查材料不完整，请核对本轮记录。') from None
+        result['review_template'] = review_template(result['packet'])
+        headers = {'Content-Disposition': 'attachment; filename="claim-support-audit.json"'} if download else None
+        return JSONResponse(result, headers=headers)
 
     @app.post('/api/runs/{identifier}/cancel')
     async def cancel(identifier: str, body: S.Mutation):

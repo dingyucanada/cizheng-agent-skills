@@ -19,6 +19,7 @@ jobs:
     timeout-minutes: 15
     env:
       PYTHONDONTWRITEBYTECODE: "1"
+      CIZHENG_AUDIT_SAVED_RUN: verification/nvidia/qwen36-v10/workflows/main8b-r2/final-run.json
     steps:
       - uses: actions/checkout@v6
       - name: Set up Python
@@ -93,3 +94,96 @@ jobs:
           python -B -S verification/nvidia/retriever-v07/audit_public_evidence.py
           bash -n deploy/nvidia-retriever-candidate-launch.sh
           bash -n deploy/nvidia-serve-retriever-open.sh
+      - name: Check Qwen3.6 resumable downloads and coexistence guards offline
+        run: |
+          python -B -S deploy/qwen36-candidate/tests/test_candidate_contracts.py
+          bash -n deploy/qwen36-candidate/start_nim_candidate.sh
+
+  qwen38-deployment-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python for offline Qwen3.8 admission contracts
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check fixed checkpoint, CPU evidence and coexistence refusal
+        run: |
+          python -B -S deploy/qwen38-candidate/tests/test_candidate_contracts.py
+          bash -n deploy/qwen38-candidate/start_cpu_only.sh
+          bash -n deploy/qwen38-candidate/start_cpu_profile_only.sh
+          bash -n deploy/qwen38-candidate/start_nim_candidate.sh
+
+  qwen38-resource-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python for offline Qwen3.8 rotation guards
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check 60 GiB admission, unchanged Retriever guard and candidate-only memory stop
+        run: |
+          python -B -S deploy/qwen38-candidate-v11/tests/test_candidate_contracts.py
+          bash -n deploy/qwen38-candidate-v11/start_nim_candidate.sh
+
+  qwen38-serial-loader-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python for offline serial-loader admission
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Check the unique serial CLI change and unchanged resource guard
+        run: |
+          python -B -S deploy/qwen38-candidate-v12/tests/test_candidate_contracts.py
+          bash -n deploy/qwen38-candidate-v12/start_nim_candidate.sh
+
+  qwen38-flat-checkpoint-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python for offline flat-checkpoint admission
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Reject extra model entries and nested paths before CPU or GPU creation
+        run: |
+          python -B -S deploy/qwen38-candidate-v13/tests/test_candidate_contracts.py
+          bash -n deploy/qwen38-candidate-v13/start_nim_candidate.sh
+
+  qwen38-trt-rotation-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      CUDA_VISIBLE_DEVICES: ""
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python for offline exact TRT rotation admission
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Require coordinator-stopped TRT and preserve three business services
+        run: |
+          python -B -S deploy/qwen38-candidate-v14/tests/test_candidate_contracts.py
+          bash -n deploy/qwen38-candidate-v14/start_nim_candidate.sh
+      - name: Check bounded image GPU proof contracts without a GPU
+        run: python -B -S deploy/qwen38-gpu-probe/tests/test_probe_contract.py

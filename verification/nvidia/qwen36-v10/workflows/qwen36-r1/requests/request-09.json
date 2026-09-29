@@ -1,0 +1,21 @@
+{
+  "request_index": 9,
+  "messages_sha256": "da5c3db1640798d1f7aeeae06371d162eaa8b4725df01363ab416ebdb124bfd9",
+  "message_bytes": 398838,
+  "timeout_seconds": 90,
+  "response_sha256": "abd333239da6722a43564324d2e9dc50c87e9c8ca270ba3ae797f64e720b3233",
+  "response_text": "{\"actions\": [{\"tool\": \"build_opinion\", \"arguments\": {}}]}",
+  "usage": {
+    "prompt_tokens": 13066,
+    "total_tokens": 13084,
+    "completion_tokens": 18,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 4.48
+}

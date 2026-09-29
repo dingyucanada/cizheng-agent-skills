@@ -1,0 +1,229 @@
+{
+  "scope": "Fixed 27B download and preserved guarded attempts; actual v14 NIM load and first complete public-image workflow; GPU proof pending; no expert or ceramic accuracy established",
+  "expert_validation": false,
+  "ceramic_accuracy": "not_measured",
+  "files": [
+    {
+      "path": "weights/download-receipt.json",
+      "sha256": "1045b80ad92a9130880d0d5171de6998ca8272f470d8dd2e7cf260dedc45609b",
+      "bytes": 3275,
+      "original_bytes": true
+    },
+    {
+      "path": "weights/checkpoint-manifest.json",
+      "sha256": "c05398358bdde37fe7ce1656bea3388bf270012f216d10bcaa25fcbf6e085795",
+      "bytes": 3354,
+      "original_bytes": true
+    },
+    {
+      "path": "gpu-attempt-01/memory-stop-receipt.json",
+      "sha256": "1cb3b1d2852d83139d23fb179e62cbce8b391eeab1daac45d884fadf23ac33e4",
+      "bytes": 548,
+      "original_bytes": true
+    },
+    {
+      "path": "gpu-attempt-01/memory-samples.jsonl",
+      "sha256": "475277c30a89feb2529f3c3dad5c3c1e076c06425ec53775fd69c13b79be87a5",
+      "bytes": 9213,
+      "original_bytes": true
+    },
+    {
+      "path": "gpu-attempt-01/start-receipt.json",
+      "sha256": "5689ea6cd97037b9f8f7118d7823a7acc4aa99a7f93d8a62e71cd1fe8fa8a22d",
+      "bytes": 541,
+      "original_bytes": true
+    },
+    {
+      "path": "old4b-restoration-01/start-receipt.json",
+      "sha256": "cc678d5bafb69e7a387408a571da839b7a0ee4bc0bb78f6f69b737031b7aec97",
+      "bytes": 481,
+      "original_bytes": true
+    },
+    {
+      "path": "cpu-config-00/metadata-summary.json",
+      "sha256": "012a66e9e0bb9730828837db0a203d9e4fe135df11966d68f4804ea2acc4cab6",
+      "bytes": 5568,
+      "original_bytes": false,
+      "private_original_sha256": "622dd9d519dc00a89aaa0e8130f9af30f12b2dda90f27d372dbb3471853de88c"
+    },
+    {
+      "path": "cpu-profile-01/metadata-summary.json",
+      "sha256": "9d47fdb103543c819725358b97e356ffa11abd5ef54c8c26a1b8240f170c6816",
+      "bytes": 3697,
+      "original_bytes": false,
+      "private_original_sha256": "76ee905472f67f8a6096af77452a44a5902b32e555ff02b30a8da6502f55cb89"
+    },
+    {
+      "path": "old4b-restoration-01/ready-receipt.json",
+      "sha256": "97794025566c504c91781f44a9d338c2bab0bd4591105eb6a420d12641db514e",
+      "bytes": 873,
+      "original_bytes": true
+    },
+    {
+      "path": "gpu-attempt-v12-02/start-receipt.json",
+      "sha256": "e26e4f5922dfb80914afda32718987dd02df8f23b3600dc915c0dea1728398b3",
+      "bytes": 541,
+      "original_bytes": true
+    },
+    {
+      "path": "gpu-attempt-v12-02/memory-stop-receipt.json",
+      "sha256": "270462b7c1d2b4652785d1dc522b08408731db80f60a06a9993b2279c1d3c6d8",
+      "bytes": 550,
+      "original_bytes": true
+    },
+    {
+      "path": "gpu-attempt-v12-02/cpu-metadata-summary.json",
+      "sha256": "2654a2eb4a1ac7dc6c22ce464d5d3dc8dd21baac97d8c754de0b5d6d4fcd422c",
+      "bytes": 5295,
+      "original_bytes": false,
+      "private_original_sha256": "471aabdf84b8c498ba0307547eb7d105aeed16c7c29d268b0e09524b4ac3e054"
+    },
+    {
+      "path": "flat-checkpoint-view/metadata-summary.json",
+      "sha256": "4c5e433064364755d1d50d93edd1e1e4c8991ed5a9b2a67186b3f75324df5ff7",
+      "bytes": 5431,
+      "original_bytes": false,
+      "private_original_sha256": "1ed78ecf7a4e83b8b770a372e22fa0107d358a50a9620c15ac0361883aff09c4"
+    },
+    {
+      "path": "gpu-attempt-v12-02/memory-samples.jsonl",
+      "sha256": "0c3601f59454e4cedbe29117d0d8f2b87af73088741cf175df21b7ffdd51dc11",
+      "bytes": 7199,
+      "original_bytes": true
+    },
+    {
+      "path": "flat-attempt-v13-03/preflight-metadata.json",
+      "sha256": "b7347f0e6ee37b703885eff79f584dace66fcc8876ea76f3c525ba16113a7e3e",
+      "bytes": 9149,
+      "original_bytes": false,
+      "private_original_sha256": "24dbf319501f49784d461feb3c674459819637d96b48306800e7c95531d6b88b"
+    },
+    {
+      "path": "workflows/qwen38-r1/summary.json",
+      "sha256": "2c25b22ab57db29584746e67b9a54c5a25fe250652adec8c7776ad5b3c32e6d8",
+      "bytes": 3556,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/final-run.json",
+      "sha256": "da89fa8c6f534f1a2ed5f01f844a130e4ca4268b2a83d40eb73e51c19146f5e4",
+      "bytes": 104692,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/claim-support-audit.json",
+      "sha256": "f91bec3b5891b8a2c1dee374b1a0f165b017beecff819a04df4d1c07d1f706fa",
+      "bytes": 13659,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/review-template.json",
+      "sha256": "40675cb0d3ddecf7bda0ca9d180d345db0bb3a14bc9b7416b1f9dedf16fe3fac",
+      "bytes": 431,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/requests/request-01.json",
+      "sha256": "fe3c58ad42239c0f7f5b9b0948cffb1490e00270f829a989ace60404824af9c0",
+      "bytes": 1371,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/requests/request-02.json",
+      "sha256": "38b261fc4d68d99140c89c76135d0f03c8f32a5b6e72e419e0a256671ae90ae3",
+      "bytes": 702,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/requests/request-03.json",
+      "sha256": "18c7afd56f040a949be8577e547d46c30e320c174e5fba94c4cb72b2c2516b35",
+      "bytes": 958,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/requests/request-04.json",
+      "sha256": "4e5631170fd49e48c8736006817f0a6d97e477377e9aa1d4d94e2155484280a1",
+      "bytes": 2185,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/requests/request-05.json",
+      "sha256": "5193707c358b1ca03a396931424f8e2dc33971b8a0c956576271161a3cb2771f",
+      "bytes": 2185,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/requests/request-06.json",
+      "sha256": "6a9966d17fcab3a18ea0be9e130a0d39a96cb953f8655527b11bcefaa770ae42",
+      "bytes": 631,
+      "original_bytes": true,
+      "scope": "Original Spark public-image workflow output; source-r5/default source-r2; not expert validation"
+    },
+    {
+      "path": "workflows/qwen38-r1/source-binding.json",
+      "sha256": "374b96f9d9b55d27663e8dc9f2c5834bfc9edf310872ae77d654662c7cded4a3",
+      "bytes": 552,
+      "original_bytes": false,
+      "scope": "Authored frozen-source binding; preserves original unverified revision field"
+    },
+    {
+      "path": "ai-reviews/qwen38-r1/review-labels.json",
+      "sha256": "9445f2d3adbd5fd1e4c536468702884e9e44993416267b0e6dd8c735fc2eed23",
+      "bytes": 11697,
+      "original_bytes": true,
+      "metadata_derivative": false,
+      "private_original_sha256": "9445f2d3adbd5fd1e4c536468702884e9e44993416267b0e6dd8c735fc2eed23",
+      "original_manifest_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+      "scope": "AI sidecar for actual public-image workflow; nonblind, nonexpert; local-path/private-DB metadata removed; model words unchanged"
+    },
+    {
+      "path": "ai-reviews/qwen38-r1/reviewed-audit.json",
+      "sha256": "1a804a0f9ade5f2daabb1bbfbf10fb258c0e703b9a66fdf857088eb3e34bc79d",
+      "bytes": 26362,
+      "original_bytes": true,
+      "metadata_derivative": false,
+      "private_original_sha256": "1a804a0f9ade5f2daabb1bbfbf10fb258c0e703b9a66fdf857088eb3e34bc79d",
+      "original_manifest_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+      "scope": "AI sidecar for actual public-image workflow; nonblind, nonexpert; local-path/private-DB metadata removed; model words unchanged"
+    },
+    {
+      "path": "ai-reviews/qwen38-r1/analysis.json",
+      "sha256": "18bb2dd080e4086aec1d3b8c8eb93b9478fea2c9c5da8192fc53cd10cc6546e3",
+      "bytes": 14067,
+      "original_bytes": false,
+      "metadata_derivative": true,
+      "private_original_sha256": "6eb5b6e66b93cb503a5c4b8554eb24d06d7c583cbdcf111f1f17fb5d3e24cda7",
+      "original_manifest_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+      "scope": "AI sidecar for actual public-image workflow; nonblind, nonexpert; local-path/private-DB metadata removed; model words unchanged"
+    },
+    {
+      "path": "ai-reviews/qwen38-r1/analysis.md",
+      "sha256": "c86f728b77b63f62059c035524fec918f50dc5799b46a1e9b3701992946957d4",
+      "bytes": 3263,
+      "original_bytes": false,
+      "metadata_derivative": true,
+      "private_original_sha256": "b7591e294f931223bb79b2d675a4ff8c836b52869d5ce06bf0759aac36e195c6",
+      "original_manifest_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+      "scope": "AI sidecar for actual public-image workflow; nonblind, nonexpert; local-path/private-DB metadata removed; model words unchanged"
+    },
+    {
+      "path": "ai-reviews/qwen38-r1/manifest.json",
+      "sha256": "b85927168edad67f33a410c63aadd1041add59cf60bc7833ca8f01077d3034b9",
+      "bytes": 4008,
+      "original_bytes": false,
+      "metadata_derivative": true,
+      "private_original_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+      "original_manifest_sha256": "868fe0f95e015bab3f43752c659c542bcb369c19e802f470b5b71ed70a7e53c6",
+      "scope": "AI sidecar for actual public-image workflow; nonblind, nonexpert; local-path/private-DB metadata removed; model words unchanged"
+    }
+  ]
+}

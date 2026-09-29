@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="860" viewBox="0 0 1120 860" role="img" aria-labelledby="title desc">
+  <title id="title">瓷证当前角色：常驻业务与按内存轮换的独立NIM候选</title>
+  <desc id="desc">照片与登记进入常驻8B主视觉、七个Skills和SQLite固定资料，形成逐条观察、理由、引用、补证与可交接案卷。TensorRT-LLM文字及Embedding加cuVS检索为已部署旁路。独立NIM的4B、35B、27B候选按内存预算轮换，35B与27B已完成双图工作流，实验原件与在线状态分开保存，均未替换8B主视觉。StepFun只接收获准文字。专业复核继续研究，FLARE联合训练和采集箱为另列研究路线。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10" fill="#638398"/></marker>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#638398" stroke-opacity=".08"/></pattern>
+  </defs>
+  <style>text{font-family:"PingFang SC","Microsoft YaHei",sans-serif;fill:#142b40}.title{font-size:27px;font-weight:600}.heading{font-size:21px;font-weight:600}.body{font-size:17px}.small{font-size:14px}.muted{fill:#607784}.white{fill:#fff}.line{fill:none;stroke:#638398;stroke-width:2;marker-end:url(#arrow)}.optional{stroke-dasharray:6 5}</style>
+  <rect width="1120" height="860" fill="#f6f5ef"/>
+  <rect width="1120" height="860" fill="url(#grid)"/>
+  <text x="38" y="40" class="small muted">瓷证 / 当前角色与验收范围</text>
+  <text x="38" y="78" class="title">常驻研究工作台 + 按内存轮换的独立 NIM 试验</text>
+  <text x="38" y="108" class="body muted">已完成的实验原件与当前在线状态，分开记录。</text>
+
+  <rect x="266" y="143" width="585" height="114" rx="8" fill="#eae5d7" stroke="#c5b58e" stroke-dasharray="7 5"/>
+  <text x="287" y="174" class="heading">独立 NIM 候选 / 受控轮换</text>
+  <text x="287" y="205" class="body">4B 文字 · 35B 视觉 · 27B 视觉候选</text>
+  <text x="287" y="232" class="small muted">固定输入与版本实跑，验收原件保留；按内存准入与保护合同轮换</text>
+  <path d="M558 257V294" class="line optional"/>
+  <text x="577" y="281" class="small muted">独立复跑，评估后再决定接入</text>
+
+  <rect x="913" y="143" width="172" height="114" rx="8" fill="#eae5d7" stroke="#c5b58e"/>
+  <text x="933" y="175" class="heading">StepFun</text>
+  <text x="933" y="206" class="body">获准文字复核</text>
+  <text x="933" y="233" class="small muted">公开 / 脱敏文字</text>
+
+  <rect x="246" y="297" width="628" height="235" rx="9" fill="#edf1f1" stroke="#cbd6db"/>
+  <text x="268" y="329" class="small muted">DGX Spark / 常驻业务</text>
+  <rect x="266" y="349" width="245" height="162" rx="7" fill="#fff" stroke="#cbd6db"/>
+  <text x="286" y="382" class="heading">8B 主视觉 + 案卷</text>
+  <text x="286" y="416" class="body">7 Skills / 有预算的工具</text>
+  <text x="286" y="446" class="body">SQLite 固定资料与版本</text>
+  <text x="286" y="480" class="small muted">原图、输入与每轮意见独立保存</text>
+  <rect x="576" y="349" width="278" height="162" rx="7" fill="#142b40"/>
+  <text x="596" y="382" class="heading white">逐条理由与引用核查</text>
+  <text x="596" y="416" class="body white">观察 / 支持 / 冲突 / 缺证</text>
+  <text x="596" y="446" class="body white">正文送达与 NAT 身份检查</text>
+  <text x="596" y="480" class="small white">本轮核查包 · 补证修订 · 原件导出</text>
+  <path d="M511 429H570" class="line"/>
+
+  <rect x="35" y="349" width="169" height="162" rx="7" fill="#fff" stroke="#cbd6db"/>
+  <text x="54" y="382" class="heading">照片与登记</text>
+  <text x="54" y="416" class="body">原图 / 多视角</text>
+  <text x="54" y="446" class="body">来源 / 状况记录</text>
+  <text x="54" y="480" class="small muted">网页与授权采集桥接</text>
+  <path d="M204 429H240" class="line"/>
+
+  <rect x="913" y="349" width="172" height="162" rx="7" fill="#fff" stroke="#cbd6db"/>
+  <text x="933" y="382" class="heading">专业复核</text>
+  <text x="933" y="416" class="body">继续研究与交接</text>
+  <text x="933" y="446" class="body">逐项意见与备注</text>
+  <text x="933" y="480" class="small muted">独立专家样本待验证</text>
+  <path d="M874 429H907" class="line"/>
+  <path d="M854 366H889V284H998V262" class="line optional"/>
+  <path d="M913 224H880V317H819V343" class="line optional"/>
+  <text x="720" y="308" class="small muted">回查与修订</text>
+
+  <path d="M557 593V538" class="line optional"/>
+  <rect x="266" y="593" width="585" height="119" rx="8" fill="#fff" stroke="#cbd6db"/>
+  <text x="286" y="625" class="heading">已部署旁路 / 分别验收</text>
+  <text x="286" y="658" class="body">TensorRT-LLM 文字 · NVIDIA Embedding + cuVS 检索</text>
+  <text x="286" y="686" class="small muted">保留原服务与资料身份；GPU检索排名经过许可和正文核对再使用</text>
+  <text x="35" y="575" class="small muted">实线：案卷主流程</text>
+  <text x="35" y="602" class="small muted">虚线：可选协作 / 独立试验</text>
+
+  <rect x="35" y="751" width="1050" height="74" rx="7" fill="#eef0eb" stroke="#9baaa9" stroke-dasharray="6 5"/>
+  <text x="55" y="783" class="heading">另列研究路线：机构联合训练 / FLARE / 桌面采集箱</text>
+  <text x="55" y="808" class="small muted">先核实训练许可、专家纠错、器物分组保留集与重复采集；尚未部署联合训练网络或制造采集箱</text>
+  <text x="35" y="847" class="small muted">图像与文字处理范围、保存轮次、候选状态和每项验收记录均可回查。</text>
+</svg>

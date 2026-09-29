@@ -1,0 +1,21 @@
+{
+  "request_index": 2,
+  "messages_sha256": "7558f66b5e5fada3cf8e39adef3f6e74a39145288ef160060d7d22bcf68cda70",
+  "message_bytes": 397608,
+  "timeout_seconds": 90,
+  "response_sha256": "d75377922baeff840735cb85187ce0cd5142c03b2ad6ca1578c9846f4b4cbb32",
+  "response_text": "{\"actions\": [{\"tool\": \"retrieve_references\", \"arguments\": {\"query\": \"清代康熙早期 青花 山水纹 花觚 景德镇\"}}] }",
+  "usage": {
+    "prompt_tokens": 13093,
+    "total_tokens": 13128,
+    "completion_tokens": 35,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 5.357
+}

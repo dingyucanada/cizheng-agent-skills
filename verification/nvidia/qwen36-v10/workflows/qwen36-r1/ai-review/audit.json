@@ -1,0 +1,523 @@
+{
+  "schema_version": "claim-support-audit-v1",
+  "packet": {
+    "schema_version": "claim-support-audit-v1",
+    "run_id": "run_c39bf43e8dca4439b6c212f3ac07def8",
+    "case_id": "case_99395e87db0c4b1ab5de20b483d2e38f",
+    "run_state": "waiting_evidence",
+    "run_input_sha256": "4992f1772c45517273818498990fc2463bfc756283cea0179dcf3b46ca144993",
+    "assessment_sha256": "8cc8dc4f6b9dc75b7caf3a25597933051be040edb3c45abbdb7ce29bf860fc5a",
+    "assessment_present": true,
+    "images": [
+      {
+        "media_id": "media_36a03fbd718c462f9f3b4fc032db225f",
+        "declared_original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "width": 800,
+        "height": 1200,
+        "view_declaration": "公开拍摄视角1",
+        "capture_role_declaration": "overall",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      },
+      {
+        "media_id": "media_c7290edf12be4e008664da7c603f61ef",
+        "declared_original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "width": 800,
+        "height": 1200,
+        "view_declaration": "公开拍摄视角2",
+        "capture_role_declaration": "overall",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs_21ca4a9b301746388db7b83799afed3b",
+        "media_id": "media_36a03fbd718c462f9f3b4fc032db225f",
+        "declared_original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "region_valid": true,
+        "model_visible_description": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+        "model_interpretation": "器形规整，纹饰层次分明",
+        "model_limitation": "未见底足款识",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      },
+      {
+        "observation_id": "obs_a9b185b3c46a4d0e9a49bcb9d9062d69",
+        "media_id": "media_c7290edf12be4e008664da7c603f61ef",
+        "declared_original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "region_valid": true,
+        "model_visible_description": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+        "model_interpretation": "博古纹寓意吉祥，风格典型",
+        "model_limitation": "未见底足款识",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "claim-0-period",
+        "report_index": 0,
+        "dimension": "period",
+        "candidate": "未能判断",
+        "status": "insufficient",
+        "support": [
+          "obs_21ca4a9b301746388db7b83799afed3b",
+          "obs_a9b185b3c46a4d0e9a49bcb9d9062d69"
+        ],
+        "conflict": [],
+        "reasoning_summary": "无底足款识与胎釉细节，无法断代",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "report_index": 1,
+        "dimension": "kiln",
+        "candidate": "未能判断",
+        "status": "insufficient",
+        "support": [
+          "obs_21ca4a9b301746388db7b83799afed3b",
+          "obs_a9b185b3c46a4d0e9a49bcb9d9062d69"
+        ],
+        "conflict": [],
+        "reasoning_summary": "未见胎骨与底足特征，无法确认窑口",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "report_index": 2,
+        "dimension": "style",
+        "candidate": "未能判断",
+        "status": "insufficient",
+        "support": [
+          "obs_21ca4a9b301746388db7b83799afed3b",
+          "obs_a9b185b3c46a4d0e9a49bcb9d9062d69"
+        ],
+        "conflict": [],
+        "reasoning_summary": "无参照图对比，风格归属证据不足",
+        "support_semantics": "unreviewed"
+      }
+    ],
+    "observation_links": [
+      {
+        "link_id": "link-134ccc6565ee119775ca",
+        "claim_id": "claim-0-period",
+        "observation_id": "obs_21ca4a9b301746388db7b83799afed3b",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-ba498d4f2b7520a419e5",
+        "claim_id": "claim-0-period",
+        "observation_id": "obs_a9b185b3c46a4d0e9a49bcb9d9062d69",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-8684e98114bb10254088",
+        "claim_id": "claim-1-kiln",
+        "observation_id": "obs_21ca4a9b301746388db7b83799afed3b",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-30e9628bbacff2ec2e1c",
+        "claim_id": "claim-1-kiln",
+        "observation_id": "obs_a9b185b3c46a4d0e9a49bcb9d9062d69",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-298346ac5785610b51cc",
+        "claim_id": "claim-2-style",
+        "observation_id": "obs_21ca4a9b301746388db7b83799afed3b",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-11bcc4e64cd86431e0f7",
+        "claim_id": "claim-2-style",
+        "observation_id": "obs_a9b185b3c46a4d0e9a49bcb9d9062d69",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      }
+    ],
+    "citations": [],
+    "report_fields": {
+      "basic_info": "青花六方器，开光绘山水与博古，边饰缠枝莲，未见底足",
+      "reference_comparison": "无已读参照图可比",
+      "revision_explanation": "修正为证据不足，因无参照图",
+      "alternatives.0": "后世仿清早期风格",
+      "alternatives.1": "现代仿古工艺品",
+      "limitations.0": "未见底足款识",
+      "limitations.1": "无实物检测",
+      "limitations.2": "无同类参照图",
+      "claims.0.candidate": "未能判断",
+      "claims.0.reasoning_summary": "无底足款识与胎釉细节，无法断代",
+      "claims.1.candidate": "未能判断",
+      "claims.1.reasoning_summary": "未见胎骨与底足特征，无法确认窑口",
+      "claims.2.candidate": "未能判断",
+      "claims.2.reasoning_summary": "无参照图对比，风格归属证据不足",
+      "evidence_request.capture_instructions": "拍摄底足正视图、侧视图及器物内部照片，光线需均匀以显示胎釉细节",
+      "evidence_request.distinguishes": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+      "evidence_request.reason": "需观察底足胎质、修足方式及款识以区分康熙真品与后世仿品",
+      "evidence_request.view": "底足与内部"
+    },
+    "findings": [],
+    "model_inference_performed": false,
+    "expert_validation_established": false,
+    "notice": "保存记录与哈希仅供回查；图像描述、引用支持和判断理由须另行阅评。登记标签不是图像事实。",
+    "packet_sha256": "2bd0329d37a9f816a67db345a5c598735a5074ba55710a0e67ab0f84c890793d"
+  },
+  "metrics": {
+    "observation_visible_correctness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 2,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 2,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": 0.0,
+      "label_coverage": 1.0,
+      "verdict_counts": {
+        "partial": 2
+      }
+    },
+    "observation_region_appropriateness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 2,
+      "pending_items": 0,
+      "not_assessable": 2,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 1.0,
+      "verdict_counts": {
+        "not_assessable": 2
+      }
+    },
+    "declared_observation_link_appropriateness": {
+      "unit": "unique_declared_claim_observation_roles",
+      "total_items": 6,
+      "labels_received": 6,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 6,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": 0.0,
+      "label_coverage": 1.0,
+      "verdict_counts": {
+        "partial": 6
+      }
+    },
+    "reasoning": {
+      "observed_basis": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "partial": 3
+        }
+      },
+      "inference_bridge": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 3,
+        "fully_positive_fraction": 1.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "adequate": 3
+        }
+      },
+      "alternative_explanations": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "inadequate": 3
+        }
+      },
+      "missing_evidence": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 3,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 3,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": 0.0,
+        "label_coverage": 1.0,
+        "verdict_counts": {
+          "inadequate": 3
+        }
+      }
+    },
+    "citation_relations_by_target_kind": {
+      "source_statement": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "object_inference": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "method": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      }
+    },
+    "citation_mapping_coverage": {
+      "mapped_citations": 0,
+      "declared_citation_denominator": 0,
+      "unmapped_citations": 0
+    }
+  },
+  "region_overlaps": [],
+  "review_labels": {
+    "schema_version": "claim-support-review-v1",
+    "run_input_sha256": "4992f1772c45517273818498990fc2463bfc756283cea0179dcf3b46ca144993",
+    "packet_sha256": "2bd0329d37a9f816a67db345a5c598735a5074ba55710a0e67ab0f84c890793d",
+    "reviewer": "Codex：实际查看两张公开原图及保存输出；共享开发上下文",
+    "reviewer_role": "automated_multimodal_reviewer",
+    "independent_of_model": false,
+    "observations": [
+      {
+        "observation_id": "obs_21ca4a9b301746388db7b83799afed3b",
+        "image_access": "original_pixels",
+        "reviewed_media_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "visible_verdict": "partial",
+        "region_verdict": "not_assessable",
+        "reviewer_region": null,
+        "basis": "原图可直接看到外撇口沿、收束的长身、下部展开的轮廓和中央山水树木装饰；照片不能单独确认器用为笔筒或总共六面。短句把这些未经确认的类别当确定事实，故仅部分可支持。"
+      },
+      {
+        "observation_id": "obs_a9b185b3c46a4d0e9a49bcb9d9062d69",
+        "image_access": "original_pixels",
+        "reviewed_media_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "visible_verdict": "partial",
+        "region_verdict": "not_assessable",
+        "reviewer_region": null,
+        "basis": "原图可见中央带提梁的篮形结构及花叶纹饰；并未可靠确认模型所说的博古题材或总面数，器用为笔筒也无照片依据。保留分区和蓝白装饰的部分支持；不是专家纹饰分类。"
+      }
+    ],
+    "observation_links": [
+      {
+        "link_id": "link-134ccc6565ee119775ca",
+        "relation": "partial",
+        "claim_excerpt": "无底足款识与胎釉细节，无法断代",
+        "visible_excerpt": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+        "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+      },
+      {
+        "link_id": "link-ba498d4f2b7520a419e5",
+        "relation": "partial",
+        "claim_excerpt": "无底足款识与胎釉细节，无法断代",
+        "visible_excerpt": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+        "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+      },
+      {
+        "link_id": "link-8684e98114bb10254088",
+        "relation": "partial",
+        "claim_excerpt": "未见胎骨与底足特征，无法确认窑口",
+        "visible_excerpt": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+        "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+      },
+      {
+        "link_id": "link-30e9628bbacff2ec2e1c",
+        "relation": "partial",
+        "claim_excerpt": "未见胎骨与底足特征，无法确认窑口",
+        "visible_excerpt": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+        "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+      },
+      {
+        "link_id": "link-298346ac5785610b51cc",
+        "relation": "partial",
+        "claim_excerpt": "无参照图对比，风格归属证据不足",
+        "visible_excerpt": "青花六方笔筒，开光绘山水，边饰缠枝莲",
+        "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+      },
+      {
+        "link_id": "link-11bcc4e64cd86431e0f7",
+        "relation": "partial",
+        "claim_excerpt": "无参照图对比，风格归属证据不足",
+        "visible_excerpt": "青花六方笔筒，开光绘博古图，边饰缠枝莲",
+        "basis": "当前所选照片没有展示器物底面，能支持本轮缺乏该部位信息的有限表述；一般纹饰不能支持具体时期、窑口或历史风格，资料检索与参照图状态还须独立核对。"
+      }
+    ],
+    "citations": [],
+    "reasoning": [
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "observed_basis",
+        "verdict": "partial",
+        "report_field": "claims.0.reasoning_summary",
+        "report_excerpt": "无底足款识与胎釉细节，无法断代",
+        "basis": "承认未见底面并保留未能判断，边界较谨慎；但可见事实仍混入未经确认的器用和总面数。"
+      },
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "inference_bridge",
+        "verdict": "adequate",
+        "report_field": "claims.0.reasoning_summary",
+        "report_excerpt": "无底足款识与胎釉细节，无法断代",
+        "basis": "最终理由仅说明缺少归属证据，没有从一般纹饰推出具体制作时期或窑口。这只支持有限的不确定结论。"
+      },
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "alternative_explanations",
+        "verdict": "inadequate",
+        "report_field": "claims.0.reasoning_summary",
+        "report_excerpt": "无底足款识与胎釉细节，无法断代",
+        "basis": "列出后世仿清及现代仿古，却没有说明如何区分同一可见表现，且未交付任务要求的独立来源背景。"
+      },
+      {
+        "claim_id": "claim-0-period",
+        "criterion": "missing_evidence",
+        "verdict": "inadequate",
+        "report_field": "evidence_request.distinguishes",
+        "report_excerpt": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+        "basis": "虽提出拍摄底足，但补证distinguishes称真品款识和胎骨可确证年代；款识不能单独确证年代，未见胎釉也不能预设真仿。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "observed_basis",
+        "verdict": "partial",
+        "report_field": "claims.1.reasoning_summary",
+        "report_excerpt": "未见胎骨与底足特征，无法确认窑口",
+        "basis": "承认未见底面并保留未能判断，边界较谨慎；但可见事实仍混入未经确认的器用和总面数。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "inference_bridge",
+        "verdict": "adequate",
+        "report_field": "claims.1.reasoning_summary",
+        "report_excerpt": "未见胎骨与底足特征，无法确认窑口",
+        "basis": "最终理由仅说明缺少归属证据，没有从一般纹饰推出具体制作时期或窑口。这只支持有限的不确定结论。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "alternative_explanations",
+        "verdict": "inadequate",
+        "report_field": "claims.1.reasoning_summary",
+        "report_excerpt": "未见胎骨与底足特征，无法确认窑口",
+        "basis": "列出后世仿清及现代仿古，却没有说明如何区分同一可见表现，且未交付任务要求的独立来源背景。"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "criterion": "missing_evidence",
+        "verdict": "inadequate",
+        "report_field": "evidence_request.distinguishes",
+        "report_excerpt": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+        "basis": "虽提出拍摄底足，但补证distinguishes称真品款识和胎骨可确证年代；款识不能单独确证年代，未见胎釉也不能预设真仿。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "observed_basis",
+        "verdict": "partial",
+        "report_field": "claims.2.reasoning_summary",
+        "report_excerpt": "无参照图对比，风格归属证据不足",
+        "basis": "承认未见底面并保留未能判断，边界较谨慎；但可见事实仍混入未经确认的器用和总面数。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "inference_bridge",
+        "verdict": "adequate",
+        "report_field": "claims.2.reasoning_summary",
+        "report_excerpt": "无参照图对比，风格归属证据不足",
+        "basis": "最终理由仅说明缺少归属证据，没有从一般纹饰推出具体制作时期或窑口。这只支持有限的不确定结论。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "alternative_explanations",
+        "verdict": "inadequate",
+        "report_field": "claims.2.reasoning_summary",
+        "report_excerpt": "无参照图对比，风格归属证据不足",
+        "basis": "列出后世仿清及现代仿古，却没有说明如何区分同一可见表现，且未交付任务要求的独立来源背景。"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "criterion": "missing_evidence",
+        "verdict": "inadequate",
+        "report_field": "evidence_request.distinguishes",
+        "report_excerpt": "真品款识与胎骨特征可确证年代，仿品款识或胎质往往不符",
+        "basis": "虽提出拍摄底足，但补证distinguishes称真品款识和胎骨可确证年代；款识不能单独确证年代，未见胎釉也不能预设真仿。"
+      }
+    ]
+  },
+  "semantic_status": "supplied_labels_only",
+  "reviewer_identity_authenticated": false,
+  "expert_validation_established": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "denominator_policy": "未评项目保留在total_items；图像无法判断等not_assessable保留计数、排除条件分母。partial计入分母且不计为完全支持。引用按人工明确的目标类型分别计数，未映射引用另报覆盖。",
+  "limitations": [
+    "只核对提交的保存记录和阅评标签，未认证宿主记录或阅评者身份。",
+    "不会从来源、款识、器物名称或专家标签生成图像事实。",
+    "文字支持分数以已送达段落和所选目标为条件；不等于本器物归属已证实。",
+    "图像访问由阅评者声明；工具未读取图像或核验实际阅评行为。"
+  ]
+}

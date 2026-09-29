@@ -1,0 +1,178 @@
+{
+  "schema_version": "real-run-ai-review-v1",
+  "author": "Codex AI",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "blind_review": false,
+  "independent_of_model": false,
+  "domain_expert": false,
+  "scope": "保存工作流协议、已送达正文关系和实际查看原图的局部可见性；非专业归属验证",
+  "run_id": "run_e8ff8118c88e405895c659b5a3d8c847",
+  "run_input_sha256": "84537ce65ba863a7f22167cad4791bf1e3ae50f5f597ebfec072b36e780595fa",
+  "packet_sha256": "744d4e1005124f34d71e1aebc86b401dc948dcfcaee6a84b37785fa31707e24c",
+  "original_final_run_file_sha256": "a63ad0480100b8c73e109868426f7b688a736b4a360f48048706d11e64e6cba1",
+  "original_artifacts_unchanged": true,
+  "actual_images_viewed": [
+    {
+      "media_id": "media_6d73caadd650402c937ab3da48c65208",
+      "public_relative_path": "site/assets/met-48607.jpg",
+      "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "image_viewed_in_current_ai_review": true,
+      "viewing_method": "view_image(detail=original); retained in conversation tool log"
+    },
+    {
+      "media_id": "media_4c4437260fa34711830d021ab4e02187",
+      "public_relative_path": "site/assets/met-48607-view2.jpg",
+      "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "image_viewed_in_current_ai_review": true,
+      "viewing_method": "view_image(detail=original); retained in conversation tool log"
+    }
+  ],
+  "workflow": {
+    "state": "waiting_evidence",
+    "summary_wall_seconds": 109.059,
+    "store_seconds": 109.03216886520386,
+    "model_calls": 5,
+    "tool_calls": 12,
+    "validation_error_count": 0,
+    "repair_attempt_count": 0,
+    "new_source_feedback_exercised": false,
+    "first_record_request_index": 4,
+    "build_opinion_request_index": 5,
+    "conclusion": "首次record_assessment即自行选择合格引用；没有真实修复回合，不能据此声称新反馈改善模型修复能力。",
+    "request_mapping": [
+      {
+        "request_index": 1,
+        "file": "request-01.json",
+        "model_event_index": 28,
+        "purpose": "vision",
+        "seconds": 21.087,
+        "succeeded": true,
+        "finish_reason": "stop",
+        "actions": [],
+        "messages_sha256": "d623bc1aaa6a93eb642d4c826652ec55bb02c3dd493280b57389f509a5cc164c",
+        "response_sha256": "f5cfe28c2b8a576a6a2743fd398d23ff06f6de950fdf0d84e0dff7597fe1e385"
+      },
+      {
+        "request_index": 2,
+        "file": "request-02.json",
+        "model_event_index": 39,
+        "purpose": "action",
+        "seconds": 7.266,
+        "succeeded": true,
+        "finish_reason": "stop",
+        "actions": [
+          "retrieve_references"
+        ],
+        "messages_sha256": "84813ec93db090a2e7840906cd24550d4312b7bc58d54f082ce365f06c5f4c73",
+        "response_sha256": "5f777fd819ee52727b60c834a3a405547e1b3e304937f82506200dafc4c27948"
+      },
+      {
+        "request_index": 3,
+        "file": "request-03.json",
+        "model_event_index": 45,
+        "purpose": "action",
+        "seconds": 12.746,
+        "succeeded": true,
+        "finish_reason": "stop",
+        "actions": [
+          "request_evidence"
+        ],
+        "messages_sha256": "c4f6884d65cd6cc4d6601097af040f2254c292b311203c5c26cc618e3f67cd1c",
+        "response_sha256": "7ff9e261bde6543e2ef8c9f243bae25513882f051de7d6c901453448a5c82f28"
+      },
+      {
+        "request_index": 4,
+        "file": "request-04.json",
+        "model_event_index": 51,
+        "purpose": "action",
+        "seconds": 59.992,
+        "succeeded": true,
+        "finish_reason": "stop",
+        "actions": [
+          "record_assessment"
+        ],
+        "messages_sha256": "51d944f49beb67092a8d2b66dc95fb6761326b8edf5c6684844bc0376065653f",
+        "response_sha256": "44ed9af1b0d013d88af38587f29446708256eefd93c9d7e3cc88bd990de008f5"
+      },
+      {
+        "request_index": 5,
+        "file": "request-05.json",
+        "model_event_index": 58,
+        "purpose": "action",
+        "seconds": 6.933,
+        "succeeded": true,
+        "finish_reason": "stop",
+        "actions": [
+          "build_opinion"
+        ],
+        "messages_sha256": "dc37c7a323d6c0e469f38afacb58cef6df6b9c904b904b5ecb8f47d6495cead6",
+        "response_sha256": "3a3eb2f69ce83375604982de88c26cee86d996482489e4a29bd3c25733730986"
+      }
+    ]
+  },
+  "source_contract": {
+    "snapshot_commitment_valid": true,
+    "version_commitment_matches": true,
+    "snapshot_sha256": "96a1a81481617533591f7ab53c1eef27a2d32bb5c9579af73ed8b0c060e6a14a",
+    "read_index": 1,
+    "selected_by_raw_model_request": true,
+    "metadata_expansion_only": true,
+    "matches_case_pin": true,
+    "authorized_frozen_source": true,
+    "exact_excerpt_delivery_eligible": true,
+    "body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+    "delivered_character_count": 130,
+    "does_not_establish_object_identity_or_semantic_support": true
+  },
+  "review_findings": [
+    {
+      "priority": "high",
+      "subject": "period/kiln",
+      "finding": "清代及景德镇候选仍依赖泛化纹饰相似性或符合特征的断言，缺少观察到归属的推断桥梁。insufficient状态没有使这些理由充分。"
+    },
+    {
+      "priority": "high",
+      "subject": "style",
+      "finding": "山水题材本身可由图像描述；无款识不是未能描述可见风格的理由。与Met布局一致未被已看图参照或正文细节证明。"
+    },
+    {
+      "priority": "high",
+      "subject": "evidence_request.distinguishes",
+      "finding": "“底部款识可区分清代官窑与民窑”没有当前正文或观察给出的充分判据；补底图可增加信息，但不能承诺该区分。"
+    },
+    {
+      "priority": "medium",
+      "subject": "observation-0",
+      "finding": "山水部分可見，人物细节未清楚确认；空limitation掩盖这一可见性限制。"
+    },
+    {
+      "priority": "medium",
+      "subject": "observation-links",
+      "finding": "三条claim均只关联第一观察；第二图花篮观察没有进入逐条理由。"
+    },
+    {
+      "priority": "medium",
+      "subject": "alternatives",
+      "finding": "两个仿品标签缺少区分依据，本评审未据此判别器物真伪。"
+    }
+  ],
+  "denominators": {
+    "observation_labels": 2,
+    "declared_claim_observation_links": 3,
+    "reasoning_claims_per_criterion": 3,
+    "reasoning_labels_total": 12,
+    "selected_source_statement_pairs": 1,
+    "selected_object_inference_pairs": 3,
+    "selected_method_pairs": 0,
+    "declared_global_citations": 1,
+    "policy": "这些是AI明确选取目标后的条件分母；不称全部语义正确率、专业正确率或独立专家验证。"
+  },
+  "quality_conclusion": "引用合同和本次来源转述可核查；时期、窑口及比较理由仍缺支持，未通过专业质量验证。",
+  "limitations": [
+    "与开发/评审共享上下文，不是盲评或独立专家。",
+    "AI框与可见性标签需要另行复核。",
+    "未查证外部机构网页和实物身份。",
+    "没有独立文物标签，不计算陶瓷归属正确率。",
+    "本次真实run未触发新增失败反馈，不能测量其修复效果。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "claim-support-review-v1",
+  "run_input_sha256": "b5cad9906086a07f2b2fa783517b7fa3cd4fdf7286431ca971f787925fa52cf0",
+  "packet_sha256": "c12393167a9a4462d1915ab283d8dc2b80cbd38cf7c97d53052a9f87f395a0b3",
+  "reviewer": "填写阅评人或工具说明",
+  "reviewer_role": "human_reviewer",
+  "independent_of_model": false,
+  "observations": [],
+  "observation_links": [],
+  "citations": [],
+  "reasoning": []
+}

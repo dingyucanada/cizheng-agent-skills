@@ -1,0 +1,45 @@
+{
+  "capture_kind": "read-only selected metadata; only NIM model environment fields included",
+  "containers": [
+    {
+      "Config": {
+        "Entrypoint": [
+          "/opt/nim/start_server.sh"
+        ],
+        "Env": [
+          "NIM_MODEL_PATH=/models/qwen3-4b",
+          "NIM_SERVED_MODEL_NAME=Qwen3-4B-Instruct-2507"
+        ],
+        "Image": "tgcr-gz.turing-agi.com/public/nvidia/sglang-model-free-nim-spark@sha256:7d4aa1ac40b20583068c4ece1d274042c0a99e863fb25bd0450c2be1951841b9"
+      },
+      "HostConfig": {
+        "PortBindings": {
+          "8000/tcp": [
+            {
+              "HostIp": "127.0.0.1",
+              "HostPort": "8007"
+            }
+          ]
+        }
+      },
+      "Id": "1c963f41f4c1e844de77113eaa26f1b61c9e994a25bdd982c442a447e5d4acc5",
+      "Image": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+      "Name": "/cizheng-nim-qwen4b-v09-attempt-04",
+      "State": {
+        "Dead": false,
+        "Error": "",
+        "ExitCode": 143,
+        "FinishedAt": "2026-09-29T08:57:14.667413476Z",
+        "OOMKilled": false,
+        "Paused": false,
+        "Pid": 0,
+        "Restarting": false,
+        "Running": false,
+        "StartedAt": "2026-09-29T00:14:59.329160343Z",
+        "Status": "exited"
+      }
+    }
+  ],
+  "original_rotation_receipt_sha256": "5264e942fa77f5e4e09b84d2490baa704aae406c0d7b344ea1cb79bcfe2ed38e",
+  "raw_docker_inspect_sha256": "2ea2756d1cabcdbc6b2e66587ad3ff1e0aa86395149eeb8b53d89f23b1acb0ad"
+}

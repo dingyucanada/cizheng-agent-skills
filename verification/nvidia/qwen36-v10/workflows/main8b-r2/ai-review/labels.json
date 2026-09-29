@@ -1,0 +1,191 @@
+{
+  "schema_version": "claim-support-review-v1",
+  "run_input_sha256": "6986ab9be2e48f5939e10ccf51cb40cbc7f1dc47f81bf38e29d861e2b58215f8",
+  "packet_sha256": "4e5e58473142d74ef100013cf324769a8f14594d4c4843ea50a45a6c7c07a707",
+  "reviewer": "Codex：实际查看两张公开原图并阅评保存文字；共享开发上下文",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "independent_of_model": false,
+  "observations": [
+    {
+      "observation_id": "obs_75629327069045bb81a3e0026fbf952f",
+      "image_access": "original_pixels",
+      "reviewed_media_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "visible_verdict": "partial",
+      "region_verdict": "not_assessable",
+      "reviewer_region": null,
+      "basis": "实际原图可见蓝白山水、树木和花卉边饰；未在该分辨率下可靠确认人物，故完整短句仅部分可支持。区域定位保留待专门复核。"
+    },
+    {
+      "observation_id": "obs_eac5bad528834cdf921758d067f95a72",
+      "image_access": "original_pixels",
+      "reviewed_media_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "visible_verdict": "correct",
+      "region_verdict": "not_assessable",
+      "reviewer_region": null,
+      "basis": "实际第二张原图中央可见花篮和花卉，蓝白装饰可直接回查。其局限语句“无窑口与时期标识”应改为本轮没有看到底部和可用于归属的标识；此评价只给可见短句，未给局限语句通过分。"
+    }
+  ],
+  "observation_links": [
+    {
+      "link_id": "link-f9bd442be3e295059854",
+      "relation": "does_not_support",
+      "claim_excerpt": "清代康熙早期",
+      "visible_excerpt": "青花瓶身绘山水人物纹饰",
+      "basis": "山水纹饰和器形描述不具有区分该具体时期或窑口的依据；没有实际参照图片，不能据此支持具体候选。"
+    },
+    {
+      "link_id": "link-f28bada1d5d798228b08",
+      "relation": "does_not_support",
+      "claim_excerpt": "景德镇窑",
+      "visible_excerpt": "青花瓶身绘山水人物纹饰",
+      "basis": "山水纹饰和器形描述不具有区分该具体时期或窑口的依据；没有实际参照图片，不能据此支持具体候选。"
+    },
+    {
+      "link_id": "link-f9e87a7eac6a5bd305c2",
+      "relation": "partial",
+      "claim_excerpt": "山水纹风格",
+      "visible_excerpt": "青花瓶身绘山水人物纹饰",
+      "basis": "山水描述支持可见装饰题材，但不能支持未实际看过参照图的布局相似性和历史风格归属。"
+    }
+  ],
+  "citations": [
+    {
+      "citation_id": "citation-0",
+      "target_field": "reference_comparison",
+      "target_kind": "source_statement",
+      "relation": "supports",
+      "target_excerpt": "馆方记载Met馆藏18.61.4为清代康熙早期景德镇釉下钴蓝瓷",
+      "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "source_excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷",
+      "basis": "送达段落支持这项来源转述；该段是项目整理的公开记录摘要，仅验证文字转述一致，不证明照片器物归属或馆方身份。"
+    },
+    {
+      "citation_id": "citation-0",
+      "target_field": "claims.0.reasoning_summary",
+      "target_kind": "object_inference",
+      "relation": "does_not_support",
+      "target_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "source_excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+      "basis": "该文字来源没有提供实际看过的参照图或特征区分论证，不支持模型宣称的布局相似性或本件窑口推断；source_context身份正确不等于推断得到支持。"
+    },
+    {
+      "citation_id": "citation-0",
+      "target_field": "claims.1.reasoning_summary",
+      "target_kind": "object_inference",
+      "relation": "does_not_support",
+      "target_excerpt": "器形与纹饰符合景德镇青花特征，但无款识与釉色细节支持",
+      "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "source_excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+      "basis": "该文字来源没有提供实际看过的参照图或特征区分论证，不支持模型宣称的布局相似性或本件窑口推断；source_context身份正确不等于推断得到支持。"
+    },
+    {
+      "citation_id": "citation-0",
+      "target_field": "claims.2.reasoning_summary",
+      "target_kind": "object_inference",
+      "relation": "does_not_support",
+      "target_excerpt": "纹饰布局与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+      "source_excerpt": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+      "basis": "该文字来源没有提供实际看过的参照图或特征区分论证，不支持模型宣称的布局相似性或本件窑口推断；source_context身份正确不等于推断得到支持。"
+    }
+  ],
+  "reasoning": [
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "basis": "理由涉及实际纹饰或器形，但缺少具体可区分的局部特征；不能把泛称作为断代或窑口依据。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "inference_bridge",
+      "verdict": "inadequate",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "basis": "没有展示从观察到具体候选的区分依据；把未经看图的参照相似性或泛称特征作为推断桥梁。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "claims.0.reasoning_summary",
+      "report_excerpt": "纹饰风格与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "basis": "仅列后世仿品和现代仿品，没有解释这些竞争方案如何产生同一可见特征及如何区分。"
+    },
+    {
+      "claim_id": "claim-0-period",
+      "criterion": "missing_evidence",
+      "verdict": "partial",
+      "report_field": "evidence_request.capture_instructions",
+      "report_excerpt": "拍摄器物底部款识与釉色细节",
+      "basis": "登记了底部照片这一可操作补证，但款识不独立证明年代，仍缺胎釉、足部工艺和可靠参照的比较说明。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "器形与纹饰符合景德镇青花特征，但无款识与釉色细节支持",
+      "basis": "理由涉及实际纹饰或器形，但缺少具体可区分的局部特征；不能把泛称作为断代或窑口依据。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "inference_bridge",
+      "verdict": "inadequate",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "器形与纹饰符合景德镇青花特征，但无款识与釉色细节支持",
+      "basis": "没有展示从观察到具体候选的区分依据；把未经看图的参照相似性或泛称特征作为推断桥梁。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "claims.1.reasoning_summary",
+      "report_excerpt": "器形与纹饰符合景德镇青花特征，但无款识与釉色细节支持",
+      "basis": "仅列后世仿品和现代仿品，没有解释这些竞争方案如何产生同一可见特征及如何区分。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "criterion": "missing_evidence",
+      "verdict": "partial",
+      "report_field": "evidence_request.capture_instructions",
+      "report_excerpt": "拍摄器物底部款识与釉色细节",
+      "basis": "登记了底部照片这一可操作补证，但款识不独立证明年代，仍缺胎釉、足部工艺和可靠参照的比较说明。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "observed_basis",
+      "verdict": "partial",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "纹饰布局与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "basis": "理由涉及实际纹饰或器形，但缺少具体可区分的局部特征；不能把泛称作为断代或窑口依据。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "inference_bridge",
+      "verdict": "inadequate",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "纹饰布局与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "basis": "没有展示从观察到具体候选的区分依据；把未经看图的参照相似性或泛称特征作为推断桥梁。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "alternative_explanations",
+      "verdict": "inadequate",
+      "report_field": "claims.2.reasoning_summary",
+      "report_excerpt": "纹饰布局与Met馆藏18.61.4相似，但无款识与釉色细节支持",
+      "basis": "仅列后世仿品和现代仿品，没有解释这些竞争方案如何产生同一可见特征及如何区分。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "criterion": "missing_evidence",
+      "verdict": "partial",
+      "report_field": "evidence_request.capture_instructions",
+      "report_excerpt": "拍摄器物底部款识与釉色细节",
+      "basis": "登记了底部照片这一可操作补证，但款识不独立证明年代，仍缺胎釉、足部工艺和可靠参照的比较说明。"
+    }
+  ]
+}

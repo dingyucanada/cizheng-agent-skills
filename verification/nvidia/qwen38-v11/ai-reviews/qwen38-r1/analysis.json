@@ -1,0 +1,325 @@
+{
+  "schema_version": "ai-real-workflow-review-v1",
+  "author": "Codex AI",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "blind_review": false,
+  "independent_of_model": false,
+  "domain_expert": false,
+  "expert_validation": false,
+  "quality_pass_claimed": false,
+  "ceramic_accuracy": "not_measured",
+  "scope": "单独AI侧车；实际两张原图、保存来源正文、模型观察及逐条理由；不改原件、不评价未知真伪或窑口正确率",
+  "run_id": "run_3ee283431af842fb91662bf258e8897b",
+  "run_input_sha256": "81ac24e7fd0408484441129bc3dd6a5b7e1a16f9d5476f83a291071974f1ea3a",
+  "packet_sha256": "df280b345063c221a16668dbf8eca7616334a941b553ac4e4ccd1a86bd61dffc",
+  "original_final_run_file_sha256": "da89fa8c6f534f1a2ed5f01f844a130e4ca4268b2a83d40eb73e51c19146f5e4",
+  "runtime": {
+    "state": "waiting_evidence",
+    "summary_wall_seconds": 174.339,
+    "store_seconds": 174.30369687080383,
+    "model_calls": 6,
+    "tool_calls": 13,
+    "model": "Qwen3.8-27B-NVFP4",
+    "recorded_weights_revision": "unverified",
+    "recorded_source_hash": "b83a1d83b8429844894ef2713b18068fa5d9bbaf3e2eec1e749eb5fa64d6dea5",
+    "recorded_prompt_profile": {
+      "component_sha256": {
+        "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+        "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+        "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+        "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+        "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+        "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+      "experimental": false,
+      "name": "source-r2",
+      "quality_validation": "not_established",
+      "selection": "process-startup-environment"
+    },
+    "original_messages_available": false,
+    "messages_evidence": "请求原件只保存messages SHA/bytes，未保存完整messages；不声称精确重放。"
+  },
+  "actual_requests": [
+    {
+      "file": "requests/request-01.json",
+      "request_index": 1,
+      "matched_model_event_index_zero_based": 28,
+      "messages_sha256": "c1169fd3d933a2d533f7e712667ea0b5c361df6486c70f9bd33da327a55f5e13",
+      "response_sha256": "ae4b9f6a1d4556d9dc69416f2ee48f743253b5a9afbd626e67c3ae0b7c1d0759",
+      "purpose": "vision",
+      "actions": [],
+      "seconds": 26.814,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 1090,
+        "total_tokens": 1374,
+        "completion_tokens": 284,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "file": "requests/request-02.json",
+      "request_index": 2,
+      "matched_model_event_index_zero_based": 39,
+      "messages_sha256": "97e28c265340fe1ff305b60589b50085b9f473d007f08d165960fba8493927f1",
+      "response_sha256": "05b35ab921ba6aeef083f59db542bcbb1ea96e6f67a0dd4746b899132513a1d3",
+      "purpose": "action",
+      "actions": [
+        "retrieve_references"
+      ],
+      "seconds": 13.171,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12527,
+        "total_tokens": 12563,
+        "completion_tokens": 36,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "file": "requests/request-03.json",
+      "request_index": 3,
+      "matched_model_event_index_zero_based": 45,
+      "messages_sha256": "5b51e2d903bf637100c537b9d24d896b9ea6769218b18998d4050e44d40f6eb4",
+      "response_sha256": "434e92cf8b9fead8f510ba3241ec757b361c3ea70267770ea1b1bfa002e0d251",
+      "purpose": "action",
+      "actions": [
+        "request_evidence"
+      ],
+      "seconds": 17.706,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12660,
+        "total_tokens": 12766,
+        "completion_tokens": 106,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "file": "requests/request-04.json",
+      "request_index": 4,
+      "matched_model_event_index_zero_based": 51,
+      "messages_sha256": "6cd3cf262eb0a0ae95e00e9a6b0908cd4988adbfc67d962dd21aea83778f7c44",
+      "response_sha256": "8304a4892b3d971c0322c32b2648055beb4bd8820a91118d38eab15422619352",
+      "purpose": "action",
+      "actions": [
+        "record_assessment"
+      ],
+      "seconds": 52.025,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 12861,
+        "total_tokens": 13356,
+        "completion_tokens": 495,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "file": "requests/request-05.json",
+      "request_index": 5,
+      "matched_model_event_index_zero_based": 58,
+      "messages_sha256": "38cf99439a961fccd05eb6d4fdca994a753d7afae8d3e67faf6f18f2d1131a59",
+      "response_sha256": "2c30b8a82f84d9b96a5c065d6f2682aa7d9e798ee32983e484df8c69c44b451b",
+      "purpose": "action",
+      "actions": [
+        "record_assessment"
+      ],
+      "seconds": 52.524,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 13403,
+        "total_tokens": 13898,
+        "completion_tokens": 495,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "file": "requests/request-06.json",
+      "request_index": 6,
+      "matched_model_event_index_zero_based": 65,
+      "messages_sha256": "66054a920bc25e3104f4f2873ad81f0e8c199d60f228875f0a93dd6cf4596f9b",
+      "response_sha256": "abd333239da6722a43564324d2e9dc50c87e9c8ca270ba3ae797f64e720b3233",
+      "purpose": "action",
+      "actions": [
+        "build_opinion"
+      ],
+      "seconds": 10.932,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 13828,
+        "total_tokens": 13846,
+        "completion_tokens": 18,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "finish_reason": "stop"
+      }
+    }
+  ],
+  "repair": {
+    "count": 1,
+    "validation_errors": [
+      {
+        "event_index_zero_based": 54,
+        "at": 1790676649.6921027,
+        "detail": "缺少已看图的参照时只能给证据不足或范围外意见",
+        "error_type": "ValueError",
+        "repair_allowed": true,
+        "stage": "evidence_contract",
+        "type": "validation_error"
+      }
+    ],
+    "failed_request": 4,
+    "repair_request": 5,
+    "failed_field": "claims.2.status",
+    "failed_value": "supported",
+    "repaired_value": "insufficient",
+    "reason_before": "两面开光山水松石与博古纹，颈部缠枝花卉，风格可描述。",
+    "reason_after": "可见开光山水博古纹，但无已看图参照，风格归属欠证。",
+    "source_citation_present_before_and_after": true,
+    "source_attribution_error_count": 0,
+    "source_r6_feedback_triggered": false,
+    "source_r6_feedback_evidence": "父任务已确认本27B运行使用source-r5；原件唯一validation_error是缺少已看图参照的evidence_contract，不能归因r6引用反馈。",
+    "interpretation": "一次风格参照合同修复并完成；不是引用修复或专业质量通过。"
+  },
+  "image_review": {
+    "pixel_access": "实际通过图像查看工具查看本地原图；文件SHA逐一与本轮声明比对一致。",
+    "image_hashes": [
+      {
+        "file": "site/assets/met-48607.jpg",
+        "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc"
+      },
+      {
+        "file": "site/assets/met-48607-view2.jpg",
+        "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f"
+      }
+    ],
+    "first_observation": "几何、蓝白和山水花卉有可见依据；筒瓶/松的精确分类未确证；典型清代官窑解释缺少归属桥梁。",
+    "second_observation": "中心可见带提梁的篮状花卉构图，瓶/书卷细节未清楚确认；寓意吉祥不作为像素事实。",
+    "underside": "两图均见侧面与器物下部外缘，未见底面/胎土/底款；“未见底足”需要视角限定。",
+    "roi": "两个模型框均为全图[0,0,1,1]；包含所述器物但没有定位具体纹饰。手工阅评框及IoU仅描述重叠，不代表专家定位标准。"
+  },
+  "citation_provenance": {
+    "frozen_snapshot_valid": true,
+    "snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+    "run_version_commitment_matches": true,
+    "fixed_case_pin_matches": true,
+    "read_index": 1,
+    "current_run_identity_matches": true,
+    "saved_source_authorized": true,
+    "successful_exact_body_delivery": true,
+    "receipt_body_sha256": "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442",
+    "receipt_identity_sha256": "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953",
+    "delivered_characters": 130,
+    "saved_source_type": "catalogue_record_summary",
+    "saved_source_author": "瓷证项目原创摘要；原资料机构见来源卡",
+    "saved_source_expert_reviewed": false,
+    "official_site_independently_rechecked_by_this_review": false,
+    "scope": "只确认保存的项目原创摘要、固定版本与本轮正文送达；不认证官网原文、本件身份或专业归属。"
+  },
+  "source_semantics": {
+    "declared_use": "source_context",
+    "model_declared_per_claim_citation_targets": [],
+    "automatic_assignment_to_claims": false,
+    "reported_background": "只保留Met18.61.4的来源名称及不迁移边界，没有在reference_comparison中陈述保存正文的具体编目背景。",
+    "selected_citation_review_targets": [
+      {
+        "field": "reference_comparison",
+        "kind": "source_statement",
+        "excerpt": "Met18.61.4仅作来源上下文。"
+      }
+    ],
+    "source_summary_completion": "boundary_and_identity_only; substantive_catalogue_background_not_restated",
+    "objects_or_method_target_denominators": 0,
+    "interpretation": "该引用有效且边界文本有支持，不因此支持康熙/官窑/景德镇或博古细节；不能把1条全局引用等同3条逐项支持。"
+  },
+  "claim_review": [
+    {
+      "claim_id": "claim-0-period",
+      "dimension": "period",
+      "candidate": "未能判断",
+      "status": "insufficient",
+      "original_reason": "仅见两面纹饰，无底足款识，不能定康熙或后世仿。",
+      "note": "没有最终断代，谨慎有用；但康熙与后世仿的收窄缺少观察/方法桥梁。"
+    },
+    {
+      "claim_id": "claim-1-kiln",
+      "dimension": "kiln",
+      "candidate": "未能判断",
+      "status": "insufficient",
+      "original_reason": "无胎釉实物与可靠参照，不能确认景德镇窑口。",
+      "note": "明确不能确认；错误第二纹饰观察不是窑口限制的合适支持。"
+    },
+    {
+      "claim_id": "claim-2-style",
+      "dimension": "style",
+      "candidate": "青花开光山水博古",
+      "status": "insufficient",
+      "original_reason": "可见开光山水博古纹，但无已看图参照，风格归属欠证。",
+      "note": "两图关系已关联，修复后仍将误读的博古带入候选；描述可见题材与进一步风格归属需分开。"
+    }
+  ],
+  "evidence_request_review": {
+    "original": {
+      "capture_instructions": "拍摄底足全貌与款识微距，自然光，含比例尺。",
+      "distinguishes": "底足胎釉、款识及修足可区分康熙官窑与后世仿品。",
+      "reason": "现仅见两面，无底足与款识，无法区分康熙本朝与后世仿制。",
+      "view": "底足及款识近景"
+    },
+    "useful": "底面全貌、微距、自然光、比例尺是可执行补证步骤。",
+    "unestablished_discrimination": "材料未给出底足胎釉/款识/修足怎样足以区分指定康熙官窑与仿品；不把未拍特征、未来判别能力或款识当已证事实。",
+    "not_a_style_detail_check": "该补证未直接核清第二图的纹饰识读。"
+  },
+  "condition_hypotheses_count": 0,
+  "denominators": {
+    "model_observations": 2,
+    "model_declared_observation_roles": 4,
+    "claims_per_reasoning_criterion": 3,
+    "reasoning_labels": 12,
+    "explicit_source_statement_target_pairs": 1,
+    "explicit_object_inference_target_pairs": 0,
+    "explicit_method_target_pairs": 0,
+    "declared_citations": 1,
+    "aggregate_professional_accuracy": null
+  },
+  "limitations": [
+    "共享开发上下文，非盲评且非专家；独立阅读并不构成independent_of_model证明。",
+    "只审两张公开照片与保存的项目原创摘要，不替代实物、原始摄影、馆方原始账册或专业标签。",
+    "没有人为创建每claim引用，没有改变模型答复或补其判断结论。",
+    "协议通过、finish stop和资料版本匹配都不等于理由或领域质量通过。"
+  ],
+  "frozen_one_shot_files_unchanged": {
+    "evals/run_source_repair_probe.py": "f96d272ba5febce298d00f3eac77a30d2716244cb05703ef350a66c373b40bd9",
+    "evals/source_repair_probe/prepare_and_validate.py": "dda3f2bd2d1dfbef5bca1ccb3c032084722156ca50d0cf1851dde497fac190c7",
+    "evals/source_repair_probe/README.md": "f3f07f94b6ec4de81a30ca07fe2d6828dc39447412bc23ba943424fcdd5b9e65",
+    "tests/test_source_repair_probe.py": "8acf3860128b6434454634e469afb13cd5d8815dca18b53c67939b1ea8802ad0"
+  }
+}

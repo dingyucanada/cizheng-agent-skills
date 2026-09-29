@@ -1,0 +1,6 @@
+{
+  "automatic_retries": 0,
+  "error_type": "ValueError",
+  "existing_services_modified": false,
+  "failure_reason": "completed original model response required"
+}

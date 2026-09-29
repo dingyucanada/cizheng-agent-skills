@@ -3,18 +3,18 @@
   "deployment_audit": {
     "state": "ready",
     "checked_at": "2026-09-29T00:41:18.150999+00:00",
-    "summary": "Qwen3-VL-8B 与案卷服务运行；NIM 标准文字、TensorRT-LLM 文字及 NVIDIA Embedding + cuVS 检索三个独立服务已完成真实验收，当前五项服务健康核对通过。",
+    "summary": "Spark 视觉和案卷服务已部署；NIM、TensorRT-LLM 和 NVIDIA Embedding + cuVS 分别完成独立验收。35B、27B 为隔离候选，主视觉保留 Qwen3-VL-8B；各原件说明具体测试范围。",
     "components": [
       {
-        "name": "既有 Spark 视觉与案卷服务",
+        "name": "Spark 视觉和案卷服务 · 本轮更新",
         "state": "ready",
-        "detail": "五项服务同次只读核对均 HTTP 200；Qwen3-VL-8B 原生视觉、当前 0.7.0 后端，以及三个独立模型／检索服务均运行。新后端风险筛查、设备桥接和材料版本保护已部署；未新增模型请求。",
-        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/software/v09/current-node-readonly.json"
+        "detail": "Qwen3-VL-8B 原生视觉和 0.7.0 案卷服务保持。逐条观察、出处、理由核查接口及来源修复反馈已部署，保留20个案卷；实际保存 run 的只读核查通过。此回执不代表陶瓷专业准确性。",
+        "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/qwen36-v10/deployment/backend-v12/deployment-receipt.json"
       },
       {
         "name": "TensorRT-LLM · 独立文字服务",
         "state": "ready",
-        "detail": "官方 ARM64 1.3.0rc13 / Qwen3-4B BF16，8006 实际运行；一次公开陶瓷 POST 正常结束，257 输入 / 93 输出 tokens。前八迭代 CUDA 核验绑定同容器、进程与原请求；未替换视觉或证明整案加速。",
+        "detail": "官方 ARM64 1.3.0rc13 / Qwen3-4B BF16，8006 独立验收；一次公开陶瓷 POST 正常结束，257 输入 / 93 输出 tokens。前八迭代 CUDA 核验绑定同容器、进程与原请求；未替换视觉或证明整案加速。",
         "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/tensorrt-llm-v08/README.md"
       },
       {
@@ -26,11 +26,12 @@
       {
         "name": "NVIDIA NIM · 标准文字模型接口",
         "state": "ready",
-        "detail": "官方 Spark ARM64 Model-Free NIM，保留原厂 SDK 与服务入口；Qwen3-4B BF16，独立8007。唯一公开陶瓷文字请求 HTTP200 / stop；前8步 CUDA 与同进程、请求 SHA 绑定。主视觉与整案路径保持，模型原答与部署回执可回查。",
+        "detail": "官方 Spark ARM64 Model-Free NIM，保留原厂 SDK 与服务入口；Qwen3-4B BF16，独立8007。固定公开陶瓷文字请求 HTTP200 / stop；前8步 CUDA 与同进程、请求 SHA 绑定。主视觉与整案路径保持，模型原答与部署回执可回查。",
         "evidence_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/docs/nim-v09-update.md"
       }
     ],
-    "editor_updated_at": "2026-09-29T00:32:10.787375+00:00"
+    "editor_updated_at": "2026-09-29T10:45:35.227900+00:00",
+    "checked_at_scope": "该时间是首批五服务同次核验的历史时间；本轮后端回执另见第一项。各独立模型核验不代表当前同时执行或整案加速。"
   },
   "fixed_case": {
     "round": 12,
@@ -43,12 +44,12 @@
   "pdf": {
     "state": "ready",
     "href": "assets/cizheng-report-v08.pdf",
-    "sha256": "6a81d8f59d0da09f9bbcfb2c7edf524f3f1d5672712669eb06b78968aba26592",
-    "bytes": 1806324,
-    "pages": 19
+    "sha256": "0a8b643e449c8a38f4ba4d8e6bea06c004492f34ff292b6e6f099a3662af0a6e",
+    "bytes": 2514746,
+    "pages": 24
   },
   "checked_at": "2026-09-29T00:41:18.150999+00:00",
-  "summary": "Qwen3-VL-8B 与案卷服务运行；NIM 标准文字、TensorRT-LLM 文字及 NVIDIA Embedding + cuVS 检索三个独立服务已完成真实验收，当前五项服务健康核对通过。",
+  "summary": "Spark 视觉和案卷服务已部署；NIM、TensorRT-LLM 和 NVIDIA Embedding + cuVS 分别完成独立验收。35B、27B 为隔离候选，主视觉保留 Qwen3-VL-8B；各原件说明具体测试范围。",
   "current_node_receipt": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/software/v09/current-node-readonly.json",
   "new_backend": {
     "state": "ready",
@@ -56,9 +57,13 @@
     "features": [
       "六维矛盾筛查",
       "受控设备采集桥接",
-      "材料版本过期与回退保护"
+      "材料版本过期与回退保护",
+      "逐条观察、出处和判断理由核查",
+      "只读证据包导出",
+      "来源转述缺引用的受控修复反馈"
     ],
     "spark_focused_tests": 54,
-    "scope": "Actual deployed software; protocol tests are not professional accuracy"
+    "scope": "Actual deployed software and frozen-run read-only verification; no semantic score or expert accuracy automatically assigned",
+    "deployment_receipt": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/qwen36-v10/deployment/backend-v12/deployment-receipt.json"
   }
 }

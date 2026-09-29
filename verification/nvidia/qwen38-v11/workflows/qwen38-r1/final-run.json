@@ -1,0 +1,2493 @@
+{
+  "assessment": {
+    "alternatives": [
+      "康熙本朝官窑青花",
+      "后世仿古青花"
+    ],
+    "basic_info": "青花筒形花觚，撇口，开光山水与博古纹，未见底足",
+    "claims": [
+      {
+        "candidate": "未能判断",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "仅见两面纹饰，无底足款识，不能定康熙或后世仿。",
+        "status": "insufficient",
+        "support": [
+          "obs_476fe888baec482b9c1f3a41ec469850"
+        ]
+      },
+      {
+        "candidate": "未能判断",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "无胎釉实物与可靠参照，不能确认景德镇窑口。",
+        "status": "insufficient",
+        "support": [
+          "obs_92220786f68347988d7e3575158ec467"
+        ]
+      },
+      {
+        "candidate": "青花开光山水博古",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "可见开光山水博古纹，但无已看图参照，风格归属欠证。",
+        "status": "insufficient",
+        "support": [
+          "obs_476fe888baec482b9c1f3a41ec469850",
+          "obs_92220786f68347988d7e3575158ec467"
+        ]
+      }
+    ],
+    "condition_hypotheses": [],
+    "knowledge_citations": [
+      {
+        "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+        "relevance": "Met18.61.4馆方记载，仅作来源上下文，不迁移成本件。",
+        "use": "source_context"
+      }
+    ],
+    "limitations": [
+      "未选图不参与本轮",
+      "未见底足款识",
+      "无已看图器物参照"
+    ],
+    "reference_comparison": "参照库为空，无可比器物图像；Met18.61.4仅作来源上下文。",
+    "reference_ids": [],
+    "revision_explanation": "首轮意见，无旧版修订。",
+    "scope": "bluewhite_gu"
+  },
+  "case_id": "case_543bb4038ff24a56a54eac24ed1e13c1",
+  "case_revision": 4,
+  "compact_seen_read_indexes": [
+    1
+  ],
+  "context_media_ids": [
+    "media_b07bc79000b445b696b4959de4d253f4",
+    "media_2451e91499804f9588295a29194b1e14"
+  ],
+  "created_at": 1790676539.0573745,
+  "derivatives": [
+    {
+      "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_2451e91499804f9588295a29194b1e14",
+      "original_height": 1200,
+      "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    },
+    {
+      "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+      "crop_pixels": [
+        0,
+        0,
+        800,
+        1200
+      ],
+      "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+      "display_height": 1200,
+      "display_region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "display_to_file_normalized": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "display_width": 800,
+      "downsampled": false,
+      "exif_orientation": 1,
+      "height": 1200,
+      "media_id": "media_b07bc79000b445b696b4959de4d253f4",
+      "original_height": 1200,
+      "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+      "original_width": 800,
+      "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+      "width": 800
+    }
+  ],
+  "ended_at": 1790676713.3749807,
+  "episode_id": "episode_6191de964e4746aabba0a059f9dbf7d3",
+  "error": null,
+  "events": [
+    {
+      "actor": "coordinator",
+      "at": 1790676539.1287842,
+      "identity": {
+        "action_transport": {
+          "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+          "citation_exposure": "successful-main-canonical-body-exposure",
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+          },
+          "effective_by_task": {
+            "documentary_audit": false,
+            "visual_research": true
+          },
+          "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+          "inventory_limits": {
+            "knowledge_read_indexes": 20,
+            "observation_ids": 48,
+            "reference_ids": 10
+          },
+          "metadata_fields": [
+            "document_id",
+            "document_revision",
+            "document_sha256",
+            "chunk_id",
+            "chunk_sha256",
+            "locator"
+          ],
+          "phase_tool_contract": {
+            "activation": "guided+compact+visual-only",
+            "budgets_and_repairs": "unchanged",
+            "decoder_enforcement": "only-when-structured_outputs-enabled",
+            "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+            "opinions_and_citations": "model-authored",
+            "phases": [
+              "respond_critic_required",
+              "record_assessment_required",
+              "build_opinion_available"
+            ],
+            "preparation_tools": "unchanged-model-choice",
+            "prompt_sha256": {
+              "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+              "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+              "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+              "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+              "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+              "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+            },
+            "protocol": "trusted-current-run-phase-tools-v1",
+            "schema_sha256": {
+              "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+              "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+              "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+              "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+              "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+            },
+            "state_source": "current-saved-run-only",
+            "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+          },
+          "protocol": "compact-visual-metadata-v1",
+          "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+          "scope": "visual_research-only",
+          "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+        },
+        "budgets": "original-run-and-episode-limits",
+        "compact_actions": true,
+        "delivery_context": "trusted-run-delivery-stage-v1",
+        "documentary_preparation": [
+          "read_case"
+        ],
+        "first_image_batch_max": 4,
+        "guided_workflow": true,
+        "knowledge_prefetch_max_chunks": 2,
+        "knowledge_scope": "case-pinned-fixed-versions-only",
+        "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+        "natural_skill_discovery": false,
+        "observed_method_rule": {
+          "english_match": "case-insensitive-word",
+          "max_additional_methods": 1,
+          "method_whitelist": [
+            "bluewhite-attribution-test"
+          ],
+          "mode": "skills",
+          "research_task": "visual_research",
+          "source": "first-batch-current-run-vision-visible-only",
+          "triggers": [
+            "青花",
+            "blue-and-white"
+          ]
+        },
+        "parent_skill": "evidence-revise",
+        "preparation_actor": "coordinator",
+        "strategy": "coordinator-observed-method-v2",
+        "visual_skills": [
+          "ceramic-route",
+          "ceramic-research-record"
+        ]
+      },
+      "type": "harness_preparation"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.141509,
+      "outcome": "started",
+      "tool": "read_case",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {},
+      "at": 1790676539.1566222,
+      "tool": "read_case",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.162941,
+      "result": {
+        "case": {
+          "analysis_scope": {
+            "archive_media_count": 2,
+            "notice": "意见仅覆盖本轮明确选用的图片；档案其余图片未被本轮视觉模型观察。",
+            "omitted_media_ids": [],
+            "selected_media_ids": [
+              "media_2451e91499804f9588295a29194b1e14",
+              "media_b07bc79000b445b696b4959de4d253f4"
+            ]
+          },
+          "catalogue": {
+            "condition_note": "",
+            "decoration": "",
+            "dimensions": "",
+            "inscription": "",
+            "inventory_number": "",
+            "material": "",
+            "object_name": "",
+            "object_type": "",
+            "provenance": "",
+            "requested_output": ""
+          },
+          "catalogue_sha256": "6dd086bb8b23a0b51702a009b89a273f24915d4d27c8e5b2383337cd2759a716",
+          "evidence_documents": [],
+          "evidence_documents_truncated": false,
+          "id": "case_543bb4038ff24a56a54eac24ed1e13c1",
+          "knowledge_links": [
+            {
+              "document_id": "ksrc_51b142960ebb1cac53087148",
+              "document_revision": 1,
+              "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+              "linked_case_revision": 4
+            }
+          ],
+          "knowledge_links_total": 1,
+          "knowledge_links_truncated": false,
+          "media": [
+            {
+              "id": "media_2451e91499804f9588295a29194b1e14",
+              "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+              "source": "公开机构图像，来源清单独立于像素观察",
+              "view": "公开拍摄视角1"
+            },
+            {
+              "id": "media_b07bc79000b445b696b4959de4d253f4",
+              "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+              "source": "公开机构图像，来源清单独立于像素观察",
+              "view": "公开拍摄视角2"
+            }
+          ],
+          "projection_notice": "登记是操作人陈述，未核验；列表通过read_case_records分页读取，正文通过read_evidence_document。",
+          "question": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。馆方文字记载另列来源上下文；不能把普通纹样当断代证据。",
+          "record_collections": {
+            "annotations": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "condition_checks": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "corrections": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "evidence_documents": {
+              "tool": "read_case_records",
+              "total": 0
+            },
+            "knowledge_links": {
+              "tool": "read_case_records",
+              "total": 1
+            },
+            "provenance_events": {
+              "tool": "read_case_records",
+              "total": 0
+            }
+          },
+          "research_task": "visual_research",
+          "revision": 4,
+          "source_declaration": "Met公开CC0图像，用于技术与AI阅评；没有独立专家标签。",
+          "target_attribution": "照片可支持的有限研究；未指定制作时期和窑口",
+          "title": "公开图像理由核查；非专家验证",
+          "truncated_fields": [],
+          "workflow": "museum"
+        },
+        "case_snapshot_sha256": "4661cab50a862baf41245df086deb9e32acc4e013291d397ffef56e85b2ed01b",
+        "mode": "skills",
+        "parent_run_id": null,
+        "preflight": {
+          "archive_image_count": 2,
+          "case_id": "case_543bb4038ff24a56a54eac24ed1e13c1",
+          "case_revision": 4,
+          "evidence_request": null,
+          "next_step": "ready_for_analysis",
+          "notice": "像素指标尚未用陶瓷照片校准；不据此判废图、AI生成、年代或真伪。上传视角仅为声明，未经验证。",
+          "projection_notice": "完整像素预检另存本轮run.preflight；此处省去档案图逐行指标。",
+          "review_required": true,
+          "review_status": "pending",
+          "semantic_view_verification": "not_performed",
+          "verified_views": [],
+          "version": "pixel-descriptive-v1"
+        },
+        "remaining_model_calls": 12,
+        "research_task": "visual_research"
+      },
+      "result_sha256": "a720c5217ec049bfc132d2f3e54ab13dbf9bc497d49fbacaa029c434fe368cf6",
+      "tool": "read_case",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.1718416,
+      "outcome": "succeeded",
+      "result_sha256": "a720c5217ec049bfc132d2f3e54ab13dbf9bc497d49fbacaa029c434fe368cf6",
+      "tool": "read_case",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.181462,
+      "outcome": "started",
+      "tool": "discover_skills",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {},
+      "at": 1790676539.1939878,
+      "tool": "discover_skills",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2033954,
+      "result": [
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.",
+          "description": "Compare manufacturing-period, kiln and style hypotheses for visibly in-scope blue-and-white gu vases using real reference images and competing explanations. Not for other ceramic types, price estimates, or authenticity certification.",
+          "missing_tools": [],
+          "name": "bluewhite-attribution-test",
+          "sha256": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.",
+          "description": "Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.",
+          "missing_tools": [],
+          "name": "ceramic-research-record",
+          "sha256": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires the Cizheng v0.4 tool host and a working multimodal endpoint.",
+          "description": "Identify the visible ceramic category for a new object study and route museum, collection, or auction research and determine whether blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.",
+          "missing_tools": [],
+          "name": "ceramic-route",
+          "sha256": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.3 inspect_images, inspect_region and evidence-request tools.",
+          "description": "Compare explanations for actually observed ceramic lines, deposits, patches or possible repairs. Not for unrelated attribution questions or deciding age from a worn appearance.",
+          "missing_tools": [],
+          "name": "condition-hypothesis-test",
+          "sha256": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36"
+        },
+        {
+          "available": false,
+          "compatibility": "Cizheng documentary_audit bounded reading tools; no OCR or expert model is bundled.",
+          "description": "核查本案已许可文字凭据与固定版本知识材料的陈述关系。用于文字凭据核查任务，可无照片；不认证文书、历史经历、真伪或年代窑口风格归属。",
+          "missing_tools": [
+            "read_evidence_document",
+            "record_documentary_findings"
+          ],
+          "name": "documentary-evidence-audit",
+          "sha256": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.3 versioned cases, image tools and dependency-review tools.",
+          "description": "Revise a prior ceramic assessment after new photos, corrections, refreshed references or an approved text-critic result. Not for rereading an unchanged report.",
+          "missing_tools": [],
+          "name": "evidence-revise",
+          "sha256": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c"
+        },
+        {
+          "available": true,
+          "compatibility": "Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.",
+          "description": "Audit the documentary provenance of a ceramic research case, distinguishing holder statements, dated records, gaps, and object-identity links. Use when a museum accession, collection purchase, or auction consignment asks about source history. Not for proving title, legality, price, or authenticity from a story.",
+          "missing_tools": [],
+          "name": "provenance-evidence-audit",
+          "sha256": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+        }
+      ],
+      "result_sha256": "06e2fc9ffd35ed2b7f4ce5450a0fb94edca25e86fda457aada290aefe6c28a27",
+      "tool": "discover_skills",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2123349,
+      "outcome": "succeeded",
+      "result_sha256": "06e2fc9ffd35ed2b7f4ce5450a0fb94edca25e86fda457aada290aefe6c28a27",
+      "tool": "discover_skills",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2208815,
+      "outcome": "started",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "name": "ceramic-route"
+      },
+      "at": 1790676539.2328258,
+      "tool": "load_skill",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2492073,
+      "result": {
+        "compatibility": "Requires the Cizheng v0.4 tool host and a working multimodal endpoint.",
+        "description": "Identify the visible ceramic category for a new object study and route museum, collection, or auction research and determine whether blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.",
+        "entry_sha256": "6a6eb9328beb74c6bbc4b599b5f47b0d6b96060e2447e102f5809b13437ae8c2",
+        "metadata": {
+          "expert-review": "pending",
+          "required-tools": "read_case,inspect_images,load_skill",
+          "version": "0.4.0"
+        },
+        "name": "ceramic-route",
+        "resource_call_notice": "name为所属Skill目录名；path按需从resources原样选，须由模型调用，不自动读取。",
+        "resource_reader": {
+          "name": "ceramic-route",
+          "tool": "read_skill_resource"
+        },
+        "resources": [
+          "evals/evals.json",
+          "references/scope-and-capture.md",
+          "skill-card.md"
+        ],
+        "sha256": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+        "text": "---\nname: ceramic-route\ndescription: >-\n  Identify the visible ceramic category for a new object study and route museum, collection, or auction research and determine whether\n  blue-and-white gu attribution is in the specialty scope. Not for downloading reports or querying run status.\ncompatibility: Requires the Cizheng v0.4 tool host and a working multimodal endpoint.\nmetadata:\n  version: 0.4.0\n  required-tools: \"read_case,inspect_images,load_skill\"\n  expert-review: \"pending\"\n---\n\n# 器类与专科路由\n\n通过 read_case 读取问题与媒体登记，调用 inspect_images 观察轮廓、口部、颈腹足的关系、装饰区域。器物名称不能从目录编号或用户猜测获得。\n\n青花花觚使用专科归属核验；一般陶瓷可做档案与有限研究，加载 ceramic-research-record，scope使用 ceramic_research。把“器类判断”和“制作年代判断”分开。看不到足够形制或装饰时保留观察限制；非花觚不继续套用康熙器的规则；明显非陶瓷才使用 out_of_scope。\n\n照片只覆盖某局部、来源或尺度不足时，按需 read_skill_resource 读取 [范围与采集条件](references/scope-and-capture.md)，决定缺失是否影响任务。不得因为存在范围内词语而跳过器类观察。\n\n输出到最终 basic_info 的内容包括可见形制、装饰、当前缺失的尺度和来源。只描述照片支持的信息。胎土配方、真实釉色、重量、工艺年代不能由普通照片直接测得。\n\n青花花觚加载 bluewhite-attribution-test，其他陶瓷加载 ceramic-research-record。来源经历核查按描述加载 provenance-evidence-audit。仅在观察到需解释的状况现象时加载 condition-hypothesis-test。有上一版意见时使用 evidence-revise。工具失败停止推断，不能用用户目标填补视觉结果。\n"
+      },
+      "result_sha256": "7d371d359991e8ff61df5b24d33dd7f2bedd737a0ff68d6661799bb688d0e6c5",
+      "tool": "load_skill",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2580523,
+      "outcome": "succeeded",
+      "result_sha256": "7d371d359991e8ff61df5b24d33dd7f2bedd737a0ff68d6661799bb688d0e6c5",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2673798,
+      "outcome": "started",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "name": "ceramic-research-record"
+      },
+      "at": 1790676539.279627,
+      "tool": "load_skill",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.2953126,
+      "result": {
+        "compatibility": "Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.",
+        "description": "Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.",
+        "entry_sha256": "867ac070d22b79482a5401f85570317b06513f85dc43e16d2e3c9d4dd8c0e71f",
+        "metadata": {
+          "expert-review": "pending",
+          "required-tools": "read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion",
+          "version": "0.4.1"
+        },
+        "name": "ceramic-research-record",
+        "resource_call_notice": "name为所属Skill目录名；path按需从resources原样选，须由模型调用，不自动读取。",
+        "resource_reader": {
+          "name": "ceramic-research-record",
+          "tool": "read_skill_resource"
+        },
+        "resources": [
+          "evals/evals.json",
+          "references/record-contract.md",
+          "skill-card.md"
+        ],
+        "sha256": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782",
+        "text": "---\nname: ceramic-research-record\ndescription: >-\n  Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.\ncompatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.\nmetadata:\n  version: 0.4.1\n  required-tools: \"read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion\"\n  expert-review: \"pending\"\n---\n\n# 陶瓷档案与有限研究\n\n先 read_case 查看任务场景、器物登记、来源声明、人工观察和本轮明确选用照片。登记内容不能当作真值，workflow不是使用者身份认证。\n\n1. 实际 inspect_images 看本轮图像，先描述器形、装饰布局与可见部位。用 inspect_region 查看决定比较的细节，记录坐标、限制；不把放大产生的视觉感受当新事实。\n2. 普通陶瓷使用 ceramic_research；明显非陶瓷才用 out_of_scope。青花花觚进入 bluewhite-attribution-test，其他器类不套用花觚经验。制作时期、窑口、装饰风格分别保留支持、冲突和不足。\n3. search_knowledge 查询术语、状况记录或来源核查方法，read_knowledge 读取来源段落及版本。参照器物则 retrieve_references、read_reference，再实际看参照图。没有可靠、可比参照时，归属保持 insufficient；知识摘要不能替代图像参照或实物检查。\n4. 按需 read_skill_resource 阅读[记录与证据层次](references/record-contract.md)。人工区域观察只是操作人记录；模型必须重新观察，不能把人工注释ID填入support/conflict。\n5. 博物馆任务重点是登记来源、尺寸及状况和馆内复核；收藏任务重点是持有人主张与支持材料的区别；拍卖任务重点是图录用语与状况分开。三类均不提供未经实测的价格、真伪概率或专家身份背书。\n6. 若有来源链问题，按描述加载 provenance-evidence-audit；若有可见状况疑点加载 condition-hypothesis-test。有旧意见加载 evidence-revise。\n7. record_assessment 逐项连接本轮模型观察、判断理由和实际读到的知识段落。理由应说明现象对候选的支持限度，并提出能区分解释的补证。没有可区分的时期或窑口依据时写“未能判断”，具体馆方归属另列为有引用的来源记载；不先填具体归属再用 insufficient 回避依据问题。蓝白颜色、对称布局和山水纹饰不是清代的专有特征；底部未拍到不等于没有款识。在限制中明确未选图、缺少实物与未核来源。build_opinion结束，不输出证书。\n"
+      },
+      "result_sha256": "0e5b17c199eb12d439d3343099a5f9f4797c4972d37e029eb9dbc7b8a9023c6c",
+      "tool": "load_skill",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.304339,
+      "outcome": "succeeded",
+      "result_sha256": "0e5b17c199eb12d439d3343099a5f9f4797c4972d37e029eb9dbc7b8a9023c6c",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.3130898,
+      "outcome": "started",
+      "tool": "search_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "query": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。馆方文字记载另列来源上下文；不能把普通纹样当断代证据。"
+      },
+      "at": 1790676539.3257446,
+      "tool": "search_knowledge",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.3414907,
+      "result": {
+        "filters": {
+          "document_id": [
+            "ksrc_51b142960ebb1cac53087148"
+          ]
+        },
+        "index_version": "87c027b0469d82a92ca202b6f9e0eb2ea4e0c80d4ae6e7e36fcc5fcf856e3b20",
+        "indexer_version": "cizheng-zh-bigram-v1",
+        "query": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。馆方文字记载另列来源上下文；不能把普通纹样当断代证据。",
+        "rank_notice": "rank_score 是中文双字词与关键词的加权匹配排序分，不是可靠性、真伪或置信概率；来源与摘要均待专家复核。",
+        "results": [
+          {
+            "author": "瓷证项目原创摘要；原资料机构见来源卡",
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "index_version": "87c027b0469d82a92ca202b6f9e0eb2ea4e0c80d4ae6e7e36fcc5fcf856e3b20",
+            "institution": "The Metropolitan Museum of Art",
+            "limitations": [
+              "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+              "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+            ],
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "matched_terms": [
+              "分别",
+              "断代",
+              "来源",
+              "记录",
+              "馆方"
+            ],
+            "rank_components": {
+              "body_terms": 3,
+              "exact_phrase": false,
+              "locator_terms": 0,
+              "metadata_terms": 2,
+              "query_terms": 52
+            },
+            "rank_score": 0.230769,
+            "review_required": true,
+            "review_status": "pending",
+            "revision": 1,
+            "rights": "authorized_text",
+            "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+            "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+            "snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+            "snippet_end": 130,
+            "snippet_start": 0,
+            "source_type": "catalogue_record_summary",
+            "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+            "title": "山水纹花觚的馆藏编目参照",
+            "truncated": false,
+            "year": "访问核实：2026-09-28"
+          }
+        ],
+        "run_snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+        "scope": "case-pinned-fixed-versions-only",
+        "selection_actor": "coordinator",
+        "snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb"
+      },
+      "result_sha256": "e05fdf1060c7fa3cb034616e194f8833f6fd95d85667bab3a7f7d43c22f186d0",
+      "tool": "search_knowledge",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.3513181,
+      "outcome": "succeeded",
+      "result_sha256": "e05fdf1060c7fa3cb034616e194f8833f6fd95d85667bab3a7f7d43c22f186d0",
+      "tool": "search_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.3577511,
+      "outcome": "started",
+      "tool": "read_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+        "document_id": "ksrc_51b142960ebb1cac53087148"
+      },
+      "at": 1790676539.370705,
+      "tool": "read_knowledge",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.3863232,
+      "result": {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "ordinal": 1,
+            "read_index": 1,
+            "run_id": "run_3ee283431af842fb91662bf258e8897b",
+            "snippet_end": 130,
+            "snippet_start": 0,
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。",
+            "truncated": false
+          }
+        ],
+        "index_version": "87c027b0469d82a92ca202b6f9e0eb2ea4e0c80d4ae6e7e36fcc5fcf856e3b20",
+        "notice": "rank_score 是中文双字词与关键词的加权匹配排序分，不是可靠性、真伪或置信概率；来源与摘要均待专家复核。",
+        "snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790676538.978593,
+          "document_id": "ksrc_51b142960ebb1cac53087148",
+          "document_revision": 1,
+          "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+          "expert_reviewed": false,
+          "id": "ksrc_51b142960ebb1cac53087148",
+          "imported_manually": true,
+          "institution": "The Metropolitan Museum of Art",
+          "limitations": [
+            "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+            "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+          ],
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+          "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "text_bytes": 320,
+          "text_sha256": "e2054eb895834aae86d08b8da00f18dc7dd3ba3fcaa246cd2cca89711caf2f7e",
+          "title": "山水纹花觚的馆藏编目参照",
+          "updated_at": 1790676538.978593,
+          "year": "访问核实：2026-09-28"
+        },
+        "total_chunks": 1
+      },
+      "result_sha256": "0162d5660d2bdaa1eba9bc57187a77f64c1f590e11044d6f66da759813b41070",
+      "tool": "read_knowledge",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.3950763,
+      "outcome": "succeeded",
+      "result_sha256": "0162d5660d2bdaa1eba9bc57187a77f64c1f590e11044d6f66da759813b41070",
+      "tool": "read_knowledge",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676539.4012172,
+      "outcome": "started",
+      "tool": "inspect_images",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "media_ids": [
+          "media_2451e91499804f9588295a29194b1e14",
+          "media_b07bc79000b445b696b4959de4d253f4"
+        ],
+        "question": "记录当前原照的器形、纹饰与可见部位，观察与推断分开。研究问题（数据）：记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。馆方文字记载另列来源上下文；不能把普通纹样当断代证据。"
+      },
+      "at": 1790676539.4141994,
+      "tool": "inspect_images",
+      "type": "tool_start"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_2451e91499804f9588295a29194b1e14",
+          "original_height": 1200,
+          "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        },
+        {
+          "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+          "crop_pixels": [
+            0,
+            0,
+            800,
+            1200
+          ],
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_height": 1200,
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "display_to_file_normalized": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "display_width": 800,
+          "downsampled": false,
+          "exif_orientation": 1,
+          "height": 1200,
+          "media_id": "media_b07bc79000b445b696b4959de4d253f4",
+          "original_height": 1200,
+          "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+          "original_width": 800,
+          "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+          "width": 800
+        }
+      ],
+      "at": 1790676539.4659631,
+      "purpose": "inspect_images",
+      "type": "vision_input"
+    },
+    {
+      "at": 1790676566.3174608,
+      "elapsed": 26.836003356031142,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "c1169fd3d933a2d533f7e712667ea0b5c361df6486c70f9bd33da327a55f5e13",
+      "outcome": "succeeded",
+      "output_hash": "ae4b9f6a1d4556d9dc69416f2ee48f743253b5a9afbd626e67c3ae0b7c1d0759",
+      "purpose": "vision",
+      "successful_compact_read_indexes": [],
+      "successful_knowledge_body_sha256": [],
+      "successful_knowledge_receipt_sha256": [],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 1254,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 284,
+        "finish_reason": "stop",
+        "prompt_tokens": 1090,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 1374
+      }
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.3346999,
+      "result": {
+        "derivatives": [
+          {
+            "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+            "crop_pixels": [
+              0,
+              0,
+              800,
+              1200
+            ],
+            "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+            "display_height": 1200,
+            "display_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "display_to_file_normalized": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "display_width": 800,
+            "downsampled": false,
+            "exif_orientation": 1,
+            "height": 1200,
+            "media_id": "media_2451e91499804f9588295a29194b1e14",
+            "original_height": 1200,
+            "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+            "original_width": 800,
+            "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+            "width": 800
+          },
+          {
+            "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+            "crop_pixels": [
+              0,
+              0,
+              800,
+              1200
+            ],
+            "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+            "display_height": 1200,
+            "display_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "display_to_file_normalized": [
+              1,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            "display_width": 800,
+            "downsampled": false,
+            "exif_orientation": 1,
+            "height": 1200,
+            "media_id": "media_b07bc79000b445b696b4959de4d253f4",
+            "original_height": 1200,
+            "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+            "original_width": 800,
+            "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+            "width": 800
+          }
+        ],
+        "observations": [
+          {
+            "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+            "coordinate_space": "exif-corrected-original-normalized",
+            "id": "obs_476fe888baec482b9c1f3a41ec469850",
+            "interpretation": "典型清代官窑风格",
+            "limitation": "仅见单面，无法确认底款",
+            "media_id": "media_2451e91499804f9588295a29194b1e14",
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "run_id": "run_3ee283431af842fb91662bf258e8897b",
+            "visible": "青花筒瓶，口沿外撇，腹部开光绘山水松石，颈部绘缠枝花卉。"
+          },
+          {
+            "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+            "coordinate_space": "exif-corrected-original-normalized",
+            "id": "obs_92220786f68347988d7e3575158ec467",
+            "interpretation": "博古纹饰寓意吉祥",
+            "limitation": "未见底足，无法断代",
+            "media_id": "media_b07bc79000b445b696b4959de4d253f4",
+            "region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "run_id": "run_3ee283431af842fb91662bf258e8897b",
+            "visible": "瓶身另一面，腹部开光绘博古纹，含瓶、书卷等器物，颈部纹饰相同。"
+          }
+        ]
+      },
+      "result_sha256": "a75d1e187249497e0129cc8898909a361355671c61e482d977d6cb3654b32610",
+      "tool": "inspect_images",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.3449519,
+      "outcome": "succeeded",
+      "result_sha256": "a75d1e187249497e0129cc8898909a361355671c61e482d977d6cb3654b32610",
+      "tool": "inspect_images",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.3571355,
+      "classification_verified": false,
+      "matched_observations": [
+        {
+          "matched_trigger": "青花",
+          "media_id": "media_2451e91499804f9588295a29194b1e14",
+          "observation_id": "obs_476fe888baec482b9c1f3a41ec469850"
+        }
+      ],
+      "natural_skill_discovery": false,
+      "rule": {
+        "english_match": "case-insensitive-word",
+        "max_additional_methods": 1,
+        "method_whitelist": [
+          "bluewhite-attribution-test"
+        ],
+        "mode": "skills",
+        "research_task": "visual_research",
+        "source": "first-batch-current-run-vision-visible-only",
+        "triggers": [
+          "青花",
+          "blue-and-white"
+        ]
+      },
+      "selected_method": "bluewhite-attribution-test",
+      "selection_source": "first-batch-current-run-vision-visible-only",
+      "type": "harness_observed_method"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.3670309,
+      "outcome": "started",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "actor": "coordinator",
+      "arguments": {
+        "name": "bluewhite-attribution-test"
+      },
+      "at": 1790676566.388204,
+      "tool": "load_skill",
+      "type": "tool_start"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.4119313,
+      "result": {
+        "compatibility": "Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.",
+        "description": "Compare manufacturing-period, kiln and style hypotheses for visibly in-scope blue-and-white gu vases using real reference images and competing explanations. Not for other ceramic types, price estimates, or authenticity certification.",
+        "entry_sha256": "77d4d44a235707454fe72f988a5e2118dfa861179a460b128888fcbe6856fc28",
+        "metadata": {
+          "expert-review": "pending",
+          "required-tools": "inspect_images,inspect_region,retrieve_references,read_reference,read_skill_resource,record_assessment",
+          "version": "0.3.0"
+        },
+        "name": "bluewhite-attribution-test",
+        "resource_call_notice": "name为所属Skill目录名；path按需从resources原样选，须由模型调用，不自动读取。",
+        "resource_reader": {
+          "name": "bluewhite-attribution-test",
+          "tool": "read_skill_resource"
+        },
+        "resources": [
+          "evals/evals.json",
+          "references/comparison-method.md",
+          "skill-card.md"
+        ],
+        "sha256": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+        "text": "---\nname: bluewhite-attribution-test\ndescription: >-\n  Compare manufacturing-period, kiln and style hypotheses for visibly in-scope\n  blue-and-white gu vases using real reference images and competing explanations.\n  Not for other ceramic types, price estimates, or authenticity certification.\ncompatibility: Requires Cizheng v0.3 image, reference and skill-resource tools; no dating model is bundled.\nmetadata:\n  version: 0.3.0\n  required-tools: \"inspect_images,inspect_region,retrieve_references,read_reference,read_skill_resource,record_assessment\"\n  expert-review: \"pending\"\n---\n\n# 青花花觚归属核验\n\n适用条件：器类观察支持青花花觚。本技能是研究程序，不携带已经专家验证的断代规则；没有可靠标本时主动保留不足。\n\n1. 将目标转换为可证伪主张：某时期实际制作，与仿该时期风格不同。保持 period、kiln、style 三种维度各自的候选与判断。\n2. 用 inspect_images 查看器形比例、分区纹饰、口沿、接胎与底足等当前可见部位；记录可见现象与解释，不以单一铁锈斑、裂纹、釉面黄旧或青色决定年代。\n3. retrieve_references 检索器类与候选；read_reference 查馆藏编号／图版、归属依据与许可；inspect_images 实看参照图，优先将器物及参照同批对比。需要决定资料是否可比或引用支持程度时，read_skill_resource 读取 [参照与竞争解释](references/comparison-method.md)。没有同类可比部位就明确不可比。\n4. 比较至少一个最强竞争解释，例如历史时期近似作品、后世仿古、现代仿古或图像处理差异。不要把“找不到反证”当作目标成立。\n5. 对每个维度写出支持、冲突和缺失。support/conflict 填本轮 observation_id；在 reasoning_summary 说明证据与结论之间的有限联系，不输出隐藏思维过程。reference_comparison 指明哪项相似、哪项不同及参照ID。\n6. request_evidence 只请求当前信息价值最高的一项，说明它如何区分竞争解释。普通照片无法解决的材料／烧成／年代问题应转为上手或专业检测需求，不反复索取同类照片。\n7. record_assessment 后 build_opinion。照片不足或空参照库使用 insufficient；不发明百分比。所谓 supported 只表示当前资料支持某归属，不能变成实物真品证书。\n\n失败处理：参照不匹配或来源仅为卖家自述时降低其证明力；模型无法识别时保留欠证，不编造款识与图案文字。\n\n细节看不清时用 inspect_region 查看原图局部，并引用返回的观察ID；放大或生成增强不能创造事实。制作时期、窑口和风格分别核验，某一维度有支持不自动放行另外两维度。\n"
+      },
+      "result_sha256": "152b2146036710ad7ccbda64f91c1bfccc5e6fee9f2cbd66abe1a5b149859cdc",
+      "tool": "load_skill",
+      "type": "tool_result"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.423017,
+      "outcome": "succeeded",
+      "result_sha256": "152b2146036710ad7ccbda64f91c1bfccc5e6fee9f2cbd66abe1a5b149859cdc",
+      "tool": "load_skill",
+      "type": "harness_prepare"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_2451e91499804f9588295a29194b1e14"
+        },
+        {
+          "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_b07bc79000b445b696b4959de4d253f4"
+        }
+      ],
+      "at": 1790676566.4413118,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.457925,
+      "delivery_phase": "record_assessment_required",
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 272,
+      "remaining_model_calls_including_this_request": 11,
+      "remaining_tool_calls": 12,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676566.4669898,
+      "inventory": {
+        "knowledge_read_indexes": [],
+        "observation_ids": [
+          "obs_476fe888baec482b9c1f3a41ec469850",
+          "obs_92220786f68347988d7e3575158ec467"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 0,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790676579.7127302,
+      "elapsed": 13.220704004983418,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "97e28c265340fe1ff305b60589b50085b9f473d007f08d165960fba8493927f1",
+      "outcome": "succeeded",
+      "output_hash": "05b35ab921ba6aeef083f59db542bcbb1ea96e6f67a0dd4746b899132513a1d3",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 28455,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 36,
+        "finish_reason": "stop",
+        "prompt_tokens": 12527,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 12563
+      }
+    },
+    {
+      "arguments": {
+        "query": "青花 花觚 山水纹 博古纹 康熙 景德镇"
+      },
+      "at": 1790676579.7272158,
+      "tool": "retrieve_references",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790676579.7424045,
+      "result": [],
+      "result_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tool": "retrieve_references",
+      "type": "tool_result"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_2451e91499804f9588295a29194b1e14"
+        },
+        {
+          "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_b07bc79000b445b696b4959de4d253f4"
+        }
+      ],
+      "at": 1790676579.7524285,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676579.7697668,
+      "delivery_phase": "record_assessment_required",
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 259,
+      "remaining_model_calls_including_this_request": 10,
+      "remaining_tool_calls": 11,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676579.7797348,
+      "inventory": {
+        "knowledge_read_indexes": [
+          1
+        ],
+        "observation_ids": [
+          "obs_476fe888baec482b9c1f3a41ec469850",
+          "obs_92220786f68347988d7e3575158ec467"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 1,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790676597.5312765,
+      "elapsed": 17.730284571065567,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "5b51e2d903bf637100c537b9d24d896b9ea6769218b18998d4050e44d40f6eb4",
+      "outcome": "succeeded",
+      "output_hash": "434e92cf8b9fead8f510ba3241ec757b361c3ea70267770ea1b1bfa002e0d251",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 28689,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 106,
+        "finish_reason": "stop",
+        "prompt_tokens": 12660,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 12766
+      }
+    },
+    {
+      "arguments": {
+        "capture_instructions": "拍摄底足全貌与款识微距，自然光，含比例尺。",
+        "distinguishes": "底足胎釉、款识及修足可区分康熙官窑与后世仿品。",
+        "reason": "现仅见两面，无底足与款识，无法区分康熙本朝与后世仿制。",
+        "view": "底足及款识近景"
+      },
+      "at": 1790676597.5482605,
+      "tool": "request_evidence",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790676597.5615683,
+      "result": {
+        "registered": true
+      },
+      "result_sha256": "6dfb2a0f27023653c6e23a9d944ad12bbb2796d5aec5029aaefb0ba6fbaa3bdb",
+      "tool": "request_evidence",
+      "type": "tool_result"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_2451e91499804f9588295a29194b1e14"
+        },
+        {
+          "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_b07bc79000b445b696b4959de4d253f4"
+        }
+      ],
+      "at": 1790676597.5698898,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676597.5832696,
+      "delivery_phase": "record_assessment_required",
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 241,
+      "remaining_model_calls_including_this_request": 9,
+      "remaining_tool_calls": 10,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676597.5899367,
+      "inventory": {
+        "knowledge_read_indexes": [
+          1
+        ],
+        "observation_ids": [
+          "obs_476fe888baec482b9c1f3a41ec469850",
+          "obs_92220786f68347988d7e3575158ec467"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 1,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790676649.6611204,
+      "elapsed": 52.05071500502527,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "6cd3cf262eb0a0ae95e00e9a6b0908cd4988adbfc67d962dd21aea83778f7c44",
+      "outcome": "succeeded",
+      "output_hash": "8304a4892b3d971c0322c32b2648055beb4bd8820a91118d38eab15422619352",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 29053,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 495,
+        "finish_reason": "stop",
+        "prompt_tokens": 12861,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 13356
+      }
+    },
+    {
+      "at": 1790676649.6709719,
+      "expanded_arguments_sha256": "8aad5706f46467788912a6832d94d21a74ac6746f4f82e496122b16004bc8fee",
+      "mappings": [
+        {
+          "metadata": {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段"
+          },
+          "read_index": 1
+        }
+      ],
+      "metadata_only": true,
+      "protocol": "compact-visual-metadata-v1",
+      "raw_model_output_sha256": "8304a4892b3d971c0322c32b2648055beb4bd8820a91118d38eab15422619352",
+      "tool": "record_assessment",
+      "type": "transport_expansion"
+    },
+    {
+      "arguments": {
+        "alternatives": [
+          "康熙本朝官窑青花",
+          "后世仿古青花"
+        ],
+        "basic_info": "青花筒形花觚，撇口，开光山水与博古纹，未见底足",
+        "claims": [
+          {
+            "candidate": "未能判断",
+            "conflict": [],
+            "dimension": "period",
+            "reasoning_summary": "仅见两面纹饰，无底足款识，不能定康熙或后世仿。",
+            "status": "insufficient",
+            "support": [
+              "obs_476fe888baec482b9c1f3a41ec469850"
+            ]
+          },
+          {
+            "candidate": "未能判断",
+            "conflict": [],
+            "dimension": "kiln",
+            "reasoning_summary": "无胎釉实物与可靠参照，不能确认景德镇窑口。",
+            "status": "insufficient",
+            "support": [
+              "obs_92220786f68347988d7e3575158ec467"
+            ]
+          },
+          {
+            "candidate": "青花开光山水博古",
+            "conflict": [],
+            "dimension": "style",
+            "reasoning_summary": "两面开光山水松石与博古纹，颈部缠枝花卉，风格可描述。",
+            "status": "supported",
+            "support": [
+              "obs_476fe888baec482b9c1f3a41ec469850",
+              "obs_92220786f68347988d7e3575158ec467"
+            ]
+          }
+        ],
+        "condition_hypotheses": [],
+        "knowledge_citations": [
+          {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "relevance": "Met18.61.4馆方记载，仅作来源上下文，不迁移成本件。",
+            "use": "source_context"
+          }
+        ],
+        "limitations": [
+          "未选图不参与本轮",
+          "未见底足款识",
+          "无已看图器物参照"
+        ],
+        "reference_comparison": "参照库为空，无可比器物图像；Met18.61.4仅作来源上下文。",
+        "reference_ids": [],
+        "revision_explanation": "首轮意见，无旧版修订。",
+        "scope": "bluewhite_gu"
+      },
+      "at": 1790676649.6849904,
+      "tool": "record_assessment",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790676649.6921027,
+      "detail": "缺少已看图的参照时只能给证据不足或范围外意见",
+      "error_type": "ValueError",
+      "repair_allowed": true,
+      "stage": "evidence_contract",
+      "type": "validation_error"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_2451e91499804f9588295a29194b1e14"
+        },
+        {
+          "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_b07bc79000b445b696b4959de4d253f4"
+        }
+      ],
+      "at": 1790676649.7027743,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676649.718937,
+      "delivery_phase": "record_assessment_required",
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 189,
+      "remaining_model_calls_including_this_request": 8,
+      "remaining_tool_calls": 9,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676649.7261138,
+      "inventory": {
+        "knowledge_read_indexes": [
+          1
+        ],
+        "observation_ids": [
+          "obs_476fe888baec482b9c1f3a41ec469850",
+          "obs_92220786f68347988d7e3575158ec467"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 1,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790676702.2920907,
+      "elapsed": 52.54729805502575,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "38cf99439a961fccd05eb6d4fdca994a753d7afae8d3e67faf6f18f2d1131a59",
+      "outcome": "succeeded",
+      "output_hash": "2c30b8a82f84d9b96a5c065d6f2682aa7d9e798ee32983e484df8c69c44b451b",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 30222,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 495,
+        "finish_reason": "stop",
+        "prompt_tokens": 13403,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 13898
+      }
+    },
+    {
+      "at": 1790676702.3008454,
+      "expanded_arguments_sha256": "6a71800a8120a5e798696a3932ab3fcbe05d02a784a4dee0b0575fe421914663",
+      "mappings": [
+        {
+          "metadata": {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段"
+          },
+          "read_index": 1
+        }
+      ],
+      "metadata_only": true,
+      "protocol": "compact-visual-metadata-v1",
+      "raw_model_output_sha256": "2c30b8a82f84d9b96a5c065d6f2682aa7d9e798ee32983e484df8c69c44b451b",
+      "tool": "record_assessment",
+      "type": "transport_expansion"
+    },
+    {
+      "arguments": {
+        "alternatives": [
+          "康熙本朝官窑青花",
+          "后世仿古青花"
+        ],
+        "basic_info": "青花筒形花觚，撇口，开光山水与博古纹，未见底足",
+        "claims": [
+          {
+            "candidate": "未能判断",
+            "conflict": [],
+            "dimension": "period",
+            "reasoning_summary": "仅见两面纹饰，无底足款识，不能定康熙或后世仿。",
+            "status": "insufficient",
+            "support": [
+              "obs_476fe888baec482b9c1f3a41ec469850"
+            ]
+          },
+          {
+            "candidate": "未能判断",
+            "conflict": [],
+            "dimension": "kiln",
+            "reasoning_summary": "无胎釉实物与可靠参照，不能确认景德镇窑口。",
+            "status": "insufficient",
+            "support": [
+              "obs_92220786f68347988d7e3575158ec467"
+            ]
+          },
+          {
+            "candidate": "青花开光山水博古",
+            "conflict": [],
+            "dimension": "style",
+            "reasoning_summary": "可见开光山水博古纹，但无已看图参照，风格归属欠证。",
+            "status": "insufficient",
+            "support": [
+              "obs_476fe888baec482b9c1f3a41ec469850",
+              "obs_92220786f68347988d7e3575158ec467"
+            ]
+          }
+        ],
+        "condition_hypotheses": [],
+        "knowledge_citations": [
+          {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "relevance": "Met18.61.4馆方记载，仅作来源上下文，不迁移成本件。",
+            "use": "source_context"
+          }
+        ],
+        "limitations": [
+          "未选图不参与本轮",
+          "未见底足款识",
+          "无已看图器物参照"
+        ],
+        "reference_comparison": "参照库为空，无可比器物图像；Met18.61.4仅作来源上下文。",
+        "reference_ids": [],
+        "revision_explanation": "首轮意见，无旧版修订。",
+        "scope": "bluewhite_gu"
+      },
+      "at": 1790676702.3150108,
+      "tool": "record_assessment",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790676702.3339367,
+      "result": {
+        "expert_reviewed": false,
+        "recorded": true
+      },
+      "result_sha256": "2e28c9304ea43781adfb541ec1fa011f0641564097d597a40993d98887d04741",
+      "tool": "record_assessment",
+      "type": "tool_result"
+    },
+    {
+      "assets": [
+        {
+          "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+          "derived_sha256": "90189a05fbb9bcd563331f238380583530d23268b8fc0720c388b46db8563e5c",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_2451e91499804f9588295a29194b1e14"
+        },
+        {
+          "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+          "derived_sha256": "5f01bd5196c91278be6809cd7805506dfd8fed7ac635c3ab4e55a20a93fb6d11",
+          "display_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "media_id": "media_b07bc79000b445b696b4959de4d253f4"
+        }
+      ],
+      "at": 1790676702.3422077,
+      "type": "visual_context"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676702.3562825,
+      "delivery_phase": "build_opinion_available",
+      "knowledge_chunks_actually_read": 1,
+      "loaded_skills": [
+        "bluewhite-attribution-test",
+        "ceramic-research-record",
+        "ceramic-route"
+      ],
+      "remaining_active_seconds": 136,
+      "remaining_model_calls_including_this_request": 7,
+      "remaining_tool_calls": 8,
+      "selected_requires_future_main_image_delivery": [],
+      "selected_unobserved_media_ids": [],
+      "text_critic_requires_response": false,
+      "type": "harness_budget"
+    },
+    {
+      "actor": "coordinator",
+      "at": 1790676702.3662834,
+      "inventory": {
+        "knowledge_read_indexes": [
+          1
+        ],
+        "observation_ids": [
+          "obs_476fe888baec482b9c1f3a41ec469850",
+          "obs_92220786f68347988d7e3575158ec467"
+        ],
+        "reference_ids": [],
+        "totals": {
+          "knowledge_read_indexes": 1,
+          "observation_ids": 2,
+          "reference_ids": 0
+        },
+        "truncated": {
+          "knowledge_read_indexes": false,
+          "observation_ids": false,
+          "reference_ids": false
+        }
+      },
+      "policy": "current-run-eligible-evidence-inventory-v1",
+      "type": "compact_inventory"
+    },
+    {
+      "at": 1790676713.3497353,
+      "elapsed": 10.959973932011053,
+      "failure_type": null,
+      "image_count": 2,
+      "image_payload_bytes": 264516,
+      "input_hash": "66054a920bc25e3104f4f2873ad81f0e8c199d60f228875f0a93dd6cf4596f9b",
+      "outcome": "succeeded",
+      "output_hash": "abd333239da6722a43564324d2e9dc50c87e9c8ca270ba3ae797f64e720b3233",
+      "purpose": "action",
+      "successful_compact_read_indexes": [
+        1
+      ],
+      "successful_knowledge_body_sha256": [
+        "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+      ],
+      "successful_knowledge_receipt_sha256": [
+        "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+      ],
+      "successful_text_read_ids": [],
+      "text_payload_chars": 31171,
+      "type": "model",
+      "usage": {
+        "completion_tokens": 18,
+        "finish_reason": "stop",
+        "prompt_tokens": 13828,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "image_tokens": 494
+        },
+        "reasoning_tokens": 0,
+        "total_tokens": 13846
+      }
+    },
+    {
+      "arguments": {},
+      "at": 1790676713.3663418,
+      "tool": "build_opinion",
+      "type": "tool_start"
+    },
+    {
+      "at": 1790676713.3832326,
+      "result": {
+        "next_step": "ask_user",
+        "review_required": true,
+        "state": "waiting_evidence"
+      },
+      "result_sha256": "a35f5811ce59849468c55816afcfeda92c45529e8284f7f38cf0af85356a3852",
+      "tool": "build_opinion",
+      "type": "tool_result"
+    }
+  ],
+  "evidence_request": {
+    "capture_instructions": "拍摄底足全貌与款识微距，自然光，含比例尺。",
+    "distinguishes": "底足胎釉、款识及修足可区分康熙官窑与后世仿品。",
+    "reason": "现仅见两面，无底足与款识，无法区分康熙本朝与后世仿制。",
+    "view": "底足及款识近景"
+  },
+  "id": "run_3ee283431af842fb91662bf258e8897b",
+  "input_hash": "9b0efec5511ba58be38b3eb8d641377cb63bf50e065fef238d3eec7936adc44c",
+  "knowledge_queries": [
+    {
+      "filters": {
+        "document_id": [
+          "ksrc_51b142960ebb1cac53087148"
+        ]
+      },
+      "index_version": "87c027b0469d82a92ca202b6f9e0eb2ea4e0c80d4ae6e7e36fcc5fcf856e3b20",
+      "query": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。馆方文字记载另列来源上下文；不能把普通纹样当断代证据。",
+      "result_chunk_ids": [
+        "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99"
+      ],
+      "run_snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+      "scope": "case-pinned-fixed-versions-only",
+      "selection_actor": "coordinator",
+      "snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb"
+    }
+  ],
+  "knowledge_snapshot": {
+    "index_version": "87c027b0469d82a92ca202b6f9e0eb2ea4e0c80d4ae6e7e36fcc5fcf856e3b20",
+    "indexer_version": "cizheng-zh-bigram-v1",
+    "schema_version": 1,
+    "snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+    "sources": [
+      {
+        "chunks": [
+          {
+            "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+            "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+            "content_kind": "authorized_text",
+            "document_id": "ksrc_51b142960ebb1cac53087148",
+            "document_revision": 1,
+            "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+            "ordinal": 1,
+            "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+          }
+        ],
+        "source": {
+          "author": "瓷证项目原创摘要；原资料机构见来源卡",
+          "chunk_count": 1,
+          "created_at": 1790676538.978593,
+          "document_id": "ksrc_51b142960ebb1cac53087148",
+          "document_revision": 1,
+          "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+          "expert_reviewed": false,
+          "id": "ksrc_51b142960ebb1cac53087148",
+          "imported_manually": true,
+          "institution": "The Metropolitan Museum of Art",
+          "limitations": [
+            "馆方归属仅针对馆藏18.61.4；不代表本项目对待鉴器物完成独立断代。",
+            "原始摄影与实物检查记录未取得；公开照片不能证明器物无修复。"
+          ],
+          "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4",
+          "review_required": true,
+          "review_status": "pending",
+          "revision": 1,
+          "rights": "authorized_text",
+          "rights_note": "项目原创短摘要；该对象页标Public Domain，Met公开基本馆藏元数据和公版图像为CC0；不转载解释性长文。",
+          "scope": "本件公开教学对象的编目与参照；不是未知器物的断代规则",
+          "source_type": "catalogue_record_summary",
+          "source_url": "https://www.metmuseum.org/art/collection/search/48607",
+          "text_bytes": 320,
+          "text_sha256": "e2054eb895834aae86d08b8da00f18dc7dd3ba3fcaa246cd2cca89711caf2f7e",
+          "title": "山水纹花觚的馆藏编目参照",
+          "updated_at": 1790676538.978593,
+          "year": "访问核实：2026-09-28"
+        }
+      }
+    ]
+  },
+  "loaded_skills": {
+    "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+    "ceramic-research-record": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782",
+    "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf"
+  },
+  "main_seen_knowledge_body_sha256": [
+    "fa8a028c1030726da24140da3407e69f33b9af91e476a66289102a57abdff442"
+  ],
+  "main_seen_knowledge_receipt_sha256": [
+    "09279ffc4f5fbbcf7b7e623a81fa959b879a61820cab87aaac71949eb90e0953"
+  ],
+  "main_seen_media_ids": [
+    "media_2451e91499804f9588295a29194b1e14",
+    "media_b07bc79000b445b696b4959de4d253f4"
+  ],
+  "main_seen_text_read_ids": [],
+  "mode": "skills",
+  "model_calls": 6,
+  "next_step": "ask_user",
+  "observations": [
+    {
+      "artifact_id": "media_49e6706eec08491aaa16e942295ef5b3",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_476fe888baec482b9c1f3a41ec469850",
+      "interpretation": "典型清代官窑风格",
+      "limitation": "仅见单面，无法确认底款",
+      "media_id": "media_2451e91499804f9588295a29194b1e14",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_3ee283431af842fb91662bf258e8897b",
+      "visible": "青花筒瓶，口沿外撇，腹部开光绘山水松石，颈部绘缠枝花卉。"
+    },
+    {
+      "artifact_id": "media_c87c884515cd4ee99de3571a80132214",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_92220786f68347988d7e3575158ec467",
+      "interpretation": "博古纹饰寓意吉祥",
+      "limitation": "未见底足，无法断代",
+      "media_id": "media_b07bc79000b445b696b4959de4d253f4",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_3ee283431af842fb91662bf258e8897b",
+      "visible": "瓶身另一面，腹部开光绘博古纹，含瓶、书卷等器物，颈部纹饰相同。"
+    }
+  ],
+  "parent_run_id": null,
+  "preflight": {
+    "case_id": "case_543bb4038ff24a56a54eac24ed1e13c1",
+    "case_revision": 4,
+    "declared_views": [
+      "公开拍摄视角1",
+      "公开拍摄视角2"
+    ],
+    "errors": [],
+    "evidence_request": null,
+    "images": [
+      {
+        "declared_view": "公开拍摄视角1",
+        "media_id": "media_2451e91499804f9588295a29194b1e14",
+        "metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.7274,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 851.1126,
+          "height": 1200,
+          "luminance_mean_0_255": 158.8764,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "original_sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "view_verified": false
+      },
+      {
+        "declared_view": "公开拍摄视角2",
+        "media_id": "media_b07bc79000b445b696b4959de4d253f4",
+        "metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.5849,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 951.4579,
+          "height": 1200,
+          "luminance_mean_0_255": 159.3214,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "original_sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "view_verified": false
+      }
+    ],
+    "next_step": "ready_for_analysis",
+    "notice": "像素指标尚未用陶瓷照片校准；不据此判废图、AI生成、年代或真伪。上传视角仅为声明，未经验证。",
+    "review_required": true,
+    "review_status": "pending",
+    "semantic_view_verification": "not_performed",
+    "verified_views": [],
+    "version": "pixel-descriptive-v1"
+  },
+  "read_knowledge": [
+    {
+      "chunk_id": "ksrc_51b142960ebb1cac53087148_r1_p0001_a842147a5c99",
+      "chunk_sha256": "a842147a5c99031b39b8ab8fe13d11ecad549f61768993601e36bb72230873e3",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_51b142960ebb1cac53087148",
+      "document_revision": 1,
+      "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+      "locator": "Artwork Details → Object Information → Overview；馆藏号18.61.4 · 手动录入第1段",
+      "read_index": 1,
+      "run_id": "run_3ee283431af842fb91662bf258e8897b",
+      "snippet_end": 130,
+      "snippet_start": 0,
+      "text": "Met馆藏18.61.4是一件山水纹花觚，页面记录为清代康熙早期的景德镇釉下钴蓝瓷，尺寸为高48.3厘米、直径23.2厘米，购藏记录为Rogers Fund, 1918。系统分别保存馆方记录、实际图像观察和尚待核查的问题；这些标签不得自动赋给其它外观相似器物。"
+    }
+  ],
+  "reference_snapshot": [],
+  "research_task": "visual_research",
+  "retrieval_performed": true,
+  "review_required": true,
+  "review_status": "pending",
+  "seconds": 174.30369687080383,
+  "snapshot": {
+    "activity": [
+      {
+        "action": "photo",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790676538.886645,
+        "case_revision": 2,
+        "detail": "保存原始照片；视角与处理情况由上传者声明",
+        "id": "activity_3629de115cde415d82e949d72c3b85dd"
+      },
+      {
+        "action": "photo",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790676538.9060078,
+        "case_revision": 3,
+        "detail": "保存原始照片；视角与处理情况由上传者声明",
+        "id": "activity_c49c045c0f2e4fccac17dda5bf7395e6"
+      },
+      {
+        "action": "document_link",
+        "actor": "本地操作人（身份未认证）",
+        "at": 1790676538.9927735,
+        "case_revision": 4,
+        "detail": "明确关联资料第1版及哈希；后续资料库更新不会改写本案依据",
+        "id": "activity_59750a77da2e40fb8136487c4a9a3ddd"
+      }
+    ],
+    "analysis_media_ids": [
+      "media_2451e91499804f9588295a29194b1e14",
+      "media_b07bc79000b445b696b4959de4d253f4"
+    ],
+    "analysis_scope": {
+      "archive_media_count": 2,
+      "notice": "意见仅覆盖本轮明确选用的图片；档案其余图片未被本轮视觉模型观察。",
+      "omitted_media_ids": [],
+      "selected_media_ids": [
+        "media_2451e91499804f9588295a29194b1e14",
+        "media_b07bc79000b445b696b4959de4d253f4"
+      ]
+    },
+    "analysis_selection_explicit": false,
+    "annotations": [],
+    "catalogue": {
+      "condition_note": "",
+      "decoration": "",
+      "dimensions": "",
+      "inscription": "",
+      "inventory_number": "",
+      "material": "",
+      "object_name": "",
+      "object_type": "",
+      "provenance": "",
+      "requested_output": ""
+    },
+    "condition_checks": [],
+    "corrections": [],
+    "created_at": 1790676538.8084073,
+    "current_run_id": null,
+    "episode_id": "episode_6191de964e4746aabba0a059f9dbf7d3",
+    "evidence_documents": [],
+    "id": "case_543bb4038ff24a56a54eac24ed1e13c1",
+    "knowledge_document_ids": [
+      "ksrc_51b142960ebb1cac53087148"
+    ],
+    "knowledge_link_history": [
+      {
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "linked_case_revision": 4
+      }
+    ],
+    "knowledge_links": [
+      {
+        "document_id": "ksrc_51b142960ebb1cac53087148",
+        "document_revision": 1,
+        "document_sha256": "65c61fc46bbf54d948a247353b7088330fd174703c6f47628dd4f1866c6e679e",
+        "linked_case_revision": 4
+      }
+    ],
+    "media": [
+      {
+        "added_revision": 2,
+        "capture_role": "overall",
+        "edit_declaration": "公开图像原始字节；模型工具将保存明确的显示派生",
+        "filename": "photo-1.jpg",
+        "height": 1200,
+        "id": "media_2451e91499804f9588295a29194b1e14",
+        "mime": "image/jpeg",
+        "pixel_metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.7274,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 851.1126,
+          "height": 1200,
+          "luminance_mean_0_255": 158.8764,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "sha256": "0cafb54b1f5edb156a96bd05a8c507bb500b76bb5f2a423778e306a27868febc",
+        "size": 107321,
+        "source": "公开机构图像，来源清单独立于像素观察",
+        "view": "公开拍摄视角1",
+        "view_verified": false,
+        "width": 800
+      },
+      {
+        "added_revision": 3,
+        "capture_role": "overall",
+        "edit_declaration": "公开图像原始字节；模型工具将保存明确的显示派生",
+        "filename": "photo-2.jpg",
+        "height": 1200,
+        "id": "media_b07bc79000b445b696b4959de4d253f4",
+        "mime": "image/jpeg",
+        "pixel_metrics": {
+          "bright_pixel_ratio_gte_250": 0.0,
+          "calibrated": false,
+          "contrast_stddev_0_255": 33.5849,
+          "dark_pixel_ratio_lte_5": 0.0,
+          "edge_response_variance": 951.4579,
+          "height": 1200,
+          "luminance_mean_0_255": 159.3214,
+          "measurement_domain": "all_metrics_on_resized_grayscale_sample",
+          "orientation": "stored_pixels_no_exif_rotation",
+          "original_color_mode": "RGB",
+          "quality_verdict": "not_assessed",
+          "sample_height": 512,
+          "sample_width": 341,
+          "sharpness_method": "512px_max_gray_clipped_laplacian_variance",
+          "version": "pixel-descriptive-v1",
+          "width": 800
+        },
+        "sha256": "383ae83bba805f8bc8e0b5a0eb7ec1e0fef705447a94e5e4fdb3bc3ca792964f",
+        "size": 109880,
+        "source": "公开机构图像，来源清单独立于像素观察",
+        "view": "公开拍摄视角2",
+        "view_verified": false,
+        "width": 800
+      }
+    ],
+    "mode": "skills",
+    "preparation_review": {
+      "case_revision": 4,
+      "identity_verified": false,
+      "notice": "本地操作人登记；文件与引用可回查，但未核验记载真实性、器物同一性或真伪，不是认证。",
+      "recorded_state": "pending",
+      "review_kind": "research_preparation",
+      "review_required": true,
+      "review_revision": 0,
+      "stale": false,
+      "state": "pending"
+    },
+    "preparation_review_revision": 0,
+    "preparation_reviews": [],
+    "provenance_events": [],
+    "question": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。馆方文字记载另列来源上下文；不能把普通纹样当断代证据。",
+    "reference_basis_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "reference_refreshes": [],
+    "research_task": "visual_research",
+    "review": {
+      "assessment_run_id": null,
+      "case_revision": 4,
+      "identity_verified": false,
+      "status": "pending"
+    },
+    "review_required": true,
+    "review_revision": 3,
+    "reviews": [],
+    "revision": 4,
+    "schema_version": 4,
+    "source_declaration": "Met公开CC0图像，用于技术与AI阅评；没有独立专家标签。",
+    "target_attribution": "照片可支持的有限研究；未指定制作时期和窑口",
+    "title": "公开图像理由核查；非专家验证",
+    "workflow": "museum"
+  },
+  "started_at": 1790676539.0712793,
+  "state": "waiting_evidence",
+  "text_review_snapshot": null,
+  "tool_calls": 13,
+  "versions": {
+    "app": "0.7.0",
+    "harness": {
+      "action_transport": {
+        "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+        "citation_exposure": "successful-main-canonical-body-exposure",
+        "decoder_schema_sha256": {
+          "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+          "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+          "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+          "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+        },
+        "effective_by_task": {
+          "documentary_audit": false,
+          "visual_research": true
+        },
+        "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+        "inventory_limits": {
+          "knowledge_read_indexes": 20,
+          "observation_ids": 48,
+          "reference_ids": 10
+        },
+        "metadata_fields": [
+          "document_id",
+          "document_revision",
+          "document_sha256",
+          "chunk_id",
+          "chunk_sha256",
+          "locator"
+        ],
+        "phase_tool_contract": {
+          "activation": "guided+compact+visual-only",
+          "budgets_and_repairs": "unchanged",
+          "decoder_enforcement": "only-when-structured_outputs-enabled",
+          "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+          "opinions_and_citations": "model-authored",
+          "phases": [
+            "respond_critic_required",
+            "record_assessment_required",
+            "build_opinion_available"
+          ],
+          "preparation_tools": "unchanged-model-choice",
+          "prompt_sha256": {
+            "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+            "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+            "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+            "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+            "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+            "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+          },
+          "protocol": "trusted-current-run-phase-tools-v1",
+          "schema_sha256": {
+            "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+            "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+            "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+            "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+            "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+            "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+          },
+          "state_source": "current-saved-run-only",
+          "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+        },
+        "protocol": "compact-visual-metadata-v1",
+        "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+        "scope": "visual_research-only",
+        "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+      },
+      "budgets": "original-run-and-episode-limits",
+      "compact_actions": true,
+      "delivery_context": "trusted-run-delivery-stage-v1",
+      "documentary_preparation": [
+        "read_case"
+      ],
+      "first_image_batch_max": 4,
+      "guided_workflow": true,
+      "knowledge_prefetch_max_chunks": 2,
+      "knowledge_scope": "case-pinned-fixed-versions-only",
+      "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+      "natural_skill_discovery": false,
+      "observed_method_rule": {
+        "english_match": "case-insensitive-word",
+        "max_additional_methods": 1,
+        "method_whitelist": [
+          "bluewhite-attribution-test"
+        ],
+        "mode": "skills",
+        "research_task": "visual_research",
+        "source": "first-batch-current-run-vision-visible-only",
+        "triggers": [
+          "青花",
+          "blue-and-white"
+        ]
+      },
+      "parent_skill": "evidence-revise",
+      "preparation_actor": "coordinator",
+      "strategy": "coordinator-observed-method-v2",
+      "visual_skills": [
+        "ceramic-route",
+        "ceramic-research-record"
+      ]
+    },
+    "knowledge_snapshot_sha256": "fccbdddc2ec0d1f5119e8d83132453a415f18b43126d0d2e929319c7c11dacfb",
+    "mode": "skills",
+    "model": {
+      "endpoint": "http://127.0.0.1:8009/v1",
+      "generation": {
+        "compact_actions": true,
+        "disable_thinking": true,
+        "max_tokens": 2500,
+        "max_tokens_by_phase": {
+          "action": 2500,
+          "vision": 800
+        },
+        "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+        "phase_detection": "first-system-exact-VISION_SYSTEM",
+        "structured_output_contract": {
+          "decoder_schema_sha256": {
+            "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+            "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+            "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+            "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+          },
+          "guided_phase_variants": {
+            "native_original_validation": "per-request",
+            "phases": [
+              "respond_critic_required",
+              "record_assessment_required",
+              "build_opinion_available"
+            ],
+            "registered": true,
+            "state_owner": "host-current-run"
+          },
+          "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+          "host_only_constraints": {
+            "numeric": [
+              "minimum",
+              "maximum",
+              "exclusiveMinimum",
+              "exclusiveMaximum",
+              "multipleOf"
+            ],
+            "semantic": [
+              "cross-field",
+              "skill-workflow",
+              "fixed-evidence",
+              "permission"
+            ]
+          },
+          "purpose": "action",
+          "schema_name": "cizheng_actions",
+          "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+          "trigger": "first-system-exact-registered-default-or-compact-phase"
+        },
+        "structured_outputs": true,
+        "temperature": 0.1,
+        "vision_structured_output_contract": {
+          "enabled": true,
+          "host_only_constraints": [
+            "positive-area",
+            "one-observation-per-image",
+            "visible-not-template",
+            "uncalibrated-probability"
+          ],
+          "legacy_no_image_payload": "unstructured-compatible",
+          "original_numeric_ranges": true,
+          "purpose": "vision",
+          "schema_name": "cizheng_observations",
+          "schema_rejection": "fatal-with-usage-no-vision-retry",
+          "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+          "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+          "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+        }
+      },
+      "model": "Qwen3.8-27B-NVFP4",
+      "provider": "local-openai-compatible",
+      "weights_revision": "unverified"
+    },
+    "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+    "prompt_hash": "0e29d5d0f0d792d17237081edfcddf7c542c6417b786a8d5fbd917410e8cf8c5",
+    "prompt_profile": {
+      "component_sha256": {
+        "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+        "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+        "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+        "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+        "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+        "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+      "experimental": false,
+      "name": "source-r2",
+      "quality_validation": "not_established",
+      "selection": "process-startup-environment"
+    },
+    "research_task": "visual_research",
+    "skills": {
+      "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+      "ceramic-research-record": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782",
+      "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+      "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+      "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+      "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+      "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+    },
+    "source_hash": "b83a1d83b8429844894ef2713b18068fa5d9bbaf3e2eec1e749eb5fa64d6dea5",
+    "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+    "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+  }
+}

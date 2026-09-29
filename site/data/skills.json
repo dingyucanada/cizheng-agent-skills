@@ -37,19 +37,19 @@
       "id": "ceramic-research-record",
       "name": "陶瓷编目研究",
       "description": "Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.",
-      "content": "---\nname: ceramic-research-record\ndescription: >-\n  Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.\ncompatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.\nmetadata:\n  version: 0.4.0\n  required-tools: \"read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion\"\n  expert-review: \"pending\"\n---\n\n# 陶瓷档案与有限研究\n\n先 read_case 查看任务场景、器物登记、来源声明、人工观察和本轮明确选用照片。登记内容不能当作真值，workflow不是使用者身份认证。\n\n1. 实际 inspect_images 看本轮图像，先描述器形、装饰布局与可见部位。用 inspect_region 查看决定比较的细节，记录坐标、限制；不把放大产生的视觉感受当新事实。\n2. 普通陶瓷使用 ceramic_research；明显非陶瓷才用 out_of_scope。青花花觚进入 bluewhite-attribution-test，其他器类不套用花觚经验。制作时期、窑口、装饰风格分别保留支持、冲突和不足。\n3. search_knowledge 查询术语、状况记录或来源核查方法，read_knowledge 读取来源段落及版本。参照器物则 retrieve_references、read_reference，再实际看参照图。没有可靠、可比参照时，归属保持 insufficient；知识摘要不能替代图像参照或实物检查。\n4. 按需 read_skill_resource 阅读[记录与证据层次](references/record-contract.md)。人工区域观察只是操作人记录；模型必须重新观察，不能把人工注释ID填入support/conflict。\n5. 博物馆任务重点是登记来源、尺寸及状况和馆内复核；收藏任务重点是持有人主张与支持材料的区别；拍卖任务重点是图录用语与状况分开。三类均不提供未经实测的价格、真伪概率或专家身份背书。\n6. 若有来源链问题，按描述加载 provenance-evidence-audit；若有可见状况疑点加载 condition-hypothesis-test。有旧意见加载 evidence-revise。\n7. record_assessment 引用本轮模型观察和实际读到的知识段落。优先请求一项能区分解释的补证；在限制中明确未选图、缺少实物与未核来源。build_opinion结束，不输出证书。\n",
-      "sha256": "1720d4188f9d561792e9c35381b64a598984a70b9fa3f3aeba85faf6c05d4892",
+      "content": "---\nname: ceramic-research-record\ndescription: >-\n  Organize a general ceramic object study for museum cataloguing, collection research, or auction catalogue preparation. Separate operator declarations, visible observations, source records, and attribution. Use for ceramics outside the blue-and-white gu specialty; not for app status or authenticity certification.\ncompatibility: Requires Cizheng v0.4 image and fixed-source knowledge tools; no expert model is bundled.\nmetadata:\n  version: 0.4.1\n  required-tools: \"read_case,inspect_images,inspect_region,search_knowledge,read_knowledge,read_skill_resource,record_assessment,build_opinion\"\n  expert-review: \"pending\"\n---\n\n# 陶瓷档案与有限研究\n\n先 read_case 查看任务场景、器物登记、来源声明、人工观察和本轮明确选用照片。登记内容不能当作真值，workflow不是使用者身份认证。\n\n1. 实际 inspect_images 看本轮图像，先描述器形、装饰布局与可见部位。用 inspect_region 查看决定比较的细节，记录坐标、限制；不把放大产生的视觉感受当新事实。\n2. 普通陶瓷使用 ceramic_research；明显非陶瓷才用 out_of_scope。青花花觚进入 bluewhite-attribution-test，其他器类不套用花觚经验。制作时期、窑口、装饰风格分别保留支持、冲突和不足。\n3. search_knowledge 查询术语、状况记录或来源核查方法，read_knowledge 读取来源段落及版本。参照器物则 retrieve_references、read_reference，再实际看参照图。没有可靠、可比参照时，归属保持 insufficient；知识摘要不能替代图像参照或实物检查。\n4. 按需 read_skill_resource 阅读[记录与证据层次](references/record-contract.md)。人工区域观察只是操作人记录；模型必须重新观察，不能把人工注释ID填入support/conflict。\n5. 博物馆任务重点是登记来源、尺寸及状况和馆内复核；收藏任务重点是持有人主张与支持材料的区别；拍卖任务重点是图录用语与状况分开。三类均不提供未经实测的价格、真伪概率或专家身份背书。\n6. 若有来源链问题，按描述加载 provenance-evidence-audit；若有可见状况疑点加载 condition-hypothesis-test。有旧意见加载 evidence-revise。\n7. record_assessment 逐项连接本轮模型观察、判断理由和实际读到的知识段落。理由应说明现象对候选的支持限度，并提出能区分解释的补证。没有可区分的时期或窑口依据时写“未能判断”，具体馆方归属另列为有引用的来源记载；不先填具体归属再用 insufficient 回避依据问题。蓝白颜色、对称布局和山水纹饰不是清代的专有特征；底部未拍到不等于没有款识。在限制中明确未选图、缺少实物与未核来源。build_opinion结束，不输出证书。\n",
+      "sha256": "867ac070d22b79482a5401f85570317b06513f85dc43e16d2e3c9d4dd8c0e71f",
       "references": [
         {
           "path": "references/record-contract.md",
-          "content": "# 记录与证据层次\n\n器物登记：操作人提交的名称、尺寸、材料和经历，未必已经测量或核实。\n图像观察：本轮实际见到的部位与现象，带图片和区域。照片的白平衡、视角和反光会影响解释。\n来源记录：机构对其馆藏对象的记载，或拍卖行/持有人意见；不得迁移成未知器物答案。\n研究归属：结合可比参照提出的有限意见，时期、窑口、风格分开。\n专业复核：对具体版本、检查方式、依据和局限作记录；本机操作人未做身份认证。\n\n方法设计参照[CCI陶瓷保护指南](https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html)及[Getty CDWA来源史](https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/)。这些来源不是本项目的专家认可；本文为项目方法整理，待实际陶瓷专家审阅。\n",
-          "sha256": "dd45c5e55d1f985a05c4a59bc8073677acac3ca8383305d894e811b08455338e"
+          "content": "# 记录与证据层次\n\n器物登记：操作人提交的名称、尺寸、材料和经历，未必已经测量或核实。\n图像观察：本轮实际见到的部位与现象，带图片和区域。照片的白平衡、视角和反光会影响解释。\n来源记录：机构对其馆藏对象的记载，或拍卖行/持有人意见；不得迁移成未知器物答案。\n研究归属：结合可比参照提出的有限意见，时期、窑口、风格分开。\n专业复核：对具体版本、检查方式、依据和局限作记录；本机操作人未做身份认证。\n\n逐条理由的核查顺序：先打开对应原图区域，确认 visible 是否真是可见现象；再检查该现象是否能够区分候选和其它解释；最后核对实际读到的正文是否支持这条来源陈述。三项分别判断，不能用引用哈希匹配代替支持关系。时期和窑口没有可比依据时保留未定，装饰题材仍可作有限描述。跨时期通用纹样不是断代依据，照片没有展示的部位不是阴性检测结果。\n\n方法设计参照[CCI陶瓷保护指南](https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/ceramics-glass-preventive-conservation.html)及[Getty CDWA来源史](https://www.getty.edu/publications/categories-description-works-art/categories/object-architecture-group/23/)。这些来源不是本项目的专家认可；本文为项目方法整理，待实际陶瓷专家审阅。\n",
+          "sha256": "fae924547a6e4d67b9dc908f09b12af172bc5c9cf7af86d7d0795e9f2e917683"
         }
       ],
       "package_files": [
         {
           "path": "SKILL.md",
-          "sha256": "1720d4188f9d561792e9c35381b64a598984a70b9fa3f3aeba85faf6c05d4892"
+          "sha256": "867ac070d22b79482a5401f85570317b06513f85dc43e16d2e3c9d4dd8c0e71f"
         },
         {
           "path": "evals/evals.json",
@@ -57,7 +57,7 @@
         },
         {
           "path": "references/record-contract.md",
-          "sha256": "dd45c5e55d1f985a05c4a59bc8073677acac3ca8383305d894e811b08455338e"
+          "sha256": "fae924547a6e4d67b9dc908f09b12af172bc5c9cf7af86d7d0795e9f2e917683"
         },
         {
           "path": "skill-card.md",

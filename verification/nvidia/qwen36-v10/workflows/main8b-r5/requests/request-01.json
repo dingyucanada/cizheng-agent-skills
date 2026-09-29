@@ -1,0 +1,16 @@
+{
+  "request_index": 1,
+  "messages_sha256": "f9a87704ac314bc1c0277bb49120d0f06e725ae1ef239ac43b28c60be9b3d484",
+  "message_bytes": 355004,
+  "timeout_seconds": 90,
+  "response_sha256": "91b0293d1271e1b4729730423893e337eeed6936b1eb01683b35e71acbd3a2c9",
+  "response_text": "{\"observations\": [{\"media_id\": \"media_19e43173ca8f4896a6b42008f7c5ccb2\", \"visible\": \"青花瓷瓶，瓶身绘山水纹饰\", \"interpretation\": \"器形挺拔，纹饰繁复\", \"limitation\": \"未见款识与釉色细节\", \"region\": [0.22, 0.17, 0.76, 0.83]}, {\"media_id\": \"media_95cf6564a3294311bb1c5d78b7ba7826\", \"visible\": \"青花瓷瓶，瓶身绘花篮纹饰\", \"interpretation\": \"装饰风格典雅\", \"limitation\": \"无明确窑口与时期标识\", \"region\": [0.22, 0.17, 0.76, 0.83]}]}",
+  "usage": {
+    "prompt_tokens": 2500,
+    "completion_tokens": 217,
+    "total_tokens": 2717,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 22.933
+}

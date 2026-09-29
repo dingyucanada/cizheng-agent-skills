@@ -1,0 +1,21 @@
+{
+  "request_index": 2,
+  "messages_sha256": "97e28c265340fe1ff305b60589b50085b9f473d007f08d165960fba8493927f1",
+  "message_bytes": 395779,
+  "timeout_seconds": 90,
+  "response_sha256": "05b35ab921ba6aeef083f59db542bcbb1ea96e6f67a0dd4746b899132513a1d3",
+  "response_text": "{\"actions\": [{\"tool\": \"retrieve_references\", \"arguments\": {\"query\": \"青花 花觚 山水纹 博古纹 康熙 景德镇\"}}]}",
+  "usage": {
+    "prompt_tokens": 12527,
+    "total_tokens": 12563,
+    "completion_tokens": 36,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 494
+    },
+    "reasoning_tokens": 0,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 13.171
+}

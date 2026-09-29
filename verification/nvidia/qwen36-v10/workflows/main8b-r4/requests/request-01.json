@@ -1,0 +1,16 @@
+{
+  "request_index": 1,
+  "messages_sha256": "61653b8c7abd9c8f61d61902ea0a964d7789c36793e60d924769d2710794153a",
+  "message_bytes": 355791,
+  "timeout_seconds": 90,
+  "response_sha256": "d2a52a94c060b735e10609c66e2da28322df2a533deddbb2dfa835bdfe49b922",
+  "response_text": "{\"observations\": [{\"media_id\": \"media_23d6a6448da54081875cf1a6571a870b\", \"region\": [0.22, 0.16, 0.78, 0.84], \"visible\": \"青花瓷瓶，喇叭口，直筒身，底足外撇，瓶身饰缠枝莲纹、开光山水纹，开光内绘山石树木，瓶口与底足饰卷\" , \"interpretation\": \"开光内绘山水，具装饰性\", \"limitation\": \"未见器底款识\"}, {\"media_id\": \"media_e8a40fabb2704d2fa8992dd908381d93\", \"region\": [0.22, 0.16, 0.78, 0.84], \"visible\": \"青花瓷瓶，喇叭口，直筒身，底足外撇，瓶身饰缠枝莲纹、开光花篮纹，开光内绘花篮，瓶口与底足饰卷\" , \"interpretation\": \"开光内绘花篮，具装饰性\", \"limitation\": \"未见器底款识\"}]}",
+  "usage": {
+    "prompt_tokens": 2692,
+    "completion_tokens": 289,
+    "total_tokens": 2981,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 31.008
+}

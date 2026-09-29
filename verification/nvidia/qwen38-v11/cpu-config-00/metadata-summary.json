@@ -1,0 +1,161 @@
+{
+  "scope": "Public metadata derivative of actual private CPU receipt; not an original receipt and not GPU validation",
+  "original_receipt_sha256": "622dd9d519dc00a89aaa0e8130f9af30f12b2dda90f27d372dbb3471853de88c",
+  "omitted_source_text_fields": [
+    "dense_entry_source.source",
+    "gated_norm_source.source",
+    "gdn_source.source"
+  ],
+  "receipt_metadata": {
+    "autoconfig_class": "Qwen3_5Config",
+    "cpu_compatibility": "passed",
+    "critical_config_differences": [],
+    "critical_text_config": {
+      "attn_output_gate": true,
+      "mamba_ssm_dtype": "float32",
+      "output_gate_type": "swish",
+      "partial_rotary_factor": 0.25,
+      "rope_parameters": {
+        "mrope_interleaved": true,
+        "mrope_section": [
+          11,
+          11,
+          10
+        ],
+        "partial_rotary_factor": 0.25,
+        "rope_theta": 10000000,
+        "rope_type": "default"
+      }
+    },
+    "dense_entry_source": {
+      "file": "/sgl-workspace/sglang/python/sglang/srt/models/qwen3_5.py",
+      "sha256": "894b4e6757c03402a0de2466bac60022c287d26bc8c51a28c046264f5655d9ab"
+    },
+    "export_transformers_version": "5.13.1",
+    "gated_norm_source": {
+      "file": "/sgl-workspace/sglang/python/sglang/kernels/ops/attention/fla/layernorm_gated.py",
+      "sha256": "040433667f084349e649c521389b0a0566be444b0b2f4763cbd88bb26bba7076"
+    },
+    "gdn_source": {
+      "file": "/sgl-workspace/sglang/python/sglang/srt/models/qwen3_5.py",
+      "sha256": "cc628ec4ba4a33ffedde96c276be859b81bec5eea4725777e7f413694abf8c00"
+    },
+    "gpu_initialized": false,
+    "gpu_requested": false,
+    "hf_text_class": "Qwen3_5TextConfig",
+    "mixed_quantization": {
+      "kv_cache_quant_algo": null,
+      "minimum_capability": 80,
+      "normalized": {
+        "quant_algo": "MIXED_PRECISION",
+        "quant_method": "modelopt_mixed"
+      },
+      "quantized_layers": 401
+    },
+    "model": "nvidia/Qwen3.8-27B-NVFP4",
+    "model_weights_loaded": false,
+    "packages": {
+      "flashinfer-python": "0.6.14",
+      "sglang": "0.5.16",
+      "torch": "2.11.0+cu130",
+      "transformers": "5.12.1"
+    },
+    "processor": {
+      "class": "Qwen3VLProcessor",
+      "image_class": "Qwen2VLImageProcessor",
+      "image_grid_thw": [
+        [
+          1,
+          32,
+          32
+        ],
+        [
+          1,
+          32,
+          32
+        ]
+      ],
+      "image_tokens_per_probe": [
+        256,
+        256
+      ]
+    },
+    "python_warnings": [
+      {
+        "category": "UserWarning",
+        "message": "Triton is not supported on current platform, roll back to CPU."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "DeprecationWarning",
+        "message": "`torch.jit.script_method` is deprecated. Please switch to `torch.compile` or `torch.export`."
+      },
+      {
+        "category": "UserWarning",
+        "message": "Only CUDA, HIP and XPU support AWQ currently."
+      },
+      {
+        "category": "UserWarning",
+        "message": "Only CUDA, MUSA and NPU support GGUF quantization currently."
+      }
+    ],
+    "registered_architectures": [
+      "Qwen3_5MoeForConditionalGeneration",
+      "Qwen3_5ForConditionalGeneration"
+    ],
+    "revision": "482ca0f3832238542f8f5295dde86b5f22711d80",
+    "sglang_config_class": "Qwen3_5Config",
+    "sglang_output_gate_type": "swish"
+  }
+}

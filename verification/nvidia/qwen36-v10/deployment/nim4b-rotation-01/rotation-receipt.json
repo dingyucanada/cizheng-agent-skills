@@ -1,0 +1,58 @@
+{
+  "at_unix_ns": 1790672234916295296,
+  "container_id": "1c963f41f4c1e844de77113eaa26f1b61c9e994a25bdd982c442a447e5d4acc5",
+  "image_id": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+  "old_text_candidate_name": "cizheng-nim-qwen4b-v09-attempt-04",
+  "old_text_candidate_paused": true,
+  "primary_8b_preserved": true,
+  "trt_and_retriever_preserved": true,
+  "existing_four_services_before": [
+    {
+      "port": 8005,
+      "status": 200
+    },
+    {
+      "port": 8780,
+      "status": 200
+    },
+    {
+      "port": 8006,
+      "status": 200
+    },
+    {
+      "port": 8003,
+      "status": 200
+    }
+  ],
+  "existing_four_services_after": [
+    {
+      "port": 8005,
+      "status": 200
+    },
+    {
+      "port": 8780,
+      "status": 200
+    },
+    {
+      "port": 8006,
+      "status": 200
+    },
+    {
+      "port": 8003,
+      "status": 200
+    }
+  ],
+  "memory_before_bytes": {
+    "MemTotal": 128520015872,
+    "MemAvailable": 54411309056
+  },
+  "memory_after_bytes": {
+    "MemTotal": 128520015872,
+    "MemAvailable": 69232332800
+  },
+  "memory_recovered_available_bytes": 14821023744,
+  "old_container_cache_evidence_preserved": true,
+  "new27_not_started": true,
+  "restore_previous_text_candidate_if_trial_rejected": true,
+  "reason": "Independent NIM text candidate rotation to admit 27B visual trial while preserving Retriever 32GiB guard"
+}

@@ -1,0 +1,17 @@
+{
+  "finished_at_unix_ns": 1790669830876154958,
+  "http_status": 200,
+  "interface": "original NIM internal SGLang backend; not exposed externally",
+  "request": {
+    "activities": [
+      "CPU",
+      "GPU"
+    ],
+    "num_steps": 8,
+    "output_dir": "/evidence",
+    "start_step": 0
+  },
+  "response_sha256": "2beb9b232a64c93cf1d70b1617ef871f039232ee02ccb53981b522caa89e6a5d",
+  "started_at_unix_ns": 1790669830696376600,
+  "trace_files_before": []
+}

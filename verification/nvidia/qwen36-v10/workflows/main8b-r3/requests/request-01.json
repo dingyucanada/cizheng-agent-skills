@@ -1,0 +1,16 @@
+{
+  "request_index": 1,
+  "messages_sha256": "ed12e62519c6d769bd0c8d25702177c49da62309c151d3ca56d5cd0bdb64ea02",
+  "message_bytes": 355755,
+  "timeout_seconds": 90,
+  "response_sha256": "84e3ab2127249ef39362e274a82bc4154a6bbf50bd83f8e699b87f41c4ea6504",
+  "response_text": "{\"observations\": [{\"media_id\": \"media_8750aba93a8f41058919a482b9149d04\", \"region\": [0.22, 0.15, 0.78, 0.85], \"visible\": \"喇叭口、直筒身、圈足，饰缠枝莲纹、山水纹、兽面纹\", \"interpretation\": \"青花瓷典型装饰分区\", \"limitation\": \"未见器底款识\"}, {\"media_id\": \"media_9552341dd99f43dfa4c225622114301a\", \"region\": [0.22, 0.15, 0.78, 0.85], \"visible\": \"喇叭口、直筒身、圈足，饰缠枝莲纹、花篮纹、兽面纹\", \"interpretation\": \"青花瓷典型装饰分区\", \"limitation\": \"未见器底款识\"}]}",
+  "usage": {
+    "prompt_tokens": 2689,
+    "completion_tokens": 237,
+    "total_tokens": 2926,
+    "finish_reason": "stop"
+  },
+  "succeeded": true,
+  "seconds": 25.532
+}

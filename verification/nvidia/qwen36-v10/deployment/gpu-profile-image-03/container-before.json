@@ -1,0 +1,32 @@
+{
+  "captured_at_unix_ns": 1790669960459843355,
+  "container_id": "49e964e50c0db7e82617399c3442f5f8b8dd65eb54d8533abddea4895843e9f2",
+  "entrypoint": [
+    "/opt/nim/start_server.sh"
+  ],
+  "host_init_pid": 1080573,
+  "host_pids": [
+    1080573,
+    1080813,
+    1080814,
+    1080815,
+    1081119,
+    1081120,
+    1081121,
+    1082270
+  ],
+  "image": "tgcr-gz.turing-agi.com/public/nvidia/sglang-model-free-nim-spark@sha256:7d4aa1ac40b20583068c4ece1d274042c0a99e863fb25bd0450c2be1951841b9",
+  "image_id": "sha256:7031f03d016a125ab739d569e206eae638ed76f6612d7a60d66ad619015508ef",
+  "namespace_pids": [
+    1,
+    159,
+    160,
+    161,
+    221,
+    222,
+    223,
+    416
+  ],
+  "restart_count": 0,
+  "started_at": "2026-09-29T07:48:19.726882892Z"
+}
