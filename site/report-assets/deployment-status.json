@@ -44,9 +44,11 @@
   "pdf": {
     "state": "ready",
     "href": "assets/cizheng-report-v08.pdf",
-    "sha256": "0a8b643e449c8a38f4ba4d8e6bea06c004492f34ff292b6e6f099a3662af0a6e",
-    "bytes": 2514746,
-    "pages": 24
+    "sha256": "1d614dc0e9a6b001a9994c2dd02e968a5df68c11c076b34d4735527d37116622",
+    "bytes": 9783276,
+    "pages": 29,
+    "updated_at": "2026-09-29T13:48:14.767219+00:00",
+    "edition": "公开馆藏个案核查增补版"
   },
   "checked_at": "2026-09-29T00:41:18.150999+00:00",
   "summary": "Spark 视觉和案卷服务已部署；NIM、TensorRT-LLM 和 NVIDIA Embedding + cuVS 分别完成独立验收。35B、27B 为隔离候选，主视觉保留 Qwen3-VL-8B；各原件说明具体测试范围。",
@@ -65,5 +67,17 @@
     "spark_focused_tests": 54,
     "scope": "Actual deployed software and frozen-run read-only verification; no semantic score or expert accuracy automatically assigned",
     "deployment_receipt": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/nvidia/qwen36-v10/deployment/backend-v12/deployment-receipt.json"
+  },
+  "public_collection_check": {
+    "cases": 3,
+    "photos": 6,
+    "spark_runs": 9,
+    "saved_waiting_evidence": 4,
+    "stopped_runs": 5,
+    "main_model_calls": 52,
+    "stepfun_public_text_calls": 1,
+    "expert_validation_performed": false,
+    "fresh_health_receipt": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/fresh-operational-health.json",
+    "scope": "新增公开馆藏个案；全部状态保留，不代替专家验证，也不改变历史案卷"
   }
 }

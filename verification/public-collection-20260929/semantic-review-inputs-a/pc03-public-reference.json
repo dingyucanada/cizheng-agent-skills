@@ -1,0 +1,149 @@
+{
+  "case_id": "pc03",
+  "held_out_from_stage_A": true,
+  "institution": "The Metropolitan Museum of Art",
+  "object_id": 48450,
+  "official_object_url": "https://www.metmuseum.org/art/collection/search/48450",
+  "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+  "official_facts_with_sources": [
+    {
+      "field": "title",
+      "official_value": "Bowl",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/title",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "accessionNumber",
+      "official_value": "17.57.1",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/accessionNumber",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "culture",
+      "official_value": "China",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/culture",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "period",
+      "official_value": "Southern Song dynasty (1127–1279)",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/period",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "objectDate",
+      "official_value": "13th century",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/objectDate",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "objectBeginDate",
+      "official_value": 1200,
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/objectBeginDate",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "objectEndDate",
+      "official_value": 1279,
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/objectEndDate",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "medium",
+      "official_value": "Stoneware with celadon glaze (Longquan ware); gold lacquer repairs",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/medium",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "dimensions",
+      "official_value": "H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/dimensions",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistRole",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/artistRole",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistPrefix",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/artistPrefix",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistDisplayName",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/artistDisplayName",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistDisplayBio",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/artistDisplayBio",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "creditLine",
+      "official_value": "Rogers Fund, 1917",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/creditLine",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "city",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/city",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "country",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+      "locator": "/country",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    }
+  ],
+  "project_summary": {
+    "title_zh_project_translation": "龙泉青釉碗（馆方记录有金漆修补）",
+    "curatorial_description_project_summary_zh": "馆方基本记录为南宋、13世纪、龙泉青釉炻器，材质说明同时记录金漆修补。修补的具体时间、材料成分和范围需要另行资料或实物检查，不从普通照片补造。",
+    "description_locator": "Official object page Artwork Details: Period, Date, Medium",
+    "review_focus": [
+      "器形、青釉外观和可见线状痕迹是否准确记录",
+      "对可见修补征象的观察是否区分材料化验与修补年代",
+      "不能因为表面未见其他痕迹写成无修复",
+      "南宋/龙泉是该件馆方编目标签，不能直接外推至未知器物"
+    ],
+    "authenticity_note": "Known public museum object with repairs recorded; repair is not evidence of forgery.",
+    "source_url": "https://www.metmuseum.org/art/collection/search/48450",
+    "translation_and_summary_author": "project intake researcher; not museum-issued Chinese text or expert assessment"
+  },
+  "rights": {
+    "isPublicDomain": true,
+    "object_page_public_domain_label": "Public Domain",
+    "images_and_basic_metadata": "CC0 / Met Open Access",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "website_prose": "Do not assume CC0 for unrelated page prose; only short project summaries here."
+  },
+  "scope_limitations": [
+    "Public catalogue reference check only; no independent expert review.",
+    "Public museum label is a reference, not measured true/genuine probability.",
+    "A language model may have seen public data during pretraining; hidden-answer inputs do not prove train-test independence.",
+    "Image date, colour fidelity and full condition cannot be independently authenticated from this intake."
+  ]
+}

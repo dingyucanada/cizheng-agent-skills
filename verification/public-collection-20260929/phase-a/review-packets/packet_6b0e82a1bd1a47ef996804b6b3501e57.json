@@ -1,0 +1,114 @@
+{
+  "packet_id": "packet_6b0e82a1bd1a47ef996804b6b3501e57",
+  "images": [
+    {
+      "media_id": "media_ee6c18d94e7e41d09cb8f68233ac2c76",
+      "image_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "path": "assets/d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_f364e4e2e58d4475a9822264a3541bb7",
+      "image_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+      "path": "assets/ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_2ccf2b88cb24422889ca2e1133903591",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_55bc1489c8614876861b167662b1b1ed",
+      "interpretation": "器形规整，釉色匀净",
+      "limitation": "",
+      "media_id": "media_ee6c18d94e7e41d09cb8f68233ac2c76",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_3d53af10529b495d861106eb26d6ac25",
+      "visible": "青釉莲瓣纹碗，金缮修复"
+    },
+    {
+      "artifact_id": "media_b1fa96f3076c430b957053e44fbbc0cc",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_026d12ddf9b84ff6b775e3a371b79097",
+      "interpretation": "内壁无纹饰，釉面光洁",
+      "limitation": "",
+      "media_id": "media_f364e4e2e58d4475a9822264a3541bb7",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_3d53af10529b495d861106eb26d6ac25",
+      "visible": "碗内壁青釉，金缮补缺"
+    }
+  ],
+  "assessment": {
+    "alternatives": [
+      "仿古器",
+      "明清仿品"
+    ],
+    "basic_info": "青釉莲瓣纹碗，金缮修复",
+    "claims": [
+      {
+        "candidate": "宋代",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "釉色与器形具宋代特征，但无款识或明确参照支持断代",
+        "status": "insufficient",
+        "support": [
+          "obs_55bc1489c8614876861b167662b1b1ed"
+        ]
+      },
+      {
+        "candidate": "龙泉窑",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "釉色与莲瓣纹近龙泉窑，但无窑址或款识佐证",
+        "status": "insufficient",
+        "support": [
+          "obs_55bc1489c8614876861b167662b1b1ed"
+        ]
+      },
+      {
+        "candidate": "文人雅玩风格",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "金缮工艺与素雅釉色符合文人审美，但无文献或参照支持",
+        "status": "insufficient",
+        "support": [
+          "obs_55bc1489c8614876861b167662b1b1ed"
+        ]
+      }
+    ],
+    "condition_hypotheses": [
+      "釉色与器形为宋代原物，金缮为后补",
+      "金缮工艺为现代修复"
+    ],
+    "knowledge_citations": [],
+    "limitations": [
+      "未见底部款识",
+      "无窑口标记",
+      "无明确时代参照"
+    ],
+    "reference_comparison": "无馆方记载或参照图支持断代",
+    "reference_ids": [],
+    "revision_explanation": "依据图像特征推断，但需实物款识或窑口证据",
+    "scope": "ceramic_research"
+  },
+  "evidence_request": {
+    "capture_instructions": "拍摄碗底清晰特写，确保款识或窑口标记可见",
+    "distinguishes": "款识可明确窑口与时期",
+    "reason": "需确认是否有款识或窑口标记以支持断代",
+    "view": "碗底与款识"
+  },
+  "state": "waiting_evidence",
+  "error": null,
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

@@ -1,0 +1,48 @@
+{
+  "reviewer_role": "project_automated_adjudication",
+  "expert_validation": false,
+  "critic_result_sha256": "f85a9b355ceb19628b41ba600d406909cbe5fee1a6832801fa04377b659d9a3e",
+  "phase_A_catalogue_metadata_provided_to_target_model": false,
+  "public_metadata_provided_to_text_critic": true,
+  "model_run_revised": false,
+  "original_model_output_changed": false,
+  "items": [
+    {
+      "issue_index": 0,
+      "original_issue": {
+        "claim_dimension": "style",
+        "concern": "模型将西式盾形纹饰判定为“非中国风格”，但对应馆藏记录明确该器物为清代景德镇窑青花瓷，说明西式装饰元素可由中国工匠制作，该主张未考虑中国外销瓷吸收西方纹饰的可能，依据不足",
+        "reference_ids": [
+          "public-metadata-pc01"
+        ]
+      },
+      "disposition": "保留为范围澄清",
+      "reason": "西式装饰风格不能排除中国制造。原文描述装饰风格，并未明确宣称制作地不在中国；因此作为解释边界提醒，不标记为已证实的制作地判错。"
+    },
+    {
+      "issue_index": 1,
+      "original_issue": {
+        "claim_dimension": "period",
+        "concern": "pc01的模型主张“未见底部款识无法确定制作时期”，但未引用已提供的馆藏记录中的清代时期记载，遗漏已有来源支撑",
+        "reference_ids": [
+          "public-metadata-pc01"
+        ]
+      },
+      "disposition": "不采纳对照片首轮的批评",
+      "reason": "该反馈使用了审查时新增的馆藏元数据。阶段A原模型未接收馆藏标签，因此不能因其未引用尚未提供的记录而判错。来源上下文应在阶段B单独核查。"
+    },
+    {
+      "issue_index": 2,
+      "original_issue": {
+        "claim_dimension": "kiln",
+        "concern": "pc01的模型主张“未见底部款识无法确定窑口”，但未引用已提供的馆藏记录中景德镇窑的记载，遗漏已有来源支撑",
+        "reference_ids": [
+          "public-metadata-pc01"
+        ]
+      },
+      "disposition": "不采纳对照片首轮的批评",
+      "reason": "该反馈使用了审查时新增的馆藏元数据。阶段A原模型未接收馆藏标签，因此不能因其未引用尚未提供的记录而判错。来源上下文应在阶段B单独核查。"
+    }
+  ],
+  "scope": "审查意见本身也核对输入范围，不把API成功或引用ID有效当作专业意见正确。"
+}

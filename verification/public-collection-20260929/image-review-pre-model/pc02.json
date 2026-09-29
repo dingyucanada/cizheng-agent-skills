@@ -1,0 +1,106 @@
+{
+  "review_type": "先行原图观察备忘",
+  "image_access": "actual_original_image_via_view_image",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": false,
+  "target_model_outputs_received": false,
+  "scope_statement": "独立上下文AI观察记录，基于指定两张原图的可见外观；不是专业真值或真人专家验证，不判断材料检测结果、年代、窑口或真伪。",
+  "independence_statement": "仅查看本件的view-01.jpg、view-02.jpg；未接收馆藏标签、目标模型输出，未读取museum-records、research、manifest或其他模型报告，未联网查询器物身份。",
+  "position_annotation": "使用原图中的自然语言位置；没有人工框，不提供或编造坐标。",
+  "item_id": "pc02",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+    "view-02.jpg": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+  },
+  "reviewed_image_paths": [
+    "intake/photos/pc02/view-01.jpg",
+    "intake/photos/pc02/view-02.jpg"
+  ],
+  "image_presentation_note": "view_image打开原始文件；工具显示时将每张3002×4000像素图缩放至2752×3666像素。未另行裁切、增强或编辑图像。",
+  "view_coverage": {
+    "view-01.jpg": "较宽面斜正面全器，可见矩形开口与一小段白色内壁、两侧立体环形附件、下部外侧足座。无底面或足内视图。",
+    "view-02.jpg": "较窄面正侧面全器，中央立体附件较清楚，可见口沿及一小段内壁、外侧足座。无底面或足内视图。",
+    "underside_provided": false,
+    "foot_exterior_provided": true,
+    "inscriptions_or_marks_provided": false
+  },
+  "visible_notes": [
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "全器轮廓、开口与底部",
+      "feature": "器形",
+      "observation": "高而长的瓶形容器，口部为白色边缘的矩形开口；长颈向下逐渐收窄，随后下腹扩大，收束到外张的方角足座。器身由不同宽度的面构成，棱线上有白色窄边。view-01展示较宽面，view-02展示较窄面，因此两张图的宽窄差异与视角相合。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "长颈两侧及view-02画面中央",
+      "feature": "立体附件",
+      "observation": "view-01两侧各有紫粉或灰紫色弯曲环状附件，中间镂空；表面有纵向沟纹、结节和分叉端部。view-02同类附件位于窄面中央，上下接在器壁上，凸出器面，沟纹和节状细节较清楚。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "各彩绘面及口沿、棱线",
+      "feature": "颜色与表面",
+      "observation": "大部分外壁彩面是浅黄色底，白色口沿与白色棱边相隔，彩面边缘有细黑线。图案以绿色、青绿色、紫粉色、白色和黑色为主，表面可见局部光泽及斑驳的深浅变化。"
+    },
+    {
+      "images": [
+        "view-01.jpg"
+      ],
+      "original_image_location": "较宽面上部至下腹",
+      "feature": "彩绘图像",
+      "observation": "上部长颈有数只张翅长尾鸟状图像；中下部为紫粉色树干及枝条、白色多瓣花朵、绿叶及成簇狭长叶片，下腹左侧有大块青绿色石状或地景形区域，黑线描出树皮、叶脉及花心细节。"
+    },
+    {
+      "images": [
+        "view-02.jpg"
+      ],
+      "original_image_location": "较窄面上部及附件上下",
+      "feature": "另一面彩绘图像",
+      "observation": "上部有一只小型飞鸟状图像；附件上下可见紫粉与白色花朵、绿色较宽的叶片、紫粉色枝干，附件遮挡了部分彩面。下腹同样有青绿色块状地景及狭长叶簇。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "足座正面",
+      "feature": "足座纹饰",
+      "observation": "外侧足座呈外张的梯形面，白地椭圆框内绘紫粉与黄色花朵、绿色枝叶，外缘配紫粉与绿色弧边；两侧角部为绿色斜格纹，格内有黄色小单元。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "口沿、黄色彩面、青绿块面与足座下缘",
+      "feature": "可见状况",
+      "observation": "口沿、白棱边和彩面可见细小黄褐或黑色点；青绿色区域有浅色斑驳和细线。view-02黄色面左上有几条斜向细褐线，右上有一处小绿点及较深褐点。view-01足座正面中部有细长浅褐纵线；足座下边缘及角部局部褐色不均。附件沟纹深处较暗，部分凸起颜色较浅。"
+    }
+  ],
+  "uncertain_notes": [
+    "开口仅见浅段内壁，无法看清内腔深处、内底、整圈内口沿和背面全部表面；两张图没有底面、足内、底款或其它可读款识。",
+    "没有尺度参照；矩形截面的具体长宽、厚度和器身深度无法可靠测量。",
+    "附件外形能看见沟纹、结节和分叉，但照片不足以把它确定为特定动物、树种或命名式样。",
+    "彩面细褐线、足座纵线及青绿面浅斑的成因无法分辨；不据此确认结构裂缝、接缝、修复或磨损历史。",
+    "植物和飞鸟仅记录可见形态，不用图像直接指定物种；青绿色块面的具体地景含义也不确定。",
+    "光泽与颜色只能描述外观，不支持材料、彩绘工艺或检测结果判断。"
+  ],
+  "easy_to_misread_details": [
+    "较窄面中的单个凸起附件不等于器物只装有一个附件；较宽面照片实际同时露出左右两侧。",
+    "附件的分叉和结节容易被读成兽头、嘴或足，但本记录只确认可见的立体枝节状细节。",
+    "view-02上方空黄底的斜细褐线与view-01足座中的纵线，容易被直接认定为裂纹或拼接，需保留成因未明。",
+    "青绿色面中的浅色斑和细线可能与表面状态、绘饰或照明有关，不能直接作为烧造或修复的证据。",
+    "两张照片器身表观宽度明显不同，不能把侧面视角差异当成器身变形。"
+  ]
+}

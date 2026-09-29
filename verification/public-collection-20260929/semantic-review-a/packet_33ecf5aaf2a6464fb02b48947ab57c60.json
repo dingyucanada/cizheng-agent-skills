@@ -1,0 +1,208 @@
+{
+  "review_stage": "A",
+  "packet_id": "packet_33ecf5aaf2a6464fb02b48947ab57c60",
+  "case_id_by_exact_photo_sha256": "pc03",
+  "match_basis": [
+    {
+      "packet_media_id": "media_7324570734e248f697a2945e332b0977",
+      "image_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "original_view": "view-01.jpg",
+      "original_file": "intake/photos/pc03/view-01.jpg"
+    },
+    {
+      "packet_media_id": "media_71a79e3d10654b2fa840825593cd5893",
+      "image_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+      "original_view": "view-02.jpg",
+      "original_file": "intake/photos/pc03/view-02.jpg"
+    }
+  ],
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "mode_labels_received": false,
+  "review_scope": "匿名输出的语义核查。独立上下文AI观察者，不是真人专家、不构成专业真值；不提供总体准确率或真品概率。",
+  "original_photo_access": "actual_original_image_via_view_image",
+  "pre_model_observation_record_preserved": true,
+  "target_state_verbatim": "failed",
+  "target_error_verbatim": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "target_assessment_present": false,
+  "failure_handling": "原包state为failed且assessment为null；保留失败，不补造成功评估，不将缺失年代或窑口结论计为错误。",
+  "catalogue_transcription_in_packet": {
+    "present": false,
+    "finding": "原包没有引用本阶段三份馆方参考或转述其正式编目值。核查者现阶段收到参考不能倒推目标模型当时已知；‘无馆方记载/参照’按原包证据范围理解，不直接判为捏造。"
+  },
+  "reference_used": {
+    "local_input": "pc03-public-reference.json",
+    "official_facts": [
+      {
+        "field": "title",
+        "official_value": "Bowl",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/title",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "culture",
+        "official_value": "China",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/culture",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "period",
+        "official_value": "Southern Song dynasty (1127–1279)",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/period",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "objectDate",
+        "official_value": "13th century",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/objectDate",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "medium",
+        "official_value": "Stoneware with celadon glaze (Longquan ware); gold lacquer repairs",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/medium",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistRole",
+        "official_value": "",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/artistRole",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistDisplayName",
+        "official_value": "",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/artistDisplayName",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      }
+    ],
+    "project_curatorial_summary": {
+      "text": "馆方基本记录为南宋、13世纪、龙泉青釉炻器，材质说明同时记录金漆修补。修补的具体时间、材料成分和范围需要另行资料或实物检查，不从普通照片补造。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/48450",
+      "locator": "Official object page Artwork Details: Period, Date, Medium",
+      "attribution": "项目研究者对馆方页面的中文摘要；不是馆方发布的中文原句，也不是专家实物验证。"
+    }
+  },
+  "view_coverage_limitation": "两张原图都没有外底或足内视图，不显示可读款识。‘照片未展示’与‘实物没有款识’分别处理。",
+  "claim_checks": [
+    {
+      "check_id": "pc03_shape",
+      "category": "可见事实",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青釉莲瓣纹碗，金缮修补"
+        },
+        {
+          "source_json_pointer": "/observations/0/interpretation",
+          "exact_quote": "器形规整，釉色匀净"
+        },
+        {
+          "source_json_pointer": "/observations/1/interpretation",
+          "exact_quote": "内壁无纹饰，釉面光洁"
+        }
+      ],
+      "visible_fact_support": "碗形、青绿外观、外壁纵向瓣状起伏有支持；‘匀净’仅部分支持",
+      "finding": "两图显示敞口碗、低足外侧、青绿光泽外观；外壁有纵向起伏，可描述为瓣状纹。‘莲瓣’是形态命名，所供正式字段仅写Bowl；内壁没有清晰彩绘图案，细纹理因清晰度不足不能绝对排除。口沿黄色块、零星深点和明暗变化不应被‘匀净’盖过。",
+      "catalogue_reference_fields_used": [
+        "/title",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_kintsugi",
+      "category": "材料/修复工艺推断",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青釉莲瓣纹碗，金缮修补"
+        },
+        {
+          "source_json_pointer": "/observations/1/visible",
+          "exact_quote": "碗内壁青釉，金缮痕迹"
+        },
+        {
+          "source_json_pointer": "/observations/2/visible",
+          "exact_quote": "碗口沿金缮修补与釉色过渡"
+        },
+        {
+          "source_json_pointer": "/observations/2/interpretation",
+          "exact_quote": "金缮修补痕迹清晰"
+        }
+      ],
+      "visible_fact_support": "金黄色块、口沿不规则处及细线可见；工艺命名非纯可见事实",
+      "finding": "原包把‘金缮’连续写入visible/interpretation且未保留成分或技术未知。照片只直接显示黄色块及相连细线；可提出修補假设。馆方正式medium现提供gold lacquer repairs，支持金漆修补背景，但未给出材料检测、修补时间或日本金缮工艺的具体归属。不能把有馆方金漆记录追溯成原模型仅凭图完成金缮识别，也不能将金缮必然判错。",
+      "catalogue_reference_fields_used": [
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_process_colour",
+      "category": "材料/工艺推断",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青釉莲瓣纹碗，金缮修补"
+        },
+        {
+          "source_json_pointer": "/observations/1/visible",
+          "exact_quote": "碗内壁青釉，金缮痕迹"
+        },
+        {
+          "source_json_pointer": "/observations/2/limitation",
+          "exact_quote": "未见釉色渐变细节"
+        }
+      ],
+      "visible_fact_support": "青绿色与光泽可见；釉材料细节、渐变原因未确认",
+      "finding": "正式medium记青釉炻器与龙泉，属于馆方参考，不是通过图片成分检测。‘未见釉色渐变细节’是保留项；不能再用照片明暗或反光推出烧成、材质或染污。",
+      "catalogue_reference_fields_used": [
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_request",
+      "category": "补证是否过度依赖款识",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄碗底及款识部位"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "确认是否为官窑或民窑"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "底部未见款识，无法判断窑口"
+        }
+      ],
+      "visible_fact_support": "外底确未提供；官/民窑二分和款识主导缺依据",
+      "finding": "底足照可补足形、足面和表面信息，但该请求把缺款识与无法判断窑口直接连结，并以确认官窑/民窑为目标。原图和馆方字段均没有建立这种二分。款识未必有，也不能独自确定生产地；当前更具体的修补未知需口沿近景、修复记录或实物检查，而非只靠底款。",
+      "catalogue_reference_fields_used": [
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    }
+  ],
+  "assessment_reasoning_review": "assessment为null且state为failed；没有最终龙泉/南宋等断代可判。金缮命名的证据越界与失败状态分别报告。",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+    "view-02.jpg": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+  },
+  "exact_quote_verification": {
+    "checked_against_anonymous_packet": true,
+    "verbatim_quote_count": 13
+  }
+}

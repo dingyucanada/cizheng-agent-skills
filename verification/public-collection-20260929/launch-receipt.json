@@ -1,0 +1,13 @@
+{
+  "scope": "Only new public collection input and isolated trials; no prior private proof files or business database",
+  "source_stage_sha256": "bdf1f2aed314202dcf665ea0656f79a6a5a33dcb89e7e06b1f193429350b13dc",
+  "uploaded_archive_sha256": "f3fce2cbde8f5a2472a306b36c1d0262e07c7ea821f6e26dd5b33b474bd92f43",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+  "planned_trials": 6,
+  "neutral_input_verified": true,
+  "answer_files_uploaded": false,
+  "main_model_replaced": false,
+  "isolated_phase_A_started": true,
+  "started_at_unix_ns": 1790686727117092007
+}

@@ -1,0 +1,120 @@
+{
+  "packet_id": "packet_01b02079d45444b0a62dbbadba94921a",
+  "images": [
+    {
+      "media_id": "media_e0243e07951945d49e3866acfec97a49",
+      "image_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+      "path": "assets/50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_52f72b0e4f084f04880be288a39b1f1c",
+      "image_sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+      "path": "assets/4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_b440988912fb4184bb2f607c1dc2e398",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_ab063ca364f545a9b83c13a50560679e",
+      "interpretation": "器形规整，双耳对称",
+      "limitation": "",
+      "media_id": "media_e0243e07951945d49e3866acfec97a49",
+      "region": [
+        0.27,
+        0.09,
+        0.71,
+        0.91
+      ],
+      "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+      "visible": "黄地粉彩梅鹊纹方瓶"
+    },
+    {
+      "artifact_id": "media_bfec1a4e93174676ba9e955a586308e8",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_ab698f620d82443884476ecf1d7c0765",
+      "interpretation": "枝干遒劲，花鸟生动",
+      "limitation": "",
+      "media_id": "media_52f72b0e4f084f04880be288a39b1f1c",
+      "region": [
+        0.3,
+        0.1,
+        0.69,
+        0.9
+      ],
+      "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+      "visible": "瓶身梅鹊图局部特写"
+    },
+    {
+      "artifact_id": "media_bf26537e011248b884966659326dbbbb",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_802719963b9843d79aef547537019685",
+      "interpretation": "梅竹双禽纹饰",
+      "limitation": "无遮挡全貌",
+      "media_id": "media_e0243e07951945d49e3866acfec97a49",
+      "region": [
+        0.2698201199200533,
+        0.09,
+        0.7101932045303131,
+        0.91
+      ],
+      "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+      "visible": "方形瓶身绘梅竹双禽"
+    }
+  ],
+  "assessment": {
+    "alternatives": [
+      "民国仿品",
+      "现代工艺品"
+    ],
+    "basic_info": "黄地粉彩梅鹊纹方瓶，双耳对称，瓶身绘梅竹双禽，底部未见款识",
+    "claims": [
+      {
+        "candidate": "清代",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "无款识，纹饰非清代专有",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "景德镇窑",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "无款识，胎釉未见",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "粉彩风格",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "梅鹊纹饰常见于清代粉彩，但非专有",
+        "status": "insufficient",
+        "support": []
+      }
+    ],
+    "condition_hypotheses": [],
+    "knowledge_citations": [],
+    "limitations": [
+      "底部未见款识",
+      "无可靠参照图"
+    ],
+    "reference_comparison": "无馆方记载或参照图",
+    "reference_ids": [],
+    "revision_explanation": "依据图像观察，未见款识与参照图，无法判断时期、窑口与风格",
+    "scope": "ceramic_research"
+  },
+  "evidence_request": {
+    "capture_instructions": "拍摄器底款识与胎釉细节",
+    "distinguishes": "款识可区分窑口与年代",
+    "reason": "底部未见款识，无法判断窑口与时期",
+    "view": "器底"
+  },
+  "state": "waiting_evidence",
+  "error": null,
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

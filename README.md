@@ -20,6 +20,16 @@
 | **部署说明** | [免模型本机启动与 Spark 连接](#部署说明) | [部署指南](docs/deployment-guide.md)：本机试用、Spark 业务与历史独立验收、依赖、启动脚本和检查顺序 |
 | **技术栈说明** | [实际组件及架构图](#技术栈说明与系统架构) | [技术栈清单](docs/technology-stack.md)：NVIDIA SDK / 版本 / 模型、StepFun 与各自接入范围 |
 
+## 公开馆藏个案核查
+
+[直接看真实照片和运行记录](https://dingyucanada.github.io/cizheng-agent-skills/public-collection-check.html?case=pc03&stage=b) · [报告对应章节](https://dingyucanada.github.io/cizheng-agent-skills/report.html#public-check) · [中文方案及全部状态](docs/public-collection-case-check-20260929.md) · [原件SHA清单](verification/public-collection-20260929/index.json)
+
+<p align="center"><a href="https://dingyucanada.github.io/cizheng-agent-skills/public-collection-check.html?case=pc01"><img src="site/assets/public-collection-check/pc01-view-01.jpg" width="220" alt="射手纹青花储水器公开原图"></a> <a href="https://dingyucanada.github.io/cizheng-agent-skills/public-collection-check.html?case=pc02"><img src="site/assets/public-collection-check/pc02-view-01.jpg" width="220" alt="仿古铜器形彩瓷瓶公开原图"></a> <a href="https://dingyucanada.github.io/cizheng-agent-skills/public-collection-check.html?case=pc03"><img src="site/assets/public-collection-check/pc03-view-01.jpg" width="220" alt="龙泉青釉碗公开原图"></a></p>
+
+三件Met馆藏、六张CC0原图，新增九轮实际Spark运行：首轮仅给照片，分别保留普通提示/Skills；后续才提供同件馆藏文字。观察、判断理由、修订原文、实际读到的来源段落和停止原因可以逐项展开，无需上传材料，公开页只读取保存记录。
+
+本次52次主模型消息输入、回复和图片字节完成对应核对；另有一次真实StepFun公开文字反证及逐项处理。四轮保存意见并等待补证，五轮停止，原件均保留。可见工艺命名、底款的补证作用和来源转述分别核查；没有把流程状态当作专业准确率，也没有用馆方答案补写模型意见。**这是基于公开馆藏资料的个案核查**，AI核查角色和输入范围明确，真人专家验证和概率校准仍是后续工作。
+
 完整开源交付包含前后端、七个 `SKILL.md` 方法包、部署脚本、教学素材、测试、图文报告及视频。[中文路演 PPT](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pptx) · [路演 PDF](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pdf) · [使用说明](docs/user-guide.md)
 
 ## 逐条核查观察、理由与引用

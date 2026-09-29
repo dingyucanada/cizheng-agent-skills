@@ -1,0 +1,149 @@
+{
+  "case_id": "pc01",
+  "held_out_from_stage_A": true,
+  "institution": "The Metropolitan Museum of Art",
+  "object_id": 854455,
+  "official_object_url": "https://www.metmuseum.org/art/collection/search/854455",
+  "official_api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+  "official_facts_with_sources": [
+    {
+      "field": "title",
+      "official_value": "\"The Archer\" cistern",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/title",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "accessionNumber",
+      "official_value": "2021.321a, b",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/accessionNumber",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "culture",
+      "official_value": "China",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/culture",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "period",
+      "official_value": "Qing dynasty (1644–1911)",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/period",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "objectDate",
+      "official_value": "ca. 1740",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/objectDate",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "objectBeginDate",
+      "official_value": 1730,
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/objectBeginDate",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "objectEndDate",
+      "official_value": 1750,
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/objectEndDate",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "medium",
+      "official_value": "Porcelain painted in underglaze cobalt blue (Jingdezhen ware)",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/medium",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "dimensions",
+      "official_value": "H. 27 in. (68.6 cm); Diam. 17 1/8 in. 43.5 cm); Diam. of foot: 11 1/8 in. (28.3 cm)",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/dimensions",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistRole",
+      "official_value": "Artist",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/artistRole",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistPrefix",
+      "official_value": "Attributed to",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/artistPrefix",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistDisplayName",
+      "official_value": "Cornelis Pronk",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/artistDisplayName",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "artistDisplayBio",
+      "official_value": "Dutch, Amsterdam 1691–1759 Amsterdam",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/artistDisplayBio",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "creditLine",
+      "official_value": "Gift of Shirley M. Mueller, M.D., 2021",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/creditLine",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "city",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/city",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    },
+    {
+      "field": "country",
+      "official_value": "",
+      "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+      "locator": "/country",
+      "value_type": "official catalogue metadata; not model observation or current expert review"
+    }
+  ],
+  "project_summary": {
+    "title_zh_project_translation": "“射手”纹储水器",
+    "curatorial_description_project_summary_zh": "馆方将装饰设计归于荷兰画家 Cornelis Pronk，并介绍荷兰东印度公司订制设计、在中国制作后运往荷兰的背景。设计归属不是瓷器烧造者姓名；器物记录为约1740年、清代、中国、景德镇釉下钴蓝瓷。",
+    "description_locator": "Official object page introductory curatorial description immediately below title and display location",
+    "review_focus": [
+      "器物形态与附属构件的可见观察是否准确",
+      "画面人物与装饰是否被误读为山水、博古或其他主题",
+      "将设计归属与实际制作地、烧造者分开",
+      "仅凭照片不把约1740年写成已被独立证明"
+    ],
+    "authenticity_note": "Known public museum object; no counterfeit or genuine probability label supplied.",
+    "source_url": "https://www.metmuseum.org/art/collection/search/854455",
+    "translation_and_summary_author": "project intake researcher; not museum-issued Chinese text or expert assessment"
+  },
+  "rights": {
+    "isPublicDomain": true,
+    "object_page_public_domain_label": "Public Domain",
+    "images_and_basic_metadata": "CC0 / Met Open Access",
+    "policy_url": "https://www.metmuseum.org/policies/image-resources",
+    "website_prose": "Do not assume CC0 for unrelated page prose; only short project summaries here."
+  },
+  "scope_limitations": [
+    "Public catalogue reference check only; no independent expert review.",
+    "Public museum label is a reference, not measured true/genuine probability.",
+    "A language model may have seen public data during pretraining; hidden-answer inputs do not prove train-test independence.",
+    "Image date, colour fidelity and full condition cannot be independently authenticated from this intake."
+  ]
+}

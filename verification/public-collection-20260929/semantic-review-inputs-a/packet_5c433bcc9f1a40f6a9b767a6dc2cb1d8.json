@@ -1,0 +1,62 @@
+{
+  "packet_id": "packet_5c433bcc9f1a40f6a9b767a6dc2cb1d8",
+  "images": [
+    {
+      "media_id": "media_4f00efd52317421080685a246e4bb7c1",
+      "image_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+      "path": "assets/50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_0f4a7244c347404c9b94b06eaf67790b",
+      "image_sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+      "path": "assets/4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_2a514044302c4de9a1c76f410fb429e8",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_8d771c8c11f142638b14b8666c45999e",
+      "interpretation": "粉彩装饰，梅鹊纹样",
+      "limitation": "",
+      "media_id": "media_4f00efd52317421080685a246e4bb7c1",
+      "region": [
+        0.32,
+        0.09,
+        0.68,
+        0.91
+      ],
+      "run_id": "run_6e46a018862a4569bd775f5932ca82ad",
+      "visible": "黄地粉彩梅鹊纹方瓶，双耳"
+    },
+    {
+      "artifact_id": "media_136d378bdd734f0e8a3c4881e3c58b5e",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_25bd0fd7314242a38c4bac2da0dddc87",
+      "interpretation": "双耳造型，梅鹊纹延续",
+      "limitation": "",
+      "media_id": "media_0f4a7244c347404c9b94b06eaf67790b",
+      "region": [
+        0.32,
+        0.09,
+        0.68,
+        0.91
+      ],
+      "run_id": "run_6e46a018862a4569bd775f5932ca82ad",
+      "visible": "瓶身局部，双耳及梅鹊纹"
+    }
+  ],
+  "assessment": null,
+  "evidence_request": {
+    "capture_instructions": "拍摄瓶底或款识部位清晰照片",
+    "distinguishes": "款识或底部可提供窑口与年代依据",
+    "reason": "需确认制作时期与窑口",
+    "view": "瓶底或款识部位"
+  },
+  "state": "failed",
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

@@ -1,0 +1,78 @@
+{
+  "packet_id": "packet_3ca212a4f1af4df08593d87ad598944b",
+  "images": [
+    {
+      "media_id": "media_d3e570379e0c4a6a940b3d8d06765ce1",
+      "image_sha256": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+      "path": "assets/1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_d17b7c2340de487eb74b32bdc0eadde9",
+      "image_sha256": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521",
+      "path": "assets/73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_ead59d3aeb2e44dc9cdad362ced627ae",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_973f9d547f3b4ad3ae49482a68be42ac",
+      "interpretation": "西式盾形纹饰",
+      "limitation": "",
+      "media_id": "media_d3e570379e0c4a6a940b3d8d06765ce1",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_5aa43e49429e42d6a5f8b3e2c5eab872",
+      "visible": "青花盖罐，饰人物纹与蝴蝶"
+    },
+    {
+      "artifact_id": "media_ee3247b292bf41469d1ad748b168aa74",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_e80e07614a7540a4990e4448f220d3b8",
+      "interpretation": "西式盾形纹饰",
+      "limitation": "",
+      "media_id": "media_d17b7c2340de487eb74b32bdc0eadde9",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_5aa43e49429e42d6a5f8b3e2c5eab872",
+      "visible": "青花盖罐，饰人物纹与蝴蝶"
+    },
+    {
+      "artifact_id": "media_65db67fe985a4e54ba3c6436fbab25df",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_f9e187fba471499e8548c40886da4ebc",
+      "interpretation": "青花人物纹饰",
+      "limitation": "",
+      "media_id": "media_d3e570379e0c4a6a940b3d8d06765ce1",
+      "region": [
+        0.17,
+        0.17,
+        0.83,
+        0.83
+      ],
+      "run_id": "run_5aa43e49429e42d6a5f8b3e2c5eab872",
+      "visible": "青花瓷罐饰人物与昆虫"
+    }
+  ],
+  "assessment": null,
+  "evidence_request": {
+    "capture_instructions": "拍摄器物底部及款识部位",
+    "distinguishes": "确认制作时期与窑口",
+    "reason": "缺乏底部款识与明确参照图",
+    "view": "器物底部"
+  },
+  "state": "failed",
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

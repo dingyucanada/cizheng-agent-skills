@@ -1,0 +1,151 @@
+{
+  "scope": "New public collection record integrity; not ceramic correctness or expert validation",
+  "expert_validation": false,
+  "ceramic_accuracy": null,
+  "authenticity_probability": null,
+  "checks": [
+    {
+      "phase": "a",
+      "export_files_hash_verified": 84,
+      "exact_messages_reconstructed": true,
+      "image_derivative_bytes_verified": true
+    },
+    {
+      "phase": "b",
+      "export_files_hash_verified": 51,
+      "exact_messages_reconstructed": true,
+      "image_derivative_bytes_verified": true
+    }
+  ],
+  "runs": [
+    {
+      "phase": "a",
+      "case_id": "pc01",
+      "mode": "plain",
+      "state": "failed",
+      "seconds": 154.258978,
+      "model_calls": 7,
+      "tool_calls": 8,
+      "observations": 3,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "46bbb1d32cb79ab530b1a1a09011d19aba864024b765497f67a2a7c2745ecb3a"
+    },
+    {
+      "phase": "a",
+      "case_id": "pc01",
+      "mode": "skills",
+      "state": "waiting_evidence",
+      "seconds": 119.136133,
+      "model_calls": 5,
+      "tool_calls": 11,
+      "observations": 2,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "61ac9f945ca83e69903cfa922049a7fef7e2314fb9597affc47d1528051d64be"
+    },
+    {
+      "phase": "a",
+      "case_id": "pc02",
+      "mode": "skills",
+      "state": "waiting_evidence",
+      "seconds": 126.260183,
+      "model_calls": 7,
+      "tool_calls": 11,
+      "observations": 3,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "463bc1316cbe8136208bc97e84bd3ca9138c03b17a8c72bed3da4c5bd49c970d"
+    },
+    {
+      "phase": "a",
+      "case_id": "pc02",
+      "mode": "plain",
+      "state": "failed",
+      "seconds": 204.870427,
+      "model_calls": 5,
+      "tool_calls": 7,
+      "observations": 2,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "be56844c13022d65b4022327c0a255c70454c3f0f47b80d9ad37a4087b716094"
+    },
+    {
+      "phase": "a",
+      "case_id": "pc03",
+      "mode": "plain",
+      "state": "waiting_evidence",
+      "seconds": 139.268719,
+      "model_calls": 5,
+      "tool_calls": 7,
+      "observations": 2,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "5b30d3247dd102031104e6c64757ab53eea634969dbd92a645bddd2deb23f029"
+    },
+    {
+      "phase": "a",
+      "case_id": "pc03",
+      "mode": "skills",
+      "state": "failed",
+      "seconds": 163.975283,
+      "model_calls": 7,
+      "tool_calls": 11,
+      "observations": 3,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "dfe21d96934e77e50b5d647a31e2d8c813f9a44e79daa204b6919f322499a815"
+    },
+    {
+      "phase": "b",
+      "case_id": "pc01",
+      "mode": "skills",
+      "state": "failed",
+      "seconds": 159.467751,
+      "model_calls": 5,
+      "tool_calls": 12,
+      "observations": 2,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "919ab815007a85af6c60ee500403da1fea793cd887f9df943a0f9dd7689b3768"
+    },
+    {
+      "phase": "b",
+      "case_id": "pc02",
+      "mode": "skills",
+      "state": "failed",
+      "seconds": 205.130819,
+      "model_calls": 5,
+      "tool_calls": 11,
+      "observations": 2,
+      "citations": 0,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "29ba721d1bafb985527e5c84f03b2e116c6d35849b8255650789066ab4e5871d"
+    },
+    {
+      "phase": "b",
+      "case_id": "pc03",
+      "mode": "skills",
+      "state": "waiting_evidence",
+      "seconds": 150.700733,
+      "model_calls": 6,
+      "tool_calls": 12,
+      "observations": 2,
+      "citations": 1,
+      "messages_exactly_reconstructed": true,
+      "request_event_hashes_bound": true,
+      "final_run_sha256": "5e3239c29bd9441dc63d01b1e8a7ca250365ab267f4217786c16700dfd183eff"
+    }
+  ],
+  "trial_count": 9,
+  "actual_model_requests": 52,
+  "all_record_integrity_checks_passed": true
+}

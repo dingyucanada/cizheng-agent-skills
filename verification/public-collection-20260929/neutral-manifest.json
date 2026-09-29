@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "id": "pc01",
+      "object_id": "independent-public-pc01",
+      "question": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。未展示部位不要补写；普通纹样不能作为确定断代依据。",
+      "target_attribution": "照片可支持的有限研究；未指定制作时期和窑口",
+      "source_declaration": "公开机构图像；来源及馆藏归属首轮不提供给模型。",
+      "images": [
+        {
+          "path": "photos/pc01/view-01.jpg",
+          "view": "公开拍摄视角1；未验证拍摄部位",
+          "edit_declaration": "公开来源图片原始字节；显示派生由既有工具记录"
+        },
+        {
+          "path": "photos/pc01/view-02.jpg",
+          "view": "公开拍摄视角2；未验证拍摄部位",
+          "edit_declaration": "公开来源图片原始字节；显示派生由既有工具记录"
+        }
+      ]
+    },
+    {
+      "id": "pc02",
+      "object_id": "independent-public-pc02",
+      "question": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。未展示部位不要补写；普通纹样不能作为确定断代依据。",
+      "target_attribution": "照片可支持的有限研究；未指定制作时期和窑口",
+      "source_declaration": "公开机构图像；来源及馆藏归属首轮不提供给模型。",
+      "images": [
+        {
+          "path": "photos/pc02/view-01.jpg",
+          "view": "公开拍摄视角1；未验证拍摄部位",
+          "edit_declaration": "公开来源图片原始字节；显示派生由既有工具记录"
+        },
+        {
+          "path": "photos/pc02/view-02.jpg",
+          "view": "公开拍摄视角2；未验证拍摄部位",
+          "edit_declaration": "公开来源图片原始字节；显示派生由既有工具记录"
+        }
+      ]
+    },
+    {
+      "id": "pc03",
+      "object_id": "independent-public-pc03",
+      "question": "记录这组照片的具体可见细节，分别说明时期、窑口、装饰风格的依据和关键补证。未展示部位不要补写；普通纹样不能作为确定断代依据。",
+      "target_attribution": "照片可支持的有限研究；未指定制作时期和窑口",
+      "source_declaration": "公开机构图像；来源及馆藏归属首轮不提供给模型。",
+      "images": [
+        {
+          "path": "photos/pc03/view-01.jpg",
+          "view": "公开拍摄视角1；未验证拍摄部位",
+          "edit_declaration": "公开来源图片原始字节；显示派生由既有工具记录"
+        },
+        {
+          "path": "photos/pc03/view-02.jpg",
+          "view": "公开拍摄视角2；未验证拍摄部位",
+          "edit_declaration": "公开来源图片原始字节；显示派生由既有工具记录"
+        }
+      ]
+    }
+  ],
+  "references": []
+}

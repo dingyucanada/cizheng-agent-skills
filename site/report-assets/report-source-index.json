@@ -491,5 +491,17 @@
       "public_normalization": false
     }
   ],
-  "current_node_checked_at": "2026-09-29T00:41:18.150999+00:00"
+  "current_node_checked_at": "2026-09-29T00:41:18.150999+00:00",
+  "public_collection_check": {
+    "scope": "New independently frozen public collection annex; historical source_revision and files remain unchanged",
+    "index": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/index.json",
+    "data_path": "site/assets/public-collection-check-20260929.json",
+    "data_sha256": "5a72ba269a7a6e8966dedacb73bcabbc7aabc18c4c6004b848eb520a42ba1229",
+    "case_count": 3,
+    "photo_count": 6,
+    "run_count": 9,
+    "main_model_request_count": 52,
+    "stepfun_public_text_request_count": 1,
+    "expert_validation_performed": false
+  }
 }

@@ -1,0 +1,314 @@
+{
+  "schema_version": "claim-support-audit-v1",
+  "packet": {
+    "schema_version": "claim-support-audit-v1",
+    "run_id": "run_3d53af10529b495d861106eb26d6ac25",
+    "case_id": "case_35abe670b0e946dab82d0fce16a2b362",
+    "run_state": "waiting_evidence",
+    "run_input_sha256": "124b3a1715955ff9eae4188d6a9947d816d22e2e6de835a7ac3c96a323872d1e",
+    "assessment_sha256": "2f3c03e11f31ed04648340189d9192c106a045e95f9ba53f529c4d05055e973e",
+    "assessment_present": true,
+    "images": [
+      {
+        "media_id": "media_ee6c18d94e7e41d09cb8f68233ac2c76",
+        "declared_original_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "width": 1183,
+        "height": 934,
+        "view_declaration": "公开拍摄视角1；未验证拍摄部位",
+        "capture_role_declaration": "unknown",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      },
+      {
+        "media_id": "media_f364e4e2e58d4475a9822264a3541bb7",
+        "declared_original_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+        "width": 1170,
+        "height": 1152,
+        "view_declaration": "公开拍摄视角2；未验证拍摄部位",
+        "capture_role_declaration": "unknown",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs_55bc1489c8614876861b167662b1b1ed",
+        "media_id": "media_ee6c18d94e7e41d09cb8f68233ac2c76",
+        "declared_original_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "region_valid": true,
+        "model_visible_description": "青釉莲瓣纹碗，金缮修复",
+        "model_interpretation": "器形规整，釉色匀净",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      },
+      {
+        "observation_id": "obs_026d12ddf9b84ff6b775e3a371b79097",
+        "media_id": "media_f364e4e2e58d4475a9822264a3541bb7",
+        "declared_original_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "region_valid": true,
+        "model_visible_description": "碗内壁青釉，金缮补缺",
+        "model_interpretation": "内壁无纹饰，釉面光洁",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "claim-0-period",
+        "report_index": 0,
+        "dimension": "period",
+        "candidate": "宋代",
+        "status": "insufficient",
+        "support": [
+          "obs_55bc1489c8614876861b167662b1b1ed"
+        ],
+        "conflict": [],
+        "reasoning_summary": "釉色与器形具宋代特征，但无款识或明确参照支持断代",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "report_index": 1,
+        "dimension": "kiln",
+        "candidate": "龙泉窑",
+        "status": "insufficient",
+        "support": [
+          "obs_55bc1489c8614876861b167662b1b1ed"
+        ],
+        "conflict": [],
+        "reasoning_summary": "釉色与莲瓣纹近龙泉窑，但无窑址或款识佐证",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "report_index": 2,
+        "dimension": "style",
+        "candidate": "文人雅玩风格",
+        "status": "insufficient",
+        "support": [
+          "obs_55bc1489c8614876861b167662b1b1ed"
+        ],
+        "conflict": [],
+        "reasoning_summary": "金缮工艺与素雅釉色符合文人审美，但无文献或参照支持",
+        "support_semantics": "unreviewed"
+      }
+    ],
+    "observation_links": [
+      {
+        "link_id": "link-e5c14e3800f12152d8dd",
+        "claim_id": "claim-0-period",
+        "observation_id": "obs_55bc1489c8614876861b167662b1b1ed",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-86bb5b75f603078449ff",
+        "claim_id": "claim-1-kiln",
+        "observation_id": "obs_55bc1489c8614876861b167662b1b1ed",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      },
+      {
+        "link_id": "link-b340028494eecc4e365b",
+        "claim_id": "claim-2-style",
+        "observation_id": "obs_55bc1489c8614876861b167662b1b1ed",
+        "declared_role": "support",
+        "eligible_observation_link": true,
+        "relation": "unreviewed"
+      }
+    ],
+    "citations": [],
+    "report_fields": {
+      "basic_info": "青釉莲瓣纹碗，金缮修复",
+      "reference_comparison": "无馆方记载或参照图支持断代",
+      "revision_explanation": "依据图像特征推断，但需实物款识或窑口证据",
+      "alternatives.0": "仿古器",
+      "alternatives.1": "明清仿品",
+      "condition_hypotheses.0": "釉色与器形为宋代原物，金缮为后补",
+      "condition_hypotheses.1": "金缮工艺为现代修复",
+      "limitations.0": "未见底部款识",
+      "limitations.1": "无窑口标记",
+      "limitations.2": "无明确时代参照",
+      "claims.0.candidate": "宋代",
+      "claims.0.reasoning_summary": "釉色与器形具宋代特征，但无款识或明确参照支持断代",
+      "claims.1.candidate": "龙泉窑",
+      "claims.1.reasoning_summary": "釉色与莲瓣纹近龙泉窑，但无窑址或款识佐证",
+      "claims.2.candidate": "文人雅玩风格",
+      "claims.2.reasoning_summary": "金缮工艺与素雅釉色符合文人审美，但无文献或参照支持",
+      "evidence_request.capture_instructions": "拍摄碗底清晰特写，确保款识或窑口标记可见",
+      "evidence_request.distinguishes": "款识可明确窑口与时期",
+      "evidence_request.reason": "需确认是否有款识或窑口标记以支持断代",
+      "evidence_request.view": "碗底与款识"
+    },
+    "findings": [],
+    "model_inference_performed": false,
+    "expert_validation_established": false,
+    "notice": "保存记录与哈希仅供回查；图像描述、引用支持和判断理由须另行阅评。登记标签不是图像事实。",
+    "packet_sha256": "2a0de74fbf238ff398cc0777a72be4397bd9326bf280a3e59a454bf6a0cab92d"
+  },
+  "metrics": {
+    "observation_visible_correctness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 0,
+      "pending_items": 2,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "observation_region_appropriateness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 0,
+      "pending_items": 2,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "declared_observation_link_appropriateness": {
+      "unit": "unique_declared_claim_observation_roles",
+      "total_items": 3,
+      "labels_received": 0,
+      "pending_items": 3,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "reasoning": {
+      "observed_basis": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "inference_bridge": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "alternative_explanations": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "missing_evidence": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      }
+    },
+    "citation_relations_by_target_kind": {
+      "source_statement": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "object_inference": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "method": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      }
+    },
+    "citation_mapping_coverage": {
+      "mapped_citations": 0,
+      "declared_citation_denominator": 0,
+      "unmapped_citations": 0
+    }
+  },
+  "region_overlaps": [],
+  "review_labels": null,
+  "semantic_status": "awaiting_review",
+  "reviewer_identity_authenticated": false,
+  "expert_validation_established": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "denominator_policy": "未评项目保留在total_items；图像无法判断等not_assessable保留计数、排除条件分母。partial计入分母且不计为完全支持。引用按人工明确的目标类型分别计数，未映射引用另报覆盖。",
+  "limitations": [
+    "只核对提交的保存记录和阅评标签，未认证宿主记录或阅评者身份。",
+    "不会从来源、款识、器物名称或专家标签生成图像事实。",
+    "文字支持分数以已送达段落和所选目标为条件；不等于本器物归属已证实。",
+    "图像访问由阅评者声明；工具未读取图像或核验实际阅评行为。"
+  ]
+}

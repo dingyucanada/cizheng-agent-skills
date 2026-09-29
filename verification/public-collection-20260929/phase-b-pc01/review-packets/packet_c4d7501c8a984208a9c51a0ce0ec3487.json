@@ -1,0 +1,62 @@
+{
+  "packet_id": "packet_c4d7501c8a984208a9c51a0ce0ec3487",
+  "images": [
+    {
+      "media_id": "media_993ae2558a2a4580a28ea5f8d0ae494b",
+      "image_sha256": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+      "path": "assets/1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_21c4d1e1fc3540179916222b645b92f7",
+      "image_sha256": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521",
+      "path": "assets/73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_b91ff75143044e50bdba8ea371f11f83",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_32053dcbf0824ddcaeac65fd6fae130f",
+      "interpretation": "西式装饰风格",
+      "limitation": "",
+      "media_id": "media_993ae2558a2a4580a28ea5f8d0ae494b",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_bf150b17d6f1438193248664d81dd389",
+      "visible": "青花盖罐，饰人物纹与蝴蝶"
+    },
+    {
+      "artifact_id": "media_8686714a2df245fbb044d9a024b3b491",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_9b84438ef233476e845621a242d2105f",
+      "interpretation": "西式装饰风格",
+      "limitation": "",
+      "media_id": "media_21c4d1e1fc3540179916222b645b92f7",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_bf150b17d6f1438193248664d81dd389",
+      "visible": "青花盖罐，饰人物纹与蝴蝶"
+    }
+  ],
+  "assessment": null,
+  "evidence_request": {
+    "capture_instructions": "拍摄器物底部款识与胎体状态，确认是否为景德镇窑口及具体年代款识。",
+    "distinguishes": "底部款识可区分清代官窑与民窑、具体年代与仿品。",
+    "reason": "当前图像未见底部，无法判断窑口与具体时期。",
+    "view": "底部"
+  },
+  "state": "failed",
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

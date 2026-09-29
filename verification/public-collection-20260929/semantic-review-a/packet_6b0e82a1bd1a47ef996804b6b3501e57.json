@@ -1,0 +1,283 @@
+{
+  "review_stage": "A",
+  "packet_id": "packet_6b0e82a1bd1a47ef996804b6b3501e57",
+  "case_id_by_exact_photo_sha256": "pc03",
+  "match_basis": [
+    {
+      "packet_media_id": "media_ee6c18d94e7e41d09cb8f68233ac2c76",
+      "image_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "original_view": "view-01.jpg",
+      "original_file": "intake/photos/pc03/view-01.jpg"
+    },
+    {
+      "packet_media_id": "media_f364e4e2e58d4475a9822264a3541bb7",
+      "image_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+      "original_view": "view-02.jpg",
+      "original_file": "intake/photos/pc03/view-02.jpg"
+    }
+  ],
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "mode_labels_received": false,
+  "review_scope": "匿名输出的语义核查。独立上下文AI观察者，不是真人专家、不构成专业真值；不提供总体准确率或真品概率。",
+  "original_photo_access": "actual_original_image_via_view_image",
+  "pre_model_observation_record_preserved": true,
+  "target_state_verbatim": "waiting_evidence",
+  "target_error_verbatim": null,
+  "target_assessment_present": true,
+  "failure_handling": "原包state为waiting_evidence；保留等待补证状态，不视作已完成鉴定。",
+  "catalogue_transcription_in_packet": {
+    "present": false,
+    "finding": "原包没有引用本阶段三份馆方参考或转述其正式编目值。核查者现阶段收到参考不能倒推目标模型当时已知；‘无馆方记载/参照’按原包证据范围理解，不直接判为捏造。"
+  },
+  "reference_used": {
+    "local_input": "pc03-public-reference.json",
+    "official_facts": [
+      {
+        "field": "title",
+        "official_value": "Bowl",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/title",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "culture",
+        "official_value": "China",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/culture",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "period",
+        "official_value": "Southern Song dynasty (1127–1279)",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/period",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "objectDate",
+        "official_value": "13th century",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/objectDate",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "medium",
+        "official_value": "Stoneware with celadon glaze (Longquan ware); gold lacquer repairs",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/medium",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistRole",
+        "official_value": "",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/artistRole",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistDisplayName",
+        "official_value": "",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/48450",
+        "locator": "/artistDisplayName",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      }
+    ],
+    "project_curatorial_summary": {
+      "text": "馆方基本记录为南宋、13世纪、龙泉青釉炻器，材质说明同时记录金漆修补。修补的具体时间、材料成分和范围需要另行资料或实物检查，不从普通照片补造。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/48450",
+      "locator": "Official object page Artwork Details: Period, Date, Medium",
+      "attribution": "项目研究者对馆方页面的中文摘要；不是馆方发布的中文原句，也不是专家实物验证。"
+    }
+  },
+  "view_coverage_limitation": "两张原图都没有外底或足内视图，不显示可读款识。‘照片未展示’与‘实物没有款识’分别处理。",
+  "claim_checks": [
+    {
+      "check_id": "pc03_shape",
+      "category": "可见事实",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青釉莲瓣纹碗，金缮修复"
+        },
+        {
+          "source_json_pointer": "/observations/0/interpretation",
+          "exact_quote": "器形规整，釉色匀净"
+        },
+        {
+          "source_json_pointer": "/observations/1/interpretation",
+          "exact_quote": "内壁无纹饰，釉面光洁"
+        }
+      ],
+      "visible_fact_support": "碗形、青绿外观、瓣状外壁起伏支持；细部绝对化不支持",
+      "finding": "‘青釉莲瓣纹碗’中碗、青绿外观和瓣状起伏可观察；莲瓣名称及釉工艺为分类推断。口沿黄色块、细深线和深点应另列，不能由‘釉色匀净’忽略；‘内壁无纹饰’只宜限于无清晰彩绘图案。",
+      "catalogue_reference_fields_used": [
+        "/title",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_kintsugi",
+      "category": "材料/修复工艺推断",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青釉莲瓣纹碗，金缮修复"
+        },
+        {
+          "source_json_pointer": "/observations/1/visible",
+          "exact_quote": "碗内壁青釉，金缮补缺"
+        },
+        {
+          "source_json_pointer": "/assessment/basic_info",
+          "exact_quote": "青釉莲瓣纹碗，金缮修复"
+        }
+      ],
+      "visible_fact_support": "黄色块及口沿缺口样位置可见；‘金缮’材料工艺未凭图证实",
+      "finding": "把修复名称放在visible与basic_info当已知，混合了可见外观和工艺推断。馆方现记录gold lacquer repairs，可转述为馆方记金漆修补；这与修补假设相容，但不足独立确认金缮术语所含的全部工艺、地域与材料细节。",
+      "catalogue_reference_fields_used": [
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_period_kiln_unknown",
+      "category": "馆方参考比较与判断理由",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/0/candidate",
+          "exact_quote": "宋代"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/0/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/0/reasoning_summary",
+          "exact_quote": "釉色与器形具宋代特征，但无款识或明确参照支持断代"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/candidate",
+          "exact_quote": "龙泉窑"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/reasoning_summary",
+          "exact_quote": "釉色与莲瓣纹近龙泉窑，但无窑址或款识佐证"
+        }
+      ],
+      "visible_fact_support": "候选宋代/龙泉与馆方相容，status保留不足",
+      "finding": "馆方写南宋、13世纪、Longquan ware，和较宽的宋代/龙泉候选相容。原包明确insufficient，不能因其未断定而判年代错误。‘具宋代特征’及‘近龙泉’的比较理由没有对应参照来源，只能作假设；底款或窑口标记并非唯一可用依据。",
+      "catalogue_reference_fields_used": [
+        "/period",
+        "/objectDate",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_aesthetic",
+      "category": "风格理由",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/2/candidate",
+          "exact_quote": "文人雅玩风格"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/2/reasoning_summary",
+          "exact_quote": "金缮工艺与素雅釉色符合文人审美，但无文献或参照支持"
+        }
+      ],
+      "visible_fact_support": "素色外观可见；文人雅玩归属无具体支持",
+      "finding": "从素雅色彩和已假定的金缮推出文人审美，未给使用者、收藏史或文献证据。原包status为insufficient，属未验证的文化解释，不当作已判错事实；同时其金缮前提仍需分层。",
+      "catalogue_reference_fields_used": [],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_repair_chronology",
+      "category": "状况假设",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/condition_hypotheses/0",
+          "exact_quote": "釉色与器形为宋代原物，金缮为后补"
+        },
+        {
+          "source_json_pointer": "/assessment/condition_hypotheses/1",
+          "exact_quote": "金缮工艺为现代修复"
+        }
+      ],
+      "visible_fact_support": "照片和正式修补记录不提供修复时间",
+      "finding": "馆方记录原件南宋及存在金漆修补，可与后期修补大方向相容，但没有给修补具体年代。‘现代修复’未被证明；‘宋代原物’属于馆方编目或待验证身份，不是从釉色、器形自动得到。二句被标为condition_hypotheses，应保留假设而不当成已下结论，也不将修补当作仿造证据。",
+      "catalogue_reference_fields_used": [
+        "/period",
+        "/objectDate",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_alternatives",
+      "category": "备选假设",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/alternatives/0",
+          "exact_quote": "仿古器"
+        },
+        {
+          "source_json_pointer": "/assessment/alternatives/1",
+          "exact_quote": "明清仿品"
+        }
+      ],
+      "visible_fact_support": "无法据图确认或排除这两个备选",
+      "finding": "备选没有概率或明确采纳，不计为已错误断代。但没有解释为什么优先列仿古/明清仿品，也没有把较早历史器、后期修补相容情况完整展开。不得把‘仿’标签或修补现象转成真伪判断。",
+      "catalogue_reference_fields_used": [
+        "/period",
+        "/objectDate"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc03_definitive_marks",
+      "category": "补证是否过度依赖款识",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄碗底清晰特写，确保款识或窑口标记可见"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "款识可明确窑口与时期"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "需确认是否有款识或窑口标记以支持断代"
+        },
+        {
+          "source_json_pointer": "/assessment/revision_explanation",
+          "exact_quote": "依据图像特征推断，但需实物款识或窑口证据"
+        }
+      ],
+      "visible_fact_support": "底部缺图有支持；预设款识可见及明确身份过强",
+      "finding": "‘确保款识或窑口标记可见’预设实物存在这类文字，现有两图不能确认；‘款识可明确窑口与时期’把可能线索提升为无条件决定证据。应请求完整底足和‘如有’文字特写，并与造型、表面、比较来源与修复记录并用。即使有款识，仍需核查其与器物关系；未知款识不会被本核查判为没有。",
+      "catalogue_reference_fields_used": [
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    }
+  ],
+  "assessment_reasoning_review": "保留三个insufficient与修补假设身份，不把宋代/龙泉候选判错。突出金缮在观察栏被直接命名、文化风格理由空泛及底款可明确身份的过度承诺。",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+    "view-02.jpg": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+  },
+  "exact_quote_verification": {
+    "checked_against_anonymous_packet": true,
+    "verbatim_quote_count": 22
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "review_stage": "A",
+  "packet_id": "packet_01b02079d45444b0a62dbbadba94921a",
+  "case_id_by_exact_photo_sha256": "pc02",
+  "match_basis": [
+    {
+      "packet_media_id": "media_e0243e07951945d49e3866acfec97a49",
+      "image_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+      "original_view": "view-01.jpg",
+      "original_file": "intake/photos/pc02/view-01.jpg"
+    },
+    {
+      "packet_media_id": "media_52f72b0e4f084f04880be288a39b1f1c",
+      "image_sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+      "original_view": "view-02.jpg",
+      "original_file": "intake/photos/pc02/view-02.jpg"
+    }
+  ],
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "mode_labels_received": false,
+  "review_scope": "匿名输出的语义核查。独立上下文AI观察者，不是真人专家、不构成专业真值；不提供总体准确率或真品概率。",
+  "original_photo_access": "actual_original_image_via_view_image",
+  "pre_model_observation_record_preserved": true,
+  "target_state_verbatim": "waiting_evidence",
+  "target_error_verbatim": null,
+  "target_assessment_present": true,
+  "failure_handling": "原包state为waiting_evidence；保留等待补证状态，不视作已完成鉴定。",
+  "catalogue_transcription_in_packet": {
+    "present": false,
+    "finding": "原包没有引用本阶段三份馆方参考或转述其正式编目值。核查者现阶段收到参考不能倒推目标模型当时已知；‘无馆方记载/参照’按原包证据范围理解，不直接判为捏造。"
+  },
+  "reference_used": {
+    "local_input": "pc02-public-reference.json",
+    "official_facts": [
+      {
+        "field": "title",
+        "official_value": "Vase in Form of Archaic Bronze",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/title",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "culture",
+        "official_value": "China",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/culture",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "period",
+        "official_value": "Qing dynasty (1644–1911)",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/period",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "objectDate",
+        "official_value": "late 18th–19th century",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/objectDate",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "medium",
+        "official_value": "Porcelain painted with colored enamels over transparent glaze (Jingdezhen ware)",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/medium",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistRole",
+        "official_value": "",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/artistRole",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistDisplayName",
+        "official_value": "",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/42239",
+        "locator": "/artistDisplayName",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      }
+    ],
+    "project_curatorial_summary": {
+      "text": "馆方指出黄地瓷器编目仍有困难：此类瓶传统上曾定为18世纪，也可能为19世纪市场重新兴起时的作品，因此该件保留18世纪晚期至19世纪区间。仿古铜器形是造型描述，不等于赝品。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/42239",
+      "locator": "Official object page introductory curatorial description immediately below title and display location",
+      "attribution": "项目研究者对馆方页面的中文摘要；不是馆方发布的中文原句，也不是专家实物验证。"
+    }
+  },
+  "view_coverage_limitation": "两张原图都没有外底或足内视图，不显示可读款识。‘照片未展示’与‘实物没有款识’分别处理。",
+  "claim_checks": [
+    {
+      "check_id": "pc02_visible",
+      "category": "可见事实",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "黄地粉彩梅鹊纹方瓶"
+        },
+        {
+          "source_json_pointer": "/observations/0/interpretation",
+          "exact_quote": "器形规整，双耳对称"
+        },
+        {
+          "source_json_pointer": "/assessment/basic_info",
+          "exact_quote": "黄地粉彩梅鹊纹方瓶，双耳对称，瓶身绘梅竹双禽，底部未见款识"
+        }
+      ],
+      "visible_fact_support": "黄地多色花鸟、矩形面棱、两个附件有支持",
+      "finding": "轮廓和成对附件的概括可以成立；‘规整’只是可见外轮廓的描述，不能证明制造精度。‘粉彩’和‘梅鹊’仍需与颜色和花鸟形态分层；所供馆方正式字段不具体确认这些名称。",
+      "catalogue_reference_fields_used": [
+        "/title",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc02_bird_count",
+      "category": "可见事实",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/2/visible",
+          "exact_quote": "方形瓶身绘梅竹双禽"
+        },
+        {
+          "source_json_pointer": "/observations/2/interpretation",
+          "exact_quote": "梅竹双禽纹饰"
+        }
+      ],
+      "visible_fact_support": "若‘双禽’指画面数量，与view-01可见图像不符",
+      "finding": "view-01上方至少可辨四个飞鸟形象：上部中央相邻两只、右侧一只、其下偏左一只。‘双禽’不能概括该张可见数量。植物可见花枝及狭长叶簇，具体梅竹物种仍未确认；若‘双禽’只是某纹饰名而非计数，原包没有说明，应标记歧义。",
+      "catalogue_reference_fields_used": [],
+      "unknown_or_not_scored_as_wrong": "仅针对该张可见鸟形数量作核对，不据此判断植物物种、整器鸟的总数或器物身份。"
+    },
+    {
+      "check_id": "pc02_no_mark_glaze",
+      "category": "判断理由",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/0/reasoning_summary",
+          "exact_quote": "无款识，纹饰非清代专有"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/reasoning_summary",
+          "exact_quote": "无款识，胎釉未见"
+        },
+        {
+          "source_json_pointer": "/assessment/limitations/0",
+          "exact_quote": "底部未见款识"
+        }
+      ],
+      "visible_fact_support": "未拍底足有支持；‘无款识’把缺失视图强化为物件属性",
+      "finding": "两图均无外底，不能确定有无底款。‘胎釉未见’若指露胎及胎釉交界细节不足，可以成立；若按字面指看不到釉面，照片显示的有光泽表面与其不符，应准确写为缺露胎/近距离表面证据。",
+      "catalogue_reference_fields_used": [],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc02_period_kiln_unknown",
+      "category": "馆方参考比较与未知项",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/0/candidate",
+          "exact_quote": "清代"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/0/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/candidate",
+          "exact_quote": "景德镇窑"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/2/reasoning_summary",
+          "exact_quote": "梅鹊纹饰常见于清代粉彩，但非专有"
+        }
+      ],
+      "visible_fact_support": "候选及未定状态不可当作已错误断代",
+      "finding": "清代与景德镇候选同馆方字段相容，但原包均为insufficient；核查应记为未定。‘梅鹊纹饰常见于清代粉彩，但非专有’属于概括性比较论据，包中未给来源，不能凭它确认或排除年代。当前馆方日期保持18世纪晚期至19世纪，不强行缩成单个年代。",
+      "catalogue_reference_fields_used": [
+        "/period",
+        "/objectDate",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc02_alternatives",
+      "category": "备选假设",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/alternatives/0",
+          "exact_quote": "民国仿品"
+        },
+        {
+          "source_json_pointer": "/assessment/alternatives/1",
+          "exact_quote": "现代工艺品"
+        }
+      ],
+      "visible_fact_support": "无照片证据优先支持仿品或现代工艺品",
+      "finding": "两种备选是未验证可能，不能因它们被列出就判已错或赋真假概率。其排列缺解释，而且缺少与馆方历史仿古器形、断代范围相容的正常历史制作备选；仿古造型本身不构成赝品线索。",
+      "catalogue_reference_fields_used": [
+        "/title",
+        "/objectDate"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc02_marks_request",
+      "category": "补证是否过度依赖款识",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄器底款识与胎釉细节"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "款识可区分窑口与年代"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "底部未见款识，无法判断窑口与时期"
+        },
+        {
+          "source_json_pointer": "/assessment/revision_explanation",
+          "exact_quote": "依据图像观察，未见款识与参照图，无法判断时期、窑口与风格"
+        }
+      ],
+      "visible_fact_support": "器底和露胎近景可补；款识决定区分的说法过强",
+      "finding": "补拍器底与胎釉细节有信息价值，但‘款识可区分窑口与年代’不能作为无条件保证。无底图不等于必须找到底款才可研究。应以‘如有款识’为条件，连同造型和彩绘比较、出处等证据并用；现有图也足以记录装饰风格的大类形态。",
+      "catalogue_reference_fields_used": [
+        "/objectDate",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    }
+  ],
+  "assessment_reasoning_review": "三个status为insufficient，不追溯要求目标模型使用本阶段才提供的馆方标签。可见鸟数、未展示/无款识的混用和款识作用措辞是具体核查点。",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+    "view-02.jpg": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+  },
+  "exact_quote_verification": {
+    "checked_against_anonymous_packet": true,
+    "verbatim_quote_count": 19
+  }
+}

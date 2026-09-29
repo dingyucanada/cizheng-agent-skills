@@ -1,0 +1,35 @@
+{
+  "scope": "fresh operational health after the new public collection experiment; not export of prior GPU proof or restoration files",
+  "timestamp_unix_ns": 1790689339114535787,
+  "services": [
+    {
+      "service": "main_visual",
+      "status_code": 200,
+      "model": "Qwen/Qwen3-VL-8B-Instruct",
+      "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114",
+      "generation_in_progress": false,
+      "path": "/health"
+    },
+    {
+      "service": "case_service",
+      "status_code": 200,
+      "path": "/api/status"
+    },
+    {
+      "service": "gpu_retriever",
+      "status_code": 200,
+      "path": "/v1/health/ready"
+    },
+    {
+      "service": "tensorrt_text",
+      "status_code": 200,
+      "path": "/health"
+    },
+    {
+      "service": "nim_text",
+      "status_code": 200,
+      "path": "/health"
+    }
+  ],
+  "all_http_200": true
+}

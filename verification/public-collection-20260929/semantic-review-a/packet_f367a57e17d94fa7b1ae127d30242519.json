@@ -1,0 +1,225 @@
+{
+  "review_stage": "A",
+  "packet_id": "packet_f367a57e17d94fa7b1ae127d30242519",
+  "case_id_by_exact_photo_sha256": "pc01",
+  "match_basis": [
+    {
+      "packet_media_id": "media_4ed6b2ff898d40d4bd75054b538c17ed",
+      "image_sha256": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+      "original_view": "view-01.jpg",
+      "original_file": "intake/photos/pc01/view-01.jpg"
+    },
+    {
+      "packet_media_id": "media_d94a7773eab64bd4bc636ab1fc29bbaf",
+      "image_sha256": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521",
+      "original_view": "view-02.jpg",
+      "original_file": "intake/photos/pc01/view-02.jpg"
+    }
+  ],
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "mode_labels_received": false,
+  "review_scope": "匿名输出的语义核查。独立上下文AI观察者，不是真人专家、不构成专业真值；不提供总体准确率或真品概率。",
+  "original_photo_access": "actual_original_image_via_view_image",
+  "pre_model_observation_record_preserved": true,
+  "target_state_verbatim": "waiting_evidence",
+  "target_error_verbatim": null,
+  "target_assessment_present": true,
+  "failure_handling": "原包state为waiting_evidence；保留等待补证状态，不视作已完成鉴定。",
+  "catalogue_transcription_in_packet": {
+    "present": false,
+    "finding": "原包没有引用本阶段三份馆方参考或转述其正式编目值。核查者现阶段收到参考不能倒推目标模型当时已知；‘无馆方记载/参照’按原包证据范围理解，不直接判为捏造。"
+  },
+  "reference_used": {
+    "local_input": "pc01-public-reference.json",
+    "official_facts": [
+      {
+        "field": "title",
+        "official_value": "\"The Archer\" cistern",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/title",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "culture",
+        "official_value": "China",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/culture",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "period",
+        "official_value": "Qing dynasty (1644–1911)",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/period",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "objectDate",
+        "official_value": "ca. 1740",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/objectDate",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "medium",
+        "official_value": "Porcelain painted in underglaze cobalt blue (Jingdezhen ware)",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/medium",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistRole",
+        "official_value": "Artist",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/artistRole",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      },
+      {
+        "field": "artistDisplayName",
+        "official_value": "Cornelis Pronk",
+        "source_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/854455",
+        "locator": "/artistDisplayName",
+        "value_type": "official catalogue metadata; not model observation or current expert review"
+      }
+    ],
+    "project_curatorial_summary": {
+      "text": "馆方将装饰设计归于荷兰画家 Cornelis Pronk，并介绍荷兰东印度公司订制设计、在中国制作后运往荷兰的背景。设计归属不是瓷器烧造者姓名；器物记录为约1740年、清代、中国、景德镇釉下钴蓝瓷。",
+      "source_url": "https://www.metmuseum.org/art/collection/search/854455",
+      "locator": "Official object page introductory curatorial description immediately below title and display location",
+      "attribution": "项目研究者对馆方页面的中文摘要；不是馆方发布的中文原句，也不是专家实物验证。"
+    }
+  },
+  "view_coverage_limitation": "两张原图都没有外底或足内视图，不显示可读款识。‘照片未展示’与‘实物没有款识’分别处理。",
+  "claim_checks": [
+    {
+      "check_id": "pc01_visible",
+      "category": "可见事实",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青花盖罐，饰人物纹与蝴蝶"
+        },
+        {
+          "source_json_pointer": "/assessment/basic_info",
+          "exact_quote": "青花盖罐，饰西式盾形纹饰、人物纹与蝴蝶"
+        }
+      ],
+      "visible_fact_support": "罐形、盖、蓝白外观及人物昆虫可见",
+      "finding": "原图支持大类观察，但未记录持弓动作、下腹圆孔、橙褐环带等。‘青花’工艺归属由馆方medium补充支持，不能改写成仅凭照片已完成工艺验证。",
+      "catalogue_reference_fields_used": [
+        "/title",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc01_exclusive_style",
+      "category": "风格推断与理由",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/interpretation",
+          "exact_quote": "西式盾形纹饰，非中国风格"
+        },
+        {
+          "source_json_pointer": "/observations/1/interpretation",
+          "exact_quote": "西式盾形纹饰，非中国风格"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/2/reasoning_summary",
+          "exact_quote": "西式盾形纹饰非中国风格，但无可靠参照图比较"
+        }
+      ],
+      "visible_fact_support": "装饰框可见；排他风格结论不获照片充分支持",
+      "finding": "‘盾形’是形态类比，‘非中国风格’是更强的排他判断，缺比较对象和定义。馆方记录China，同时摘要给出荷兰画家设计、中国制作的背景，说明设计来源、装饰风格和制作地需分开。不以China字段单独判西式装饰为错；问题是由框形直接排除中国风格的论据不足。",
+      "catalogue_reference_fields_used": [
+        "/culture",
+        "/artistDisplayName"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc01_unknown_period_kiln",
+      "category": "未知项处理与判断理由",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/0/reasoning_summary",
+          "exact_quote": "未见底部款识，无法确定制作时期"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/reasoning_summary",
+          "exact_quote": "未见底部款识，无法确定窑口"
+        },
+        {
+          "source_json_pointer": "/assessment/revision_explanation",
+          "exact_quote": "依据图像可见细节，制作时期、窑口、装饰风格均因缺乏底部款识及可靠参照图而不足"
+        }
+      ],
+      "visible_fact_support": "底部未展示有支持；仅凭图不足断代可以成立",
+      "finding": "两项status均为insufficient，应保留为未定。馆方现提供约1740、清代、景德镇标签，可在本阶段另列标签，不能把目标模型当时不敢断代判成错误。但把底款缺失作为时期、窑口和风格三项共同障碍过窄，风格及框内题材在现有图上仍可作具体观察。",
+      "catalogue_reference_fields_used": [
+        "/period",
+        "/objectDate",
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc01_alternatives",
+      "category": "备选假设",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/alternatives/0",
+          "exact_quote": "清代外销瓷"
+        },
+        {
+          "source_json_pointer": "/assessment/alternatives/1",
+          "exact_quote": "民国仿古瓷"
+        }
+      ],
+      "visible_fact_support": "原图无法独立选择这两个历史身份",
+      "finding": "这两个字符串是备选，不是已确定结论。馆方资料与清代、中国制、荷兰设计背景相容；民国仿古身份未由所供资料建立。保留未验证状态，既不当作已证实，也不计为已判错的年代断言。",
+      "catalogue_reference_fields_used": [
+        "/culture",
+        "/period",
+        "/objectDate"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    },
+    {
+      "check_id": "pc01_marks_direct",
+      "category": "补证是否过度依赖款识",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄器物底部及款识区域，确认是否有款识或窑口标记"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "底部款识是判断窑口与制作时期的直接证据"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "当前图像未展示底部，无法判断是否为官窑或民窑制品，亦无法确定具体年代"
+        }
+      ],
+      "visible_fact_support": "应补外底；未能承诺款识存在或可信",
+      "finding": "‘底部款识是…直接证据’可理解为一个潜在证据类别，但本案尚不知道有无底款，款识也需要与器形、材料、比较资料及来源相互核查。官窑/民窑二分未由图像或提供的馆方字段支持。补证应先问完整底足及‘如有’文字细节，不能把拍到款识当成确认年代窑口的充分条件。",
+      "catalogue_reference_fields_used": [
+        "/medium"
+      ],
+      "unknown_or_not_scored_as_wrong": "无独立证据的成因、材质细项与断代不会当作已经判错的事实。"
+    }
+  ],
+  "assessment_reasoning_review": "保留三项insufficient，不将未知判错。排他风格句和款识决定论是理由层面的过度推断；正式编目身份只作为当前参考标签。",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+    "view-02.jpg": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+  },
+  "exact_quote_verification": {
+    "checked_against_anonymous_packet": true,
+    "verbatim_quote_count": 13
+  }
+}

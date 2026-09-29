@@ -1,0 +1,38 @@
+[
+  {
+    "packet_id": "packet_3ca212a4f1af4df08593d87ad598944b",
+    "trial_id": "trial-001-1",
+    "case_id": "pc01",
+    "mode": "plain"
+  },
+  {
+    "packet_id": "packet_f367a57e17d94fa7b1ae127d30242519",
+    "trial_id": "trial-001-2",
+    "case_id": "pc01",
+    "mode": "skills"
+  },
+  {
+    "packet_id": "packet_01b02079d45444b0a62dbbadba94921a",
+    "trial_id": "trial-002-1",
+    "case_id": "pc02",
+    "mode": "skills"
+  },
+  {
+    "packet_id": "packet_5c433bcc9f1a40f6a9b767a6dc2cb1d8",
+    "trial_id": "trial-002-2",
+    "case_id": "pc02",
+    "mode": "plain"
+  },
+  {
+    "packet_id": "packet_6b0e82a1bd1a47ef996804b6b3501e57",
+    "trial_id": "trial-003-1",
+    "case_id": "pc03",
+    "mode": "plain"
+  },
+  {
+    "packet_id": "packet_33ecf5aaf2a6464fb02b48947ab57c60",
+    "trial_id": "trial-003-2",
+    "case_id": "pc03",
+    "mode": "skills"
+  }
+]

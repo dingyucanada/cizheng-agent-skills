@@ -1,0 +1,78 @@
+{
+  "packet_id": "packet_33ecf5aaf2a6464fb02b48947ab57c60",
+  "images": [
+    {
+      "media_id": "media_7324570734e248f697a2945e332b0977",
+      "image_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "path": "assets/d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_71a79e3d10654b2fa840825593cd5893",
+      "image_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+      "path": "assets/ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_bf07696423eb4e3ba3bfb1a34864edee",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_0d7f4502c91b4374adda8d576e3061c8",
+      "interpretation": "器形规整，釉色匀净",
+      "limitation": "",
+      "media_id": "media_7324570734e248f697a2945e332b0977",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_1a4cd90fab0b4316a3dd8a8b46eefba3",
+      "visible": "青釉莲瓣纹碗，金缮修补"
+    },
+    {
+      "artifact_id": "media_e8058bc7da3f48e68cf878687690a31e",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_b488da18123442f68e0a361a8601bcaa",
+      "interpretation": "内壁无纹饰，釉面光洁",
+      "limitation": "",
+      "media_id": "media_71a79e3d10654b2fa840825593cd5893",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_1a4cd90fab0b4316a3dd8a8b46eefba3",
+      "visible": "碗内壁青釉，金缮痕迹"
+    },
+    {
+      "artifact_id": "media_ef9ce7b15b56463bb729f1a67e9309a2",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_d120a392b4ff42a4bb3fe367da21c0f0",
+      "interpretation": "金缮修补痕迹清晰",
+      "limitation": "未见釉色渐变细节",
+      "media_id": "media_7324570734e248f697a2945e332b0977",
+      "region": [
+        0.11,
+        0.27,
+        0.88,
+        0.75
+      ],
+      "run_id": "run_1a4cd90fab0b4316a3dd8a8b46eefba3",
+      "visible": "碗口沿金缮修补与釉色过渡"
+    }
+  ],
+  "assessment": null,
+  "evidence_request": {
+    "capture_instructions": "拍摄碗底及款识部位",
+    "distinguishes": "确认是否为官窑或民窑",
+    "reason": "底部未见款识，无法判断窑口",
+    "view": "底部"
+  },
+  "state": "failed",
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

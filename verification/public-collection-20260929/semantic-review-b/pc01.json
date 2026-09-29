@@ -1,0 +1,210 @@
+{
+  "review_stage": "B",
+  "blind_review": false,
+  "mode_labels_received": true,
+  "target_mode_verbatim": "skills",
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "review_scope": "来源及模式已提供的AI语义核查，不是真人专家验证或专业真值；不评总体准确率或真品概率。",
+  "source_file": "originals-b/phase-b-pc01/trial-001-1/final-run.json",
+  "run_id": "run_bf150b17d6f1438193248664d81dd389",
+  "case_id": "pc01",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+    "view-02.jpg": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+  },
+  "image_access": "actual_original_image_via_view_image",
+  "target_state_verbatim": "failed",
+  "target_error_verbatim": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "accepted_assessment": null,
+  "assessment_acceptance_finding": "final-run.assessment=null且state=failed；下列events内record_assessment只是被拒的提交，不写成被接受意见。",
+  "read_knowledge_original": {
+    "original_quote": {
+      "source_json_pointer": "/read_knowledge/0/text",
+      "exact_quote": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=\"The Archer\" cistern；馆藏编号 accessionNumber=2021.321a, b；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=ca. 1740；材质、工艺及窑口字段 medium=Porcelain painted in underglaze cobalt blue (Jingdezhen ware)；尺寸 dimensions=H. 27 in. (68.6 cm); Diam. 17 1/8 in. 43.5 cm); Diam. of foot: 11 1/8 in. (28.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+    },
+    "record": {
+      "chunk_id": "ksrc_1e8d3871676c87ed7c8fd15d_r1_p0001_4e4af8c97e36",
+      "chunk_sha256": "4e4af8c97e36b7646376429c70f853751e74e0270b17f69c4c04d68d0060d4df",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_1e8d3871676c87ed7c8fd15d",
+      "document_revision": 1,
+      "document_sha256": "6c0a92a231db9403a6e0a7ff5f701022623b7327e88ed138076eddebd018b64f",
+      "locator": "Met object 854455 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+      "read_index": 1,
+      "run_id": "run_bf150b17d6f1438193248664d81dd389",
+      "snippet_end": 373,
+      "snippet_start": 0,
+      "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=\"The Archer\" cistern；馆藏编号 accessionNumber=2021.321a, b；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=ca. 1740；材质、工艺及窑口字段 medium=Porcelain painted in underglaze cobalt blue (Jingdezhen ware)；尺寸 dimensions=H. 27 in. (68.6 cm); Diam. 17 1/8 in. 43.5 cm); Diam. of foot: 11 1/8 in. (28.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+    },
+    "model_visible_body_sha256": [
+      "ddf8543e686423da6e456095a1b49bdab322db256d11a317baf7beb90240a525"
+    ],
+    "model_visible_receipt_sha256": [
+      "cba74ffa90150ebd3f6e4f517b4ff541b8f66c516e75b4effaebf0a55ee648eb"
+    ],
+    "source_boundary": "原段落自述为本件馆藏来源上下文，并明确不是模型从照片独立得到的年代或窑口；只在该边界内使用。"
+  },
+  "validation_events": [
+    {
+      "event_index": 54,
+      "stage": "evidence_contract",
+      "error_type": "ValueError",
+      "repair_allowed": true,
+      "original_quote": {
+        "source_json_pointer": "/events/54/detail",
+        "exact_quote": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison、revision_explanation明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+      },
+      "semantic_truth_validated": false
+    },
+    {
+      "event_index": 61,
+      "stage": "evidence_contract",
+      "error_type": "ValueError",
+      "repair_allowed": false,
+      "original_quote": {
+        "source_json_pointer": "/events/61/detail",
+        "exact_quote": "缺少已看图的参照时只能给证据不足或范围外意见"
+      },
+      "semantic_truth_validated": false
+    }
+  ],
+  "submitted_actions": [
+    {
+      "event_index": 53,
+      "accepted": false,
+      "knowledge_citation_count": 0,
+      "claims": [
+        {
+          "candidate": "Qing dynasty",
+          "dimension": "period",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "Jingdezhen ware",
+          "dimension": "kiln",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "Western decorative style",
+          "dimension": "style",
+          "status": "supported"
+        }
+      ],
+      "note": "仅记录提交内容；其后validation_error阻止接受。"
+    },
+    {
+      "event_index": 60,
+      "accepted": false,
+      "knowledge_citation_count": 1,
+      "claims": [
+        {
+          "candidate": "Qing dynasty",
+          "dimension": "period",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "Jingdezhen ware",
+          "dimension": "kiln",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "Western decorative style",
+          "dimension": "style",
+          "status": "supported"
+        }
+      ],
+      "note": "仅记录提交内容；其后validation_error阻止接受。"
+    }
+  ],
+  "claim_checks": [
+    {
+      "check_id": "source_content",
+      "category": "原段落与馆方标签",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/read_knowledge/0/text",
+          "exact_quote": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=\"The Archer\" cistern；馆藏编号 accessionNumber=2021.321a, b；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=ca. 1740；材质、工艺及窑口字段 medium=Porcelain painted in underglaze cobalt blue (Jingdezhen ware)；尺寸 dimensions=H. 27 in. (68.6 cm); Diam. 17 1/8 in. 43.5 cm); Diam. of foot: 11 1/8 in. (28.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+        }
+      ],
+      "finding": "正文给清代、约1740、景德镇釉下钴蓝瓷等正式字段，原文明确属于馆方陈述。没有在此373字读段中提供荷兰画家设计背景或西式盾形的具体解释；以前公开参考的背景不能倒推为本次已读段的内容。"
+    },
+    {
+      "check_id": "first_gate",
+      "category": "技术门禁",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/events/54/detail",
+          "exact_quote": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison、revision_explanation明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+        }
+      ],
+      "finding": "第一次检查明确来源归因措辞存在却knowledge_citations为空，要求引用本轮成功读取正文或删除归因。错误明说只识别列出的归因措辞、不验证语义真实性；这不是器物身份或推理质量审核。"
+    },
+    {
+      "check_id": "second_gate",
+      "category": "技术门禁",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/events/61/detail",
+          "exact_quote": "缺少已看图的参照时只能给证据不足或范围外意见"
+        },
+        {
+          "source_json_pointer": "/events/60/arguments/claims/2/status",
+          "exact_quote": "supported"
+        }
+      ],
+      "finding": "第二次已补引用，却仍把Western decorative style设为supported；缺少已看图参照时证据合同仅允不足/范围外，故再次被拒且不允许修复。按事件顺序可确认门禁类型，不能宣称门禁证明西式判断真或假。"
+    },
+    {
+      "check_id": "attempt_semantics",
+      "category": "被拒提交的理由核查",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/events/60/arguments/claims/0/reasoning_summary",
+          "exact_quote": "馆方记录为清代，但无图像支持。"
+        },
+        {
+          "source_json_pointer": "/events/60/arguments/claims/1/reasoning_summary",
+          "exact_quote": "馆方记录为景德镇窑口，但无图像支持。"
+        },
+        {
+          "source_json_pointer": "/events/60/arguments/claims/2/reasoning_summary",
+          "exact_quote": "器物装饰风格为西式，图像支持。"
+        }
+      ],
+      "finding": "清代/景德镇是正文有明确标签的来源信息，但独立照片断代仍可保持不足。西式装饰属于需要比较的推断，原图直接支持装饰框、持弓人物、昆虫，并不自动证明该风格归类。period/kiln的conflict数组所指人物昆虫观察并未说明何处同清代或景德镇相冲突。以上仅评被拒动作，不是接受结果。"
+    },
+    {
+      "check_id": "marks",
+      "category": "实际补证措辞",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄器物底部款识与胎体状态，确认是否为景德镇窑口及具体年代款识。"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "底部款识可区分清代官窑与民窑、具体年代与仿品。"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "当前图像未见底部，无法判断窑口与具体时期。"
+        }
+      ],
+      "finding": "外底照欠缺，补拍足形与露胎合理；但款识不一定存在，也不能保证区分官/民窑、具体年代与仿品。来源正文已提供景德镇与约1740的标签，需把核查既有编目、从图独立论证、排除仿品三个目标分别表述；不把底款当唯一决定条件。"
+    }
+  ],
+  "source_context_citation_check": {
+    "accepted_citation_present": false,
+    "last_rejected_submission_citation_present": true,
+    "submission_pointer": "/events/60/arguments/knowledge_citations/0",
+    "quoted_use": {
+      "source_json_pointer": "/events/60/arguments/knowledge_citations/0/use",
+      "exact_quote": "source_context"
+    },
+    "metadata_exactly_matches_read_chunk": true,
+    "finding": "第二次被拒提交补入匹配读段元数据的source_context引用；不能因此称本件已保存引用或评估。"
+  }
+}

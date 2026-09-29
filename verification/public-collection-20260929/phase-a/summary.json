@@ -1,0 +1,1398 @@
+{
+  "semantic_evaluation": "requires_public_collection_case_review",
+  "model_calls": 36,
+  "scope": "fixed-evidence first-round paired comparison; active supplements are separate",
+  "cases": [
+    {
+      "id": "pc01",
+      "object_id": "independent-public-pc01",
+      "image_sha256": [
+        "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+        "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+      ]
+    },
+    {
+      "id": "pc02",
+      "object_id": "independent-public-pc02",
+      "image_sha256": [
+        "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+        "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+      ]
+    },
+    {
+      "id": "pc03",
+      "object_id": "independent-public-pc03",
+      "image_sha256": [
+        "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+      ]
+    }
+  ],
+  "reference_sha256": [],
+  "arms": [
+    "plain",
+    "skills"
+  ],
+  "answer_key_passed_to_model": false,
+  "phase": "a",
+  "trials": [
+    {
+      "trial_id": "trial-001-1",
+      "case_id": "pc01",
+      "mode": "plain",
+      "order": 0,
+      "state": "failed",
+      "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+      "seconds": 154.258978,
+      "model_calls": 7,
+      "tool_calls": 8,
+      "versions": {
+        "app": "0.7.0",
+        "harness": {
+          "action_transport": {
+            "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+            "citation_exposure": "successful-main-canonical-body-exposure",
+            "decoder_schema_sha256": {
+              "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+              "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+              "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+            },
+            "effective_by_task": {
+              "documentary_audit": false,
+              "visual_research": true
+            },
+            "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+            "inventory_limits": {
+              "knowledge_read_indexes": 20,
+              "observation_ids": 48,
+              "reference_ids": 10
+            },
+            "metadata_fields": [
+              "document_id",
+              "document_revision",
+              "document_sha256",
+              "chunk_id",
+              "chunk_sha256",
+              "locator"
+            ],
+            "phase_tool_contract": {
+              "activation": "guided+compact+visual-only",
+              "budgets_and_repairs": "unchanged",
+              "decoder_enforcement": "only-when-structured_outputs-enabled",
+              "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+              "opinions_and_citations": "model-authored",
+              "phases": [
+                "respond_critic_required",
+                "record_assessment_required",
+                "build_opinion_available"
+              ],
+              "preparation_tools": "unchanged-model-choice",
+              "prompt_sha256": {
+                "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+                "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+                "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+                "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+                "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+                "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+              },
+              "protocol": "trusted-current-run-phase-tools-v1",
+              "schema_sha256": {
+                "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+                "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+                "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+                "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+                "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+              },
+              "state_source": "current-saved-run-only",
+              "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+            },
+            "protocol": "compact-visual-metadata-v1",
+            "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+            "scope": "visual_research-only",
+            "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+          },
+          "budgets": "original-run-and-episode-limits",
+          "compact_actions": true,
+          "delivery_context": "trusted-run-delivery-stage-v1",
+          "documentary_preparation": [
+            "read_case"
+          ],
+          "first_image_batch_max": 4,
+          "guided_workflow": true,
+          "knowledge_prefetch_max_chunks": 2,
+          "knowledge_scope": "case-pinned-fixed-versions-only",
+          "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+          "natural_skill_discovery": false,
+          "observed_method_rule": {
+            "english_match": "case-insensitive-word",
+            "max_additional_methods": 1,
+            "method_whitelist": [
+              "bluewhite-attribution-test"
+            ],
+            "mode": "skills",
+            "research_task": "visual_research",
+            "source": "first-batch-current-run-vision-visible-only",
+            "triggers": [
+              "青花",
+              "blue-and-white"
+            ]
+          },
+          "parent_skill": "evidence-revise",
+          "preparation_actor": "coordinator",
+          "strategy": "coordinator-observed-method-v2",
+          "visual_skills": [
+            "ceramic-route",
+            "ceramic-research-record"
+          ]
+        },
+        "knowledge_snapshot_sha256": "9381af4af438f73969226752f45c971ff08e0d766f56464e0296fcaf9d8e7e48",
+        "mode": "plain",
+        "model": {
+          "endpoint": "http://127.0.0.1:8005/v1",
+          "generation": {
+            "compact_actions": true,
+            "disable_thinking": false,
+            "max_tokens": 2500,
+            "max_tokens_by_phase": {
+              "action": 2500,
+              "vision": 800
+            },
+            "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+            "phase_detection": "first-system-exact-VISION_SYSTEM",
+            "structured_output_contract": {
+              "decoder_schema_sha256": {
+                "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+                "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+                "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+              },
+              "guided_phase_variants": {
+                "native_original_validation": "per-request",
+                "phases": [
+                  "respond_critic_required",
+                  "record_assessment_required",
+                  "build_opinion_available"
+                ],
+                "registered": true,
+                "state_owner": "host-current-run"
+              },
+              "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+              "host_only_constraints": {
+                "numeric": [
+                  "minimum",
+                  "maximum",
+                  "exclusiveMinimum",
+                  "exclusiveMaximum",
+                  "multipleOf"
+                ],
+                "semantic": [
+                  "cross-field",
+                  "skill-workflow",
+                  "fixed-evidence",
+                  "permission"
+                ]
+              },
+              "purpose": "action",
+              "schema_name": "cizheng_actions",
+              "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+              "trigger": "first-system-exact-registered-default-or-compact-phase"
+            },
+            "structured_outputs": true,
+            "temperature": 0.1,
+            "vision_structured_output_contract": {
+              "enabled": true,
+              "host_only_constraints": [
+                "positive-area",
+                "one-observation-per-image",
+                "visible-not-template",
+                "uncalibrated-probability"
+              ],
+              "legacy_no_image_payload": "unstructured-compatible",
+              "original_numeric_ranges": true,
+              "purpose": "vision",
+              "schema_name": "cizheng_observations",
+              "schema_rejection": "fatal-with-usage-no-vision-retry",
+              "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+              "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+              "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+            }
+          },
+          "model": "Qwen/Qwen3-VL-8B-Instruct",
+          "provider": "local-openai-compatible",
+          "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+        },
+        "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+        "prompt_hash": "e69087dae94c15f22b96b6655613489a7ed24ce47cfb1c3bffb0aeb9008b1a7b",
+        "prompt_profile": {
+          "component_sha256": {
+            "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+            "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+            "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+            "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+            "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+            "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+          },
+          "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+          "experimental": false,
+          "name": "source-r2",
+          "quality_validation": "not_established",
+          "selection": "process-startup-environment"
+        },
+        "research_task": "visual_research",
+        "skills": {},
+        "source_hash": "50a41afdd9c2d777b406f67a1e0f2572af836327b7f6c3fa4eeafa17c08225e1",
+        "tool_schema_hash": "522cb3b13ae03f091acec60b5fde83bd3f92a7f87d454305114ebcf88cb7a415",
+        "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "image_sha256": [
+        "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+        "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+      ],
+      "knowledge_source_count": 0,
+      "reference_count": 0,
+      "expert_validation": false
+    },
+    {
+      "trial_id": "trial-001-2",
+      "case_id": "pc01",
+      "mode": "skills",
+      "order": 1,
+      "state": "waiting_evidence",
+      "error": null,
+      "seconds": 119.136133,
+      "model_calls": 5,
+      "tool_calls": 11,
+      "versions": {
+        "app": "0.7.0",
+        "harness": {
+          "action_transport": {
+            "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+            "citation_exposure": "successful-main-canonical-body-exposure",
+            "decoder_schema_sha256": {
+              "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+              "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+              "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+            },
+            "effective_by_task": {
+              "documentary_audit": false,
+              "visual_research": true
+            },
+            "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+            "inventory_limits": {
+              "knowledge_read_indexes": 20,
+              "observation_ids": 48,
+              "reference_ids": 10
+            },
+            "metadata_fields": [
+              "document_id",
+              "document_revision",
+              "document_sha256",
+              "chunk_id",
+              "chunk_sha256",
+              "locator"
+            ],
+            "phase_tool_contract": {
+              "activation": "guided+compact+visual-only",
+              "budgets_and_repairs": "unchanged",
+              "decoder_enforcement": "only-when-structured_outputs-enabled",
+              "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+              "opinions_and_citations": "model-authored",
+              "phases": [
+                "respond_critic_required",
+                "record_assessment_required",
+                "build_opinion_available"
+              ],
+              "preparation_tools": "unchanged-model-choice",
+              "prompt_sha256": {
+                "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+                "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+                "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+                "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+                "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+                "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+              },
+              "protocol": "trusted-current-run-phase-tools-v1",
+              "schema_sha256": {
+                "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+                "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+                "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+                "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+                "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+              },
+              "state_source": "current-saved-run-only",
+              "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+            },
+            "protocol": "compact-visual-metadata-v1",
+            "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+            "scope": "visual_research-only",
+            "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+          },
+          "budgets": "original-run-and-episode-limits",
+          "compact_actions": true,
+          "delivery_context": "trusted-run-delivery-stage-v1",
+          "documentary_preparation": [
+            "read_case"
+          ],
+          "first_image_batch_max": 4,
+          "guided_workflow": true,
+          "knowledge_prefetch_max_chunks": 2,
+          "knowledge_scope": "case-pinned-fixed-versions-only",
+          "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+          "natural_skill_discovery": false,
+          "observed_method_rule": {
+            "english_match": "case-insensitive-word",
+            "max_additional_methods": 1,
+            "method_whitelist": [
+              "bluewhite-attribution-test"
+            ],
+            "mode": "skills",
+            "research_task": "visual_research",
+            "source": "first-batch-current-run-vision-visible-only",
+            "triggers": [
+              "青花",
+              "blue-and-white"
+            ]
+          },
+          "parent_skill": "evidence-revise",
+          "preparation_actor": "coordinator",
+          "strategy": "coordinator-observed-method-v2",
+          "visual_skills": [
+            "ceramic-route",
+            "ceramic-research-record"
+          ]
+        },
+        "knowledge_snapshot_sha256": "9381af4af438f73969226752f45c971ff08e0d766f56464e0296fcaf9d8e7e48",
+        "mode": "skills",
+        "model": {
+          "endpoint": "http://127.0.0.1:8005/v1",
+          "generation": {
+            "compact_actions": true,
+            "disable_thinking": false,
+            "max_tokens": 2500,
+            "max_tokens_by_phase": {
+              "action": 2500,
+              "vision": 800
+            },
+            "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+            "phase_detection": "first-system-exact-VISION_SYSTEM",
+            "structured_output_contract": {
+              "decoder_schema_sha256": {
+                "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+                "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+                "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+              },
+              "guided_phase_variants": {
+                "native_original_validation": "per-request",
+                "phases": [
+                  "respond_critic_required",
+                  "record_assessment_required",
+                  "build_opinion_available"
+                ],
+                "registered": true,
+                "state_owner": "host-current-run"
+              },
+              "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+              "host_only_constraints": {
+                "numeric": [
+                  "minimum",
+                  "maximum",
+                  "exclusiveMinimum",
+                  "exclusiveMaximum",
+                  "multipleOf"
+                ],
+                "semantic": [
+                  "cross-field",
+                  "skill-workflow",
+                  "fixed-evidence",
+                  "permission"
+                ]
+              },
+              "purpose": "action",
+              "schema_name": "cizheng_actions",
+              "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+              "trigger": "first-system-exact-registered-default-or-compact-phase"
+            },
+            "structured_outputs": true,
+            "temperature": 0.1,
+            "vision_structured_output_contract": {
+              "enabled": true,
+              "host_only_constraints": [
+                "positive-area",
+                "one-observation-per-image",
+                "visible-not-template",
+                "uncalibrated-probability"
+              ],
+              "legacy_no_image_payload": "unstructured-compatible",
+              "original_numeric_ranges": true,
+              "purpose": "vision",
+              "schema_name": "cizheng_observations",
+              "schema_rejection": "fatal-with-usage-no-vision-retry",
+              "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+              "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+              "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+            }
+          },
+          "model": "Qwen/Qwen3-VL-8B-Instruct",
+          "provider": "local-openai-compatible",
+          "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+        },
+        "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+        "prompt_hash": "0e29d5d0f0d792d17237081edfcddf7c542c6417b786a8d5fbd917410e8cf8c5",
+        "prompt_profile": {
+          "component_sha256": {
+            "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+            "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+            "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+            "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+            "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+            "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+          },
+          "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+          "experimental": false,
+          "name": "source-r2",
+          "quality_validation": "not_established",
+          "selection": "process-startup-environment"
+        },
+        "research_task": "visual_research",
+        "skills": {
+          "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+          "ceramic-research-record": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782",
+          "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+          "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+          "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+          "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+          "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+        },
+        "source_hash": "50a41afdd9c2d777b406f67a1e0f2572af836327b7f6c3fa4eeafa17c08225e1",
+        "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+        "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "image_sha256": [
+        "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+        "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+      ],
+      "knowledge_source_count": 0,
+      "reference_count": 0,
+      "expert_validation": false
+    },
+    {
+      "trial_id": "trial-002-1",
+      "case_id": "pc02",
+      "mode": "skills",
+      "order": 0,
+      "state": "waiting_evidence",
+      "error": null,
+      "seconds": 126.260183,
+      "model_calls": 7,
+      "tool_calls": 11,
+      "versions": {
+        "app": "0.7.0",
+        "harness": {
+          "action_transport": {
+            "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+            "citation_exposure": "successful-main-canonical-body-exposure",
+            "decoder_schema_sha256": {
+              "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+              "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+              "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+            },
+            "effective_by_task": {
+              "documentary_audit": false,
+              "visual_research": true
+            },
+            "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+            "inventory_limits": {
+              "knowledge_read_indexes": 20,
+              "observation_ids": 48,
+              "reference_ids": 10
+            },
+            "metadata_fields": [
+              "document_id",
+              "document_revision",
+              "document_sha256",
+              "chunk_id",
+              "chunk_sha256",
+              "locator"
+            ],
+            "phase_tool_contract": {
+              "activation": "guided+compact+visual-only",
+              "budgets_and_repairs": "unchanged",
+              "decoder_enforcement": "only-when-structured_outputs-enabled",
+              "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+              "opinions_and_citations": "model-authored",
+              "phases": [
+                "respond_critic_required",
+                "record_assessment_required",
+                "build_opinion_available"
+              ],
+              "preparation_tools": "unchanged-model-choice",
+              "prompt_sha256": {
+                "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+                "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+                "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+                "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+                "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+                "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+              },
+              "protocol": "trusted-current-run-phase-tools-v1",
+              "schema_sha256": {
+                "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+                "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+                "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+                "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+                "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+              },
+              "state_source": "current-saved-run-only",
+              "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+            },
+            "protocol": "compact-visual-metadata-v1",
+            "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+            "scope": "visual_research-only",
+            "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+          },
+          "budgets": "original-run-and-episode-limits",
+          "compact_actions": true,
+          "delivery_context": "trusted-run-delivery-stage-v1",
+          "documentary_preparation": [
+            "read_case"
+          ],
+          "first_image_batch_max": 4,
+          "guided_workflow": true,
+          "knowledge_prefetch_max_chunks": 2,
+          "knowledge_scope": "case-pinned-fixed-versions-only",
+          "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+          "natural_skill_discovery": false,
+          "observed_method_rule": {
+            "english_match": "case-insensitive-word",
+            "max_additional_methods": 1,
+            "method_whitelist": [
+              "bluewhite-attribution-test"
+            ],
+            "mode": "skills",
+            "research_task": "visual_research",
+            "source": "first-batch-current-run-vision-visible-only",
+            "triggers": [
+              "青花",
+              "blue-and-white"
+            ]
+          },
+          "parent_skill": "evidence-revise",
+          "preparation_actor": "coordinator",
+          "strategy": "coordinator-observed-method-v2",
+          "visual_skills": [
+            "ceramic-route",
+            "ceramic-research-record"
+          ]
+        },
+        "knowledge_snapshot_sha256": "9381af4af438f73969226752f45c971ff08e0d766f56464e0296fcaf9d8e7e48",
+        "mode": "skills",
+        "model": {
+          "endpoint": "http://127.0.0.1:8005/v1",
+          "generation": {
+            "compact_actions": true,
+            "disable_thinking": false,
+            "max_tokens": 2500,
+            "max_tokens_by_phase": {
+              "action": 2500,
+              "vision": 800
+            },
+            "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+            "phase_detection": "first-system-exact-VISION_SYSTEM",
+            "structured_output_contract": {
+              "decoder_schema_sha256": {
+                "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+                "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+                "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+              },
+              "guided_phase_variants": {
+                "native_original_validation": "per-request",
+                "phases": [
+                  "respond_critic_required",
+                  "record_assessment_required",
+                  "build_opinion_available"
+                ],
+                "registered": true,
+                "state_owner": "host-current-run"
+              },
+              "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+              "host_only_constraints": {
+                "numeric": [
+                  "minimum",
+                  "maximum",
+                  "exclusiveMinimum",
+                  "exclusiveMaximum",
+                  "multipleOf"
+                ],
+                "semantic": [
+                  "cross-field",
+                  "skill-workflow",
+                  "fixed-evidence",
+                  "permission"
+                ]
+              },
+              "purpose": "action",
+              "schema_name": "cizheng_actions",
+              "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+              "trigger": "first-system-exact-registered-default-or-compact-phase"
+            },
+            "structured_outputs": true,
+            "temperature": 0.1,
+            "vision_structured_output_contract": {
+              "enabled": true,
+              "host_only_constraints": [
+                "positive-area",
+                "one-observation-per-image",
+                "visible-not-template",
+                "uncalibrated-probability"
+              ],
+              "legacy_no_image_payload": "unstructured-compatible",
+              "original_numeric_ranges": true,
+              "purpose": "vision",
+              "schema_name": "cizheng_observations",
+              "schema_rejection": "fatal-with-usage-no-vision-retry",
+              "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+              "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+              "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+            }
+          },
+          "model": "Qwen/Qwen3-VL-8B-Instruct",
+          "provider": "local-openai-compatible",
+          "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+        },
+        "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+        "prompt_hash": "0e29d5d0f0d792d17237081edfcddf7c542c6417b786a8d5fbd917410e8cf8c5",
+        "prompt_profile": {
+          "component_sha256": {
+            "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+            "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+            "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+            "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+            "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+            "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+          },
+          "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+          "experimental": false,
+          "name": "source-r2",
+          "quality_validation": "not_established",
+          "selection": "process-startup-environment"
+        },
+        "research_task": "visual_research",
+        "skills": {
+          "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+          "ceramic-research-record": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782",
+          "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+          "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+          "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+          "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+          "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+        },
+        "source_hash": "50a41afdd9c2d777b406f67a1e0f2572af836327b7f6c3fa4eeafa17c08225e1",
+        "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+        "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "image_sha256": [
+        "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+        "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+      ],
+      "knowledge_source_count": 0,
+      "reference_count": 0,
+      "expert_validation": false
+    },
+    {
+      "trial_id": "trial-002-2",
+      "case_id": "pc02",
+      "mode": "plain",
+      "order": 1,
+      "state": "failed",
+      "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+      "seconds": 204.870427,
+      "model_calls": 5,
+      "tool_calls": 7,
+      "versions": {
+        "app": "0.7.0",
+        "harness": {
+          "action_transport": {
+            "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+            "citation_exposure": "successful-main-canonical-body-exposure",
+            "decoder_schema_sha256": {
+              "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+              "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+              "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+            },
+            "effective_by_task": {
+              "documentary_audit": false,
+              "visual_research": true
+            },
+            "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+            "inventory_limits": {
+              "knowledge_read_indexes": 20,
+              "observation_ids": 48,
+              "reference_ids": 10
+            },
+            "metadata_fields": [
+              "document_id",
+              "document_revision",
+              "document_sha256",
+              "chunk_id",
+              "chunk_sha256",
+              "locator"
+            ],
+            "phase_tool_contract": {
+              "activation": "guided+compact+visual-only",
+              "budgets_and_repairs": "unchanged",
+              "decoder_enforcement": "only-when-structured_outputs-enabled",
+              "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+              "opinions_and_citations": "model-authored",
+              "phases": [
+                "respond_critic_required",
+                "record_assessment_required",
+                "build_opinion_available"
+              ],
+              "preparation_tools": "unchanged-model-choice",
+              "prompt_sha256": {
+                "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+                "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+                "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+                "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+                "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+                "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+              },
+              "protocol": "trusted-current-run-phase-tools-v1",
+              "schema_sha256": {
+                "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+                "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+                "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+                "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+                "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+              },
+              "state_source": "current-saved-run-only",
+              "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+            },
+            "protocol": "compact-visual-metadata-v1",
+            "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+            "scope": "visual_research-only",
+            "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+          },
+          "budgets": "original-run-and-episode-limits",
+          "compact_actions": true,
+          "delivery_context": "trusted-run-delivery-stage-v1",
+          "documentary_preparation": [
+            "read_case"
+          ],
+          "first_image_batch_max": 4,
+          "guided_workflow": true,
+          "knowledge_prefetch_max_chunks": 2,
+          "knowledge_scope": "case-pinned-fixed-versions-only",
+          "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+          "natural_skill_discovery": false,
+          "observed_method_rule": {
+            "english_match": "case-insensitive-word",
+            "max_additional_methods": 1,
+            "method_whitelist": [
+              "bluewhite-attribution-test"
+            ],
+            "mode": "skills",
+            "research_task": "visual_research",
+            "source": "first-batch-current-run-vision-visible-only",
+            "triggers": [
+              "青花",
+              "blue-and-white"
+            ]
+          },
+          "parent_skill": "evidence-revise",
+          "preparation_actor": "coordinator",
+          "strategy": "coordinator-observed-method-v2",
+          "visual_skills": [
+            "ceramic-route",
+            "ceramic-research-record"
+          ]
+        },
+        "knowledge_snapshot_sha256": "9381af4af438f73969226752f45c971ff08e0d766f56464e0296fcaf9d8e7e48",
+        "mode": "plain",
+        "model": {
+          "endpoint": "http://127.0.0.1:8005/v1",
+          "generation": {
+            "compact_actions": true,
+            "disable_thinking": false,
+            "max_tokens": 2500,
+            "max_tokens_by_phase": {
+              "action": 2500,
+              "vision": 800
+            },
+            "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+            "phase_detection": "first-system-exact-VISION_SYSTEM",
+            "structured_output_contract": {
+              "decoder_schema_sha256": {
+                "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+                "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+                "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+              },
+              "guided_phase_variants": {
+                "native_original_validation": "per-request",
+                "phases": [
+                  "respond_critic_required",
+                  "record_assessment_required",
+                  "build_opinion_available"
+                ],
+                "registered": true,
+                "state_owner": "host-current-run"
+              },
+              "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+              "host_only_constraints": {
+                "numeric": [
+                  "minimum",
+                  "maximum",
+                  "exclusiveMinimum",
+                  "exclusiveMaximum",
+                  "multipleOf"
+                ],
+                "semantic": [
+                  "cross-field",
+                  "skill-workflow",
+                  "fixed-evidence",
+                  "permission"
+                ]
+              },
+              "purpose": "action",
+              "schema_name": "cizheng_actions",
+              "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+              "trigger": "first-system-exact-registered-default-or-compact-phase"
+            },
+            "structured_outputs": true,
+            "temperature": 0.1,
+            "vision_structured_output_contract": {
+              "enabled": true,
+              "host_only_constraints": [
+                "positive-area",
+                "one-observation-per-image",
+                "visible-not-template",
+                "uncalibrated-probability"
+              ],
+              "legacy_no_image_payload": "unstructured-compatible",
+              "original_numeric_ranges": true,
+              "purpose": "vision",
+              "schema_name": "cizheng_observations",
+              "schema_rejection": "fatal-with-usage-no-vision-retry",
+              "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+              "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+              "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+            }
+          },
+          "model": "Qwen/Qwen3-VL-8B-Instruct",
+          "provider": "local-openai-compatible",
+          "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+        },
+        "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+        "prompt_hash": "e69087dae94c15f22b96b6655613489a7ed24ce47cfb1c3bffb0aeb9008b1a7b",
+        "prompt_profile": {
+          "component_sha256": {
+            "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+            "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+            "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+            "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+            "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+            "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+          },
+          "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+          "experimental": false,
+          "name": "source-r2",
+          "quality_validation": "not_established",
+          "selection": "process-startup-environment"
+        },
+        "research_task": "visual_research",
+        "skills": {},
+        "source_hash": "50a41afdd9c2d777b406f67a1e0f2572af836327b7f6c3fa4eeafa17c08225e1",
+        "tool_schema_hash": "522cb3b13ae03f091acec60b5fde83bd3f92a7f87d454305114ebcf88cb7a415",
+        "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "image_sha256": [
+        "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+        "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+      ],
+      "knowledge_source_count": 0,
+      "reference_count": 0,
+      "expert_validation": false
+    },
+    {
+      "trial_id": "trial-003-1",
+      "case_id": "pc03",
+      "mode": "plain",
+      "order": 0,
+      "state": "waiting_evidence",
+      "error": null,
+      "seconds": 139.268719,
+      "model_calls": 5,
+      "tool_calls": 7,
+      "versions": {
+        "app": "0.7.0",
+        "harness": {
+          "action_transport": {
+            "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+            "citation_exposure": "successful-main-canonical-body-exposure",
+            "decoder_schema_sha256": {
+              "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+              "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+              "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+            },
+            "effective_by_task": {
+              "documentary_audit": false,
+              "visual_research": true
+            },
+            "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+            "inventory_limits": {
+              "knowledge_read_indexes": 20,
+              "observation_ids": 48,
+              "reference_ids": 10
+            },
+            "metadata_fields": [
+              "document_id",
+              "document_revision",
+              "document_sha256",
+              "chunk_id",
+              "chunk_sha256",
+              "locator"
+            ],
+            "phase_tool_contract": {
+              "activation": "guided+compact+visual-only",
+              "budgets_and_repairs": "unchanged",
+              "decoder_enforcement": "only-when-structured_outputs-enabled",
+              "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+              "opinions_and_citations": "model-authored",
+              "phases": [
+                "respond_critic_required",
+                "record_assessment_required",
+                "build_opinion_available"
+              ],
+              "preparation_tools": "unchanged-model-choice",
+              "prompt_sha256": {
+                "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+                "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+                "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+                "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+                "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+                "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+              },
+              "protocol": "trusted-current-run-phase-tools-v1",
+              "schema_sha256": {
+                "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+                "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+                "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+                "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+                "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+              },
+              "state_source": "current-saved-run-only",
+              "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+            },
+            "protocol": "compact-visual-metadata-v1",
+            "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+            "scope": "visual_research-only",
+            "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+          },
+          "budgets": "original-run-and-episode-limits",
+          "compact_actions": true,
+          "delivery_context": "trusted-run-delivery-stage-v1",
+          "documentary_preparation": [
+            "read_case"
+          ],
+          "first_image_batch_max": 4,
+          "guided_workflow": true,
+          "knowledge_prefetch_max_chunks": 2,
+          "knowledge_scope": "case-pinned-fixed-versions-only",
+          "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+          "natural_skill_discovery": false,
+          "observed_method_rule": {
+            "english_match": "case-insensitive-word",
+            "max_additional_methods": 1,
+            "method_whitelist": [
+              "bluewhite-attribution-test"
+            ],
+            "mode": "skills",
+            "research_task": "visual_research",
+            "source": "first-batch-current-run-vision-visible-only",
+            "triggers": [
+              "青花",
+              "blue-and-white"
+            ]
+          },
+          "parent_skill": "evidence-revise",
+          "preparation_actor": "coordinator",
+          "strategy": "coordinator-observed-method-v2",
+          "visual_skills": [
+            "ceramic-route",
+            "ceramic-research-record"
+          ]
+        },
+        "knowledge_snapshot_sha256": "9381af4af438f73969226752f45c971ff08e0d766f56464e0296fcaf9d8e7e48",
+        "mode": "plain",
+        "model": {
+          "endpoint": "http://127.0.0.1:8005/v1",
+          "generation": {
+            "compact_actions": true,
+            "disable_thinking": false,
+            "max_tokens": 2500,
+            "max_tokens_by_phase": {
+              "action": 2500,
+              "vision": 800
+            },
+            "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+            "phase_detection": "first-system-exact-VISION_SYSTEM",
+            "structured_output_contract": {
+              "decoder_schema_sha256": {
+                "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+                "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+                "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+              },
+              "guided_phase_variants": {
+                "native_original_validation": "per-request",
+                "phases": [
+                  "respond_critic_required",
+                  "record_assessment_required",
+                  "build_opinion_available"
+                ],
+                "registered": true,
+                "state_owner": "host-current-run"
+              },
+              "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+              "host_only_constraints": {
+                "numeric": [
+                  "minimum",
+                  "maximum",
+                  "exclusiveMinimum",
+                  "exclusiveMaximum",
+                  "multipleOf"
+                ],
+                "semantic": [
+                  "cross-field",
+                  "skill-workflow",
+                  "fixed-evidence",
+                  "permission"
+                ]
+              },
+              "purpose": "action",
+              "schema_name": "cizheng_actions",
+              "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+              "trigger": "first-system-exact-registered-default-or-compact-phase"
+            },
+            "structured_outputs": true,
+            "temperature": 0.1,
+            "vision_structured_output_contract": {
+              "enabled": true,
+              "host_only_constraints": [
+                "positive-area",
+                "one-observation-per-image",
+                "visible-not-template",
+                "uncalibrated-probability"
+              ],
+              "legacy_no_image_payload": "unstructured-compatible",
+              "original_numeric_ranges": true,
+              "purpose": "vision",
+              "schema_name": "cizheng_observations",
+              "schema_rejection": "fatal-with-usage-no-vision-retry",
+              "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+              "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+              "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+            }
+          },
+          "model": "Qwen/Qwen3-VL-8B-Instruct",
+          "provider": "local-openai-compatible",
+          "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+        },
+        "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+        "prompt_hash": "e69087dae94c15f22b96b6655613489a7ed24ce47cfb1c3bffb0aeb9008b1a7b",
+        "prompt_profile": {
+          "component_sha256": {
+            "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+            "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+            "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+            "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+            "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+            "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+          },
+          "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+          "experimental": false,
+          "name": "source-r2",
+          "quality_validation": "not_established",
+          "selection": "process-startup-environment"
+        },
+        "research_task": "visual_research",
+        "skills": {},
+        "source_hash": "50a41afdd9c2d777b406f67a1e0f2572af836327b7f6c3fa4eeafa17c08225e1",
+        "tool_schema_hash": "522cb3b13ae03f091acec60b5fde83bd3f92a7f87d454305114ebcf88cb7a415",
+        "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "image_sha256": [
+        "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+      ],
+      "knowledge_source_count": 0,
+      "reference_count": 0,
+      "expert_validation": false
+    },
+    {
+      "trial_id": "trial-003-2",
+      "case_id": "pc03",
+      "mode": "skills",
+      "order": 1,
+      "state": "failed",
+      "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+      "seconds": 163.975283,
+      "model_calls": 7,
+      "tool_calls": 11,
+      "versions": {
+        "app": "0.7.0",
+        "harness": {
+          "action_transport": {
+            "alternative_text_policy": "single-line-ascii-alnum-or-cjk-first-1-40-model-authored",
+            "citation_exposure": "successful-main-canonical-body-exposure",
+            "decoder_schema_sha256": {
+              "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+              "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+              "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+              "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+            },
+            "effective_by_task": {
+              "documentary_audit": false,
+              "visual_research": true
+            },
+            "explanation_pattern": "^[A-Za-z0-9一-鿿][^\\r\\n]{0,39}$",
+            "inventory_limits": {
+              "knowledge_read_indexes": 20,
+              "observation_ids": 48,
+              "reference_ids": 10
+            },
+            "metadata_fields": [
+              "document_id",
+              "document_revision",
+              "document_sha256",
+              "chunk_id",
+              "chunk_sha256",
+              "locator"
+            ],
+            "phase_tool_contract": {
+              "activation": "guided+compact+visual-only",
+              "budgets_and_repairs": "unchanged",
+              "decoder_enforcement": "only-when-structured_outputs-enabled",
+              "native_validation": "exact-request-original-schema-not-independent-app-derivation",
+              "opinions_and_citations": "model-authored",
+              "phases": [
+                "respond_critic_required",
+                "record_assessment_required",
+                "build_opinion_available"
+              ],
+              "preparation_tools": "unchanged-model-choice",
+              "prompt_sha256": {
+                "plain/build_opinion_available": "7e6b6d42b69f5dd18e2c2827e96cbe3009db672faa0a67d4b1d955e163496fea",
+                "plain/record_assessment_required": "0aaa5307042c6e1efd6b0df46f48a49d2a90139a31f13e259750cf80d99625ac",
+                "plain/respond_critic_required": "23dd19c424fcd452d499c79db0fb73936cb4cdae2cbdda020f26a4e426caf24a",
+                "skills/build_opinion_available": "2c31c80a78edb63a7b7fd17d4966d31ead07306e105e865b01285ccc5aeaf951",
+                "skills/record_assessment_required": "ad0571add96b45bb8ee0092ff867468ddbfe00077db2984e5730f9819c384869",
+                "skills/respond_critic_required": "146838805a093512dc4f90294444602aab18a68548ac0e33cfdca2dbeb667ab5"
+              },
+              "protocol": "trusted-current-run-phase-tools-v1",
+              "schema_sha256": {
+                "plain/build_opinion_available": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "plain/record_assessment_required": "9f787e56ac0fe2e9322b27f4128b4a534f9248635f8701fb8497bbe2a5021d66",
+                "plain/respond_critic_required": "2b1d49e9604008ebba734d3849bfa47ae259129bae4434552f3ee31c78b5661b",
+                "skills/build_opinion_available": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73",
+                "skills/record_assessment_required": "73de254a26813c1e4f142b005b9d0968ea1c0ec2a78bab0dc82200856df97ef7",
+                "skills/respond_critic_required": "05caae15c48cd580db2b05b1fa4de41b192991b7162982022463926fe75dc89c"
+              },
+              "state_source": "current-saved-run-only",
+              "unstructured_enforcement": "phase-prompt+unchanged-host-gates"
+            },
+            "protocol": "compact-visual-metadata-v1",
+            "read_index_policy": "run-local-append-only-1-based-authorized-text-nonempty-repeat-new-index",
+            "scope": "visual_research-only",
+            "semantic_affordance": "current-run-eligible-evidence-inventory-v1"
+          },
+          "budgets": "original-run-and-episode-limits",
+          "compact_actions": true,
+          "delivery_context": "trusted-run-delivery-stage-v1",
+          "documentary_preparation": [
+            "read_case"
+          ],
+          "first_image_batch_max": 4,
+          "guided_workflow": true,
+          "knowledge_prefetch_max_chunks": 2,
+          "knowledge_scope": "case-pinned-fixed-versions-only",
+          "knowledge_selection": "coordinator-question-prefix-not-model-choice",
+          "natural_skill_discovery": false,
+          "observed_method_rule": {
+            "english_match": "case-insensitive-word",
+            "max_additional_methods": 1,
+            "method_whitelist": [
+              "bluewhite-attribution-test"
+            ],
+            "mode": "skills",
+            "research_task": "visual_research",
+            "source": "first-batch-current-run-vision-visible-only",
+            "triggers": [
+              "青花",
+              "blue-and-white"
+            ]
+          },
+          "parent_skill": "evidence-revise",
+          "preparation_actor": "coordinator",
+          "strategy": "coordinator-observed-method-v2",
+          "visual_skills": [
+            "ceramic-route",
+            "ceramic-research-record"
+          ]
+        },
+        "knowledge_snapshot_sha256": "9381af4af438f73969226752f45c971ff08e0d766f56464e0296fcaf9d8e7e48",
+        "mode": "skills",
+        "model": {
+          "endpoint": "http://127.0.0.1:8005/v1",
+          "generation": {
+            "compact_actions": true,
+            "disable_thinking": false,
+            "max_tokens": 2500,
+            "max_tokens_by_phase": {
+              "action": 2500,
+              "vision": 800
+            },
+            "native_truncation_response": "explicit-native-termination+length-fatal-with-usage-no-retry",
+            "phase_detection": "first-system-exact-VISION_SYSTEM",
+            "structured_output_contract": {
+              "decoder_schema_sha256": {
+                "plain/documentary_audit": "f066947a82e7e9c0b2f78e13032f8d2ae9d4201f7767f31e894e0724866a9821",
+                "plain/visual_research": "c0c080104f56bb914e244e6f0b4b55aba601f728418098861871a852fbba0991",
+                "skills/documentary_audit": "9a74cbe462a679176f1a2cdb4eb947494c858342916a264c6cd13cc7c57a5aa2",
+                "skills/visual_research": "e94ee9b4289315f7d1cab0155ce8c4186644755707f588bd9c992c0413429e73"
+              },
+              "guided_phase_variants": {
+                "native_original_validation": "per-request",
+                "phases": [
+                  "respond_critic_required",
+                  "record_assessment_required",
+                  "build_opinion_available"
+                ],
+                "registered": true,
+                "state_owner": "host-current-run"
+              },
+              "hash_encoding": "json-utf8-ensure_ascii_false-sort_keys-compact-allow_nan_false",
+              "host_only_constraints": {
+                "numeric": [
+                  "minimum",
+                  "maximum",
+                  "exclusiveMinimum",
+                  "exclusiveMaximum",
+                  "multipleOf"
+                ],
+                "semantic": [
+                  "cross-field",
+                  "skill-workflow",
+                  "fixed-evidence",
+                  "permission"
+                ]
+              },
+              "purpose": "action",
+              "schema_name": "cizheng_actions",
+              "schema_source": "registered-tool-model_json_schema+compact-visual-metadata-v1",
+              "trigger": "first-system-exact-registered-default-or-compact-phase"
+            },
+            "structured_outputs": true,
+            "temperature": 0.1,
+            "vision_structured_output_contract": {
+              "enabled": true,
+              "host_only_constraints": [
+                "positive-area",
+                "one-observation-per-image",
+                "visible-not-template",
+                "uncalibrated-probability"
+              ],
+              "legacy_no_image_payload": "unstructured-compatible",
+              "original_numeric_ranges": true,
+              "purpose": "vision",
+              "schema_name": "cizheng_observations",
+              "schema_rejection": "fatal-with-usage-no-vision-retry",
+              "schema_sha256_policy": "per-request-ordered-trusted-media-ids",
+              "schema_source": "vision_output_schema(media_ids)-original-vision-prompt-v1",
+              "trigger": "first-system-exact-VISION_SYSTEM+canonical-host-image-pairs"
+            }
+          },
+          "model": "Qwen/Qwen3-VL-8B-Instruct",
+          "provider": "local-openai-compatible",
+          "weights_revision": "files-sha256:1f6aab4deaf5787f224e39de4e3900d3232da170a14719dcd07d13bde27a5114"
+        },
+        "preprocess": "exif-display-rgb-overview1536-region2048-jpeg92-v2",
+        "prompt_hash": "0e29d5d0f0d792d17237081edfcddf7c542c6417b786a8d5fbd917410e8cf8c5",
+        "prompt_profile": {
+          "component_sha256": {
+            "compact_instruction": "120f7415c0d20fab366e12d31f307af1bd83236fec59b35867973cbd2ad44322",
+            "guided_first_image_question": "f2eb5b10c6edbedd6a7f4580fb0b350c886f1906bf26d9c8598fe5183393b34a",
+            "guided_record_instruction_template": "97b72bee27091f19d80a7e7a38e40d2312795e91097c598ee9375cc513fa5bd1",
+            "guided_source_notice_template": "596a819594c0d9b205228139a66f388320eec64f613ad388478d2305a3fe46d0",
+            "system": "0a06b9e95a9a41e63054fa40f23276aa0cd067414fdb0d2ee2fd5b06850af8cc",
+            "vision_system": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+          },
+          "content_sha256": "abc66f33fcdddfb7ebba853b9f70f4e7296ce886b5aaf789fbf8215ff0b1984d",
+          "experimental": false,
+          "name": "source-r2",
+          "quality_validation": "not_established",
+          "selection": "process-startup-environment"
+        },
+        "research_task": "visual_research",
+        "skills": {
+          "bluewhite-attribution-test": "c08d638be81b19de12e177fc85bd55f140d6a4a99f71f6e313a01f4777916fdd",
+          "ceramic-research-record": "74e6c328f850507f047df1fdb956590414027a52e13a6a97abc79633ca58f782",
+          "ceramic-route": "c15e98c5a59b794bb696f7222b821861dd630d20fb4c2a3b9a8e3107ad98e3cf",
+          "condition-hypothesis-test": "876d949095f5eee9a271bab1498ed68fb454d4d1bbe03d0ce6585007b697bf36",
+          "documentary-evidence-audit": "9e35f0d5990b8be20e55a125f7dc1b78b5564d6ab6b0cfdff5a13d4c06ec72ee",
+          "evidence-revise": "bcea84ad46d5b9d9a5545cb95c34ffc30358b6241c7ad14ee141ce38c398dd2c",
+          "provenance-evidence-audit": "cf813d3c730f453c5b75b2be77827ef2694ac49b5e0350599f0239d28accd7c0"
+        },
+        "source_hash": "50a41afdd9c2d777b406f67a1e0f2572af836327b7f6c3fa4eeafa17c08225e1",
+        "tool_schema_hash": "5ef26029a231266d16df217b7d2283f7eecae6b58318fcc5723a266ce6b00b7f",
+        "vision_prompt_hash": "71ae803c5558e49c14e7c86fecf8ba154453e8839797315b433d007e79511005"
+      },
+      "image_sha256": [
+        "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+      ],
+      "knowledge_source_count": 0,
+      "reference_count": 0,
+      "expert_validation": false
+    }
+  ],
+  "expert_validation": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "fixed_config": {
+    "CIZHENG_GUIDED_WORKFLOW": "1",
+    "CIZHENG_COMPACT_ACTIONS": "1",
+    "CIZHENG_STRUCTURED_OUTPUTS": "1",
+    "CIZHENG_DISABLE_THINKING": "0",
+    "CIZHENG_PROMPT_PROFILE": "source-r2"
+  },
+  "budget_per_run": {
+    "model_calls": 12,
+    "tool_calls": 20,
+    "active_seconds": 300,
+    "request_timeout_seconds": 90,
+    "temperature": 0.1,
+    "action_max_tokens": 2500,
+    "vision_max_tokens": 800
+  },
+  "knowledge_policy": "empty",
+  "driver_sha256": "b5cac7c887e718e26cbab0a4034d307af77bf40a2778adb1c52a54f52b7d1199",
+  "attribution_gate": "without_observed_image_references_all_claims_insufficient_or_out_of_scope",
+  "scope_limit": "observations_reasons_and_supplement_requests_not_authenticity_or_independent_dating_accuracy",
+  "planned_trials": 6,
+  "completed_trials": 6,
+  "protocol_completed": 3
+}

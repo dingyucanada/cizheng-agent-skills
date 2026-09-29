@@ -1,0 +1,97 @@
+{
+  "review_type": "先行原图观察备忘",
+  "image_access": "actual_original_image_via_view_image",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": false,
+  "target_model_outputs_received": false,
+  "scope_statement": "独立上下文AI观察记录，基于指定两张原图的可见外观；不是专业真值或真人专家验证，不判断材料检测结果、年代、窑口或真伪。",
+  "independence_statement": "仅查看本件的view-01.jpg、view-02.jpg；未接收馆藏标签、目标模型输出，未读取museum-records、research、manifest或其他模型报告，未联网查询器物身份。",
+  "position_annotation": "使用原图中的自然语言位置；没有人工框，不提供或编造坐标。",
+  "item_id": "pc03",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+    "view-02.jpg": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+  },
+  "reviewed_image_paths": [
+    "intake/photos/pc03/view-01.jpg",
+    "intake/photos/pc03/view-02.jpg"
+  ],
+  "image_presentation_note": "view_image打开原始文件；图中分辨率与细部清晰度低于pc01和pc02。未另行裁切、增强或编辑图像。",
+  "view_coverage": {
+    "view-01.jpg": "侧面略俯视，显示敞口、少量内壁、外壁、低足外侧与多处口沿黄色区域。无底面或足内视图。",
+    "view-02.jpg": "器物由透明支架支起，视线正对碗内，显示整圈口沿、内壁与内底。展示的是内底，不是外底或款识面。",
+    "underside_provided": false,
+    "foot_exterior_provided": true,
+    "inscriptions_or_marks_provided": false
+  },
+  "visible_notes": [
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "全器轮廓及口沿",
+      "feature": "器形",
+      "observation": "敞口碗形，圆口较宽，口沿向外展开，碗壁弧形收向较小的低足。view-01显示低足的外轮廓；view-02显示碗内，内底是较平缓的圆形区域。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "内外碗壁",
+      "feature": "颜色与表面",
+      "observation": "整体呈灰绿色、青绿色外观，内壁受光处较浅，外壁与足部较暗。表面有连续光泽和白色反光，未见彩绘人物、花鸟或文字图案。"
+    },
+    {
+      "images": [
+        "view-01.jpg"
+      ],
+      "original_image_location": "外壁从口沿以下至近足处",
+      "feature": "壁面纹理",
+      "observation": "外壁有多条纵向起伏或浅槽形成的瓣状分段，线条随碗壁向下收束；亮暗条带与这些起伏位置相合。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "口沿各处",
+      "feature": "黄色块状区域",
+      "observation": "口沿出现多处黄褐至金黄色的块状区域。view-01正前口沿下方有较大的不规则近矩形块，后方偏左口沿有三角形块，右侧还有较小块。view-02下方口沿有较大的三角或楔形黄色区域，顶部及左缘也有较小黄色区域；下方大块邻接口沿的不规则位置。"
+    },
+    {
+      "images": [
+        "view-02.jpg"
+      ],
+      "original_image_location": "下方口沿黄色大块附近及内壁",
+      "feature": "细线与斑点",
+      "observation": "从下方黄色大块边缘向右上方内壁延伸一条弯斜的细深色线，另有零散微小深点。靠内底右下的反光旁可见一处较清楚的小深点。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "口沿与足侧",
+      "feature": "可见状况",
+      "observation": "口沿附近的黄色块边缘局部不规则，部分口沿位置有细小黄褐色变化。侧图足部较暗，接触面附近带深褐色窄边；图中没有直接显示足底表面。"
+    }
+  ],
+  "uncertain_notes": [
+    "没有外底、足内或底款照片；view-02的中央圆形是碗内底，不能当作外底。",
+    "图片清晰度和光照限制了细微表面判断。外壁纵向起伏可见，但其具体成形工艺及浅槽深度无法确认；内壁更细的纹理不够清楚。",
+    "黄色块状区域及相连细线只能作外观记录；无法仅凭照片确认其成分、修复工艺、发生时间，或是否每一块都填补缺口。",
+    "与下方黄色区域相连的细深线可能是裂线或其他表面线迹，照片不能确定其深度、是否贯穿或结构影响。",
+    "内底暗圆及足侧深色主要受阴影影响，不能据颜色差异推断胎体、烧成或污染。",
+    "没有尺度或颜色标尺，尺寸、色值、壁厚和重量无法可靠确定；口沿与足侧是否存在细微缺损也不能完整排查。"
+  ],
+  "easy_to_misread_details": [
+    "view-02为内壁视图，不是底足或款识视图。",
+    "口沿的金黄色外观容易让人直接命名为某种金属修补工艺；本记录不确认材质或技术。",
+    "view-01纵向亮暗条带有器壁起伏与照明共同影响，不把每一条暗带都当成裂纹。",
+    "view-02透明支架属于拍摄展示装置，不能当成器物本体附件或修复构件。",
+    "内底的大块暗色与反光并存，不宜据这一明暗区域判断表面污染或材料异常。"
+  ]
+}

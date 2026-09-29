@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="瓷证公开馆藏个案核查：从真实器物照片出发，查看模型观察、判断理由、馆藏参考和核查记录。">
+  <title>公开馆藏个案核查 · 瓷证</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="public-collection-check.css">
+  <script src="public-collection-check.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#case-workbench">跳到个案核查</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="瓷证项目主页"><span class="brand-mark" aria-hidden="true">瓷</span><span><strong>瓷证</strong><small>器物研究　状况记录　来源复核</small></span></a>
+    <nav aria-label="页面导航"><a href="report.html#public-check">项目报告</a><a href="index.html">返回主页 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="intro">
+      <div class="intro-copy"><p class="eyebrow">PUBLIC COLLECTION CASE STUDIES</p><h1 id="page-title">公开馆藏<br><em>个案核查</em></h1><p class="intro-lead">看见了什么，为何这样判断。<br>把照片、模型记录和馆藏依据放在一起，逐项核查。</p><a class="intro-button" href="#case-workbench">从一件器物开始 <span aria-hidden="true">↓</span></a></div>
+      <div class="intro-method"><span class="method-line" aria-hidden="true"></span><p class="eyebrow">如何阅读</p><ol><li><span>01</span><div><strong>先看照片</strong><p>阶段 A 不向模型提供该件馆藏归属，分别保留普通提示和 Skills 流程的记录。</p></div></li><li><span>02</span><div><strong>再读资料</strong><p>阶段 B 提供馆藏资料，核查能否正确引用、解释和限定结论。</p></div></li><li><span>03</span><div><strong>逐项核对</strong><p>展开馆藏参考，检查观察、引用和推断；不足或失败同样保留。</p></div></li></ol><p class="scope-note" id="scope-note">本页为公开馆藏资料个案核查，不是真人专家评审，不输出真品概率。</p></div>
+    </section>
+
+    <section class="collection-section" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow">选择器物</p><h2 id="collection-title">从具体细节进入</h2></div><p id="checked-at" class="subtle">读取真实记录中</p></div>
+      <div id="case-list" class="case-list" role="group" aria-label="选择核查个案"></div>
+      <p id="load-status" class="load-status" role="status">正在读取公开个案照片和核查记录…</p>
+    </section>
+
+    <section id="case-workbench" class="workbench" hidden aria-labelledby="case-title">
+      <div class="workbench-heading"><div><p class="eyebrow" id="case-number">个案</p><h2 id="case-title"></h2><p id="case-accession" class="subtle"></p></div><a id="object-link" class="quiet-link" target="_blank" rel="noopener noreferrer">查看官方馆藏 <span aria-hidden="true">↗</span></a></div>
+      <div class="research-layout">
+        <aside class="photo-column" aria-label="原始照片">
+          <div id="photos" class="photos"></div>
+          <p class="photo-note">点击照片可放大查看。未独立核实模型定位，照片不叠加判断框。</p>
+          <details class="source-details"><summary>揭示馆藏参考 <span aria-hidden="true">＋</span></summary><div id="museum-reference" class="details-body"></div></details>
+          <details class="source-details"><summary>核查方案及边界 <span aria-hidden="true">＋</span></summary><div id="protocol-content" class="details-body"></div></details>
+        </aside>
+        <div class="record-column">
+          <div class="stage-tabs" role="tablist" aria-label="核查阶段"><button id="tab-a" class="stage-tab" role="tab" aria-selected="true" aria-controls="record-panel" type="button" data-stage="a"><span>A</span>仅给照片</button><button id="tab-b" class="stage-tab" role="tab" aria-selected="false" aria-controls="record-panel" type="button" data-stage="b"><span>B</span>给定馆藏资料</button></div>
+          <div class="record-context"><p id="stage-description"></p><div id="mode-list" class="mode-list" role="group" aria-label="选择运行方式"></div></div>
+          <div id="record-panel" class="record-panel" role="tabpanel" aria-labelledby="tab-a"><div id="run-meta" class="run-meta"></div><div id="model-record"></div></div>
+          <section class="review-section" aria-labelledby="review-title"><div class="small-heading"><span class="eyebrow">资料核查</span><h3 id="review-title">记录是否得到支持</h3></div><p class="subtle review-note">项目 AI 核查备注，原句和来源可回查；不是专家验证。核查针对本件公开资料及照片，不能推广为总体准确率。</p><div id="case-review"></div></section>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing"><div><p class="eyebrow">保留完整记录</p><h2>原图出处可追溯<br>判断理由可核查</h2><p>阅读可见事实，也阅读不确定之处。每项结果保留原始记录入口，便于进一步核对。</p></div><div class="closing-actions"><a id="download-record" href="assets/public-collection-check-20260929.json" download>下载完整核查数据 <span aria-hidden="true">↓</span></a><a href="report.html#public-check">阅读项目报告 <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer><span>瓷证 · 公开馆藏个案核查</span><span>只读预置体验　无需上传　不触发模型请求</span></footer>
+  <dialog id="photo-dialog" aria-label="查看器物原图"><button id="close-photo" type="button" aria-label="关闭原图">关闭 ×</button><img id="dialog-photo" alt=""><p id="dialog-caption"></p></dialog>
+</body>
+</html>

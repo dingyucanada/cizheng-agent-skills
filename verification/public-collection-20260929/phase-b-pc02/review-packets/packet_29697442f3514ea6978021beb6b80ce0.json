@@ -1,0 +1,62 @@
+{
+  "packet_id": "packet_29697442f3514ea6978021beb6b80ce0",
+  "images": [
+    {
+      "media_id": "media_44ed8baa1109459c8c7c718bd5150571",
+      "image_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+      "path": "assets/50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_5985064f7f1040b3af8f88a605bc9c8a",
+      "image_sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+      "path": "assets/4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_841afac706994ef0a60db78e07950f1a",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_a1bb622b44984044bc84badfcde70971",
+      "interpretation": "器形规整，双耳对称",
+      "limitation": "",
+      "media_id": "media_44ed8baa1109459c8c7c718bd5150571",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_9f684186abb0462ba448206904cf1144",
+      "visible": "黄地粉彩梅鹊纹方瓶"
+    },
+    {
+      "artifact_id": "media_d71e9442eb2a479d84d96bb3d802df57",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_0ce3bd3d063b49dab39850953339f037",
+      "interpretation": "装饰风格典型粉彩",
+      "limitation": "",
+      "media_id": "media_5985064f7f1040b3af8f88a605bc9c8a",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_9f684186abb0462ba448206904cf1144",
+      "visible": "瓶身局部特写，梅枝与鸟纹"
+    }
+  ],
+  "assessment": null,
+  "evidence_request": {
+    "capture_instructions": "拍摄器底款识及完整器形侧面，确认是否为清晚期景德镇窑制品",
+    "distinguishes": "需款识确认窑口与年代，无款识则无法排除仿品或后加装饰",
+    "reason": "当前图像未见底部，无法判断款识与窑口归属",
+    "view": "器底及完整器形侧面"
+  },
+  "state": "failed",
+  "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

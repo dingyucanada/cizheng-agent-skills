@@ -9,15 +9,15 @@
   "original_outlines_and_metrics_preserved": true,
   "text_normalization_or_replacement": false,
   "generator": {
-    "python": "3.11.11",
-    "fonttools": "4.56.0",
-    "Brotli": "1.1.0"
+    "python": "3.12.14",
+    "fonttools": "4.66.0",
+    "Brotli": "1.2.0"
   },
   "input_sources": [
     {
       "path": "report.html",
-      "sha256": "0dfd29f280c96f2e7c56cfd4e70209d0ebfb1fa018dd45bc9d8a5e02962889f2",
-      "bytes": 84419
+      "sha256": "231a0d50e4c7533634503ea4b59e4a8fdb453d26e4e9a39dda1f9e0cc00bedc8",
+      "bytes": 98211
     },
     {
       "path": "report-assets/museum-capture-concept-v09.svg",
@@ -61,12 +61,12 @@
     },
     {
       "path": "report-assets/deployment-status.json",
-      "sha256": "a2253b99ab2bf072ea980c3d8b63124b918ac8b666c48ccf0ebeed6ba9e514f5",
-      "bytes": 4217
+      "sha256": "111c6dadf0129b59d80a213e9f2f06b24490d9007019a159f3b14a64eda293a5",
+      "bytes": 4851
     }
   ],
   "common_ui": "首页返回上一页下一页关于帮助设置搜索登录退出注册确认取消保存关闭打开删除编辑新增添加移除上传下载查看详情展开收起全部选择清空复制导出打印加载中请稍候成功失败错误提示警告完成重试刷新提交时间日期年月日时分秒零一二三四五六七八九十百千万编号名称用户记录来源结果文件页总共状态当前在线离线等待运行已停止已开始连接断开未知语言中文英文→←↗↓↑·—–“”‘’（）【】《》，。；：？！、",
-  "unicode_count": 933,
+  "unicode_count": 978,
   "fonts": [
     {
       "repository": "adobe-fonts/source-han-serif",
@@ -87,10 +87,10 @@
       "embedded_original_copyright": [
         "© 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
       ],
-      "bytes": 412656,
-      "output_sha256": "8acca8634743ae80f69558e21f09ac63d774af756e3b3b816224d991ba1ed1d2",
-      "unicode_count": 933,
-      "glyph_count": 1961
+      "bytes": 438440,
+      "output_sha256": "71c96656bd4261b54d85ad0bd37ff752b22d4eaebeb0232ebe6d5b6b442151f4",
+      "unicode_count": 978,
+      "glyph_count": 2045
     },
     {
       "repository": "adobe-fonts/source-han-sans",
@@ -111,10 +111,10 @@
       "embedded_original_copyright": [
         "© 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
       ],
-      "bytes": 297380,
-      "output_sha256": "9beacb149acdeebf74ebba3aa38d2eec34c8773ce95548cefec4ff15ad676a96",
-      "unicode_count": 933,
-      "glyph_count": 1997
+      "bytes": 316348,
+      "output_sha256": "ea99a60ca68fb12ce0902aa7708a010fcbc7c1097eda68c0f670856d8eea07b3",
+      "unicode_count": 978,
+      "glyph_count": 2088
     }
   ]
 }

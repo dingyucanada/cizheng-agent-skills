@@ -4,6 +4,8 @@
 
 `examples/public-demo` 的 Met 公版图片和馆藏基本记录按馆方Open Access/CC0政策提供；明确来源、许可、下载URL和原始文件哈希见 sources.json。作品馆藏归属不代表本项目完成独立鉴定。私人专家样本须另外登记使用与公开许可。
 
+2026-09-29 公开馆藏个案核查新增 Met [854455](https://www.metmuseum.org/art/collection/search/854455)、[42239](https://www.metmuseum.org/art/collection/search/42239)、[48450](https://www.metmuseum.org/art/collection/search/48450)，共六张原始 JPEG。馆方 API 的 isPublicDomain 字段均为 true；图片和基本记录使用 [Met Open Access / CC0](https://www.metmuseum.org/policies/image-resources)，原件、下载地址、图片身份和权利核对记录保存在 verification/public-collection-20260929。中文题名及核查备注为项目翻译和 AI 核查，不是馆方专家意见；网页长篇解说未作为 CC0 全文再分发，模型原输出及失败状态保留。
+
 专业 Skills 的结构遵循开放格式，业务方法为本项目研究程序，尚待陶瓷专家审阅。不复制 NVIDIA 的签名或Verified徽章。实际使用 NVIDIA SkillSpector 2.12.0 对七个运行范围进行静态扫描，明确排除 evals/，完整包诊断保留。未完成官方 SkillEvaluator live 对照或签名，扫描不等于Verified或专业准确率。整包 SHA256 用于本项目版本一致性，不证明可信机构签名或专业正确性。
 
 官方培训和 NVIDIA/skills 的设计经验引用见外部学习报告及 docs/training-implementation.md。部署脚本是项目适配层，不包含NVIDIA官方已签名Skill修改件；本包没有完整TAO、VSS或RAG Blueprint依赖。候选模型和vLLM镜像须遵守各自上游许可及固定版本。

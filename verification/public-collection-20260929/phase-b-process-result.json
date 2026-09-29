@@ -1,0 +1,27 @@
+{
+  "scope": "new explicitly nonblind public collection source-context phase B",
+  "planned_trials": 3,
+  "completed_processes": 3,
+  "results": [
+    {
+      "case_id": "pc01",
+      "exit_code": 1,
+      "started_at_unix_ns": 1790687762029101497,
+      "ended_at_unix_ns": 1790687922426340497
+    },
+    {
+      "case_id": "pc02",
+      "exit_code": 1,
+      "started_at_unix_ns": 1790687922426592788,
+      "ended_at_unix_ns": 1790688128540075005
+    },
+    {
+      "case_id": "pc03",
+      "exit_code": 0,
+      "started_at_unix_ns": 1790688128540368800,
+      "ended_at_unix_ns": 1790688279910256899
+    }
+  ],
+  "expert_validation": false,
+  "raw_photos_sent_to_stepfun": false
+}

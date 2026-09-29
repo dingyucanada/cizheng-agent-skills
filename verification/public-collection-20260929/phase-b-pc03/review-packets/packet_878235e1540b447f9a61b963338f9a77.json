@@ -1,0 +1,114 @@
+{
+  "packet_id": "packet_878235e1540b447f9a61b963338f9a77",
+  "images": [
+    {
+      "media_id": "media_f90bed78ef0c4dafa2f13428afb98baa",
+      "image_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "path": "assets/d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_49325dd916ab4c728c41216327d9ecda",
+      "image_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+      "path": "assets/ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_ced99422aa93454f875af9674d1e0c70",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_83045329028e446ba00f4b393a8eb6f9",
+      "interpretation": "宋代龙泉窑风格",
+      "limitation": "",
+      "media_id": "media_f90bed78ef0c4dafa2f13428afb98baa",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+      "visible": "青釉莲瓣碗，外壁有金缮修补"
+    },
+    {
+      "artifact_id": "media_46213062fe8d4dbb9035df664647c8ed",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_ca99fbc652da42af8770114363c74c2f",
+      "interpretation": "金缮工艺补缺",
+      "limitation": "",
+      "media_id": "media_49325dd916ab4c728c41216327d9ecda",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+      "visible": "碗内壁青釉，口沿有金缮痕迹"
+    }
+  ],
+  "assessment": {
+    "alternatives": [
+      "元代龙泉窑",
+      "明代仿宋龙泉窑"
+    ],
+    "basic_info": "青釉莲瓣碗，外壁有金缮修补，底部未见款识",
+    "claims": [
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "无底部款识，无法独立断代",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "无底部款识，无法独立确认窑口",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "无底部款识，无法排除仿制或后世风格",
+        "status": "insufficient",
+        "support": []
+      }
+    ],
+    "condition_hypotheses": [],
+    "knowledge_citations": [
+      {
+        "chunk_id": "ksrc_5c0e345097af1ba3b7dec6d3_r1_p0001_1b6448d5426e",
+        "chunk_sha256": "1b6448d5426e97b966a10fcf5d8c77eccf2f73fcee21baadb990087879458af6",
+        "document_id": "ksrc_5c0e345097af1ba3b7dec6d3",
+        "document_revision": 1,
+        "document_sha256": "7f12a7c8814dc90be05f8b6ac5f12cd2436da7fd835b44b2c782d767cb54766a",
+        "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+        "relevance": "馆方记录提供时期与窑口参考",
+        "use": "source_context"
+      }
+    ],
+    "limitations": [
+      "底部未见款识，无法排除其他窑口或年代"
+    ],
+    "reference_comparison": "Met馆藏记录（accessionNumber=17.57.1）记载为Southern Song",
+    "reference_ids": [],
+    "revision_explanation": "依据图像观察与馆方记录，支持宋代龙泉窑归属，但需底部款识确认",
+    "scope": "ceramic_research"
+  },
+  "evidence_request": {
+    "capture_instructions": "拍摄器物底部及款识区域，确认是否有铭文或窑口标记",
+    "distinguishes": "底部款识是判断窑口与年代的关键依据",
+    "reason": "当前图像未显示底部，无法排除款识或窑口信息",
+    "view": "底部"
+  },
+  "state": "waiting_evidence",
+  "error": null,
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

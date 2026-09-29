@@ -1,0 +1,1202 @@
+{
+  "title": "公开馆藏个案核查",
+  "checked_at": "2026年9月29日",
+  "scope": "三件公开馆藏、六张开放原图。先核查照片观察，再核查给定资料中的引用和理由。",
+  "protocol": {
+    "stage_a_description": "首轮不提供本件馆藏标签或知识正文，三件各运行普通提示和Skills流程；两组共同使用协调器预备、固定8B模型、同一图片权限及结论合同。Skills组可额外读取方法包。",
+    "stage_b_description": "六次照片首轮全部保存后，再向三件各提供一份本件馆藏转录，分别运行Skills流程。此阶段明确非盲，只核查来源转述和引用，不能称照片独立鉴定。",
+    "limits": [
+      "没有图像参照时，原合同只允许依据不足或范围外结论，欠证状态不能用于计算专业准确率。",
+      "默认展开有保存意见的记录，只为便于阅读；另一模式、停止记录和全部运行计数均保留。",
+      "三件均为公开已知身份馆藏，无经核实的现代赝品；模型预训练是否已见这些材料不能排除。",
+      "语义核查角色为AI，最终专家验证和概率校准仍属于后续工作。"
+    ]
+  },
+  "integrity": {
+    "scope": "New public collection record integrity; not ceramic correctness or expert validation",
+    "expert_validation": false,
+    "ceramic_accuracy": null,
+    "authenticity_probability": null,
+    "checks": [
+      {
+        "phase": "a",
+        "export_files_hash_verified": 84,
+        "exact_messages_reconstructed": true,
+        "image_derivative_bytes_verified": true
+      },
+      {
+        "phase": "b",
+        "export_files_hash_verified": 51,
+        "exact_messages_reconstructed": true,
+        "image_derivative_bytes_verified": true
+      }
+    ],
+    "runs": [
+      {
+        "phase": "a",
+        "case_id": "pc01",
+        "mode": "plain",
+        "state": "failed",
+        "seconds": 154.258978,
+        "model_calls": 7,
+        "tool_calls": 8,
+        "observations": 3,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "46bbb1d32cb79ab530b1a1a09011d19aba864024b765497f67a2a7c2745ecb3a"
+      },
+      {
+        "phase": "a",
+        "case_id": "pc01",
+        "mode": "skills",
+        "state": "waiting_evidence",
+        "seconds": 119.136133,
+        "model_calls": 5,
+        "tool_calls": 11,
+        "observations": 2,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "61ac9f945ca83e69903cfa922049a7fef7e2314fb9597affc47d1528051d64be"
+      },
+      {
+        "phase": "a",
+        "case_id": "pc02",
+        "mode": "skills",
+        "state": "waiting_evidence",
+        "seconds": 126.260183,
+        "model_calls": 7,
+        "tool_calls": 11,
+        "observations": 3,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "463bc1316cbe8136208bc97e84bd3ca9138c03b17a8c72bed3da4c5bd49c970d"
+      },
+      {
+        "phase": "a",
+        "case_id": "pc02",
+        "mode": "plain",
+        "state": "failed",
+        "seconds": 204.870427,
+        "model_calls": 5,
+        "tool_calls": 7,
+        "observations": 2,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "be56844c13022d65b4022327c0a255c70454c3f0f47b80d9ad37a4087b716094"
+      },
+      {
+        "phase": "a",
+        "case_id": "pc03",
+        "mode": "plain",
+        "state": "waiting_evidence",
+        "seconds": 139.268719,
+        "model_calls": 5,
+        "tool_calls": 7,
+        "observations": 2,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "5b30d3247dd102031104e6c64757ab53eea634969dbd92a645bddd2deb23f029"
+      },
+      {
+        "phase": "a",
+        "case_id": "pc03",
+        "mode": "skills",
+        "state": "failed",
+        "seconds": 163.975283,
+        "model_calls": 7,
+        "tool_calls": 11,
+        "observations": 3,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "dfe21d96934e77e50b5d647a31e2d8c813f9a44e79daa204b6919f322499a815"
+      },
+      {
+        "phase": "b",
+        "case_id": "pc01",
+        "mode": "skills",
+        "state": "failed",
+        "seconds": 159.467751,
+        "model_calls": 5,
+        "tool_calls": 12,
+        "observations": 2,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "919ab815007a85af6c60ee500403da1fea793cd887f9df943a0f9dd7689b3768"
+      },
+      {
+        "phase": "b",
+        "case_id": "pc02",
+        "mode": "skills",
+        "state": "failed",
+        "seconds": 205.130819,
+        "model_calls": 5,
+        "tool_calls": 11,
+        "observations": 2,
+        "citations": 0,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "29ba721d1bafb985527e5c84f03b2e116c6d35849b8255650789066ab4e5871d"
+      },
+      {
+        "phase": "b",
+        "case_id": "pc03",
+        "mode": "skills",
+        "state": "waiting_evidence",
+        "seconds": 150.700733,
+        "model_calls": 6,
+        "tool_calls": 12,
+        "observations": 2,
+        "citations": 1,
+        "messages_exactly_reconstructed": true,
+        "request_event_hashes_bound": true,
+        "final_run_sha256": "5e3239c29bd9441dc63d01b1e8a7ca250365ab267f4217786c16700dfd183eff"
+      }
+    ],
+    "trial_count": 9,
+    "actual_model_requests": 52,
+    "all_record_integrity_checks_passed": true
+  },
+  "expert_validation": false,
+  "authenticity_probability": null,
+  "cases": [
+    {
+      "id": "pc01",
+      "title": "“射手”纹青花储水器",
+      "object_url": "https://www.metmuseum.org/art/collection/search/854455",
+      "accession": "2021.321a, b",
+      "museum_reference": {
+        "period": "清代",
+        "date": "约1740年",
+        "medium": "景德镇釉下钴蓝瓷",
+        "dimensions": "高68.6厘米；最大径43.5厘米；足径28.3厘米",
+        "note": "中文为项目译记，官方字段原值在原始记录中保留。馆方装饰设计归于 Cornelis Pronk；设计者不等于烧造者。两图主要为接近正面的视角，未提供外底。"
+      },
+      "images": [
+        {
+          "src": "assets/public-collection-check/pc01-view-01.jpg",
+          "alt": "“射手”纹青花储水器 · 公开原图01",
+          "sha256": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+          "width": 3000,
+          "height": 4000
+        },
+        {
+          "src": "assets/public-collection-check/pc01-view-02.jpg",
+          "alt": "“射手”纹青花储水器 · 公开原图02",
+          "sha256": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521",
+          "width": 3000,
+          "height": 4000
+        }
+      ],
+      "stage_a": [
+        {
+          "state": "failed",
+          "observations": [
+            {
+              "artifact_id": "media_ead59d3aeb2e44dc9cdad362ced627ae",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_973f9d547f3b4ad3ae49482a68be42ac",
+              "interpretation": "西式盾形纹饰",
+              "limitation": "",
+              "media_id": "media_d3e570379e0c4a6a940b3d8d06765ce1",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_5aa43e49429e42d6a5f8b3e2c5eab872",
+              "visible": "青花盖罐，饰人物纹与蝴蝶"
+            },
+            {
+              "artifact_id": "media_ee3247b292bf41469d1ad748b168aa74",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_e80e07614a7540a4990e4448f220d3b8",
+              "interpretation": "西式盾形纹饰",
+              "limitation": "",
+              "media_id": "media_d17b7c2340de487eb74b32bdc0eadde9",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_5aa43e49429e42d6a5f8b3e2c5eab872",
+              "visible": "青花盖罐，饰人物纹与蝴蝶"
+            },
+            {
+              "artifact_id": "media_65db67fe985a4e54ba3c6436fbab25df",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_f9e187fba471499e8548c40886da4ebc",
+              "interpretation": "青花人物纹饰",
+              "limitation": "",
+              "media_id": "media_d3e570379e0c4a6a940b3d8d06765ce1",
+              "region": [
+                0.17,
+                0.17,
+                0.83,
+                0.83
+              ],
+              "run_id": "run_5aa43e49429e42d6a5f8b3e2c5eab872",
+              "visible": "青花瓷罐饰人物与昆虫"
+            }
+          ],
+          "assessment": null,
+          "evidence_request": {
+            "capture_instructions": "拍摄器物底部及款识部位",
+            "distinguishes": "确认制作时期与窑口",
+            "reason": "缺乏底部款识与明确参照图",
+            "view": "器物底部"
+          },
+          "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+          "mode": "plain",
+          "seconds": 154.258978,
+          "model_calls": 7,
+          "tool_calls": 8,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-a/trial-001-1/final-run.json",
+          "media_labels": {
+            "media_d3e570379e0c4a6a940b3d8d06765ce1": "原图01",
+            "media_d17b7c2340de487eb74b32bdc0eadde9": "原图02"
+          },
+          "source_contexts": [],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            },
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        },
+        {
+          "state": "waiting_evidence",
+          "observations": [
+            {
+              "artifact_id": "media_48c5191dc1da4cbfb6a394b027e456ee",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_e53a824a101a4a98b3d578962646e8ef",
+              "interpretation": "西式盾形纹饰，非中国风格",
+              "limitation": "",
+              "media_id": "media_4ed6b2ff898d40d4bd75054b538c17ed",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_0fdc4184120545ef812d954c87ab73bc",
+              "visible": "青花盖罐，饰人物纹与蝴蝶"
+            },
+            {
+              "artifact_id": "media_b5657c65c5d4457b8595f24722789c06",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_d3784d486e354c8c8cbfedfdb6f33026",
+              "interpretation": "西式盾形纹饰，非中国风格",
+              "limitation": "",
+              "media_id": "media_d94a7773eab64bd4bc636ab1fc29bbaf",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_0fdc4184120545ef812d954c87ab73bc",
+              "visible": "青花盖罐，饰人物纹与蝴蝶"
+            }
+          ],
+          "assessment": {
+            "alternatives": [
+              "清代外销瓷",
+              "民国仿古瓷"
+            ],
+            "basic_info": "青花盖罐，饰西式盾形纹饰、人物纹与蝴蝶",
+            "claims": [
+              {
+                "candidate": "insufficient",
+                "conflict": [],
+                "dimension": "period",
+                "reasoning_summary": "未见底部款识，无法确定制作时期",
+                "status": "insufficient",
+                "support": [
+                  "obs_e53a824a101a4a98b3d578962646e8ef",
+                  "obs_d3784d486e354c8c8cbfedfdb6f33026"
+                ]
+              },
+              {
+                "candidate": "insufficient",
+                "conflict": [],
+                "dimension": "kiln",
+                "reasoning_summary": "未见底部款识，无法确定窑口",
+                "status": "insufficient",
+                "support": [
+                  "obs_e53a824a101a4a98b3d578962646e8ef",
+                  "obs_d3784d486e354c8c8cbfedfdb6f33026"
+                ]
+              },
+              {
+                "candidate": "insufficient",
+                "conflict": [],
+                "dimension": "style",
+                "reasoning_summary": "西式盾形纹饰非中国风格，但无可靠参照图比较",
+                "status": "insufficient",
+                "support": [
+                  "obs_e53a824a101a4a98b3d578962646e8ef",
+                  "obs_d3784d486e354c8c8cbfedfdb6f33026"
+                ]
+              }
+            ],
+            "condition_hypotheses": [],
+            "knowledge_citations": [],
+            "limitations": [
+              "未展示底部",
+              "无馆方记载"
+            ],
+            "reference_comparison": "无可靠参照图",
+            "reference_ids": [],
+            "revision_explanation": "依据图像可见细节，制作时期、窑口、装饰风格均因缺乏底部款识及可靠参照图而不足",
+            "scope": "bluewhite_gu"
+          },
+          "evidence_request": {
+            "capture_instructions": "拍摄器物底部及款识区域，确认是否有款识或窑口标记",
+            "distinguishes": "底部款识是判断窑口与制作时期的直接证据",
+            "reason": "当前图像未展示底部，无法判断是否为官窑或民窑制品，亦无法确定具体年代",
+            "view": "底部视角"
+          },
+          "error": null,
+          "mode": "skills",
+          "seconds": 119.136133,
+          "model_calls": 5,
+          "tool_calls": 11,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-a/trial-001-2/final-run.json",
+          "media_labels": {
+            "media_4ed6b2ff898d40d4bd75054b538c17ed": "原图01",
+            "media_d94a7773eab64bd4bc636ab1fc29bbaf": "原图02"
+          },
+          "source_contexts": [],
+          "validation_errors": [],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        }
+      ],
+      "stage_b": [
+        {
+          "state": "failed",
+          "observations": [
+            {
+              "artifact_id": "media_b91ff75143044e50bdba8ea371f11f83",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_32053dcbf0824ddcaeac65fd6fae130f",
+              "interpretation": "西式装饰风格",
+              "limitation": "",
+              "media_id": "media_993ae2558a2a4580a28ea5f8d0ae494b",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_bf150b17d6f1438193248664d81dd389",
+              "visible": "青花盖罐，饰人物纹与蝴蝶"
+            },
+            {
+              "artifact_id": "media_8686714a2df245fbb044d9a024b3b491",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_9b84438ef233476e845621a242d2105f",
+              "interpretation": "西式装饰风格",
+              "limitation": "",
+              "media_id": "media_21c4d1e1fc3540179916222b645b92f7",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_bf150b17d6f1438193248664d81dd389",
+              "visible": "青花盖罐，饰人物纹与蝴蝶"
+            }
+          ],
+          "assessment": null,
+          "evidence_request": {
+            "capture_instructions": "拍摄器物底部款识与胎体状态，确认是否为景德镇窑口及具体年代款识。",
+            "distinguishes": "底部款识可区分清代官窑与民窑、具体年代与仿品。",
+            "reason": "当前图像未见底部，无法判断窑口与具体时期。",
+            "view": "底部"
+          },
+          "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+          "mode": "skills",
+          "seconds": 159.467751,
+          "model_calls": 5,
+          "tool_calls": 12,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-b-pc01/trial-001-1/final-run.json",
+          "media_labels": {
+            "media_993ae2558a2a4580a28ea5f8d0ae494b": "原图01",
+            "media_21c4d1e1fc3540179916222b645b92f7": "原图02"
+          },
+          "source_contexts": [
+            {
+              "chunk_id": "ksrc_1e8d3871676c87ed7c8fd15d_r1_p0001_4e4af8c97e36",
+              "chunk_sha256": "4e4af8c97e36b7646376429c70f853751e74e0270b17f69c4c04d68d0060d4df",
+              "content_kind": "authorized_text",
+              "document_id": "ksrc_1e8d3871676c87ed7c8fd15d",
+              "document_revision": 1,
+              "document_sha256": "6c0a92a231db9403a6e0a7ff5f701022623b7327e88ed138076eddebd018b64f",
+              "locator": "Met object 854455 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+              "read_index": 1,
+              "run_id": "run_bf150b17d6f1438193248664d81dd389",
+              "snippet_end": 373,
+              "snippet_start": 0,
+              "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=\"The Archer\" cistern；馆藏编号 accessionNumber=2021.321a, b；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=ca. 1740；材质、工艺及窑口字段 medium=Porcelain painted in underglaze cobalt blue (Jingdezhen ware)；尺寸 dimensions=H. 27 in. (68.6 cm); Diam. 17 1/8 in. 43.5 cm); Diam. of foot: 11 1/8 in. (28.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。",
+              "title": "馆藏记录转录｜“射手”纹储水器",
+              "use": "read_receipt_not_automatic_claim_support"
+            }
+          ],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison、revision_explanation明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+            },
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        }
+      ],
+      "review": [
+        {
+          "dimension": "observations",
+          "verdict": "器形描述需要保留功能细节",
+          "basis": "原模型称盖罐，记录了人物和蝴蝶；先行照片记录及后续AI核查指出下腹圆孔未被记录。公开名称为储水器，但不能拿后来揭示的名称代替原模型观察。"
+        },
+        {
+          "dimension": "reasoning",
+          "verdict": "装饰风格和制作地分别处理",
+          "basis": "“西式盾形纹饰，非中国风格”为模型原文。西方设计背景可作装饰语境，不能据此排除中国制作；馆方字段记载景德镇。设计者、装饰风格、烧造地是不同问题。"
+        },
+        {
+          "dimension": "citation",
+          "verdict": "来源读取不等于意见已合格",
+          "basis": "阶段B实际读取了373字馆藏转录。首次采用馆方陈述但未附引用；修正后又触及无图像参照时的结论合同，运行停止，assessment保持null。"
+        }
+      ],
+      "reviewer_role": "project_AI_case_review",
+      "expert_validation": false
+    },
+    {
+      "id": "pc02",
+      "title": "仿古铜器形彩瓷瓶",
+      "object_url": "https://www.metmuseum.org/art/collection/search/42239",
+      "accession": "14.40.396",
+      "museum_reference": {
+        "period": "清代",
+        "date": "18世纪晚期至19世纪",
+        "medium": "景德镇瓷，透明釉上多色珐琅彩绘",
+        "dimensions": "高53.3厘米",
+        "note": "中文为项目译记。馆方保留年代区间，仿古铜器形描述造型，不代表铜材质，也不意味着现代赝品。两图未展示外底或足内。"
+      },
+      "images": [
+        {
+          "src": "assets/public-collection-check/pc02-view-01.jpg",
+          "alt": "仿古铜器形彩瓷瓶 · 公开原图01",
+          "sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+          "width": 3002,
+          "height": 4000
+        },
+        {
+          "src": "assets/public-collection-check/pc02-view-02.jpg",
+          "alt": "仿古铜器形彩瓷瓶 · 公开原图02",
+          "sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+          "width": 3002,
+          "height": 4000
+        }
+      ],
+      "stage_a": [
+        {
+          "state": "waiting_evidence",
+          "observations": [
+            {
+              "artifact_id": "media_b440988912fb4184bb2f607c1dc2e398",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_ab063ca364f545a9b83c13a50560679e",
+              "interpretation": "器形规整，双耳对称",
+              "limitation": "",
+              "media_id": "media_e0243e07951945d49e3866acfec97a49",
+              "region": [
+                0.27,
+                0.09,
+                0.71,
+                0.91
+              ],
+              "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+              "visible": "黄地粉彩梅鹊纹方瓶"
+            },
+            {
+              "artifact_id": "media_bfec1a4e93174676ba9e955a586308e8",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_ab698f620d82443884476ecf1d7c0765",
+              "interpretation": "枝干遒劲，花鸟生动",
+              "limitation": "",
+              "media_id": "media_52f72b0e4f084f04880be288a39b1f1c",
+              "region": [
+                0.3,
+                0.1,
+                0.69,
+                0.9
+              ],
+              "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+              "visible": "瓶身梅鹊图局部特写"
+            },
+            {
+              "artifact_id": "media_bf26537e011248b884966659326dbbbb",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_802719963b9843d79aef547537019685",
+              "interpretation": "梅竹双禽纹饰",
+              "limitation": "无遮挡全貌",
+              "media_id": "media_e0243e07951945d49e3866acfec97a49",
+              "region": [
+                0.2698201199200533,
+                0.09,
+                0.7101932045303131,
+                0.91
+              ],
+              "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+              "visible": "方形瓶身绘梅竹双禽"
+            }
+          ],
+          "assessment": {
+            "alternatives": [
+              "民国仿品",
+              "现代工艺品"
+            ],
+            "basic_info": "黄地粉彩梅鹊纹方瓶，双耳对称，瓶身绘梅竹双禽，底部未见款识",
+            "claims": [
+              {
+                "candidate": "清代",
+                "conflict": [],
+                "dimension": "period",
+                "reasoning_summary": "无款识，纹饰非清代专有",
+                "status": "insufficient",
+                "support": []
+              },
+              {
+                "candidate": "景德镇窑",
+                "conflict": [],
+                "dimension": "kiln",
+                "reasoning_summary": "无款识，胎釉未见",
+                "status": "insufficient",
+                "support": []
+              },
+              {
+                "candidate": "粉彩风格",
+                "conflict": [],
+                "dimension": "style",
+                "reasoning_summary": "梅鹊纹饰常见于清代粉彩，但非专有",
+                "status": "insufficient",
+                "support": []
+              }
+            ],
+            "condition_hypotheses": [],
+            "knowledge_citations": [],
+            "limitations": [
+              "底部未见款识",
+              "无可靠参照图"
+            ],
+            "reference_comparison": "无馆方记载或参照图",
+            "reference_ids": [],
+            "revision_explanation": "依据图像观察，未见款识与参照图，无法判断时期、窑口与风格",
+            "scope": "ceramic_research"
+          },
+          "evidence_request": {
+            "capture_instructions": "拍摄器底款识与胎釉细节",
+            "distinguishes": "款识可区分窑口与年代",
+            "reason": "底部未见款识，无法判断窑口与时期",
+            "view": "器底"
+          },
+          "error": null,
+          "mode": "skills",
+          "seconds": 126.260183,
+          "model_calls": 7,
+          "tool_calls": 11,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-a/trial-002-1/final-run.json",
+          "media_labels": {
+            "media_e0243e07951945d49e3866acfec97a49": "原图01",
+            "media_52f72b0e4f084f04880be288a39b1f1c": "原图02"
+          },
+          "source_contexts": [],
+          "validation_errors": [],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        },
+        {
+          "state": "failed",
+          "observations": [
+            {
+              "artifact_id": "media_2a514044302c4de9a1c76f410fb429e8",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_8d771c8c11f142638b14b8666c45999e",
+              "interpretation": "粉彩装饰，梅鹊纹样",
+              "limitation": "",
+              "media_id": "media_4f00efd52317421080685a246e4bb7c1",
+              "region": [
+                0.32,
+                0.09,
+                0.68,
+                0.91
+              ],
+              "run_id": "run_6e46a018862a4569bd775f5932ca82ad",
+              "visible": "黄地粉彩梅鹊纹方瓶，双耳"
+            },
+            {
+              "artifact_id": "media_136d378bdd734f0e8a3c4881e3c58b5e",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_25bd0fd7314242a38c4bac2da0dddc87",
+              "interpretation": "双耳造型，梅鹊纹延续",
+              "limitation": "",
+              "media_id": "media_0f4a7244c347404c9b94b06eaf67790b",
+              "region": [
+                0.32,
+                0.09,
+                0.68,
+                0.91
+              ],
+              "run_id": "run_6e46a018862a4569bd775f5932ca82ad",
+              "visible": "瓶身局部，双耳及梅鹊纹"
+            }
+          ],
+          "assessment": null,
+          "evidence_request": {
+            "capture_instructions": "拍摄瓶底或款识部位清晰照片",
+            "distinguishes": "款识或底部可提供窑口与年代依据",
+            "reason": "需确认制作时期与窑口",
+            "view": "瓶底或款识部位"
+          },
+          "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+          "mode": "plain",
+          "seconds": 204.870427,
+          "model_calls": 5,
+          "tool_calls": 7,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-a/trial-002-2/final-run.json",
+          "media_labels": {
+            "media_4f00efd52317421080685a246e4bb7c1": "原图01",
+            "media_0f4a7244c347404c9b94b06eaf67790b": "原图02"
+          },
+          "source_contexts": [],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            },
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            },
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        }
+      ],
+      "stage_b": [
+        {
+          "state": "failed",
+          "observations": [
+            {
+              "artifact_id": "media_841afac706994ef0a60db78e07950f1a",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_a1bb622b44984044bc84badfcde70971",
+              "interpretation": "器形规整，双耳对称",
+              "limitation": "",
+              "media_id": "media_44ed8baa1109459c8c7c718bd5150571",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_9f684186abb0462ba448206904cf1144",
+              "visible": "黄地粉彩梅鹊纹方瓶"
+            },
+            {
+              "artifact_id": "media_d71e9442eb2a479d84d96bb3d802df57",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_0ce3bd3d063b49dab39850953339f037",
+              "interpretation": "装饰风格典型粉彩",
+              "limitation": "",
+              "media_id": "media_5985064f7f1040b3af8f88a605bc9c8a",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_9f684186abb0462ba448206904cf1144",
+              "visible": "瓶身局部特写，梅枝与鸟纹"
+            }
+          ],
+          "assessment": null,
+          "evidence_request": {
+            "capture_instructions": "拍摄器底款识及完整器形侧面，确认是否为清晚期景德镇窑制品",
+            "distinguishes": "需款识确认窑口与年代，无款识则无法排除仿品或后加装饰",
+            "reason": "当前图像未见底部，无法判断款识与窑口归属",
+            "view": "器底及完整器形侧面"
+          },
+          "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+          "mode": "skills",
+          "seconds": 205.130819,
+          "model_calls": 5,
+          "tool_calls": 11,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-b-pc02/trial-001-1/final-run.json",
+          "media_labels": {
+            "media_44ed8baa1109459c8c7c718bd5150571": "原图01",
+            "media_5985064f7f1040b3af8f88a605bc9c8a": "原图02"
+          },
+          "source_contexts": [
+            {
+              "chunk_id": "ksrc_3a5bd10efca54593f76f0ac2_r1_p0001_854cf088b23e",
+              "chunk_sha256": "854cf088b23ef5e6190b53471230d8945284d13022ef23a4961fdeef06b2ec60",
+              "content_kind": "authorized_text",
+              "document_id": "ksrc_3a5bd10efca54593f76f0ac2",
+              "document_revision": 1,
+              "document_sha256": "f1f29b286babf58b6aa5531d41a456d5666d9210ce29cfc35740892784b93809",
+              "locator": "Met object 42239 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+              "read_index": 1,
+              "run_id": "run_9f684186abb0462ba448206904cf1144",
+              "snippet_end": 348,
+              "snippet_start": 0,
+              "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Vase in Form of Archaic Bronze；馆藏编号 accessionNumber=14.40.396；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=late 18th–19th century；材质、工艺及窑口字段 medium=Porcelain painted with colored enamels over transparent glaze (Jingdezhen ware)；尺寸 dimensions=H. 21 in. (53.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。",
+              "title": "馆藏记录转录｜仿古铜器形彩瓷瓶",
+              "use": "read_receipt_not_automatic_claim_support"
+            }
+          ],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+            },
+            {
+              "stage": "evidence_contract",
+              "detail": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        }
+      ],
+      "review": [
+        {
+          "dimension": "observations",
+          "verdict": "可见数量和工艺名称须分层",
+          "basis": "黄地、花鸟、面棱及成对附件可见。“方形瓶身绘梅竹双禽”若指鸟数，首图上部可辨至少四个鸟形；若为纹饰名则需要解释。具体粉彩工艺、梅鹊物种尚不能由该馆方基本字段确定。"
+        },
+        {
+          "dimension": "reasoning",
+          "verdict": "未展示底足不等于实物无款",
+          "basis": "保存意见的理由写“无款识，纹饰非清代专有”。照片只说明没有提供底足视角，不能证明器物没有款识；补拍也不能单凭款识保证断代或窑口归属。"
+        },
+        {
+          "dimension": "citation",
+          "verdict": "保留馆方年代区间及未通过的提交",
+          "basis": "阶段B实际读取348字转录，馆方日期为late 18th–19th century。两次采用资料陈述却未附引用，运行停止，未保存正式研判；没有用馆方答案补写成功。"
+        }
+      ],
+      "reviewer_role": "project_AI_case_review",
+      "expert_validation": false
+    },
+    {
+      "id": "pc03",
+      "title": "龙泉青釉碗",
+      "object_url": "https://www.metmuseum.org/art/collection/search/48450",
+      "accession": "17.57.1",
+      "museum_reference": {
+        "period": "南宋",
+        "date": "13世纪",
+        "medium": "龙泉青釉炻器；馆方记载金漆修补",
+        "dimensions": "高7.0厘米；直径14.8厘米",
+        "note": "中文为项目译记。原字段为“Stoneware with celadon glaze (Longquan ware); gold lacquer repairs”。修补具体时间、材料成分和技术仍须另查；第二图展示碗内，不是外底。"
+      },
+      "images": [
+        {
+          "src": "assets/public-collection-check/pc03-view-01.jpg",
+          "alt": "龙泉青釉碗 · 公开原图01",
+          "sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+          "width": 1183,
+          "height": 934
+        },
+        {
+          "src": "assets/public-collection-check/pc03-view-02.jpg",
+          "alt": "龙泉青釉碗 · 公开原图02",
+          "sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+          "width": 1170,
+          "height": 1152
+        }
+      ],
+      "stage_a": [
+        {
+          "state": "waiting_evidence",
+          "observations": [
+            {
+              "artifact_id": "media_2ccf2b88cb24422889ca2e1133903591",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_55bc1489c8614876861b167662b1b1ed",
+              "interpretation": "器形规整，釉色匀净",
+              "limitation": "",
+              "media_id": "media_ee6c18d94e7e41d09cb8f68233ac2c76",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_3d53af10529b495d861106eb26d6ac25",
+              "visible": "青釉莲瓣纹碗，金缮修复"
+            },
+            {
+              "artifact_id": "media_b1fa96f3076c430b957053e44fbbc0cc",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_026d12ddf9b84ff6b775e3a371b79097",
+              "interpretation": "内壁无纹饰，釉面光洁",
+              "limitation": "",
+              "media_id": "media_f364e4e2e58d4475a9822264a3541bb7",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_3d53af10529b495d861106eb26d6ac25",
+              "visible": "碗内壁青釉，金缮补缺"
+            }
+          ],
+          "assessment": {
+            "alternatives": [
+              "仿古器",
+              "明清仿品"
+            ],
+            "basic_info": "青釉莲瓣纹碗，金缮修复",
+            "claims": [
+              {
+                "candidate": "宋代",
+                "conflict": [],
+                "dimension": "period",
+                "reasoning_summary": "釉色与器形具宋代特征，但无款识或明确参照支持断代",
+                "status": "insufficient",
+                "support": [
+                  "obs_55bc1489c8614876861b167662b1b1ed"
+                ]
+              },
+              {
+                "candidate": "龙泉窑",
+                "conflict": [],
+                "dimension": "kiln",
+                "reasoning_summary": "釉色与莲瓣纹近龙泉窑，但无窑址或款识佐证",
+                "status": "insufficient",
+                "support": [
+                  "obs_55bc1489c8614876861b167662b1b1ed"
+                ]
+              },
+              {
+                "candidate": "文人雅玩风格",
+                "conflict": [],
+                "dimension": "style",
+                "reasoning_summary": "金缮工艺与素雅釉色符合文人审美，但无文献或参照支持",
+                "status": "insufficient",
+                "support": [
+                  "obs_55bc1489c8614876861b167662b1b1ed"
+                ]
+              }
+            ],
+            "condition_hypotheses": [
+              "釉色与器形为宋代原物，金缮为后补",
+              "金缮工艺为现代修复"
+            ],
+            "knowledge_citations": [],
+            "limitations": [
+              "未见底部款识",
+              "无窑口标记",
+              "无明确时代参照"
+            ],
+            "reference_comparison": "无馆方记载或参照图支持断代",
+            "reference_ids": [],
+            "revision_explanation": "依据图像特征推断，但需实物款识或窑口证据",
+            "scope": "ceramic_research"
+          },
+          "evidence_request": {
+            "capture_instructions": "拍摄碗底清晰特写，确保款识或窑口标记可见",
+            "distinguishes": "款识可明确窑口与时期",
+            "reason": "需确认是否有款识或窑口标记以支持断代",
+            "view": "碗底与款识"
+          },
+          "error": null,
+          "mode": "plain",
+          "seconds": 139.268719,
+          "model_calls": 5,
+          "tool_calls": 7,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-a/trial-003-1/final-run.json",
+          "media_labels": {
+            "media_ee6c18d94e7e41d09cb8f68233ac2c76": "原图01",
+            "media_f364e4e2e58d4475a9822264a3541bb7": "原图02"
+          },
+          "source_contexts": [],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "证据不足必须登记一项可操作补证"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        },
+        {
+          "state": "failed",
+          "observations": [
+            {
+              "artifact_id": "media_bf07696423eb4e3ba3bfb1a34864edee",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_0d7f4502c91b4374adda8d576e3061c8",
+              "interpretation": "器形规整，釉色匀净",
+              "limitation": "",
+              "media_id": "media_7324570734e248f697a2945e332b0977",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_1a4cd90fab0b4316a3dd8a8b46eefba3",
+              "visible": "青釉莲瓣纹碗，金缮修补"
+            },
+            {
+              "artifact_id": "media_e8058bc7da3f48e68cf878687690a31e",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_b488da18123442f68e0a361a8601bcaa",
+              "interpretation": "内壁无纹饰，釉面光洁",
+              "limitation": "",
+              "media_id": "media_71a79e3d10654b2fa840825593cd5893",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_1a4cd90fab0b4316a3dd8a8b46eefba3",
+              "visible": "碗内壁青釉，金缮痕迹"
+            },
+            {
+              "artifact_id": "media_ef9ce7b15b56463bb729f1a67e9309a2",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_d120a392b4ff42a4bb3fe367da21c0f0",
+              "interpretation": "金缮修补痕迹清晰",
+              "limitation": "未见釉色渐变细节",
+              "media_id": "media_7324570734e248f697a2945e332b0977",
+              "region": [
+                0.11,
+                0.27,
+                0.88,
+                0.75
+              ],
+              "run_id": "run_1a4cd90fab0b4316a3dd8a8b46eefba3",
+              "visible": "碗口沿金缮修补与釉色过渡"
+            }
+          ],
+          "assessment": null,
+          "evidence_request": {
+            "capture_instructions": "拍摄碗底及款识部位",
+            "distinguishes": "确认是否为官窑或民窑",
+            "reason": "底部未见款识，无法判断窑口",
+            "view": "底部"
+          },
+          "error": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+          "mode": "skills",
+          "seconds": 163.975283,
+          "model_calls": 7,
+          "tool_calls": 11,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-a/trial-003-2/final-run.json",
+          "media_labels": {
+            "media_7324570734e248f697a2945e332b0977": "原图01",
+            "media_71a79e3d10654b2fa840825593cd5893": "原图02"
+          },
+          "source_contexts": [],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            },
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        }
+      ],
+      "stage_b": [
+        {
+          "state": "waiting_evidence",
+          "observations": [
+            {
+              "artifact_id": "media_ced99422aa93454f875af9674d1e0c70",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_83045329028e446ba00f4b393a8eb6f9",
+              "interpretation": "宋代龙泉窑风格",
+              "limitation": "",
+              "media_id": "media_f90bed78ef0c4dafa2f13428afb98baa",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+              "visible": "青釉莲瓣碗，外壁有金缮修补"
+            },
+            {
+              "artifact_id": "media_46213062fe8d4dbb9035df664647c8ed",
+              "coordinate_space": "exif-corrected-original-normalized",
+              "id": "obs_ca99fbc652da42af8770114363c74c2f",
+              "interpretation": "金缮工艺补缺",
+              "limitation": "",
+              "media_id": "media_49325dd916ab4c728c41216327d9ecda",
+              "region": [
+                0.0,
+                0.0,
+                1.0,
+                1.0
+              ],
+              "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+              "visible": "碗内壁青釉，口沿有金缮痕迹"
+            }
+          ],
+          "assessment": {
+            "alternatives": [
+              "元代龙泉窑",
+              "明代仿宋龙泉窑"
+            ],
+            "basic_info": "青釉莲瓣碗，外壁有金缮修补，底部未见款识",
+            "claims": [
+              {
+                "candidate": "insufficient",
+                "conflict": [],
+                "dimension": "period",
+                "reasoning_summary": "无底部款识，无法独立断代",
+                "status": "insufficient",
+                "support": []
+              },
+              {
+                "candidate": "insufficient",
+                "conflict": [],
+                "dimension": "kiln",
+                "reasoning_summary": "无底部款识，无法独立确认窑口",
+                "status": "insufficient",
+                "support": []
+              },
+              {
+                "candidate": "insufficient",
+                "conflict": [],
+                "dimension": "style",
+                "reasoning_summary": "无底部款识，无法排除仿制或后世风格",
+                "status": "insufficient",
+                "support": []
+              }
+            ],
+            "condition_hypotheses": [],
+            "knowledge_citations": [
+              {
+                "chunk_id": "ksrc_5c0e345097af1ba3b7dec6d3_r1_p0001_1b6448d5426e",
+                "chunk_sha256": "1b6448d5426e97b966a10fcf5d8c77eccf2f73fcee21baadb990087879458af6",
+                "document_id": "ksrc_5c0e345097af1ba3b7dec6d3",
+                "document_revision": 1,
+                "document_sha256": "7f12a7c8814dc90be05f8b6ac5f12cd2436da7fd835b44b2c782d767cb54766a",
+                "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+                "relevance": "馆方记录提供时期与窑口参考",
+                "use": "source_context"
+              }
+            ],
+            "limitations": [
+              "底部未见款识，无法排除其他窑口或年代"
+            ],
+            "reference_comparison": "Met馆藏记录（accessionNumber=17.57.1）记载为Southern Song",
+            "reference_ids": [],
+            "revision_explanation": "依据图像观察与馆方记录，支持宋代龙泉窑归属，但需底部款识确认",
+            "scope": "ceramic_research"
+          },
+          "evidence_request": {
+            "capture_instructions": "拍摄器物底部及款识区域，确认是否有铭文或窑口标记",
+            "distinguishes": "底部款识是判断窑口与年代的关键依据",
+            "reason": "当前图像未显示底部，无法排除款识或窑口信息",
+            "view": "底部"
+          },
+          "error": null,
+          "mode": "skills",
+          "seconds": 150.700733,
+          "model_calls": 6,
+          "tool_calls": 12,
+          "original_record_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/phase-b-pc03/trial-001-1/final-run.json",
+          "media_labels": {
+            "media_f90bed78ef0c4dafa2f13428afb98baa": "原图01",
+            "media_49325dd916ab4c728c41216327d9ecda": "原图02"
+          },
+          "source_contexts": [
+            {
+              "chunk_id": "ksrc_5c0e345097af1ba3b7dec6d3_r1_p0001_1b6448d5426e",
+              "chunk_sha256": "1b6448d5426e97b966a10fcf5d8c77eccf2f73fcee21baadb990087879458af6",
+              "content_kind": "authorized_text",
+              "document_id": "ksrc_5c0e345097af1ba3b7dec6d3",
+              "document_revision": 1,
+              "document_sha256": "7f12a7c8814dc90be05f8b6ac5f12cd2436da7fd835b44b2c782d767cb54766a",
+              "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+              "read_index": 1,
+              "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+              "snippet_end": 337,
+              "snippet_start": 0,
+              "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Bowl；馆藏编号 accessionNumber=17.57.1；馆方记录的时期 period=Southern Song dynasty (1127–1279)；年代 objectDate=13th century；材质、工艺及窑口字段 medium=Stoneware with celadon glaze (Longquan ware); gold lacquer repairs；尺寸 dimensions=H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。",
+              "title": "馆藏记录转录｜龙泉青釉碗（馆方记录有金漆修补）",
+              "use": "read_receipt_not_automatic_claim_support"
+            }
+          ],
+          "validation_errors": [
+            {
+              "stage": "evidence_contract",
+              "detail": "缺少已看图的参照时只能给证据不足或范围外意见"
+            }
+          ],
+          "projection_note": "模型观察、意见、修订理由与补证原文保留；展示标签和项目AI核查另列。"
+        }
+      ],
+      "review": [
+        {
+          "dimension": "observations",
+          "verdict": "修补征象先按外观记录",
+          "basis": "口沿黄色块及相连细线可见。模型将“金缮”写入可见事实；馆方只在基本字段记录gold lacquer repairs。该字段不独立证明具体技术、材料成分或修复年代。"
+        },
+        {
+          "dimension": "citation",
+          "verdict": "一条来源语境引用可回查",
+          "basis": "阶段B形成等待补证记录，保存一条source_context引用，固定到本轮实际读取的337字段落、版本和哈希。该引用支持馆方转述，不是照片独立断代证据。"
+        },
+        {
+          "dimension": "reasoning",
+          "verdict": "欠证状态仍要检查原文一致性",
+          "basis": "三项主张均为insufficient，但修订理由写“支持宋代龙泉窑归属，但需底部款识确认”。两种措辞存在强弱不一致；款识也不能被预设为独自确认归属的条件。完整原句保留，未改成已确认结论。"
+        }
+      ],
+      "reviewer_role": "project_AI_case_review",
+      "expert_validation": false
+    }
+  ],
+  "text_critic": {
+    "model": "step-3.7-flash",
+    "actual_requests": 1,
+    "images_sent": false,
+    "note": "实际公开文字反证审查，三项反馈逐项记录采纳范围；不把后来给审查者的资料倒推为照片首轮已经收到的输入。",
+    "result_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/public-text-critic/result.json",
+    "dispositions_url": "https://github.com/dingyucanada/cizheng-agent-skills/blob/main/verification/public-collection-20260929/public-text-critic/dispositions.json"
+  }
+}

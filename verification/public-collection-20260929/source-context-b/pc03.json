@@ -1,0 +1,25 @@
+{
+  "source": {
+    "title": "馆藏记录转录｜龙泉青釉碗（馆方记录有金漆修补）",
+    "institution": "The Metropolitan Museum of Art",
+    "source_url": "https://www.metmuseum.org/art/collection/search/48450",
+    "locator": "Met Open Access API object 48450: title/accessionNumber/period/objectDate/medium/dimensions",
+    "author": "Met公开基础元数据；中文标签及适用范围说明由项目整理",
+    "year": "2026-09-29（获取日期）",
+    "rights": "authorized_text",
+    "rights_note": "原始基础字段和本件Public Domain图片经Met Open Access CC0许可核对；中文标签和适用范围说明为项目原创。未复制网页长篇说明。政策 https://www.metmuseum.org/policies/image-resources",
+    "scope": "仅核查同件馆藏陈述和实际引用；未隐藏答案，不衡量仅凭照片鉴定。",
+    "source_type": "public_collection_metadata_transcription",
+    "review_status": "unreviewed",
+    "limitations": [
+      "公开记录属于机构参考，不是本轮专家评阅或真品概率。",
+      "馆藏字段可能存在区间与不确定性；不将仿古器形或修补标成赝品。"
+    ]
+  },
+  "chunks": [
+    {
+      "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Bowl；馆藏编号 accessionNumber=17.57.1；馆方记录的时期 period=Southern Song dynasty (1127–1279)；年代 objectDate=13th century；材质、工艺及窑口字段 medium=Stoneware with celadon glaze (Longquan ware); gold lacquer repairs；尺寸 dimensions=H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。",
+      "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "schema_version": "claim-support-audit-v1",
+  "packet": {
+    "schema_version": "claim-support-audit-v1",
+    "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+    "case_id": "case_5f0a27537a2e4d80995e7d21cf74e0b0",
+    "run_state": "waiting_evidence",
+    "run_input_sha256": "0521a93f6b010c1a04270956ae3ac70cfcdfe4e6c0f975b06aec462f06fc6e32",
+    "assessment_sha256": "9c5dc50b5fdd855591f2a4b2b43a547e1d5ac1f705a4c631385d870866fd9cde",
+    "assessment_present": true,
+    "images": [
+      {
+        "media_id": "media_f90bed78ef0c4dafa2f13428afb98baa",
+        "declared_original_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "width": 1183,
+        "height": 934,
+        "view_declaration": "公开拍摄视角1；未验证拍摄部位",
+        "capture_role_declaration": "unknown",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      },
+      {
+        "media_id": "media_49325dd916ab4c728c41216327d9ecda",
+        "declared_original_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+        "width": 1170,
+        "height": 1152,
+        "view_declaration": "公开拍摄视角2；未验证拍摄部位",
+        "capture_role_declaration": "unknown",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs_83045329028e446ba00f4b393a8eb6f9",
+        "media_id": "media_f90bed78ef0c4dafa2f13428afb98baa",
+        "declared_original_sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "region_valid": true,
+        "model_visible_description": "青釉莲瓣碗，外壁有金缮修补",
+        "model_interpretation": "宋代龙泉窑风格",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      },
+      {
+        "observation_id": "obs_ca99fbc652da42af8770114363c74c2f",
+        "media_id": "media_49325dd916ab4c728c41216327d9ecda",
+        "declared_original_sha256": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "region_valid": true,
+        "model_visible_description": "碗内壁青釉，口沿有金缮痕迹",
+        "model_interpretation": "金缮工艺补缺",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "claim-0-period",
+        "report_index": 0,
+        "dimension": "period",
+        "candidate": "insufficient",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无底部款识，无法独立断代",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "report_index": 1,
+        "dimension": "kiln",
+        "candidate": "insufficient",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无底部款识，无法独立确认窑口",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "report_index": 2,
+        "dimension": "style",
+        "candidate": "insufficient",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无底部款识，无法排除仿制或后世风格",
+        "support_semantics": "unreviewed"
+      }
+    ],
+    "observation_links": [],
+    "citations": [
+      {
+        "citation_id": "citation-0",
+        "document_id": "ksrc_5c0e345097af1ba3b7dec6d3",
+        "document_revision": 1,
+        "document_sha256": "7f12a7c8814dc90be05f8b6ac5f12cd2436da7fd835b44b2c782d767cb54766a",
+        "chunk_id": "ksrc_5c0e345097af1ba3b7dec6d3_r1_p0001_1b6448d5426e",
+        "chunk_sha256": "1b6448d5426e97b966a10fcf5d8c77eccf2f73fcee21baadb990087879458af6",
+        "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+        "use": "source_context",
+        "relevance": "馆方记录提供时期与窑口参考",
+        "matches_saved_current_run_receipt": true,
+        "matches_saved_case_version_pin": true,
+        "authorized_saved_source": true,
+        "recorded_identity_delivery": true,
+        "delivered_excerpts": [
+          {
+            "receipt_body_sha256": "97960ff317af5bd08824eabd8357a25e3dd0e67f849269f23814e5c0dfc9d339",
+            "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Bowl；馆藏编号 accessionNumber=17.57.1；馆方记录的时期 period=Southern Song dynasty (1127–1279)；年代 objectDate=13th century；材质、工艺及窑口字段 medium=Stoneware with celadon glaze (Longquan ware); gold lacquer repairs；尺寸 dimensions=H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。",
+            "snippet_start": 0,
+            "snippet_end": 337
+          }
+        ],
+        "eligible_for_text_review": true,
+        "semantic_support": "unreviewed"
+      }
+    ],
+    "report_fields": {
+      "basic_info": "青釉莲瓣碗，外壁有金缮修补，底部未见款识",
+      "reference_comparison": "Met馆藏记录（accessionNumber=17.57.1）记载为Southern Song",
+      "revision_explanation": "依据图像观察与馆方记录，支持宋代龙泉窑归属，但需底部款识确认",
+      "alternatives.0": "元代龙泉窑",
+      "alternatives.1": "明代仿宋龙泉窑",
+      "limitations.0": "底部未见款识，无法排除其他窑口或年代",
+      "claims.0.candidate": "insufficient",
+      "claims.0.reasoning_summary": "无底部款识，无法独立断代",
+      "claims.1.candidate": "insufficient",
+      "claims.1.reasoning_summary": "无底部款识，无法独立确认窑口",
+      "claims.2.candidate": "insufficient",
+      "claims.2.reasoning_summary": "无底部款识，无法排除仿制或后世风格",
+      "knowledge_citations.0.relevance": "馆方记录提供时期与窑口参考",
+      "evidence_request.capture_instructions": "拍摄器物底部及款识区域，确认是否有铭文或窑口标记",
+      "evidence_request.distinguishes": "底部款识是判断窑口与年代的关键依据",
+      "evidence_request.reason": "当前图像未显示底部，无法排除款识或窑口信息",
+      "evidence_request.view": "底部"
+    },
+    "findings": [
+      {
+        "code": "claim_has_no_declared_observation_link",
+        "subject": "claim-0-period",
+        "semantic_verdict": "not_assigned"
+      },
+      {
+        "code": "claim_has_no_declared_observation_link",
+        "subject": "claim-1-kiln",
+        "semantic_verdict": "not_assigned"
+      },
+      {
+        "code": "claim_has_no_declared_observation_link",
+        "subject": "claim-2-style",
+        "semantic_verdict": "not_assigned"
+      }
+    ],
+    "model_inference_performed": false,
+    "expert_validation_established": false,
+    "notice": "保存记录与哈希仅供回查；图像描述、引用支持和判断理由须另行阅评。登记标签不是图像事实。",
+    "packet_sha256": "598943e1d83a51eaae2aaa9b0a005cbefdd771dd85d5e41c169bf67bb6ea5af0"
+  },
+  "metrics": {
+    "observation_visible_correctness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 0,
+      "pending_items": 2,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "observation_region_appropriateness": {
+      "unit": "model_observations",
+      "total_items": 2,
+      "labels_received": 0,
+      "pending_items": 2,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "declared_observation_link_appropriateness": {
+      "unit": "unique_declared_claim_observation_roles",
+      "total_items": 0,
+      "labels_received": 0,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": null,
+      "verdict_counts": {}
+    },
+    "reasoning": {
+      "observed_basis": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "inference_bridge": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "alternative_explanations": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "missing_evidence": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      }
+    },
+    "citation_relations_by_target_kind": {
+      "source_statement": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "object_inference": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "method": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      }
+    },
+    "citation_mapping_coverage": {
+      "mapped_citations": 0,
+      "declared_citation_denominator": 1,
+      "unmapped_citations": 1
+    }
+  },
+  "region_overlaps": [],
+  "review_labels": null,
+  "semantic_status": "awaiting_review",
+  "reviewer_identity_authenticated": false,
+  "expert_validation_established": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "denominator_policy": "未评项目保留在total_items；图像无法判断等not_assessable保留计数、排除条件分母。partial计入分母且不计为完全支持。引用按人工明确的目标类型分别计数，未映射引用另报覆盖。",
+  "limitations": [
+    "只核对提交的保存记录和阅评标签，未认证宿主记录或阅评者身份。",
+    "不会从来源、款识、器物名称或专家标签生成图像事实。",
+    "文字支持分数以已送达段落和所选目标为条件；不等于本器物归属已证实。",
+    "图像访问由阅评者声明；工具未读取图像或核验实际阅评行为。"
+  ]
+}

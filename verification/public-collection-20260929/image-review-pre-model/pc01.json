@@ -1,0 +1,97 @@
+{
+  "review_type": "先行原图观察备忘",
+  "image_access": "actual_original_image_via_view_image",
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "catalogue_labels_received": false,
+  "target_model_outputs_received": false,
+  "scope_statement": "独立上下文AI观察记录，基于指定两张原图的可见外观；不是专业真值或真人专家验证，不判断材料检测结果、年代、窑口或真伪。",
+  "independence_statement": "仅查看本件的view-01.jpg、view-02.jpg；未接收馆藏标签、目标模型输出，未读取museum-records、research、manifest或其他模型报告，未联网查询器物身份。",
+  "position_annotation": "使用原图中的自然语言位置；没有人工框，不提供或编造坐标。",
+  "item_id": "pc01",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+    "view-02.jpg": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+  },
+  "reviewed_image_paths": [
+    "intake/photos/pc01/view-01.jpg",
+    "intake/photos/pc01/view-02.jpg"
+  ],
+  "image_presentation_note": "view_image打开原始文件；工具显示时将每张3000×4000像素图缩放至2752×3669像素。未另行裁切、增强或编辑图像。",
+  "view_coverage": {
+    "view-01.jpg": "斜正面全器，盖保持盖合，可见盖、外颈、肩腹及底部外缘；下腹中央可见圆孔。无底面、足内、款识或盖内视图。",
+    "view-02.jpg": "另一面斜正面全器，盖保持盖合，可见另一组外部纹饰和底部外缘。无底面、足内、款识或盖内视图。",
+    "underside_provided": false,
+    "foot_exterior_provided": true,
+    "inscriptions_or_marks_provided": false
+  },
+  "visible_notes": [
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "全器轮廓及顶部",
+      "feature": "器形",
+      "observation": "罐形带盖容器，短颈、圆鼓肩腹，下腹向底部收束；底缘略向外展开。盖呈隆起的圆拱状，盖缘外伸；顶部是上下两段圆鼓形的蓝色钮。图中不见把手。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "盖、颈肩与腹面",
+      "feature": "颜色与表面",
+      "observation": "腹面以灰白或乳白色为底，纹样主要为深蓝与浅蓝。盖及颈肩大面积深蓝，表面有亮斑反光；深蓝区域中可见零散细密的黄褐或金黄色细线。盖与器身相接处有一道宽的橙褐色环带，并夹有白色窄带。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "盖面、肩部及近底外壁",
+      "feature": "带状纹饰",
+      "observation": "盖面有白色回环状纹样及靠下的小菱形或尖顶白色单元；肩部是一圈白线勾边的纵向长瓣状单元。靠近底缘有蓝色连续重复的短立柱或花瓣状单元与白色留空。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "腹面中央及其周围",
+      "feature": "人物、动物与植物图像",
+      "observation": "中央有大型椭圆式装饰框，框顶为扇贝状纹样，两侧有卷曲枝叶形纹样，底部有对称的鸟状图像及脸状装饰。框内一位穿长袍的人物抬臂持弓，弓线及箭状线条可见；框外散布蝴蝶和其他带翅昆虫状图像，下方串联花朵和叶片。两张图各显露不同的昆虫和花卉组合。"
+    },
+    {
+      "images": [
+        "view-01.jpg"
+      ],
+      "original_image_location": "正前下腹的大花形纹样中心",
+      "feature": "开孔",
+      "observation": "花形纹样中央有明显圆形开孔，孔内暗，周边呈浅黄褐色环状外观，与附近蓝色花纹不同。孔的内部结构和通达情况没有显示。"
+    },
+    {
+      "images": [
+        "view-01.jpg",
+        "view-02.jpg"
+      ],
+      "original_image_location": "蓝色盖肩、白色腹面及最底外缘",
+      "feature": "可见状况",
+      "observation": "蓝色区域可见黄褐色细线和少量不均匀浅色处；白底上有零散细小深色点，右侧外腹可见浅色细线。底部最外缘露出浅黄褐色窄边。总体外轮廓连续，没有在这两张图中见到明显大面积缺失。"
+    }
+  ],
+  "uncertain_notes": [
+    "盖未打开，口沿实际结构、盖内、容器内壁和盖钮背面均无法查看；底面、足内及任何底款均未提供。",
+    "没有尺度参照，无法从图片可靠确定尺寸、壁厚或重量；图像颜色会受光源与显示影响。",
+    "橙褐色环带只能记录其颜色与位置，无法凭图确认材质、是否独立加装或具体作用。",
+    "黄褐或金黄色细线及白底上的浅色细线，无法仅凭这两张正面图区分绘饰、反光、表面磨痕、裂纹或修补线，不将其认定为某种修复。",
+    "圆孔只在view-01可见；不能由圆孔直接推定器物用途、开孔时间或方式，也不能据view-02的花心暗圆将另一处认作孔。",
+    "人物及昆虫图像可描述外形和动作，无法据图确认人物身份、叙事情节或昆虫物种。"
+  ],
+  "easy_to_misread_details": [
+    "view-01下腹花心的圆孔容易被误作一个普通蓝色花心；view-02可见的另一花心暗圆不具备同样可见的孔壁。",
+    "盖身间橙褐色环带和蓝面上的金黄色细线容易被直接称为金属箍或金饰；图像只支持颜色与形态观察。",
+    "装饰框的卷曲枝叶、鸟状单元和脸状单元容易在小图中合并成一个兽形，不宜由整体印象替代逐部位观察。",
+    "蓝色表面的亮白斑主要与反光位置相合，不能直接当成露底、缺釉或修补。"
+  ]
+}

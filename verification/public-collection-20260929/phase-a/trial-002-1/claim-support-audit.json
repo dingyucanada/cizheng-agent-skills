@@ -1,0 +1,315 @@
+{
+  "schema_version": "claim-support-audit-v1",
+  "packet": {
+    "schema_version": "claim-support-audit-v1",
+    "run_id": "run_5ea3a77cbdf74c299be63ad4e00cce31",
+    "case_id": "case_161a2bd8b53c499793b750b626e32f8c",
+    "run_state": "waiting_evidence",
+    "run_input_sha256": "1dae20406203930517df9c26d46bd69bbc089e6b74873be1f043b8213d738d18",
+    "assessment_sha256": "e74bf7d53c0e60454dd3a6a62889064478b96970aa276df2dc53de7cb647744e",
+    "assessment_present": true,
+    "images": [
+      {
+        "media_id": "media_e0243e07951945d49e3866acfec97a49",
+        "declared_original_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+        "width": 3002,
+        "height": 4000,
+        "view_declaration": "公开拍摄视角1；未验证拍摄部位",
+        "capture_role_declaration": "unknown",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      },
+      {
+        "media_id": "media_52f72b0e4f084f04880be288a39b1f1c",
+        "declared_original_sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+        "width": 3002,
+        "height": 4000,
+        "view_declaration": "公开拍摄视角2；未验证拍摄部位",
+        "capture_role_declaration": "unknown",
+        "recorded_main_delivery": true,
+        "image_bytes_verified_by_this_tool": false
+      }
+    ],
+    "observations": [
+      {
+        "observation_id": "obs_ab063ca364f545a9b83c13a50560679e",
+        "media_id": "media_e0243e07951945d49e3866acfec97a49",
+        "declared_original_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.27,
+          0.09,
+          0.71,
+          0.91
+        ],
+        "region_valid": true,
+        "model_visible_description": "黄地粉彩梅鹊纹方瓶",
+        "model_interpretation": "器形规整，双耳对称",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      },
+      {
+        "observation_id": "obs_ab698f620d82443884476ecf1d7c0765",
+        "media_id": "media_52f72b0e4f084f04880be288a39b1f1c",
+        "declared_original_sha256": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.3,
+          0.1,
+          0.69,
+          0.9
+        ],
+        "region_valid": true,
+        "model_visible_description": "瓶身梅鹊图局部特写",
+        "model_interpretation": "枝干遒劲，花鸟生动",
+        "model_limitation": "",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      },
+      {
+        "observation_id": "obs_802719963b9843d79aef547537019685",
+        "media_id": "media_e0243e07951945d49e3866acfec97a49",
+        "declared_original_sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+        "coordinate_space": "exif-corrected-original-normalized",
+        "region": [
+          0.2698201199200533,
+          0.09,
+          0.7101932045303131,
+          0.91
+        ],
+        "region_valid": true,
+        "model_visible_description": "方形瓶身绘梅竹双禽",
+        "model_interpretation": "梅竹双禽纹饰",
+        "model_limitation": "无遮挡全貌",
+        "recorded_current_run": true,
+        "eligible_observation_link": true,
+        "image_correctness": "unreviewed"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "claim-0-period",
+        "report_index": 0,
+        "dimension": "period",
+        "candidate": "清代",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无款识，纹饰非清代专有",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-1-kiln",
+        "report_index": 1,
+        "dimension": "kiln",
+        "candidate": "景德镇窑",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "无款识，胎釉未见",
+        "support_semantics": "unreviewed"
+      },
+      {
+        "claim_id": "claim-2-style",
+        "report_index": 2,
+        "dimension": "style",
+        "candidate": "粉彩风格",
+        "status": "insufficient",
+        "support": [],
+        "conflict": [],
+        "reasoning_summary": "梅鹊纹饰常见于清代粉彩，但非专有",
+        "support_semantics": "unreviewed"
+      }
+    ],
+    "observation_links": [],
+    "citations": [],
+    "report_fields": {
+      "basic_info": "黄地粉彩梅鹊纹方瓶，双耳对称，瓶身绘梅竹双禽，底部未见款识",
+      "reference_comparison": "无馆方记载或参照图",
+      "revision_explanation": "依据图像观察，未见款识与参照图，无法判断时期、窑口与风格",
+      "alternatives.0": "民国仿品",
+      "alternatives.1": "现代工艺品",
+      "limitations.0": "底部未见款识",
+      "limitations.1": "无可靠参照图",
+      "claims.0.candidate": "清代",
+      "claims.0.reasoning_summary": "无款识，纹饰非清代专有",
+      "claims.1.candidate": "景德镇窑",
+      "claims.1.reasoning_summary": "无款识，胎釉未见",
+      "claims.2.candidate": "粉彩风格",
+      "claims.2.reasoning_summary": "梅鹊纹饰常见于清代粉彩，但非专有",
+      "evidence_request.capture_instructions": "拍摄器底款识与胎釉细节",
+      "evidence_request.distinguishes": "款识可区分窑口与年代",
+      "evidence_request.reason": "底部未见款识，无法判断窑口与时期",
+      "evidence_request.view": "器底"
+    },
+    "findings": [
+      {
+        "code": "claim_has_no_declared_observation_link",
+        "subject": "claim-0-period",
+        "semantic_verdict": "not_assigned"
+      },
+      {
+        "code": "claim_has_no_declared_observation_link",
+        "subject": "claim-1-kiln",
+        "semantic_verdict": "not_assigned"
+      },
+      {
+        "code": "claim_has_no_declared_observation_link",
+        "subject": "claim-2-style",
+        "semantic_verdict": "not_assigned"
+      }
+    ],
+    "model_inference_performed": false,
+    "expert_validation_established": false,
+    "notice": "保存记录与哈希仅供回查；图像描述、引用支持和判断理由须另行阅评。登记标签不是图像事实。",
+    "packet_sha256": "b2bbdd90cecb5fea0ac4e1ee9b38ccee5fedf6c0c5b45c1008730ecd2ac2dfbc"
+  },
+  "metrics": {
+    "observation_visible_correctness": {
+      "unit": "model_observations",
+      "total_items": 3,
+      "labels_received": 0,
+      "pending_items": 3,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "observation_region_appropriateness": {
+      "unit": "model_observations",
+      "total_items": 3,
+      "labels_received": 0,
+      "pending_items": 3,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": 0.0,
+      "verdict_counts": {}
+    },
+    "declared_observation_link_appropriateness": {
+      "unit": "unique_declared_claim_observation_roles",
+      "total_items": 0,
+      "labels_received": 0,
+      "pending_items": 0,
+      "not_assessable": 0,
+      "assessed_denominator": 0,
+      "fully_positive_count": 0,
+      "fully_positive_fraction": null,
+      "label_coverage": null,
+      "verdict_counts": {}
+    },
+    "reasoning": {
+      "observed_basis": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "inference_bridge": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "alternative_explanations": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      },
+      "missing_evidence": {
+        "unit": "saved_claims",
+        "total_items": 3,
+        "labels_received": 0,
+        "pending_items": 3,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": 0.0,
+        "verdict_counts": {}
+      }
+    },
+    "citation_relations_by_target_kind": {
+      "source_statement": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "object_inference": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      },
+      "method": {
+        "unit": "supplied_citation_target_pairs",
+        "total_items": 0,
+        "labels_received": 0,
+        "pending_items": 0,
+        "not_assessable": 0,
+        "assessed_denominator": 0,
+        "fully_positive_count": 0,
+        "fully_positive_fraction": null,
+        "label_coverage": null,
+        "verdict_counts": {}
+      }
+    },
+    "citation_mapping_coverage": {
+      "mapped_citations": 0,
+      "declared_citation_denominator": 0,
+      "unmapped_citations": 0
+    }
+  },
+  "region_overlaps": [],
+  "review_labels": null,
+  "semantic_status": "awaiting_review",
+  "reviewer_identity_authenticated": false,
+  "expert_validation_established": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "denominator_policy": "未评项目保留在total_items；图像无法判断等not_assessable保留计数、排除条件分母。partial计入分母且不计为完全支持。引用按人工明确的目标类型分别计数，未映射引用另报覆盖。",
+  "limitations": [
+    "只核对提交的保存记录和阅评标签，未认证宿主记录或阅评者身份。",
+    "不会从来源、款识、器物名称或专家标签生成图像事实。",
+    "文字支持分数以已送达段落和所选目标为条件；不等于本器物归属已证实。",
+    "图像访问由阅评者声明；工具未读取图像或核验实际阅评行为。"
+  ]
+}

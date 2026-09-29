@@ -1,0 +1,212 @@
+{
+  "review_stage": "B",
+  "blind_review": false,
+  "mode_labels_received": true,
+  "target_mode_verbatim": "skills",
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "review_scope": "来源及模式已提供的AI语义核查，不是真人专家验证或专业真值；不评总体准确率或真品概率。",
+  "source_file": "originals-b/phase-b-pc02/trial-001-1/final-run.json",
+  "run_id": "run_9f684186abb0462ba448206904cf1144",
+  "case_id": "pc02",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+    "view-02.jpg": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+  },
+  "image_access": "actual_original_image_via_view_image",
+  "target_state_verbatim": "failed",
+  "target_error_verbatim": "模型动作连续不符合证据合同；已停止，不输出伪造成功",
+  "accepted_assessment": null,
+  "assessment_acceptance_finding": "final-run.assessment=null且state=failed；下列events内record_assessment只是被拒的提交，不写成被接受意见。",
+  "read_knowledge_original": {
+    "original_quote": {
+      "source_json_pointer": "/read_knowledge/0/text",
+      "exact_quote": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Vase in Form of Archaic Bronze；馆藏编号 accessionNumber=14.40.396；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=late 18th–19th century；材质、工艺及窑口字段 medium=Porcelain painted with colored enamels over transparent glaze (Jingdezhen ware)；尺寸 dimensions=H. 21 in. (53.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+    },
+    "record": {
+      "chunk_id": "ksrc_3a5bd10efca54593f76f0ac2_r1_p0001_854cf088b23e",
+      "chunk_sha256": "854cf088b23ef5e6190b53471230d8945284d13022ef23a4961fdeef06b2ec60",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_3a5bd10efca54593f76f0ac2",
+      "document_revision": 1,
+      "document_sha256": "f1f29b286babf58b6aa5531d41a456d5666d9210ce29cfc35740892784b93809",
+      "locator": "Met object 42239 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+      "read_index": 1,
+      "run_id": "run_9f684186abb0462ba448206904cf1144",
+      "snippet_end": 348,
+      "snippet_start": 0,
+      "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Vase in Form of Archaic Bronze；馆藏编号 accessionNumber=14.40.396；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=late 18th–19th century；材质、工艺及窑口字段 medium=Porcelain painted with colored enamels over transparent glaze (Jingdezhen ware)；尺寸 dimensions=H. 21 in. (53.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+    },
+    "model_visible_body_sha256": [
+      "da33111e29c81dcd7e69d23e5f5626bde6fc6cabcfa110a096ad188840e7edac"
+    ],
+    "model_visible_receipt_sha256": [
+      "4e9f69c3ba950870121c46c2a22aea1e63bb52d4436f9ed60ed6dd1a240e541e"
+    ],
+    "source_boundary": "原段落自述为本件馆藏来源上下文，并明确不是模型从照片独立得到的年代或窑口；只在该边界内使用。"
+  },
+  "validation_events": [
+    {
+      "event_index": 50,
+      "stage": "evidence_contract",
+      "error_type": "ValueError",
+      "repair_allowed": true,
+      "original_quote": {
+        "source_json_pointer": "/events/50/detail",
+        "exact_quote": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+      },
+      "semantic_truth_validated": false
+    },
+    {
+      "event_index": 57,
+      "stage": "evidence_contract",
+      "error_type": "ValueError",
+      "repair_allowed": false,
+      "original_quote": {
+        "source_json_pointer": "/events/57/detail",
+        "exact_quote": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+      },
+      "semantic_truth_validated": false
+    }
+  ],
+  "submitted_actions": [
+    {
+      "event_index": 49,
+      "accepted": false,
+      "knowledge_citation_count": 0,
+      "claims": [
+        {
+          "candidate": "Qing dynasty (1644–1911)",
+          "dimension": "period",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "Jingdezhen ware",
+          "dimension": "kiln",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "powdered enamel",
+          "dimension": "style",
+          "status": "insufficient"
+        }
+      ],
+      "note": "仅记录提交内容；其后validation_error阻止接受。"
+    },
+    {
+      "event_index": 56,
+      "accepted": false,
+      "knowledge_citation_count": 0,
+      "claims": [
+        {
+          "candidate": "Qing dynasty (1644–1911)",
+          "dimension": "period",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "Jingdezhen ware",
+          "dimension": "kiln",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "powdered enamel",
+          "dimension": "style",
+          "status": "insufficient"
+        }
+      ],
+      "note": "仅记录提交内容；其后validation_error阻止接受。"
+    }
+  ],
+  "claim_checks": [
+    {
+      "check_id": "source_content",
+      "category": "原段落与馆方标签",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/read_knowledge/0/text",
+          "exact_quote": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Vase in Form of Archaic Bronze；馆藏编号 accessionNumber=14.40.396；馆方记录的时期 period=Qing dynasty (1644–1911)；年代 objectDate=late 18th–19th century；材质、工艺及窑口字段 medium=Porcelain painted with colored enamels over transparent glaze (Jingdezhen ware)；尺寸 dimensions=H. 21 in. (53.3 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+        }
+      ],
+      "finding": "正文保留清代与late 18th–19th century范围、透明釉上多色enamels及景德镇瓷字段。铜器形为造型标题；正文没有将材料写成铜，也没有把粉彩/梅鹊作为明确正式术语。"
+    },
+    {
+      "check_id": "gate",
+      "category": "技术门禁",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/events/50/detail",
+          "exact_quote": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+        },
+        {
+          "source_json_pointer": "/events/57/detail",
+          "exact_quote": "explicit-knowledge-source-attribution-v1：claims.0.reasoning_summary、claims.1.reasoning_summary、reference_comparison明确采用资料陈述却未引用；请自行引用本轮成功主动作已收到的正文，或删除无依据的资料陈述。宿主不补引用或意见；此门禁只识别列出的归因措辞，不验证语义真实性"
+        }
+      ],
+      "finding": "两次同为explicit-knowledge-source-attribution-v1：时期和窑口理由及reference_comparison明确采用馆方陈述，却没有引用；第一次允许修复、第二次不再允许。此门禁仅检查列出的归因措辞及引用合同，不验证原句正确、完整或逻辑一致。"
+    },
+    {
+      "check_id": "reference_attempt",
+      "category": "被拒提交的来源转述",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/events/56/arguments/reference_comparison",
+          "exact_quote": "馆方记录：Qing dynasty (1644–1911), late 18th–19th c."
+        },
+        {
+          "source_json_pointer": "/events/56/arguments/alternatives/0",
+          "exact_quote": "清晚期仿古铜器形彩瓷"
+        },
+        {
+          "source_json_pointer": "/events/56/arguments/alternatives/1",
+          "exact_quote": "清晚期景德镇窑粉彩梅鹊纹方瓶"
+        }
+      ],
+      "finding": "reference_comparison保留清代与18世纪晚期至19世纪的大范围，与原段相容；两条备选却只写清晚期，缩窄了馆方日期范围，未给缩窄理由。由于该提交被拒，不称其已成为正式记录或接受意见。"
+    },
+    {
+      "check_id": "reasoning_attempt",
+      "category": "被拒提交的实际理由",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/1/interpretation",
+          "exact_quote": "装饰风格典型粉彩"
+        },
+        {
+          "source_json_pointer": "/events/56/arguments/claims/2/reasoning_summary",
+          "exact_quote": "装饰风格为典型粉彩，但无图像支持，需款识确认"
+        },
+        {
+          "source_json_pointer": "/events/56/arguments/limitations/1",
+          "exact_quote": "未见完整器形侧面"
+        }
+      ],
+      "finding": "观察先称‘装饰风格典型粉彩’，理由又称典型粉彩‘无图像支持，需款识确认’，内部证据表述不一致。粉彩工艺细项可以未定，但黄地多色花鸟外观确有图像支持；底款不能独自确认彩绘工艺或风格。原图两张都为全器视图，其中一张显示窄面；若需额外侧面，应说明具体尚缺哪一面，不笼统写未见完整侧面。"
+    },
+    {
+      "check_id": "marks",
+      "category": "实际补证措辞",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄器底款识及完整器形侧面，确认是否为清晚期景德镇窑制品"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "需款识确认窑口与年代，无款识则无法排除仿品或后加装饰"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "当前图像未见底部，无法判断款识与窑口归属"
+        }
+      ],
+      "finding": "‘需款识确认’把来源归属确认绑在未知款识上；‘无款识则无法排除仿品或后加装饰’并未建立无款与仿品之间的诊断关系。可请求完整底足及如有文字近景，再与材料、彩绘比较和来源核查并用；无外底图不等于实物无款识。"
+    }
+  ],
+  "source_context_citation_check": {
+    "accepted_citation_present": false,
+    "last_rejected_submission_citation_present": false,
+    "finding": "两次被拒record_assessment均knowledge_citations=[]；正文已读但来源归因未建立可追溯引用。"
+  }
+}

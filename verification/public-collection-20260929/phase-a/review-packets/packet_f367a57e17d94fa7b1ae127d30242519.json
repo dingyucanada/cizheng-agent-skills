@@ -1,0 +1,113 @@
+{
+  "packet_id": "packet_f367a57e17d94fa7b1ae127d30242519",
+  "images": [
+    {
+      "media_id": "media_4ed6b2ff898d40d4bd75054b538c17ed",
+      "image_sha256": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+      "path": "assets/1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093.jpg",
+      "view_declaration": "公开拍摄视角1；未验证拍摄部位"
+    },
+    {
+      "media_id": "media_d94a7773eab64bd4bc636ab1fc29bbaf",
+      "image_sha256": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521",
+      "path": "assets/73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521.jpg",
+      "view_declaration": "公开拍摄视角2；未验证拍摄部位"
+    }
+  ],
+  "observations": [
+    {
+      "artifact_id": "media_48c5191dc1da4cbfb6a394b027e456ee",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_e53a824a101a4a98b3d578962646e8ef",
+      "interpretation": "西式盾形纹饰，非中国风格",
+      "limitation": "",
+      "media_id": "media_4ed6b2ff898d40d4bd75054b538c17ed",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_0fdc4184120545ef812d954c87ab73bc",
+      "visible": "青花盖罐，饰人物纹与蝴蝶"
+    },
+    {
+      "artifact_id": "media_b5657c65c5d4457b8595f24722789c06",
+      "coordinate_space": "exif-corrected-original-normalized",
+      "id": "obs_d3784d486e354c8c8cbfedfdb6f33026",
+      "interpretation": "西式盾形纹饰，非中国风格",
+      "limitation": "",
+      "media_id": "media_d94a7773eab64bd4bc636ab1fc29bbaf",
+      "region": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "run_id": "run_0fdc4184120545ef812d954c87ab73bc",
+      "visible": "青花盖罐，饰人物纹与蝴蝶"
+    }
+  ],
+  "assessment": {
+    "alternatives": [
+      "清代外销瓷",
+      "民国仿古瓷"
+    ],
+    "basic_info": "青花盖罐，饰西式盾形纹饰、人物纹与蝴蝶",
+    "claims": [
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "未见底部款识，无法确定制作时期",
+        "status": "insufficient",
+        "support": [
+          "obs_e53a824a101a4a98b3d578962646e8ef",
+          "obs_d3784d486e354c8c8cbfedfdb6f33026"
+        ]
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "未见底部款识，无法确定窑口",
+        "status": "insufficient",
+        "support": [
+          "obs_e53a824a101a4a98b3d578962646e8ef",
+          "obs_d3784d486e354c8c8cbfedfdb6f33026"
+        ]
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "西式盾形纹饰非中国风格，但无可靠参照图比较",
+        "status": "insufficient",
+        "support": [
+          "obs_e53a824a101a4a98b3d578962646e8ef",
+          "obs_d3784d486e354c8c8cbfedfdb6f33026"
+        ]
+      }
+    ],
+    "condition_hypotheses": [],
+    "knowledge_citations": [],
+    "limitations": [
+      "未展示底部",
+      "无馆方记载"
+    ],
+    "reference_comparison": "无可靠参照图",
+    "reference_ids": [],
+    "revision_explanation": "依据图像可见细节，制作时期、窑口、装饰风格均因缺乏底部款识及可靠参照图而不足",
+    "scope": "bluewhite_gu"
+  },
+  "evidence_request": {
+    "capture_instructions": "拍摄器物底部及款识区域，确认是否有款识或窑口标记",
+    "distinguishes": "底部款识是判断窑口与制作时期的直接证据",
+    "reason": "当前图像未展示底部，无法判断是否为官窑或民窑制品，亦无法确定具体年代",
+    "view": "底部视角"
+  },
+  "state": "waiting_evidence",
+  "error": null,
+  "expert_validation": false,
+  "packet_note": "未认证阅评者；随机命名不代表已完成盲评。"
+}

@@ -1,0 +1,55 @@
+{
+  "request_count": 6,
+  "model_event_count": 6,
+  "pairs": [
+    {
+      "request_index": 1,
+      "messages_sha256": "f8eb434cb5b16988f5829c0a48fa0fca2da717af50032703ba7f4c83978a584a",
+      "event_input_sha256": "f8eb434cb5b16988f5829c0a48fa0fca2da717af50032703ba7f4c83978a584a",
+      "exact_hash_match": true,
+      "purpose": "vision",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 2,
+      "messages_sha256": "a0a5c233df95c0f55740c6fd97e03675b6922b6e07e5bf01e09499e2f96671c9",
+      "event_input_sha256": "a0a5c233df95c0f55740c6fd97e03675b6922b6e07e5bf01e09499e2f96671c9",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 3,
+      "messages_sha256": "33b65257376b14b2cb8daaaf680ca4a64ac47770ece37ed6e9c05966289a6b65",
+      "event_input_sha256": "33b65257376b14b2cb8daaaf680ca4a64ac47770ece37ed6e9c05966289a6b65",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 4,
+      "messages_sha256": "7cdd2c36432a52d5bf710e0ac644472c6ff360b835d889ee1e37b37520616c38",
+      "event_input_sha256": "7cdd2c36432a52d5bf710e0ac644472c6ff360b835d889ee1e37b37520616c38",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 5,
+      "messages_sha256": "0c31bc4ab20154e19b202723cc53e8d805f291c003135f8a281461f77b5e5dc4",
+      "event_input_sha256": "0c31bc4ab20154e19b202723cc53e8d805f291c003135f8a281461f77b5e5dc4",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 6,
+      "messages_sha256": "558bea40fb879f0a49c8b95734b8b5df4e18ddda3858475bc3fc1473bab88d58",
+      "event_input_sha256": "558bea40fb879f0a49c8b95734b8b5df4e18ddda3858475bc3fc1473bab88d58",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    }
+  ],
+  "all_bound": true
+}

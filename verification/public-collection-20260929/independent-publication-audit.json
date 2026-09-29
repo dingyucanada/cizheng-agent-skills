@@ -1,0 +1,71 @@
+{
+  "schema_version": "independent-publication-audit-v1",
+  "reviewer_role": "independent_task_agent_readonly_software_and_claim_review",
+  "expert_validation": false,
+  "ceramic_accuracy": "not_measured",
+  "authenticity_probability": null,
+  "checked_at_utc": "2026-09-29T13:43:59.215835+00:00",
+  "scope": "仅新公开馆藏实验、网页投影和文档；未读取私有集成、旧GPU证明、旧数据库或网络。",
+  "publication_verdict": "publishable",
+  "blocking_findings": [],
+  "checks": {
+    "indexed_files": 196,
+    "index_bytes_and_sha256_all_match": true,
+    "original_workflows": 9,
+    "actual_main_model_messages": 52,
+    "message_projections_rebuilt_with_actual_JPEG_bytes_and_checked_against_final_run_events": true,
+    "successful_reply_sha256_matches_actual_model_event_output": true,
+    "original_photo_count": 6,
+    "site_photos_byte_identical_to_originals": true,
+    "display_observations_assessment_supplement_error_verbatim_equal_to_saved_run": true,
+    "display_times_calls_and_citation_counts_match_summary": true,
+    "run_states": {
+      "waiting_evidence": 4,
+      "failed": 5
+    },
+    "phase_A_knowledge_and_image_references_empty": true,
+    "phase_B_same_case_images_match_A_and_each_own_source_text_and_metadata_match": true,
+    "only_source_context_citation_does_not_claim_independent_attribution_support": true,
+    "StepFun_one_text_request_no_images_or_image_urls_sent": true,
+    "StepFun_later_source_metadata_not_used_to_retroactively_fault_phase_A": true,
+    "report_README_docs_state_AI_role_no_expert_certification_or_Skills_accuracy_gain": true,
+    "current_B_review_image_hash_fields_are_correct_filename_to_SHA256_maps": true
+  },
+  "B_reviewed_image_identity_fields_current": {
+    "pc01": {
+      "view-01.jpg": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+      "view-02.jpg": "73503389ab36bdd14b3ee07aa4445c05f0e6154953f7fe25acf4b79fa0dc9521"
+    },
+    "pc02": {
+      "view-01.jpg": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+      "view-02.jpg": "4ed45f5dd5b7ed6b706fa58084a2766d41660c00aeb2176b682f75cb1d8f2839"
+    },
+    "pc03": {
+      "view-01.jpg": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "view-02.jpg": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+    }
+  },
+  "nonblocking_UI_suggestions": [
+    {
+      "suggestion": "将可见事实显示标签改为模型可见描述，不改原始visible文字",
+      "present_in_current_source": true
+    },
+    {
+      "suggestion": "read_receipt_not_automatic_claim_support显示中文阅读回执，尚非意见引用",
+      "present_in_current_source": true
+    }
+  ],
+  "limitations": [
+    "原件与哈希核查证明保存记录对应，不认证宿主或AI评阅实际行为。",
+    "AI语义个案核查不是真人专家验证；本次没有专业准确率或真品概率。",
+    "两臂共享欠证门禁；全部insufficient不能作为Skills优于普通提示的证据。",
+    "只读静态页面代码核查不代替最终浏览器交互及线上部署检查。"
+  ],
+  "snapshot_sha256": {
+    "verification/public-collection-20260929/index.json": "fdcee987b276b5245973f8bbf75ffbf7dc9a84f22df55aaf727e11ca442d4605",
+    "verification/public-collection-20260929/record-integrity-audit.json": "1f421bf25fbbc0a181a3cc70addadc2fa2ca9324ea5be81cd881c1c19bf523d8",
+    "site/assets/public-collection-check-20260929.json": "5a72ba269a7a6e8966dedacb73bcabbc7aabc18c4c6004b848eb520a42ba1229",
+    "docs/public-collection-case-check-20260929.md": "caedd11b5da3881557e255e7a2b0c066d9b9da5ce268b63d46ed35598c68998d",
+    "site/public-collection-check.js": "3584322fb69d64fac31f914f65a0a4f1b8f5273e6aa2e452b021552b4a0b1940"
+  }
+}

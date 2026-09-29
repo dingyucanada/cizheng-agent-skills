@@ -1,0 +1,27 @@
+{
+  "phase_A_completed_before_source_upload": true,
+  "planned_source_context_trials": 3,
+  "source_stage_sha256": "bdf1f2aed314202dcf665ea0656f79a6a5a33dcb89e7e06b1f193429350b13dc",
+  "main_model_replaced": false,
+  "source_files": [
+    {
+      "case_id": "pc01",
+      "sha256": "2cd53bdaf7c15eb1de442525143a91e304eddff191685c442c59b944906892d1",
+      "bytes": 1921
+    },
+    {
+      "case_id": "pc02",
+      "sha256": "fc2e1b0d6c6868962fc5a70cf15fef3c30214faeae8e8232d40c1235490a43cb",
+      "bytes": 1893
+    },
+    {
+      "case_id": "pc03",
+      "sha256": "e6b05bcf256c2a3d2b99c4b4b212f4aa61974a021f5ee343b82cc9d4fec5ece4",
+      "bytes": 1904
+    }
+  ],
+  "orchestrator_sha256": "5d03eb30b912ab3b2147b5bf93eb68ae6476e6c33e66a50765ad49741c15a0cb",
+  "started_at_unix_ns": 1790687762021055955,
+  "scope": "new nonblind public source-context trials; not expert validation or independent attribution",
+  "raw_photos_sent_to_stepfun": false
+}

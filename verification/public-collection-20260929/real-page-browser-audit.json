@@ -1,0 +1,248 @@
+{
+  "scope": "Browser checks of the real published projection, not model or expert accuracy",
+  "widths": [
+    {
+      "width": 1440,
+      "checkedRunViews": 9,
+      "states": [
+        {
+          "case": "pc01",
+          "stage": "a",
+          "mode": "plain",
+          "state": "failed",
+          "observations": 3,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc01",
+          "stage": "a",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc01",
+          "stage": "b",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc02",
+          "stage": "a",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 3,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc02",
+          "stage": "a",
+          "mode": "plain",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc02",
+          "stage": "b",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc03",
+          "stage": "a",
+          "mode": "plain",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc03",
+          "stage": "a",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 3,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc03",
+          "stage": "b",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        }
+      ],
+      "allVisibleImagesLoaded": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "checkedRunViews": 9,
+      "states": [
+        {
+          "case": "pc01",
+          "stage": "a",
+          "mode": "plain",
+          "state": "failed",
+          "observations": 3,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc01",
+          "stage": "a",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc01",
+          "stage": "b",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc02",
+          "stage": "a",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 3,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc02",
+          "stage": "a",
+          "mode": "plain",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc02",
+          "stage": "b",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc03",
+          "stage": "a",
+          "mode": "plain",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc03",
+          "stage": "a",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 3,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc03",
+          "stage": "b",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        }
+      ],
+      "allVisibleImagesLoaded": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 320,
+      "checkedRunViews": 9,
+      "states": [
+        {
+          "case": "pc01",
+          "stage": "a",
+          "mode": "plain",
+          "state": "failed",
+          "observations": 3,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc01",
+          "stage": "a",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc01",
+          "stage": "b",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc02",
+          "stage": "a",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 3,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc02",
+          "stage": "a",
+          "mode": "plain",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc02",
+          "stage": "b",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 2,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc03",
+          "stage": "a",
+          "mode": "plain",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        },
+        {
+          "case": "pc03",
+          "stage": "a",
+          "mode": "skills",
+          "state": "failed",
+          "observations": 3,
+          "assessment_saved": false
+        },
+        {
+          "case": "pc03",
+          "stage": "b",
+          "mode": "skills",
+          "state": "waiting_evidence",
+          "observations": 2,
+          "assessment_saved": true
+        }
+      ],
+      "allVisibleImagesLoaded": true,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "errors": [],
+  "unexpectedRequests": [],
+  "passed": true
+}

@@ -1,0 +1,312 @@
+{
+  "review_stage": "B",
+  "blind_review": false,
+  "mode_labels_received": true,
+  "target_mode_verbatim": "skills",
+  "catalogue_labels_received": true,
+  "target_model_outputs_received": true,
+  "reviewer_role": "automated_multimodal_reviewer",
+  "expert_validation": false,
+  "review_scope": "来源及模式已提供的AI语义核查，不是真人专家验证或专业真值；不评总体准确率或真品概率。",
+  "source_file": "originals-b/phase-b-pc03/trial-001-1/final-run.json",
+  "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+  "case_id": "pc03",
+  "reviewed_image_sha256": {
+    "view-01.jpg": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+    "view-02.jpg": "ccadede7e42edc579133732d6328f87fd88f4a4190f9530aaa119ab438928977"
+  },
+  "image_access": "actual_original_image_via_view_image",
+  "target_state_verbatim": "waiting_evidence",
+  "target_error_verbatim": null,
+  "accepted_assessment": {
+    "alternatives": [
+      "元代龙泉窑",
+      "明代仿宋龙泉窑"
+    ],
+    "basic_info": "青釉莲瓣碗，外壁有金缮修补，底部未见款识",
+    "claims": [
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "period",
+        "reasoning_summary": "无底部款识，无法独立断代",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "kiln",
+        "reasoning_summary": "无底部款识，无法独立确认窑口",
+        "status": "insufficient",
+        "support": []
+      },
+      {
+        "candidate": "insufficient",
+        "conflict": [],
+        "dimension": "style",
+        "reasoning_summary": "无底部款识，无法排除仿制或后世风格",
+        "status": "insufficient",
+        "support": []
+      }
+    ],
+    "condition_hypotheses": [],
+    "knowledge_citations": [
+      {
+        "chunk_id": "ksrc_5c0e345097af1ba3b7dec6d3_r1_p0001_1b6448d5426e",
+        "chunk_sha256": "1b6448d5426e97b966a10fcf5d8c77eccf2f73fcee21baadb990087879458af6",
+        "document_id": "ksrc_5c0e345097af1ba3b7dec6d3",
+        "document_revision": 1,
+        "document_sha256": "7f12a7c8814dc90be05f8b6ac5f12cd2436da7fd835b44b2c782d767cb54766a",
+        "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+        "relevance": "馆方记录提供时期与窑口参考",
+        "use": "source_context"
+      }
+    ],
+    "limitations": [
+      "底部未见款识，无法排除其他窑口或年代"
+    ],
+    "reference_comparison": "Met馆藏记录（accessionNumber=17.57.1）记载为Southern Song",
+    "reference_ids": [],
+    "revision_explanation": "依据图像观察与馆方记录，支持宋代龙泉窑归属，但需底部款识确认",
+    "scope": "ceramic_research"
+  },
+  "assessment_acceptance_finding": "events/57/result.recorded=true，对应events/56的record_assessment；events/63返回waiting_evidence。只说明该结构记录被接受，不是专家验证或语义正确证明。",
+  "read_knowledge_original": {
+    "original_quote": {
+      "source_json_pointer": "/read_knowledge/0/text",
+      "exact_quote": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Bowl；馆藏编号 accessionNumber=17.57.1；馆方记录的时期 period=Southern Song dynasty (1127–1279)；年代 objectDate=13th century；材质、工艺及窑口字段 medium=Stoneware with celadon glaze (Longquan ware); gold lacquer repairs；尺寸 dimensions=H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+    },
+    "record": {
+      "chunk_id": "ksrc_5c0e345097af1ba3b7dec6d3_r1_p0001_1b6448d5426e",
+      "chunk_sha256": "1b6448d5426e97b966a10fcf5d8c77eccf2f73fcee21baadb990087879458af6",
+      "content_kind": "authorized_text",
+      "document_id": "ksrc_5c0e345097af1ba3b7dec6d3",
+      "document_revision": 1,
+      "document_sha256": "7f12a7c8814dc90be05f8b6ac5f12cd2436da7fd835b44b2c782d767cb54766a",
+      "locator": "Met object 48450 /title,/accessionNumber,/period,/objectDate,/medium,/dimensions; 项目中文标签和边界说明",
+      "read_index": 1,
+      "run_id": "run_0bb71269d71f4c259fa535145393e4ba",
+      "snippet_end": 337,
+      "snippet_start": 0,
+      "text": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Bowl；馆藏编号 accessionNumber=17.57.1；馆方记录的时期 period=Southern Song dynasty (1127–1279)；年代 objectDate=13th century；材质、工艺及窑口字段 medium=Stoneware with celadon glaze (Longquan ware); gold lacquer repairs；尺寸 dimensions=H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+    },
+    "model_visible_body_sha256": [
+      "97960ff317af5bd08824eabd8357a25e3dd0e67f849269f23814e5c0dfc9d339"
+    ],
+    "model_visible_receipt_sha256": [
+      "8d8466dc205a3233778f8464ea807eb610f587d845163fe0d440cf81f32a372a"
+    ],
+    "source_boundary": "原段落自述为本件馆藏来源上下文，并明确不是模型从照片独立得到的年代或窑口；只在该边界内使用。"
+  },
+  "validation_events": [
+    {
+      "event_index": 50,
+      "stage": "evidence_contract",
+      "error_type": "ValueError",
+      "repair_allowed": true,
+      "original_quote": {
+        "source_json_pointer": "/events/50/detail",
+        "exact_quote": "缺少已看图的参照时只能给证据不足或范围外意见"
+      },
+      "semantic_truth_validated": false
+    }
+  ],
+  "submitted_actions": [
+    {
+      "event_index": 49,
+      "accepted": false,
+      "knowledge_citation_count": 1,
+      "claims": [
+        {
+          "candidate": "Southern Song dynasty",
+          "dimension": "period",
+          "status": "supported"
+        },
+        {
+          "candidate": "Longquan ware",
+          "dimension": "kiln",
+          "status": "supported"
+        },
+        {
+          "candidate": "celadon glaze with gold lacquer",
+          "dimension": "style",
+          "status": "supported"
+        }
+      ],
+      "note": "仅记录提交内容；其后validation_error阻止接受。"
+    },
+    {
+      "event_index": 56,
+      "accepted": true,
+      "knowledge_citation_count": 1,
+      "claims": [
+        {
+          "candidate": "insufficient",
+          "dimension": "period",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "insufficient",
+          "dimension": "kiln",
+          "status": "insufficient"
+        },
+        {
+          "candidate": "insufficient",
+          "dimension": "style",
+          "status": "insufficient"
+        }
+      ],
+      "note": "已被events/57记录，意见仍为insufficient。"
+    }
+  ],
+  "claim_checks": [
+    {
+      "check_id": "source_content",
+      "category": "原段落与实际转述",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/read_knowledge/0/text",
+          "exact_quote": "馆藏元数据转录（本件来源上下文，项目中文标签，原字段值保留）：器物名称 title=Bowl；馆藏编号 accessionNumber=17.57.1；馆方记录的时期 period=Southern Song dynasty (1127–1279)；年代 objectDate=13th century；材质、工艺及窑口字段 medium=Stoneware with celadon glaze (Longquan ware); gold lacquer repairs；尺寸 dimensions=H. 2 3/4 in. (7.0 cm); Diam. 5 13/16 in. (14.8 cm)。这些字段是已提供的馆藏陈述，不是模型根据照片独立得到的断代或窑口结果。"
+        },
+        {
+          "source_json_pointer": "/assessment/reference_comparison",
+          "exact_quote": "Met馆藏记录（accessionNumber=17.57.1）记载为Southern Song"
+        },
+        {
+          "source_json_pointer": "/assessment/knowledge_citations/0/use",
+          "exact_quote": "source_context"
+        }
+      ],
+      "finding": "正式段落写南宋、13世纪、Longquan ware和gold lacquer repairs；accepted reference_comparison转述Southern Song和编号，内容相容且引用可追溯。来源边界明确不等于模型独立照片判断。"
+    },
+    {
+      "check_id": "initial_rejected",
+      "category": "被拒动作与后续记录",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/events/49/arguments/claims/0/reasoning_summary",
+          "exact_quote": "青釉莲瓣形与金缮修补符合宋代龙泉窑特征"
+        },
+        {
+          "source_json_pointer": "/events/49/arguments/claims/2/reasoning_summary",
+          "exact_quote": "青釉与金缮修补为典型宋代龙泉窑装饰风格"
+        },
+        {
+          "source_json_pointer": "/events/50/detail",
+          "exact_quote": "缺少已看图的参照时只能给证据不足或范围外意见"
+        }
+      ],
+      "finding": "第一次submitted三个supported被缺已看图参照条件拒绝。其把金缮修补当成宋代龙泉典型装饰/年代特征，原段只记录存在金漆修补，并未给修复时间或把修补视为宋代装饰。该动作不是接受意见；后续三项insufficient才被保存。"
+    },
+    {
+      "check_id": "structured_prose",
+      "category": "结构化状态与说明一致性",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/0/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/2/status",
+          "exact_quote": "insufficient"
+        },
+        {
+          "source_json_pointer": "/assessment/revision_explanation",
+          "exact_quote": "依据图像观察与馆方记录，支持宋代龙泉窑归属，但需底部款识确认"
+        }
+      ],
+      "finding": "存在未消解的证据层级表述不一致：三个状态均insufficient、support=[]且候选也是insufficient，说明文字却笼统说依据图像与馆方记录‘支持宋代龙泉窑归属’。若支持仅指馆方来源标签，与独立断代不足可以逻辑兼容，因此不是必然客观矛盾；原文没有清晰限定义，容易让读者误以为独立归属已获支持。应表述为‘馆方编目为南宋13世纪龙泉；现有照片独立确认仍不足’，不能把技术接受当成此不一致已消除。"
+    },
+    {
+      "check_id": "mark_reasoning",
+      "category": "实际理由是否成立",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/assessment/claims/0/reasoning_summary",
+          "exact_quote": "无底部款识，无法独立断代"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/1/reasoning_summary",
+          "exact_quote": "无底部款识，无法独立确认窑口"
+        },
+        {
+          "source_json_pointer": "/assessment/claims/2/reasoning_summary",
+          "exact_quote": "无底部款识，无法排除仿制或后世风格"
+        },
+        {
+          "source_json_pointer": "/assessment/limitations/0",
+          "exact_quote": "底部未见款识，无法排除其他窑口或年代"
+        },
+        {
+          "source_json_pointer": "/assessment/revision_explanation",
+          "exact_quote": "依据图像观察与馆方记录，支持宋代龙泉窑归属，但需底部款识确认"
+        }
+      ],
+      "finding": "照片未展示外底，不能写成确定无底款。缺独立比较与完整细节可以使归属不足，但‘需底部款识确认’使款识成为必要确认条件，没有由馆方段落或照片建立。款识若存在仍需核验；没有款识也不自动排除通过比较和来源研究建立判断。风格、仿制和年代不能都仅靠底款排除。"
+    },
+    {
+      "check_id": "repair_wording",
+      "category": "可见事实与修补术语",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/observations/0/visible",
+          "exact_quote": "青釉莲瓣碗，外壁有金缮修补"
+        },
+        {
+          "source_json_pointer": "/observations/1/interpretation",
+          "exact_quote": "金缮工艺补缺"
+        },
+        {
+          "source_json_pointer": "/assessment/basic_info",
+          "exact_quote": "青釉莲瓣碗，外壁有金缮修补，底部未见款识"
+        }
+      ],
+      "finding": "青绿碗、外壁瓣状起伏、口沿黄色块和细线可见；当前已给gold lacquer repairs来源，可以明确转述馆方金漆修补。原包在观察/basic_info仍直接命名金缮，没有区分术语的材料技术含义与来源陈述；不能据此判断修补工艺全部细节或年代。"
+    },
+    {
+      "check_id": "marks_request",
+      "category": "补证是否过度依赖款识",
+      "original_quotes": [
+        {
+          "source_json_pointer": "/evidence_request/capture_instructions",
+          "exact_quote": "拍摄器物底部及款识区域，确认是否有铭文或窑口标记"
+        },
+        {
+          "source_json_pointer": "/evidence_request/distinguishes",
+          "exact_quote": "底部款识是判断窑口与年代的关键依据"
+        },
+        {
+          "source_json_pointer": "/evidence_request/reason",
+          "exact_quote": "当前图像未显示底部，无法排除款识或窑口信息"
+        }
+      ],
+      "finding": "‘确认是否有’比预设标记必然存在更克制；但‘底部款识…关键依据’结合revision的‘需…确认’仍过度依赖款识。可拍底足完整面及如有文字近景，另核修复记录和对比器资料；馆方来源已给归属标签，不需为了转述标签强行等待底款。"
+    }
+  ],
+  "source_context_citation_check": {
+    "accepted_citation_present": true,
+    "citation_pointer": "/assessment/knowledge_citations/0",
+    "quoted_use": {
+      "source_json_pointer": "/assessment/knowledge_citations/0/use",
+      "exact_quote": "source_context"
+    },
+    "quoted_relevance": {
+      "source_json_pointer": "/assessment/knowledge_citations/0/relevance",
+      "exact_quote": "馆方记录提供时期与窑口参考"
+    },
+    "metadata_exactly_matches_read_chunk": true,
+    "provenance_finding": "文档、修订、段落、哈希及locator与read_knowledge/0全部一致；use=source_context界定为来源上下文，未提供独立照片断代比较。",
+    "acceptance_event": {
+      "source_json_pointer": "/events/57/result",
+      "exact_value": {
+        "expert_reviewed": false,
+        "recorded": true
+      }
+    }
+  }
+}

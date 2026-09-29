@@ -1,0 +1,63 @@
+{
+  "request_count": 7,
+  "model_event_count": 7,
+  "pairs": [
+    {
+      "request_index": 1,
+      "messages_sha256": "3e5eccd9378c5681ceaeccb033ea623df6d5d9e65711c0e6a9c0f6b34354355a",
+      "event_input_sha256": "3e5eccd9378c5681ceaeccb033ea623df6d5d9e65711c0e6a9c0f6b34354355a",
+      "exact_hash_match": true,
+      "purpose": "vision",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 2,
+      "messages_sha256": "6861e6692b8b5ccee9ba32b6eabf35eacd71944b047d08d8dda987ede5ea7e83",
+      "event_input_sha256": "6861e6692b8b5ccee9ba32b6eabf35eacd71944b047d08d8dda987ede5ea7e83",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 3,
+      "messages_sha256": "20e3653cbf2b59f5aa23e172727ac2a6b9fd213b004146223042ed27931f746a",
+      "event_input_sha256": "20e3653cbf2b59f5aa23e172727ac2a6b9fd213b004146223042ed27931f746a",
+      "exact_hash_match": true,
+      "purpose": "vision",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 4,
+      "messages_sha256": "ba7a22bd07def25ca688e22d5200e5bbcff0fa067dec760ed91d35c2c9f256e1",
+      "event_input_sha256": "ba7a22bd07def25ca688e22d5200e5bbcff0fa067dec760ed91d35c2c9f256e1",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 5,
+      "messages_sha256": "e4416c897ffb48a317ae8ed6dc72b056f9841dd90527f861ef47446897d36d55",
+      "event_input_sha256": "e4416c897ffb48a317ae8ed6dc72b056f9841dd90527f861ef47446897d36d55",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 6,
+      "messages_sha256": "97a7b4d6b5416b03e5a05b9b29561171c6d03f61e5c3b0b409ada678121f36b4",
+      "event_input_sha256": "97a7b4d6b5416b03e5a05b9b29561171c6d03f61e5c3b0b409ada678121f36b4",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    },
+    {
+      "request_index": 7,
+      "messages_sha256": "13fff7e8238d264a0d21fd9f97ec9d8ba5f5479edc4d5da348e21075b8626718",
+      "event_input_sha256": "13fff7e8238d264a0d21fd9f97ec9d8ba5f5479edc4d5da348e21075b8626718",
+      "exact_hash_match": true,
+      "purpose": "action",
+      "outcome": "succeeded"
+    }
+  ],
+  "all_bound": true
+}
