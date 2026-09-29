@@ -2,14 +2,14 @@
   "schema": "cizheng-pitch-artifacts-v1",
   "version": "0.9",
   "language": "zh-CN",
-  "slide_count": 12,
+  "slide_count": 13,
   "rendering": {
     "pdf_producer": "LibreOfficeDev 26.8.0.0.alpha0",
     "source": "same finalized editable PPTX",
     "preview_source": "actual exported PDF pages",
     "width": 1920,
     "height": 1080,
-    "reviewed_page_count": 12
+    "reviewed_page_count": 13
   },
   "editable": {
     "native_diagrams": true,
@@ -18,7 +18,7 @@
       8,
       10
     ],
-    "notes": 12
+    "notes": 13
   },
   "checks": {
     "package_integrity": "pass",
@@ -56,6 +56,30 @@
       "sha256": "1cc100a71af987f0bcbb05633fafb719d212bc0e9112e8ba0c80756a11e65c8a",
       "license": "Public Domain / CC0",
       "source": "https://www.metmuseum.org/art/collection/search/50839",
+      "slide": 13
+    },
+    {
+      "path": "site/assets/public-collection-check/pc01-view-01.jpg",
+      "sha256": "1cc19f67e8fa247bebcdba3accbfe811735a717e9ba13fe5c740aead277a3093",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/854455",
+      "accession": "2021.321a,b",
+      "slide": 12
+    },
+    {
+      "path": "site/assets/public-collection-check/pc02-view-01.jpg",
+      "sha256": "50fb9f27f8706aa1c1f30d3866ffe1600da9512b3f55efca82b02408fae0ddfe",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/42239",
+      "accession": "14.40.396",
+      "slide": 12
+    },
+    {
+      "path": "site/assets/public-collection-check/pc03-view-01.jpg",
+      "sha256": "d8b350d67fee288834444f8d55cec3f8ff158249535e9d3f2e52080f44ee6752",
+      "license": "Public Domain / CC0",
+      "source": "https://www.metmuseum.org/art/collection/search/48450",
+      "accession": "17.57.1",
       "slide": 12
     },
     {
@@ -76,103 +100,108 @@
   "artifacts": [
     {
       "path": "docs/pitch-v09-build.md",
-      "bytes": 2951,
-      "sha256": "5c82da5670adb007813b2fe69ace9c0b7bcdc528ca785fab1a0676fbcd31ceba"
+      "bytes": 3170,
+      "sha256": "b6c3fe32bf4a2a9c37f0f8ddf01c71ef58ba00211ca11c0a31f56b84de58b98c"
     },
     {
       "path": "docs/pitch-v09-notes.md",
-      "bytes": 11195,
-      "sha256": "8ebd7ba60e1cd6599e7909bb31db03b10c9f152799630d7df2f6808c1ba14051"
+      "bytes": 12860,
+      "sha256": "af3525674783899bbddee2222baaf9c6ae04d3c245b4601c259e44c7139111cd"
     },
     {
       "path": "docs/pitch-v09-qa.json",
-      "bytes": 13710,
-      "sha256": "697e1cfe113277c0231a73e81a0476a9d631be19813745d2951b47c876f078c5"
+      "bytes": 12323,
+      "sha256": "aa75574b1d43de5695bbeeabf83255a68527079c45c947e2a12b9d7acfe5da80"
     },
     {
       "path": "scripts/build-pitch-v09.mjs",
-      "bytes": 30842,
-      "sha256": "fe8511a564d5e8962d511899089050102860792c58896a674035a6ba735154af"
+      "bytes": 33310,
+      "sha256": "24306deb631d3a0f6457d6f13093a2033062c936de2a9ee2466521de10cf77ad"
     },
     {
       "path": "scripts/export-pitch-v09.mjs",
-      "bytes": 13715,
-      "sha256": "d5ebc73e01ea26a90f3ff6907f8ebed53cc42430f1f9158e88f9847afb0bb9db"
+      "bytes": 14407,
+      "sha256": "b87461bccb98b07f4b5a5d3dc7f9921278c22ded223a1f5ee31f9d5247314860"
     },
     {
       "path": "site/assets/cizheng-pitch-v07-preview.html",
-      "bytes": 28313,
-      "sha256": "699325be54ee998ec4248c3500c504e3971bdd49046e0a19648444c1a749d29b"
+      "bytes": 31156,
+      "sha256": "579df69e7a15309f2bdcc3ed9cbfa6415d0be005c8196e6f6204fa2fc58bb85a"
     },
     {
       "path": "site/assets/cizheng-pitch-v07.pdf",
-      "bytes": 1360945,
-      "sha256": "9adc1ac3aaf95e89dac3b7c77c016edeac3d10251e82561382fd041f142a1c99"
+      "bytes": 1669057,
+      "sha256": "585fcccbc6804976e5333c09959a3eebad254674a7f070ea29ea23aa46cb3973"
     },
     {
       "path": "site/assets/cizheng-pitch-v07.pptx",
-      "bytes": 794195,
-      "sha256": "f85c327c6305d56656cddee1f747b4e5987a2799e511047182e247bdcf8032a1"
+      "bytes": 4325203,
+      "sha256": "7ac02a5781e745a8cf03c28f0724bb6d22f829b104819dfd6936260c4c881d7e"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-01.png",
-      "bytes": 648040,
-      "sha256": "f1d22b6cc7a04f8abf8dd55f73f2bcbbedbe086132ff1b3a5be1c96111a2c2dc"
+      "bytes": 648374,
+      "sha256": "4f6cfe0dfd57496a64de327306fb11e8c005e7ae02184579a1aa89c77f208766"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-02.png",
-      "bytes": 404174,
-      "sha256": "cd3c3823c9ed69cb9963595be6ded9a4f73a2bb25961f567aa5958b64a94e891"
+      "bytes": 404540,
+      "sha256": "a535f70fe6c4cc732ccd8a89105b45688a0de9db05bda7a0f9aefa1b11d9a31d"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-03.png",
-      "bytes": 470868,
-      "sha256": "b44382e8f466a25196a1d629166337bbcc01c78c09bfe1b681c62f64e369fd69"
+      "bytes": 471197,
+      "sha256": "43df322f4826e9cca48765a2b2b8dd2d28e7f6a5e78f40242cd85b652fe0d26d"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-04.png",
-      "bytes": 223289,
-      "sha256": "a8602e4e513862080745fd235e44df80d7601da585f8cfefd628876b7ce1ac25"
+      "bytes": 225752,
+      "sha256": "5bef1d74606d1bb82666a6d09882b7968e4b47071c9fdb18f8fcfdbb4934583a"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-05.png",
-      "bytes": 311794,
-      "sha256": "4ac6b5ea1e0c9d1bb4a1a1cd382df13bfbb32c9e3d94fcb09307a88f5f88285e"
+      "bytes": 314480,
+      "sha256": "b7a3989fd72026a5a0e84b78827ee84ae85249539f263e121fd071daaed23cfa"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-06.png",
-      "bytes": 276235,
-      "sha256": "5464d553d8af292cdafb758b44d9f91dc3d097d76898b131009b2aef5cc7e279"
+      "bytes": 267454,
+      "sha256": "97d60f022ec05c72451daf84f4a90bff61bd70cbaf9002b008597975ba6e844a"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-07.png",
-      "bytes": 280535,
-      "sha256": "fea38426cf737eb3cd61af29bd55e0f3cbe3ee32044fa068df3eeff436a78752"
+      "bytes": 289632,
+      "sha256": "80c52bd9f6f69ed38dc1da2d9b774b9864f11672cf0a1d520fc035e838181a27"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-08.png",
-      "bytes": 365464,
-      "sha256": "d19e8ff4e0c5d6b28adacb4d6d65a2ab9d004a0a7bf0860f31fecdd8826b95c0"
+      "bytes": 365735,
+      "sha256": "4dc84188e79dc5541dfe432106f0273c72173fa3f2dcd81bcea1e32befcd1db5"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-09.png",
-      "bytes": 406247,
-      "sha256": "0d91458f2fbd586c5e276f46d30382060fbd1d497fec946f6ec63c89ff53fe71"
+      "bytes": 407910,
+      "sha256": "389e72fd3d4f6f8a01ec3432d00aae552e180fecf32f8c961100ae0361fe67e9"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-10.png",
-      "bytes": 231636,
-      "sha256": "de9b24dcbcdaff3ac2b578763e1ce281fa07ea6ece57b26c62a3ecb9e6b756b3"
+      "bytes": 233262,
+      "sha256": "970f6a79936d27a795af8b50d332bc8dba6ad188b0a5fd5f0bd943a898a665b9"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-11.png",
-      "bytes": 236391,
-      "sha256": "1987e433b260cca51173afd0f6718eefa3113a20b84de170036ee07d20f4f445"
+      "bytes": 238398,
+      "sha256": "82f6e161a5c91f5ed6e09f5dce5e4d28afa6630c61488f7e4d9866069770acff"
     },
     {
       "path": "site/assets/cizheng-pitch-v09/slide-12.png",
-      "bytes": 806480,
-      "sha256": "01c7ed0caa45634d02b134b83ff4d81a82de9b0cd779a471bb204f16f6dd125c"
+      "bytes": 672772,
+      "sha256": "7b297a8eee4d22501b79dd18e76c04984010d06e9599d1cbc465cde523b800fd"
+    },
+    {
+      "path": "site/assets/cizheng-pitch-v09/slide-13.png",
+      "bytes": 813382,
+      "sha256": "c5999c5323e23aad89713c3a980390b97d998cc7aaedbfa1ed3a771b22298d0a"
     }
   ],
   "manifest_scope": "All overlay files except this self-referential manifest. Original source images are embedded in PPTX; not copied again into this overlay."

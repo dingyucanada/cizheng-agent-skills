@@ -30,7 +30,7 @@
 
 本次52次主模型消息输入、回复和图片字节完成对应核对；另有一次真实StepFun公开文字反证及逐项处理。四轮保存意见并等待补证，五轮停止，原件均保留。可见工艺命名、底款的补证作用和来源转述分别核查；没有把流程状态当作专业准确率，也没有用馆方答案补写模型意见。**这是基于公开馆藏资料的个案核查**，AI核查角色和输入范围明确，真人专家验证和概率校准仍是后续工作。
 
-完整开源交付包含前后端、七个 `SKILL.md` 方法包、部署脚本、教学素材、测试、图文报告及视频。[中文路演 PPT](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pptx) · [路演 PDF](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pdf) · [使用说明](docs/user-guide.md)
+完整开源交付包含前后端、七个 `SKILL.md` 方法包、部署脚本、教学素材、测试、图文报告及视频。[在线浏览中文路演](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07-preview.html) · [中文路演 PPT](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pptx) · [路演 PDF](https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-pitch-v07.pdf) · [使用说明](docs/user-guide.md)
 
 ## 逐条核查观察、理由与引用
 
