@@ -1,0 +1,216 @@
+{
+  "scene": "observe",
+  "number": 4,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "8f26b7d7c81ae043badce380c42ce60ab7e7c3ccb4ce1447248aa117cad34e75",
+  "response_sse_sha256": "2caff1bad44dbea5a137b39242cc556d1ad7aaa36015a7da4069d9d8766ab82f",
+  "audio": "04-observe.mp3",
+  "audio_sha256": "c2af289a36fd5b315589defb2987d1039f0101201ed3285940da010785f9a8e0",
+  "audio_bytes": 179630,
+  "duration_seconds": 11.136,
+  "elapsed_seconds": 4.396420333,
+  "input": "先观察，再解释。山水、花篮、口沿和装饰带，都应当指回具体照片与区域，避免只留下模糊印象。",
+  "subtitles": [
+    {
+      "text": "先观察，再解释。山水、花篮、口沿和装饰带，都应当指回具体照片与区域，避免只留下模糊印象。",
+      "request_id": "e1b938f76a212fddc476ad6b36429101.01a0eb4eea207ccca257ed52d183e71f",
+      "items": [
+        {
+          "text": "先",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "观",
+          "start_time": 480,
+          "end_time": 720
+        },
+        {
+          "text": "察，",
+          "start_time": 720,
+          "end_time": 1280
+        },
+        {
+          "text": "再",
+          "start_time": 1360,
+          "end_time": 1520
+        },
+        {
+          "text": "解",
+          "start_time": 1520,
+          "end_time": 1760
+        },
+        {
+          "text": "释。",
+          "start_time": 1760,
+          "end_time": 2000
+        },
+        {
+          "text": "山",
+          "start_time": 2960,
+          "end_time": 3200
+        },
+        {
+          "text": "水、",
+          "start_time": 3200,
+          "end_time": 3600
+        },
+        {
+          "text": "花",
+          "start_time": 3760,
+          "end_time": 4080
+        },
+        {
+          "text": "篮、",
+          "start_time": 4080,
+          "end_time": 4400
+        },
+        {
+          "text": "口",
+          "start_time": 4640,
+          "end_time": 4880
+        },
+        {
+          "text": "沿",
+          "start_time": 4880,
+          "end_time": 5200
+        },
+        {
+          "text": "和",
+          "start_time": 5280,
+          "end_time": 5440
+        },
+        {
+          "text": "装",
+          "start_time": 5440,
+          "end_time": 5600
+        },
+        {
+          "text": "饰",
+          "start_time": 5600,
+          "end_time": 5760
+        },
+        {
+          "text": "带，",
+          "start_time": 5760,
+          "end_time": 6000
+        },
+        {
+          "text": "都",
+          "start_time": 6800,
+          "end_time": 6960
+        },
+        {
+          "text": "应",
+          "start_time": 6960,
+          "end_time": 7040
+        },
+        {
+          "text": "当",
+          "start_time": 7040,
+          "end_time": 7200
+        },
+        {
+          "text": "指",
+          "start_time": 7200,
+          "end_time": 7440
+        },
+        {
+          "text": "回",
+          "start_time": 7440,
+          "end_time": 7680
+        },
+        {
+          "text": "具",
+          "start_time": 7680,
+          "end_time": 7760
+        },
+        {
+          "text": "体",
+          "start_time": 7760,
+          "end_time": 7920
+        },
+        {
+          "text": "照",
+          "start_time": 7920,
+          "end_time": 8080
+        },
+        {
+          "text": "片",
+          "start_time": 8080,
+          "end_time": 8320
+        },
+        {
+          "text": "与",
+          "start_time": 8320,
+          "end_time": 8480
+        },
+        {
+          "text": "区",
+          "start_time": 8480,
+          "end_time": 8800
+        },
+        {
+          "text": "域，",
+          "start_time": 8800,
+          "end_time": 8960
+        },
+        {
+          "text": "避",
+          "start_time": 9280,
+          "end_time": 9440
+        },
+        {
+          "text": "免",
+          "start_time": 9440,
+          "end_time": 9600
+        },
+        {
+          "text": "只",
+          "start_time": 9600,
+          "end_time": 9680
+        },
+        {
+          "text": "留",
+          "start_time": 9680,
+          "end_time": 9840
+        },
+        {
+          "text": "下",
+          "start_time": 9840,
+          "end_time": 10000
+        },
+        {
+          "text": "模",
+          "start_time": 10000,
+          "end_time": 10160
+        },
+        {
+          "text": "糊",
+          "start_time": 10160,
+          "end_time": 10320
+        },
+        {
+          "text": "印",
+          "start_time": 10320,
+          "end_time": 10480
+        },
+        {
+          "text": "象。",
+          "start_time": 10480,
+          "end_time": 10720
+        }
+      ],
+      "timestamp": 1790654216792
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

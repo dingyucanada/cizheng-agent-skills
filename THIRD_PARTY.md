@@ -8,7 +8,7 @@
 
 官方培训和 NVIDIA/skills 的设计经验引用见外部学习报告及 docs/training-implementation.md。部署脚本是项目适配层，不包含NVIDIA官方已签名Skill修改件；本包没有完整TAO、VSS或RAG Blueprint依赖。候选模型和vLLM镜像须遵守各自上游许可及固定版本。
 
-StepFun仅通过项目文字API适配器使用，没分发其权重。Laya影子入口默认关闭，若手动安装须检查上游许可证和模型来源；它不参与视觉判断。Jev浏览器外部服务不进入本地核心链路。
+StepFun通过项目文字API适配器审查获批文字；公开Demo讲稿另调用`stepaudio-2.5-tts`官方系统音色生成中文旁白，`stepaudio-2.5-asr`用于成片内容转写检查。没有发送器物原图、克隆第三方真人声音或分发StepFun权重；[配音素材及实际回执](verification/media/stepfun-demo-v10/index.json)与器物研究输入分开。Laya影子入口默认关闭，若手动安装须检查上游许可证和模型来源；它不参与视觉判断。Jev浏览器外部服务不进入本地核心链路。
 
 公开教学扩展包含 Met 51185（79.2.1202a, b）与 50839（61.200.30）的馆方公版JPEG。具体下载地址、原字节SHA256及对象页权利记录见 examples/public-demo/professional-cases.json；原有48607图像记录仍见 sources.json。知识资料仅分发项目原创短摘要及出处，机构页面全文、其他机构图片和私人文件未纳入代码包。项目原创摘要统一标为待专家核查；原页面版权不因写入摘要而改变。
 

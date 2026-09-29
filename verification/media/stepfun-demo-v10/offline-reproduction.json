@@ -1,0 +1,11 @@
+{
+  "mode": "keyless cached synthesis + procedural score + complete movie encode from public repository inputs",
+  "network_calls": 0,
+  "movie_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
+  "offline_movie_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
+  "exact_same_movie_bytes_in_actual_environment": true,
+  "music_sha256": "ba06ffbad20c88eca94a33759c09883cd4a3d364b4fc335462078032ea1d9b9d",
+  "historical_music_sha256": "ba06ffbad20c88eca94a33759c09883cd4a3d364b4fc335462078032ea1d9b9d",
+  "offline_inputs": "tools/media/stepfun-demo-v10/",
+  "cross_device_byte_identity_promised": false
+}

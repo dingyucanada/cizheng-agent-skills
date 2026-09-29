@@ -6,12 +6,12 @@
 |---|---|---|
 | [产品主页](https://dingyucanada.github.io/cizheng-agent-skills/) | 博物馆 / 收藏者 / 拍卖图录三类流程、Skills 案例、架构和资料入口 | 单人受控试用；首页不展示比赛评分表 |
 | [免上传完整体验](https://dingyucanada.github.io/cizheng-agent-skills/demo.html) | 三个真实公开馆藏教学案，编辑、定位、补证、复核、导出可实际操作 | 项目编写研究示例，不调用模型，不是未知器物鉴定 |
-| [3:13 中文场景演示](../site/assets/cizheng-demo-v07.mp4) | 已真实生成 193.12 秒 / 1920×1080 中文合成旁白、原创背景音乐与字幕场景讲解 | 预置教学 / 未调用模型；非连续真实推理录像 |
+| [3:13 中文场景演示](../site/assets/cizheng-demo-v07.mp4) | 已真实生成 193.12 秒 / 1920×1080 StepFun 整段中文旁白、原创音乐与时间戳字幕；固定画面、无持续缩放 | 预置教学 / 未调用模型；非连续真实推理录像 |
 | [1:20 真实 AI 记录回放](../site/assets/cizheng-ai-replay-v07.mp4) | 根据第 12 轮真实保存记录生成 80 秒静音中文图文；附 [来源 JSON](../site/assets/cizheng-ai-replay-v07.json) 与 [字幕](../site/assets/cizheng-ai-replay-v07.srt) | 初稿、一次批准文字审查、本地修订、NAT 和两版导出技术完成，专业质量 false；非连续屏幕录制、非专家验收 |
 | [第 11 轮历史失败回放](../site/assets/cizheng-ai-replay-round11-v07.mp4) | 原 80 秒回放与 [来源 JSON](../site/assets/cizheng-ai-replay-round11-v07.json) / [字幕](../site/assets/cizheng-ai-replay-round11-v07.srt)另存归档，未删除旧失败 | 展示第 11 轮初稿 / 审查成功、修订合同停止；不是最新第 12 轮终态 |
 | [产品与架构 PPT](../site/assets/cizheng-pitch-v07.pptx) | 新版12页可编辑中文 PowerPoint，产品场景、原生架构、Skills 与实际Spark分工 | 用于介绍，不把工程测试或合成探针当专业效果 |
 | [开发纪实](development-story.md) / [公开 story 页面](https://dingyucanada.github.io/cizheng-agent-skills/story.html) | 已有完整文章与公开页文件，记录实际制作、失败和证据 | 用户已手动发布固定知乎征文URL；本仓库更新稿需用户手动同步，B站另行发布以真实记录为准 |
-| [源码与运行证据](../verification/nvidia/v07-workflows/README.md) | 软件、失败、脱敏回执、来源 / 公开 SHA 和逐调用绑定 | 本轮由根任务统一发布；不含用户私有材料、密钥或权重 |
+| [源码与运行证据](../verification/nvidia/v07-workflows/README.md) | 软件、失败、脱敏回执、来源 / 公开 SHA 和逐调用绑定 | 以实际 Git 提交与公开发布记录为准；不含用户私有材料、密钥或权重 |
 | 专家验证 | 已有 [接入字段与盲评流程](expert-validation-intake.md) | 样本在另一台电脑，尚未接收验证 / 校准真品率 / 完成 Skills 对照 |
 
 介绍幻灯片也可 [预览实际 PPT 渲染](../site/assets/cizheng-pitch-v07-preview.html)或 [下载 PDF](../site/assets/cizheng-pitch-v07.pdf)。[最终媒体清单](../site/assets/media-manifest-v07.json)记录实际文件 SHA 与演示边界；预览来自最终 PPT 的实际 Office 渲染，不能将它计为专家质量验证。

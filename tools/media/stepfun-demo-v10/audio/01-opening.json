@@ -1,0 +1,222 @@
+{
+  "status": 200,
+  "content_type": "text/event-stream",
+  "types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "duration_seconds": 9.024,
+  "subtitles": [
+    {
+      "text": "一件青花器物，值得研究的，不只是它像哪个年代。更重要的是：这个判断，依据什么，又缺什么？",
+      "request_id": "0f171f9d95f637cceff9fcb80b0f187f.01a0eb4dbb4f73b58950753bedc05c00",
+      "items": [
+        {
+          "text": "一",
+          "start_time": 240,
+          "end_time": 400
+        },
+        {
+          "text": "件",
+          "start_time": 400,
+          "end_time": 560
+        },
+        {
+          "text": "青",
+          "start_time": 560,
+          "end_time": 880
+        },
+        {
+          "text": "花",
+          "start_time": 880,
+          "end_time": 1040
+        },
+        {
+          "text": "器",
+          "start_time": 1040,
+          "end_time": 1280
+        },
+        {
+          "text": "物，",
+          "start_time": 1280,
+          "end_time": 1520
+        },
+        {
+          "text": "值",
+          "start_time": 1840,
+          "end_time": 2080
+        },
+        {
+          "text": "得",
+          "start_time": 2080,
+          "end_time": 2160
+        },
+        {
+          "text": "研",
+          "start_time": 2160,
+          "end_time": 2320
+        },
+        {
+          "text": "究",
+          "start_time": 2320,
+          "end_time": 2480
+        },
+        {
+          "text": "的，",
+          "start_time": 2480,
+          "end_time": 2560
+        },
+        {
+          "text": "不",
+          "start_time": 2560,
+          "end_time": 2640
+        },
+        {
+          "text": "只",
+          "start_time": 2640,
+          "end_time": 2800
+        },
+        {
+          "text": "是",
+          "start_time": 2800,
+          "end_time": 2880
+        },
+        {
+          "text": "它",
+          "start_time": 2880,
+          "end_time": 3040
+        },
+        {
+          "text": "像",
+          "start_time": 3040,
+          "end_time": 3200
+        },
+        {
+          "text": "哪",
+          "start_time": 3200,
+          "end_time": 3360
+        },
+        {
+          "text": "个",
+          "start_time": 3360,
+          "end_time": 3520
+        },
+        {
+          "text": "年",
+          "start_time": 3520,
+          "end_time": 3680
+        },
+        {
+          "text": "代。",
+          "start_time": 3680,
+          "end_time": 4000
+        },
+        {
+          "text": "更",
+          "start_time": 4720,
+          "end_time": 4960
+        },
+        {
+          "text": "重",
+          "start_time": 4960,
+          "end_time": 5120
+        },
+        {
+          "text": "要",
+          "start_time": 5120,
+          "end_time": 5280
+        },
+        {
+          "text": "的",
+          "start_time": 5280,
+          "end_time": 5360
+        },
+        {
+          "text": "是：",
+          "start_time": 5360,
+          "end_time": 5760
+        },
+        {
+          "text": "这",
+          "start_time": 6080,
+          "end_time": 6320
+        },
+        {
+          "text": "个",
+          "start_time": 6320,
+          "end_time": 6400
+        },
+        {
+          "text": "判",
+          "start_time": 6400,
+          "end_time": 6640
+        },
+        {
+          "text": "断，",
+          "start_time": 6640,
+          "end_time": 6960
+        },
+        {
+          "text": "依",
+          "start_time": 7200,
+          "end_time": 7360
+        },
+        {
+          "text": "据",
+          "start_time": 7360,
+          "end_time": 7520
+        },
+        {
+          "text": "什",
+          "start_time": 7520,
+          "end_time": 7680
+        },
+        {
+          "text": "么，",
+          "start_time": 7680,
+          "end_time": 7840
+        },
+        {
+          "text": "又",
+          "start_time": 8240,
+          "end_time": 8400
+        },
+        {
+          "text": "缺",
+          "start_time": 8400,
+          "end_time": 8640
+        },
+        {
+          "text": "什",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "么？",
+          "start_time": 8800,
+          "end_time": 8880
+        }
+      ],
+      "timestamp": 1790654139173
+    }
+  ],
+  "raw_sse_sha256": "495d2f71e362847454dda4fd74d6904d04552e0af96faaa96b9a30af4c8f4e28",
+  "request_sha256": "5592647f4f502c73e92dd648f5325e4cad5f646f44b3c8e450710aa79accbf00",
+  "audio_sha256": "8ddb4a3e7ec642035351b59983ba55c0f2550eab3a710b72cdeff44fc1012f73",
+  "elapsed_seconds": 4.488824292,
+  "retry_count": 0,
+  "scene": "opening",
+  "number": 1,
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "audio": "01-opening.mp3",
+  "audio_bytes": 145838,
+  "response_sse_sha256": "495d2f71e362847454dda4fd74d6904d04552e0af96faaa96b9a30af4c8f4e28",
+  "input": "一件青花器物，值得研究的，不只是它像哪个年代。更重要的是：这个判断，依据什么，又缺什么？",
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ]
+}

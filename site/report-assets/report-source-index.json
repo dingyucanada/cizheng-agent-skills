@@ -317,22 +317,22 @@
     },
     {
       "path": "site/assets/cizheng-demo-v07.mp4",
-      "actual_public_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536",
-      "bytes": 25322365,
+      "actual_public_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
+      "bytes": 8935648,
       "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "site/assets/cizheng-demo-v07.srt",
-      "actual_public_sha256": "a02ecc9834cb544cdc45a5dab5e3a04c1a0a1e40e9321c70c1731cf99bfd431c",
-      "bytes": 4250,
+      "actual_public_sha256": "ce7a5e9e08871dee355e5206c6f207e7d8f380a1644a8a4d069be16334a9c00b",
+      "bytes": 4281,
       "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "site/assets/cizheng-demo-v07.json",
-      "actual_public_sha256": "99628c19761776b0e4e700bd5cc5e12e3215fd85b3a87b24ce5a99634e267841",
-      "bytes": 13669,
+      "actual_public_sha256": "53017493248940caebcff4bd27bb47328004d34375b4d8298ea3584be134928b",
+      "bytes": 20379,
       "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
@@ -387,15 +387,15 @@
     },
     {
       "path": "site/assets/media-manifest-v07.json",
-      "actual_public_sha256": "792449d4b3b63e25447f45a8958939531e7d5a6c6a58904f650363467a392be6",
-      "bytes": 7861,
+      "actual_public_sha256": "1c4c137ac6fcd48dc6b1bff2152f19de54a75613a75e9bb7e22d510937a97ebb",
+      "bytes": 10129,
       "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
     {
       "path": "site/assets/cizheng-media-qa-v07.json",
-      "actual_public_sha256": "f150aeb5b69863cad5b06f7e65d0af47a5fb11104f965440bd0144bbbf3da616",
-      "bytes": 1991,
+      "actual_public_sha256": "78079f697e6487d1d7fc7df6553cbe26cbd2d5f291740ec487522f918c78a590",
+      "bytes": 2359,
       "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
       "public_normalization": false
     },
@@ -418,6 +418,76 @@
       "actual_public_sha256": "dfca26b94634e2b9f48be0ac29e7ca969c77ccd332dcb142493705ee8f9d4e17",
       "bytes": 289136,
       "scope": "New independently bound deployment, software or final media artifact; not a modification of original case records",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/index.json",
+      "actual_public_sha256": "cdda732e5499899649c360261abc966a15c8d05737f710e2855ecbf074021977",
+      "bytes": 19657,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/verification.json",
+      "actual_public_sha256": "cc830c4bf845c9178c193056a42cde402eb3839a07e608268dcc06eb0681da45",
+      "bytes": 6759,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/final-asr.json",
+      "actual_public_sha256": "eb6901d1b65e12fe8765ca368d5bd4f2d79fd935be5ade8a41bbc76343ec5eed",
+      "bytes": 3722,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/voice-receipt.json",
+      "actual_public_sha256": "2bfd0524a9da02b02c927b41421641b23b86b7493b571968ab33ba10c6e13190",
+      "bytes": 121770,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/offline-reproduction.json",
+      "actual_public_sha256": "b4a03dcdecdab8ed042f662acafc83c69776253228f922774ca6399949a2c5bc",
+      "bytes": 656,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "tools/media/stepfun-demo-v10/README.md",
+      "actual_public_sha256": "c1fa8ac0fbd958336d1a36982741c3cb4a6c5deed9149b5d524cbd49d5b21985",
+      "bytes": 4048,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "README.md",
+      "actual_public_sha256": "71a40c649cd136fb517fdf71c801355fb37ab77cc6553de2141ec8919fd32189",
+      "bytes": 19453,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "docs/project-overview.md",
+      "actual_public_sha256": "709283908ae8504ecc98ab8729f33fec60abcb95b508e227ef1b0c7c3e25ce68",
+      "bytes": 9935,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "docs/deployment-guide.md",
+      "actual_public_sha256": "838277c6b124145192e7d98d0dc7052204f51564e4eb1885cd4f16f38edc2f85",
+      "bytes": 15968,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
+      "public_normalization": false
+    },
+    {
+      "path": "docs/technology-stack.md",
+      "actual_public_sha256": "6697ad8bf4fc5d6d6e91e0e3a3755f5a8168543965ba9b213ec8e4349c587e3d",
+      "bytes": 11526,
+      "scope": "Chinese submission documentation or current StepFun demo; original case findings unchanged",
       "public_normalization": false
     }
   ],

@@ -1,0 +1,321 @@
+{
+  "scene": "supplement",
+  "number": 10,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "b5a6b73cc9f05f5f0689fdc376f7fec54ddc50c54b07b73c416f6e0f5c39e756",
+  "response_sse_sha256": "dbc448a45e1a9b3b1b412d3e4593ef07f345125c96daf424f4035ae008eb6068",
+  "audio": "10-supplement.mp3",
+  "audio_sha256": "81586691be1f0e222852903792d0d46a8bfbad01ff85704344ee195446689159",
+  "audio_bytes": 198062,
+  "duration_seconds": 12.288,
+  "elapsed_seconds": 5.0508074588142335,
+  "input": "有缺口，就把补充材料的建议说具体。补拍清楚的局部、底足和款识，或补充有许可的专业记录，让下一轮研究围绕问题展开，而不是重新猜一遍。",
+  "subtitles": [
+    {
+      "text": "有缺口，就把补充材料的建议说具体。补拍清楚的局部、底足和款识，或补充有许可的专业记录，让下一轮研究围绕问题展开，而不是重新猜一遍。",
+      "request_id": "c3949e2b87ce82c1f92a1819a88d64bf.01a0eb5669bb7257a03c56eb4df8e9a5",
+      "items": [
+        {
+          "text": "有",
+          "start_time": 160,
+          "end_time": 320
+        },
+        {
+          "text": "缺",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "口，",
+          "start_time": 560,
+          "end_time": 880
+        },
+        {
+          "text": "就",
+          "start_time": 1200,
+          "end_time": 1360
+        },
+        {
+          "text": "把",
+          "start_time": 1360,
+          "end_time": 1440
+        },
+        {
+          "text": "补",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "充",
+          "start_time": 1600,
+          "end_time": 1760
+        },
+        {
+          "text": "材",
+          "start_time": 1760,
+          "end_time": 2000
+        },
+        {
+          "text": "料",
+          "start_time": 2000,
+          "end_time": 2080
+        },
+        {
+          "text": "的",
+          "start_time": 2080,
+          "end_time": 2240
+        },
+        {
+          "text": "建",
+          "start_time": 2240,
+          "end_time": 2400
+        },
+        {
+          "text": "议",
+          "start_time": 2400,
+          "end_time": 2560
+        },
+        {
+          "text": "说",
+          "start_time": 2640,
+          "end_time": 2880
+        },
+        {
+          "text": "具",
+          "start_time": 2880,
+          "end_time": 3040
+        },
+        {
+          "text": "体。",
+          "start_time": 3040,
+          "end_time": 3200
+        },
+        {
+          "text": "补",
+          "start_time": 3680,
+          "end_time": 3840
+        },
+        {
+          "text": "拍",
+          "start_time": 3840,
+          "end_time": 4080
+        },
+        {
+          "text": "清",
+          "start_time": 4080,
+          "end_time": 4240
+        },
+        {
+          "text": "楚",
+          "start_time": 4240,
+          "end_time": 4400
+        },
+        {
+          "text": "的",
+          "start_time": 4400,
+          "end_time": 4480
+        },
+        {
+          "text": "局",
+          "start_time": 4480,
+          "end_time": 4640
+        },
+        {
+          "text": "部、",
+          "start_time": 4640,
+          "end_time": 5040
+        },
+        {
+          "text": "底",
+          "start_time": 5120,
+          "end_time": 5280
+        },
+        {
+          "text": "足",
+          "start_time": 5280,
+          "end_time": 5600
+        },
+        {
+          "text": "和",
+          "start_time": 5600,
+          "end_time": 5760
+        },
+        {
+          "text": "款",
+          "start_time": 5760,
+          "end_time": 6000
+        },
+        {
+          "text": "识，",
+          "start_time": 6000,
+          "end_time": 6320
+        },
+        {
+          "text": "或",
+          "start_time": 6560,
+          "end_time": 6720
+        },
+        {
+          "text": "补",
+          "start_time": 6720,
+          "end_time": 6880
+        },
+        {
+          "text": "充",
+          "start_time": 6880,
+          "end_time": 7120
+        },
+        {
+          "text": "有",
+          "start_time": 7120,
+          "end_time": 7200
+        },
+        {
+          "text": "许",
+          "start_time": 7200,
+          "end_time": 7440
+        },
+        {
+          "text": "可",
+          "start_time": 7440,
+          "end_time": 7600
+        },
+        {
+          "text": "的",
+          "start_time": 7600,
+          "end_time": 7680
+        },
+        {
+          "text": "专",
+          "start_time": 7680,
+          "end_time": 7840
+        },
+        {
+          "text": "业",
+          "start_time": 7840,
+          "end_time": 8000
+        },
+        {
+          "text": "记",
+          "start_time": 8000,
+          "end_time": 8160
+        },
+        {
+          "text": "录，",
+          "start_time": 8160,
+          "end_time": 8320
+        },
+        {
+          "text": "让",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "下",
+          "start_time": 8800,
+          "end_time": 9040
+        },
+        {
+          "text": "一",
+          "start_time": 9040,
+          "end_time": 9040
+        },
+        {
+          "text": "轮",
+          "start_time": 9040,
+          "end_time": 9280
+        },
+        {
+          "text": "研",
+          "start_time": 9280,
+          "end_time": 9440
+        },
+        {
+          "text": "究",
+          "start_time": 9440,
+          "end_time": 9600
+        },
+        {
+          "text": "围",
+          "start_time": 9600,
+          "end_time": 9760
+        },
+        {
+          "text": "绕",
+          "start_time": 9760,
+          "end_time": 9920
+        },
+        {
+          "text": "问",
+          "start_time": 9920,
+          "end_time": 10080
+        },
+        {
+          "text": "题",
+          "start_time": 10080,
+          "end_time": 10240
+        },
+        {
+          "text": "展",
+          "start_time": 10240,
+          "end_time": 10400
+        },
+        {
+          "text": "开，",
+          "start_time": 10400,
+          "end_time": 10720
+        },
+        {
+          "text": "而",
+          "start_time": 10960,
+          "end_time": 11120
+        },
+        {
+          "text": "不",
+          "start_time": 11120,
+          "end_time": 11200
+        },
+        {
+          "text": "是",
+          "start_time": 11200,
+          "end_time": 11360
+        },
+        {
+          "text": "重",
+          "start_time": 11360,
+          "end_time": 11520
+        },
+        {
+          "text": "新",
+          "start_time": 11520,
+          "end_time": 11680
+        },
+        {
+          "text": "猜",
+          "start_time": 11680,
+          "end_time": 11840
+        },
+        {
+          "text": "一",
+          "start_time": 11840,
+          "end_time": 12000
+        },
+        {
+          "text": "遍。",
+          "start_time": 12000,
+          "end_time": 12160
+        }
+      ],
+      "timestamp": 1790654708758
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

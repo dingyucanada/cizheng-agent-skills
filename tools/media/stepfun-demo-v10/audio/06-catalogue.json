@@ -1,0 +1,241 @@
+{
+  "scene": "catalogue",
+  "number": 6,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "f5081134b7ba300cb6be73d71c27628fc79dc0cbb22886fc1b085214204d677a",
+  "response_sse_sha256": "50e8c109917c88630cb7fd4c436dc88b8a1515d65b3fd01159470e783a5c8a0c",
+  "audio": "06-catalogue.mp3",
+  "audio_sha256": "74de7149c18a140c68b90c81271c8e39b3c5784b4c50382aa56d216e3f08451d",
+  "audio_bytes": 148138,
+  "duration_seconds": 9.168,
+  "elapsed_seconds": 4.4115675,
+  "input": "这组照片来自公开馆藏，参照对象可以明确核对。对未知器物，不能把另一个馆藏的标签，直接当成真值。",
+  "subtitles": [
+    {
+      "text": "这组照片来自公开馆藏，参照对象可以明确核对。对未知器物，不能把另一个馆藏的标签，直接当成真值。",
+      "request_id": "745d4ec4ca3e5b9d379d8c9cb0f3de1c.01a0eb4efb47755fbc4f99cf6fb6749f",
+      "items": [
+        {
+          "text": "这",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "组",
+          "start_time": 480,
+          "end_time": 640
+        },
+        {
+          "text": "照",
+          "start_time": 640,
+          "end_time": 800
+        },
+        {
+          "text": "片",
+          "start_time": 800,
+          "end_time": 1040
+        },
+        {
+          "text": "来",
+          "start_time": 1040,
+          "end_time": 1200
+        },
+        {
+          "text": "自",
+          "start_time": 1200,
+          "end_time": 1280
+        },
+        {
+          "text": "公",
+          "start_time": 1280,
+          "end_time": 1440
+        },
+        {
+          "text": "开",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "馆",
+          "start_time": 1600,
+          "end_time": 1760
+        },
+        {
+          "text": "藏，",
+          "start_time": 1760,
+          "end_time": 2160
+        },
+        {
+          "text": "参",
+          "start_time": 2640,
+          "end_time": 2800
+        },
+        {
+          "text": "照",
+          "start_time": 2800,
+          "end_time": 2960
+        },
+        {
+          "text": "对",
+          "start_time": 2960,
+          "end_time": 3040
+        },
+        {
+          "text": "象",
+          "start_time": 3040,
+          "end_time": 3440
+        },
+        {
+          "text": "可",
+          "start_time": 3520,
+          "end_time": 3600
+        },
+        {
+          "text": "以",
+          "start_time": 3600,
+          "end_time": 3680
+        },
+        {
+          "text": "明",
+          "start_time": 3680,
+          "end_time": 3840
+        },
+        {
+          "text": "确",
+          "start_time": 3840,
+          "end_time": 4000
+        },
+        {
+          "text": "核",
+          "start_time": 4000,
+          "end_time": 4160
+        },
+        {
+          "text": "对。",
+          "start_time": 4160,
+          "end_time": 4320
+        },
+        {
+          "text": "对",
+          "start_time": 5280,
+          "end_time": 5440
+        },
+        {
+          "text": "未",
+          "start_time": 5440,
+          "end_time": 5600
+        },
+        {
+          "text": "知",
+          "start_time": 5600,
+          "end_time": 5760
+        },
+        {
+          "text": "器",
+          "start_time": 5760,
+          "end_time": 6000
+        },
+        {
+          "text": "物，",
+          "start_time": 6000,
+          "end_time": 6400
+        },
+        {
+          "text": "不",
+          "start_time": 6400,
+          "end_time": 6560
+        },
+        {
+          "text": "能",
+          "start_time": 6560,
+          "end_time": 6640
+        },
+        {
+          "text": "把",
+          "start_time": 6640,
+          "end_time": 6720
+        },
+        {
+          "text": "另",
+          "start_time": 6720,
+          "end_time": 6960
+        },
+        {
+          "text": "一",
+          "start_time": 6960,
+          "end_time": 7040
+        },
+        {
+          "text": "个",
+          "start_time": 7040,
+          "end_time": 7120
+        },
+        {
+          "text": "馆",
+          "start_time": 7120,
+          "end_time": 7280
+        },
+        {
+          "text": "藏",
+          "start_time": 7280,
+          "end_time": 7440
+        },
+        {
+          "text": "的",
+          "start_time": 7440,
+          "end_time": 7520
+        },
+        {
+          "text": "标",
+          "start_time": 7520,
+          "end_time": 7680
+        },
+        {
+          "text": "签，",
+          "start_time": 7680,
+          "end_time": 8000
+        },
+        {
+          "text": "直",
+          "start_time": 8080,
+          "end_time": 8240
+        },
+        {
+          "text": "接",
+          "start_time": 8240,
+          "end_time": 8320
+        },
+        {
+          "text": "当",
+          "start_time": 8320,
+          "end_time": 8480
+        },
+        {
+          "text": "成",
+          "start_time": 8480,
+          "end_time": 8640
+        },
+        {
+          "text": "真",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "值。",
+          "start_time": 8800,
+          "end_time": 9040
+        }
+      ],
+      "timestamp": 1790654221190
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

@@ -1,0 +1,226 @@
+{
+  "scene": "workbench",
+  "number": 3,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "51d31a0248942f13f5f8ab0105c26961aee2783fab2dff07819b96587c275046",
+  "response_sse_sha256": "0fdc99340f384762dd9a046a8f9dbf2f2ba9e883fadd9f0909fe31dafd1cac56",
+  "audio": "03-workbench.mp3",
+  "audio_sha256": "10b3359676c84bb617da554fe4e27ed089a56960889fcef6d82133709b607b2b",
+  "audio_bytes": 162344,
+  "duration_seconds": 10.056,
+  "elapsed_seconds": 4.939800334,
+  "input": "瓷证，把原图、资料和研究意见，放在同一张工作台。从照片开始，每一步都留下可继续工作的记录。",
+  "subtitles": [
+    {
+      "text": "瓷证，把原图、资料和研究意见，放在同一张工作台。从照片开始，每一步都留下可继续工作的记录。",
+      "request_id": "897cb7e4312ae065842cf01b27522161.01a0eb4ed71474ae820d554008ea78f6",
+      "items": [
+        {
+          "text": "瓷",
+          "start_time": 160,
+          "end_time": 400
+        },
+        {
+          "text": "证，",
+          "start_time": 400,
+          "end_time": 640
+        },
+        {
+          "text": "把",
+          "start_time": 1120,
+          "end_time": 1280
+        },
+        {
+          "text": "原",
+          "start_time": 1280,
+          "end_time": 1520
+        },
+        {
+          "text": "图、",
+          "start_time": 1520,
+          "end_time": 1920
+        },
+        {
+          "text": "资",
+          "start_time": 2000,
+          "end_time": 2240
+        },
+        {
+          "text": "料",
+          "start_time": 2240,
+          "end_time": 2560
+        },
+        {
+          "text": "和",
+          "start_time": 2720,
+          "end_time": 2800
+        },
+        {
+          "text": "研",
+          "start_time": 2800,
+          "end_time": 3040
+        },
+        {
+          "text": "究",
+          "start_time": 3040,
+          "end_time": 3120
+        },
+        {
+          "text": "意",
+          "start_time": 3120,
+          "end_time": 3280
+        },
+        {
+          "text": "见，",
+          "start_time": 3280,
+          "end_time": 3520
+        },
+        {
+          "text": "放",
+          "start_time": 3840,
+          "end_time": 4000
+        },
+        {
+          "text": "在",
+          "start_time": 4000,
+          "end_time": 4080
+        },
+        {
+          "text": "同",
+          "start_time": 4080,
+          "end_time": 4320
+        },
+        {
+          "text": "一",
+          "start_time": 4320,
+          "end_time": 4400
+        },
+        {
+          "text": "张",
+          "start_time": 4400,
+          "end_time": 4560
+        },
+        {
+          "text": "工",
+          "start_time": 4560,
+          "end_time": 4720
+        },
+        {
+          "text": "作",
+          "start_time": 4720,
+          "end_time": 4800
+        },
+        {
+          "text": "台。",
+          "start_time": 4800,
+          "end_time": 5120
+        },
+        {
+          "text": "从",
+          "start_time": 6080,
+          "end_time": 6240
+        },
+        {
+          "text": "照",
+          "start_time": 6240,
+          "end_time": 6400
+        },
+        {
+          "text": "片",
+          "start_time": 6400,
+          "end_time": 6560
+        },
+        {
+          "text": "开",
+          "start_time": 6560,
+          "end_time": 6720
+        },
+        {
+          "text": "始，",
+          "start_time": 6720,
+          "end_time": 7040
+        },
+        {
+          "text": "每",
+          "start_time": 7440,
+          "end_time": 7680
+        },
+        {
+          "text": "一",
+          "start_time": 7680,
+          "end_time": 7760
+        },
+        {
+          "text": "步",
+          "start_time": 7760,
+          "end_time": 8080
+        },
+        {
+          "text": "都",
+          "start_time": 8240,
+          "end_time": 8320
+        },
+        {
+          "text": "留",
+          "start_time": 8320,
+          "end_time": 8480
+        },
+        {
+          "text": "下",
+          "start_time": 8480,
+          "end_time": 8640
+        },
+        {
+          "text": "可",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "继",
+          "start_time": 8800,
+          "end_time": 8960
+        },
+        {
+          "text": "续",
+          "start_time": 8960,
+          "end_time": 9120
+        },
+        {
+          "text": "工",
+          "start_time": 9120,
+          "end_time": 9280
+        },
+        {
+          "text": "作",
+          "start_time": 9280,
+          "end_time": 9440
+        },
+        {
+          "text": "的",
+          "start_time": 9440,
+          "end_time": 9520
+        },
+        {
+          "text": "记",
+          "start_time": 9520,
+          "end_time": 9760
+        },
+        {
+          "text": "录。",
+          "start_time": 9760,
+          "end_time": 9920
+        }
+      ],
+      "timestamp": 1790654212331
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

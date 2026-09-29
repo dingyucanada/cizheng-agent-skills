@@ -1,0 +1,246 @@
+{
+  "scene": "skills-action",
+  "number": 8,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "48ac39cb90edb151e4181117300a3f45f732328e5c79fa9c8d016b8e272bfea1",
+  "response_sse_sha256": "5609aa93f47613a2414451a4dbf62258749a352afb4b4ef4427835249ec42090",
+  "audio": "08-skills-action.mp3",
+  "audio_sha256": "ae5296d083f75377e345299c2c57e05fa60813afdb420cc248c4589e1afc673d",
+  "audio_bytes": 150058,
+  "duration_seconds": 9.288,
+  "elapsed_seconds": 4.588894417000001,
+  "input": "技能不负责替研究者盖章。它提醒模型：比较特征，寻找反例，把依据和未解决的问题，写回这件器物的案卷。",
+  "subtitles": [
+    {
+      "text": "技能不负责替研究者盖章。它提醒模型：比较特征，寻找反例，把依据和未解决的问题，写回这件器物的案卷。",
+      "request_id": "f6d13764b5fc9f05a63a1c67f67c0931.01a0eb4f0c9e740fb6bc6adaff3cb38d",
+      "items": [
+        {
+          "text": "技",
+          "start_time": 160,
+          "end_time": 320
+        },
+        {
+          "text": "能",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "不",
+          "start_time": 480,
+          "end_time": 560
+        },
+        {
+          "text": "负",
+          "start_time": 640,
+          "end_time": 720
+        },
+        {
+          "text": "责",
+          "start_time": 720,
+          "end_time": 880
+        },
+        {
+          "text": "替",
+          "start_time": 880,
+          "end_time": 1040
+        },
+        {
+          "text": "研",
+          "start_time": 1040,
+          "end_time": 1120
+        },
+        {
+          "text": "究",
+          "start_time": 1120,
+          "end_time": 1280
+        },
+        {
+          "text": "者",
+          "start_time": 1280,
+          "end_time": 1360
+        },
+        {
+          "text": "盖",
+          "start_time": 1360,
+          "end_time": 1520
+        },
+        {
+          "text": "章。",
+          "start_time": 1520,
+          "end_time": 1840
+        },
+        {
+          "text": "它",
+          "start_time": 2320,
+          "end_time": 2480
+        },
+        {
+          "text": "提",
+          "start_time": 2480,
+          "end_time": 2640
+        },
+        {
+          "text": "醒",
+          "start_time": 2640,
+          "end_time": 2720
+        },
+        {
+          "text": "模",
+          "start_time": 2720,
+          "end_time": 2960
+        },
+        {
+          "text": "型：",
+          "start_time": 2960,
+          "end_time": 3280
+        },
+        {
+          "text": "比",
+          "start_time": 3440,
+          "end_time": 3520
+        },
+        {
+          "text": "较",
+          "start_time": 3520,
+          "end_time": 3680
+        },
+        {
+          "text": "特",
+          "start_time": 3680,
+          "end_time": 3920
+        },
+        {
+          "text": "征，",
+          "start_time": 3920,
+          "end_time": 4160
+        },
+        {
+          "text": "寻",
+          "start_time": 4400,
+          "end_time": 4640
+        },
+        {
+          "text": "找",
+          "start_time": 4640,
+          "end_time": 4800
+        },
+        {
+          "text": "反",
+          "start_time": 4800,
+          "end_time": 5120
+        },
+        {
+          "text": "例，",
+          "start_time": 5120,
+          "end_time": 5280
+        },
+        {
+          "text": "把",
+          "start_time": 5680,
+          "end_time": 5840
+        },
+        {
+          "text": "依",
+          "start_time": 5840,
+          "end_time": 6080
+        },
+        {
+          "text": "据",
+          "start_time": 6080,
+          "end_time": 6240
+        },
+        {
+          "text": "和",
+          "start_time": 6240,
+          "end_time": 6320
+        },
+        {
+          "text": "未",
+          "start_time": 6320,
+          "end_time": 6560
+        },
+        {
+          "text": "解",
+          "start_time": 6560,
+          "end_time": 6720
+        },
+        {
+          "text": "决",
+          "start_time": 6720,
+          "end_time": 6800
+        },
+        {
+          "text": "的",
+          "start_time": 6800,
+          "end_time": 6880
+        },
+        {
+          "text": "问",
+          "start_time": 6880,
+          "end_time": 7040
+        },
+        {
+          "text": "题，",
+          "start_time": 7040,
+          "end_time": 7440
+        },
+        {
+          "text": "写",
+          "start_time": 7520,
+          "end_time": 7760
+        },
+        {
+          "text": "回",
+          "start_time": 7760,
+          "end_time": 7920
+        },
+        {
+          "text": "这",
+          "start_time": 7920,
+          "end_time": 8080
+        },
+        {
+          "text": "件",
+          "start_time": 8080,
+          "end_time": 8240
+        },
+        {
+          "text": "器",
+          "start_time": 8240,
+          "end_time": 8400
+        },
+        {
+          "text": "物",
+          "start_time": 8400,
+          "end_time": 8560
+        },
+        {
+          "text": "的",
+          "start_time": 8560,
+          "end_time": 8640
+        },
+        {
+          "text": "案",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "卷。",
+          "start_time": 8800,
+          "end_time": 9120
+        }
+      ],
+      "timestamp": 1790654225780
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

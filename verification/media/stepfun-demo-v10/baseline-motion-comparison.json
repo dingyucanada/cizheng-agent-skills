@@ -1,0 +1,33 @@
+{
+  "baseline_commit": "c5517587a90d6377f7ec699a3ae23c27e7bd2e25",
+  "baseline_movie_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536",
+  "baseline_sampled_picture_regions": [
+    {
+      "scene": "workbench",
+      "times_seconds": [
+        19.88,
+        21.88
+      ],
+      "mean_absolute_rgb_difference": 3.3180507330246916
+    },
+    {
+      "scene": "contradiction",
+      "times_seconds": [
+        82.32,
+        84.32
+      ],
+      "mean_absolute_rgb_difference": 3.7506405928497943
+    },
+    {
+      "scene": "local-capability",
+      "times_seconds": [
+        150.56,
+        152.56
+      ],
+      "mean_absolute_rgb_difference": 3.241698013117284
+    }
+  ],
+  "known_baseline_filter": "scale2880x1620 + zoompan 1+0.018*on/frames",
+  "replacement_filter": "fixed1920x1080 images,200ms scene fades only",
+  "interpretation": "RGB difference is a sampled motion proxy, not a universal perceptual shake score; observations exclude subtitles and scene transitions."
+}

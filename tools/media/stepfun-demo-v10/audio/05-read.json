@@ -1,0 +1,276 @@
+{
+  "scene": "read",
+  "number": 5,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "43a7ecf4f063b8ccd0fb36b953213ee8a44bcac7c06306504172e8da0eca05ff",
+  "response_sse_sha256": "0d6d1ce49715ba439a87953a41b46e6009f61c6304cb2b7ddb1ec6497a2b469c",
+  "audio": "05-read.mp3",
+  "audio_sha256": "888fd9d690cdb0688a62b6dca5b48d9c8954f6ce39bd09f51ddcc74dc2349415",
+  "audio_bytes": 177706,
+  "duration_seconds": 11.016,
+  "elapsed_seconds": 4.681354125,
+  "input": "找到一条相似资料，只是研究的开始。还要读到原段落，留下来源、版本和定位，说明它能支持什么，也说明它不能支持什么。",
+  "subtitles": [
+    {
+      "text": "找到一条相似资料，只是研究的开始。还要读到原段落，留下来源、版本和定位，说明它能支持什么，也说明它不能支持什么。",
+      "request_id": "8d54084748547ea317665e9bba7d580f.01a0eb4eea467d8b941e32405203f12f",
+      "items": [
+        {
+          "text": "找",
+          "start_time": 560,
+          "end_time": 640
+        },
+        {
+          "text": "到",
+          "start_time": 640,
+          "end_time": 800
+        },
+        {
+          "text": "一",
+          "start_time": 800,
+          "end_time": 880
+        },
+        {
+          "text": "条",
+          "start_time": 880,
+          "end_time": 1040
+        },
+        {
+          "text": "相",
+          "start_time": 1040,
+          "end_time": 1200
+        },
+        {
+          "text": "似",
+          "start_time": 1200,
+          "end_time": 1440
+        },
+        {
+          "text": "资",
+          "start_time": 1440,
+          "end_time": 1600
+        },
+        {
+          "text": "料，",
+          "start_time": 1600,
+          "end_time": 2000
+        },
+        {
+          "text": "只",
+          "start_time": 2160,
+          "end_time": 2240
+        },
+        {
+          "text": "是",
+          "start_time": 2240,
+          "end_time": 2400
+        },
+        {
+          "text": "研",
+          "start_time": 2400,
+          "end_time": 2560
+        },
+        {
+          "text": "究",
+          "start_time": 2560,
+          "end_time": 2720
+        },
+        {
+          "text": "的",
+          "start_time": 2720,
+          "end_time": 2800
+        },
+        {
+          "text": "开",
+          "start_time": 2800,
+          "end_time": 3040
+        },
+        {
+          "text": "始。",
+          "start_time": 3040,
+          "end_time": 3200
+        },
+        {
+          "text": "还",
+          "start_time": 3600,
+          "end_time": 3760
+        },
+        {
+          "text": "要",
+          "start_time": 3760,
+          "end_time": 3920
+        },
+        {
+          "text": "读",
+          "start_time": 3920,
+          "end_time": 4000
+        },
+        {
+          "text": "到",
+          "start_time": 4000,
+          "end_time": 4160
+        },
+        {
+          "text": "原",
+          "start_time": 4160,
+          "end_time": 4320
+        },
+        {
+          "text": "段",
+          "start_time": 4320,
+          "end_time": 4560
+        },
+        {
+          "text": "落，",
+          "start_time": 4560,
+          "end_time": 4800
+        },
+        {
+          "text": "留",
+          "start_time": 5040,
+          "end_time": 5200
+        },
+        {
+          "text": "下",
+          "start_time": 5200,
+          "end_time": 5280
+        },
+        {
+          "text": "来",
+          "start_time": 5360,
+          "end_time": 5520
+        },
+        {
+          "text": "源、",
+          "start_time": 5520,
+          "end_time": 5920
+        },
+        {
+          "text": "版",
+          "start_time": 6000,
+          "end_time": 6240
+        },
+        {
+          "text": "本",
+          "start_time": 6240,
+          "end_time": 6400
+        },
+        {
+          "text": "和",
+          "start_time": 6400,
+          "end_time": 6560
+        },
+        {
+          "text": "定",
+          "start_time": 6560,
+          "end_time": 6720
+        },
+        {
+          "text": "位，",
+          "start_time": 6720,
+          "end_time": 6960
+        },
+        {
+          "text": "说",
+          "start_time": 7360,
+          "end_time": 7520
+        },
+        {
+          "text": "明",
+          "start_time": 7520,
+          "end_time": 7680
+        },
+        {
+          "text": "它",
+          "start_time": 7680,
+          "end_time": 7760
+        },
+        {
+          "text": "能",
+          "start_time": 7760,
+          "end_time": 7920
+        },
+        {
+          "text": "支",
+          "start_time": 7920,
+          "end_time": 8080
+        },
+        {
+          "text": "持",
+          "start_time": 8080,
+          "end_time": 8240
+        },
+        {
+          "text": "什",
+          "start_time": 8240,
+          "end_time": 8400
+        },
+        {
+          "text": "么，",
+          "start_time": 8400,
+          "end_time": 8640
+        },
+        {
+          "text": "也",
+          "start_time": 8880,
+          "end_time": 8960
+        },
+        {
+          "text": "说",
+          "start_time": 8960,
+          "end_time": 9200
+        },
+        {
+          "text": "明",
+          "start_time": 9200,
+          "end_time": 9360
+        },
+        {
+          "text": "它",
+          "start_time": 9360,
+          "end_time": 9520
+        },
+        {
+          "text": "不",
+          "start_time": 9520,
+          "end_time": 9760
+        },
+        {
+          "text": "能",
+          "start_time": 9760,
+          "end_time": 9920
+        },
+        {
+          "text": "支",
+          "start_time": 9920,
+          "end_time": 10080
+        },
+        {
+          "text": "持",
+          "start_time": 10080,
+          "end_time": 10240
+        },
+        {
+          "text": "什",
+          "start_time": 10240,
+          "end_time": 10400
+        },
+        {
+          "text": "么。",
+          "start_time": 10400,
+          "end_time": 10560
+        }
+      ],
+      "timestamp": 1790654217069
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

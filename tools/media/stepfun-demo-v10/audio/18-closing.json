@@ -1,0 +1,191 @@
+{
+  "scene": "closing",
+  "number": 18,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "5eba2d386e3b16f38f93a13e9f5f446df600960528c7a1c367c965dfed438546",
+  "response_sse_sha256": "5d7c43709edc9ee96b3d0602d5a62eaf3b94a8da53bedb0e28a7c964c05b9fe3",
+  "audio": "18-closing.mp3",
+  "audio_sha256": "f1412d21d66d56aef15d984e013ed514d10801c047f493acd114ed5261f3044a",
+  "audio_bytes": 138538,
+  "duration_seconds": 8.568,
+  "elapsed_seconds": 4.185651374999999,
+  "input": "瓷证，让下一位研究者，接得住你的判断。完整图文报告、源码与演示，入口在主页。",
+  "subtitles": [
+    {
+      "text": "瓷证，让下一位研究者，接得住你的判断。完整图文报告、源码与演示，入口在主页。",
+      "request_id": "1844cf0f213a7484bbebcf472f5efbbb.01a0eb4f65f27505a908a578fa562c0b",
+      "items": [
+        {
+          "text": "瓷",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "证，",
+          "start_time": 480,
+          "end_time": 800
+        },
+        {
+          "text": "让",
+          "start_time": 1280,
+          "end_time": 1440
+        },
+        {
+          "text": "下",
+          "start_time": 1440,
+          "end_time": 1680
+        },
+        {
+          "text": "一",
+          "start_time": 1680,
+          "end_time": 1760
+        },
+        {
+          "text": "位",
+          "start_time": 1760,
+          "end_time": 1920
+        },
+        {
+          "text": "研",
+          "start_time": 1920,
+          "end_time": 2080
+        },
+        {
+          "text": "究",
+          "start_time": 2080,
+          "end_time": 2160
+        },
+        {
+          "text": "者，",
+          "start_time": 2160,
+          "end_time": 2560
+        },
+        {
+          "text": "接",
+          "start_time": 2800,
+          "end_time": 3040
+        },
+        {
+          "text": "得",
+          "start_time": 3040,
+          "end_time": 3120
+        },
+        {
+          "text": "住",
+          "start_time": 3120,
+          "end_time": 3200
+        },
+        {
+          "text": "你",
+          "start_time": 3200,
+          "end_time": 3360
+        },
+        {
+          "text": "的",
+          "start_time": 3360,
+          "end_time": 3440
+        },
+        {
+          "text": "判",
+          "start_time": 3440,
+          "end_time": 3680
+        },
+        {
+          "text": "断。",
+          "start_time": 3680,
+          "end_time": 3840
+        },
+        {
+          "text": "完",
+          "start_time": 4720,
+          "end_time": 4960
+        },
+        {
+          "text": "整",
+          "start_time": 4960,
+          "end_time": 5120
+        },
+        {
+          "text": "图",
+          "start_time": 5120,
+          "end_time": 5200
+        },
+        {
+          "text": "文",
+          "start_time": 5200,
+          "end_time": 5360
+        },
+        {
+          "text": "报",
+          "start_time": 5360,
+          "end_time": 5520
+        },
+        {
+          "text": "告、",
+          "start_time": 5520,
+          "end_time": 5840
+        },
+        {
+          "text": "源",
+          "start_time": 6080,
+          "end_time": 6240
+        },
+        {
+          "text": "码",
+          "start_time": 6240,
+          "end_time": 6480
+        },
+        {
+          "text": "与",
+          "start_time": 6480,
+          "end_time": 6560
+        },
+        {
+          "text": "演",
+          "start_time": 6560,
+          "end_time": 6800
+        },
+        {
+          "text": "示，",
+          "start_time": 6800,
+          "end_time": 7040
+        },
+        {
+          "text": "入",
+          "start_time": 7520,
+          "end_time": 7680
+        },
+        {
+          "text": "口",
+          "start_time": 7680,
+          "end_time": 7840
+        },
+        {
+          "text": "在",
+          "start_time": 7840,
+          "end_time": 8000
+        },
+        {
+          "text": "主",
+          "start_time": 8000,
+          "end_time": 8080
+        },
+        {
+          "text": "页。",
+          "start_time": 8080,
+          "end_time": 8320
+        }
+      ],
+      "timestamp": 1790654248270
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

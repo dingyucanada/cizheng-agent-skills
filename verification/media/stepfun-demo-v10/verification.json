@@ -1,0 +1,247 @@
+{
+  "schema": "cizheng.stable-demo-qa.v1",
+  "movie_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
+  "duration_seconds": 193.12,
+  "frames": 4828,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "full_AV_decode": "passed, no ffmpeg error",
+  "subtitle_cues": 45,
+  "actual_caption_frames": 45,
+  "camera": "Fixed images; no zoompan, translation, auto-scaling or camera-motion filter. 200ms fade at scene ends.",
+  "actual_geometric_stability": [
+    {
+      "scene": "opening",
+      "sample_times": [
+        0.8,
+        1.8,
+        2.8
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.012061953446502058,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "scenarios",
+      "sample_times": [
+        10.24,
+        11.24,
+        12.239999999999998
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.013392168209876543,
+      "max_rgb_difference": 7,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "workbench",
+      "sample_times": [
+        19.720000000000002,
+        20.720000000000002,
+        21.720000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.01190280992798354,
+      "max_rgb_difference": 22,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "observe",
+      "sample_times": [
+        30.2,
+        31.2,
+        32.199999999999996
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.017025945216049384,
+      "max_rgb_difference": 8,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "read",
+      "sample_times": [
+        41.76,
+        42.76,
+        43.76
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.02712914737654321,
+      "max_rgb_difference": 23,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "catalogue",
+      "sample_times": [
+        53.32,
+        54.32,
+        55.32
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.014906442901234569,
+      "max_rgb_difference": 14,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "skills",
+      "sample_times": [
+        63.279999999999994,
+        64.28,
+        65.28
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.02144338348765432,
+      "max_rgb_difference": 22,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "skills-action",
+      "sample_times": [
+        72.6,
+        73.6,
+        74.6
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.015454603909465021,
+      "max_rgb_difference": 12,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "contradiction",
+      "sample_times": [
+        82.84,
+        83.84,
+        84.84
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.025341595936213993,
+      "max_rgb_difference": 22,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "supplement",
+      "sample_times": [
+        96.96,
+        97.96,
+        98.96
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.01917357896090535,
+      "max_rgb_difference": 12,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "revision",
+      "sample_times": [
+        109.67999999999999,
+        110.67999999999999,
+        111.67999999999999
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.020709555041152263,
+      "max_rgb_difference": 22,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "human",
+      "sample_times": [
+        118.75999999999999,
+        119.75999999999999,
+        120.75999999999999
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.007477334104938272,
+      "max_rgb_difference": 9,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "export",
+      "sample_times": [
+        129.92000000000002,
+        130.92000000000002,
+        131.92000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.01226610725308642,
+      "max_rgb_difference": 9,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "spark",
+      "sample_times": [
+        140.36,
+        141.36,
+        142.36
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.012336033950617284,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "local-capability",
+      "sample_times": [
+        150.92000000000002,
+        151.92000000000002,
+        152.92000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.015292245370370371,
+      "max_rgb_difference": 16,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "actual-record",
+      "sample_times": [
+        165.28,
+        166.28,
+        167.28
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.01415332433127572,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "next",
+      "sample_times": [
+        174.76000000000002,
+        175.76000000000002,
+        176.76000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.013671071244855967,
+      "max_rgb_difference": 11,
+      "no_camera_movement": true
+    },
+    {
+      "scene": "closing",
+      "sample_times": [
+        184.92000000000002,
+        185.92000000000002,
+        186.92000000000002
+      ],
+      "top_picture_mean_absolute_rgb_difference": 0.020088252314814814,
+      "max_rgb_difference": 25,
+      "no_camera_movement": true
+    }
+  ],
+  "all_18_picture_regions_stable": true,
+  "loudness": {
+    "input_i": "-16.08",
+    "input_tp": "-1.21",
+    "input_lra": "3.70",
+    "input_thresh": "-26.96",
+    "output_i": "-16.01",
+    "output_tp": "-1.50",
+    "output_lra": "3.70",
+    "output_thresh": "-26.90",
+    "normalization_type": "dynamic",
+    "target_offset": "0.01"
+  },
+  "manual_listening_performed": false,
+  "naturalness_score_claimed": false,
+  "truth_scope": "Real public catalogue photos, actual teaching-interface screenshots and saved-record reconstruction; not continuous AI recording or expert validation",
+  "caption_visual_review": {
+    "reviewer": "root agent",
+    "actual_final_movie_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e",
+    "contact_sheets_viewed": 5,
+    "caption_frames_viewed": 45,
+    "finding": "No missing Chinese glyphs, clipping or subtitle overlap observed in the actual final movie frames; no audio listening claimed"
+  },
+  "actual_final_audio_content_check": {
+    "status": "18 paragraphs present and core technical claims recognized by actual ASR",
+    "result": "final-asr.json",
+    "lexical_differences": [
+      "ASR rendered closing 瓷证 as 辞证 and 未来 as 为来; same-sound lexical recognition differences, correct spelling retained in script/subtitles"
+    ],
+    "naturalness_score": null,
+    "manual_listening_performed": false
+  }
+}

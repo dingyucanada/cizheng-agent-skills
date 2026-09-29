@@ -1,0 +1,246 @@
+{
+  "scene": "export",
+  "number": 13,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "8e6fd505788442f6c67bb7c67d09f2eb59c4f5558c872bc986fa6ff0f700a4ec",
+  "response_sse_sha256": "b883cfc277bcd4c53e2ee4bbf0b53f51e58bcce9a8bcf5a2b0166d31be8d213d",
+  "audio": "13-export.mp3",
+  "audio_sha256": "81515ecc2bde55ec6a6ed43e5c20387cf6efc2eb503c3c86d7d1c4ea8c00729b",
+  "audio_bytes": 151980,
+  "duration_seconds": 9.408,
+  "elapsed_seconds": 4.459038749999998,
+  "input": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。下一位研究者，可以回到材料，接着核查你的判断。",
+  "subtitles": [
+    {
+      "text": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。下一位研究者，可以回到材料，接着核查你的判断。",
+      "request_id": "db678838cdedfae724f3a9a4c2ecc815.01a0eb4f31ed769f9f3ac28382fa54f5",
+      "items": [
+        {
+          "text": "导",
+          "start_time": 480,
+          "end_time": 640
+        },
+        {
+          "text": "出",
+          "start_time": 640,
+          "end_time": 800
+        },
+        {
+          "text": "报",
+          "start_time": 800,
+          "end_time": 960
+        },
+        {
+          "text": "告",
+          "start_time": 960,
+          "end_time": 1120
+        },
+        {
+          "text": "和",
+          "start_time": 1120,
+          "end_time": 1200
+        },
+        {
+          "text": "离",
+          "start_time": 1200,
+          "end_time": 1360
+        },
+        {
+          "text": "线",
+          "start_time": 1360,
+          "end_time": 1520
+        },
+        {
+          "text": "材",
+          "start_time": 1520,
+          "end_time": 1680
+        },
+        {
+          "text": "料，",
+          "start_time": 1680,
+          "end_time": 2080
+        },
+        {
+          "text": "把",
+          "start_time": 2240,
+          "end_time": 2320
+        },
+        {
+          "text": "原",
+          "start_time": 2320,
+          "end_time": 2560
+        },
+        {
+          "text": "图、",
+          "start_time": 2560,
+          "end_time": 2960
+        },
+        {
+          "text": "依",
+          "start_time": 3040,
+          "end_time": 3200
+        },
+        {
+          "text": "据、",
+          "start_time": 3200,
+          "end_time": 3520
+        },
+        {
+          "text": "疑",
+          "start_time": 3600,
+          "end_time": 3760
+        },
+        {
+          "text": "点",
+          "start_time": 3760,
+          "end_time": 4080
+        },
+        {
+          "text": "与",
+          "start_time": 4080,
+          "end_time": 4240
+        },
+        {
+          "text": "版",
+          "start_time": 4240,
+          "end_time": 4480
+        },
+        {
+          "text": "本",
+          "start_time": 4480,
+          "end_time": 4640
+        },
+        {
+          "text": "一",
+          "start_time": 4640,
+          "end_time": 4720
+        },
+        {
+          "text": "起",
+          "start_time": 4720,
+          "end_time": 4880
+        },
+        {
+          "text": "交",
+          "start_time": 4880,
+          "end_time": 5040
+        },
+        {
+          "text": "接。",
+          "start_time": 5040,
+          "end_time": 5280
+        },
+        {
+          "text": "下",
+          "start_time": 5840,
+          "end_time": 6080
+        },
+        {
+          "text": "一",
+          "start_time": 6080,
+          "end_time": 6080
+        },
+        {
+          "text": "位",
+          "start_time": 6080,
+          "end_time": 6240
+        },
+        {
+          "text": "研",
+          "start_time": 6240,
+          "end_time": 6400
+        },
+        {
+          "text": "究",
+          "start_time": 6400,
+          "end_time": 6480
+        },
+        {
+          "text": "者，",
+          "start_time": 6480,
+          "end_time": 6720
+        },
+        {
+          "text": "可",
+          "start_time": 6720,
+          "end_time": 6880
+        },
+        {
+          "text": "以",
+          "start_time": 6880,
+          "end_time": 6960
+        },
+        {
+          "text": "回",
+          "start_time": 6960,
+          "end_time": 7120
+        },
+        {
+          "text": "到",
+          "start_time": 7120,
+          "end_time": 7200
+        },
+        {
+          "text": "材",
+          "start_time": 7200,
+          "end_time": 7360
+        },
+        {
+          "text": "料，",
+          "start_time": 7360,
+          "end_time": 7680
+        },
+        {
+          "text": "接",
+          "start_time": 7840,
+          "end_time": 8000
+        },
+        {
+          "text": "着",
+          "start_time": 8000,
+          "end_time": 8080
+        },
+        {
+          "text": "核",
+          "start_time": 8080,
+          "end_time": 8320
+        },
+        {
+          "text": "查",
+          "start_time": 8320,
+          "end_time": 8480
+        },
+        {
+          "text": "你",
+          "start_time": 8480,
+          "end_time": 8560
+        },
+        {
+          "text": "的",
+          "start_time": 8560,
+          "end_time": 8640
+        },
+        {
+          "text": "判",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "断。",
+          "start_time": 8800,
+          "end_time": 9040
+        }
+      ],
+      "timestamp": 1790654235217
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}

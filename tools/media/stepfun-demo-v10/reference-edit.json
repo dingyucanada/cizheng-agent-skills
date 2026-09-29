@@ -1,0 +1,500 @@
+{
+  "schema": "cizheng-cinematic-edit.v1",
+  "version": "v4",
+  "seconds": 193.12,
+  "frames": 4828,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 25,
+  "synthetic_narration": true,
+  "voice": {
+    "provider": "installed macOS system speech",
+    "voice": "Tingting",
+    "rate": 185,
+    "synthetic": true
+  },
+  "voice_tempo_adjustment": 1.15,
+  "music": "Original procedural ambient score, no third-party music",
+  "scenes": [
+    {
+      "id": "opening",
+      "number": 1,
+      "start": 0.0,
+      "end": 9.24,
+      "frames": 231,
+      "seconds": 9.24
+    },
+    {
+      "id": "scenarios",
+      "number": 2,
+      "start": 9.24,
+      "end": 19.08,
+      "frames": 246,
+      "seconds": 9.84
+    },
+    {
+      "id": "workbench",
+      "number": 3,
+      "start": 19.08,
+      "end": 29.32,
+      "frames": 256,
+      "seconds": 10.24
+    },
+    {
+      "id": "observe",
+      "number": 4,
+      "start": 29.32,
+      "end": 39.56,
+      "frames": 256,
+      "seconds": 10.24
+    },
+    {
+      "id": "read",
+      "number": 5,
+      "start": 39.56,
+      "end": 51.24,
+      "frames": 292,
+      "seconds": 11.68
+    },
+    {
+      "id": "catalogue",
+      "number": 6,
+      "start": 51.24,
+      "end": 61.44,
+      "frames": 255,
+      "seconds": 10.2
+    },
+    {
+      "id": "skills",
+      "number": 7,
+      "start": 61.44,
+      "end": 70.92,
+      "frames": 237,
+      "seconds": 9.48
+    },
+    {
+      "id": "skills-action",
+      "number": 8,
+      "start": 70.92,
+      "end": 81.52,
+      "frames": 265,
+      "seconds": 10.6
+    },
+    {
+      "id": "contradiction",
+      "number": 9,
+      "start": 81.52,
+      "end": 95.84,
+      "frames": 358,
+      "seconds": 14.32
+    },
+    {
+      "id": "supplement",
+      "number": 10,
+      "start": 95.84,
+      "end": 108.24,
+      "frames": 310,
+      "seconds": 12.4
+    },
+    {
+      "id": "revision",
+      "number": 11,
+      "start": 108.24,
+      "end": 117.56,
+      "frames": 233,
+      "seconds": 9.32
+    },
+    {
+      "id": "human",
+      "number": 12,
+      "start": 117.56,
+      "end": 128.16,
+      "frames": 265,
+      "seconds": 10.6
+    },
+    {
+      "id": "export",
+      "number": 13,
+      "start": 128.16,
+      "end": 139.04,
+      "frames": 272,
+      "seconds": 10.88
+    },
+    {
+      "id": "spark",
+      "number": 14,
+      "start": 139.04,
+      "end": 149.76,
+      "frames": 268,
+      "seconds": 10.72
+    },
+    {
+      "id": "local-capability",
+      "number": 15,
+      "start": 149.76,
+      "end": 164.48,
+      "frames": 368,
+      "seconds": 14.72
+    },
+    {
+      "id": "actual-record",
+      "number": 16,
+      "start": 164.48,
+      "end": 174.12,
+      "frames": 241,
+      "seconds": 9.64
+    },
+    {
+      "id": "next",
+      "number": 17,
+      "start": 174.12,
+      "end": 184.64,
+      "frames": 263,
+      "seconds": 10.52
+    },
+    {
+      "id": "closing",
+      "number": 18,
+      "start": 184.64,
+      "end": 193.12,
+      "frames": 212,
+      "seconds": 8.48
+    }
+  ],
+  "subtitle_cues": [
+    {
+      "scene": 1,
+      "text": "一件青花器物，值得研究的，不只是它像哪个年代。",
+      "start": 0.6,
+      "end": 4.749666666666666,
+      "voice_file": "voice-v4/01-01.aiff"
+    },
+    {
+      "scene": 1,
+      "text": "更重要的是：这个判断，依据什么，又缺什么？",
+      "start": 4.849666666666667,
+      "end": 8.505229166666666,
+      "voice_file": "voice-v4/01-02.aiff"
+    },
+    {
+      "scene": 2,
+      "text": "入藏前的研究、状况记录、来源复核，问题各不相同。",
+      "start": 9.84,
+      "end": 14.6051875,
+      "voice_file": "voice-v4/02-01.aiff"
+    },
+    {
+      "scene": 2,
+      "text": "共同需要的，是一份能追到原材料的研究记录。",
+      "start": 14.7051875,
+      "end": 18.363645833333333,
+      "voice_file": "voice-v4/02-02.aiff"
+    },
+    {
+      "scene": 3,
+      "text": "瓷证，把原图、资料和研究意见，放在同一张工作台。",
+      "start": 19.68,
+      "end": 24.663270833333332,
+      "voice_file": "voice-v4/03-01.aiff"
+    },
+    {
+      "scene": 3,
+      "text": "从照片开始，每一步都留下可继续工作的记录。",
+      "start": 24.763270833333333,
+      "end": 28.587854166666666,
+      "voice_file": "voice-v4/03-02.aiff"
+    },
+    {
+      "scene": 4,
+      "text": "先观察，再解释。山水、花篮、口沿和装饰带，",
+      "start": 29.92,
+      "end": 34.436145833333335,
+      "voice_file": "voice-v4/04-01.aiff"
+    },
+    {
+      "scene": 4,
+      "text": "都应当指回具体照片与区域，避免只留下模糊印象。",
+      "start": 34.536145833333336,
+      "end": 38.82541666666667,
+      "voice_file": "voice-v4/04-02.aiff"
+    },
+    {
+      "scene": 5,
+      "text": "找到一条相似资料，只是研究的开始。",
+      "start": 40.16,
+      "end": 43.3245,
+      "voice_file": "voice-v4/05-01.aiff"
+    },
+    {
+      "scene": 5,
+      "text": "还要读到原段落，留下来源、版本和定位，",
+      "start": 43.4245,
+      "end": 47.031,
+      "voice_file": "voice-v4/05-02.aiff"
+    },
+    {
+      "scene": 5,
+      "text": "说明它能支持什么，也说明它不能支持什么。",
+      "start": 47.131,
+      "end": 50.5315625,
+      "voice_file": "voice-v4/05-03.aiff"
+    },
+    {
+      "scene": 6,
+      "text": "这组照片来自公开馆藏，参照对象可以明确核对。",
+      "start": 51.84,
+      "end": 56.085854166666664,
+      "voice_file": "voice-v4/06-01.aiff"
+    },
+    {
+      "scene": 6,
+      "text": "对未知器物，不能把另一个馆藏的标签，直接当成真值。",
+      "start": 56.185854166666665,
+      "end": 60.70977083333333,
+      "voice_file": "voice-v4/06-02.aiff"
+    },
+    {
+      "scene": 7,
+      "text": "七个研究技能，把方法拆成可执行的步骤。",
+      "start": 62.04,
+      "end": 65.53991666666667,
+      "voice_file": "voice-v4/07-01.aiff"
+    },
+    {
+      "scene": 7,
+      "text": "青花归属、状况假设、来源审查，各有材料要求。",
+      "start": 65.63991666666666,
+      "end": 70.2063125,
+      "voice_file": "voice-v4/07-02.aiff"
+    },
+    {
+      "scene": 8,
+      "text": "技能不负责替研究者盖章。",
+      "start": 71.52,
+      "end": 73.67875,
+      "voice_file": "voice-v4/08-01.aiff"
+    },
+    {
+      "scene": 8,
+      "text": "它提醒模型：比较特征，寻找反例，",
+      "start": 73.77875,
+      "end": 76.97495833333333,
+      "voice_file": "voice-v4/08-02.aiff"
+    },
+    {
+      "scene": 8,
+      "text": "把依据和未解决的问题，写回这件器物的案卷。",
+      "start": 77.07495833333333,
+      "end": 80.78095833333333,
+      "voice_file": "voice-v4/08-03.aiff"
+    },
+    {
+      "scene": 9,
+      "text": "六维复核，把记录冲突和未评项，一起放到面前。",
+      "start": 82.12,
+      "end": 86.5605625,
+      "voice_file": "voice-v4/09-01.aiff"
+    },
+    {
+      "scene": 9,
+      "text": "这个指数提示先核查什么，不是真品率，也不是模型的置信度。",
+      "start": 86.6605625,
+      "end": 91.46579166666666,
+      "voice_file": "voice-v4/09-02.aiff"
+    },
+    {
+      "scene": 9,
+      "text": "冲突要说明理由，缺项要指出下一份证据。",
+      "start": 91.56579166666667,
+      "end": 95.10054166666667,
+      "voice_file": "voice-v4/09-03.aiff"
+    },
+    {
+      "scene": 10,
+      "text": "有缺口，就把补证建议说具体。",
+      "start": 96.44,
+      "end": 99.04708333333333,
+      "voice_file": "voice-v4/10-01.aiff"
+    },
+    {
+      "scene": 10,
+      "text": "更清楚的局部、胎底和款识，或有许可的专业记录，",
+      "start": 99.14708333333333,
+      "end": 103.27185416666667,
+      "voice_file": "voice-v4/10-02.aiff"
+    },
+    {
+      "scene": 10,
+      "text": "让下一轮研究围绕问题展开，而不是重新猜一遍。",
+      "start": 103.37185416666667,
+      "end": 107.5393125,
+      "voice_file": "voice-v4/10-03.aiff"
+    },
+    {
+      "scene": 11,
+      "text": "材料补充后，原照片和旧意见仍然保留。",
+      "start": 108.84,
+      "end": 112.3176875,
+      "voice_file": "voice-v4/11-01.aiff"
+    },
+    {
+      "scene": 11,
+      "text": "版本比较，让你看到改变的理由，",
+      "start": 112.4176875,
+      "end": 114.98322916666666,
+      "voice_file": "voice-v4/11-02.aiff"
+    },
+    {
+      "scene": 11,
+      "text": "也看到仍未解决的疑点。",
+      "start": 115.08322916666667,
+      "end": 116.82804166666666,
+      "voice_file": "voice-v4/11-03.aiff"
+    },
+    {
+      "scene": 12,
+      "text": "人工复核，面对的是具体材料和具体版本。",
+      "start": 118.16,
+      "end": 121.6045,
+      "voice_file": "voice-v4/12-01.aiff"
+    },
+    {
+      "scene": 12,
+      "text": "可以同意，也可以指出不足；",
+      "start": 121.7045,
+      "end": 123.95195833333334,
+      "voice_file": "voice-v4/12-02.aiff"
+    },
+    {
+      "scene": 12,
+      "text": "系统保存复核意见，不冒充专家签署。",
+      "start": 124.05195833333333,
+      "end": 127.42452083333333,
+      "voice_file": "voice-v4/12-03.aiff"
+    },
+    {
+      "scene": 13,
+      "text": "导出报告和离线材料，把原图、依据、疑点与版本一起交接。",
+      "start": 128.76,
+      "end": 134.02754166666668,
+      "voice_file": "voice-v4/13-01.aiff"
+    },
+    {
+      "scene": 13,
+      "text": "下一位研究者，可以回到材料，接着核查你的判断。",
+      "start": 134.12754166666667,
+      "end": 138.32270833333334,
+      "voice_file": "voice-v4/13-02.aiff"
+    },
+    {
+      "scene": 14,
+      "text": "英伟达的 Spark，是本地研究的算力底座。",
+      "start": 139.64,
+      "end": 142.806125,
+      "voice_file": "voice-v4/14-01.aiff"
+    },
+    {
+      "scene": 14,
+      "text": "原始照片进入本地视觉模型；",
+      "start": 142.906125,
+      "end": 145.27502083333334,
+      "voice_file": "voice-v4/14-02.aiff"
+    },
+    {
+      "scene": 14,
+      "text": "只有预览后批准的文字，才交给外部反证服务。",
+      "start": 145.37502083333334,
+      "end": 149.05625,
+      "voice_file": "voice-v4/14-03.aiff"
+    },
+    {
+      "scene": 15,
+      "text": "标准接口、文字推理、资料检索，在本地各有分工。",
+      "start": 150.36,
+      "end": 154.83610416666667,
+      "voice_file": "voice-v4/15-01.aiff"
+    },
+    {
+      "scene": 15,
+      "text": "三项独立服务已经验证；正式整案，仍沿用原来的工作路径。",
+      "start": 154.93610416666667,
+      "end": 159.87960416666667,
+      "voice_file": "voice-v4/15-02.aiff"
+    },
+    {
+      "scene": 15,
+      "text": "先核查新增能力，再决定怎样接入研究流程。",
+      "start": 159.97960416666666,
+      "end": 163.75975,
+      "voice_file": "voice-v4/15-03.aiff"
+    },
+    {
+      "scene": 16,
+      "text": "每版观察、审查意见和修订理由，均保留在案卷里。",
+      "start": 165.08,
+      "end": 169.45760416666667,
+      "voice_file": "voice-v4/16-01.aiff"
+    },
+    {
+      "scene": 16,
+      "text": "读回原图和原文，让下一位研究者继续核查。",
+      "start": 169.55760416666666,
+      "end": 173.3883125,
+      "voice_file": "voice-v4/16-02.aiff"
+    },
+    {
+      "scene": 17,
+      "text": "下一步，是引入有许可的专家材料，",
+      "start": 174.72,
+      "end": 177.54622916666668,
+      "voice_file": "voice-v4/17-01.aiff"
+    },
+    {
+      "scene": 17,
+      "text": "用独立样本，检验方法与结论。",
+      "start": 177.64622916666667,
+      "end": 180.230375,
+      "voice_file": "voice-v4/17-02.aiff"
+    },
+    {
+      "scene": 17,
+      "text": "把研究流程做扎实，也把能力边界说清楚。",
+      "start": 180.330375,
+      "end": 183.90835416666667,
+      "voice_file": "voice-v4/17-03.aiff"
+    },
+    {
+      "scene": 18,
+      "text": "瓷证，让下一位研究者，接得住你的判断。",
+      "start": 185.24,
+      "end": 188.67125,
+      "voice_file": "voice-v4/18-01.aiff"
+    },
+    {
+      "scene": 18,
+      "text": "完整图文报告、源码与演示，入口在主页。",
+      "start": 188.77125,
+      "end": 192.38504166666667,
+      "voice_file": "voice-v4/18-02.aiff"
+    }
+  ],
+  "permanent_truth_scope": "Real public catalogue photos, actual teaching-interface screenshots and saved-record reconstruction; not continuous AI recording or expert validation",
+  "nvidia_boundary": "Official ARM64 NVIDIA NIM text interface actually verified with a single public text HTTP200/stop request and same-container limited CUDA trace; TRT-LLM text and official open NVIDIA embedding+cuVS independently verified. Original8Bvisual/SQLite workflow remains unchanged; no professional-quality or speed-gain claim.",
+  "video_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536",
+  "video_bytes": 25322365,
+  "source_references": [
+    "verification/nvidia/v07-workflows/round-12/",
+    "verification/nvidia/tensorrt-llm-v08/",
+    "verification/nvidia/retriever-v07/",
+    "evidence/nim-v09/",
+    "docs/nim-v09-update.md"
+  ],
+  "submitted_urls": {
+    "homepage": "https://dingyucanada.github.io/cizheng-agent-skills/",
+    "demo": "https://dingyucanada.github.io/cizheng-agent-skills/assets/cizheng-demo-v07.mp4",
+    "article": "https://zhuanlan.zhihu.com/p/2088103686509744413"
+  },
+  "production_replacement_status": "Prepared in private review staging; publication is performed separately after review"
+}

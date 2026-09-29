@@ -15,11 +15,15 @@
   "microsoft_powerpoint_native_ui_checked": false,
   "screen_lock": "No GUI operation or screen-lock bypass used",
   "domain_limit": "Technical checks and citation identity checks do not establish ceramic claim truth, accuracy or expert approval",
-  "video_checks": "Final 193.12s voiced main video and original round11/12 saved-record videos fully decoded; main45 narration cues / 4828 frames checked",
-  "video1_scope": "193.12s Chinese synthetic narration, original ambient score, actual teaching-interface screenshots and saved-record reconstruction; not continuous screen recording or expert authentication",
+  "video_checks": "Current193.12s StepFun voiced main movie fully AV decoded,45 actual subtitle frames visually inspected,18 picture regions sampled fixed; actual final ASR and keyless offline re-encode bound to this movie. Unchanged original round11/12 replays retain their own earlier checks.",
+  "video1_scope": "StepFun synthetic Chinese narration, complete paragraphs at speed1.0, original ambient score, fixed still images with200ms fades; actual teaching screenshots and saved-record reconstruction, not continuous inference or expert authentication",
   "video2_scope": "80s actual round12 saved-record reconstruction, not continuous screen recording; technical complete, quality false",
   "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive",
   "ppt_detailed_qa": "docs/pitch-v09-qa.json",
-  "demo_detailed_qa": [],
-  "main_video_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536"
+  "demo_detailed_qa": [
+    "verification/media/stepfun-demo-v10/index.json",
+    "verification/media/stepfun-demo-v10/verification.json",
+    "verification/media/stepfun-demo-v10/final-asr.json"
+  ],
+  "main_video_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e"
 }

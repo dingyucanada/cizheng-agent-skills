@@ -26,8 +26,8 @@
     },
     {
       "path": "site/assets/cizheng-demo-v07.mp4",
-      "bytes": 25322365,
-      "sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536"
+      "bytes": 8935648,
+      "sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e"
     },
     {
       "path": "site/assets/cizheng-ai-replay-v07.mp4",
@@ -66,33 +66,33 @@
     },
     {
       "path": "site/assets/cizheng-media-qa-v07.json",
-      "bytes": 1991,
-      "sha256": "f150aeb5b69863cad5b06f7e65d0af47a5fb11104f965440bd0144bbbf3da616"
+      "bytes": 2359,
+      "sha256": "78079f697e6487d1d7fc7df6553cbe26cbd2d5f291740ec487522f918c78a590"
     },
     {
       "path": "docs/development-story.md",
-      "bytes": 23026,
-      "sha256": "6a53cec05495accad0cb201d8a737508baf55628010a309bf88426007e41cb0c"
+      "bytes": 23353,
+      "sha256": "aeedb78d32c7bd668d8a651da369ed021e722447b44ba6d539c6ff238daa8a82"
     },
     {
       "path": "docs/demo-script.md",
-      "bytes": 9069,
-      "sha256": "23b29dd84c057b30a8cdd42b346e4366af218c5e615000a1a64b5f452f4a7e06"
+      "bytes": 7577,
+      "sha256": "b4026c9df6c3b2ebf81644c46bb835c4feded51368be106aaad9985b4b71f016"
     },
     {
       "path": "site/story.html",
-      "bytes": 30214,
-      "sha256": "e214649f71d491153dd8dd96fa52e90957e36c0e51a78b59119761ad809bad6d"
+      "bytes": 30344,
+      "sha256": "b96429d6b97d3ac5ab6bf0ea504f787993f98a053187aa06a6deab6eb17b6f5e"
     },
     {
       "path": "site/assets/cizheng-demo-v07.json",
-      "bytes": 13669,
-      "sha256": "99628c19761776b0e4e700bd5cc5e12e3215fd85b3a87b24ce5a99634e267841"
+      "bytes": 20379,
+      "sha256": "53017493248940caebcff4bd27bb47328004d34375b4d8298ea3584be134928b"
     },
     {
       "path": "site/assets/cizheng-demo-v07.srt",
-      "bytes": 4250,
-      "sha256": "a02ecc9834cb544cdc45a5dab5e3a04c1a0a1e40e9321c70c1731cf99bfd431c"
+      "bytes": 4281,
+      "sha256": "ce7a5e9e08871dee355e5206c6f207e7d8f380a1644a8a4d069be16334a9c00b"
     },
     {
       "path": "site/assets/cizheng-demo-cinematic-v07-poster.jpg",
@@ -108,6 +108,51 @@
       "path": "docs/pitch-v09-artifacts.json",
       "bytes": 6182,
       "sha256": "4dedbb9aaf3ac50725362a0858244fecdeb4d98b3237b0d7d1640c78ea7fb151"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/index.json",
+      "bytes": 19657,
+      "sha256": "cdda732e5499899649c360261abc966a15c8d05737f710e2855ecbf074021977"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/verification.json",
+      "bytes": 6759,
+      "sha256": "cc830c4bf845c9178c193056a42cde402eb3839a07e608268dcc06eb0681da45"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/final-asr.json",
+      "bytes": 3722,
+      "sha256": "eb6901d1b65e12fe8765ca368d5bd4f2d79fd935be5ade8a41bbc76343ec5eed"
+    },
+    {
+      "path": "verification/media/stepfun-demo-v10/offline-reproduction.json",
+      "bytes": 656,
+      "sha256": "b4a03dcdecdab8ed042f662acafc83c69776253228f922774ca6399949a2c5bc"
+    },
+    {
+      "path": "tools/media/stepfun-demo-v10/README.md",
+      "bytes": 4048,
+      "sha256": "c1fa8ac0fbd958336d1a36982741c3cb4a6c5deed9149b5d524cbd49d5b21985"
+    },
+    {
+      "path": "README.md",
+      "bytes": 19453,
+      "sha256": "71a40c649cd136fb517fdf71c801355fb37ab77cc6553de2141ec8919fd32189"
+    },
+    {
+      "path": "docs/project-overview.md",
+      "bytes": 9935,
+      "sha256": "709283908ae8504ecc98ab8729f33fec60abcb95b508e227ef1b0c7c3e25ce68"
+    },
+    {
+      "path": "docs/deployment-guide.md",
+      "bytes": 15968,
+      "sha256": "838277c6b124145192e7d98d0dc7052204f51564e4eb1885cd4f16f38edc2f85"
+    },
+    {
+      "path": "docs/technology-stack.md",
+      "bytes": 11526,
+      "sha256": "6697ad8bf4fc5d6d6e91e0e3a3755f5a8168543965ba9b213ec8e4349c587e3d"
     }
   ],
   "video_metadata": [
@@ -120,7 +165,14 @@
       "height": 1080,
       "audio": true,
       "scope": "Real public catalogue photos, actual teaching-interface screenshots and saved-record reconstruction; not continuous AI recording or expert validation",
-      "synthetic_narration": true
+      "synthetic_narration": true,
+      "voice": {
+        "provider": "StepFun",
+        "model": "stepaudio-2.5-tts",
+        "voice": "ruyananshi",
+        "speed": 1.0
+      },
+      "camera_motion": "none; fixed scene images"
     },
     {
       "path": "site/assets/cizheng-ai-replay-v07.mp4",
@@ -162,14 +214,18 @@
     "microsoft_powerpoint_native_ui_checked": false,
     "screen_lock": "No GUI operation or screen-lock bypass used",
     "domain_limit": "Technical checks and citation identity checks do not establish ceramic claim truth, accuracy or expert approval",
-    "video_checks": "Final 193.12s voiced main video and original round11/12 saved-record videos fully decoded; main45 narration cues / 4828 frames checked",
-    "video1_scope": "193.12s Chinese synthetic narration, original ambient score, actual teaching-interface screenshots and saved-record reconstruction; not continuous screen recording or expert authentication",
+    "video_checks": "Current193.12s StepFun voiced main movie fully AV decoded,45 actual subtitle frames visually inspected,18 picture regions sampled fixed; actual final ASR and keyless offline re-encode bound to this movie. Unchanged original round11/12 replays retain their own earlier checks.",
+    "video1_scope": "StepFun synthetic Chinese narration, complete paragraphs at speed1.0, original ambient score, fixed still images with200ms fades; actual teaching screenshots and saved-record reconstruction, not continuous inference or expert authentication",
     "video2_scope": "80s actual round12 saved-record reconstruction, not continuous screen recording; technical complete, quality false",
     "video3_scope": "80s actual round11 failure reconstruction, preserved independent archive",
     "ppt_detailed_qa": "docs/pitch-v09-qa.json",
-    "demo_detailed_qa": [],
-    "main_video_sha256": "4f39dc0be048d1354c9ccc6554713b2d150dbeb060a85006c4e08f5a41c5f536"
+    "demo_detailed_qa": [
+      "verification/media/stepfun-demo-v10/index.json",
+      "verification/media/stepfun-demo-v10/verification.json",
+      "verification/media/stepfun-demo-v10/final-asr.json"
+    ],
+    "main_video_sha256": "55f333bdb5d404c0fe5b23de6ba04e8312b26d04cc4874d56c5ad09bc7c9148e"
   },
   "source_notes": "All12 PPT slides contain source references in speaker notes; 12page PDF is the exact finalized PPTX Office export. Presentation v09 is a development iteration; application version remains0.7.0.",
-  "originals_preserved": "Original teaching video and earlier presentation files are privately retained byte-for-byte; original round11/12 saved records and independent replay files unchanged."
+  "originals_preserved": "Original teaching video and earlier presentation files are privately retained byte-for-byte; original round11/12 saved records and independent replay files unchanged. Current StepFun and fixed-camera production replaces mainMP4 at unchanged submitted URL; previous c551758 movie remains in Git and private archive."
 }

@@ -1,0 +1,13 @@
+{
+  "status": 400,
+  "request_mode": "SSE streaming with response_format=wav",
+  "actual_response": {
+    "error": {
+      "message": "wav format is not supported for stream mode",
+      "type": ""
+    }
+  },
+  "correction": "Use response_format=mp3 in SSE mode; final 18 paragraphs each returned HTTP200",
+  "automatic_retries": 0,
+  "failure_not_counted_as_success": true
+}

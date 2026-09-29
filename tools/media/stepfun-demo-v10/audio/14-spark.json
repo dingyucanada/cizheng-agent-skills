@@ -1,0 +1,261 @@
+{
+  "scene": "spark",
+  "number": 14,
+  "status": 200,
+  "content_type": "text/event-stream",
+  "model": "stepaudio-2.5-tts",
+  "voice": "ruyananshi",
+  "request_sha256": "5bfc4a91bd15cd3e1c03cf093c0f69c6f802d4c91caeef03d7d670f3f8f909bd",
+  "response_sse_sha256": "8deadd29d1e624d8a295b0873524cafe6730f0f7e20fbce73ef16523b75fda0f",
+  "audio": "14-spark.mp3",
+  "audio_sha256": "32cc6be5dcf4692d485594cf020f5633414db8ef70984eefb393ccb14e16efd9",
+  "audio_bytes": 160428,
+  "duration_seconds": 9.936,
+  "elapsed_seconds": 4.522703625000002,
+  "input": "英伟达的 Spark，是本地研究的算力底座。原始照片进入本地视觉模型；只有预览后批准的文字，才交给外部反证服务。",
+  "subtitles": [
+    {
+      "text": "英伟达的 Spark，是本地研究的算力底座。原始照片进入本地视觉模型；只有预览后批准的文字，才交给外部反证服务。",
+      "request_id": "d65fca655bc594256a8f23cd6a70bbb4.01a0eb4f42d77bb19a7bbfd3d5ff57ce",
+      "items": [
+        {
+          "text": "英",
+          "start_time": 320,
+          "end_time": 480
+        },
+        {
+          "text": "伟",
+          "start_time": 480,
+          "end_time": 560
+        },
+        {
+          "text": "达",
+          "start_time": 560,
+          "end_time": 720
+        },
+        {
+          "text": "的 ",
+          "start_time": 720,
+          "end_time": 800
+        },
+        {
+          "text": "Spark，",
+          "start_time": 800,
+          "end_time": 1440
+        },
+        {
+          "text": "是",
+          "start_time": 1520,
+          "end_time": 1680
+        },
+        {
+          "text": "本",
+          "start_time": 1680,
+          "end_time": 1840
+        },
+        {
+          "text": "地",
+          "start_time": 1840,
+          "end_time": 2000
+        },
+        {
+          "text": "研",
+          "start_time": 2000,
+          "end_time": 2160
+        },
+        {
+          "text": "究",
+          "start_time": 2160,
+          "end_time": 2320
+        },
+        {
+          "text": "的",
+          "start_time": 2320,
+          "end_time": 2400
+        },
+        {
+          "text": "算",
+          "start_time": 2400,
+          "end_time": 2640
+        },
+        {
+          "text": "力",
+          "start_time": 2640,
+          "end_time": 2720
+        },
+        {
+          "text": "底",
+          "start_time": 2720,
+          "end_time": 2880
+        },
+        {
+          "text": "座。",
+          "start_time": 2880,
+          "end_time": 3200
+        },
+        {
+          "text": "原",
+          "start_time": 3760,
+          "end_time": 4000
+        },
+        {
+          "text": "始",
+          "start_time": 4000,
+          "end_time": 4160
+        },
+        {
+          "text": "照",
+          "start_time": 4160,
+          "end_time": 4320
+        },
+        {
+          "text": "片",
+          "start_time": 4320,
+          "end_time": 4640
+        },
+        {
+          "text": "进",
+          "start_time": 4640,
+          "end_time": 4800
+        },
+        {
+          "text": "入",
+          "start_time": 4800,
+          "end_time": 4880
+        },
+        {
+          "text": "本",
+          "start_time": 4880,
+          "end_time": 5040
+        },
+        {
+          "text": "地",
+          "start_time": 5040,
+          "end_time": 5120
+        },
+        {
+          "text": "视",
+          "start_time": 5120,
+          "end_time": 5280
+        },
+        {
+          "text": "觉",
+          "start_time": 5280,
+          "end_time": 5440
+        },
+        {
+          "text": "模",
+          "start_time": 5440,
+          "end_time": 5600
+        },
+        {
+          "text": "型；",
+          "start_time": 5600,
+          "end_time": 5920
+        },
+        {
+          "text": "只",
+          "start_time": 6400,
+          "end_time": 6560
+        },
+        {
+          "text": "有",
+          "start_time": 6560,
+          "end_time": 6720
+        },
+        {
+          "text": "预",
+          "start_time": 6720,
+          "end_time": 6800
+        },
+        {
+          "text": "览",
+          "start_time": 6800,
+          "end_time": 6960
+        },
+        {
+          "text": "后",
+          "start_time": 6960,
+          "end_time": 7200
+        },
+        {
+          "text": "批",
+          "start_time": 7200,
+          "end_time": 7360
+        },
+        {
+          "text": "准",
+          "start_time": 7360,
+          "end_time": 7520
+        },
+        {
+          "text": "的",
+          "start_time": 7520,
+          "end_time": 7600
+        },
+        {
+          "text": "文",
+          "start_time": 7600,
+          "end_time": 7760
+        },
+        {
+          "text": "字，",
+          "start_time": 7760,
+          "end_time": 8000
+        },
+        {
+          "text": "才",
+          "start_time": 8240,
+          "end_time": 8400
+        },
+        {
+          "text": "交",
+          "start_time": 8400,
+          "end_time": 8560
+        },
+        {
+          "text": "给",
+          "start_time": 8560,
+          "end_time": 8640
+        },
+        {
+          "text": "外",
+          "start_time": 8640,
+          "end_time": 8800
+        },
+        {
+          "text": "部",
+          "start_time": 8800,
+          "end_time": 8960
+        },
+        {
+          "text": "反",
+          "start_time": 8960,
+          "end_time": 9120
+        },
+        {
+          "text": "证",
+          "start_time": 9120,
+          "end_time": 9280
+        },
+        {
+          "text": "服",
+          "start_time": 9280,
+          "end_time": 9520
+        },
+        {
+          "text": "务。",
+          "start_time": 9520,
+          "end_time": 9680
+        }
+      ],
+      "timestamp": 1790654239603
+    }
+  ],
+  "event_types": [
+    "response.subtitle",
+    "speech.audio.delta",
+    "speech.audio.done"
+  ],
+  "retry_count": 0
+}
